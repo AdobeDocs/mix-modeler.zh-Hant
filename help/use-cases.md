@@ -2,9 +2,9 @@
 title: Adobe組合建模器使用案例
 description: Adobe組合建模器使用案例。
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 5d86d07562deeb200d418000a73390616c916d7e
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '629'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 ### 挑戰
 
-此使用案例解決的挑戰包括：
+這些使用案例解決的挑戰包括：
 
 * 難以從孤立的客戶歷程資料、訊號遺失和圍牆花園測量遞增效能。
 * MMM和MTA方法各自獨立的深入分析不一致，降低了結果的信賴度。
@@ -30,12 +30,12 @@ ht-degree: 3%
 
 ### 方針
 
-此使用案例的步驟型方法：
+此使用案例的步驟型方法是：
 
 | 步驟 | 詳細資料 |
 |---|---|
-| 擷取 | 識別並內嵌常見結構描述下的資料來源。 <br/>善用Adobe Analytics或Customer Journey Analytics的現有投資，快速進行部署。 |
-| 設定 | 使用AI-as-a-Service架構為您的特定業務目標設定彈性模型<br/>透過雙向傳輸學習，自動確保接觸點與摘要層級之間的一致性。 |
+| 擷取 | 識別並內嵌常見結構描述下的資料來源。 <br/>套用Adobe Analytics或Customer Journey Analytics的現有投資以快速部署。 |
+| 設定 | 針對您的特定業務目標，使用AI-as-a-Service架構來設定彈性模型<br/>透過雙向傳輸學習，自動確保接觸點與摘要層級之間的一致性。 |
 | 分析 | 清楚瞭解整體行銷和個別管道/子管道的ROI。<br/>清楚瞭解哪些接觸點最能推動遞增式轉換。 |
 
 {style="table-layout:auto"}
@@ -47,20 +47,20 @@ ht-degree: 3%
 
 * 合併彙總資料、接觸點資料和外部變數，以取得測量內容最豐富的檢視。
 * 使用AI-as-a-Service解決方案，透過存取模型透明度以提升信賴度，快速建立成功模型。
-* 透過在摘要層級和接觸點層級結果中保持一致，提升策略與戰術決策的信心。
+* 透過在摘要層級和接觸點層級的結果中保持一致，提升策略與戰術決策的信心。
 
 +++
 
 
 ## 建立行銷計畫以最佳化投資報酬率
 
-此使用案例運用適合使用者、支援AI的最佳化和情境規劃工具，以最大化ROI。
+此使用案例使用友善的、支援AI的最佳化和情境規劃工具，以最大化ROI。
 
 +++ 詳細資料
 
 ### 挑戰
 
-此使用案例解決的挑戰包括：
+這些使用案例解決的挑戰包括：
 
 * 根據效率曲線建立資料導向的行銷投資計畫，而不依賴直覺。
 * 同時跨多個地理位置、業務線和管道將結果最大化。
@@ -69,7 +69,7 @@ ht-degree: 3%
 
 ### 方針
 
-此使用案例的步驟型方法：
+此使用案例的步驟型方法是：
 
 | 步驟 | 詳細資料 |
 |---|---|
@@ -90,44 +90,47 @@ ht-degree: 3%
 
 +++
 
+<!-- This use case is not supported with initial release
 
-## 進行資料導向飛行最佳化
+## Make data-driven inflight optimizations
 
-此使用案例可協助您每週透過評估實際和預測的效能來改善ROI，進而進行即時改善。
+This use case helps you to improve ROI weekly by assessing actual and forecasted performance to make inflight improvements.
 
-+++ 詳細資料
++++ Details
 
-### 挑戰
+### Challenges
 
-此使用案例解決的挑戰包括：
+The challenges this use case addresses are:
 
-* 行銷活動效能通常緩慢，或缺乏自信最佳化的詳細程度。
-* 橫跨數十個管道和來源的雜亂、非標準化資料導致洞察時間變慢。
-* 無法普及工具的存取權，且過度依賴特定專家或外部廠商，因而增加了週轉時間。
+* Campaign performance is often slow, or lacks granularity need to confidently optimize.
+* Messy, non-standardized data across dozens of channels and sources drives slow time to insight.
+* No democratized access to tools and overreliance on select experts or external vendors, increasing turnaround times.
 
 
 
-### 方針
+### Approach
 
-此使用案例的步驟型方法：
+The step based approach for this use case:
 
-| 步驟 | 詳細資料 |
+| Step | Details |
 |---|---|
-| 擷取 | 將資料內嵌在通用結構描述中，以便輕鬆進行模型重新整理，並跨多個Experience Platform應用程式重複使用。<br/>透過自動化協調工具，簡化資料管道、清潔及品質保證。 |
-| 重新整理 | 使用簡單易用的自助服務平台建置和重新整理AI/ML模型。<br/>每週或每月取得新的結果，包括歷史和預測的ROI （依管道）。 |
-| 最佳化 | 根據測量的效能，跨管道轉移支出，以快速實現機上最佳化。 |
+| Ingest | Ingest data in common schemas for easy model refreshes and reusability across Experience Platform applications.<br/>Streamline data piping, cleaning & QA with automated harmonization tools. |
+| Refresh | Build and refresh AI/ML  models using a user-friendly, self-service platform.<br/>Get new results, including historic and forecasted ROIs by channel, on a weekly or monthly basis. |
+| Optimize | Make rapid inflight optimizations by shifting spend across channels based on measured performance. |
 
 {style="table-layout:auto"}
 
 
-### 影響
+### Impact 
 
-成功實作此用途可能會產生下列影響：
+Successful implementation of this use can have the following impact:
 
-* 透過標準化的資料結構描述和通用資料基礎，在測量和分析使用案例中實現最大速度、可擴充性和可用性。
-* 利用可反映最佳預測ROI的資料導向型支出轉換，快速每週或每月進行機上最佳化並最大化ROI。
+* Maximize speed, scalability, and usability across measurement & analytic use cases with standardized data schemas and common data foundation.
+* Rapidly make weekly or monthly inflight optimizations and maximize ROI with data-driven spend shifts that reflect best forecasted ROIs.
 
 +++
+
+-->
 
 ## 啟用各種Adobe應用程式的戰術深入分析
 
@@ -137,16 +140,16 @@ ht-degree: 3%
 
 ### 挑戰
 
-此使用案例解決的挑戰包括：
+這些使用案例解決的挑戰包括：
 
 * 單靠自上而下的解決方案可能遺漏識別精細的重要最佳化機會。
-* 測量模型的輸出結果令人不知所措、描述過多，且不容易產生深入分析或動作。
+* 測量模型的輸出會令人難以承受、描述過多，且不易產生深入分析或動作。
 * 無法進行臨機分析來獲得見解，因為模型不透明，並且無法使用精細分數。
 
 
 ### 方針
 
-此使用案例的步驟型方法：
+此使用案例的步驟型方法是：
 
 | 步驟 | 詳細資料 |
 |---|---|

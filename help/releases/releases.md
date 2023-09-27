@@ -1,7 +1,7 @@
 ---
 description: 說明Adobe Mix Modeler的持續功能發行策略
 title: Adobe混合模組化發行版本
-source-git-commit: 827c25486bb56c80c52e663f391d60083e094f83
+source-git-commit: afe12371a1d5ac24377d67f4941ee14c8defd683
 workflow-type: tm+mt
 source-wordcount: '38'
 ht-degree: 0%
@@ -11,7 +11,6 @@ ht-degree: 0%
 # Adobe混合模組化發行版本
 
 Adobe組合Modeler版本會在持續傳遞模式上運作，允許以可縮放、分階段的方法進行功能部署。
-
 
 <!--
 ## Release strategy
