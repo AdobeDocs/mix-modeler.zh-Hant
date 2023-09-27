@@ -2,7 +2,7 @@
 user-guide-title: 混合建模器
 breadcrumb-title: 混合建模器
 user-guide-description: 瞭解如何使用混合建模器。
-source-git-commit: afe12371a1d5ac24377d67f4941ee14c8defd683
+source-git-commit: 625ab651b676e50505f386cf70abb27f57f6c8f1
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 25%
@@ -57,7 +57,7 @@ ht-degree: 25%
 -->
 
 
-+ 發行版本 {#releaes}
++ 發行版本 {#releases}
    + [最新版本](releases/latest.md)
    + [2023版本](releases/2023.md)
    + [發行程式](releases/releases.md)
