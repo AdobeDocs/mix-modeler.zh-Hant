@@ -2,10 +2,10 @@
 user-guide-title: 混合建模器
 breadcrumb-title: 混合建模器
 user-guide-description: 瞭解如何使用混合建模器。
-source-git-commit: cf4890eb9efc2cfc82f9d2761983a13ad5d730ee
+source-git-commit: 6b4744b1bd487b9e1c1b76f692bd86fbc236b6b1
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 25%
+source-wordcount: '65'
+ht-degree: 26%
 
 ---
 
@@ -49,16 +49,7 @@ ht-degree: 25%
 + 發行版本 {#releases}
    + [最新版本](releases/latest.md)
    + [2023版本](releases/2023.md)
-   + [發行程式](releases/releases.md)
 
 + [字彙](glossary.md)
 
 
-<!-- Admin integration with AEP not part of first release
-
-+ Administration {#administration}
-  + [Overview](administration/overview.md)
-  + [Policies](administration/policies.md)
-  + [Audits](administration/audits.md)
-  
--->
