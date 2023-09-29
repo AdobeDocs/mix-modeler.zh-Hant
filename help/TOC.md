@@ -1,11 +1,11 @@
 ---
-user-guide-title: 混合建模器
-breadcrumb-title: 混合建模器
-user-guide-description: 瞭解如何使用混合建模器。
+user-guide-title: Mixed Modeler
+breadcrumb-title: Mixed Modeler
+user-guide-description: 了解如何使用 Mixed Modeler。
 source-git-commit: 1eaebc6f6178270a9e8aebb6b250e0b0a6289f52
 workflow-type: tm+mt
 source-wordcount: '66'
-ht-degree: 27%
+ht-degree: 42%
 
 ---
 

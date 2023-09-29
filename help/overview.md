@@ -1,10 +1,10 @@
 ---
 title: Adobe組合建模器概覽
-description: 瞭解如何使用Adobe組合建模器衡量行銷活動並跨越所有管道整體最佳化規劃。
+description: 了解如何使用 Adobe Mix Modeler 跨所有管道測量行銷活動並全面最佳化規劃。
 source-git-commit: 9e89d9820c28021e151ad31874ac3bcbaa008f9c
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 2%
+ht-degree: 18%
 
 ---
 

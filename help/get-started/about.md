@@ -1,11 +1,11 @@
 ---
 title: Adobe組合建模器概覽
-description: 取得Adobe組合建模器功能與功能的概觀。
+description: 概述 Adobe Mix Modeler 的功能。
 feature: Plans, Harmonized Data, Models
 source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
