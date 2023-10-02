@@ -2,9 +2,9 @@
 title: 擷取資料
 description: 瞭解如何將資料擷取至Mix Modeler。
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
-source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
+source-git-commit: 7778c235b4d34bc91869098961b053b2455ff5b3
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '459'
 ht-degree: 14%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 14%
 
 # 擷取資料
 
-Adobe Mix Modeler可搭配事件層級資料、來自不同圍牆花園的行銷成果資料彙總，以及來自任何其他來源（例如離線廣告、內部因素或外部因素）的彙總或摘要資料運作。
+Mix Modeler可搭配事件層級資料、來自不同圍牆花園的行銷成果資料彙總，以及來自任何其他來源（例如離線廣告、內部因素或外部因素）的彙總或摘要資料運作。
 
 客戶可以使用擷取到Adobe Experience Platform中的任何型別的資料做為資料集，而且這些資料是根據以XDM ExperienceEvent或XDM摘要量度為基底類別的結構描述。
 
