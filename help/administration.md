@@ -1,9 +1,10 @@
 ---
 title: 管理
-description: 瞭解如何管理Adobe Mix Modeler。
-source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
+description: 瞭解如何管理Mix Modeler。
+feature: Administration
+source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '154'
 ht-degree: 8%
 
 ---
@@ -11,9 +12,9 @@ ht-degree: 8%
 
 # 管理
 
-使用 [Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html) 管理Adobe Mix Modeler產品和使用者。
+使用 [Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html) 管理Mix Modeler產品和使用者。
 
-若要讓Adobe Mix Modeler正常運作，您必須設定正確的許可權。
+若要讓Mix Modeler正常運作，您必須設定正確的許可權。
 
 在Adobe Experience Cloud UI、
 
@@ -47,4 +48,4 @@ ht-degree: 8%
 
    選取 **[!UICONTROL Save]** 以儲存許可權。
 
-1. 在 **[!UICONTROL Details]** 範圍 **[!UICONTROL Role]**，新增適當的 **[!UICONTROL Users]** 和/或 **[!UICONTROL User groups]** 提供使用者存取Adobe Mix Modeler的許可權。
+1. 在 **[!UICONTROL Details]** 範圍 **[!UICONTROL Role]**，新增適當的 **[!UICONTROL Users]** 和/或 **[!UICONTROL User groups]** 提供使用者存取Mix Modeler的許可權。

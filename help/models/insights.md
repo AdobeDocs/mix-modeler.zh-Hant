@@ -1,8 +1,8 @@
 ---
 title: 模型深入分析
-description: 瞭解如何取得有關您模型的詳細資訊，例如Adobe組合建模器的歷史總覽、模型見解和模型品質。
+description: 瞭解如何取得有關您模型的詳細資訊，例如Mix Modeler中的歷史總覽、模型見解和模型品質。
 feature: Models
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 模型深入分析
 
-若要檢視模型深入分析，請在 ![模型](../assets/icons/FileData.svg) **[!UICONTROL Models]** Adobe組合建模器中的介面：
+若要檢視模型深入分析，請在 ![模型](../assets/icons/FileData.svg) **[!UICONTROL Models]** Mix Modeler介面：
 
 1. 選取模型名稱，其中包含 **[!UICONTROL Last run status]** 之 <span style="color:green">●</span> **[!UICONTROL Success]** 從 **[!UICONTROL Models]** 表格。
 
@@ -68,5 +68,7 @@ ht-degree: 0%
 * MAPE （平均絕對誤差百分比），這是最常用來測量預測準確度的KPI之一，並以實際值的百分比表示預測誤差。
 
 * RMSE （均方根誤差）：顯示平均「誤差」，根據誤差的平方加權。
+
+![模型品質](../assets/model-quality.png)
 
 

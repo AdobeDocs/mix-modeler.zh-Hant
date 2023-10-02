@@ -1,10 +1,10 @@
 ---
 title: 結構描述
-description: 瞭解如何管理將資料擷取至Adobe組合建模器所需的結構描述。
+description: 瞭解如何管理將資料擷取至Mix Modeler所需的結構描述。
 feature: Schemas
-source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
+source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '344'
 ht-degree: 6%
 
 ---
@@ -12,9 +12,9 @@ ht-degree: 6%
 
 # 結構描述
 
-若要管理結構描述，請支援您要在Adobe Experience Platform中擷取並在Adobe組合建模器中使用的資料：
+若要管理結構描述，請支援您要在Adobe Experience Platform中擷取並在Mix Modeler中使用的資料：
 
-1. 前往Adobe組合建模器介面。
+1. 前往Mix Modeler介面。
 
 1. 選取 ![方案](../assets/icons/Schemas.svg) **[!UICONTROL Schemas]**，底下 **[!UICONTROL DATA MANAGEMENT]**.
 
@@ -22,7 +22,7 @@ ht-degree: 6%
 
 ## 彙總或摘要資料
 
-強烈建議使用XDM摘要量度類別，作為任何您想要擷取至Experience Platform並在Adobe混合建模程式中使用的彙總或摘要資料之基礎的結構描述。
+強烈建議使用XDM摘要量度類別，作為任何您想要擷取至Mix Modeler並在Experience Platform中使用的彙總或摘要資料之基礎的結構描述。
 
 將「XDM摘要量度」類別用於：
 

@@ -1,10 +1,10 @@
 ---
 title: 模型
-description: 瞭解如何在Adobe組合建模器中設定和使用模型。
+description: 瞭解如何在Mix Modeler中設定和使用模型。
 feature: Models
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # 模型
 
-「Adobe組合塑模工具」中的模型功能可讓您設定、訓練及評分您業務目標專屬的AI/ML模型，並由AI驅動的多重接觸歸因與行銷組合塑模之間的傳輸學習支援。
+Mix Modeler中的模型功能可讓您設定、訓練及評分業務目標專屬的AI/ML模型，並透過多點觸控歸因與行銷組合模型之間的AI驅動傳輸學習提供支援。
 
-這些模型以您在Adobe組合建模器應用程式工作流程中建立的協調資料為基礎。
+這些模型以您在Mix Modeler應用程式工作流程中建立的協調資料為基礎。
 
 若要建立模型，請使用當您選取時可用的「混合塑模工具」逐步引導模型組態流程 **[!UICONTROL Guide me]**. 另請參閱 [建立模型](create.md) 以取得更多詳細資料。
 
 ## 管理模型
 
-若要檢視目前模型的表格，請在「Adobe混合建模器」介面中：
+若要檢視目前模型的表格，請在Mix Modeler介面中：
 
 1. 選取 ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** 從左側邊欄。
 
@@ -64,14 +64,14 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此選項僅適用於訓練成功的模型（上次執行狀態為「成功」的模型）。
+>此選取範圍僅適用於訓練成功的模型。
 >
 
-若要檢視模型的深入分析，請在「Adobe混合建模器」介面中：
+若要檢視模型的深入分析，請在Mix Modeler介面中：
 
 1. 選取 ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** 從左側邊欄。
 
-1. 選取模型名稱，其中包含 **[!UICONTROL Last run status]** 之 <span style="color:green">●</span> **[!UICONTROL Success]** 從 **[!UICONTROL Models]** 表格
+1. 選取模型名稱，其中包含 **[!UICONTROL Last run status]** 之 <span style="color:green">●</span> **[!UICONTROL Success]** 從 **[!UICONTROL Models]** 表格。
 
 1. 從內容功能表中，選取 **[!UICONTROL Model Insights]**. 您被重新導向至 [模型深入分析](insights.md).
 

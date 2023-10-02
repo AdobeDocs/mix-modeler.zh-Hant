@@ -1,10 +1,10 @@
 ---
 title: 資料集規則
-description: 瞭解如何定義資料集規則，以便在Adobe組合建模器內協調您的資料時使用。
+description: 瞭解如何定義資料集規則，以便用於協調Mix Modeler中的資料。
 feature: Harmonized Data, Dataset Rules
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 資料集規則
 
-資料集規則可協助您將協調的欄位與您在Adobe組合塑模器中擷取的資料欄位進行對應。
+資料集規則可協助您將協調的欄位與您在Mix Modeler中擷取的資料欄位進行對應。
 
 * 對於您在Adobe Experience Platform中擷取的彙總資料，您可以將一個或多個可用的資料集欄位對應到適當的和諧欄位。
 * 對於事件資料，您可以直接或使用條件，個別將一個或多個和諧的欄位對應到資料集中的欄位。
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 管理資料集規則和對應
 
-若要檢視可用資料集對應的表格，請在「Adobe混合塑模工具」介面中：
+若要在Mix Modeler介面中檢視可用資料集對應的表格：
 
 1. 選取 ![資料搜尋](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** 從左側邊欄。
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 | ---------------------- | ----------|
 | 資料集 | 資料集的名稱。 |
 | 來源 | 資料集的來源，可以是Adobe Analytics、體驗事件、摘要（彙總）或取用者體驗事件。 |
-| 綱要 | 資料集符合的結構描述。 您可以在「Adobe混合建模器 — 結構描述」的結構描述編輯器中，快速選取結構描述名稱以在新索引標籤中開啟結構描述。 |
+| 綱要 | 資料集符合的結構描述。 您可以快速選取結構描述名稱，以在「Mix Modeler — 結構描述」的結構描述編輯器中的新索引標籤中開啟結構描述。 |
 | 詳細程度 | 資料集中的資料粒度。 可能的值為每日、每週、每月或每年。 |
 | 一週開始 | 針對特定資料集，指定將一週中的哪一天視為新一週的開始。 |
 | 上次修改時間 | 上次修改資料集對應的資料和時間。 |
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 ### 建立資料集對應
 
-若要建立資料集對應，請在 ![資料搜尋](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** 介面在Adobe組合建模器中，選取 **[!UICONTROL Create Dataset Mapping]**.
+若要建立資料集對應，請在 ![資料搜尋](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** 介面中的Mix Modeler，選取 **[!UICONTROL Create Dataset Mapping]**.
 
 在 **[!UICONTROL Create]** 熒幕，
 
@@ -107,7 +107,7 @@ ht-degree: 0%
 
 ### 編輯資料集對應
 
-若要編輯資料集對應，請在 ![資料搜尋](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** Adobe組合建模器中的介面：
+若要編輯資料集對應，請在 ![資料搜尋](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** Mix Modeler介面：
 
 1. 選取 ![更多](../assets/icons/More.svg) 在 **[!UICONTROL Dataset]** 要編輯的資料集對應欄。
 1. 從內容功能表中，選取 ![編輯](../assets/icons/Edit.svg) **[!UICONTROL Edit]** 以開始編輯資料集對應。 請參閱 [建立資料集對應](#create-a-dataset-mapping) 以取得更多詳細資料。
@@ -115,7 +115,7 @@ ht-degree: 0%
 
 ### 刪除資料集對應
 
-若要刪除資料集對應，請在 ![資料搜尋](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** Adobe組合建模器中的介面：
+若要刪除資料集對應，請在 ![資料搜尋](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** Mix Modeler介面：
 
 1. 選取 ![更多](../assets/icons/More.svg) 在 **[!UICONTROL Dataset]** 要刪除的資料集對應欄。
 1. 從內容功能表中，選取 ![刪除](../assets/icons/Delete.svg) **[!UICONTROL Delete]** 以刪除資料集對應。

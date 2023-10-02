@@ -1,18 +1,18 @@
 ---
-title: Adobe組合建模器使用案例
-description: Adobe組合建模器使用案例。
+title: Mix Modeler使用案例
+description: Mix Modeler使用案例。
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
-source-git-commit: 5d86d07562deeb200d418000a73390616c916d7e
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '625'
 ht-degree: 3%
 
 ---
 
 
-# Adobe組合建模器使用案例
+# Mix Modeler使用案例
 
-「Adobe組合塑模工具」可啟用下列主要使用案例。
+Mix Modeler可啟用下列主要使用案例。
 
 ## 瞭解全通道遞增效能
 

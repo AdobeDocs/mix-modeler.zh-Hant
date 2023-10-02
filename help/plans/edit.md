@@ -1,10 +1,10 @@
 ---
 title: 編輯計畫
-description: 瞭解如何在Adobe組合建模器中編輯計畫。
+description: 瞭解如何在Mix Modeler中編輯計畫。
 feature: Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 編輯計畫
 
-若要編輯計畫，請在 ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** 介面在「Adobe混合塑模工具」中，依名稱選取您的計畫。
+若要編輯計畫，請在 ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** 介面在Mix Modeler中，依名稱選取您的計畫。
 
 在 [!UICONTROL Plan insights]，即會建立您的計畫深入分析，並顯示 [!UICONTROL Model]，則 [!UICONTROL Data range]、和 [!UICONTROL Total budget] 計畫所根據的。
 

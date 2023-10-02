@@ -1,10 +1,10 @@
 ---
 title: 建立模型
-description: 瞭解如何在Adobe組合建模器中建立模型。
+description: 瞭解如何在Mix Modeler中建立模型。
 feature: Models
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # 建立模型
 
-若要建立模型，請在 ![模型](../assets/icons/FileData.svg) **[!UICONTROL Models]** 介面在Adobe組合建模器中，選取 **[!UICONTROL Guide me]**.
+若要建立模型，請在 ![模型](../assets/icons/FileData.svg) **[!UICONTROL Models]** 介面中的Mix Modeler，選取 **[!UICONTROL Guide me]**.
 
 為了建置您的自訂AI支援模型，介面會提供逐步引導模型設定流程。
 
 1. 在 **[!UICONTROL Setup]** 步驟：
 
-   1. 輸入您的模型 **[!UICONTROL Name]**，例如 `Demo model`. 輸入 **[!UICONTROL Description]**，例如 `Demo model to explore AI featues of Adobe Mix Modeler`.
+   1. 輸入您的模型 **[!UICONTROL Name]**，例如 `Demo model`. 輸入 **[!UICONTROL Description]**，例如 `Demo model to explore AI featues of Mix Modeler`.
 
       ![模型名稱和說明](../assets/model-name-description.png)
 
@@ -113,7 +113,7 @@ ht-degree: 0%
 
    1. 在 **[!UICONTROL Define training window]** 區段，選取介於
 
-      * **[!UICONTROL Have Adobe Mix Modeler select a helpful training window]** 和
+      * **[!UICONTROL Have Mix Modeler select a helpful training window]** 和
 
       * **[!UICONTROL Manually input a training window]**。選取時，定義年數 **[!UICONTROL Include events the following years prior to a conversion]**.
 

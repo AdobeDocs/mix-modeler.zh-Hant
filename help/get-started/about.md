@@ -1,28 +1,28 @@
 ---
-title: Adobe組合建模器概覽
-description: 概述 Adobe Mix Modeler 的功能。
+title: Mix Modeler概觀
+description: 概述 Mix Modeler 的功能。
 feature: Plans, Harmonized Data, Models
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '260'
 ht-degree: 5%
 
 ---
 
 
-# Adobe組合建模器概覽
+# Mix Modeler概觀
 
-Adobe Mix Modeler採用Adobe Sensei技術，可讓行銷人員評估行銷活動，並跨越所有管道（付費、贏取和擁有）全面最佳化規劃。 其統一的方法論會以漸進方式在行銷接觸點和彙總層級進行測量，同時確保完全一致的結果。
+「Mix Modeler」採用Adobe Sensei技術，行銷人員可跨所有管道（付費、贏取和擁有）全面評估行銷活動及最佳化規劃。 其統一的方法論會以漸進方式在行銷接觸點和彙總層級進行測量，同時確保完全一致的結果。
 
-Adobe組合建模器透過全方位（端對端）測量應用程式，用於數位和離線行銷，提供所有行銷活動對業務和行銷活動結果的累加影響。
+Mix Modeler可透過全方位（端對端）測量應用程式，用於數位和離線行銷，提供所有行銷活動對業務和行銷活動結果的累加影響。
 
-「Adobe組合塑模工具」在策略與戰術層面提供下列最佳化且可操作的深入分析型別，讓您更易瞭解：
+Mix Modeler在策略與戰術層面提供下列最佳化且可操作的深入分析，讓您更易瞭解：
 
 * 跨各種管道的行銷支出和產生的效能，以及
 * 達成未來業務目標的建議投資水準。
 
 
-為了完成此功能，Adobe組合建模器結合了：
+為了完成此功能，Mix Modeler結合了：
 
 * 由下而上（事件層級）資料和由上而下（彙總層級）資料，
 * 外部市場因素與內部因素，以及
@@ -35,7 +35,7 @@ AI/ML雙向傳輸學習會整合行銷組合建模(MMM)和多點接觸歸因(MTA
 
 ## 功能
 
-Adobe Mix Modeler提供下列功能：
+Mix Modeler提供下列功能：
 
 | 功能 | 說明 |
 |---|---|

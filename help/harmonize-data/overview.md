@@ -1,10 +1,10 @@
 ---
 title: 協調資料
-description: 瞭解如何在Adobe組合建模器中協調資料。
+description: 瞭解如何協調Mix Modeler中的資料。
 feature: Harmonized Data
-source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
+source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '798'
 ht-degree: 16%
 
 ---
@@ -12,16 +12,16 @@ ht-degree: 16%
 
 # 協調資料
 
-視資料來源而定，Adobe組合建模器中的資料具有不同性質。 資料可以是：
+視資料來源而定，Mix Modeler中的資料具有不同性質。 資料可以是：
 
 * 彙總資料，例如從圍牆花園資料來源收集而來，或是從廣告牌行銷活動、活動或實體廣告行銷活動收集而來的離線廣告資料（如支出），
 * 事件資料，例如來自第一方資料來源的資料。 此事件資料可以透過Adobe Analytics來源聯結器從Adobe Analytics收集，或透過Adobe Experience Platform Web、Mobile SDK或Edge Network API收集，或使用來源聯結器擷取的資料。
 
-「Adobe組合塑模工具」的協調服務會將彙總和事件資料同化至一致的資料檢視。 此資料檢視是Adobe組合建模器中的計畫和模型的來源。
+Mix Modeler的協調服務會將彙總和事件資料同化為一致的資料檢視。 此資料檢視是Mix Modeler中計畫和模型的來源。
 
 ## 協調資料的範例
 
-假設您有以下資料集可用於Adobe組合建模器。
+假設您有以下資料集可用於Mix Modeler。
 
 **資料集1**
 
@@ -114,7 +114,7 @@ ht-degree: 16%
 
 ## 檢視已協調的資料
 
-若要檢視您的協調資料，請在Adobe組合建模器介面中：
+若要在Mix Modeler介面中檢視您的協調資料：
 
 1. 選取 ![資料搜尋](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** 從左側邊欄。
 

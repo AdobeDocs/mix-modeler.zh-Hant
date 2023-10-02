@@ -1,10 +1,10 @@
 ---
 title: 轉換
-description: 瞭解如何建立轉換，以便在Adobe組合塑模器中用於協調您的資料。
+description: 瞭解如何建立轉換，以便用於協調Mix Modeler中的資料。
 feature: Harmonized Data, Conversions
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '241'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 ## 管理轉換
 
-若要檢視可用轉換的表格，請在「Adobe混合塑模工具」介面中：
+若要檢視可用轉換的表格，請在Mix Modeler介面中：
 
 1. 選取 ![資料搜尋](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** 從左側邊欄。
 
@@ -38,7 +38,7 @@ ht-degree: 3%
 
 ## 新增轉換
 
-若要新增轉換，請在 ![資料搜尋](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** Adobe組合建模器中的介面：
+若要新增轉換，請在 ![資料搜尋](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** Mix Modeler介面：
 
 1. 選取 ![新增](../assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion]**.
 

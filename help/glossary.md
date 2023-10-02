@@ -1,15 +1,15 @@
 ---
-title: Adobe混合模組化工具字彙表
-description: Adobe混合模組化工具字彙表。
+title: Mix Modeler字彙表
+description: Mix Modeler字彙表。
 feature: Datasets, Conversions, Marketing Touch Points, Harmonized Data
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '218'
 ht-degree: 1%
 
 ---
 
-# Adobe混合模組化工具字彙表
+# Mix Modeler字彙表
 
 本檔案使用下列術語和縮寫：
 

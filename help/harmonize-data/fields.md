@@ -1,10 +1,10 @@
 ---
 title: 協調的欄位
-description: 瞭解如何定義欄位，以便在Adobe組合建模器內協調資料時使用。
-feature: Harmonized Data
-source-git-commit: abbfc78e9fa774a240d000131f35d3dc257c15ea
+description: 瞭解如何定義欄位，以便用於協調Mix Modeler中的資料。
+feature: Harmonized Data, Harmonized Fields
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '655'
 ht-degree: 10%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 10%
 
 ## 全球協調統一欄位
 
-「Adobe混合塑模工具」中預設可用的全域協調欄位為：
+Mix Modeler中預設可用的全域協調欄位為：
 
 
 | 欄位名稱 | 顯示名稱 | 類別 | 資料類型 | 註解 |
@@ -53,7 +53,7 @@ ht-degree: 10%
 
 ## 管理協調的欄位
 
-若要檢視可用協調欄位的表格，請在Adobe組合建模器介面中：
+若要在Mix Modeler介面中檢視可用協調欄位的表格：
 
 1. 選取 ![資料搜尋](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** 從左側邊欄。
 
@@ -81,7 +81,7 @@ ht-degree: 10%
 
 ### 新增協調欄位
 
-若要新增協調欄位，請在 ![資料搜尋](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Adobe組合建模器中的介面：
+若要新增協調欄位，請在 ![資料搜尋](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix Modeler中的介面：
 
 1. 選取 ![新增](../assets/icons/AddCircle.svg)新增欄位。
 
@@ -107,7 +107,7 @@ ht-degree: 10%
 
 您只能編輯您先前建立的協調欄位。 您無法編輯全域協調欄位。
 
-若要編輯協調的欄位，請在 ![資料搜尋](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Adobe組合建模器中的介面：
+若要編輯協調的欄位，請在 ![資料搜尋](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix Modeler中的介面：
 
 1. 選取您要編輯的協調欄位。 例如 **[!UICONTROL Region]**。
 
@@ -121,7 +121,7 @@ ht-degree: 10%
 
 您只能刪除您先前建立的協調欄位。 您無法刪除全球協調欄位。
 
-若要刪除協調欄位，請在 ![資料搜尋](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Adobe組合建模器中的介面：
+若要刪除協調欄位，請在 ![資料搜尋](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix Modeler中的介面：
 
 1. 選取您要刪除的協調欄位，例如 **[!UICONTROL Region]**.
 

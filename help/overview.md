@@ -1,19 +1,20 @@
 ---
-title: Adobe組合建模器概覽
-description: 了解如何使用 Adobe Mix Modeler 跨所有管道測量行銷活動並全面最佳化規劃。
-source-git-commit: 9e89d9820c28021e151ad31874ac3bcbaa008f9c
+title: Mix Modeler概觀
+description: 了解如何使用 Mix Modeler 跨所有管道測量行銷活動並全面最佳化規劃。
+feature: Harmonized Data, Models, Plans
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '96'
 ht-degree: 18%
 
 ---
 
 
-# Adobe組合建模器指南
+# AdobeMix Modeler指南
 
 ![橫幅](assets/mix-modeler-banner.png)
 
-本技術檔案指南提供 **Adobe組合建模器**. 「Adobe組合塑模工具」是一種Adobe Experience Cloud應用程式，可跨所有管道（付費、贏取和擁有）來測量行銷活動及最佳化計畫。 Adobe Mix Modeler是以Adobe Experience Platform為基礎建置，並由Adobe Sensei提供技術支援。
+本技術檔案指南提供 **Adobe組合建模器**. Mix Modeler是一種Adobe Experience Cloud應用程式，可跨所有管道（付費、贏取和擁有）來測量行銷活動及最佳化規劃。 Mix Modeler是以Adobe Experience Platform為基礎建立，並由Adobe Sensei提供技術支援。
 
 >[!AVAILABILITY]
 >
@@ -21,7 +22,7 @@ ht-degree: 18%
 
 ## 開始使用
 
-* 什麼是 [Adobe組合建模器](get-started/about.md)？
+* 什麼是 [混合模型工具](get-started/about.md)？
 
 * 典型值 [應用程式工作流程](get-started/workflow.md)？
 

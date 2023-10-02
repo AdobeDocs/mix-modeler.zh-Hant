@@ -1,10 +1,10 @@
 ---
 title: 計畫總覽
-description: 瞭解如何在Adobe組合建模器中使用計畫總覽。
+description: 瞭解如何在Mix Modeler中使用計畫總覽。
 feature: Dashboard, Plans, Models
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >[!BADGE Alpha]{type=Informative}
 
 
-「Adobe混合建模器概觀」中的「計畫」索引標籤顯示的Widget [!UICONTROL Budget]， [!UICONTROL Revenue]， [!UICONTROL ROI] 和 [!UICONTROL KPI].
+「Mix Modeler概述」中的「計畫」標籤顯示的Widget [!UICONTROL Budget]， [!UICONTROL Revenue]， [!UICONTROL ROI] 和 [!UICONTROL KPI].
 
 為Widget顯示的資料由以下決定：
 

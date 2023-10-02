@@ -1,18 +1,18 @@
 ---
 title: 比較計畫
-description: 瞭解如何在Adobe組合建模器中比較計畫。
+description: 瞭解如何比較Mix Modeler中的計畫。
 feature: Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 1%
+source-wordcount: '100'
+ht-degree: 2%
 
 ---
 
 
 # 比較計畫
 
-若要比較Adobe組合建模器計畫介面中的計畫：
+若要比較「Mix Modeler計畫」介面中的計畫：
 
 * 選取 ![比較](../assets/icons/Compare.svg) **[!UICONTROL Compare Plans]**. 在比較計畫中，為每個計畫選取一個計畫 **[!UICONTROL _選取計畫_]**.
 

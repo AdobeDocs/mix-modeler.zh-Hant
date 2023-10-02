@@ -1,10 +1,10 @@
 ---
 title: 建立計畫
-description: 瞭解如何在Adobe組合建模器中建立計畫。
+description: 瞭解如何在Mix Modeler中建立計畫。
 feature: Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # 建立計畫
 
-在「Adobe混合模型工具」中，您可以使用計畫畫布建立計畫。 在計畫畫布中，您可以設定計畫的明細與預算，以及計畫要使用的基本模型。 一旦您指定了詳細資訊、預算和模型，您就可以繼續進行AI推薦的計畫或編輯依據管道的支出。
+在Mix Modeler中，您可以使用計畫畫布建立計畫。 在計畫畫布中，您可以設定計畫的明細與預算，以及計畫要使用的基本模型。 一旦您指定了詳細資訊、預算和模型，您就可以繼續進行AI推薦的計畫或編輯依據管道的支出。
 
-若要建立計畫，請在 ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** 介面在Adobe組合建模器中，選取 **[!UICONTROL Open plan canvas]**.
+若要建立計畫，請在 ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** 介面中的Mix Modeler，選取 **[!UICONTROL Open plan canvas]**.
 
 1. 在「計畫建立」畫面中：
 

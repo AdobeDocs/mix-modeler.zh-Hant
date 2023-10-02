@@ -1,10 +1,10 @@
 ---
 title: 計畫
-description: 瞭解如何在Adobe組合建模器中檢視、選取和進行計畫動作。
+description: 瞭解如何在Mix Modeler中檢視、選取和操作計畫。
 feature: Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '293'
 ht-degree: 2%
 
 ---
@@ -12,12 +12,12 @@ ht-degree: 2%
 
 # 計畫
 
-「Adobe組合塑模工具」中的計畫可讓您依業務單位和管道分配預算。 計畫功能會根據您協調的資料與已訓練模型的結果整合。
+Mix Modeler中的計畫可讓您依業務單位和管道分配預算。 計畫功能會根據您協調的資料與已訓練模型的結果整合。
 
 
 ## 檢視計畫
 
-若要檢視您目前計畫的表格，請在「Adobe組合建模器」介面中：
+若要檢視目前計畫的表格，請在Mix Modeler介面中：
 
 1. 選取 ![](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** 從左側邊欄。
 

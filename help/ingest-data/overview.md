@@ -1,10 +1,10 @@
 ---
 title: 擷取資料
-description: 瞭解如何將資料擷取至Adobe組合建模器。
+description: 瞭解如何將資料擷取至Mix Modeler。
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
-source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
+source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '460'
 ht-degree: 14%
 
 ---
@@ -28,7 +28,7 @@ Adobe Mix Modeler可搭配事件層級資料、來自不同圍牆花園的行銷
 
 ## 準則
 
-若要將資料內嵌至Adobe Experience Platform以搭配Adobe組合建模器使用，請遵循下列准則：
+若要將資料擷取至Adobe Experience Platform以與Mix Modeler搭配使用，請遵循下列准則：
 
 * 新增到資料集的增量資料中不應有任何重疊。
 * 來自單一來源的所有資料應該具有相同的詳細程度。
@@ -38,7 +38,7 @@ Adobe Mix Modeler可搭配事件層級資料、來自不同圍牆花園的行銷
 
 ## 範例
 
-尋找以下一些在Adobe組合塑模器中經常使用的資料範例，這些範例超出更多標準的體驗事件資料。
+尋找以下一些在Mix Modeler中通常使用的資料範例，這些範例超出更標準的體驗事件資料。
 
 +++ 彙總行銷成果資料
 
@@ -80,7 +80,8 @@ Adobe Mix Modeler可搭配事件層級資料、來自不同圍牆花園的行銷
 
 +++
 
-若要在Adobe混合塑模器中處理資料，您需要在資料集中收集資料，並在Adobe Experience Platform中仿照結構描述建模。 Adobe Mix Modeler介面可讓您輕鬆存取Experience Platform結構描述和資料集UI。
+若要在Mix Modeler中處理資料，您需要在資料集中收集資料，並在Adobe Experience Platform中仿效結構描述建模。 Mix Modeler介面可讓您輕鬆存取結構描述和資料集UI。
+
 
 >[!MORELIKETHIS]
 >

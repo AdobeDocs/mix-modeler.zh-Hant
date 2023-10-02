@@ -1,10 +1,10 @@
 ---
 title: 行銷接觸點
-description: 瞭解如何建立行銷接觸點，以便在Adobe組合建模器中用於協調您的資料。
+description: 瞭解如何建立行銷接觸點，以便用於協調Mix Modeler中的資料。
 feature: Harmonized Data, Marketing Touch Points
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '259'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 ## 管理行銷接觸點
 
-若要在Adobe組合建模器介面中檢視可用的行銷接觸點表格：
+若要在Mix Modeler介面中檢視可用的行銷接觸點表格：
 
 1. 選取 ![資料搜尋](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** 從左側邊欄。
 
@@ -38,7 +38,7 @@ ht-degree: 1%
 
 ## 新增行銷接觸點
 
-若要新增行銷接觸點，請在 ![資料搜尋](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Marketing touchpoint]** Adobe組合建模器中的介面：
+若要新增行銷接觸點，請在 ![資料搜尋](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Marketing touchpoint]** Mix Modeler介面：
 
 1. 選取 ![新增](../assets/icons/AddCircle.svg) 新增行銷接觸點。
 

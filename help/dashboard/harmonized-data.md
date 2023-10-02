@@ -1,10 +1,10 @@
 ---
 title: 協調的資料概觀儀表板
-description: 瞭解如何在Adobe組合建模器中使用協調的資料概觀儀表板。
+description: 瞭解如何在Mix Modeler中使用協調的資料概觀儀表板。
 feature: Dashboard, Harmonized Data
-source-git-commit: abbfc78e9fa774a240d000131f35d3dc257c15ea
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 協調的資料概觀
 
-「Adobe組合建模器概覽」中的「協調資料」索引標籤可讓您深入瞭解已設定為用於內嵌資料和協調資料設定一部分的協調資料。
+Mix Modeler概觀中的「協調的資料」索引標籤提供您已設定為用於內嵌資料和協調資料設定一部分的協調資料見解。
 
 此概覽會顯示四個KPI狀態卡介面工具集（最上方列）和六個其他可設定的Widget。
 
