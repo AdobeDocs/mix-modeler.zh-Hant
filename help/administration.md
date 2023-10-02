@@ -1,7 +1,7 @@
 ---
 title: 管理
 description: 瞭解如何管理Adobe Mix Modeler。
-source-git-commit: 4a6cbda1ff0a779ebf8a38a4de3f797ed9e54b00
+source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 8%
@@ -35,9 +35,15 @@ ht-degree: 8%
 
    * **[!UICONTROL Data Ingestion]**：請務必選取 **[!UICONTROL View Sources]** 和 **[!UICONTROL Manage Sources]**.
 
+   <!--
+    * **[!UICONTROL Data Governance]**: ensure you select **[!UICONTROL View User Activity Log]** and **[!UICONTROL View Data Usage Policies]**.
+    -->
+
    為角色設定的許可權應如下所示：
 
    ![權限](assets/permissions.png)
+
+   <!--![Permissions](assets/permissions-including-privacy.png)-->
 
    選取 **[!UICONTROL Save]** 以儲存許可權。
 

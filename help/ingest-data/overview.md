@@ -2,9 +2,9 @@
 title: 擷取資料
 description: 瞭解如何將資料擷取至Adobe組合建模器。
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
-source-git-commit: ae1c74ed2edf1e69e7ab77d16aba797921c14ad9
+source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '466'
 ht-degree: 14%
 
 ---
@@ -12,16 +12,18 @@ ht-degree: 14%
 
 # 擷取資料
 
-Adobe Mix Modeler可同時處理來自不同圍牆花園的事件層級資料和彙總行銷成果資料。 客戶可以使用擷取到Adobe Experience Platform的各種資料做為資料集，並根據XDM體驗事件型結構描述。
+Adobe Mix Modeler可搭配事件層級資料、來自不同圍牆花園的行銷成果資料彙總，以及來自任何其他來源（例如離線廣告、內部因素或外部因素）的彙總或摘要資料運作。
+
+客戶可以使用擷取到Adobe Experience Platform中的任何型別的資料做為資料集，而且這些資料是根據以XDM ExperienceEvent或XDM摘要量度為基底類別的結構描述。
 
 例如：
 
 * 使用Adobe Analytics來源聯結器收集並轉換為符合Adobe Analytics結構描述預設或自訂版本的資料集，或是
 * 使用Adobe Experience Platform Web SDK、Mobile SDK或Edge Network Server API收集的資料，用於收集網站、行動或任何其他型別裝置上的客戶互動。
-* 根據結構描述，其中包含具有流量和轉換摘要欄位群組的XDM摘要量度類別，從不同的圍牆花園/流量來源收集摘要資料，
-* 適合用於模型建立的非行銷資料（例如宏觀經濟指標），
+* 從封閉花園(例如Facebook、YouTube)、流量來源或離線廣告資料彙總資料，
+* 包含對模型建立有用的內部或外部因素的非行銷彙總或摘要資料。
 
-您可以使用Adobe Experience Platform支援的任何機制來擷取體驗事件層級，並彙總行銷成果資料。 例如Adobe Experience Platform SDK、API、來源聯結器，以及串流和批次擷取。
+您可以使用Adobe Experience Platform支援的任何一種機制，從其他來源擷取體驗事件層級、彙總行銷成果資料和資料。 例如Adobe Experience Platform SDK、API、來源聯結器，以及串流和批次擷取。
 
 
 ## 準則
@@ -78,7 +80,7 @@ Adobe Mix Modeler可同時處理來自不同圍牆花園的事件層級資料和
 
 +++
 
-若要在Adobe混合塑模器中處理資料，您需要在資料集中收集資料，並在Adobe Experience Platform中仿照結構描述建模。 Adobe組合建模器介面可讓您輕鬆存取結構描述和資料集UI。
+若要在Adobe混合塑模器中處理資料，您需要在資料集中收集資料，並在Adobe Experience Platform中仿照結構描述建模。 Adobe Mix Modeler介面可讓您輕鬆存取Experience Platform結構描述和資料集UI。
 
 >[!MORELIKETHIS]
 >

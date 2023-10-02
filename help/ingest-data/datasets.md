@@ -2,10 +2,10 @@
 title: 資料集
 description: 瞭解如何管理將資料擷取到Adobe組合建模器所需的資料集。
 feature: Datasets
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 17%
+source-wordcount: '66'
+ht-degree: 18%
 
 ---
 
@@ -19,3 +19,8 @@ ht-degree: 17%
 1. 選取 ![資料](../assets/icons/Data.svg) **[!UICONTROL Datasets]**，底下 **[!UICONTROL DATA MANAGEMENT]**.
 
 請參閱 [資料集UI指南](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hant) 以取得詳細資訊。
+
+>[!MORELIKETHIS]
+>
+>* [擷取資料](overview.md)
+>* [綱要](schemas.md)
