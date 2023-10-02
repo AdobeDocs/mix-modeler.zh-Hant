@@ -1,11 +1,11 @@
 ---
-user-guide-title: Mixed Modeler
-breadcrumb-title: Mixed Modeler
-user-guide-description: 了解如何使用 Mixed Modeler。
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+user-guide-title: Adobe組合建模器指南
+breadcrumb-title: Mix Modeler 指南
+user-guide-description: 瞭解如何使用Adobe Mix Modeler。
+source-git-commit: d02cfdf3ad5a0872a0f9c2c9f98973e79f1a9de8
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 53%
+source-wordcount: '67'
+ht-degree: 40%
 
 ---
 

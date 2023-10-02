@@ -2,15 +2,15 @@
 title: Mix Modeler概觀
 description: 了解如何使用 Mix Modeler 跨所有管道測量行銷活動並全面最佳化規劃。
 feature: Harmonized Data, Models, Plans
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+source-git-commit: d02cfdf3ad5a0872a0f9c2c9f98973e79f1a9de8
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '97'
 ht-degree: 18%
 
 ---
 
 
-# AdobeMix Modeler指南
+# Adobe組合建模器指南
 
 ![橫幅](assets/mix-modeler-banner.png)
 
