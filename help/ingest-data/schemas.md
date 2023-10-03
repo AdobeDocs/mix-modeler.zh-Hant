@@ -2,17 +2,17 @@
 title: 結構描述
 description: 瞭解如何管理將資料擷取至Mix Modeler所需的結構描述。
 feature: Schemas
-source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
+exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '345'
 ht-degree: 6%
 
 ---
 
-
 # 結構描述
 
-若要管理結構描述，請支援您要在Adobe Experience Platform中擷取並在Mix Modeler中使用的資料：
+若要管理結構描述，請支援您要在Experience Platform中擷取並在Mix Modeler中使用的資料：
 
 1. 前往Mix Modeler介面。
 
@@ -40,7 +40,7 @@ ht-degree: 6%
 
 ![外部因素結構描述](../assets/external-factors-schema.png)
 
-此簡單結構描述可用於擷取包含以下資料的資料集：
+此簡單結構描述可用於擷取包含資料的資料集，例如：
 
 - 競爭者索引資料
 
@@ -63,7 +63,7 @@ ht-degree: 6%
   | ... | ... | ... | ... |
 
 
-如需更完整的範例，請參閱下文 **[!DNL LumaPaidMarketingSchema]** 使用 **[!DNL XDM Summary Metrics]** 作為基底類別。 結構描述會使用量度(**[!DNL AMMMetrics]**)，尺寸(**[!DNL AMMDimensions]**)和其他客戶特定資訊(**[!DNL CustomerSpecific]**)。
+如需更完整的範例，請參閱下文 **[!DNL LumaPaidMarketingSchema]** 使用 **[!DNL XDM Summary Metrics]** 作為基底類別。 結構描述會使用量度(**[!DNL AMMMetrics]**)，尺寸(**[!DNL AMMDimensions]**)，以及其他客戶專屬資訊(**[!DNL CustomerSpecific]**)。
 
 ![摘要結構](../assets/summary-schema.png)
 

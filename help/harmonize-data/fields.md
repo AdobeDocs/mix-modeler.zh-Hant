@@ -2,13 +2,13 @@
 title: 協調的欄位
 description: 瞭解如何定義欄位，以便用於協調Mix Modeler中的資料。
 feature: Harmonized Data, Harmonized Fields
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 10%
 
 ---
-
 
 # 協調的欄位
 
@@ -126,5 +126,3 @@ Mix Modeler中預設可用的全域協調欄位為：
 1. 選取您要刪除的協調欄位，例如 **[!UICONTROL Region]**.
 
 1. 選取 ![刪除](../assets/icons/Delete.svg) **[!UICONTROL Delete]** 從 **[!UICONTROL Edit harmonization values]** 左窗格。
-
-

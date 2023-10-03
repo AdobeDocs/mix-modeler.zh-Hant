@@ -2,13 +2,13 @@
 title: 計畫
 description: 瞭解如何在Mix Modeler中檢視、選取和操作計畫。
 feature: Plans
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 2%
 
 ---
-
 
 # 計畫
 
@@ -69,7 +69,8 @@ Mix Modeler中的計畫可讓您依業務單位和管道分配預算。 計畫�
 若要刪除計畫，請執行下列動作：
 
 1. 從表格中選取一或多個計畫。
-1. 選取 ![刪除](../assets/icons/Delete.svg) **[!UICONTROL Delete]** 從動作列移除。 您的計畫會立即刪除。
+1. 選取 ![刪除](../assets/icons/Delete.svg) **[!UICONTROL Delete]** 從動作列移除。
 
-
-
+   >[!WARNING]
+   >
+   >   立即刪除選取的計畫！

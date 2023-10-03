@@ -2,13 +2,13 @@
 title: 資料集規則
 description: 瞭解如何定義資料集規則，以便用於協調Mix Modeler中的資料。
 feature: Harmonized Data, Dataset Rules
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 0%
 
 ---
-
 
 # 資料集規則
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
       ![建立資料集規則](../assets/dataset-create-summary.png)
 
-1. 當您在底下的陰影方塊中選取資料集的事件型別時 **[!UICONTROL Map to harmonized fields]**：
+1. 當您選取資料集的事件型別時(**[!UICONTROL Experience Events]**， **[!UICONTROL Adobe Analytics]**， **[!UICONTROL Consumer Experience Events]**)，於底下的陰影方塊中 **[!UICONTROL Map to harmonized fields]**：
 
    1. 選取協調欄位，從 **[!UICONTROL Standard harmonized field]**.
 
@@ -132,4 +132,3 @@ ht-degree: 0%
 1. 選取 **[!UICONTROL Sync]** 根據已定義的資料集規則，在資料集中的協調資料和資料之間開始同步。 若要取消同步，請選取 **[!UICONTROL Cancel]**.
 
    ![同步資料](../assets/sync-data.png)
-

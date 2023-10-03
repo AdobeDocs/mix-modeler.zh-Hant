@@ -1,20 +1,21 @@
 ---
 title: Mix Modeler概觀
 description: 概述 Mix Modeler 的功能。
+short-description: 概述 Mix Modeler 的功能。
 feature: Plans, Harmonized Data, Models
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 5%
+source-wordcount: '270'
+ht-degree: 8%
 
 ---
 
-
 # Mix Modeler概觀
 
-「Mix Modeler」採用Adobe Sensei技術，行銷人員可跨所有管道（付費、贏取和擁有）全面評估行銷活動及最佳化規劃。 其統一的方法論會以漸進方式在行銷接觸點和彙總層級進行測量，同時確保完全一致的結果。
+「Mix Modeler」採用Adobe Sensei技術，行銷人員可跨所有管道（付費、贏取和擁有）全面評估行銷活動及最佳化規劃。 其統一的方法論會在行銷接觸點和彙總層級進行累加測量，同時確保完全一致的結果。
 
-Mix Modeler可透過全方位（端對端）測量應用程式，用於數位和離線行銷，提供所有行銷活動對業務和行銷活動結果的累加影響。
+Mix Modeler透過整體（端對端）測量應用程式，用於數位和離線行銷，提供所有行銷活動對業務和行銷活動結果的累加影響。
 
 Mix Modeler在策略與戰術層面提供下列最佳化且可操作的深入分析，讓您更易瞭解：
 
@@ -45,12 +46,3 @@ Mix Modeler提供下列功能：
 | **建立和比較預算案例** | 開發多種預算計畫並比較其影響，為您的企業做出最佳決策。 |
 
 {style="table-layout:auto"}
-
-
-
-
-
-
-
-
-
