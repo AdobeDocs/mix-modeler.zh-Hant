@@ -3,7 +3,7 @@ title: 計畫
 description: 瞭解如何在Mix Modeler中檢視、選取和操作計畫。
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: eab3818b97bf65164eb586bc443a970794583b55
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 2%

@@ -2,13 +2,13 @@
 title: 計畫總覽
 description: 瞭解如何在Mix Modeler中使用計畫總覽。
 feature: Dashboard, Plans, Models
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
+source-git-commit: eab3818b97bf65164eb586bc443a970794583b55
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 0%
 
 ---
-
 
 # 計畫總覽
 
@@ -24,5 +24,3 @@ ht-degree: 0%
 * 指定的日期期間。 若要變更日期期間，請手動輸入開始日期與結束日期，或選取日期期間，使用 ![行事曆](../assets/icons/Calendar.svg).
 
 * 計畫。 從以下來源選取計畫 **[!UICONTROL Plan name]** 使用 **[!UICONTROL _選取選項……_]**.
-
-

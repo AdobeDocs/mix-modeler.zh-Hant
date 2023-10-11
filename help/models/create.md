@@ -2,13 +2,13 @@
 title: 建立模型
 description: 瞭解如何在Mix Modeler中建立模型。
 feature: Models
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
+source-git-commit: eab3818b97bf65164eb586bc443a970794583b55
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
-
 
 # 建立模型
 
@@ -127,9 +127,9 @@ ht-degree: 0%
 
       1. 選取 **[!UICONTROL Rule type]**。
 
-      1. 為下列各色版分配百分比 **[!UICONTROL Name]**，使用 **[!UICONTROL Contribution proportion]** 欄。 確保百分比的總分佈加總為100%。
+      1. 指定下列任何管道的貢獻百分比 **[!UICONTROL Name]**，使用 **[!UICONTROL Contribution proportion]** 欄。
 
-      1. 您可以為每個頻道新增 **[!UICONTROL Level of confidence]** 百分比。
+      1. 您可視情況為每個管道新增 **[!UICONTROL Level of confidence]** 百分比。
 
       1. 需要時，使用 **[!UICONTROL Clear all]** 以清除 **[!UICONTROL Contribution proportion]** 和 **[!UICONTROL Level of confidence]** 欄。
 
@@ -146,4 +146,3 @@ ht-degree: 0%
    選取 **[!UICONTROL Back]** 以回到上一步。
 
    選取 **[!UICONTROL Cancel]** 以取消模型組態。
-
