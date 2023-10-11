@@ -1,11 +1,11 @@
 ---
 user-guide-title: Mix Modeler 指南
 breadcrumb-title: Mix Modeler 指南
-user-guide-description: 瞭解如何使用Mix Modeler。
+user-guide-description: 了解如何使用 Mix Modeler。
 source-git-commit: 7778c235b4d34bc91869098961b053b2455ff5b3
 workflow-type: tm+mt
 source-wordcount: '65'
-ht-degree: 46%
+ht-degree: 55%
 
 ---
 
