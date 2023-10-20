@@ -2,7 +2,8 @@
 title: 建立計畫
 description: 瞭解如何在Mix Modeler中建立計畫。
 feature: Plans
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
+source-git-commit: f445cb2b1ec04ffe9247e858c048587802bffe9c
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -70,6 +71,3 @@ ht-degree: 0%
    1. 完成後，選取 **[!UICONTROL Create]**.
 
    1. 在 **[!UICONTROL Create plan]** 對話方塊，選取 **[!UICONTROL Create plan]** 以建立您的計畫。 選取 **[!UICONTROL Cancel]** 以取消計畫的建立。
-
-
-
