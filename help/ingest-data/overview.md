@@ -3,16 +3,16 @@ title: 擷取資料
 description: 瞭解如何將資料擷取至Mix Modeler。
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 1dbdee00f518d98241fc042e2aabc0e40d5a9153
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '457'
 ht-degree: 14%
 
 ---
 
 # 擷取資料
 
-Mix Modeler可搭配事件層級資料、來自不同圍牆花園的行銷成果資料彙總，以及來自任何其他來源（例如離線廣告、內部因素或外部因素）的彙總或摘要資料運作。
+Mix Modeler可搭配事件層級資料、彙總來自各牆壁花園的oe摘要行銷成果資料，以及彙總來自任何其他來源（例如離線廣告、內部因素或外部因素）的摘要資料。
 
 客戶可以使用任何種類的資料當作資料集擷取到Experience Platform中，而且這些資料是根據以XDM ExperienceEvent或XDM摘要量度為基底類別的結構描述。
 
@@ -20,7 +20,7 @@ Mix Modeler可搭配事件層級資料、來自不同圍牆花園的行銷成果
 
 * 使用Adobe Analytics來源聯結器收集並轉換為符合Adobe Analytics結構描述預設或自訂版本的資料集，或是
 * 使用Experience Platform Web SDK、Mobile SDK或Edge Network Server API收集的資料，用於收集網站、行動或任何其他型別裝置上的客戶互動。
-* 從封閉花園(例如Facebook、YouTube)、流量來源或離線廣告資料彙總資料，
+* 從封閉花園(例如Facebook、YouTube)、流量來源或離線廣告資料彙總或摘要資料，
 * 包含對模型建立有用的內部或外部因素的非行銷彙總或摘要資料。
 
 您可以使用Experience Platform支援的任何一種機制，從其他來源擷取體驗事件層級、彙總行銷成果資料和資料。 例如Experience PlatformSDK、API、來源聯結器，以及串流和批次擷取。

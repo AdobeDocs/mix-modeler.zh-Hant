@@ -3,10 +3,10 @@ title: Mix Modeler工作流程
 description: 瞭解Mix Modeler的典型工作流程。
 feature: Ingest Data, Plans, Harmonized Data, Models
 exl-id: 200ff846-5d78-4b25-a425-bfd558b88c88
-source-git-commit: 512cc28a9fab81438d54e30bb6e20f05da5265d1
+source-git-commit: 1dbdee00f518d98241fc042e2aabc0e40d5a9153
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 2%
+source-wordcount: '302'
+ht-degree: 1%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 2%
 >[!VIDEO](https://video.tv.adobe.com/v/3424854/?learn=on)
 
 
-從功能的角度來看，Mix Modeler中的典型工作流程包含下列活動：
+Mix Modeler中的典型工作流程包含下列活動：
 
 ![替代文字](../assets/ApplicationWorkflow.svg)
 
@@ -25,9 +25,26 @@ ht-degree: 2%
 |---|---|---|
 | ![資料](../assets/icons/Data.svg){width="100"} | [**擷取資料**](../ingest-data/overview.md) | 從Experience Platform(例如Adobe Analytics、Web SDK、其他來源)擷取事件資料、從行銷頻道擷取的彙總資料（例如電視、圍牆花園、電子郵件、擁有和經營的活動）、來自客戶的外部因素資料（例如訂閱服務的價格變更）和內部因素資料（例如假日計畫）。 |
 | ![資料檢查](../assets/icons/DataCheck.svg){width="100"} | [**協調資料**](../harmonize-data/overview.md) | 設定對應規則和衝突解決規則，以合併在Mix Modeler中測量及規劃行銷活動績效所需的各種行銷資料集。 |
-| ![FileConfig](../assets/icons/FileGear.svg){width="100"} | [**設定模型**](../models/create.md) | 使用行銷接觸點（例如管道）和轉換定義設定模型執行個體。 |
+| ![FileConfig](../assets/icons/FileGear.svg){width="100"} | [**設定模型**](../models/create.md) | 使用行銷接觸點（例如管道）、轉換定義以及內部和外部因素來設定模型執行個體。 |
 | ![檔案資料](../assets/icons/FileData.svg){width="100"} | [**訓練模型並為其評分**](../models/overview.md) | 使用機器學習訓練和評分，建立彙總和事件層級分數。 |
 | ![檔案圖表](../assets/icons/FileChart.svg){width="100"} | [**建立計畫**](../plans/overview.md) | 使用Mix Modeler模型的輸出，決定行銷資金的最佳配置，以實現業務目標。 |
 | ![控制面板](../assets/icons/Dashboard.svg){width="100"} | [**總覽儀表板**](../dashboard/overview.md) | 使用各種可設定的Widget，深入瞭解協調的資料、模型和計畫。 |
 
 {style="table-layout:auto"}
+
+以下以資料為導向的詳細流程圖會說明如何：
+
+* 協調的資料是根據：
+
+   * 體驗事件資料(源自Analytics來源聯結器、透過Experience PlatformSDK和API收集、透過來源聯結器擷取，或使用串流擷取)，
+   * 從封閉花園(例如Facebook、YouTube)、流量來源或離線廣告資料彙總或摘要資料，以及
+   * 協調欄位和資料集規則的定義。
+
+* 模型建立在：
+
+   * 根據協調資料和行銷活動產生的轉換和行銷接觸點定義
+   * 包含內部或外部因素的非行銷彙總或摘要資料。
+
+* 多接觸點歸因事件分數可能會傳回Experience Platform資料湖，以供後續的模型設定、訓練和評分使用。
+
+![完整的工作流程](../assets/comprehensive-workflow.svg)
