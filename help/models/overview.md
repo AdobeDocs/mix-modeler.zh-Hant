@@ -3,9 +3,9 @@ title: 模型
 description: 瞭解如何在Mix Modeler中設定和使用模型。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: f445cb2b1ec04ffe9247e858c048587802bffe9c
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -52,10 +52,9 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
    | 名稱 | 模型名稱 |
    | 說明 | 模型說明 |
    | 轉換事件 | 您為模型選取的轉換。 |
-   | 資料集 | 模型用來訓練和評分的資料集。 這預設為協調的資料集。 |
    | 執行頻率 | 訓練模型的執行頻率。 |
    | 上次執行 | 模型上次培訓的日期和時間。 |
-   | 上次執行狀態 | 模型訓練上次執行的狀態。 <br/><span style="color:green">●</span> 成功<br/><span style="color:orange">●</span> 訓練問題<br/> <span style="color:orange">●</span> 正在等待訓練 <br/><span style="color:red">●</span> 已失敗 |
+   | 狀態 | 模型訓練上次執行的狀態。 <br/><span style="color:green">●</span> 成功<br/><span style="color:orange">●</span> 訓練問題<br/> <span style="color:orange">●</span> 正在等待訓練 <br/><span style="color:red">●</span> 已失敗 |
 
    {style="table-layout:auto"}
 
@@ -73,9 +72,7 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
 
 若要檢視模型的詳細資訊：
 
-1. 選取您要檢視其詳細資訊的模型名稱。
-
-1. 從內容功能表中，選取 **[!UICONTROL More]**. 您會在右窗格中看到所選模型的詳細資訊。
+1. 選取 ![資訊](../assets/icons/Info.svg) 模型以顯示包含詳細資訊的快顯視窗。
 
 
 
@@ -93,3 +90,20 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
 1. 選取模型名稱，其中包含 **[!UICONTROL Last run status]** 之 <span style="color:green">●</span> **[!UICONTROL Success]** 從 **[!UICONTROL Models]** 表格。
 
 1. 從內容功能表中，選取 **[!UICONTROL Model Insights]**. 您被重新導向至 [模型深入分析](insights.md).
+
+
+### 重新計分
+
+>[!NOTE]
+>
+>此選取範圍僅適用於訓練成功的模型。
+>
+
+若要重新評分模型，請在Mix Modeler介面中：
+
+1. 選取 ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** 從左側邊欄。
+
+1. 選取模型名稱，其中包含 **[!UICONTROL Last run status]** 之 <span style="color:green">●</span> **[!UICONTROL Success]** 從 **[!UICONTROL Models]** 表格。
+
+1. 從內容功能表中，選取 **[!UICONTROL Re-score]**. 顯示模型的更新狀態可能需要幾分鐘的時間。
+

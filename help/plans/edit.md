@@ -2,13 +2,13 @@
 title: 編輯計畫
 description: 瞭解如何在Mix Modeler中編輯計畫。
 feature: Plans
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 91385595-284f-4fcb-b54b-9539905e552b
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
-
 
 # 編輯計畫
 
@@ -16,13 +16,24 @@ ht-degree: 0%
 
 在 [!UICONTROL Plan insights]，即會建立您的計畫深入分析，並顯示 [!UICONTROL Model]，則 [!UICONTROL Data range]、和 [!UICONTROL Total budget] 計畫所根據的。
 
-擷取完成後，您會看到計畫的概觀，其中包含視覺效果 [!UICONTROL Forecasted ROI] 和 [!UICONTROL Forecasted revenue].
+擷取完成後，您會看到計畫概覽，包括：
+
+- [!UICONTROL Forecasted paid channel ROI] 視覺效果
+- [!UICONTROL Forecasted revenue] 視覺效果
+- [!UICONTROL Data range breakdown] 計畫的表格，顯示欄位
+
+   - Channel
+   - ROI
+   - CPA
+   - 收入
+   - 轉換目標
+   - 支出
+
+![計畫總覽](../assets/overview-plan.png)
 
 1. 選取 **[!UICONTROL Close]** 以返回「計畫」介面。
 
-1. （選擇性）選取 **[!UICONTROL Plan breakdown]** 以檢視計畫的劃分表。
-
-   ![計畫總覽](../assets/overview-plan.png)
+1. 若要下載包含日期範圍劃分資料的CSV檔案，請選取「 」 ![下載](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
 
 1. 若要編輯計畫，請選取 **[!UICONTROL Edit plan]**：
 
@@ -65,4 +76,3 @@ ht-degree: 0%
 1. 若要取消計畫更新，請選取 **[!UICONTROL Cancel]**.
 
    在 **[!UICONTROL No work will be saved]** 對話方塊，選取 **[!UICONTROL Cancel]** 以繼續處理您的計畫或選取 **[!UICONTROL OK]** 返回「計畫」介面。
-

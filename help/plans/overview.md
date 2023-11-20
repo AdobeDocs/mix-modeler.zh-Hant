@@ -3,9 +3,9 @@ title: 計畫
 description: 瞭解如何在Mix Modeler中檢視、選取和操作計畫。
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: f445cb2b1ec04ffe9247e858c048587802bffe9c
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '417'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,6 @@ Mix Modeler中的計畫可讓您依業務單位和管道分配預算。 計畫�
    | 欄名稱 | 詳細資料 |
    |---|---|
    | 名稱 | 計畫名稱 |
-   | 說明 | 模型說明 |
    | 模型 | 作為計畫基礎的模型。 |
    | 日期範圍 | 計畫的完整日期範圍。 |
    | 預算 | 計畫的總預算。 |
@@ -62,6 +61,7 @@ Mix Modeler中的計畫可讓您依業務單位和管道分配預算。 計畫�
 ## 編輯計畫
 
 若要編輯計畫，請從表格中選取計畫的名稱。 另請參閱 [編輯計畫](edit.md) 以取得詳細資訊。
+
 
 ## 選擇計畫並對計畫採取行動
 

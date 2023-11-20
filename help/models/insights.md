@@ -2,13 +2,13 @@
 title: 模型深入分析
 description: 瞭解如何取得有關您模型的詳細資訊，例如Mix Modeler中的歷史總覽、模型見解和模型品質。
 feature: Models
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
-
 
 # 模型深入分析
 
@@ -27,36 +27,37 @@ ht-degree: 0%
 
 「歷史總覽」索引標籤顯示以下專案的Widget：
 
-* 依會計季度和產品劃分的轉換與支出
+* 依會計季度和產品劃分的轉換與支出。
 
-* 依據管道的支出
+* 依據管道的支出。
 
-* 接觸點支出
+* 接觸點支出。
 
   您可以為此Widget選取要顯示的替代支出型管道。 從以下來源選取管道： **[!UICONTROL Channels]**.
 
-* 接觸點數量
+* 接觸點數量。
 
   您可以為此Widget選取要顯示的替代磁碟區型通道。 從以下來源選取管道： **[!UICONTROL Channels]**.
 
-
-
 ![模型 — 歷史總覽](../assets/model-historical-overview.png)
-
 
 ## 模型深入分析
 
 「模型深入分析」標籤會顯示以下專案的Widget：
 
-* 依日期和基本媒體所區分的貢獻
+* 依日期和基本媒體所區分的貢獻。 棧疊圖表有序：底部為基底、中間為非支出管道、頂端為支出管道。
 
-* 依據管道的貢獻
+* 依據管道的貢獻。
 
-* 行銷績效摘要
-
-您可以將滑鼠停留在每個Widget中的個別圖表元素上，以檢視包含更多詳細資訊的彈出視窗。
+* 行銷績效摘要。
 
 ![模型 — 模型深入分析](../assets/model-model-insights.png)
+
+您可以將滑鼠停留在每個介面工具集中的個別圖表元素上，以顯示包含更多詳細資訊的彈出視窗。
+
+若要下載包含Widget資料的CSV檔案，請選取 ![下載](../assets/icons/Download.svg).
+
+
 
 
 ## 模型品質
@@ -71,4 +72,4 @@ ht-degree: 0%
 
 ![模型品質](../assets/model-quality.png)
 
-
+若要下載包含Widget資料的CSV檔案，請選取 ![更多](../assets/icons/More.svg) 在Widget中，並從內容功能表中選取 ![下載](../assets/icons/Download.svg) **[!UICONTROL Download as CSV]**.
