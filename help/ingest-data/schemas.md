@@ -3,10 +3,10 @@ title: 結構描述
 description: 瞭解如何管理將資料擷取至Mix Modeler所需的結構描述。
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: e40d1eb484f3ee6d289adbe1355455bbb202825a
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 6%
+source-wordcount: '377'
+ht-degree: 3%
 
 ---
 
@@ -46,20 +46,20 @@ ht-degree: 6%
 
   | 時間戳記 | date_type | 因數 | 值 |
   |---|---|---|--:|
-  | 2020-11-28T00:00:00.000盎司 | 週 | 競爭者索引 | 289.8 |
-  | 2020-12-05T00:00:00.000盎司 | 週 | 競爭者索引 | 291.2 |
-  | 2020-12-12T00:00:00.000盎司 | 週 | 競爭者索引 | 280.07 |
+  | 2020-11-28T00:00:00.000盎司 | 周 | 競爭者索引 | 289.8 |
+  | 2020-12-05T00:00:00.000盎司 | 周 | 競爭者索引 | 291.2 |
+  | 2020-12-12T00:00:00.000盎司 | 周 | 競爭者索引 | 280.07 |
   | ... | ... | ... | ... |
 
 - 國定假日資料
 
   | 時間戳記 | date_type | 因數 | 值 |
   |---|---|---|--:|
-  | 2020-11-28T00:00:00.000盎司 | 週 | all_holidays_flag | 0.0 |
-  | 2020-12-05T00:00:00.000盎司 | 週 | all_holidays_flag | 0.0 |
-  | 2020-12-12T00:00:00.000盎司 | 週 | all_holidays_flag | 0.0 |
-  | 2020-12-19T00:00:00.000盎司 | 週 | all_holidays_flag | 0.0 |
-  | 2020-12-26T00:00:00.000盎司 | 週 | all_holidays_flag | 1.0 |
+  | 2020-11-28T00:00:00.000盎司 | 周 | all_holidays_flag | 0.0 |
+  | 2020-12-05T00:00:00.000盎司 | 周 | all_holidays_flag | 0.0 |
+  | 2020-12-12T00:00:00.000盎司 | 周 | all_holidays_flag | 0.0 |
+  | 2020-12-19T00:00:00.000盎司 | 周 | all_holidays_flag | 0.0 |
+  | 2020-12-26T00:00:00.000盎司 | 周 | all_holidays_flag | 1.0 |
   | ... | ... | ... | ... |
 
 
@@ -68,3 +68,18 @@ ht-degree: 6%
 ![摘要結構](../assets/summary-schema.png)
 
 由於設定檔擷取為非同步性質，在從外部來源收集彙總或摘要資料時，建議使用外部來源系統稽核詳細資料欄位群組作為結構描述的一部分。 此欄位群組定義外部來源的一組稽核屬性。
+
+
+## 支援的資料型別
+
+目前，Mix Modeler不支援Experience Platform資料型別的子集。 下列基本資料型別（欄位），已提及 [結構描述組合基本概念](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type)，支援：
+
+- 字串
+- 整數
+- 兩次
+- 布林值
+- 長
+- 短
+- 位元組
+- 日期
+- 日期時間
