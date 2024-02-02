@@ -4,9 +4,9 @@ description: 取得 Mix Modeler 的功能概觀。
 short-description: 取得 Mix Modeler 的功能概觀。
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-source-git-commit: 512cc28a9fab81438d54e30bb6e20f05da5265d1
+source-git-commit: 18bb0bb50d5045536a58cb36cc9b99ccb9b17e25
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '287'
 ht-degree: 8%
 
 ---
@@ -50,3 +50,7 @@ Mix Modeler提供下列功能：
 | **建立和比較預算案例** | 開發多種預算計畫並比較其影響，為您的企業做出最佳決策。 |
 
 {style="table-layout:auto"}
+
+>[!MORELIKETHIS]
+>
+>[瞭解Mix Modeler工作流程](workflow.md)

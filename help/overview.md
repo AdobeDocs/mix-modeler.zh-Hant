@@ -4,7 +4,7 @@ description: 了解如何使用 Mix Modeler 跨所有管道測量行銷活動並
 short-description: 了解如何使用 Mix Modeler 跨所有管道測量行銷活動並全面最佳化規劃。
 feature: Harmonized Data, Models, Plans
 exl-id: 3427c338-f2a0-416b-bb4c-d8fef929c38a
-source-git-commit: fbfc1bbc4fbaacdaf264102f6914b5ecbd2625f9
+source-git-commit: 18bb0bb50d5045536a58cb36cc9b99ccb9b17e25
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 18%
@@ -20,7 +20,7 @@ ht-degree: 18%
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="/help/overview.md"><img src="./assets/whatis-mm.png"></a>
+    <a href="/help/get-started/about.md"><img src="./assets/whatis-mm.png"></a>
     <div><strong>快速入門</strong><br/>取得Mix Modeler工作流程的概觀和深入分析。</div>
     </td>
     <td>
@@ -38,7 +38,7 @@ ht-degree: 18%
     </td>
   </tr>
   <tr style="border: 0;">
-    <td align="center"><a href="/help/overview.md"><img src="./assets/learn-more-button.svg"></a></td>
+    <td align="center"><a href="/help/get-started/about.md"><img src="./assets/learn-more-button.svg"></a></td>
     <td align="center"><a href="/help/ingest-data/overview.md"><img src="./assets/learn-more-button.svg"></a></td>
     <td align="center"><a href="/help/harmonize-data/overview.md"><img src="./assets/learn-more-button.svg"></a></td>
     <td align="center"><a href="/help/models/overview.md"><img src="./assets/learn-more-button.svg"></a></td>
