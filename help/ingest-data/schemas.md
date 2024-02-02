@@ -3,7 +3,7 @@ title: 結構描述
 description: 瞭解如何管理將資料擷取至Mix Modeler所需的結構描述。
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: e40d1eb484f3ee6d289adbe1355455bbb202825a
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 3%
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 1. 前往Mix Modeler介面。
 
-1. 選取 ![方案](../assets/icons/Schemas.svg) **[!UICONTROL Schemas]**，底下 **[!UICONTROL DATA MANAGEMENT]**.
+1. 選取 ![方案](../assets/icons/Schemas.svg) **[!UICONTROL Schemas]**，底下 **[!UICONTROL SETUP]**.
 
 請參閱 [結構描述UI總覽](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) 以取得詳細資訊。
 

@@ -2,10 +2,10 @@
 user-guide-title: Mix Modeler 指南
 breadcrumb-title: Mix Modeler 指南
 user-guide-description: 了解如何使用 Mix Modeler。
-source-git-commit: a16438f55c0f819c63a3252dbf1de7297ea23b35
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 50%
+source-wordcount: '75'
+ht-degree: 44%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 50%
    + [什麼是Mix Modeler？](get-started/about.md)
    + [應用程式工作流程](get-started/workflow.md)
 
-+ 控制面板 {#dashboard}
++ 儀表板 {#dashboard}
    + [概觀](dashboard/overview.md)
    + [協調的資料](dashboard/harmonized-data.md)
    + [計畫](dashboard/plans.md)
@@ -41,6 +41,7 @@ ht-degree: 50%
    + [資料集規則](harmonize-data/dataset-rules.md)
    + [行銷接觸點](harmonize-data/marketing-touchpoints.md)
    + [轉換](harmonize-data/conversions.md)
+   + [使用情況報表](harmonize-data/usage-report.md)
 
 + 擷取資料 {#ingest-data}
    + [概觀](ingest-data/overview.md)

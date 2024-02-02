@@ -3,10 +3,10 @@ title: 協調資料
 description: 瞭解如何協調Mix Modeler中的資料。
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 16%
+source-wordcount: '854'
+ht-degree: 7%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 16%
 * 彙總或摘要資料，例如，從圍牆花園資料來源收集而來，或是從公告牌行銷活動、事件或實體廣告行銷活動收集而來的離線廣告資料（如支出）。
 * 事件資料，例如來自第一方資料來源的資料。 此事件資料可以透過Adobe Analytics來源聯結器從Adobe Analytics收集，或透過Experience Platform Web、Mobile SDK或Edge Network API收集，或使用來源聯結器擷取的資料。
 
-Mix Modeler的協調服務會將彙總和事件資料同化為一致的資料檢視。 此資料檢視是Mix Modeler中計畫和模型的來源。
+Mix Modeler的協調服務會將彙總和事件資料同化為一致的資料檢視。 此資料檢視結合內部和外部因素資料，是Mix Modeler中模型的來源。
 
 ## 協調資料的範例
 
@@ -43,10 +43,10 @@ Mix Modeler的協調服務會將彙總和事件資料同化為一致的資料檢
 
 | 日期 | 日期型別 | Channel | Campaign | 地理 | 點擊數 | 支出 |
 |--- |:---:|--- |---|---|---:|---:|
-| 01-01-2022 | 週 | facebook | FB_Fall_01 | US | 8000 | 100 |
-| 01-08-2022 | 週 | facebook | FB_Fall_02 | US | 1000 | 10 |
-| 01-08-2022 | 週 | facebook | FB_Fall_01 | US | 7000 | 100 |
-| 01-16-2022 | 週 | facebook | FB_Summer_01 | CA | 10000 | 80 |
+| 01-01-2022 | 周 | facebook | FB_Fall_01 | US | 8000 | 100 |
+| 01-08-2022 | 周 | facebook | FB_Fall_02 | US | 1000 | 10 |
+| 01-08-2022 | 周 | facebook | FB_Fall_01 | US | 7000 | 100 |
+| 01-16-2022 | 周 | facebook | FB_Summer_01 | CA | 10000 | 80 |
 
 {style="table-layout:auto"}
 
@@ -69,7 +69,7 @@ Mix Modeler的協調服務會將彙總和事件資料同化為一致的資料檢
 
 來自客戶的體驗事件資料集（Web SDK事件）範例。
 
-| 時間戳記 | 身分識別命名空間 | 身分ID | Channel | 點擊數 |
+| 時間戳記 | 身分命名空間 | 身分ID | Channel | 點擊數 |
 |--- |--- |--- |--- |---:|
 | 01-01-2022 00:01:01.000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
 | 01-01-2022 00:01:01.000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
@@ -85,19 +85,19 @@ Mix Modeler的協調服務會將彙總和事件資料同化為一致的資料檢
 
 | 日期 | 日期型別 | Channel | Campaign | 品牌 | 地理 | 目標 | 點擊數 | 支出 | 收入 |
 |--- |:---:|--- |--- |--- |---|---|---:|---:|---:|
-| 12-27-2021 | 週 | YouTube | Y_Fall_02 | BrandX | US | 空 | 11000 | 110 | 空 |
-| 01-03-2022 | 週 | YouTube | Y_Fall_01 | BrandY | CA | 空 | 10000 | 100 | 空 |
-| 01-03-2022 | 週 | YouTube | Y_Summer_01 | 空 | CA | 空 | 9000 | 80 | 空 |
-| 01-01-2022 | 週 | facebook | FB_Fall_01 | 空 | US | 空 | 8000 | 100 | 空 |
-| 01-08-2022 | 週 | facebook | FB_Fall_02 | 空 | US | 空 | 1000 | 10 | 空 |
-| 01-08-2022 | 週 | facebook | FB_Fall_01 | 空 | US | 空 | 7000 | 100 | 空 |
-| 01-16-2022 | 週 | facebook | FB_Summer_01 | 空 | CA | 空 | 10000 | 80 | 空 |
-| 12-27-2021 | 週 | 空 | 空 | 空 | US | 時尚 | 空 | 空 | 200 |
-| 01-03-2022 | 週 | 空 | 空 | 空 | US | 時尚 | 空 | 空 | 10 |
-| 01-03-2022 | 週 | 空 | 空 | 空 | US | 珠寶 | 空 | 空 | 1100 |
-| 01-10-2022 | 週 | 空 | 空 | 空 | CA | 珠寶 | 空 | 空 | 80 |
-| 01-01-2022 | 週 | CSE | 空 | 空 | 空 | 空 | 2 | 空 | 空 |
-| 01-08-2022 | 週 | CSE | 空 | 空 | 空 | 空 | 2 | 空 | 空 |
+| 12-27-2021 | 周 | YouTube | Y_Fall_02 | BrandX | US | 空 | 11000 | 110 | 空 |
+| 01-03-2022 | 周 | YouTube | Y_Fall_01 | BrandY | CA | 空 | 10000 | 100 | 空 |
+| 01-03-2022 | 周 | YouTube | Y_Summer_01 | 空 | CA | 空 | 9000 | 80 | 空 |
+| 01-01-2022 | 周 | facebook | FB_Fall_01 | 空 | US | 空 | 8000 | 100 | 空 |
+| 01-08-2022 | 周 | facebook | FB_Fall_02 | 空 | US | 空 | 1000 | 10 | 空 |
+| 01-08-2022 | 周 | facebook | FB_Fall_01 | 空 | US | 空 | 7000 | 100 | 空 |
+| 01-16-2022 | 周 | facebook | FB_Summer_01 | 空 | CA | 空 | 10000 | 80 | 空 |
+| 12-27-2021 | 周 | 空 | 空 | 空 | US | 時尚 | 空 | 空 | 200 |
+| 01-03-2022 | 周 | 空 | 空 | 空 | US | 時尚 | 空 | 空 | 10 |
+| 01-03-2022 | 周 | 空 | 空 | 空 | US | 珠寶 | 空 | 空 | 1100 |
+| 01-10-2022 | 周 | 空 | 空 | 空 | CA | 珠寶 | 空 | 空 | 80 |
+| 01-01-2022 | 周 | CSE | 空 | 空 | 空 | 空 | 2 | 空 | 空 |
+| 01-08-2022 | 周 | CSE | 空 | 空 | 空 | 空 | 2 | 空 | 空 |
 
 {style="table-layout:auto"}
 
@@ -122,7 +122,7 @@ Mix Modeler的協調服務會將彙總和事件資料同化為一致的資料檢
 
    1. 若要重新定義重新計算協調資料所依據的期間，請輸入日期範圍 **[!UICONTROL Date range]** 或使用 ![行事曆](../assets/icons/Calendar.svg) 以選取資料範圍。
 
-   1. 若要修改「協調資料」表格中顯示的協調欄位欄，請使用 ![設定](../assets/icons/Setting.svg) 以開啟 **[!UICONTROL Column settings]** 對話方塊。
+   1. 若要修改「協調」資料表中顯示的協調欄位欄，請使用 ![設定](../assets/icons/Setting.svg) 以開啟 **[!UICONTROL Column settings]** 對話方塊。
 
       1. 選取 ![SelectBox](../assets/icons/SelectBox.svg) 一或多個資料行 **[!UICONTROL AVAILABLE COLUMNS]** 和使用 ![V形箭號右側](../assets/icons/ChevronRight.svg) 以新增這些欄至 **[!UICONTROL SELECTED COLUMNS]**.
 
@@ -133,3 +133,5 @@ Mix Modeler的協調服務會將彙總和事件資料同化為一致的資料檢
       1. 若要變更欄的顯示順序，您可以將欄移入 **[!UICONTROL SELECTED COLUMNS]** 透過拖放方式來上下移動。
 
    1. 選取 **[!UICONTROL Submit]** 以提交欄設定變更。 選取 **[!UICONTROL Close]** 以取消您所做的任何變更。
+
+1. 如果有更多頁面可用，請使用 ![向左鍵](../assets/icons/ChevronLeft.svg) 或 ![向右鍵](../assets/icons/ChevronRight.svg) 在 **[!UICONTROL Page _x _之_x_]** 以在頁面之間移動。

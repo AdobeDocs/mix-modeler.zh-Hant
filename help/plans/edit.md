@@ -3,9 +3,9 @@ title: 編輯計畫
 description: 瞭解如何在Mix Modeler中編輯計畫。
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
+source-git-commit: cbe4b4bf17773a42e4a13d4777443e5f1f50dc6e
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,11 @@ ht-degree: 0%
 
 1. 選取 **[!UICONTROL Close]** 以返回「計畫」介面。
 
+1. 選取 **[!UICONTROL X]** 或 **[!UICONTROL  %]** 操作說明 **[!UICONTROL View ROI]**.
+
 1. 若要下載包含日期範圍劃分資料的CSV檔案，請選取「 」 ![下載](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
+
+1. 若要依管道類別檢視日期範圍劃分，請選取「 」 **[!UICONTROL All channels]**， **[!UICONTROL Paid channels]**，或 **[!UICONTROL Non-paid channels]** 從 **[!UICONTROL View]** 選取。
 
 1. 若要編輯計畫，請選取 **[!UICONTROL Edit plan]**：
 
@@ -53,7 +57,7 @@ ht-degree: 0%
 
          1. 修改 **[!UICONTROL Date range]** 輸入日期或使用選取日期範圍，以取得一或多個計畫的日期範圍 ![行事曆](../assets/icons/Calendar.svg).
 
-         1. 修改 **[!UICONTROL Budget]** 您計畫的一或多個日期範圍。
+         1. 修改 **[!UICONTROL Budget]** 一個或多個計畫的日期範圍。
 
          若要新增其他日期範圍（每個日期範圍都有預算），請選取「 」 ![行事曆新增](../assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
 

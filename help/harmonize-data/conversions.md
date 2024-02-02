@@ -2,13 +2,13 @@
 title: 轉換
 description: 瞭解如何建立轉換，以便用於協調Mix Modeler中的資料。
 feature: Harmonized Data, Conversions
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 3%
+source-wordcount: '318'
+ht-degree: 1%
 
 ---
-
 
 # 轉換
 
@@ -31,6 +31,7 @@ ht-degree: 3%
 | 名稱 | 轉換的名稱。 |
 | 收入 | 用於計算轉換收入的協調資料量度。 |
 | 轉換量度 | 用作分析轉換量度的協調資料量度。 |
+| 類別 | 轉換的轉換類別。 |
 | 已建立 | 建立轉換的日期和時間。 |
 | 上次修改時間 | 上次修改轉換的日期和時間。 |
 
@@ -42,13 +43,13 @@ ht-degree: 3%
 
 1. 選取 ![新增](../assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion]**.
 
-1. 在 **[!UICONTROL Create Conversion]** 對話方塊：
+1. 在 **[!UICONTROL Create conversion]** 對話方塊：
 
    1. 輸入名稱 **[!UICONTROL Conversion]**，例如 `Store Conversions`.
 
    1. 定義 **[!UICONTROL Conversion category]**.
 
-      1. 選取值，從 **[!UICONTROL *選取協調……*]**，例如 `Conversion Type`.
+      1. 選取值，從 **[!UICONTROL *選取協調……*]**，例如 `Conversion types`.
 
       1. 選取運運算元的值 ![V形](../assets/icons/ChevronDown.svg)，例如 **[!UICONTROL is]**.
 
@@ -63,3 +64,20 @@ ht-degree: 3%
       ![替代文字](../assets/create-conversion.png)
 
 1. 建立後，轉換會被新增到轉換表格中。
+
+
+## 檢視轉換
+
+若要檢視轉換：
+
+1. 選取 ![更多](../assets/icons/More.svg) 將滑鼠游標停留在表格中的轉換名稱上時。
+
+1. 選取 ![檢視](../assets/icons/ViewDetail.svg) **檢視**. 對話方塊會顯示轉換的詳細資料。 另請參閱 [新增轉換](#add-a-conversion) 以取得詳細資訊。 選取 **[!UICONTROL Cancel]** 以關閉對話方塊。
+
+
+## 刪除轉換
+
+若要刪除轉換：
+
+1. 選取 ![刪除](../assets/icons/Delete.svg) **刪除** 將滑鼠游標停留在表格中的轉換名稱上時。
+1. 在 **[!UICONTROL Delete conversion]** 對話方塊確認對話方塊選取 **[!UICONTROL Delete]** 以永久刪除轉換。
