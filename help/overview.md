@@ -4,7 +4,7 @@ description: 了解如何使用 Mix Modeler 跨所有管道測量行銷活動並
 short-description: 了解如何使用 Mix Modeler 跨所有管道測量行銷活動並全面最佳化規劃。
 feature: Harmonized Data, Models, Plans
 exl-id: 3427c338-f2a0-416b-bb4c-d8fef929c38a
-source-git-commit: 18bb0bb50d5045536a58cb36cc9b99ccb9b17e25
+source-git-commit: 1e5bfe6901332f5545e6bdeea46da96d475b3ce1
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 18%
@@ -13,7 +13,7 @@ ht-degree: 18%
 
 # Adobe Mix Modeler指南
 
-本技術檔案指南提供Adobe的自助協助 **Mix Modeler**. Mix Modeler是一種Adobe Experience Cloud應用程式，可跨所有管道（付費、贏取和擁有）來測量行銷活動及最佳化規劃。 Mix Modeler是以Adobe Experience Platform為基礎建立，並由Adobe Sensei提供技術支援。
+本技術檔案指南提供Adobe的自助協助 **Mix Modeler**. Mix Modeler是一種Adobe Experience Cloud應用程式，可跨所有管道（付費、贏取和擁有）來測量行銷活動及最佳化規劃。 Mix Modeler是以Adobe Experience Platform為建置基礎，並由Adobe Sensei提供技術支援。
 
 ## 從基礎知識開始
 
