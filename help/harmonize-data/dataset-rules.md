@@ -3,9 +3,9 @@ title: 資料集規則
 description: 瞭解如何定義資料集規則，以便用於協調Mix Modeler中的資料。
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '998'
 ht-degree: 0%
 
 ---
@@ -54,11 +54,13 @@ ht-degree: 0%
 
 1. 當您選取資料集 **[!UICONTROL Summary]** 類別：
 
+   1. 若要定義資料集的資料必須彙總還是要取代現有資料，請選取「 」 **[!UICONTROL Aggregation]** 或 **[!UICONTROL Replacement]** 的 **[!UICONTROL Data restatement is by]**.
+
    1. 對應每個 **[!UICONTROL Available dataset fields]** 至對應的 **[!UICONTROL Standard harmonized fields]** 在 **[!UICONTROL Map to harmonized fields]**. 如果您不想將資料集欄位對應到協調的欄位，請明確選取 **[!UICONTROL -- None --]**.
 
    1. 如果您需要清單中沒有的新協調欄位，請選取 **[!UICONTROL Create New]** 建立新的協調欄位。 您會看到對話方塊，如中所述 [加入新的協調欄位](fields.md#add-a-harmonized-field) 以快速讓您新增新的協調欄位。
 
-   1. 規則的所有欄位完成對應後，選取 **[!UICONTROL Save as draft]** 儲存規則的草稿版本或 **[!UICONTROL Save]** 以儲存及啟動規則。  選取 **[!UICONTROL Cancel]** 以取消規則組態。
+   1. 規則的所有欄位完成對應後，選取 **[!UICONTROL Save as draft]** 儲存規則的草稿版本或 **[!UICONTROL Save]** 以儲存及啟動規則。 選取 **[!UICONTROL Cancel]** 以取消規則組態。
 
       ![建立資料集規則](../assets/dataset-create-summary.png)
 
@@ -103,7 +105,7 @@ ht-degree: 0%
 
 1. 選取 ![新增](../assets/icons/AddCircle.svg) **[!UICONTROL Add field]** 以定義其他欄位。
 
-完成後，選取 **[!UICONTROL Save as draft]** 儲存規則的草稿版本或 **[!UICONTROL Save]** 以儲存及啟動規則。  選取 **[!UICONTROL Cancel]** 以取消規則組態。
+完成後，選取 **[!UICONTROL Save as draft]** 儲存規則的草稿版本或 **[!UICONTROL Save]** 以儲存及啟動規則。 選取 **[!UICONTROL Cancel]** 以取消規則組態。
 
 
 ### 編輯資料集規則
@@ -130,7 +132,7 @@ ht-degree: 0%
 
 1. 從 **[!UICONTROL Sync data for dataset rules]** 對話方塊中，選取 **[!UICONTROL Refresh harmonized data for summary datasets]**， **[!UICONTROL Refresh harmonized data for event datasets]**，或 **[!UICONTROL Refresh harmonized data for both summary + event datasets]**.
 
-1. 選取 **[!UICONTROL Sync]** 根據已定義的資料集規則，在資料集中的協調資料和資料之間開始同步。 若要取消同步，請選取 **[!UICONTROL Cancel]**.
+1. 若要根據已定義的資料集規則，在資料集中的協調資料和資料之間開始同步，請選取「 」 **[!UICONTROL Sync]**. 若要取消同步，請選取 **[!UICONTROL Cancel]**.
 
    ![同步資料](../assets/sync-data.png)
 

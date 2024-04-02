@@ -3,9 +3,9 @@ title: 模型深入分析
 description: 瞭解如何取得有關您模型的詳細資訊，例如Mix Modeler中的歷史總覽、模型見解和模型品質。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 17d4609f251808f68372185ac90530e164024b5f
+source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -62,18 +62,29 @@ ht-degree: 0%
 若要以Microsoft® Excel格式下載完整的模型分析資料，請選取 ![下載](../assets/icons/Download.svg) **[!UICONTROL Download data]**.
 
 
-
-
 ## 模型品質
 
-「模型品質」標籤會顯示用於測量的Widget：
+![模型品質評估](/help/assets/model-quality-assessment.png)
+模型品質標籤顯示
 
-* R2 （R平方），表示資料符合回歸模型的程度（符合的程度）。
+* [!UICONTROL Model Assessment] 視覺效果，您可根據「實際」與「預計」或「剩餘」轉換劃分視覺效果。
 
-* MAPE （平均絕對誤差百分比），這是最常用來測量預測準確度的KPI之一，並以實際值的百分比表示預測誤差。
+  若要劃分視覺效果，請選取 **[!UICONTROL Actual vs. Predicted]** 或 **[!UICONTROL Residuals]** 從 **[!UICONTROL Breakdown]** 清單。
 
-* RMSE （均方根誤差）：顯示平均「誤差」，根據誤差的平方加權。
+* [!UICONTROL Model fitting metrics] 表格，針對每個轉換量度顯示下列欄：
 
-![模型品質](../assets/model-quality.png)
+   * 實際轉換
 
-若要下載包含Widget資料的CSV檔案，請選取 ![更多](../assets/icons/More.svg) 在Widget中，並從內容功能表中選取 ![下載](../assets/icons/Download.svg) **[!UICONTROL Download as CSV]**.
+   * 模型化轉換
+
+   * 剩餘轉換（實際轉換與模型化轉換之間的差異）
+
+   * 模型品質分數值：
+
+      * R2 （R平方），表示資料符合回歸模型的程度（符合的程度）。
+
+      * MAPE （平均絕對誤差百分比），這是最常用來測量預測準確度的KPI之一，並以實際值的百分比表示預測誤差。
+
+      * RMSE （均方根誤差）：顯示平均「誤差」，根據誤差的平方加權。
+
+  若要下載包含表格資料的CSV檔案，請選取 ![下載](../assets/icons/Download.svg).

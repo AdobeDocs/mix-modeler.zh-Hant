@@ -3,9 +3,9 @@ title: 協調資料
 description: 瞭解如何協調Mix Modeler中的資料。
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '893'
 ht-degree: 7%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 7%
 * 彙總或摘要資料，例如，從圍牆花園資料來源收集而來，或是從公告牌行銷活動、事件或實體廣告行銷活動收集而來的離線廣告資料（如支出）。
 * 事件資料，例如來自第一方資料來源的資料。 此事件資料可以透過Adobe Analytics來源聯結器從Adobe Analytics收集，或透過Experience Platform Web、Mobile SDK或Edge Network API收集，或使用來源聯結器擷取的資料。
 
-Mix Modeler的協調服務會將彙總和事件資料同化為一致的資料檢視。 此資料檢視結合內部和外部因素資料，是Mix Modeler中模型的來源。
+Mix Modeler的協調服務會將彙總和事件資料同化為一致的資料檢視。 此資料檢視結合內部和外部因素資料，是Mix Modeler中模型的來源。 此服務會使用不同資料集的最高精細度。 例如，如果某個資料集的詳細程度為每月，而其餘資料集的詳細程度為每週和每日，則協調服務會使用每月詳細程度建立資料檢視。
 
 ## 協調資料的範例
 
@@ -118,7 +118,7 @@ Mix Modeler的協調服務會將彙總和事件資料同化為一致的資料檢
 
 1. 選取 ![資料搜尋](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** 從左側邊欄。
 
-1. 選取 **[!UICONTROL Harmonized Data]** 從頂端列。 您可以根據欄位、資料集規則、行銷接觸點以及您定義的轉換，檢視已協調的資料摘要。
+1. 選取 **[!UICONTROL Harmonized Data]** 從頂端列。 系統會根據您定義的欄位、資料集規則、行銷接觸點和轉換，顯示您協調資料的摘要。
 
    1. 若要重新定義重新計算協調資料所依據的期間，請輸入日期範圍 **[!UICONTROL Date range]** 或使用 ![行事曆](../assets/icons/Calendar.svg) 以選取資料範圍。
 
