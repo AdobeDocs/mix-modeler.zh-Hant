@@ -3,9 +3,9 @@ title: 編輯計畫
 description: 瞭解如何在Mix Modeler中編輯計畫。
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: b2719da8b49441c00d86f47596546fd7341f16bd
+source-git-commit: 3e2330ffe0337c4ac9ef09fda3cd611656179d29
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,12 @@ ht-degree: 0%
 
 1. 選取 **[!UICONTROL X]** 或 **[!UICONTROL  %]** 操作說明 **[!UICONTROL View ROI]**.
 
-1. 若要下載包含日期範圍劃分資料的CSV檔案，請選取「 」 ![下載](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**. 從內容功能表中，選取 ![下載](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** CSV格式的詳細資料，或 ![下載](../assets/icons/Download.svg) **[!UICONTROL Summary CSV]** CSV格式的摘要資料。
+1. 若要下載包含日期範圍劃分資料的CSV檔案，請選取「 」 ![下載](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**. 從內容功能表：
+
+   - 選取 ![下載](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** CSV格式的詳細資料，或
+   - 選取 ![下載](../assets/icons/Download.svg) **[!UICONTROL Summary CSV]** CSV格式的摘要資料。
+
+   詳細資料是按周劃分鍵的精細資料。 摘要資料是以模型提供的日期範圍作為關鍵字的資料。
 
 1. 若要依管道類別檢視日期範圍劃分，請選取「 」 **[!UICONTROL All channels]**， **[!UICONTROL Paid channels]**，或 **[!UICONTROL Non-paid channels]** 從 **[!UICONTROL View]** 選取。
 
