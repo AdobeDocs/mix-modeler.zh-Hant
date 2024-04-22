@@ -3,9 +3,9 @@ title: 編輯計畫
 description: 瞭解如何在Mix Modeler中編輯計畫。
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: 3e2330ffe0337c4ac9ef09fda3cd611656179d29
+source-git-commit: 128a548af9b22e6b14794b1ba94def6431e97c51
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 1. 若要下載包含日期範圍劃分資料的CSV檔案，請選取「 」 ![下載](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**. 從內容功能表：
 
-   - 選取 ![下載](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** CSV格式的詳細資料，或
+   - 選取 ![下載](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** CSV格式的詳細資料。
    - 選取 ![下載](../assets/icons/Download.svg) **[!UICONTROL Summary CSV]** CSV格式的摘要資料。
 
    詳細資料是按周劃分鍵的精細資料。 摘要資料是以模型提供的日期範圍作為關鍵字的資料。
