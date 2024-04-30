@@ -2,7 +2,7 @@
 title: 稽核
 description: 瞭解如何稽核Mix Modeler。
 feature: Administration
-source-git-commit: 44e37f385241d90da87e1fd85fb4ce9024b67250
+source-git-commit: e1ef6f2b54ae7c80cb115b417909b154b6153ce2
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 6%
@@ -50,3 +50,4 @@ ht-degree: 6%
 1. 若要修改活動記錄中顯示的欄，請選取 ![欄](../assets/icons/ColumnSetting.svg) 和 **[!UICONTROL Customize table]** 對話方塊選取要顯示的欄。 選取 **[!UICONTROL Apply]** 若要套用選取範圍， **[!UICONTROL Cancel]** 以取消選取。
 
 1. 若要下載稽核記錄，請選取 ![下載](../assets/icons/Download.svg) **[!UICONTROL Download log]**. 在 **[!UICONTROL Download log]** 對話方塊選取 **[!UICONTROL CSV]** 或 **[!UICONTROL JSON]** 格式並選取「 」 **[!UICONTROL Download]**.
+
