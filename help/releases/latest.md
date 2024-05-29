@@ -4,10 +4,10 @@ description: 最新 Mix Modeler 發行說明
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: e90ddd25ba7b78bd360096dda4e3af80304a5176
+source-git-commit: 8b2939a84e8f20f775663f2c46184504e44216aa
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 9%
+source-wordcount: '240'
+ht-degree: 10%
 
 ---
 
@@ -22,7 +22,12 @@ ht-degree: 9%
 | 功能 | 說明 | 正式推出 |
 |---|---|---|
 | **資料合併偏好設定** [!BADGE beta] | [資料合併偏好設定](../harmonize-data/dataset-rules.md#data-merge-preferences) 協助解決來自彙總和事件資料來源的資料合併時的衝突。 | 2024年5月29日 |
-| **欄位層級存取控制** | 定義資料集規則時，Experience Platform的 [以屬性為基礎的存取控制](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) 強制在 [欄位層級](../harmonize-data/dataset-rules.md#field-level-access-control). | 2024年5月29日 |
+
+{style="table-layout:auto"}
+
+<!--
+| **Field-level access control** | When defining dataset rules, Experience Platform's [attribute based access control](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) is enforced on a [field-level](../harmonize-data/dataset-rules.md#field-level-access-control). | May 29, 2024 |
+-->
 
 
 ## 2024 年 4 月

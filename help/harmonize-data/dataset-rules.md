@@ -3,9 +3,9 @@ title: 資料集規則
 description: 瞭解如何定義資料集規則，以便用於協調Mix Modeler中的資料。
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: e86e0d64db01eb98c68c3f6877f5a7cc8b855b88
+source-git-commit: 8b2939a84e8f20f775663f2c46184504e44216aa
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1094'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!BADGE Beta]{type=Informative}
+>[!BADGE beta]{type=Informative}
 
 合併摘要資料和事件資料來源中的資料時，資料合併偏好設定可協助解決衝突。 使用案例包括：
 
@@ -153,9 +153,9 @@ ht-degree: 0%
 
 為確保模型預測準確，您可以定義資料合併偏好設定：
 
-1. 選取 ![資料合併偏好設定](../assets/icons/Merge.svg) [!BADGE beta] **資料合併偏好設定**.
+1. 選取 ![資料合併偏好設定](../assets/icons/Merge.svg) [!BADGE beta].
 
-1. 在 **[!UICONTROL Data merge preferences]** 對話方塊：
+1. 在 **[!UICONTROL Data merge preferences]** [!BADGE beta]{type=Informative}
 
    ![資料合併偏好設定](../assets/data-merge-preferences.png)
 
@@ -168,12 +168,12 @@ ht-degree: 0%
          1. 選取 **[!UICONTROL CHANNELS]** 或 **[!UICONTROL CONVERSION TYPES]**. 從清單中選取 **[!UICONTROL All]** 或特定管道或轉換型別。
          1. 選取 **[!UICONTROL Summary]** 或 **[!UICONTROL Event]** 指定在合併資料時，是否偏好使用量度的摘要資料或事件資料（以及所有或選取的管道）。
 
-若要新增一或多個其他管道或轉換型別：
+         若要新增一或多個其他管道或轉換型別：
 
          1. 選取 ![加號](../assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]** 或 ![加號](../assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**.
          1. 選取「**[!UICONTROL Summary]**」或「**[!UICONTROL Event]**」。
 
-若要刪除管道或轉換型別， select ![交叉](../assets/icons/Close.svg).
+         若要刪除管道或轉換型別，請選取「 」 ![交叉](../assets/icons/Close.svg).
 
       1. 若要新增更具體的量度型偏好設定，請重複上一步驟。
 
@@ -181,10 +181,13 @@ ht-degree: 0%
 
 1. 選取 **[!UICONTROL Save]** 以儲存資料合併偏好設定。 已開始重新同步資料。 <br/>選取 **[!UICONTROL Cancel]** 以取消。
 
-## 欄位層級存取控制
+<!--
+## Field-level access control
 
-為協調的資料集設定資料集規則時，Experience Platform [以屬性為基礎的存取控制](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) 在欄位層級強制執行。 當標籤附加至結構描述欄位並啟用拒絕您存取該欄位的作用中原則時，欄位會受到限制。 因此：
+When configuring dataset rules for harmonized datasets, Experience Platform's [attribute based access control](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) is enforced on a field-level. A field is restricted when a label is attached to a schema field and an active policy is enabled that denies access for you to that field. As a result:
 
-* 您沒有在建立資料集規則時看到為您限制的結構描述欄位。
-* 您無法檢視或編輯一或多個限制您使用的結構描述欄位的對應。 當您編輯或檢視包含這類受限制欄位的資料集規則時，您會看到下列畫面。
-  ![不允許動作](../assets/action-not-permitted.png)
+* you do not see the schema fields that are restricted for you when you create a dataset rule, 
+* you are not able to view or edit the mapping of one or more schema fields that are restricted for you. When you edit or view a dataset rule containing such restricted fields, you see the following screen.
+  ![Action not permitted](../assets/action-not-permitted.png)
+
+-->
