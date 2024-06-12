@@ -3,9 +3,9 @@ title: 資料集規則
 description: 瞭解如何定義資料集規則，以便用於協調Mix Modeler中的資料。
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 8b2939a84e8f20f775663f2c46184504e44216aa
+source-git-commit: a066cdff03eade86b09f03209a08ebfa2ab32e8e
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1210'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ ht-degree: 0%
 
    ![資料合併偏好設定](../assets/data-merge-preferences.png)
 
-   * 選取 **[!UICONTROL Default metric preference]**. 在協調期間，當多個資料來源更新指定頻道的量度欄位時，會套用選取的預設量度偏好設定。 此偏好設定會套用至沙箱層級，除非根據特定量度的偏好設定加以覆寫。
+   * 選取 **[!UICONTROL Default metric preference]**. 在協調期間，當多個資料來源更新指定頻道的量度欄位時，會套用選取的預設量度偏好設定。 此偏好設定會套用至沙箱層級，除非根據特定量度的偏好設定加以覆寫。 您可以選取 **[!UICONTROL Summary data]**， **[!UICONTROL Event data]** 和 **[!UICONTROL Sum of summmary and event data]**.
 
    * 若要新增特定量度型偏好設定：
 
@@ -181,13 +181,11 @@ ht-degree: 0%
 
 1. 選取 **[!UICONTROL Save]** 以儲存資料合併偏好設定。 已開始重新同步資料。 <br/>選取 **[!UICONTROL Cancel]** 以取消。
 
-<!--
-## Field-level access control
 
-When configuring dataset rules for harmonized datasets, Experience Platform's [attribute based access control](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) is enforced on a field-level. A field is restricted when a label is attached to a schema field and an active policy is enabled that denies access for you to that field. As a result:
+## 欄位層級存取控制
 
-* you do not see the schema fields that are restricted for you when you create a dataset rule, 
-* you are not able to view or edit the mapping of one or more schema fields that are restricted for you. When you edit or view a dataset rule containing such restricted fields, you see the following screen.
-  ![Action not permitted](../assets/action-not-permitted.png)
+為協調的資料集設定資料集規則時，Experience Platform [以屬性為基礎的存取控制](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) 在欄位層級強制執行。 當標籤附加至結構描述欄位並啟用拒絕您存取該欄位的作用中原則時，欄位會受到限制。 因此：
 
--->
+* 您沒有在建立資料集規則時看到為您限制的結構描述欄位。
+* 您無法檢視或編輯一或多個限制您使用的結構描述欄位的對應。 當您編輯或檢視包含這類受限制欄位的資料集規則時，您會看到下列畫面。
+  ![不允許動作](../assets/action-not-permitted.png)

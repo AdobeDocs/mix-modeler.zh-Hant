@@ -3,9 +3,9 @@ title: 協調的欄位
 description: 瞭解如何定義欄位，以便用於協調Mix Modeler中的資料。
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: fecb122f6e2e8ae532babd0e2964ad200174a032
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '687'
 ht-degree: 8%
 
 ---
@@ -29,7 +29,7 @@ Mix Modeler中預設可用的全域協調欄位為：
 | channel_id | 管道ID | 維度 | 字串 |           |
 | channel_type_at_source | 來源的管道型別 | 維度 | 字串 |           |
 | 頻道 | Channel | 維度 | 字串 |           |
-| 點按次數 | 點擊數 | 量度 | 數字 |           |
+| 點按次數 | 點按次數 | 量度 | 數字 |           |
 | conversiontype | 轉換型別 | 維度 | 字串 |           |
 | 成本 | 成本 | 量度 | 貨幣 |           |
 | 資料集 | 資料集 | 維度 | 字串 |           |
@@ -66,7 +66,7 @@ Mix Modeler中預設可用的全域協調欄位為：
    | 欄位名稱 | 協調欄位的名稱。 |
    | 顯示名稱 | 協調欄位的顯示名稱。 定義資料集規則、行銷接觸點和轉換定義時，會使用此顯示名稱。 |
    | 類別 | 指定協調的資料欄位是否為 [!UICONTROL Dimension]， a [!UICONTROL Metric] 或 [!UICONTROL Derived]. 衍生類別是使用量度式定義的協調欄位。 |
-   | 資料類型 | 指定資料型別([!UICONTROL Number]， [!UICONTROL String]， [!UICONTROL Currency]， [!UICONTROL DateTime])。 |
+   | 資料類型 | 指定資料型別([!UICONTROL Number]， [!UICONTROL String]， [!UICONTROL Currency]， [!UICONTROL Date time])。 |
    | 建立日期 | 建立協調欄位的日期和時間。 |
    | 所有者 | 指出協調的欄位是否為預設欄位([!UICONTROL Global])，或由您定義([!UICONTROL Client])。 |
    | 上次修改日期 | 上次修改協調欄位的資料和時間。 |
@@ -93,7 +93,7 @@ Mix Modeler中預設可用的全域協調欄位為：
 
    1. 選取 **[!UICONTROL Data type]**.
 
-      - **[!UICONTROL String]** 或 **[!UICONTROL DateTime]**，選取的類別為Dimension時。
+      - **[!UICONTROL String]** 或 **[!UICONTROL Date time]**，選取的類別為Dimension時。
       - **[!UICONTROL Number]** 或 **[!UICONTROL Currency]** 當選取的類別為「量度」或「衍生」時。
 
    1. 選取 **[!UICONTROL Submit]** 以新增協調欄位。 選取 **[!UICONTROL Close]** 關閉對話方塊而不新增協調欄位。
