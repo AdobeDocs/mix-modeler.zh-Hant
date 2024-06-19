@@ -4,10 +4,10 @@ description: 最新 Mix Modeler 發行說明
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: cefa5ccc8850e4931b2d0acffe9ca5e8c3f92e00
+source-git-commit: 23c83cd3576951eb5f8d64bd98f8a5b9e57286a5
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 10%
+source-wordcount: '308'
+ht-degree: 9%
 
 ---
 
@@ -21,8 +21,10 @@ ht-degree: 10%
 
 | 功能 | 說明 | 正式推出 |
 |---|---|---|
+| **MTA視覺效果** | 模型深入分析已更新，提供完整的 [MTA視覺效果](../models/insights.md#attribution). | 2024年6月18日 |
+| **CPA量度** | CPA （每個動作的成本）量度適用於 [比較計畫](../plans/compare.md). | 2024年6月18日 |
 | **欄位層級存取控制** | 定義資料集規則時，Experience Platform的 [以屬性為基礎的存取控制](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) 強制在 [欄位層級](../harmonize-data/dataset-rules.md#field-level-access-control). | 2024年6月12日 |
-| P **舊知識接觸點** | 僅限行銷接觸點，在 [!UICONTROL Configure] 步驟，可在以下位置選取： [[!UICONTROL Prior Knowledge]](../models/create.md) 區段。 | 2024年6月12日 |
+| **先前知識接觸點** | 僅限行銷接觸點，在 [!UICONTROL Configure] 步驟，可在以下位置選取： [[!UICONTROL Prior Knowledge]](../models/create.md) 區段。 | 2024年6月12日 |
 
 {style="table-layout:auto"}
 

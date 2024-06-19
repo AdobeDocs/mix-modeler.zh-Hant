@@ -3,9 +3,9 @@ title: 比較計畫
 description: 瞭解如何比較Mix Modeler中的計畫。
 feature: Plans
 exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
-source-git-commit: 18bb0bb50d5045536a58cb36cc9b99ccb9b17e25
+source-git-commit: eb7e964b96c87e74809d1e6182e45351a71ed13c
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '134'
 ht-degree: 1%
 
 ---
@@ -24,11 +24,17 @@ ht-degree: 1%
 * 日期範圍
 * 模型
 * 總預算
-* 頻道預算： **[!UICONTROL AI automated]** 或 **[!UICONTROL Custom + AI]**
+* 管道預算： **[!UICONTROL AI automated]** 或 **[!UICONTROL Custom + AI]**
 * 計畫支出
-* 預測的投資報酬率
-* ROI劃分
+* 預測的投資報酬率（投資報酬率）或CPA （每項動作的成本）
+* ROI （投資報酬率）或CPA （每次動作的成本）細目
 * 預測回訪
+
+其中：
+
+* ROI的定義為（遞增收入 — 支出） /支出。
+* CPA的定義為「支出/增量轉換」。
+
 
 ![比較計畫](../assets/compare-plans.png)
 
