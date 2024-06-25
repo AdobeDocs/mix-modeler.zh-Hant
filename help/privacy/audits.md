@@ -3,10 +3,10 @@ title: 稽核
 description: 瞭解如何從Mix Modeler存取稽核。
 feature: Administration
 exl-id: aa65aac5-bea4-43ff-b0d0-9e8a6a97d3ca
-source-git-commit: 28ab9273c1f606c8b685225f412d51ee305b5f31
+source-git-commit: c45f4e4412258f959726c49129c6b9b6fff48f4a
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 7%
+source-wordcount: '315'
+ht-degree: 6%
 
 ---
 
@@ -37,6 +37,15 @@ ht-degree: 7%
    | Mix Modeler模型 | 建立 | 允許或拒絕 |
    | Mix Modeler模型 | 更新 | 允許或拒絕 |
    | Mix Modeler模型 | 刪除 | 允許或拒絕 |
+   | Mix Modeler模型 | 重新計分 | 允許或拒絕 |
+   | Mix Modeler模型 | 原地複製 | 允許或拒絕 |
+   | Mix Modeler模型 | 訓練/重新訓練 | 允許或拒絕 |
+   | Mix Modeler模型 | 下載/儲存中繼資料 | 允許或拒絕 |
+   | Mix Modeler計畫 | 建立 | 允許或拒絕 |
+   | Mix Modeler計畫 | 更新 | 允許或拒絕 |
+   | Mix Modeler計畫 | 變更關聯的模型 | 允許或拒絕 |
+   | Mix Modeler資料協調 | 觸發同步 | 允許或拒絕 |
+
 
 1. 在活動記錄中選取專案以開啟面板，瞭解更多詳細資訊。
 
