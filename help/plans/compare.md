@@ -3,7 +3,7 @@ title: 比較計畫
 description: 瞭解如何比較Mix Modeler中的計畫。
 feature: Plans
 exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
-source-git-commit: eb7e964b96c87e74809d1e6182e45351a71ed13c
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 1%
@@ -14,9 +14,9 @@ ht-degree: 1%
 
 若要比較「Mix Modeler計畫」介面中的計畫：
 
-* 選取 ![比較](../assets/icons/Compare.svg) **[!UICONTROL Compare Plans]**. 在比較計畫中，為每個計畫選取一個計畫 **[!UICONTROL _選取計畫_]**.
+* 選取 ![比較](/help/assets//icons/Compare.svg) **[!UICONTROL Compare Plans]**. 在比較計畫中，為每個計畫選取一個計畫 **[!UICONTROL _選取計畫_]**.
 
-* 或者，您可以從「計畫」表格中選取兩個計畫，然後從作業列選取 ![比較](../assets/icons/Compare.svg) **[!UICONTROL Compare]**.
+* 或者，您可以從「計畫」表格中選取兩個計畫，然後從作業列選取 ![比較](/help/assets//icons/Compare.svg) **[!UICONTROL Compare]**.
 
 「比較計畫」介面會顯示下列資訊和Widget：
 
@@ -36,7 +36,7 @@ ht-degree: 1%
 * CPA的定義為「支出/增量轉換」。
 
 
-![比較計畫](../assets/compare-plans.png)
+![比較計畫](/help/assets//compare-plans.png)
 
 您可以將滑鼠停留在每個Widget中的個別圖表元素上，以檢視包含更多詳細資訊的彈出視窗。
 

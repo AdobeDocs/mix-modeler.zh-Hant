@@ -3,7 +3,7 @@ title: 模型深入分析
 description: 瞭解如何取得有關您模型的詳細資訊，例如Mix Modeler中的歷史總覽、模型見解和模型品質。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: b503abc710bf3688c1b8219ddd2d242932916501
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '1159'
 ht-degree: 0%
@@ -12,17 +12,17 @@ ht-degree: 0%
 
 # 模型深入分析
 
-若要檢視模型深入分析，請在 ![模型](../assets/icons/FileData.svg) **[!UICONTROL Models]** Mix Modeler介面：
+若要檢視模型深入分析，請在 ![模型](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** Mix Modeler介面：
 
 1. 從 **[!UICONTROL Models]** 表格中，選取具有 **[!UICONTROL Last run status]** 之 <span style="color:green">●</span> **[!UICONTROL Success]**。
 
 1. 從內容功能表中，選取 **[!UICONTROL Model Insights]**.
 
-![模型深入分析標籤列](../assets/model-insights-tabbar.png)
+![模型深入分析標籤列](/help/assets//model-insights-tabbar.png)
 
 您會看到指定模型的上次重新整理時間，且會使用四個標籤來顯示Widget： [模型深入分析](#model-insights)， [歸因](#attribution)， [診斷](#diagnostics)、和 [歷史總覽](#historical-overview).
 
-您可以變更每個標籤上Widget所根據的日期期間。 輸入日期期間或選取 ![行事曆](../assets/icons/Calendar.svg) 以選取日期期間。
+您可以變更每個標籤上Widget所根據的日期期間。 輸入日期期間或選取 ![行事曆](/help/assets//icons/Calendar.svg) 以選取日期期間。
 
 ## [!UICONTROL Model insights]
 
@@ -37,13 +37,13 @@ ht-degree: 0%
 * 邊際回應曲線。
   <br/>從中選擇頻道 **[!UICONTROL Channel]** 更新特定管道Widget的下拉式清單。
 
-![模型 — 模型深入分析](../assets/model-insights-insights.png)
+![模型 — 模型深入分析](/help/assets//model-insights-insights.png)
 
 您可以將滑鼠停留在每個介面工具集中的個別圖表元素上，以顯示包含更多詳細資訊的彈出視窗。
 
-若要下載包含Widget資料的CSV檔案，請選取 ![下載](../assets/icons/Download.svg).
+若要下載包含Widget資料的CSV檔案，請選取 ![下載](/help/assets//icons/Download.svg).
 
-若要以Microsoft® Excel格式下載完整的模型分析資料，請選取 ![下載](../assets/icons/Download.svg) **[!UICONTROL Download data]**.
+若要以Microsoft® Excel格式下載完整的模型分析資料，請選取 ![下載](/help/assets//icons/Download.svg) **[!UICONTROL Download data]**.
 
 ## [!UICONTROL Attribution]
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 從以下專案選取一或多個歸因模型： **[!UICONTROL Attribution Model]** 下拉式清單。 所選的歸因模型會套用至「歸因」標籤中的所有小工具。
 
-![歸因](../assets/model-insights-attribution.png)
+![歸因](/help/assets//model-insights-attribution.png)
 
 Mix Modeler的多點接觸歸因精細事件分數會與整體Mix Modeler分數和ROI相符。 這些分數也可作為Experience Platform中的資料集使用。
 
@@ -79,7 +79,7 @@ Mix Modeler的多點接觸歸因精細事件分數會與整體Mix Modeler分數�
 
 此 [!UICONTROL Daily trends]， [!UICONTROL Weekly trends]，或 [!UICONTROL Monthly trends] widget會顯示所選歸因模型的每日、每週或每月轉換趨勢。
 
-若要選擇期間，請選取 **[!UICONTROL Daily trends]**， **[!UICONTROL Weekly trends]** 或 **[!UICONTROL Monthly trends]** 從 ![更多](../assets/icons/More.svg).
+若要選擇期間，請選取 **[!UICONTROL Daily trends]**， **[!UICONTROL Weekly trends]** 或 **[!UICONTROL Monthly trends]** 從 ![更多](/help/assets//icons/More.svg).
 
 若要檢視詳細資訊，請將滑鼠停留在特定歸因模型的資料行上，以顯示顯示該資料轉換總數的彈出視窗。
 
@@ -87,7 +87,7 @@ Mix Modeler的多點接觸歸因精細事件分數會與整體Mix Modeler分數�
 
 此 [!UICONTROL Breakdown] widget是每個所選歸因模型轉換的劃分管道/接觸點。 此Widget可協助您針對每個管道或接觸點的有效性做出決策。
 
-若要選擇劃分型別，請選取「 」 **[!UICONTROL Breakdown by channel]** 或 **[!UICONTROL Breakdown by touchpoint]** 從 ![更多](../assets/icons/More.svg).
+若要選擇劃分型別，請選取「 」 **[!UICONTROL Breakdown by channel]** 或 **[!UICONTROL Breakdown by touchpoint]** 從 ![更多](/help/assets//icons/More.svg).
 
 若要檢視詳細資訊，請將滑鼠游標停留在任何圖表元素上。
 
@@ -97,7 +97,7 @@ Mix Modeler的多點接觸歸因精細事件分數會與整體Mix Modeler分數�
 
 若要針對「頻道」、「媒體型別」或「遞增轉換」↓以遞增↑或遞減順序來排序表格，請選取欄標題並切換排序。
 
-若要展開個別對話方塊中的表格，請選取 **[!UICONTROL Expand]** 從 ![更多](../assets/icons/More.svg).
+若要展開個別對話方塊中的表格，請選取 **[!UICONTROL Expand]** 從 ![更多](/help/assets//icons/More.svg).
 
 展開的「熱門促銷活動」對話方塊會顯示相同的表格，其中包含下列專案的額外欄
 
@@ -166,17 +166,17 @@ Mix Modeler的多點接觸歸因精細事件分數會與整體Mix Modeler分數�
 
       * RMSE （均方根誤差）：顯示平均誤差，根據誤差的平方加權。
 
-  若要下載包含表格資料的CSV檔案，請選取 ![下載](../assets/icons/Download.svg).
+  若要下載包含表格資料的CSV檔案，請選取 ![下載](/help/assets//icons/Download.svg).
 
-* [!UICONTROL Touchpoint effectiveness] 表格，代表Attribution AI演演算法模型的結果。 只會針對特定時段產生此資料表的資料。 選取 **[!UICONTROL As of *xx/xx/xx， xx：xx TZ *]**![資訊](../assets/icons/InfoOutline.svg) 以取得更多詳細資料。
+* [!UICONTROL Touchpoint effectiveness] 表格，代表Attribution AI演演算法模型的結果。 只會針對特定時段產生此資料表的資料。 選取 **[!UICONTROL As of *xx/xx/xx， xx：xx TZ *]**![資訊](/help/assets//icons/InfoOutline.svg) 以取得更多詳細資料。
 
-  此視覺效果會依降序顯示 [!UICONTROL Efficiency measure] ![降序](../assets/icons/SortOrderDown.svg)，適用於每個接觸點：
+  此視覺效果會依降序顯示 [!UICONTROL Efficiency measure] ![降序](/help/assets//icons/SortOrderDown.svg)，適用於每個接觸點：
 
    * [!UICONTROL Paths touched]：將達成轉換的路徑百分比與未達成轉換的路徑百分比視覺化。 對於接觸點，當歸因轉換比率很高時，您會看到更多歸因轉換。 此比率會比較帶來轉換的路徑百分比與帶來轉換的路徑百分比 *非* 導致轉換。
    * [!UICONTROL Efficiency measure]：由演演算法歸因模型產生，效率測量表示接觸點對轉換的相對重要性，與接觸點數量無關。 效率是以1到5的級數來衡量。 請注意，接觸點數量越多並不保證測量效率越高。
    * [!UICONTROL Total volume]：使用者接觸接觸點的彙總次數。 數字包含出現在達成轉換的路徑上的接觸點以及路徑 *非* 進而產生轉換。
 
-![診斷](../assets/model-insights-diagnostics.png)
+![診斷](/help/assets//model-insights-diagnostics.png)
 
 
 ## [!UICONTROL Historical overview]
@@ -195,4 +195,4 @@ Mix Modeler的多點接觸歸因精細事件分數會與整體Mix Modeler分數�
 
   您可以為此Widget選取要顯示的替代磁碟區型通道。 從以下來源選取管道： **[!UICONTROL Channels]**.
 
-![模型 — 歷史總覽](../assets/model-insights-historical-overview.png)
+![模型 — 歷史總覽](/help/assets//model-insights-historical-overview.png)

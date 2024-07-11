@@ -3,7 +3,7 @@ title: 模型
 description: 瞭解如何在Mix Modeler中設定和使用模型。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
 
 若要檢視目前模型的表格，請在Mix Modeler介面中：
 
-1. 選取 ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** 從左側邊欄。
+1. 選取 ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** 從左側邊欄。
 
 1. 您會看到目前模型的表格。
 
@@ -58,14 +58,14 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
 
    {style="table-layout:auto"}
 
-1. 若要變更為清單顯示的欄，請選取 ![欄設定](../assets/icons/ColumnSetting.svg) 並開啟欄 ![檢查](../assets/icons/Checkmark.svg) 或關閉。
+1. 若要變更為清單顯示的欄，請選取 ![欄設定](/help/assets//icons/ColumnSetting.svg) 並開啟欄 ![檢查](/help/assets//icons/Checkmark.svg) 或關閉。
 
 
 ### 檢視模型的詳細資料
 
 若要檢視模型的詳細資訊：
 
-1. 選取 ![資訊](../assets/icons/Info.svg) 模型以顯示包含詳細資訊的快顯視窗。
+1. 選取 ![資訊](/help/assets//icons/Info.svg) 模型以顯示包含詳細資訊的快顯視窗。
 
 
 
@@ -73,7 +73,7 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
 
 若要檢視模型的深入分析，請在Mix Modeler介面中：
 
-1. 選取 ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** 從左側邊欄。
+1. 選取 ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** 從左側邊欄。
 
 1. 選取模型名稱，其中包含 **[!UICONTROL Last run status]** 之 <span style="color:green">●</span> **[!UICONTROL Success]** 從 **[!UICONTROL Models]** 表格。 模型深入分析僅適用於訓練成功的模型。
 
@@ -85,7 +85,7 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
 
 若要重新評分模型，請在Mix Modeler介面中：
 
-1. 選取 ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** 從左側邊欄。
+1. 選取 ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** 從左側邊欄。
 
 1. 選取模型名稱，其中包含 **[!UICONTROL Last run status]** 之 <span style="color:green">●</span> **[!UICONTROL Success]** 從 **[!UICONTROL Models]** 表格。 重新評分僅適用於訓練成功的模型。
 

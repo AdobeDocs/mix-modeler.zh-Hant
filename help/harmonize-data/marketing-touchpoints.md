@@ -3,7 +3,7 @@ title: 行銷接觸點
 description: 瞭解如何建立行銷接觸點，以便用於協調Mix Modeler中的資料。
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 0%
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 若要在Mix Modeler介面中檢視可用的行銷接觸點表格：
 
-1. 選取 ![資料搜尋](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** 從左側邊欄。
+1. 選取 ![資料搜尋](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** 從左側邊欄。
 
-1. 選取 **[!UICONTROL Marketing touchpoint]** 從頂端列。 您會看到行銷接觸點表格。 如果有更多頁面可用，請使用 ![向左鍵](../assets/icons/ChevronLeft.svg) 或 ![向右鍵](../assets/icons/ChevronRight.svg) 在 **[!UICONTROL Page _x _之_x_]** 在表格的頁面之間移動。
+1. 選取 **[!UICONTROL Marketing touchpoint]** 從頂端列。 您會看到行銷接觸點表格。 如果有更多頁面可用，請使用 ![向左鍵](/help/assets//icons/ChevronLeft.svg) 或 ![向右鍵](/help/assets//icons/ChevronRight.svg) 在 **[!UICONTROL Page _x _之_x_]** 在表格的頁面之間移動。
 
 表格欄會指定行銷接觸點的詳細資訊：
 
@@ -39,9 +39,9 @@ ht-degree: 0%
 
 ## 新增行銷接觸點
 
-若要新增行銷接觸點，請在 ![資料搜尋](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Marketing touchpoint]** Mix Modeler介面：
+若要新增行銷接觸點，請在 ![資料搜尋](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Marketing touchpoint]** Mix Modeler介面：
 
-1. 選取 ![新增](../assets/icons/AddCircle.svg) 新增行銷接觸點。
+1. 選取 ![新增](/help/assets//icons/AddCircle.svg) 新增行銷接觸點。
 
 1. 在 **[!UICONTROL Marketing touchpoint]** 對話方塊。
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
       1. 選取值，從 **[!UICONTROL *選取已協調的&#x200B;*]**，例如&#x200B;**[!UICONTROL Brand]**.
 
-      1. 選取運運算元的值 ![V形](../assets/icons/ChevronDown.svg)，例如 **[!UICONTROL is]**.
+      1. 選取運運算元的值 ![V形](/help/assets//icons/ChevronDown.svg)，例如 **[!UICONTROL is]**.
 
       1. 選取值，從 **[!UICONTROL *選取值&#x200B;*]**或輸入值，例如&#x200B;**[!DNL Luma]**.
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
    1. 選取協調欄位，從 **[!UICONTROL Touchpoint spend]**，例如 **[!UICONTROL Cost]**.
 
-      ![行銷接觸點](../assets/create-touchpoint.png)
+      ![行銷接觸點](/help/assets//create-touchpoint.png)
 
    1. 若要建立行銷接觸點，請選取 **[!UICONTROL Create]**. 若要取消建立行銷接觸點，請選取「 」 **[!UICONTROL Cancel]** .
 
@@ -70,15 +70,15 @@ ht-degree: 0%
 
 若要檢視行銷接觸點：
 
-1. 選取 ![更多](../assets/icons/More.svg) 將滑鼠游標停留在表格中的行銷接觸點名稱上時。
+1. 選取 ![更多](/help/assets//icons/More.svg) 將滑鼠游標停留在表格中的行銷接觸點名稱上時。
 
-1. 選取 ![檢視](../assets/icons/ViewDetail.svg) **檢視**. 對話方塊會顯示行銷接觸點的詳細資訊。 另請參閱 [新增行銷接觸點](#add-a-marketing-touchpoint) 以取得詳細資訊。 選取 **[!UICONTROL Cancel]** 以關閉對話方塊。
+1. 選取 ![檢視](/help/assets//icons/ViewDetail.svg) **檢視**. 對話方塊會顯示行銷接觸點的詳細資訊。 另請參閱 [新增行銷接觸點](#add-a-marketing-touchpoint) 以取得詳細資訊。 選取 **[!UICONTROL Cancel]** 以關閉對話方塊。
 
 
 ## 刪除行銷接觸點
 
 若要刪除行銷接觸點：
 
-1. 選取 ![刪除](../assets/icons/Delete.svg) **刪除** 將滑鼠游標停留在表格中的行銷接觸點名稱上時。
+1. 選取 ![刪除](/help/assets//icons/Delete.svg) **刪除** 將滑鼠游標停留在表格中的行銷接觸點名稱上時。
 1. 在 **[!UICONTROL Delete touchpoint]** 對話方塊確認對話方塊選取 **[!UICONTROL Delete]** 以永久刪除行銷接觸點。
 

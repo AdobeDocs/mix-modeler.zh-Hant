@@ -4,7 +4,7 @@ description: 了解如何使用 Mix Modeler 跨所有管道測量行銷活動並
 short-description: 了解如何使用 Mix Modeler 跨所有管道測量行銷活動並全面最佳化規劃。
 feature: Harmonized Data, Models, Plans
 exl-id: 3427c338-f2a0-416b-bb4c-d8fef929c38a
-source-git-commit: 1e5bfe6901332f5545e6bdeea46da96d475b3ce1
+source-git-commit: 81ac3053c9a1abfe22f392e4f4035e7bffd51a53
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 18%
@@ -20,28 +20,28 @@ ht-degree: 18%
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="/help/get-started/about.md"><img src="./assets/whatis-mm.png"></a>
+    <a href="/help/get-started/about.md"><img src="assets/whatis-mm.png"></a>
     <div><strong>快速入門</strong><br/>取得Mix Modeler工作流程的概觀和深入分析。</div>
     </td>
     <td>
-    <a href="/help/ingest-data/overview.md"><img src="./assets/data-ingestion-mm.png"></a>
+    <a href="/help/ingest-data/overview.md"><img src="assets/data-ingestion-mm.png"></a>
     <div><strong>擷取資料</strong><br/>瞭解如何將事件和彙總或摘要資料擷取至Mix Modeler。</div>
     </td>
     <td>
-    <a href="/help/harmonize-data/overview.md"><img src="./assets/plan-mm.png"/></a>
+    <a href="/help/harmonize-data/overview.md"><img src="assets/plan-mm.png"/></a>
     <div><strong>協調資料</strong><br/>瞭解如何將彙總和事件資料同化至一致的資料檢視。 
     </div>
     </td>
     <td>
-    <a href="/help/models/overview.md"><img src="./assets/models-mm.png"></a>
+    <a href="/help/models/overview.md"><img src="assets/models-mm.png"></a>
     <div><strong>模型與計畫</strong><br/>訓練您的模型並為其評分，並使用您的行銷計畫見解。</div>
     </td>
   </tr>
   <tr style="border: 0;">
-    <td align="center"><a href="/help/get-started/about.md"><img src="./assets/learn-more-button.svg"></a></td>
-    <td align="center"><a href="/help/ingest-data/overview.md"><img src="./assets/learn-more-button.svg"></a></td>
-    <td align="center"><a href="/help/harmonize-data/overview.md"><img src="./assets/learn-more-button.svg"></a></td>
-    <td align="center"><a href="/help/models/overview.md"><img src="./assets/learn-more-button.svg"></a></td>
+    <td align="center"><a href="/help/get-started/about.md"><img src="assets/learn-more-button.svg"></a></td>
+    <td align="center"><a href="/help/ingest-data/overview.md"><img src="assets/learn-more-button.svg"></a></td>
+    <td align="center"><a href="/help/harmonize-data/overview.md"><img src="assets/learn-more-button.svg"></a></td>
+    <td align="center"><a href="/help/models/overview.md"><img src="assets/learn-more-button.svg"></a></td>
     </tr>
 </table>
 
@@ -51,29 +51,29 @@ ht-degree: 18%
 <table style="table-layout:auto">
   <tr style="border: 0;">
     <td>
-      <img src="./assets/Data.svg" width="35px"><br/>
+      <img src="assets/Data.svg" width="35px"><br/>
       <strong>擷取資料</strong><br/><a href="/help/ingest-data/overview.md">概觀</a> - <a href="/help/ingest-data/schemas.md">方案</a> - <a href="/help/ingest-data/datasets.md">資料集</a> 
     </td>
     <td>
-      <img src="./assets/DataCheck.svg" width="35px"><br/>
+      <img src="assets/DataCheck.svg" width="35px"><br/>
       <strong>協調資料</strong><br/><a href="/help/harmonize-data/overview.md">概觀</a> - <a href="/help/harmonize-data/fields.md">欄位</a>  - <a href="/help/harmonize-data/dataset-rules.md">資料集規則</a> - <a href="/help/harmonize-data/marketing-touchpoints.md">行銷接觸點</a> - <a href="/help/harmonize-data/conversions.md">轉換</a> - <a href="/help/harmonize-data/usage-report.md">使用情況報表</a>  
     </td>
     <td>
-      <img src="./assets/FileGear.svg" width="35px"><br/>
+      <img src="assets/FileGear.svg" width="35px"><br/>
       <strong>模型</strong><br/><a href="/help/models/overview.md">概觀</a> - <a href="/help/models/create.md">建立模型</a> - <a href="/help/models/insights.md">模型深入分析</a> - <a href="/help/models/scoring-data.md">評分資料</a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
-      <img src="./assets/FileChart.svg" width="35px"><br/>
+      <img src="assets/FileChart.svg" width="35px"><br/>
       <strong>計畫</strong><br/><a href="/help/plans/overview.md">計畫</a> - <a href="/help/plans/create.md">建立計畫</a> - <a href="/help/plans/compare.md">比較計畫</a> - <a href="/help/plans/edit.md">編輯計畫</a>
     </td>
     <td>
-      <img src="./assets/Dashboard.svg" width="35px"><br/>
+      <img src="assets/Dashboard.svg" width="35px"><br/>
       <strong>概觀</strong><br/><a href="/help/dashboard/overview.md">方案</a> - <a href="/help/dashboard/harmonized-data.md">協調的資料</a> - <a href="/help/dashboard/plans.md">計畫</a>
     </td>
         <td>
-      <img src="./assets/Learn.svg" width="35px"><br/>
+      <img src="assets/Learn.svg" width="35px"><br/>
       <strong>Tutorials</strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=en">概觀</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=en">使用案例</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=en">使用者工作流程</a>  - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=en">使用者介面導覽</a>
     </td>
   </tr>
