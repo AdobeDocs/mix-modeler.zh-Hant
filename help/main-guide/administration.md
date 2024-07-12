@@ -3,9 +3,9 @@ title: 管理
 description: 瞭解如何管理Mix Modeler。
 feature: Administration
 exl-id: 76d6d15d-a838-4ee2-9929-e55ea8946b80
-source-git-commit: 995f15b6d2dd99d5304a4cda7b1fa5f8a1d00023
+source-git-commit: 4d84c93121fc476cc6610ad572bab161bbacfc23
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '184'
 ht-degree: 2%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 2%
 
 1. 選取 **[!UICONTROL Permissions]** 從左側邊欄，底下 **[!UICONTROL ADMINISTRATION]**.
 
-1. 選取 {{user}} **[!UICONTROL Roles]** 從左側面板。
+1. 選取 ![使用者](/help/assets/icons/User.svg) **[!UICONTROL Roles]** 從左側面板。
 
-1. 選取現有角色，或使用以下方式建立角色 **[!UICONTROL Create role]** (例如， **Mix Modeler**)。 如果您選取現有角色，請選取 {{edit}} **[!UICONTROL Edit]** 編輯角色的許可權。 另請參閱 [管理角色](https://helpx.adobe.com/tw/enterprise/using/admin-console.html) 以取得詳細資訊。
+1. 選取現有角色，或使用以下方式建立角色 **[!UICONTROL Create role]** (例如， **Mix Modeler**)。 如果您選取現有角色，請選取 ![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** 編輯角色的許可權。 另請參閱 [管理角色](https://helpx.adobe.com/tw/enterprise/using/admin-console.html) 以取得詳細資訊。
 
 1. 確保您已為角色選取一或多個沙箱。
 
