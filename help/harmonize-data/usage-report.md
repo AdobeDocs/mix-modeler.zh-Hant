@@ -16,12 +16,12 @@ ht-degree: 0%
 
 若要檢視您協調資料的使用情況報表，請執行下列步驟：
 
-1. 選取 ![資料搜尋](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** 從左側邊欄。
+1. 從左側邊欄選取![資料搜尋](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]**。
 
-1. 選取 **[!UICONTROL Usage report]** 從頂端列。
+1. 從頂端列選取&#x200B;**[!UICONTROL Usage report]**。
 
 使用情況報表會顯示：
 
-* 此表格列出了 **[!UICONTROL # of Models]** 已使用協調資料的使用者。
+* 列出已使用協調資料的&#x200B;**[!UICONTROL # of Models]**&#x200B;的表格。
 
-* 此表格列出了 **[!UICONTROL # of Conversions (last 5 years)]** 已使用協調資料的使用者。 若要選取表格的詳細程度，請選取 **[!UICONTROL Year]** 或 **[!UICONTROL Month]** 從 **[!UICONTROL View by selection]**.
+* 列出已使用協調資料的&#x200B;**[!UICONTROL # of Conversions (last 5 years)]**&#x200B;的表格。 若要選取資料表的詳細程度，請從&#x200B;**[!UICONTROL View by selection]**&#x200B;選取&#x200B;**[!UICONTROL Year]**&#x200B;或&#x200B;**[!UICONTROL Month]**。

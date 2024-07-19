@@ -16,21 +16,21 @@ Mix Modeler概觀中的「協調的資料」索引標籤提供您已設定為用
 
 此概覽會顯示四個KPI狀態卡介面工具集（最上方列）和六個其他可設定的Widget。
 
-若要變更Widget中顯示資料的日期期間，請手動輸入開始日期和結束日期，或使用以下方式選取期間 ![行事曆](/help/assets//icons/Calendar.svg).
+若要變更Widget中顯示資料的日期期間，請手動輸入開始日期和結束日期，或使用![行事曆](/help/assets//icons/Calendar.svg)選取期間。
 
 ## 資料篩選器
 
-您可以使用 ![篩選](/help/assets//icons/Filter.svg) **[!UICONTROL Category Filters]** 窗格。
+您可以使用![篩選器](/help/assets//icons/Filter.svg) **[!UICONTROL Category Filters]**&#x200B;窗格，篩選所有Widget所顯示的資料。
 
-為每個類別選取一或多個篩選器(**[!UICONTROL Brands]**， **[!UICONTROL Campaigns]**， **[!UICONTROL Cannels Type]**， **[!UICONTROL Conversion types]**， **[!UICONTROL Datasets]**， **[!UICONTROL Media types]**， **[!UICONTROL Source types]**、和 **[!UICONTROL Traffic Source]**)。
+為每個類別（**[!UICONTROL Brands]**、**[!UICONTROL Campaigns]**、**[!UICONTROL Cannels Type]**、**[!UICONTROL Conversion types]**、**[!UICONTROL Datasets]**、**[!UICONTROL Media types]**、**[!UICONTROL Source types]**&#x200B;和&#x200B;**[!UICONTROL Traffic Source]**）選取一或多個篩選器。
 
-選取的篩選器會顯示在Widget上方 **[!UICONTROL FILTERING BY:]**.
+選取的篩選器會顯示在&#x200B;**[!UICONTROL FILTERING BY:]**&#x200B;的Widget上方。
 
-1. 若要移除個別篩選器，請選取 ![關閉](/help/assets//icons/Close.svg) 在篩選器上，列於 **[!UICONTROL FILTERING BY:]**.
+1. 若要移除個別的篩選器，請選取![關閉](/help/assets//icons/Close.svg)篩選器，列在&#x200B;**[!UICONTROL FILTERING BY:]**。
 
-1. 您可以使用以下快速清除所有篩選器 **[!UICONTROL Clear All]**.
+1. 您可以使用&#x200B;**[!UICONTROL Clear All]**&#x200B;快速清除所有篩選器。
 
-![協調的資料概觀](/help/assets//harmonized-data-overview.png)
+![協調的資料概述](/help/assets//harmonized-data-overview.png)
 
 
 ## 設定Widget
@@ -39,31 +39,31 @@ Mix Modeler概觀中的「協調的資料」索引標籤提供您已設定為用
 
 * 在KPI狀態卡介面工具上：
 
-   1. 選取 ![編輯](/help/assets//icons/Edit.svg) 和 ![編輯](/help/assets//icons/Edit.svg) **[!UICONTROL Edit data]** 從內容功能表。
+   1. 從內容功能表選取「![編輯](/help/assets//icons/Edit.svg)」和「![編輯](/help/assets//icons/Edit.svg)」**[!UICONTROL Edit data]**。
 
-   1. 在 **[!UICONTROL KPI status card]** 對話方塊：
+   1. 在&#x200B;**[!UICONTROL KPI status card]**&#x200B;對話方塊：
 
-      1. 選取 **[!UICONTROL KPI]** 從清單中。
+      1. 從清單中選取&#x200B;**[!UICONTROL KPI]**。
 
-      1. 選取 **[!UICONTROL Apply]** 將變更套用至卡片。 選取 **[!UICONTROL Cancel]** 以取消變更。
+      1. 選取&#x200B;**[!UICONTROL Apply]**&#x200B;將變更套用至卡片。 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消變更。
 
 * 在其他可設定的Widget上：
 
-   1. 選取 ![編輯](/help/assets//icons/Edit.svg) 和 ![編輯](/help/assets//icons/Edit.svg) **[!UICONTROL Edit data]** 從內容功能表。
+   1. 從內容功能表選取「![編輯](/help/assets//icons/Edit.svg)」和「![編輯](/help/assets//icons/Edit.svg)」**[!UICONTROL Edit data]**。
 
-   1. 在 **[!UICONTROL Edit Data]** 對話方塊：
+   1. 在&#x200B;**[!UICONTROL Edit Data]**&#x200B;對話方塊：
 
-      1. 選取量度來源 **[!UICONTROL Select a metric]**，例如 **[!UICONTROL Impressions]**.
-      1. 選取類別，從 **[!UICONTROL Select category]**，例如 **[!UICONTROL Media types]**.
-      1. （選擇性）從中選擇第二個類別 **[!UICONTROL Select second category (optional)]**，例如 **[!UICONTROL Traffic sources]**.
-      1. 選取 ![時鐘](/help/assets//icons/Clock.svg) **[!UICONTROL Time]** 或 ![電腦](/help/assets//icons/Calculator.svg) **[!UICONTROL Total]** 作為分析型別 **[!UICONTROL Select analysis type]**.
+      1. 從&#x200B;**[!UICONTROL Select a metric]**&#x200B;選取量度，例如&#x200B;**[!UICONTROL Impressions]**。
+      1. 從&#x200B;**[!UICONTROL Select category]**&#x200B;中選取類別，例如&#x200B;**[!UICONTROL Media types]**。
+      1. （選擇性）從&#x200B;**[!UICONTROL Select second category (optional)]**&#x200B;中選取第二個類別，例如&#x200B;**[!UICONTROL Traffic sources]**。
+      1. 選取![時鐘](/help/assets//icons/Clock.svg) **[!UICONTROL Time]**&#x200B;或![電腦](/help/assets//icons/Calculator.svg) **[!UICONTROL Total]**&#x200B;作為位於&#x200B;**[!UICONTROL Select analysis type]**&#x200B;的分析型別。
 
-         如果您選取 ![時鐘](/help/assets//icons/Clock.svg) **[!UICONTROL Time]**，您可以指定時間頻率。 選取 **[!UICONTROL Daily]**， **[!UICONTROL Weekly]**， **[!UICONTROL Monthly]** 或 **[!UICONTROL Quarterly]** 從 **[!UICONTROL Select time frequency]**.
+         如果您選取![時鐘](/help/assets//icons/Clock.svg) **[!UICONTROL Time]**，則可以指定時間頻率。 從&#x200B;**[!UICONTROL Select time frequency]**&#x200B;中選取&#x200B;**[!UICONTROL Daily]**、**[!UICONTROL Weekly]**、**[!UICONTROL Monthly]**&#x200B;或&#x200B;**[!UICONTROL Quarterly]**。
 
-         您會在以下連結中看到目前選取範圍的更新預覽： [!UICONTROL Preview Area] 以及您目前的Widget [!UICONTROL Current].
+         您會在[!UICONTROL Preview Area]中看到目前選取專案的更新預覽，並在[!UICONTROL Current]下方看到目前的Widget。
 
-         ![編輯協調的資料Widget](/help/assets//edit-harmonized-data-widget.png)
+         ![編輯協調的資料小工具](/help/assets//edit-harmonized-data-widget.png)
 
-         如果由於資料不可用而無法呈現預覽，您會看到 ![資料錯誤](/help/assets//icons/DataUnavailable.svg) [!UICONTROL Insights Not Available] - [!UICONTROL Harmonized fields are not available].
+         如果由於資料無法使用而無法呈現預覽，您會看到![資料錯誤](/help/assets//icons/DataUnavailable.svg) [!UICONTROL Insights Not Available] - [!UICONTROL Harmonized fields are not available]。
 
-      1. 選取 **[!UICONTROL Apply]** 將變更套用至Widget。 選取 **[!UICONTROL Cancel]** 以取消對目前Widget所做的任何變更。
+      1. 選取&#x200B;**[!UICONTROL Apply]**&#x200B;將變更套用至Widget。 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消對目前Widget所做的任何變更。

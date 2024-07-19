@@ -104,34 +104,34 @@ Mix Modeler的協調服務會將彙總和事件資料同化為一致的資料檢
 
 ## 設定協調資料
 
-建立統一的資料集，如簡化的資料集 [範例](#an-example-of-harmonized-data)，您必須遵循下列步驟：
+若要建置協調的資料集（如在簡化的[範例](#an-example-of-harmonized-data)中），您必須遵循下列步驟：
 
-1. 定義其他 [協調的欄位](fields.md) 您想要使用已提供的全球協調欄位以外的其他欄位。
-1. 設定 [資料集規則](dataset-rules.md) 將彙總或體驗事件資料集中的欄位對應到協調的欄位。
-1. 定義 [行銷接觸點](marketing-touchpoints.md) 使用您定義的標準和其他協調欄位。
-1. 定義 [轉換](conversions.md) 使用您定義的標準和其他協調欄位。
+1. 定義其他[個要使用的協調欄位](fields.md)，這些協調欄位已超出可用的全球協調欄位。
+1. 設定[資料集規則](dataset-rules.md)，將彙總或體驗事件資料集中的欄位對應到協調的欄位。
+1. 使用您定義的標準和其他協調欄位來定義[行銷接觸點](marketing-touchpoints.md)。
+1. 使用您定義的標準和其他協調欄位來定義[轉換](conversions.md)。
 
 
 ## 檢視已協調的資料
 
 若要在Mix Modeler介面中檢視您的協調資料：
 
-1. 選取 ![資料搜尋](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** 從左側邊欄。
+1. 從左側邊欄選取![資料搜尋](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]**。
 
-1. 選取 **[!UICONTROL Harmonized Data]** 從頂端列。 系統會根據您定義的欄位、資料集規則、行銷接觸點和轉換，顯示您協調資料的摘要。
+1. 從頂端列選取&#x200B;**[!UICONTROL Harmonized Data]**。 系統會根據您定義的欄位、資料集規則、行銷接觸點和轉換，顯示您協調資料的摘要。
 
-   1. 若要重新定義重新計算協調資料所依據的期間，請輸入日期範圍 **[!UICONTROL Date range]** 或使用 ![行事曆](/help/assets//icons/Calendar.svg) 以選取資料範圍。
+   1. 若要重新定義重新擷取協調資料所依據的期間，請輸入&#x200B;**[!UICONTROL Date range]**&#x200B;的日期範圍，或使用![行事曆](/help/assets//icons/Calendar.svg)來選取資料範圍。
 
-   1. 若要修改「協調」資料表中顯示的協調欄位欄，請使用 ![設定](/help/assets//icons/Setting.svg) 以開啟 **[!UICONTROL Column settings]** 對話方塊。
+   1. 若要修改「協調」資料表所顯示的協調欄位欄，請使用![設定](/help/assets//icons/Setting.svg)開啟&#x200B;**[!UICONTROL Column settings]**&#x200B;對話方塊。
 
-      1. 選取 ![SelectBox](/help/assets//icons/SelectBox.svg) 一或多個資料行 **[!UICONTROL AVAILABLE COLUMNS]** 和使用 ![V形箭號右側](/help/assets//icons/ChevronRight.svg) 以新增這些欄至 **[!UICONTROL SELECTED COLUMNS]**.
+      1. 從&#x200B;**[!UICONTROL AVAILABLE COLUMNS]**&#x200B;選取![SelectBox](/help/assets//icons/SelectBox.svg)一或多個資料行，並使用![右側V形](/help/assets//icons/ChevronRight.svg)將這些資料行新增到&#x200B;**[!UICONTROL SELECTED COLUMNS]**。
 
-      1. 選取 ![SelectBox](/help/assets//icons/SelectBox.svg) 一或多個資料行 **[!UICONTROL SELECTED COLUMNS]** 和使用 ![左側V形](/help/assets//icons/ChevronLeft.svg) 以移除選取的欄，並將這些欄傳回 **[!UICONTROL AVAILABLE COLUMNS]**.
+      1. 從&#x200B;**[!UICONTROL SELECTED COLUMNS]**&#x200B;中選取![SelectBox](/help/assets//icons/SelectBox.svg)一或多個資料行，並使用![左V形](/help/assets//icons/ChevronLeft.svg)來移除選取的資料行，並將這些資料行傳回&#x200B;**[!UICONTROL AVAILABLE COLUMNS]**。
 
-      1. 選取欄，從 **[!UICONTROL DEFAULT SORT]** 並在兩者之間切換 **[!UICONTROL Ascending]** 或 **[!UICONTROL Descending]**.
+      1. 從&#x200B;**[!UICONTROL DEFAULT SORT]**&#x200B;中選取欄，並在&#x200B;**[!UICONTROL Ascending]**&#x200B;或&#x200B;**[!UICONTROL Descending]**&#x200B;之間切換。
 
-      1. 若要變更欄的顯示順序，您可以將欄移入 **[!UICONTROL SELECTED COLUMNS]** 透過拖放方式來上下移動。
+      1. 若要變更欄的顯示順序，您可以透過拖放將&#x200B;**[!UICONTROL SELECTED COLUMNS]**&#x200B;中的欄上下移動。
 
-   1. 選取 **[!UICONTROL Submit]** 以提交欄設定變更。 選取 **[!UICONTROL Close]** 以取消您所做的任何變更。
+   1. 選取&#x200B;**[!UICONTROL Submit]**&#x200B;以提交您的欄設定變更。 選取&#x200B;**[!UICONTROL Close]**&#x200B;以取消您所做的任何變更。
 
-1. 如果有更多頁面可用，請使用 ![向左鍵](/help/assets//icons/ChevronLeft.svg) 或 ![向右鍵](/help/assets//icons/ChevronRight.svg) 在 **[!UICONTROL Page _x _之_x_]** 以在頁面之間移動。
+1. 如果有更多頁面可供使用，請使用&#x200B;_x _]**的**[!UICONTROL Page _x_&#x200B;上的![向左箭頭](/help/assets//icons/ChevronLeft.svg)或![向右箭頭](/help/assets//icons/ChevronRight.svg)在頁面之間移動。

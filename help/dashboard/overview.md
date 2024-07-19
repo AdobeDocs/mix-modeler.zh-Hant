@@ -15,7 +15,7 @@ ht-degree: 1%
 
 Mix Modeler中的總覽儀表板可讓您透過各種可設定的Widget總覽您的協調資料和計畫。
 
-若要存取概述，請選取「 」 ![首頁](/help/assets//icons/Home.svg) **[!UICONTROL Overview]** 從Mix Modeler介面的左側邊欄中。
+若要存取概觀，請從Mix Modeler介面的左側邊欄中選取![首頁](/help/assets//icons/Home.svg) **[!UICONTROL Overview]**。
 
 您可以在這裡取得更多詳細資訊：
 

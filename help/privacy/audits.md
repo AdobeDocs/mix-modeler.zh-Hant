@@ -16,9 +16,9 @@ ht-degree: 6%
 
 若要檢查稽核記錄，請在Mix Modeler介面中：
 
-1. 選取 ![任務清單](/help/assets/icons/TaskList.svg) **[!UICONTROL Audits]** 從 **[!UICONTROL PRIVACY]**.
+1. 從&#x200B;**[!UICONTROL PRIVACY]**&#x200B;選取![工作清單](/help/assets/icons/TaskList.svg) **[!UICONTROL Audits]**。
 
-1. 在 **[!UICONTROL Audits]**，您可以找到 **[!UICONTROL Activity log]**. 活動記錄會顯示下列Mix Modeler類別、動作和狀態的專案。
+1. 在&#x200B;**[!UICONTROL Audits]**&#x200B;中，您可以找到&#x200B;**[!UICONTROL Activity log]**。 活動記錄會顯示下列Mix Modeler類別、動作和狀態的專案。
 
    | 類別 | 動作 | 狀態 |
    |---|---|---|
@@ -51,9 +51,9 @@ ht-degree: 6%
 
    ![Mix Modeler稽核](/help/assets/mix-modeler-audit.png)
 
-1. 篩選依據 **[!UICONTROL Category]**， **[!UICONTROL Action]**， **[!UICONTROL Request ID]**， **[!UICONTROL User]**， **[!UICONTROL Status]** 或 **[!UICONTROL Date]** 範圍，選取 ![篩選](/help/assets/icons/Filter.svg).
+1. 若要篩選&#x200B;**[!UICONTROL Category]**、**[!UICONTROL Action]**、**[!UICONTROL Request ID]**、**[!UICONTROL User]**、**[!UICONTROL Status]**&#x200B;或&#x200B;**[!UICONTROL Date]**&#x200B;範圍，請選取![篩選器](/help/assets/icons/Filter.svg)。
 
-1. 若要修改活動記錄中顯示的欄，請選取 ![欄](/help/assets/icons/ColumnSetting.svg) 和 **[!UICONTROL Customize table]** 對話方塊選取要顯示的欄。 選取 **[!UICONTROL Apply]** 若要套用選取範圍， **[!UICONTROL Cancel]** 以取消選取。
+1. 若要修改活動記錄中顯示的欄，請選取![欄](/help/assets/icons/ColumnSetting.svg)，然後在&#x200B;**[!UICONTROL Customize table]**&#x200B;對話方塊中選取要顯示的欄。 選取&#x200B;**[!UICONTROL Apply]**&#x200B;以套用選取專案，**[!UICONTROL Cancel]**&#x200B;以取消選取專案。
 
-1. 若要下載稽核記錄，請選取 ![下載](/help/assets/icons/Download.svg) **[!UICONTROL Download log]**. 在 **[!UICONTROL Download log]** 對話方塊選取 **[!UICONTROL CSV]** 或 **[!UICONTROL JSON]** 格式並選取「 」 **[!UICONTROL Download]**.
+1. 若要下載稽核記錄，請選取![下載](/help/assets/icons/Download.svg) **[!UICONTROL Download log]**。 在&#x200B;**[!UICONTROL Download log]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL CSV]**&#x200B;或&#x200B;**[!UICONTROL JSON]**&#x200B;作為格式，並選取&#x200B;**[!UICONTROL Download]**。
 

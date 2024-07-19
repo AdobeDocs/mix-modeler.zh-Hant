@@ -16,9 +16,9 @@ ht-degree: 3%
 
 1. 前往Mix Modeler介面。
 
-1. 選取 ![方案](/help/assets//icons/Schemas.svg) **[!UICONTROL Schemas]**，底下 **[!UICONTROL SETUP]**.
+1. 選取&#x200B;**[!UICONTROL SETUP]**&#x200B;底下的![結構描述](/help/assets//icons/Schemas.svg) **[!UICONTROL Schemas]**。
 
-請參閱 [結構描述UI總覽](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) 以取得詳細資訊。
+如需詳細資訊，請參閱[結構描述UI總覽](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en)。
 
 ## 彙總或摘要資料
 
@@ -36,7 +36,7 @@ ht-degree: 3%
 >
 >結構描述定義必須至少包含一個數值欄位（使用整數、雙精度、布林值或其他數值型別），以支援擷取資料的必要量度。
 
-使用結構描述 **[!DNL XDM Summary Metrics]** 基底類別可以很簡單，如 **[!DNL ExternalFactorSummarySchema]** 底下。
+使用&#x200B;**[!DNL XDM Summary Metrics]**&#x200B;基底類別的結構描述可以很簡單，如下方&#x200B;**[!DNL ExternalFactorSummarySchema]**&#x200B;所示。
 
 ![外部因素結構描述](/help/assets//external-factors-schema.png)
 
@@ -46,33 +46,33 @@ ht-degree: 3%
 
   | 時間戳記 | date_type | 因數 | 值 |
   |---|---|---|--:|
-  | 2020-11-28T00:00:00.000盎司 | 周 | 競爭者索引 | 289.8 |
-  | 2020-12-05T00:00:00.000盎司 | 周 | 競爭者索引 | 291.2 |
-  | 2020-12-12T00:00:00.000盎司 | 周 | 競爭者索引 | 280.07 |
+  | 2020-11-28T00:00:00.000Z | 周 | 競爭者索引 | 289.8 |
+  | 2020-12-05T00:00:00.000Z | 周 | 競爭者索引 | 291.2 |
+  | 2020-12-12T00:00:00.000Z | 周 | 競爭者索引 | 280.07 |
   | ... | ... | ... | ... |
 
 - 國定假日資料
 
   | 時間戳記 | date_type | 因數 | 值 |
   |---|---|---|--:|
-  | 2020-11-28T00:00:00.000盎司 | 周 | all_holidays_flag | 0.0 |
-  | 2020-12-05T00:00:00.000盎司 | 周 | all_holidays_flag | 0.0 |
-  | 2020-12-12T00:00:00.000盎司 | 周 | all_holidays_flag | 0.0 |
-  | 2020-12-19T00:00:00.000盎司 | 周 | all_holidays_flag | 0.0 |
-  | 2020-12-26T00:00:00.000盎司 | 周 | all_holidays_flag | 1.0 |
+  | 2020-11-28T00:00:00.000Z | 周 | all_holidays_flag | 0.0 |
+  | 2020-12-05T00:00:00.000Z | 周 | all_holidays_flag | 0.0 |
+  | 2020-12-12T00:00:00.000Z | 周 | all_holidays_flag | 0.0 |
+  | 2020-12-19T00:00:00.000Z | 周 | all_holidays_flag | 0.0 |
+  | 2020-12-26T00:00:00.000Z | 周 | all_holidays_flag | 1.0 |
   | ... | ... | ... | ... |
 
 
-如需更完整的範例，請參閱下文 **[!DNL LumaPaidMarketingSchema]** 使用 **[!DNL XDM Summary Metrics]** 作為基底類別。 結構描述會使用量度(**[!DNL AMMMetrics]**)，尺寸(**[!DNL AMMDimensions]**)，以及其他客戶專屬資訊(**[!DNL CustomerSpecific]**)。
+如需使用&#x200B;**[!DNL XDM Summary Metrics]**&#x200B;做為基底類別之&#x200B;**[!DNL LumaPaidMarketingSchema]**&#x200B;的更完整範例，請參閱下文。 結構描述使用量度(**[!DNL AMMMetrics]**)、維度(**[!DNL AMMDimensions]**)和其他客戶特定資訊(**[!DNL CustomerSpecific]**)的專用欄位群組（以顏色註解）。
 
-![摘要結構](/help/assets//summary-schema.png)
+![摘要結構描述](/help/assets//summary-schema.png)
 
 由於設定檔擷取為非同步性質，在從外部來源收集彙總或摘要資料時，建議使用外部Source系統稽核詳細資料欄位群組作為結構描述的一部分。 此欄位群組定義外部來源的一組稽核屬性。
 
 
 ## 支援的資料型別
 
-目前，Mix Modeler不支援Experience Platform資料型別的子集。 下列基本資料型別（欄位），已提及 [結構描述組合基本概念](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type)，支援：
+目前，Mix Modeler不支援Experience Platform資料型別的子集。 下列基本資料型別（欄位）在[結構描述組合基本概念](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type)中受到支援：
 
 - 字串
 - 整數

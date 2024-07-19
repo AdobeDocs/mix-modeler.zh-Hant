@@ -14,7 +14,7 @@ ht-degree: 6%
 
 ## ThreeDmaterial {#threedmaterial}
 
-![3D材料](/help/assets/icons/3DMaterial.svg)
+![3DMaterial](/help/assets/icons/3DMaterial.svg)
 
 ## ABC {#abc}
 
@@ -22,7 +22,7 @@ ht-degree: 6%
 
 ## AEMS畫面 {#aemscreen}
 
-![AEMS畫面](/help/assets/icons/AEMScreen.svg)
+![AEMScreen](/help/assets/icons/AEMScreen.svg)
 
 ## 動作 {#action}
 
@@ -42,7 +42,7 @@ ht-degree: 6%
 
 ## 新增圓 {#addcircle}
 
-![新增圓](/help/assets/icons/AddCircle.svg)
+![AddCircle](/help/assets/icons/AddCircle.svg)
 
 ## AddTo {#addto}
 
@@ -66,11 +66,11 @@ ht-degree: 6%
 
 ## 警報新增 {#alertadd}
 
-![警報新增](/help/assets/icons/AlertAdd.svg)
+![AlertAdd](/help/assets/icons/AlertAdd.svg)
 
 ## Alertcheck {#alertcheck}
 
-![Alertcheck](/help/assets/icons/AlertCheck.svg)
+![AlertCheck](/help/assets/icons/AlertCheck.svg)
 
 ## 警示圈 {#alertcircle}
 
@@ -86,15 +86,15 @@ ht-degree: 6%
 
 ## 別名 {#alias}
 
-![阿麗雅](/help/assets/icons/Alias.svg)
+![Alia](/help/assets/icons/Alias.svg)
 
 ## 靠下對齊 {#alignbottom}
 
-![靠下對齊](/help/assets/icons/AlignBottom.svg)
+![下對齊](/help/assets/icons/AlignBottom.svg)
 
 ## 置中對齊 {#aligncenter}
 
-![置中對齊](/help/assets/icons/AlignCenter.svg)
+![居中對齊](/help/assets/icons/AlignCenter.svg)
 
 ## 靠左對齊 {#alignleft}
 
@@ -102,7 +102,7 @@ ht-degree: 6%
 
 ## 對齊中間 {#alignmiddle}
 
-![對齊中間](/help/assets/icons/AlignMiddle.svg)
+![AlignMiddle](/help/assets/icons/AlignMiddle.svg)
 
 ## 靠右對齊 {#alignright}
 
@@ -122,11 +122,11 @@ ht-degree: 6%
 
 ## 錨點選取 {#anchorselect}
 
-![錨點選取](/help/assets/icons/AnchorSelect.svg)
+![AnchorSelect](/help/assets/icons/AnchorSelect.svg)
 
 ## 註解 {#annotate}
 
-![註解](/help/assets/icons/Annotate.svg)
+![註釋](/help/assets/icons/Annotate.svg)
 
 ## AnnotatePen {#annotatepen}
 
@@ -134,11 +134,11 @@ ht-degree: 6%
 
 ## 回答 {#answer}
 
-![回答](/help/assets/icons/Answer.svg)
+![答案](/help/assets/icons/Answer.svg)
 
 ## 答案我的最愛 {#answerfavorite}
 
-![答案我的最愛](/help/assets/icons/AnswerFavorite.svg)
+![回應我的最愛](/help/assets/icons/AnswerFavorite.svg)
 
 ## 應用程式 {#app}
 
@@ -166,19 +166,19 @@ ht-degree: 6%
 
 ## 封存移除 {#archiveremove}
 
-![封存移除](/help/assets/icons/ArchiveRemove.svg)
+![ArchiveRemove](/help/assets/icons/ArchiveRemove.svg)
 
 ## 向下箭頭 {#arrowdown}
 
-![向下箭頭](/help/assets/icons/ArrowDown.svg)
+![向下箭號](/help/assets/icons/ArrowDown.svg)
 
 ## 向左鍵 {#arrowleft}
 
-![向左鍵](/help/assets/icons/ArrowLeft.svg)
+![向左箭號](/help/assets/icons/ArrowLeft.svg)
 
 ## 向右鍵 {#arrowright}
 
-![向右鍵](/help/assets/icons/ArrowRight.svg)
+![向右箭號](/help/assets/icons/ArrowRight.svg)
 
 ## 向上鍵 {#arrowup}
 
@@ -186,7 +186,7 @@ ht-degree: 6%
 
 ## 向右箭頭 {#arrowupright}
 
-![向右箭頭](/help/assets/icons/ArrowUpRight.svg)
+![向上箭號](/help/assets/icons/ArrowUpRight.svg)
 
 ## 工作畫板 {#artboard}
 
@@ -202,7 +202,7 @@ ht-degree: 6%
 
 ## AssetCheck {#assetcheck}
 
-![AssetCheck](/help/assets/icons/AssetCheck.svg)
+![資產檢查](/help/assets/icons/AssetCheck.svg)
 
 ## 已新增資產 {#assetsadded}
 
@@ -214,7 +214,7 @@ ht-degree: 6%
 
 ## AssetsExpired {#assetsexpired}
 
-![AssetsExpired](/help/assets/icons/AssetsExpired.svg)
+![資產過期](/help/assets/icons/AssetsExpired.svg)
 
 ## AssetsLinkedPublished {#assetslinkedpublished}
 
@@ -226,7 +226,7 @@ ht-degree: 6%
 
 ## AssetsPublished {#assetspublished}
 
-![AssetsPublished](/help/assets/icons/AssetsPublished.svg)
+![已發佈的資產](/help/assets/icons/AssetsPublished.svg)
 
 ## 星號 {#asterisk}
 
@@ -242,7 +242,7 @@ ht-degree: 6%
 
 ## 附件排除 {#attachmentexclude}
 
-![附件排除](/help/assets/icons/AttachmentExclude.svg)
+![AttachmentExclude](/help/assets/icons/AttachmentExclude.svg)
 
 ## 屬性 {#attribute}
 
@@ -258,11 +258,11 @@ ht-degree: 6%
 
 ## 返回 {#back}
 
-![返回](/help/assets/icons/Back.svg)
+![上一步](/help/assets/icons/Back.svg)
 
 ## 後30秒 {#back30second}
 
-![後30秒](/help/assets/icons/Back30Second.svg)
+![上一步30秒](/help/assets/icons/Back30Second.svg)
 
 ## BackAndroid {#backandroid}
 
@@ -294,7 +294,7 @@ ht-degree: 6%
 
 ## 鼓風機 {#blower}
 
-![鼓風機](/help/assets/icons/Blower.svg)
+![鼓吹者](/help/assets/icons/Blower.svg)
 
 ## 失焦 {#blur}
 
@@ -302,7 +302,7 @@ ht-degree: 6%
 
 ## 書冊 {#book}
 
-![書冊](/help/assets/icons/Book.svg)
+![書](/help/assets/icons/Book.svg)
 
 ## 書籤 {#bookmark}
 
@@ -350,7 +350,7 @@ ht-degree: 6%
 
 ## 括弧 {#bracket}
 
-![括弧](/help/assets/icons/Bracket.svg)
+![支架](/help/assets/icons/Bracket.svg)
 
 ## 方括弧 {#bracketssquare}
 
@@ -358,19 +358,19 @@ ht-degree: 6%
 
 ## Branch1 {#branch1}
 
-![Branch1](/help/assets/icons/Branch1.svg)
+![分支1](/help/assets/icons/Branch1.svg)
 
 ## Branch2 {#branch2}
 
-![Branch2](/help/assets/icons/Branch2.svg)
+![分支2](/help/assets/icons/Branch2.svg)
 
 ## Branch3 {#branch3}
 
-![Branch3](/help/assets/icons/Branch3.svg)
+![分支3](/help/assets/icons/Branch3.svg)
 
 ## 分支圓 {#branchcircle}
 
-![分支圓](/help/assets/icons/BranchCircle.svg)
+![BranchCircle](/help/assets/icons/BranchCircle.svg)
 
 ## 階層連結導覽 {#breadcrumbnavigation}
 
@@ -382,7 +382,7 @@ ht-degree: 6%
 
 ## 劃分新增 {#breakdownadd}
 
-![劃分新增](/help/assets/icons/BreakdownAdd.svg)
+![BreakdownAdd](/help/assets/icons/BreakdownAdd.svg)
 
 ## 公事包 {#briefcase}
 
@@ -402,7 +402,7 @@ ht-degree: 6%
 
 ## 建置 {#building}
 
-![建置](/help/assets/icons/Building.svg)
+![正在建置](/help/assets/icons/Building.svg)
 
 ## BulkEditUser {#bulkedituser}
 
@@ -434,15 +434,15 @@ ht-degree: 6%
 
 ## 行事曆已解鎖 {#calendarunlocked}
 
-![行事曆已解鎖](/help/assets/icons/CalendarUnlocked.svg)
+![行事曆已解除鎖定](/help/assets/icons/CalendarUnlocked.svg)
 
 ## 呼叫中心 {#callcenter}
 
-![呼叫中心](/help/assets/icons/CallCenter.svg)
+![客服中心](/help/assets/icons/CallCenter.svg)
 
 ## 相機 {#camera}
 
-![相機](/help/assets/icons/Camera.svg)
+![攝影機](/help/assets/icons/Camera.svg)
 
 ## 相機翻轉 {#cameraflip}
 
@@ -450,7 +450,7 @@ ht-degree: 6%
 
 ## CameraRefresh {#camerarefresh}
 
-![CameraRefresh](/help/assets/icons/CameraRefresh.svg)
+![相機重新整理](/help/assets/icons/CameraRefresh.svg)
 
 ## Campaign {#campaign}
 
@@ -462,7 +462,7 @@ ht-degree: 6%
 
 ## CampaignClose {#campaignclose}
 
-![CampaignClose](/help/assets/icons/CampaignClose.svg)
+![促銷活動關閉](/help/assets/icons/CampaignClose.svg)
 
 ## CampaignDelete {#campaigndelete}
 
@@ -486,7 +486,7 @@ ht-degree: 6%
 
 ## 汽車 {#car}
 
-![汽車](/help/assets/icons/Car.svg)
+![車](/help/assets/icons/Car.svg)
 
 ## 卡片 {#card}
 
@@ -502,7 +502,7 @@ ht-degree: 6%
 
 ## ChatAdd {#chatadd}
 
-![ChatAdd](/help/assets/icons/ChatAdd.svg)
+![聊天新增](/help/assets/icons/ChatAdd.svg)
 
 ## CheckPause {#checkpause}
 
@@ -514,23 +514,23 @@ ht-degree: 6%
 
 ## 核取記號圓形 {#checkmarkcircle}
 
-![核取記號圓形](/help/assets/icons/CheckmarkCircle.svg)
+![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg)
 
 ## 核取記號圓形大綱 {#checkmarkcircleoutline}
 
-![核取記號圓形大綱](/help/assets/icons/CheckmarkCircleOutline.svg)
+![核取記號CircleOutline](/help/assets/icons/CheckmarkCircleOutline.svg)
 
 ## V形雙左對齊 {#chevrondoubleleft}
 
-![V形雙左對齊](/help/assets/icons/ChevronDoubleLeft.svg)
+![V形DoubleLeft](/help/assets/icons/ChevronDoubleLeft.svg)
 
 ## ChevronDoubleRight {#chevrondoubleright}
 
-![ChevronDoubleRight](/help/assets/icons/ChevronDoubleRight.svg)
+![V形DoubleRight](/help/assets/icons/ChevronDoubleRight.svg)
 
 ## V形向下 {#chevrondown}
 
-![V形向下](/help/assets/icons/ChevronDown.svg)
+![V形箭號向下](/help/assets/icons/ChevronDown.svg)
 
 ## 左側V形 {#chevronleft}
 
@@ -538,7 +538,7 @@ ht-degree: 6%
 
 ## V形向右 {#chevronright}
 
-![V形向右](/help/assets/icons/ChevronRight.svg)
+![右V形](/help/assets/icons/ChevronRight.svg)
 
 ## V形向上 {#chevronup}
 
@@ -546,11 +546,11 @@ ht-degree: 6%
 
 ## V形上下 {#chevronupdown}
 
-![V形上下](/help/assets/icons/ChevronUpDown.svg)
+![V形向上](/help/assets/icons/ChevronUpDown.svg)
 
 ## 圓形 {#circle}
 
-![圓形](/help/assets/icons/Circle.svg)
+![圓](/help/assets/icons/Circle.svg)
 
 ## 傳統格線檢視 {#classicgridview}
 
@@ -562,11 +562,11 @@ ht-degree: 6%
 
 ## ClockCheck {#clockcheck}
 
-![ClockCheck](/help/assets/icons/ClockCheck.svg)
+![時鐘檢查](/help/assets/icons/ClockCheck.svg)
 
 ## 仿製印章 {#clonestamp}
 
-![仿製印章](/help/assets/icons/CloneStamp.svg)
+![CloneStamp](/help/assets/icons/CloneStamp.svg)
 
 ## 關閉 {#close}
 
@@ -578,7 +578,7 @@ ht-degree: 6%
 
 ## 封閉圓形 {#closecircle}
 
-![封閉圓形](/help/assets/icons/CloseCircle.svg)
+![CloseCycle](/help/assets/icons/CloseCircle.svg)
 
 ## 雲端 {#cloud}
 
@@ -586,11 +586,11 @@ ht-degree: 6%
 
 ## 雲端已中斷連線 {#clouddisconnected}
 
-![雲端已中斷連線](/help/assets/icons/CloudDisconnected.svg)
+![CloudDisconnected](/help/assets/icons/CloudDisconnected.svg)
 
 ## CloudError {#clouderror}
 
-![CloudError](/help/assets/icons/CloudError.svg)
+![雲端錯誤](/help/assets/icons/CloudError.svg)
 
 ## 雲端大綱 {#cloudoutline}
 
@@ -598,7 +598,7 @@ ht-degree: 6%
 
 ## 程式碼 {#code}
 
-![程式碼](/help/assets/icons/Code.svg)
+![代碼](/help/assets/icons/Code.svg)
 
 ## 集合 {#collection}
 
@@ -618,7 +618,7 @@ ht-degree: 6%
 
 ## CollectionEdit {#collectionedit}
 
-![CollectionEdit](/help/assets/icons/CollectionEdit.svg)
+![集合編輯](/help/assets/icons/CollectionEdit.svg)
 
 ## CollectionExclude {#collectionexclude}
 
@@ -642,7 +642,7 @@ ht-degree: 6%
 
 ## 欄設定 {#columnsetting}
 
-![欄設定](/help/assets/icons/ColumnSetting.svg)
+![資料行設定](/help/assets/icons/ColumnSetting.svg)
 
 ## ColumnTwoA {#columntwoa}
 
@@ -650,7 +650,7 @@ ht-degree: 6%
 
 ## ColumnTwB {#columntwob}
 
-![ColumnTwB](/help/assets/icons/ColumnTwoB.svg)
+![ColumnTwoB](/help/assets/icons/ColumnTwoB.svg)
 
 ## ColumnTwoC {#columntwoc}
 
@@ -666,7 +666,7 @@ ht-degree: 6%
 
 ## 康帕 {#compas}
 
-![康帕](/help/assets/icons/Compas.svg)
+![元件](/help/assets/icons/Compas.svg)
 
 ## 條件 {#condition}
 
@@ -674,7 +674,7 @@ ht-degree: 6%
 
 ## ConfidenceFour {#confidencefour}
 
-![ConfidenceFour](/help/assets/icons/ConfidenceFour.svg)
+![信賴度Four](/help/assets/icons/ConfidenceFour.svg)
 
 ## ConfidenceOne {#confidenceone}
 
@@ -682,7 +682,7 @@ ht-degree: 6%
 
 ## 信賴度3 {#confidencethree}
 
-![信賴度3](/help/assets/icons/ConfidenceThree.svg)
+![信賴度Three](/help/assets/icons/ConfidenceThree.svg)
 
 ## ConfidenceTwo {#confidencetwo}
 
@@ -698,7 +698,7 @@ ht-degree: 6%
 
 ## 複製 {#copy}
 
-![複製](/help/assets/icons/Copy.svg)
+![副本](/help/assets/icons/Copy.svg)
 
 ## 封面影像 {#coverimage}
 
@@ -714,7 +714,7 @@ ht-degree: 6%
 
 ## CropLightning {#croplightning}
 
-![CropLightning](/help/assets/icons/CropLightning.svg)
+![裁切閃電](/help/assets/icons/CropLightning.svg)
 
 ## 裁切旋轉 {#croprotate}
 
@@ -742,7 +742,7 @@ ht-degree: 6%
 
 ## DataAdd {#dataadd}
 
-![DataAdd](/help/assets/icons/DataAdd.svg)
+![資料新增](/help/assets/icons/DataAdd.svg)
 
 ## 資料簿 {#databook}
 
@@ -754,7 +754,7 @@ ht-degree: 6%
 
 ## DataRelated {#datacorrelated}
 
-![DataRelated](/help/assets/icons/DataCorrelated.svg)
+![資料相關](/help/assets/icons/DataCorrelated.svg)
 
 ## 資料下載 {#datadownload}
 
@@ -762,7 +762,7 @@ ht-degree: 6%
 
 ## DataEdit {#dataedit}
 
-![DataEdit](/help/assets/icons/DataEdit.svg)
+![資料編輯](/help/assets/icons/DataEdit.svg)
 
 ## 資料對應 {#datamapping}
 
@@ -770,11 +770,11 @@ ht-degree: 6%
 
 ## DataRefresh {#datarefresh}
 
-![DataRefresh](/help/assets/icons/DataRefresh.svg)
+![資料重新整理](/help/assets/icons/DataRefresh.svg)
 
 ## DataRemove {#dataremove}
 
-![DataRemove](/help/assets/icons/DataRemove.svg)
+![資料移除](/help/assets/icons/DataRemove.svg)
 
 ## 資料設定 {#datasetting}
 
@@ -786,7 +786,7 @@ ht-degree: 6%
 
 ## DataUpload {#dataupload}
 
-![DataUpload](/help/assets/icons/DataUpload.svg)
+![資料上傳](/help/assets/icons/DataUpload.svg)
 
 ## 資料使用者 {#datauser}
 
@@ -806,7 +806,7 @@ ht-degree: 6%
 
 ## 委派 {#delegate}
 
-![委派](/help/assets/icons/Delegate.svg)
+![代理人](/help/assets/icons/Delegate.svg)
 
 ## 刪除 {#delete}
 
@@ -830,7 +830,7 @@ ht-degree: 6%
 
 ## 案頭與行動 {#desktopandmobile}
 
-![案頭與行動](/help/assets/icons/DesktopAndMobile.svg)
+![DesktopAndMobile](/help/assets/icons/DesktopAndMobile.svg)
 
 ## 裝置 {#device}
 
@@ -838,7 +838,7 @@ ht-degree: 6%
 
 ## 裝置案頭 {#devicedesktop}
 
-![裝置案頭](/help/assets/icons/DeviceDesktop.svg)
+![DeviceDesktop](/help/assets/icons/DeviceDesktop.svg)
 
 ## 裝置筆記型電腦 {#devicelaptop}
 
@@ -858,7 +858,7 @@ ht-degree: 6%
 
 ## DeviceRotateLanguage {#devicerotatelandscape}
 
-![DeviceRotateLanguage](/help/assets/icons/DeviceRotateLandscape.svg)
+![裝置旋轉橫向](/help/assets/icons/DeviceRotateLandscape.svg)
 
 ## DeviceRotatePortrait {#devicerotateportrait}
 
@@ -878,7 +878,7 @@ ht-degree: 6%
 
 ## DiscoverOutline {#discoveroutline}
 
-![DiscoverOutline](/help/assets/icons/DiscoverOutline.svg)
+![探索大綱](/help/assets/icons/DiscoverOutline.svg)
 
 ## DistributeBottomEdge {#distributebottomedge}
 
@@ -886,11 +886,11 @@ ht-degree: 6%
 
 ## 均分水準置中 {#distributehorizontalcenter}
 
-![均分水準置中](/help/assets/icons/DistributeHorizontalCenter.svg)
+![DistributeHorizontalCenter](/help/assets/icons/DistributeHorizontalCenter.svg)
 
 ## 水準均分 {#distributehorizontally}
 
-![水準均分](/help/assets/icons/DistributeHorizontally.svg)
+![DistributeHorizontal](/help/assets/icons/DistributeHorizontally.svg)
 
 ## DistributeLeftEdge {#distributeleftedge}
 
@@ -914,11 +914,11 @@ ht-degree: 6%
 
 ## Distributedverticalcenter {#distributeverticalcenter}
 
-![Distributedverticalcenter](/help/assets/icons/DistributeVerticalCenter.svg)
+![DistributeVerticalCenter](/help/assets/icons/DistributeVerticalCenter.svg)
 
 ## 垂直散佈 {#distributevertically}
 
-![垂直散佈](/help/assets/icons/DistributeVertically.svg)
+![垂直分佈](/help/assets/icons/DistributeVertically.svg)
 
 ## 除 {#divide}
 
@@ -926,7 +926,7 @@ ht-degree: 6%
 
 ## DividePath {#dividepath}
 
-![DividePath](/help/assets/icons/DividePath.svg)
+![分割路徑](/help/assets/icons/DividePath.svg)
 
 ## 文件 {#document}
 
@@ -934,11 +934,11 @@ ht-degree: 6%
 
 ## 檔案片段 {#documentfragment}
 
-![檔案片段](/help/assets/icons/DocumentFragment.svg)
+![DocumentFragment](/help/assets/icons/DocumentFragment.svg)
 
 ## Documentfragmentgroup {#documentfragmentgroup}
 
-![Documentfragmentgroup](/help/assets/icons/DocumentFragmentGroup.svg)
+![DocumentFragmentGroup](/help/assets/icons/DocumentFragmentGroup.svg)
 
 ## 檔案大綱 {#documentoutline}
 
@@ -946,7 +946,7 @@ ht-degree: 6%
 
 ## 檔案重新整理 {#documentrefresh}
 
-![檔案重新整理](/help/assets/icons/DocumentRefresh.svg)
+![DocumentRefresh](/help/assets/icons/DocumentRefresh.svg)
 
 ## 推車 {#dolly}
 
@@ -974,7 +974,7 @@ ht-degree: 6%
 
 ## Draw {#draw}
 
-![Draw](/help/assets/icons/Draw.svg)
+![繪圖](/help/assets/icons/Draw.svg)
 
 ## 下拉式清單 {#dropdown}
 
@@ -982,7 +982,7 @@ ht-degree: 6%
 
 ## 複製 {#duplicate}
 
-![複製](/help/assets/icons/Duplicate.svg)
+![重複](/help/assets/icons/Duplicate.svg)
 
 ## 編輯 {#edit}
 
@@ -990,7 +990,7 @@ ht-degree: 6%
 
 ## 編輯圓形 {#editcircle}
 
-![編輯圓形](/help/assets/icons/EditCircle.svg)
+![EditCircle](/help/assets/icons/EditCircle.svg)
 
 ## 編輯排除 {#editexclude}
 
@@ -998,7 +998,7 @@ ht-degree: 6%
 
 ## EditIn {#editin}
 
-![EditIn](/help/assets/icons/EditIn.svg)
+![編輯位置](/help/assets/icons/EditIn.svg)
 
 ## EditInLight {#editinlight}
 
@@ -1014,7 +1014,7 @@ ht-degree: 6%
 
 ## 高效率 {#efficient}
 
-![高效率](/help/assets/icons/Efficient.svg)
+![有效率](/help/assets/icons/Efficient.svg)
 
 ## 橢圓 {#ellipse}
 
@@ -1042,7 +1042,7 @@ ht-degree: 6%
 
 ## EmailGear {#emailgear}
 
-![EmailGear](/help/assets/icons/EmailGear.svg)
+![電子郵件齒輪](/help/assets/icons/EmailGear.svg)
 
 ## EmailGearOutline {#emailgearoutline}
 
@@ -1058,7 +1058,7 @@ ht-degree: 6%
 
 ## EmailLightning {#emaillightning}
 
-![EmailLightning](/help/assets/icons/EmailLightning.svg)
+![電子郵件閃電](/help/assets/icons/EmailLightning.svg)
 
 ## 電子郵件通知 {#emailnotification}
 
@@ -1070,7 +1070,7 @@ ht-degree: 6%
 
 ## EmailRefresh {#emailrefresh}
 
-![EmailRefresh](/help/assets/icons/EmailRefresh.svg)
+![電子郵件重新整理](/help/assets/icons/EmailRefresh.svg)
 
 ## 電子郵件排程 {#emailschedule}
 
@@ -1086,7 +1086,7 @@ ht-degree: 6%
 
 ## 擦除 {#erase}
 
-![擦除](/help/assets/icons/Erase.svg)
+![清除](/help/assets/icons/Erase.svg)
 
 ## 活動 {#events}
 
@@ -1094,11 +1094,11 @@ ht-degree: 6%
 
 ## 活動 {#event}
 
-![事件](/help/assets/icons/Event.svg)
+![活動](/help/assets/icons/Event.svg)
 
 ## 事件排除 {#eventexclude}
 
-![事件排除](/help/assets/icons/EventExclude.svg)
+![EventExclude](/help/assets/icons/EventExclude.svg)
 
 ## 事件共用 {#eventshare}
 
@@ -1106,7 +1106,7 @@ ht-degree: 6%
 
 ## 排除重疊 {#excludeoverlap}
 
-![排除重疊](/help/assets/icons/ExcludeOverlap.svg)
+![ExcludeOverlap](/help/assets/icons/ExcludeOverlap.svg)
 
 ## 體驗 {#experience}
 
@@ -1114,7 +1114,7 @@ ht-degree: 6%
 
 ## ExperienceAdd {#experienceadd}
 
-![ExperienceAdd](/help/assets/icons/ExperienceAdd.svg)
+![體驗新增](/help/assets/icons/ExperienceAdd.svg)
 
 ## ExperienceAddTo {#experienceaddto}
 
@@ -1122,11 +1122,11 @@ ht-degree: 6%
 
 ## ExperienceExport {#experienceexport}
 
-![ExperienceExport](/help/assets/icons/ExperienceExport.svg)
+![體驗匯出](/help/assets/icons/ExperienceExport.svg)
 
 ## ExperienceImport {#experienceimport}
 
-![ExperienceImport](/help/assets/icons/ExperienceImport.svg)
+![體驗匯入](/help/assets/icons/ExperienceImport.svg)
 
 ## 匯出 {#export}
 
@@ -1150,11 +1150,11 @@ ht-degree: 6%
 
 ## 快進 {#fastforward}
 
-![快進](/help/assets/icons/FastForward.svg)
+![快轉](/help/assets/icons/FastForward.svg)
 
 ## 快進圈 {#fastforwardcircle}
 
-![快進圈](/help/assets/icons/FastForwardCircle.svg)
+![快轉圈](/help/assets/icons/FastForwardCircle.svg)
 
 ## 功能 {#feature}
 
@@ -1186,7 +1186,7 @@ ht-degree: 6%
 
 ## 檔案促銷活動 {#filecampaign}
 
-![檔案促銷活動](/help/assets/icons/FileCampaign.svg)
+![檔案行銷活動](/help/assets/icons/FileCampaign.svg)
 
 ## 檔案圖表 {#filechart}
 
@@ -1194,7 +1194,7 @@ ht-degree: 6%
 
 ## 檔案已簽出 {#filecheckedout}
 
-![檔案已簽出](/help/assets/icons/FileCheckedOut.svg)
+![FileCheckout](/help/assets/icons/FileCheckedOut.svg)
 
 ## 檔案代碼 {#filecode}
 
@@ -1218,11 +1218,11 @@ ht-degree: 6%
 
 ## 檔案全域 {#fileglobe}
 
-![檔案全域](/help/assets/icons/FileGlobe.svg)
+![FileGlobe](/help/assets/icons/FileGlobe.svg)
 
 ## 檔案HTML {#filehtml}
 
-![檔案HTML](/help/assets/icons/FileHTML.svg)
+![FileHTML](/help/assets/icons/FileHTML.svg)
 
 ## 檔案重要 {#fileimportant}
 
@@ -1246,7 +1246,7 @@ ht-degree: 6%
 
 ## FileSingleWebpage {#filesinglewebpage}
 
-![FileSingleWebpage](/help/assets/icons/FileSingleWebPage.svg)
+![FileSingleWebPage](/help/assets/icons/FileSingleWebPage.svg)
 
 ## 檔案空間 {#filespace}
 
@@ -1254,7 +1254,7 @@ ht-degree: 6%
 
 ## 檔案範本 {#filetemplate}
 
-![檔案範本](/help/assets/icons/FileTemplate.svg)
+![FileTemplate](/help/assets/icons/FileTemplate.svg)
 
 ## FileTxt {#filetxt}
 
@@ -1270,7 +1270,7 @@ ht-degree: 6%
 
 ## FileXML {#filexml}
 
-![FileXML](/help/assets/icons/FileXML.svg)
+![檔案XML](/help/assets/icons/FileXML.svg)
 
 ## FileZip {#filezip}
 
@@ -1282,7 +1282,7 @@ ht-degree: 6%
 
 ## 影片膠捲 {#filmroll}
 
-![影片膠捲](/help/assets/icons/Filmroll.svg)
+![Filmroll](/help/assets/icons/Filmroll.svg)
 
 ## FilmrollAutoAdd {#filmrollautoadd}
 
@@ -1310,7 +1310,7 @@ ht-degree: 6%
 
 ## 篩選心率 {#filterheart}
 
-![篩選心率](/help/assets/icons/FilterHeart.svg)
+![FilterHeart](/help/assets/icons/FilterHeart.svg)
 
 ## 篩選移除 {#filterremove}
 
@@ -1326,11 +1326,11 @@ ht-degree: 6%
 
 ## 標幟 {#flag}
 
-![標幟](/help/assets/icons/Flag.svg)
+![旗標](/help/assets/icons/Flag.svg)
 
 ## FlagExclude {#flagexclude}
 
-![FlagExclude](/help/assets/icons/FlagExclude.svg)
+![旗標排除](/help/assets/icons/FlagExclude.svg)
 
 ## FlashAuto {#flashauto}
 
@@ -1354,7 +1354,7 @@ ht-degree: 6%
 
 ## 手電筒開啟 {#flashlighton}
 
-![手電筒開啟](/help/assets/icons/FlashlightOn.svg)
+![手電筒On](/help/assets/icons/FlashlightOn.svg)
 
 ## 水準翻轉 {#fliphorizontal}
 
@@ -1370,11 +1370,11 @@ ht-degree: 6%
 
 ## Folder2Color {#folder2color}
 
-![Folder2Color](/help/assets/icons/Folder2Color.svg)
+![資料夾2色彩](/help/assets/icons/Folder2Color.svg)
 
 ## FolderAdd {#folderadd}
 
-![FolderAdd](/help/assets/icons/FolderAdd.svg)
+![資料夾新增](/help/assets/icons/FolderAdd.svg)
 
 ## FolderAddTo {#folderaddto}
 
@@ -1382,15 +1382,15 @@ ht-degree: 6%
 
 ## FolderArchive {#folderarchive}
 
-![FolderArchive](/help/assets/icons/FolderArchive.svg)
+![資料夾封存](/help/assets/icons/FolderArchive.svg)
 
 ## FolderDelete {#folderdelete}
 
-![FolderDelete](/help/assets/icons/FolderDelete.svg)
+![資料夾刪除](/help/assets/icons/FolderDelete.svg)
 
 ## FolderGear {#foldergear}
 
-![FolderGear](/help/assets/icons/FolderGear.svg)
+![資料夾齒輪](/help/assets/icons/FolderGear.svg)
 
 ## 資料夾已鎖定 {#folderlocked}
 
@@ -1402,7 +1402,7 @@ ht-degree: 6%
 
 ## FolderOpenOutline {#folderopenoutline}
 
-![FolderOpenOutline](/help/assets/icons/FolderOpenOutline.svg)
+![資料夾開啟大綱](/help/assets/icons/FolderOpenOutline.svg)
 
 ## 資料夾大綱 {#folderoutline}
 
@@ -1414,7 +1414,7 @@ ht-degree: 6%
 
 ## FolderSearch {#foldersearch}
 
-![FolderSearch](/help/assets/icons/FolderSearch.svg)
+![資料夾搜尋](/help/assets/icons/FolderSearch.svg)
 
 ## 資料夾使用者 {#folderuser}
 
@@ -1422,11 +1422,11 @@ ht-degree: 6%
 
 ## 追隨 {#follow}
 
-![追隨](/help/assets/icons/Follow.svg)
+![關注](/help/assets/icons/Follow.svg)
 
 ## FlowOff {#followoff}
 
-![FlowOff](/help/assets/icons/FollowOff.svg)
+![FollowOff](/help/assets/icons/FollowOff.svg)
 
 ## ForPlacementOnly {#forplacementonly}
 
@@ -1442,7 +1442,7 @@ ht-degree: 6%
 
 ## 前進 {#forward}
 
-![前進](/help/assets/icons/Forward.svg)
+![轉寄](/help/assets/icons/Forward.svg)
 
 ## 全熒幕 {#fullscreen}
 
@@ -1486,7 +1486,7 @@ ht-degree: 6%
 
 ## 齒輪新增 {#gearsadd}
 
-![齒輪新增](/help/assets/icons/GearsAdd.svg)
+![齒輪加](/help/assets/icons/GearsAdd.svg)
 
 ## 齒輪刪除 {#gearsdelete}
 
@@ -1502,11 +1502,11 @@ ht-degree: 6%
 
 ## GenderMale {#gendermale}
 
-![GenderMale](/help/assets/icons/GenderMale.svg)
+![性別男性](/help/assets/icons/GenderMale.svg)
 
 ## 贈品 {#gift}
 
-![贈品](/help/assets/icons/Gift.svg)
+![禮物](/help/assets/icons/Gift.svg)
 
 ## 地球 {#globe}
 
@@ -1518,7 +1518,7 @@ ht-degree: 6%
 
 ## GlobeClock {#globeclock}
 
-![GlobeClock](/help/assets/icons/GlobeClock.svg)
+![地球時鐘](/help/assets/icons/GlobeClock.svg)
 
 ## GlobeEnter {#globeenter}
 
@@ -1562,7 +1562,7 @@ ht-degree: 6%
 
 ## 圖表區域 {#grapharea}
 
-![圖表區域](/help/assets/icons/GraphArea.svg)
+![GraphArea](/help/assets/icons/GraphArea.svg)
 
 ## GraphAreaStacked {#graphareastacked}
 
@@ -1570,11 +1570,11 @@ ht-degree: 6%
 
 ## 圖表橫條水準 {#graphbarhorizontal}
 
-![圖表橫條水準](/help/assets/icons/GraphBarHorizontal.svg)
+![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg)
 
 ## 圖表橫條水準新增 {#graphbarhorizontaladd}
 
-![圖表橫條水準新增](/help/assets/icons/GraphBarHorizontalAdd.svg)
+![GraphBarHorizontalAdd](/help/assets/icons/GraphBarHorizontalAdd.svg)
 
 ## GraphBarHorizontalStacked {#graphbarhorizontalstacked}
 
@@ -1582,7 +1582,7 @@ ht-degree: 6%
 
 ## 圖表橫條垂直 {#graphbarvertical}
 
-![圖表橫條垂直](/help/assets/icons/GraphBarVertical.svg)
+![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg)
 
 ## GraphBarVerticalAdd {#graphbarverticaladd}
 
@@ -1594,7 +1594,7 @@ ht-degree: 6%
 
 ## 圖表氣泡 {#graphbubble}
 
-![圖表氣泡](/help/assets/icons/GraphBubble.svg)
+![圖形氣泡](/help/assets/icons/GraphBubble.svg)
 
 ## GraphBullet {#graphbullet}
 
@@ -1606,7 +1606,7 @@ ht-degree: 6%
 
 ## 環形圖 {#graphdonut}
 
-![環形圖](/help/assets/icons/GraphDonut.svg)
+![GraphDonut](/help/assets/icons/GraphDonut.svg)
 
 ## GraphDonutAdd {#graphdonutadd}
 
@@ -1614,11 +1614,11 @@ ht-degree: 6%
 
 ## 圖表甘特圖 {#graphgantt}
 
-![圖表甘特圖](/help/assets/icons/GraphGantt.svg)
+![GraphGantt](/help/assets/icons/GraphGantt.svg)
 
 ## 圖表長條圖 {#graphhistogram}
 
-![圖表長條圖](/help/assets/icons/GraphHistogram.svg)
+![GraphHistogram](/help/assets/icons/GraphHistogram.svg)
 
 ## GraphPathing {#graphpathing}
 
@@ -1626,7 +1626,7 @@ ht-degree: 6%
 
 ## 圖形圓形 {#graphpie}
 
-![圖形圓形](/help/assets/icons/GraphPie.svg)
+![GraphPie](/help/assets/icons/GraphPie.svg)
 
 ## GraphProfitCurve {#graphprofitcurve}
 
@@ -1638,7 +1638,7 @@ ht-degree: 6%
 
 ## Graphstream {#graphstream}
 
-![Graphstream](/help/assets/icons/GraphStream.svg)
+![GraphStream](/help/assets/icons/GraphStream.svg)
 
 ## GraphStreamRanking {#graphstreamranked}
 
@@ -1650,15 +1650,15 @@ ht-degree: 6%
 
 ## 圖表散射環 {#graphsunburst}
 
-![圖表散射環](/help/assets/icons/GraphSunburst.svg)
+![GraphSunburst](/help/assets/icons/GraphSunburst.svg)
 
 ## 圖表樹 {#graphtree}
 
-![圖表樹](/help/assets/icons/GraphTree.svg)
+![GraphTree](/help/assets/icons/GraphTree.svg)
 
 ## Graphtrend {#graphtrend}
 
-![Graphtrend](/help/assets/icons/GraphTrend.svg)
+![GraphTrend](/help/assets/icons/GraphTrend.svg)
 
 ## GraphTrendAdd {#graphtrendadd}
 
@@ -1682,27 +1682,27 @@ ht-degree: 6%
 
 ## 手形 {#hand}
 
-![手形](/help/assets/icons/Hand.svg)
+![手](/help/assets/icons/Hand.svg)
 
 ## 手形0 {#hand0}
 
-![手形0](/help/assets/icons/Hand0.svg)
+![手0](/help/assets/icons/Hand0.svg)
 
 ## 手形1 {#hand1}
 
-![手形1](/help/assets/icons/Hand1.svg)
+![手1](/help/assets/icons/Hand1.svg)
 
 ## 手形2 {#hand2}
 
-![手形2](/help/assets/icons/Hand2.svg)
+![手2](/help/assets/icons/Hand2.svg)
 
 ## 手形3 {#hand3}
 
-![手形3](/help/assets/icons/Hand3.svg)
+![手3](/help/assets/icons/Hand3.svg)
 
 ## 手形4 {#hand4}
 
-![手形4](/help/assets/icons/Hand4.svg)
+![手4](/help/assets/icons/Hand4.svg)
 
 ## 修復 {#heal}
 
@@ -1726,7 +1726,7 @@ ht-degree: 6%
 
 ## 歷史記錄 {#history}
 
-![歷史記錄](/help/assets/icons/History.svg)
+![歷程記錄](/help/assets/icons/History.svg)
 
 ## 首頁 {#home}
 
@@ -1742,11 +1742,11 @@ ht-degree: 6%
 
 ## 賓館床 {#hotelbed}
 
-![賓館床](/help/assets/icons/HotelBed.svg)
+![HotelBed](/help/assets/icons/HotelBed.svg)
 
 ## 身分識別服務 {#identityservice}
 
-![身分識別服務](/help/assets/icons/IdentityService.svg)
+![IdentityService](/help/assets/icons/IdentityService.svg)
 
 ## 影像 {#images}
 
@@ -1758,7 +1758,7 @@ ht-degree: 6%
 
 ## ImageAdd {#imageadd}
 
-![ImageAdd](/help/assets/icons/ImageAdd.svg)
+![影像新增](/help/assets/icons/ImageAdd.svg)
 
 ## 影像相簿 {#imagealbum}
 
@@ -1766,11 +1766,11 @@ ht-degree: 6%
 
 ## 影像自動模式 {#imageautomode}
 
-![影像自動模式](/help/assets/icons/ImageAutoMode.svg)
+![ImageAutoMode](/help/assets/icons/ImageAutoMode.svg)
 
 ## ImageCarousel {#imagecarousel}
 
-![ImageCarousel](/help/assets/icons/ImageCarousel.svg)
+![影像輪播](/help/assets/icons/ImageCarousel.svg)
 
 ## 影像檢查 {#imagecheck}
 
@@ -1782,7 +1782,7 @@ ht-degree: 6%
 
 ## 影像地圖圓形 {#imagemapcircle}
 
-![影像地圖圓形](/help/assets/icons/ImageMapCircle.svg)
+![ImageMapCircle](/help/assets/icons/ImageMapCircle.svg)
 
 ## 影像地圖多邊形 {#imagemappolygon}
 
@@ -1798,11 +1798,11 @@ ht-degree: 6%
 
 ## ImageProfile {#imageprofile}
 
-![ImageProfile](/help/assets/icons/ImageProfile.svg)
+![影像設定檔](/help/assets/icons/ImageProfile.svg)
 
 ## ImageSearch {#imagesearch}
 
-![ImageSearch](/help/assets/icons/ImageSearch.svg)
+![影像搜尋](/help/assets/icons/ImageSearch.svg)
 
 ## 影像文字 {#imagetext}
 
@@ -1830,11 +1830,11 @@ ht-degree: 6%
 
 ## IntersectOverlap {#intersectoverlap}
 
-![IntersectOverlap](/help/assets/icons/IntersectOverlap.svg)
+![交集重疊](/help/assets/icons/IntersectOverlap.svg)
 
 ## 反轉調整 {#invertadj}
 
-![反轉調整](/help/assets/icons/InvertAdj.svg)
+![InvertAdj](/help/assets/icons/InvertAdj.svg)
 
 ## 邀請 {#invite}
 
@@ -1846,7 +1846,7 @@ ht-degree: 6%
 
 ## JourneyAction {#journeyaction}
 
-![JourneyAction](/help/assets/icons/JourneyAction.svg)
+![歷程動作](/help/assets/icons/JourneyAction.svg)
 
 ## 歷程資料 {#journeydata}
 
@@ -1854,11 +1854,11 @@ ht-degree: 6%
 
 ## JourneyEvent {#journeyevent}
 
-![JourneyEvent](/help/assets/icons/JourneyEvent.svg)
+![歷程事件](/help/assets/icons/JourneyEvent.svg)
 
 ## JourneyEvent2 {#journeyevent2}
 
-![JourneyEvent2](/help/assets/icons/JourneyEvent2.svg)
+![歷程事件2](/help/assets/icons/JourneyEvent2.svg)
 
 ## 歷程報告 {#journeyreport}
 
@@ -1898,7 +1898,7 @@ ht-degree: 6%
 
 ## 標籤排除 {#labelexclude}
 
-![標籤排除](/help/assets/icons/LabelExclude.svg)
+![LabelExclude](/help/assets/icons/LabelExclude.svg)
 
 ## 橫向 {#landscape}
 
@@ -1918,7 +1918,7 @@ ht-degree: 6%
 
 ## 圖層移至最前面 {#layersbringtofront}
 
-![圖層移至最前面](/help/assets/icons/LayersBringToFront.svg)
+![LayersBringToFront](/help/assets/icons/LayersBringToFront.svg)
 
 ## 圖層向前 {#layersforward}
 
@@ -1930,7 +1930,7 @@ ht-degree: 6%
 
 ## 瞭解 {#learn}
 
-![瞭解](/help/assets/icons/Learn.svg)
+![學習](/help/assets/icons/Learn.svg)
 
 ## LeftRight {#leftright}
 
@@ -1938,15 +1938,15 @@ ht-degree: 6%
 
 ## 淺色 {#light}
 
-![淺色](/help/assets/icons/Light.svg)
+![亮](/help/assets/icons/Light.svg)
 
 ## 折線圖 {#line}
 
-![折線圖](/help/assets/icons/Line.svg)
+![行](/help/assets/icons/Line.svg)
 
 ## 行高 {#lineheight}
 
-![行高](/help/assets/icons/LineHeight.svg)
+![LineHeight](/help/assets/icons/LineHeight.svg)
 
 ## 線性漸層 {#lineargradient}
 
@@ -1970,23 +1970,23 @@ ht-degree: 6%
 
 ## 連結關閉 {#linkoff}
 
-![連結關閉](/help/assets/icons/LinkOff.svg)
+![LinkOff](/help/assets/icons/LinkOff.svg)
 
 ## 連結輸出 {#linkout}
 
-![連結輸出](/help/assets/icons/LinkOut.svg)
+![LinkOut](/help/assets/icons/LinkOut.svg)
 
 ## linkoutlight {#linkoutlight}
 
-![linkoutlight](/help/assets/icons/LinkOutLight.svg)
+![LinkOutLight](/help/assets/icons/LinkOutLight.svg)
 
 ## 連結頁面 {#linkpage}
 
-![連結頁面](/help/assets/icons/LinkPage.svg)
+![LinkPage](/help/assets/icons/LinkPage.svg)
 
 ## 連結使用者 {#linkuser}
 
-![連結使用者](/help/assets/icons/LinkUser.svg)
+![LinkUser](/help/assets/icons/LinkUser.svg)
 
 ## 位置 {#location}
 
@@ -1994,11 +1994,11 @@ ht-degree: 6%
 
 ## locationbaseddate {#locationbaseddate}
 
-![locationbaseddate](/help/assets/icons/LocationBasedDate.svg)
+![LocationBasedDate](/help/assets/icons/LocationBasedDate.svg)
 
 ## LocationBasedevent {#locationbasedevent}
 
-![LocationBasedevent](/help/assets/icons/LocationBasedEvent.svg)
+![LocationBasedEvent](/help/assets/icons/LocationBasedEvent.svg)
 
 ## LocationContribution {#locationcontribution}
 
@@ -2010,7 +2010,7 @@ ht-degree: 6%
 
 ## 鎖定開啟 {#lockopen}
 
-![鎖定開啟](/help/assets/icons/LockOpen.svg)
+![LockOpen](/help/assets/icons/LockOpen.svg)
 
 ## 登出 {#logout}
 
@@ -2022,7 +2022,7 @@ ht-degree: 6%
 
 ## Look {#look}
 
-![Look](/help/assets/icons/Look.svg)
+![外觀](/help/assets/icons/Look.svg)
 
 ## 放大檢視 {#loupeview}
 
@@ -2050,7 +2050,7 @@ ht-degree: 6%
 
 ## 下邊界 {#marginbottom}
 
-![下邊界](/help/assets/icons/MarginBottom.svg)
+![下邊距](/help/assets/icons/MarginBottom.svg)
 
 ## 左邊界 {#marginleft}
 
@@ -2074,11 +2074,11 @@ ht-degree: 6%
 
 ## 測量 {#measure}
 
-![測量](/help/assets/icons/Measure.svg)
+![量值](/help/assets/icons/Measure.svg)
 
 ## 選單 {#menu}
 
-![選單](/help/assets/icons/Menu.svg)
+![功能表](/help/assets/icons/Menu.svg)
 
 ## 合併 {#merge}
 
@@ -2086,7 +2086,7 @@ ht-degree: 6%
 
 ## 合併圖層 {#mergelayer}
 
-![合併圖層](/help/assets/icons/MergeLayer.svg)
+![MergeLayer](/help/assets/icons/MergeLayer.svg)
 
 ## Messenger {#messenger}
 
@@ -2106,7 +2106,7 @@ ht-degree: 6%
 
 ## 金錢 {#money}
 
-![金錢](/help/assets/icons/Money.svg)
+![金額](/help/assets/icons/Money.svg)
 
 ## 監控 {#monitoring}
 
@@ -2114,7 +2114,7 @@ ht-degree: 6%
 
 ## 月亮 {#moon}
 
-![月亮](/help/assets/icons/Moon.svg)
+![月](/help/assets/icons/Moon.svg)
 
 ## 更多 {#more}
 
@@ -2122,11 +2122,11 @@ ht-degree: 6%
 
 ## 其他圓形 {#morecircle}
 
-![其他圓形](/help/assets/icons/MoreCircle.svg)
+![其他圓圈](/help/assets/icons/MoreCircle.svg)
 
 ## 更小 {#moresmall}
 
-![更小](/help/assets/icons/MoreSmall.svg)
+![MoreSmall](/help/assets/icons/MoreSmall.svg)
 
 ## MoreSmallList {#moresmalllist}
 
@@ -2134,7 +2134,7 @@ ht-degree: 6%
 
 ## MoreSmallListVersion {#moresmalllistvert}
 
-![MoreSmallListVersion](/help/assets/icons/MoreSmallListVert.svg)
+![MoreSmallListVert](/help/assets/icons/MoreSmallListVert.svg)
 
 ## 更多垂直 {#morevertical}
 
@@ -2146,7 +2146,7 @@ ht-degree: 6%
 
 ## 左移 {#moveleftright}
 
-![左移](/help/assets/icons/MoveLeftRight.svg)
+![MoveLeftRight](/help/assets/icons/MoveLeftRight.svg)
 
 ## 移至 {#moveto}
 
@@ -2154,7 +2154,7 @@ ht-degree: 6%
 
 ## 上移下移 {#moveupdown}
 
-![上移下移](/help/assets/icons/MoveUpDown.svg)
+![MoveUpDown](/help/assets/icons/MoveUpDown.svg)
 
 ## MovieCamera {#moviecamera}
 
@@ -2166,19 +2166,19 @@ ht-degree: 6%
 
 ## 多重新增 {#multipleadd}
 
-![多重新增](/help/assets/icons/MultipleAdd.svg)
+![MultipleAdd](/help/assets/icons/MultipleAdd.svg)
 
 ## 多重檢查 {#multiplecheck}
 
-![多重檢查](/help/assets/icons/MultipleCheck.svg)
+![MultipleCheck](/help/assets/icons/MultipleCheck.svg)
 
 ## 多重排除 {#multipleexclude}
 
-![多重排除](/help/assets/icons/MultipleExclude.svg)
+![MultipleExclude](/help/assets/icons/MultipleExclude.svg)
 
 ## 命名順序 {#namingorder}
 
-![命名順序](/help/assets/icons/NamingOrder.svg)
+![NamingOrder](/help/assets/icons/NamingOrder.svg)
 
 ## 新增 {#new}
 
@@ -2186,7 +2186,7 @@ ht-degree: 6%
 
 ## 新增專案 {#newitem}
 
-![新增專案](/help/assets/icons/NewItem.svg)
+![NewItem](/help/assets/icons/NewItem.svg)
 
 ## 新計畫 {#newplan}
 
@@ -2194,7 +2194,7 @@ ht-degree: 6%
 
 ## NewsAdd {#newsadd}
 
-![NewsAdd](/help/assets/icons/NewsAdd.svg)
+![新聞新增](/help/assets/icons/NewsAdd.svg)
 
 ## NoEdit {#noedit}
 
@@ -2218,7 +2218,7 @@ ht-degree: 6%
 
 ## 優惠活動 {#offeractivities}
 
-![優惠活動](/help/assets/icons/OfferActivities.svg)
+![OfferActivities](/help/assets/icons/OfferActivities.svg)
 
 ## OfferDelete {#offerdelete}
 
@@ -2278,7 +2278,7 @@ ht-degree: 6%
 
 ## 上內邊距 {#paddingtop}
 
-![上內邊距](/help/assets/icons/PaddingTop.svg)
+![內距頂端](/help/assets/icons/PaddingTop.svg)
 
 ## 分頁符號 {#pagebreak}
 
@@ -2286,7 +2286,7 @@ ht-degree: 6%
 
 ## 頁面排除 {#pageexclude}
 
-![頁面排除](/help/assets/icons/PageExclude.svg)
+![PageExclude](/help/assets/icons/PageExclude.svg)
 
 ## PageGear {#pagegear}
 
@@ -2298,7 +2298,7 @@ ht-degree: 6%
 
 ## PageShare {#pageshare}
 
-![PageShare](/help/assets/icons/PageShare.svg)
+![頁面共用](/help/assets/icons/PageShare.svg)
 
 ## 頁面標籤 {#pagetag}
 
@@ -2306,7 +2306,7 @@ ht-degree: 6%
 
 ## 頁面排除 {#pagesexclude}
 
-![頁面排除](/help/assets/icons/PagesExclude.svg)
+![頁排除](/help/assets/icons/PagesExclude.svg)
 
 ## 平移 {#pan}
 
@@ -2334,7 +2334,7 @@ ht-degree: 6%
 
 ## 圖樣 {#pattern}
 
-![圖樣](/help/assets/icons/Pattern.svg)
+![模式](/help/assets/icons/Pattern.svg)
 
 ## 暫停 {#pause}
 
@@ -2358,7 +2358,7 @@ ht-degree: 6%
 
 ## PersonalizationField {#personalizationfield}
 
-![PersonalizationField](/help/assets/icons/PersonalizationField.svg)
+![個人化欄位](/help/assets/icons/PersonalizationField.svg)
 
 ## 透視 {#perspective}
 
@@ -2382,7 +2382,7 @@ ht-degree: 6%
 
 ## PlatformDataMapping {#platformdatamapping}
 
-![PlatformDataMapping](/help/assets/icons/PlatformDataMapping.svg)
+![平台資料對應](/help/assets/icons/PlatformDataMapping.svg)
 
 ## 播放 {#play}
 
@@ -2390,11 +2390,11 @@ ht-degree: 6%
 
 ## PlayCycle {#playcircle}
 
-![PlayCycle](/help/assets/icons/PlayCircle.svg)
+![播放圈](/help/assets/icons/PlayCircle.svg)
 
 ## 插頭 {#plug}
 
-![插頭](/help/assets/icons/Plug.svg)
+![外掛程式](/help/assets/icons/Plug.svg)
 
 ## 多邊形 {#polygon}
 
@@ -2462,7 +2462,7 @@ ht-degree: 6%
 
 ## Publishpending {#publishpending}
 
-![Publishpending](/help/assets/icons/PublishPending.svg)
+![PublishPending](/help/assets/icons/PublishPending.svg)
 
 ## PublishReject {#publishreject}
 
@@ -2474,7 +2474,7 @@ ht-degree: 6%
 
 ## Publishschedule {#publishschedule}
 
-![Publishschedule](/help/assets/icons/PublishSchedule.svg)
+![PublishSchedule](/help/assets/icons/PublishSchedule.svg)
 
 ## 推播通知 {#pushnotification}
 
@@ -2506,11 +2506,11 @@ ht-degree: 6%
 
 ## 左邊欄 {#railleft}
 
-![左邊欄](/help/assets/icons/RailLeft.svg)
+![左側邊欄](/help/assets/icons/RailLeft.svg)
 
 ## 右邊欄 {#railright}
 
-![右邊欄](/help/assets/icons/RailRight.svg)
+![右側邊欄](/help/assets/icons/RailRight.svg)
 
 ## RailRightClose {#railrightclose}
 
@@ -2518,11 +2518,11 @@ ht-degree: 6%
 
 ## 邊欄右側 {#railrightopen}
 
-![邊欄右側](/help/assets/icons/RailRightOpen.svg)
+![RailRightOpen](/help/assets/icons/RailRightOpen.svg)
 
 ## 邊欄頂端 {#railtop}
 
-![邊欄頂端](/help/assets/icons/RailTop.svg)
+![RailTop](/help/assets/icons/RailTop.svg)
 
 ## RangeMask {#rangemask}
 
@@ -2534,7 +2534,7 @@ ht-degree: 6%
 
 ## 矩形選取 {#rectselect}
 
-![矩形選取](/help/assets/icons/RectSelect.svg)
+![RectSelect](/help/assets/icons/RectSelect.svg)
 
 ## 矩形 {#rectangle}
 
@@ -2562,7 +2562,7 @@ ht-degree: 6%
 
 ## 移除圓形 {#removecircle}
 
-![移除圓形](/help/assets/icons/RemoveCircle.svg)
+![移除圓圈](/help/assets/icons/RemoveCircle.svg)
 
 ## 重新命名 {#rename}
 
@@ -2626,7 +2626,7 @@ ht-degree: 6%
 
 ## 倒帶圓形 {#rewindcircle}
 
-![倒帶圓形](/help/assets/icons/RewindCircle.svg)
+![倒帶](/help/assets/icons/RewindCircle.svg)
 
 ## 功能區 {#ribbon}
 
@@ -2634,7 +2634,7 @@ ht-degree: 6%
 
 ## 旋轉逆時針 {#rotateccw}
 
-![旋轉逆時針](/help/assets/icons/RotateCCW.svg)
+![RotateCCW](/help/assets/icons/RotateCCW.svg)
 
 ## RotateCCWBold {#rotateccwbold}
 
@@ -2642,7 +2642,7 @@ ht-degree: 6%
 
 ## 旋轉順時針 {#rotatecw}
 
-![旋轉順時針](/help/assets/icons/RotateCW.svg)
+![RotateCW](/help/assets/icons/RotateCW.svg)
 
 ## RotateCWBold {#rotatecwbold}
 
@@ -2662,7 +2662,7 @@ ht-degree: 6%
 
 ## 旋轉右外框 {#rotaterightoutline}
 
-![旋轉右外框](/help/assets/icons/RotateRightOutline.svg)
+![RotateRightOutline](/help/assets/icons/RotateRightOutline.svg)
 
 ## SM {#sm}
 
@@ -2690,7 +2690,7 @@ ht-degree: 6%
 
 ## Sandbox {#sandbox}
 
-![Sandbox](/help/assets/icons/Sandbox.svg)
+![沙箱](/help/assets/icons/Sandbox.svg)
 
 ## SaveAsFloppy {#saveasfloppy}
 
@@ -2698,7 +2698,7 @@ ht-degree: 6%
 
 ## SaveFloppy {#savefloppy}
 
-![SaveFloppy](/help/assets/icons/SaveFloppy.svg)
+![儲存磁片](/help/assets/icons/SaveFloppy.svg)
 
 ## 儲存至 {#saveto}
 
@@ -2722,11 +2722,11 @@ ht-degree: 6%
 
 ## 授權 {#seat}
 
-![授權](/help/assets/icons/Seat.svg)
+![名額](/help/assets/icons/Seat.svg)
 
 ## SeatAdd {#seatadd}
 
-![SeatAdd](/help/assets/icons/SeatAdd.svg)
+![名額新增](/help/assets/icons/SeatAdd.svg)
 
 ## 區段 {#segment}
 
@@ -2750,15 +2750,15 @@ ht-degree: 6%
 
 ## 選取方塊 {#selectboxall}
 
-![選取方塊](/help/assets/icons/SelectBoxAll.svg)
+![SelectBoxAll](/help/assets/icons/SelectBoxAll.svg)
 
 ## 選取圓形 {#selectcircular}
 
-![選取圓形](/help/assets/icons/SelectCircular.svg)
+![選取循環](/help/assets/icons/SelectCircular.svg)
 
 ## Selectcontainer {#selectcontainer}
 
-![Selectcontainer](/help/assets/icons/SelectContainer.svg)
+![SelectContainer](/help/assets/icons/SelectContainer.svg)
 
 ## SelectGear {#selectgear}
 
@@ -2766,23 +2766,23 @@ ht-degree: 6%
 
 ## 選取相交 {#selectintersect}
 
-![選取相交](/help/assets/icons/SelectIntersect.svg)
+![SelectIntersect](/help/assets/icons/SelectIntersect.svg)
 
 ## SelectSubtract {#selectsubtract}
 
-![SelectSubtract](/help/assets/icons/SelectSubtract.svg)
+![選取減](/help/assets/icons/SelectSubtract.svg)
 
 ## 選取 {#selection}
 
-![選取](/help/assets/icons/Selection.svg)
+![選取專案](/help/assets/icons/Selection.svg)
 
 ## 選取已核取 {#selectionchecked}
 
-![選取已核取](/help/assets/icons/SelectionChecked.svg)
+![SelectionChecked](/help/assets/icons/SelectionChecked.svg)
 
 ## 選取範圍移動 {#selectionmove}
 
-![選取範圍移動](/help/assets/icons/SelectionMove.svg)
+![SelectionMove](/help/assets/icons/SelectionMove.svg)
 
 ## 傳送 {#send}
 
@@ -2794,11 +2794,11 @@ ht-degree: 6%
 
 ## 情緒中性 {#sentimentneutral}
 
-![情緒中性](/help/assets/icons/SentimentNeutral.svg)
+![情緒中立](/help/assets/icons/SentimentNeutral.svg)
 
 ## 情緒積極 {#sentimentpositive}
 
-![情緒積極](/help/assets/icons/SentimentPositive.svg)
+![情緒正面](/help/assets/icons/SentimentPositive.svg)
 
 ## 分隔符號 {#separator}
 
@@ -2842,7 +2842,7 @@ ht-degree: 6%
 
 ## 遮蔽 {#shield}
 
-![遮蔽](/help/assets/icons/Shield.svg)
+![盾牌](/help/assets/icons/Shield.svg)
 
 ## 出貨 {#ship}
 
@@ -2850,23 +2850,23 @@ ht-degree: 6%
 
 ## 購物 {#shop}
 
-![購物](/help/assets/icons/Shop.svg)
+![商店](/help/assets/icons/Shop.svg)
 
 ## ShoppingCart {#shoppingcart}
 
-![ShoppingCart](/help/assets/icons/ShoppingCart.svg)
+![購物車](/help/assets/icons/ShoppingCart.svg)
 
 ## ShowAllLay {#showalllayer}
 
-![ShowAllLay](/help/assets/icons/ShowAllLayer.svg)
+![ShowAllLayer](/help/assets/icons/ShowAllLayer.svg)
 
 ## 顯示功能表 {#showmenu}
 
-![顯示功能表](/help/assets/icons/ShowMenu.svg)
+![ShowMenu](/help/assets/icons/ShowMenu.svg)
 
 ## ShowoneLayer {#showonelayer}
 
-![ShowoneLayer](/help/assets/icons/ShowOneLayer.svg)
+![ShowOneLayer](/help/assets/icons/ShowOneLayer.svg)
 
 ## 隨機播放 {#shuffle}
 
@@ -2874,11 +2874,11 @@ ht-degree: 6%
 
 ## 切片 {#slice}
 
-![切片](/help/assets/icons/Slice.svg)
+![磁碟片段](/help/assets/icons/Slice.svg)
 
 ## 慢速 {#slow}
 
-![慢速](/help/assets/icons/Slow.svg)
+![慢](/help/assets/icons/Slow.svg)
 
 ## 小型股 {#smallcap}
 
@@ -2894,11 +2894,11 @@ ht-degree: 6%
 
 ## SortOrderdown {#sortorderdown}
 
-![SortOrderdown](/help/assets/icons/SortOrderDown.svg)
+![SortOrderDown](/help/assets/icons/SortOrderDown.svg)
 
 ## SortOrderup {#sortorderup}
 
-![SortOrderup](/help/assets/icons/SortOrderUp.svg)
+![排序向上鍵](/help/assets/icons/SortOrderUp.svg)
 
 ## 垃圾訊息 {#spam}
 
@@ -2930,15 +2930,15 @@ ht-degree: 6%
 
 ## 印章 {#stamp}
 
-![印章](/help/assets/icons/Stamp.svg)
+![戳記](/help/assets/icons/Stamp.svg)
 
 ## 星形 {#star}
 
-![星形](/help/assets/icons/Star.svg)
+![顆星](/help/assets/icons/Star.svg)
 
 ## 星形外框 {#staroutline}
 
-![星形外框](/help/assets/icons/StarOutline.svg)
+![星形大綱](/help/assets/icons/StarOutline.svg)
 
 ## 星暴 {#starburst}
 
@@ -2950,15 +2950,15 @@ ht-degree: 6%
 
 ## 階梯回溯圓 {#stepbackwardcircle}
 
-![階梯回溯圓](/help/assets/icons/StepBackwardCircle.svg)
+![StepBackwardCycle](/help/assets/icons/StepBackwardCircle.svg)
 
 ## 前進 {#stepforward}
 
-![前進](/help/assets/icons/StepForward.svg)
+![向前一步](/help/assets/icons/StepForward.svg)
 
 ## 向前移動圓形 {#stepforwardcircle}
 
-![向前移動圓形](/help/assets/icons/StepForwardCircle.svg)
+![StepForwardCircle](/help/assets/icons/StepForwardCircle.svg)
 
 ## 停止 {#stop}
 
@@ -2966,11 +2966,11 @@ ht-degree: 6%
 
 ## 停止圓形 {#stopcircle}
 
-![停止圓形](/help/assets/icons/StopCircle.svg)
+![StopCircle](/help/assets/icons/StopCircle.svg)
 
 ## 秒錶 {#stopwatch}
 
-![秒錶](/help/assets/icons/Stopwatch.svg)
+![停止觀看](/help/assets/icons/Stopwatch.svg)
 
 ## 拉直 {#straighten}
 
@@ -2990,15 +2990,15 @@ ht-degree: 6%
 
 ## Subtractbackpath {#subtractbackpath}
 
-![Subtractbackpath](/help/assets/icons/SubtractBackPath.svg)
+![SubtractBackPath](/help/assets/icons/SubtractBackPath.svg)
 
 ## SubtractFromSelection {#subtractfromselection}
 
-![SubtractFromSelection](/help/assets/icons/SubtractFromSelection.svg)
+![從選取範圍減去](/help/assets/icons/SubtractFromSelection.svg)
 
 ## Subtractfrontpath {#subtractfrontpath}
 
-![Subtractfrontpath](/help/assets/icons/SubtractFrontPath.svg)
+![SubtractFrontPath](/help/assets/icons/SubtractFrontPath.svg)
 
 ## SuccessMetric {#successmetric}
 
@@ -3014,7 +3014,7 @@ ht-degree: 6%
 
 ## 切換 {#switch}
 
-![切換](/help/assets/icons/Switch.svg)
+![開關](/help/assets/icons/Switch.svg)
 
 ## 同步 {#sync}
 
@@ -3030,11 +3030,11 @@ ht-degree: 6%
 
 ## 表格新增 {#tableadd}
 
-![表格新增](/help/assets/icons/TableAdd.svg)
+![資料表新增](/help/assets/icons/TableAdd.svg)
 
 ## 表格與圖表 {#tableandchart}
 
-![表格與圖表](/help/assets/icons/TableAndChart.svg)
+![TableAndChart](/help/assets/icons/TableAndChart.svg)
 
 ## TableColumnAddLeft {#tablecolumnaddleft}
 
@@ -3046,7 +3046,7 @@ ht-degree: 6%
 
 ## 資料表資料行合併 {#tablecolumnmerge}
 
-![資料表資料行合併](/help/assets/icons/TableColumnMerge.svg)
+![TableColumnMerge](/help/assets/icons/TableColumnMerge.svg)
 
 ## TableColumnRemoveCenter {#tablecolumnremovecenter}
 
@@ -3058,11 +3058,11 @@ ht-degree: 6%
 
 ## 表格編輯 {#tableedit}
 
-![表格編輯](/help/assets/icons/TableEdit.svg)
+![資料表編輯](/help/assets/icons/TableEdit.svg)
 
 ## 表格長條圖 {#tablehistogram}
 
-![表格長條圖](/help/assets/icons/TableHistogram.svg)
+![資料表長條圖](/help/assets/icons/TableHistogram.svg)
 
 ## TableMergeCell {#tablemergecell}
 
@@ -3078,7 +3078,7 @@ ht-degree: 6%
 
 ## 表格列合併 {#tablerowmerge}
 
-![表格列合併](/help/assets/icons/TableRowMerge.svg)
+![TableRowMerge](/help/assets/icons/TableRowMerge.svg)
 
 ## TableRowRemoveCenter {#tablerowremovecenter}
 
@@ -3090,11 +3090,11 @@ ht-degree: 6%
 
 ## 表格選取欄 {#tableselectcolumn}
 
-![表格選取欄](/help/assets/icons/TableSelectColumn.svg)
+![TableSelectColumn](/help/assets/icons/TableSelectColumn.svg)
 
 ## 表格選取列 {#tableselectrow}
 
-![表格選取列](/help/assets/icons/TableSelectRow.svg)
+![TableSelectRow](/help/assets/icons/TableSelectRow.svg)
 
 ## Tableau {#tableau}
 
@@ -3102,7 +3102,7 @@ ht-degree: 6%
 
 ## TagBold {#tagbold}
 
-![TagBold](/help/assets/icons/TagBold.svg)
+![標籤粗體](/help/assets/icons/TagBold.svg)
 
 ## 標籤斜體 {#tagitalic}
 
@@ -3122,7 +3122,7 @@ ht-degree: 6%
 
 ## 任務清單 {#tasklist}
 
-![任務清單](/help/assets/icons/TaskList.svg)
+![工作清單](/help/assets/icons/TaskList.svg)
 
 ## 茶壺 {#teapot}
 
@@ -3150,7 +3150,7 @@ ht-degree: 6%
 
 ## TestProfile {#testprofile}
 
-![TestProfile](/help/assets/icons/TestProfile.svg)
+![測試設定檔](/help/assets/icons/TestProfile.svg)
 
 ## 文字 {#text}
 
@@ -3162,19 +3162,19 @@ ht-degree: 6%
 
 ## 文字對齊中心 {#textaligncenter}
 
-![文字對齊中心](/help/assets/icons/TextAlignCenter.svg)
+![TextAlignCenter](/help/assets/icons/TextAlignCenter.svg)
 
 ## 文字對齊對齊 {#textalignjustify}
 
-![文字對齊對齊](/help/assets/icons/TextAlignJustify.svg)
+![TextAlignJustify](/help/assets/icons/TextAlignJustify.svg)
 
 ## 文字靠左對齊 {#textalignleft}
 
-![文字靠左對齊](/help/assets/icons/TextAlignLeft.svg)
+![TextAlignLeft](/help/assets/icons/TextAlignLeft.svg)
 
 ## 文字靠右對齊 {#textalignright}
 
-![文字靠右對齊](/help/assets/icons/TextAlignRight.svg)
+![TextAlignRight](/help/assets/icons/TextAlignRight.svg)
 
 ## 文字基線位移 {#textbaselineshift}
 
@@ -3190,7 +3190,7 @@ ht-degree: 6%
 
 ## TextBulletedAttach {#textbulletedattach}
 
-![TextBulletedAttach](/help/assets/icons/TextBulletedAttach.svg)
+![文字專案符號附加](/help/assets/icons/TextBulletedAttach.svg)
 
 ## TextBulletedHierarchy {#textbulletedhierarchy}
 
@@ -3218,7 +3218,7 @@ ht-degree: 6%
 
 ## TextIncrease {#textincrease}
 
-![TextIncrease](/help/assets/icons/TextIncrease.svg)
+![文字增加](/help/assets/icons/TextIncrease.svg)
 
 ## 文字縮排減少 {#textindentdecrease}
 
@@ -3306,7 +3306,7 @@ ht-degree: 6%
 
 ## 向下縮圖 {#thumbdown}
 
-![向下縮圖](/help/assets/icons/ThumbDown.svg)
+![ThumbDown](/help/assets/icons/ThumbDown.svg)
 
 ## ThumbDownOutline {#thumbdownoutline}
 
@@ -3314,7 +3314,7 @@ ht-degree: 6%
 
 ## 縮圖 {#thumbup}
 
-![縮圖](/help/assets/icons/ThumbUp.svg)
+![ThumbUp](/help/assets/icons/ThumbUp.svg)
 
 ## ThumbUpOutline {#thumbupoutline}
 
@@ -3334,11 +3334,11 @@ ht-degree: 6%
 
 ## 補漏白 {#trap}
 
-![補漏白](/help/assets/icons/Trap.svg)
+![陷阱](/help/assets/icons/Trap.svg)
 
 ## 樹狀結構摺疊 {#treecollapse}
 
-![樹狀結構摺疊](/help/assets/icons/TreeCollapse.svg)
+![TreeCollapse](/help/assets/icons/TreeCollapse.svg)
 
 ## TreeCollapseAll {#treecollapseall}
 
@@ -3378,11 +3378,11 @@ ht-degree: 6%
 
 ## 底線 {#underline}
 
-![底線](/help/assets/icons/Underline.svg)
+![加底線](/help/assets/icons/Underline.svg)
 
 ## 還原 {#undo}
 
-![還原](/help/assets/icons/Undo.svg)
+![復原](/help/assets/icons/Undo.svg)
 
 ## 取消群組 {#ungroup}
 
@@ -3398,7 +3398,7 @@ ht-degree: 6%
 
 ## 未解析的註解 {#unresolvedcomment}
 
-![未解析的註解](/help/assets/icons/UnresolvedComment.svg)
+![UnresolvedComment](/help/assets/icons/UnresolvedComment.svg)
 
 ## UploadToCloud {#uploadtocloud}
 
@@ -3434,7 +3434,7 @@ ht-degree: 6%
 
 ## 使用者開發人員 {#userdeveloper}
 
-![使用者開發人員](/help/assets/icons/UserDeveloper.svg)
+![UserDeveloper](/help/assets/icons/UserDeveloper.svg)
 
 ## 使用者編輯 {#useredit}
 
@@ -3482,19 +3482,19 @@ ht-degree: 6%
 
 ## 垂直石砌網格檢視 {#verticalmasonrygridview}
 
-![垂直石砌網格檢視](/help/assets/icons/VerticalMasonryGridView.svg)
+![VerticalMasonryGridView](/help/assets/icons/VerticalMasonryGridView.svg)
 
 ## VideoCheckedOut {#videocheckedout}
 
-![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)
+![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg)
 
 ## VideoFilled {#videofilled}
 
-![VideoFilled](/help/assets/icons/VideoFilled.svg)
+![已填入視訊](/help/assets/icons/VideoFilled.svg)
 
 ## 視訊外框 {#videooutline}
 
-![視訊外框](/help/assets/icons/VideoOutline.svg)
+![視訊大綱](/help/assets/icons/VideoOutline.svg)
 
 ## ViewAllTag {#viewalltag}
 
@@ -3506,7 +3506,7 @@ ht-degree: 6%
 
 ## ViewCard {#viewcard}
 
-![ViewCard](/help/assets/icons/ViewCard.svg)
+![檢視卡](/help/assets/icons/ViewCard.svg)
 
 ## ViewCardOneCol {#viewcardonecol}
 
@@ -3514,11 +3514,11 @@ ht-degree: 6%
 
 ## 檢視欄 {#viewcolumn}
 
-![檢視欄](/help/assets/icons/ViewColumn.svg)
+![檢視資料行](/help/assets/icons/ViewColumn.svg)
 
 ## ViewDay {#viewday}
 
-![ViewDay](/help/assets/icons/ViewDay.svg)
+![檢視日](/help/assets/icons/ViewDay.svg)
 
 ## 檢視詳細資料 {#viewdetail}
 
@@ -3526,7 +3526,7 @@ ht-degree: 6%
 
 ## 檢視格線 {#viewgrid}
 
-![檢視格線](/help/assets/icons/ViewGrid.svg)
+![檢視方格](/help/assets/icons/ViewGrid.svg)
 
 ## 檢視清單 {#viewlist}
 
@@ -3550,11 +3550,11 @@ ht-degree: 6%
 
 ## ViewWeek {#viewweek}
 
-![ViewWeek](/help/assets/icons/ViewWeek.svg)
+![檢視周](/help/assets/icons/ViewWeek.svg)
 
 ## ViewedMarkA {#viewedmarka}
 
-![ViewedMarkA](/help/assets/icons/ViewedMarkA.svg)
+![已檢視標籤A](/help/assets/icons/ViewedMarkA.svg)
 
 ## 暈映 {#vignette}
 
@@ -3566,7 +3566,7 @@ ht-degree: 6%
 
 ## 可見性關閉 {#visibilityoff}
 
-![可見性關閉](/help/assets/icons/VisibilityOff.svg)
+![VisibilityOff](/help/assets/icons/VisibilityOff.svg)
 
 ## 造訪 {#visit}
 
@@ -3582,7 +3582,7 @@ ht-degree: 6%
 
 ## 音量靜音 {#volumemute}
 
-![音量靜音](/help/assets/icons/VolumeMute.svg)
+![磁碟區靜音](/help/assets/icons/VolumeMute.svg)
 
 ## VolumeOne {#volumeone}
 
@@ -3590,11 +3590,11 @@ ht-degree: 6%
 
 ## 第三冊 {#volumethree}
 
-![第三冊](/help/assets/icons/VolumeThree.svg)
+![磁碟區三](/help/assets/icons/VolumeThree.svg)
 
 ## 第二卷 {#volumetwo}
 
-![第二卷](/help/assets/icons/VolumeTwo.svg)
+![磁碟區二](/help/assets/icons/VolumeTwo.svg)
 
 ## 觀看 {#watch}
 
@@ -3614,7 +3614,7 @@ ht-degree: 6%
 
 ## Workflowadd {#workflowadd}
 
-![Workflowadd](/help/assets/icons/WorkflowAdd.svg)
+![WorkflowAdd](/help/assets/icons/WorkflowAdd.svg)
 
 ## 扳手 {#wrench}
 

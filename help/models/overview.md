@@ -35,13 +35,13 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
 
 ## 建立模型
 
-若要建立模型，請使用選取時可用的逐步引導模型組態流程Mix Modeler **[!UICONTROL Open model canvas]**. 另請參閱 [建立模型](create.md) 以取得更多詳細資料。
+若要建立模型，請使用選取&#x200B;**[!UICONTROL Open model canvas]**&#x200B;時可用的Mix Modeler逐步引導模型組態流程。 如需詳細資訊，請參閱[建立模型](create.md)。
 
 ## 管理模型
 
 若要檢視目前模型的表格，請在Mix Modeler介面中：
 
-1. 選取 ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** 從左側邊欄。
+1. 從左側邊欄選取![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**。
 
 1. 您會看到目前模型的表格。
 
@@ -54,18 +54,18 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
    | 轉換事件 | 您為模型選取的轉換。 |
    | 執行頻率 | 訓練模型的執行頻率。 |
    | 上次執行 | 模型上次培訓的日期和時間。 |
-   | 狀態 | 模型訓練上次執行的狀態。 <br/><span style="color:green">●</span> 成功<br/><span style="color:orange">●</span> 訓練問題<br/> <span style="color:orange">●</span> 正在等待訓練 <br/><span style="color:red">●</span> 已失敗 <br/><span style="color:gray">●</span> _ （上次執行進行時） |
+   | 狀態 | 模型訓練上次執行的狀態。 <br/><span style="color:green">●</span>成功<br/><span style="color:orange">●</span>訓練問題<br/> <span style="color:orange">●</span>正在等待訓練<br/><span style="color:red">●</span>失敗<br/><span style="color:gray">●</span> _ （上次執行正在進行時） |
 
    {style="table-layout:auto"}
 
-1. 若要變更為清單顯示的欄，請選取 ![欄設定](/help/assets//icons/ColumnSetting.svg) 並開啟欄 ![檢查](/help/assets//icons/Checkmark.svg) 或關閉。
+1. 若要變更為清單顯示的欄，請選取![欄設定](/help/assets//icons/ColumnSetting.svg)，並開啟![核取](/help/assets//icons/Checkmark.svg)或關閉欄。
 
 
 ### 檢視模型的詳細資料
 
 若要檢視模型的詳細資訊：
 
-1. 選取 ![資訊](/help/assets//icons/Info.svg) 模型以顯示包含詳細資訊的快顯視窗。
+1. 選取模型的![資訊](/help/assets//icons/Info.svg)，以顯示包含詳細資訊的快顯視窗。
 
 
 
@@ -73,11 +73,11 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
 
 若要檢視模型的深入分析，請在Mix Modeler介面中：
 
-1. 選取 ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** 從左側邊欄。
+1. 從左側邊欄選取![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**。
 
-1. 選取模型名稱，其中包含 **[!UICONTROL Last run status]** 之 <span style="color:green">●</span> **[!UICONTROL Success]** 從 **[!UICONTROL Models]** 表格。 模型深入分析僅適用於訓練成功的模型。
+1. 選取&#x200B;**[!UICONTROL Last run status]**&#x200B;為<span style="color:green">●</span>的模型名稱 **[!UICONTROL Models]**&#x200B;資料表中的&#x200B;**[!UICONTROL Success]**。 模型深入分析僅適用於訓練成功的模型。
 
-1. 從內容功能表中，選取 **[!UICONTROL Model Insights]**. 您被重新導向至 [模型深入分析](insights.md).
+1. 從內容功能表中，選取&#x200B;**[!UICONTROL Model Insights]**。 您被重新導向至[模型深入分析](insights.md)。
 
 
 ### 重新計分
@@ -85,11 +85,11 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
 
 若要重新評分模型，請在Mix Modeler介面中：
 
-1. 選取 ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** 從左側邊欄。
+1. 從左側邊欄選取![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**。
 
-1. 選取模型名稱，其中包含 **[!UICONTROL Last run status]** 之 <span style="color:green">●</span> **[!UICONTROL Success]** 從 **[!UICONTROL Models]** 表格。 重新評分僅適用於訓練成功的模型。
+1. 選取&#x200B;**[!UICONTROL Last run status]**&#x200B;為<span style="color:green">●</span>的模型名稱 **[!UICONTROL Models]**&#x200B;資料表中的&#x200B;**[!UICONTROL Success]**。 重新評分僅適用於訓練成功的模型。
 
-1. 從內容功能表中，選取 **[!UICONTROL Re-score]**. 顯示模型的更新狀態可能需要幾分鐘的時間。
+1. 從內容功能表中，選取&#x200B;**[!UICONTROL Re-score]**。 顯示模型的更新狀態可能需要幾分鐘的時間。
 
 
 ### 刪除模型
@@ -98,7 +98,7 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
 
 1. 選取要刪除的模型名稱。
 
-1. 從內容功能表中，選取 **[!UICONTROL Delete]** 以刪除模型。
+1. 從內容功能表中，選取&#x200B;**[!UICONTROL Delete]**&#x200B;以刪除模型。
 
    >[!WARNING]
    >

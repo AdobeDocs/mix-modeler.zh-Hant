@@ -20,9 +20,9 @@ ht-degree: 1%
 
 若要檢視可用轉換的表格，請在Mix Modeler介面中：
 
-1. 選取 ![資料搜尋](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** 從左側邊欄。
+1. 從左側邊欄選取![資料搜尋](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]**。
 
-1. 選取 **[!UICONTROL Conversions]** 從頂端列。 您會看到轉換率表格。
+1. 從頂端列選取&#x200B;**[!UICONTROL Conversions]**。 您會看到轉換率表格。
 
 表格資料欄會指定轉換的詳細資訊：
 
@@ -39,27 +39,27 @@ ht-degree: 1%
 
 ## 新增轉換
 
-若要新增轉換，請在 ![資料搜尋](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** Mix Modeler介面：
+若要新增轉換，請在Mix Modeler的![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]**&#x200B;介面中：
 
-1. 選取 ![新增](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add a conversion]**.
+1. 選取![新增](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add a conversion]**。
 
-1. 在 **[!UICONTROL Create conversion]** 對話方塊：
+1. 在&#x200B;**[!UICONTROL Create conversion]**&#x200B;對話方塊：
 
-   1. 輸入名稱 **[!UICONTROL Conversion]**，例如 `Store Conversions`.
+   1. 輸入&#x200B;**[!UICONTROL Conversion]**&#x200B;的名稱，例如`Store Conversions`。
 
-   1. 定義 **[!UICONTROL Conversion category]**.
+   1. 定義&#x200B;**[!UICONTROL Conversion category]**。
 
-      1. 選取值，從 **[!UICONTROL *選取協調……*]**，例如 `Conversion types`.
+      1. 從&#x200B;**[!UICONTROL *選取一個值，然後選取協調……*]**，例如`Conversion types`。
 
-      1. 選取運運算元的值 ![V形](/help/assets//icons/ChevronDown.svg)，例如 **[!UICONTROL is]**.
+      1. 選取運運算元![V](/help/assets//icons/ChevronDown.svg)的值，例如&#x200B;**[!UICONTROL is]**。
 
-      1. 選取值，從 **[!UICONTROL *選取值&#x200B;*]**或輸入值，例如&#x200B;**[!UICONTROL Store]**.
+      1. 從&#x200B;**[!UICONTROL *選取值&#x200B;*]**或輸入值，例如&#x200B;**[!UICONTROL Store]**。
 
-   1. 選取協調欄位，從 **[!UICONTROL Conversion metric for analysis]**，例如 **[!UICONTROL Orders]**.
+   1. 從&#x200B;**[!UICONTROL Conversion metric for analysis]**&#x200B;中選取協調欄位，例如&#x200B;**[!UICONTROL Orders]**。
 
-   1. 選取協調欄位，從 **[!UICONTROL Revenue field]**，例如 **[!UICONTROL Gross Demand]**.
+   1. 從&#x200B;**[!UICONTROL Revenue field]**&#x200B;中選取協調欄位，例如&#x200B;**[!UICONTROL Gross Demand]**。
 
-   1. 若要建立轉換，請選取 **[!UICONTROL Create]**. 若要取消轉換的建立，請選取 **[!UICONTROL Cancel]**.
+   1. 若要建立轉換，請選取&#x200B;**[!UICONTROL Create]**。 若要取消轉換的建立，請選取&#x200B;**[!UICONTROL Cancel]**。
 
       ![替代文字](/help/assets//create-conversion.png)
 
@@ -70,14 +70,14 @@ ht-degree: 1%
 
 若要檢視轉換：
 
-1. 選取 ![更多](/help/assets//icons/More.svg) 將滑鼠游標停留在表格中的轉換名稱上時。
+1. 當游標停留在資料表中的轉換名稱上時，選取![更多](/help/assets//icons/More.svg)。
 
-1. 選取 ![檢視](/help/assets//icons/ViewDetail.svg) **檢視**. 對話方塊會顯示轉換的詳細資料。 另請參閱 [新增轉換](#add-a-conversion) 以取得詳細資訊。 選取 **[!UICONTROL Cancel]** 以關閉對話方塊。
+1. 選取![檢視](/help/assets//icons/ViewDetail.svg) **檢視**。 對話方塊會顯示轉換的詳細資料。 如需詳細資訊，請參閱[新增轉換](#add-a-conversion)。 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以關閉對話方塊。
 
 
 ## 刪除轉換
 
 若要刪除轉換：
 
-1. 選取 ![刪除](/help/assets//icons/Delete.svg) **刪除** 將滑鼠游標停留在表格中的轉換名稱上時。
-1. 在 **[!UICONTROL Delete conversion]** 對話方塊確認對話方塊選取 **[!UICONTROL Delete]** 以永久刪除轉換。
+1. 選取![刪除](/help/assets//icons/Delete.svg) **刪除** （當游標停留在資料表中的轉換名稱上時）。
+1. 在&#x200B;**[!UICONTROL Delete conversion]**&#x200B;對話方塊確認對話方塊中，選取&#x200B;**[!UICONTROL Delete]**&#x200B;以永久刪除轉換。

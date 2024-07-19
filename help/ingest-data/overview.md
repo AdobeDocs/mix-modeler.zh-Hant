@@ -19,7 +19,7 @@ Mix Modeler可搭配事件層級資料、彙總來自各牆壁花園的oe摘要�
 例如：
 
 * 使用Adobe Analytics來源聯結器收集並轉換為符合Adobe Analytics結構描述預設或自訂版本的資料集，或是
-* 使用Experience Platform Web SDK、Mobile SDK或Edge Network Server API收集的資料，用於收集網站、行動或任何其他型別裝置上的客戶互動。
+* 使用Experience PlatformWeb SDK、Mobile SDK或Edge Network伺服器API收集的資料，用於收集網站、行動或任何其他型別裝置上的客戶互動。
 * 從封閉花園(例如Facebook、YouTube)、流量來源或離線廣告資料彙總或摘要資料，
 * 包含對模型建立有用的內部或外部因素的非行銷彙總或摘要資料。
 

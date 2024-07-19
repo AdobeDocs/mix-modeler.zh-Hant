@@ -17,12 +17,12 @@ ht-degree: 0%
 >[!BADGE Alpha]{type=Informative}
 
 
-「Mix Modeler概述」中的「計畫」標籤顯示的Widget [!UICONTROL Budget]， [!UICONTROL Revenue]， [!UICONTROL ROI] 和 [!UICONTROL KPI].
+Mix Modeler總覽中的[計畫]索引標籤顯示[!UICONTROL Budget]、[!UICONTROL Revenue]、[!UICONTROL ROI]和[!UICONTROL KPI]的Widget。
 
 為Widget顯示的資料由以下決定：
 
-* 計畫。 從以下來源選取計畫 **[!UICONTROL Plan name]** 使用 **[!UICONTROL _選取選項……_]**.
+* 計畫。 使用&#x200B;**[!UICONTROL _選取選項……_]**&#x200B;從&#x200B;**[!UICONTROL Plan name]**&#x200B;中選取計畫。
 
-* 指定的日期期間。 若要變更日期期間，請手動輸入開始日期與結束日期，或選取日期期間，使用 ![行事曆](/help/assets//icons/Calendar.svg).
+* 指定的日期期間。 若要變更日期期間，請手動輸入開始日期和結束日期，或使用![行事曆](/help/assets//icons/Calendar.svg)選取日期期間。
 
 

@@ -16,9 +16,9 @@ ht-degree: 5%
 
 1. 前往Mix Modeler介面。
 
-1. 選取 ![資料](/help/assets//icons/Data.svg) **[!UICONTROL Datasets]**，底下 **[!UICONTROL SETUP]**.
+1. 選取&#x200B;**[!UICONTROL SETUP]**&#x200B;底下的![資料](/help/assets//icons/Data.svg) **[!UICONTROL Datasets]**。
 
-請參閱 [資料集UI指南](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en) 以取得詳細資訊。
+如需詳細資訊，請參閱[資料集使用者介面指南](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en)。
 
 >[!MORELIKETHIS]
 >
