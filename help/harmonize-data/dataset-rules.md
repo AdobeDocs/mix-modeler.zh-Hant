@@ -3,9 +3,9 @@ title: 資料集規則
 description: 瞭解如何定義資料集規則，以便用於協調Mix Modeler中的資料。
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: a924eb080866595af3639c4976716e69ef5e7a20
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1313'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 0%
 
          1. 若要刪除案例或條件，請選取對應容器中的![關閉](/help/assets//icons/Close.svg)。
 
-         1. 若要選取任何或所有條件是否應該套用至案例，請選取&#x200B;**[!UICONTROL Any of]**&#x200B;或&#x200B;**[!UICONTROL All of]**。
+         1. 若要選取任何或所有條件是否應該適用於案例，請選取&#x200B;**[!UICONTROL Any of]**&#x200B;或&#x200B;**[!UICONTROL All of]**。
 
          1. 若要設定案例的結果值，請在&#x200B;**[!UICONTROL Then]**&#x200B;輸入值。
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 ## 同步資料
 
-若要在調和的資料和摘要及/或事件資料集之間同步資料，請遵循資料集規則中的所有邏輯：
+若要在協調資料和摘要及/或事件資料集之間同步資料，同時套用資料集規則中的邏輯：
 
 1. 選擇「**[!UICONTROL Sync data]**」。
 
@@ -159,7 +159,7 @@ ht-degree: 0%
 
    ![資料合併喜好設定](/help/assets//data-merge-preferences.png)
 
-   * 選取&#x200B;**[!UICONTROL Default metric preference]**。 在協調期間，當多個資料來源更新指定頻道的量度欄位時，會套用選取的預設量度偏好設定。 此偏好設定會套用至沙箱層級，除非根據特定量度的偏好設定加以覆寫。 您可以選取&#x200B;**[!UICONTROL Summary data]**、**[!UICONTROL Event data]**&#x200B;與&#x200B;**[!UICONTROL Sum of summmary and event data]**&#x200B;之間。
+   * 選取&#x200B;**[!UICONTROL Default metric preference]**。 在協調期間，當多個資料來源更新指定頻道的量度欄位時，會套用選取的預設量度偏好設定。 此偏好設定會套用至沙箱層級，除非根據特定量度的偏好設定加以覆寫。 您可以選取&#x200B;**[!UICONTROL Summary data]**、**[!UICONTROL Event data]**&#x200B;與&#x200B;**[!UICONTROL Sum of summary and event data]**&#x200B;之間。
 
    * 若要新增特定量度型偏好設定：
 
@@ -181,11 +181,13 @@ ht-degree: 0%
 
 1. 選取&#x200B;**[!UICONTROL Save]**&#x200B;以儲存資料合併偏好設定。 已開始重新同步資料。 <br/>選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消。
 
+## 刪除來源資料集
 
-## 欄位層級存取控制
+當您刪除協調資料中使用的來源資料集時，該來源資料集上的基礎專案會從[[!UICONTROL Harmonized data]](/help/harmonize-data/overview.md)中移除。 不過，含有已刪除來源資料集的資料集規則仍會保留在資料集規則設定清單中，且圖示![DataRemove](/help/assets/icons/DataRemove.svg)表示來源資料集已刪除。 若要取得更多詳細資料：
 
-設定協調資料集的資料集規則時，會在欄位層級上強制執行Experience Platform的[屬性型存取控制](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview)。 當標籤附加至結構描述欄位並啟用拒絕您存取該欄位的作用中原則時，欄位會受到限制。 因此：
+* 從內容功能表選取![更多](/help/assets/icons/More.svg)和![預覽](/help/assets/icons/Preview.svg) **[!UICONTROL View]**。
+**[!UICONTROL Dataset rule mapping - Fields]**&#x200B;對話方塊會顯示已刪除的來源資料集以及資料集規則設定中所使用欄位的相關資訊。
 
-* 您沒有在建立資料集規則時看到為您限制的結構描述欄位。
-* 您無法檢視或編輯一或多個限制您使用的結構描述欄位的對應。 當您編輯或檢視包含這類受限制欄位的資料集規則時，您會看到下列畫面。
-  ![不允許的動作](/help/assets//action-not-permitted.png)
+當您返回&#x200B;**[!UICONTROL Dataset rules]**&#x200B;設定時，您會看到一個對話方塊，說明一個或多個來源資料集已刪除。 協調的資料會在下一次臨時或排程的同步處理上受到影響。 檢閱您的資料集規則設定。
+
+在下次臨機同步處理或排程同步處理時，會更新已協調的資料，而不會刪除來源資料。 不過，您仍會繼續看到警示對話方塊，提示您根據已刪除的來源資料集刪除資料集規則。 此警報可讓使用者檢視及評估已刪除資料集中受影響的欄位。 和用於判斷對行銷接觸點或可用於任何模型的轉換的影響。 審查並減輕此影響後，您應從資料集規則設定清單中刪除資料集規則。

@@ -2,10 +2,10 @@
 user-guide-title: Mix Modeler 指南
 breadcrumb-title: Mix Modeler 指南
 user-guide-description: 了解如何使用 Mix Modeler。
-source-git-commit: 515abfbaece7c65c69694c58730c6fee3475886e
+source-git-commit: 6776a91563f120db1341adef923aab4b0f582c9d
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 44%
+source-wordcount: '83'
+ht-degree: 46%
 
 ---
 
@@ -48,9 +48,11 @@ ht-degree: 44%
    + [方案](/help/ingest-data/schemas.md)
    + [資料集](/help/ingest-data/datasets.md)
 
-+ 隱私權 {#privacy}
-   + [原則](/help/privacy/policies.md)
-   + [稽核](/help/privacy/audits.md)
++ 資料控管{#data-governance}
+   + [概觀](/help/data-governance/overview.md)
+   + [存取控制](/help/data-governance/access-controls.md)
+   + [稽核記錄](/help/data-governance/audit-logs.md)
+   + [原則](/help/data-governance/policies.md)
 
 + [使用案例](/help/main-guide/use-cases.md)
 

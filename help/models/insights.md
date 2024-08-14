@@ -3,9 +3,9 @@ title: 模型深入分析
 description: 瞭解如何取得有關您模型的詳細資訊，例如Mix Modeler中的歷史總覽、模型見解和模型品質。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 6897f27520705f54d3f23018903a52536083b339
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1222'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ![模型深入分析標籤列](/help/assets//model-insights-tabbar.png)
 
-您會看到指定模型上次重新整理的時間，而且會使用四個索引標籤來顯示Widget： [模型深入分析](#model-insights)、[歸因](#attribution)、[診斷](#diagnostics)以及[歷史總覽](#historical-overview)。
+您會看到指定模型上次重新整理的時間，而且會使用四個索引標籤來顯示Widget： [模型深入分析](#model-insights)、[歸因](#attribution)、[因素](#factors)、[診斷](#diagnostics)以及[歷史總覽](#historical-overview)。
 
 您可以變更每個標籤上Widget所根據的日期期間。 輸入日期期間或選取![行事曆](/help/assets//icons/Calendar.svg)以選取日期期間。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 * 行銷績效摘要。
 
-* 邊際回應曲線。
+* 邊際回應曲線。  曲線與對應值都會根據選取的資料範圍進行計算。 此外，此Widget會顯示邊際收支平衡點以及遞減收益點。
   <br/>從&#x200B;**[!UICONTROL Channel]**&#x200B;下拉式清單中選取頻道，以更新特定頻道的Widget。
 
 ![模型 — 模型深入分析](/help/assets//model-insights-insights.png)
@@ -141,6 +141,15 @@ Mix Modeler的多點接觸歸因精細事件分數會與整體Mix Modeler分數�
 * 每個管道的歸因模型貢獻百分比，以及
 * 這些管道歸因模型貢獻百分比的總和。
 
+## **[!UICONTROL Factors]**
+
+因子標籤會顯示外部因子相關的深入分析。
+
+![因素](/help/assets/factors.png)
+
+若要下載包含資料表資料的CSV檔案，請選取![下載](/help/assets//icons/Download.svg)。
+
+如果沒有可用的資料，您會看到訊息![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**。
 
 ## [!UICONTROL Diagnostics]
 

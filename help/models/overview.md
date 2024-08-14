@@ -3,16 +3,16 @@ title: 模型
 description: 瞭解如何在Mix Modeler中設定和使用模型。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: d5d9ec6b7b1222b3da9dcecaf3fa1cf2b2198881
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
 
 # 模型
 
-Mix Modeler中的模型功能可讓您設定、訓練及評分業務目標專屬的AI/ML模型，並透過多點觸控歸因與行銷組合模型之間的AI驅動傳輸學習提供支援。
+Mix Modeler中的模型功能可讓您設定、訓練業務目標專屬的AI/ML模型並為其評分。 訓練和評分可支援AI驅動的多點觸控歸因與行銷組合模型化之間的轉移學習。
 
 這些模型以您在Mix Modeler應用程式工作流程中建立的協調資料為基礎。
 
@@ -20,16 +20,16 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
 
 模型需要：
 
-* 一次轉換，
-* 一或多個行銷接觸點（管道），由摘要層級的資料、行銷接觸點資料（事件資料）或兩者組成，
-* 可設定的回顧期間
-* 可設定的訓練時段。
+* 一次轉換。
+* 一或多個行銷接觸點（管道）由摘要層級的資料、行銷接觸點資料（事件資料）或兩者組成。
+* 可設定的回顧期間。
+* 可設定的訓練視窗。
 
 模型可選擇包括：
 
-* 外部因素，
-* 內部因素，
-* 所謂的「priors」（機率分佈，代表資料之前或觀察該資料之前所具有的知識或不確定性），會依管道為之前的轉換建立索引，
+* 外部因素。
+* 內部因素。
+* 先前瞭解其他來源的行銷貢獻，例如過去的利害關係人經驗、逐步測試、其他模型。
 * 支出份額，在行銷資料稀疏時，使用相對支出份額作為代理。
 
 
@@ -54,51 +54,96 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
    | 轉換事件 | 您為模型選取的轉換。 |
    | 執行頻率 | 訓練模型的執行頻率。 |
    | 上次執行 | 模型上次培訓的日期和時間。 |
-   | 狀態 | 模型訓練上次執行的狀態。 <br/><span style="color:green">●</span>成功<br/><span style="color:orange">●</span>訓練問題<br/> <span style="color:orange">●</span>正在等待訓練<br/><span style="color:red">●</span>失敗<br/><span style="color:gray">●</span> _ （上次執行正在進行時） |
+   | 狀態 | 模型訓練上次執行的狀態。 <br/>![StatusGreen](/help/assets/icons/StatusGreen.svg)成功<br/>![StatusOrange](/help/assets/icons/StatusOrange.svg)訓練問題<br/> ![StatusOrange](/help/assets/icons/StatusOrange.svg)正在等待訓練<br/>![StatusRed](/help/assets/icons/StatusRed.svg)失敗<br/>![StatusGreen](/help/assets/icons/StatusGray.svg) _ （上次執行正在進行時） |
 
    {style="table-layout:auto"}
 
 1. 若要變更為清單顯示的欄，請選取![欄設定](/help/assets//icons/ColumnSetting.svg)，並開啟![核取](/help/assets//icons/Checkmark.svg)或關閉欄。
 
+您可以對特定模型執行下列動作。
 
-### 檢視模型的詳細資料
+### 檢視詳細資料
 
 若要檢視模型的詳細資訊：
+
+1. 從左側邊欄選取![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**。
 
 1. 選取模型的![資訊](/help/assets//icons/Info.svg)，以顯示包含詳細資訊的快顯視窗。
 
 
 
+### 複製
+
+您可以快速複製模型。
+
+1. 從左側邊欄選取![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**。
+
+1. 為模型選取![更多](/help/assets/icons/More.svg)，然後從內容功能表選取&#x200B;**[!UICONTROL Duplicate]**。
+
+
 ### 模型深入分析
 
-若要檢視模型的深入分析，請在Mix Modeler介面中：
+模型深入分析功能僅適用於訓練成功且已評分的模型。 若要檢視模型的深入分析：
 
 1. 從左側邊欄選取![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**。
 
-1. 選取&#x200B;**[!UICONTROL Last run status]**&#x200B;為<span style="color:green">●</span>的模型名稱 **[!UICONTROL Models]**&#x200B;資料表中的&#x200B;**[!UICONTROL Success]**。 模型深入分析僅適用於訓練成功的模型。
+1. 選取模型名稱。
 
-1. 從內容功能表中，選取&#x200B;**[!UICONTROL Model Insights]**。 您被重新導向至[模型深入分析](insights.md)。
-
-
-### 重新計分
+您被重新導向至[模型深入分析](insights.md)。
 
 
-若要重新評分模型，請在Mix Modeler介面中：
+### 重新訓練
+
+重新訓練模型僅適用於訓練成功的模型。 若要重新訓練模型，請執行下列動作：
 
 1. 從左側邊欄選取![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**。
 
-1. 選取&#x200B;**[!UICONTROL Last run status]**&#x200B;為<span style="color:green">●</span>的模型名稱 **[!UICONTROL Models]**&#x200B;資料表中的&#x200B;**[!UICONTROL Success]**。 重新評分僅適用於訓練成功的模型。
+1. 為模型選取![更多](/help/assets/icons/More.svg)，然後從內容功能表選取&#x200B;**[!UICONTROL Train]**。 或者，從藍色動作列選取![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Train]**。
 
-1. 從內容功能表中，選取&#x200B;**[!UICONTROL Re-score]**。 顯示模型的更新狀態可能需要幾分鐘的時間。
+   在&#x200B;**[!UICONTROL Train model]**&#x200B;對話方塊中，選取選項以：
+
+   * **[!UICONTROL Train model with last 2 years of marketing data]**，或
+   * **[!UICONTROL Train model using specific date range of data]**。
+指定日期範圍。 您可以使用![行事曆](/help/assets/icons/Calendar.svg)來選取日期範圍。 您至少必須選取一年內的資料範圍。
+
+   ![重新訓練模型](../assets/re-train-model.png)
+
+1. 選取&#x200B;**[!UICONTROL Train]**&#x200B;以重新訓練模型。
+
+
+### 評分或重新評分
+
+
+您可以根據新的行銷資料逐步為模型評分，或重新為特定日期範圍的模型評分。 若要對模型評分或重新評分：
+
+1. 從左側邊欄選取![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**。
+
+1. 為模型選取![更多](/help/assets/icons/More.svg)，然後從內容功能表選取&#x200B;**[!UICONTROL Score]**。 或者，從藍色動作列選取![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Score]**。
+
+   在&#x200B;**[!UICONTROL Score marketing data]**&#x200B;對話方塊中，選取選項以：
+
+   * **[!UICONTROL Score new marketing data from *mm/dd/yyyy *]**，使用新的行銷資料逐步為您的模型評分，或
+   * **[!UICONTROL Score specific date range of marketing data]**在特定日期範圍重新評分。
+指定日期範圍。 您可以使用![行事曆](/help/assets/icons/Calendar.svg)來選取日期範圍。
+
+   ![重新訓練模型](../assets/re-score-model.png)
+
+1. 選取&#x200B;**[!UICONTROL Score]**。 使用特定資料範圍重新評分模型時，您會看到&#x200B;**[!UICONTROL Existing model is replaced]**&#x200B;對話方塊，提示您確認以所選日期範圍的新分數取代模型。 選取&#x200B;**[!UICONTROL Replace model]**&#x200B;以確認。
 
 
 ### 刪除模型
 
 若要刪除模型，請執行下列動作：
 
-1. 選取要刪除的模型名稱。
+1. 從左側邊欄選取![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**。
 
-1. 從內容功能表中，選取&#x200B;**[!UICONTROL Delete]**&#x200B;以刪除模型。
+1. 為模型選取![更多](/help/assets/icons/More.svg)，然後從內容功能表選取&#x200B;**[!UICONTROL Delete]**。 或者，從藍色動作列選取![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**。
+
+若要刪除多個模型：
+
+1. 選取多個模型。
+
+1. 從藍色動作列中，選取![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;以刪除模型。
 
    >[!WARNING]
    >
