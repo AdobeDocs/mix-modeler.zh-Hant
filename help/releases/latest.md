@@ -4,10 +4,10 @@ description: 最新 Mix Modeler 發行說明
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: f75aa1e24506dbb107a519337b0163a93b196ca7
+source-git-commit: 8e04509cbdbf82fcdf3d561a3e2ebfb4ecd3e2ee
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 10%
+source-wordcount: '437'
+ht-degree: 8%
 
 ---
 
@@ -21,15 +21,11 @@ ht-degree: 10%
 
 | 功能 | 說明 | 正式推出 |
 |---|---|---|
-| **[!UICONTROL Ad-hoc training and scoring]** | 您可以從模型介面啟動模型[重新訓練](/help/models/overview.md#re-train)、[分數（針對新的行銷資料）或重新分數](/help/models/overview.md#score-or-re-score)。 | 2024年8月13日 |
-| **[!UICONTROL Policy enforcement]** | 設定資料集規則及修改Mix Modeler中所用基礎資料的標籤時，會強制執行Experience Platform原則。 如需詳細資訊，請參閱[原則](../data-governance/policies.md)。 | 2024年8月13日 |
+| **因子貢獻分析** | 在[!UICONTROL Model insights]中，[[!UICONTROL Factors]](/help/models/insights.md#factors)索引標籤會提供外部因素相關的深入分析。 | 2024年8月20日 |
+| **邊際回應曲線** | 模型深入分析中的[邊際回應曲線](/help/models/insights.md#model-insights-1) Widget現在會根據所選資料範圍內的變更，更新曲線和對應的值。 此外，Widget會顯示邊際收支平衡點以及遞減收益點。 | 2024年8月20日 |
+| **個人訓練和評分** | 您可以從模型介面啟動模型[重新訓練](/help/models/overview.md#re-train)、[分數（針對新的行銷資料）或重新分數](/help/models/overview.md#score-or-re-score)。 | 2024年8月13日 |
+| **原則執行** | 設定資料集規則及修改Mix Modeler中所用基礎資料的標籤時，會強制執行Experience Platform原則。 如需詳細資訊，請參閱[原則](../data-governance/policies.md)。 | 2024年8月13日 |
 | **資料檢疫** | 刪除來源資料時會遵循資料衛生規則。 請參閱[刪除來源資料集](../harmonize-data/dataset-rules.md#delete-a-source-dataset) | 2024年8月13日 |
-
-
-
-<!--| **Factor contribution insights** | In [!UICONTROL Model insights], the [[!UICONTROL Factors]](/help/models/insights.md#factors) tab offers external factor related insights. | August 13, 2024 |
-| **Marginal response curves** | The [marginal response curves](/help/models/insights.md#model-insights-1) widget in Model insights now updates the curve and corresponding values based on changes in the selected data range. Additionally, the widget shows the point of marginal break even and the point of diminishing returns. | August 20, 2024 |-->
-
 
 ## 2024 年 6 月
 
