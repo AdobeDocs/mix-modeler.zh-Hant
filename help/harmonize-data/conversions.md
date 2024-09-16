@@ -3,7 +3,7 @@ title: 轉換
 description: 瞭解如何建立轉換，以便用於協調Mix Modeler中的資料。
 feature: Harmonized Data, Conversions
 exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 若要檢視可用轉換的表格，請在Mix Modeler介面中：
 
-1. 從左側邊欄選取![資料搜尋](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]**。
+1. 從左側邊欄選取![資料搜尋](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]**。
 
 1. 從頂端列選取&#x200B;**[!UICONTROL Conversions]**。 您會看到轉換率表格。
 
@@ -39,9 +39,9 @@ ht-degree: 1%
 
 ## 新增轉換
 
-若要新增轉換，請在Mix Modeler的![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]**&#x200B;介面中：
+若要新增轉換，請在Mix Modeler的![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]**&#x200B;介面中：
 
-1. 選取![新增](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add a conversion]**。
+1. 選取![新增](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion]**。
 
 1. 在&#x200B;**[!UICONTROL Create conversion]**&#x200B;對話方塊：
 
@@ -51,7 +51,7 @@ ht-degree: 1%
 
       1. 從&#x200B;**[!UICONTROL *選取一個值，然後選取協調……*]**，例如`Conversion types`。
 
-      1. 選取運運算元![V](/help/assets//icons/ChevronDown.svg)的值，例如&#x200B;**[!UICONTROL is]**。
+      1. 選取運運算元![V](/help/assets/icons/ChevronDown.svg)的值，例如&#x200B;**[!UICONTROL is]**。
 
       1. 從&#x200B;**[!UICONTROL *選取值&#x200B;*]**或輸入值，例如&#x200B;**[!UICONTROL Store]**。
 
@@ -61,7 +61,7 @@ ht-degree: 1%
 
    1. 若要建立轉換，請選取&#x200B;**[!UICONTROL Create]**。 若要取消轉換的建立，請選取&#x200B;**[!UICONTROL Cancel]**。
 
-      ![替代文字](/help/assets//create-conversion.png)
+      ![替代文字](/help/assets/create-conversion.png)
 
 1. 建立後，轉換會被新增到轉換表格中。
 
@@ -70,14 +70,14 @@ ht-degree: 1%
 
 若要檢視轉換：
 
-1. 當游標停留在資料表中的轉換名稱上時，選取![更多](/help/assets//icons/More.svg)。
+1. 當游標停留在資料表中的轉換名稱上時，選取![更多](/help/assets/icons/More.svg)。
 
-1. 選取![檢視](/help/assets//icons/ViewDetail.svg) **檢視**。 對話方塊會顯示轉換的詳細資料。 如需詳細資訊，請參閱[新增轉換](#add-a-conversion)。 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以關閉對話方塊。
+1. 選取![檢視](/help/assets/icons/ViewDetail.svg) **檢視**。 對話方塊會顯示轉換的詳細資料。 如需詳細資訊，請參閱[新增轉換](#add-a-conversion)。 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以關閉對話方塊。
 
 
 ## 刪除轉換
 
 若要刪除轉換：
 
-1. 選取![刪除](/help/assets//icons/Delete.svg) **刪除** （當游標停留在資料表中的轉換名稱上時）。
+1. 選取![刪除](/help/assets/icons/Delete.svg) **刪除** （當游標停留在資料表中的轉換名稱上時）。
 1. 在&#x200B;**[!UICONTROL Delete conversion]**&#x200B;對話方塊確認對話方塊中，選取&#x200B;**[!UICONTROL Delete]**&#x200B;以永久刪除轉換。

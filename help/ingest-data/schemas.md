@@ -3,7 +3,7 @@ title: 結構描述
 description: 瞭解如何管理將資料擷取至Mix Modeler所需的結構描述。
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 3%
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 1. 前往Mix Modeler介面。
 
-1. 選取&#x200B;**[!UICONTROL SETUP]**&#x200B;底下的![結構描述](/help/assets//icons/Schemas.svg) **[!UICONTROL Schemas]**。
+1. 選取&#x200B;**[!UICONTROL SETUP]**&#x200B;底下的![結構描述](/help/assets/icons/Schemas.svg) **[!UICONTROL Schemas]**。
 
 如需詳細資訊，請參閱[結構描述UI總覽](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en)。
 
@@ -38,7 +38,7 @@ ht-degree: 3%
 
 使用&#x200B;**[!DNL XDM Summary Metrics]**&#x200B;基底類別的結構描述可以很簡單，如下方&#x200B;**[!DNL ExternalFactorSummarySchema]**&#x200B;所示。
 
-![外部因素結構描述](/help/assets//external-factors-schema.png)
+![外部因素結構描述](/help/assets/external-factors-schema.png)
 
 此簡單結構描述可用於擷取包含資料的資料集，例如：
 
@@ -65,7 +65,7 @@ ht-degree: 3%
 
 如需使用&#x200B;**[!DNL XDM Summary Metrics]**&#x200B;做為基底類別之&#x200B;**[!DNL LumaPaidMarketingSchema]**&#x200B;的更完整範例，請參閱下文。 結構描述使用量度(**[!DNL AMMMetrics]**)、維度(**[!DNL AMMDimensions]**)和其他客戶特定資訊(**[!DNL CustomerSpecific]**)的專用欄位群組（以顏色註解）。
 
-![摘要結構描述](/help/assets//summary-schema.png)
+![摘要結構描述](/help/assets/summary-schema.png)
 
 由於設定檔擷取為非同步性質，在從外部來源收集彙總或摘要資料時，建議使用外部Source系統稽核詳細資料欄位群組作為結構描述的一部分。 此欄位群組定義外部來源的一組稽核屬性。
 

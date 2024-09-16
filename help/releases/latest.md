@@ -4,7 +4,7 @@ description: 最新 Mix Modeler 發行說明
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 8e04509cbdbf82fcdf3d561a3e2ebfb4ecd3e2ee
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 8%
@@ -22,7 +22,7 @@ ht-degree: 8%
 | 功能 | 說明 | 正式推出 |
 |---|---|---|
 | **因子貢獻分析** | 在[!UICONTROL Model insights]中，[[!UICONTROL Factors]](/help/models/insights.md#factors)索引標籤會提供外部因素相關的深入分析。 | 2024年8月20日 |
-| **邊際回應曲線** | 模型深入分析中的[邊際回應曲線](/help/models/insights.md#model-insights-1) Widget現在會根據所選資料範圍內的變更，更新曲線和對應的值。 此外，Widget會顯示邊際收支平衡點以及遞減收益點。 | 2024年8月20日 |
+| **邊際回應曲線** | 模型深入分析中的[邊際回應曲線](/help/models/insights.md#model-insights-1)視覺效果現在會根據所選資料範圍的變更來更新曲線和對應的值。 此外，視覺效果會顯示邊際收支平衡點以及遞減收益點。 | 2024年8月20日 |
 | **個人訓練和評分** | 您可以從模型介面啟動模型[重新訓練](/help/models/overview.md#re-train)、[分數（針對新的行銷資料）或重新分數](/help/models/overview.md#score-or-re-score)。 | 2024年8月13日 |
 | **原則執行** | 設定資料集規則及修改Mix Modeler中所用基礎資料的標籤時，會強制執行Experience Platform原則。 如需詳細資訊，請參閱[原則](../data-governance/policies.md)。 | 2024年8月13日 |
 | **資料檢疫** | 刪除來源資料時會遵循資料衛生規則。 請參閱[刪除來源資料集](../harmonize-data/dataset-rules.md#delete-a-source-dataset) | 2024年8月13日 |
@@ -62,7 +62,7 @@ ht-degree: 8%
 | 功能 | 說明 | 正式推出 |
 |---|---|---|
 | **增強型下載** | 您可以[下載Microsoft® Excel格式的完整模型深入分析](../models/insights.md) | 2024年1月31日 |
-| **邊際回應曲線** | [模型深入分析](../models/insights.md)提供額外的Widget以顯示邊際回應曲線。 | 2024年1月31日 |
+| **邊際回應曲線** | [模型深入分析](../models/insights.md)提供額外的視覺效果，以顯示邊際回應曲線。 | 2024年1月31日 |
 | **資料合併喜好設定** | 您可以為協調資料集的資料集規則定義[資料合併偏好設定](../harmonize-data/dataset-rules.md#data-merge-preferences)。 | 2024年1月31日 |
 | **使用情況報告** | 協調的資料集UI有一個額外的[使用情況報表](../harmonize-data/usage-report.md)標籤，可提供有關使用模型和轉換的其他深入分析。 | 2024年1月31日 |
 | **已更新計畫深入分析UI** | 計畫深入分析UI已更新，允許您選取要報告的ROI和管道。 | 2024年1月31日 |

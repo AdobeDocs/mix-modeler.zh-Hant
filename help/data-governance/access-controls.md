@@ -2,7 +2,8 @@
 title: 存取控制
 description: 瞭解如何在Mix Modeler中設定存取控制。
 feature: Administration
-source-git-commit: 6776a91563f120db1341adef923aab4b0f582c9d
+exl-id: c9ec97d9-b9a2-41f5-8626-1cf967d5d7fe
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 1%
@@ -31,5 +32,4 @@ ht-degree: 1%
 
 * 您沒有在建立資料集規則時看到為您限制的結構描述欄位。
 * 您無法檢視或編輯一或多個限制您使用的結構描述欄位的對應。 當您編輯或檢視包含這類受限制欄位的資料集規則時，您會看到下列畫面。
-  ![不允許的動作](/help/assets//action-not-permitted.png)
-
+  ![不允許的動作](/help/assets/action-not-permitted.png)

@@ -3,20 +3,20 @@ title: 模型
 description: 瞭解如何在Mix Modeler中設定和使用模型。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: d5d9ec6b7b1222b3da9dcecaf3fa1cf2b2198881
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
 
 # 模型
 
-Mix Modeler中的模型功能可讓您設定、訓練業務目標專屬的AI/ML模型並為其評分。 訓練和評分可支援AI驅動的多點觸控歸因與行銷組合模型化之間的轉移學習。
+Mix Modeler中的模型功能可讓您設定、訓練業務目標特定的模型，並為其評分。 訓練和評分可支援AI驅動的多點觸控歸因與行銷組合模型化之間的轉移學習。
 
 這些模型以您在Mix Modeler應用程式工作流程中建立的協調資料為基礎。
 
-Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的投資來測量和/或預測指定的結果。 行銷接觸點和摘要層級資料可作為輸入使用。 Mix Modeler可讓您根據不同的變數集、維度和結果（例如收入、銷售量、銷售機會）建立模型的變體。
+Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的投資來測量及預測指定的結果。 行銷接觸點和摘要層級資料可作為輸入使用。 Mix Modeler可讓您根據不同的變數集、維度和結果（例如收入、銷售量、銷售機會）建立模型的變體。
 
 模型需要：
 
@@ -41,7 +41,7 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
 
 若要檢視目前模型的表格，請在Mix Modeler介面中：
 
-1. 從左側邊欄選取![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**。
+1. 從左側邊欄選取![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**。
 
 1. 您會看到目前模型的表格。
 
@@ -58,7 +58,7 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
 
    {style="table-layout:auto"}
 
-1. 若要變更為清單顯示的欄，請選取![欄設定](/help/assets//icons/ColumnSetting.svg)，並開啟![核取](/help/assets//icons/Checkmark.svg)或關閉欄。
+1. 若要變更為清單顯示的欄，請選取![欄設定](/help/assets/icons/ColumnSetting.svg)，並開啟![核取](/help/assets/icons/Checkmark.svg)或關閉欄。
 
 您可以對特定模型執行下列動作。
 
@@ -66,9 +66,9 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
 
 若要檢視模型的詳細資訊：
 
-1. 從左側邊欄選取![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**。
+1. 從左側邊欄選取![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**。
 
-1. 選取模型的![資訊](/help/assets//icons/Info.svg)，以顯示包含詳細資訊的快顯視窗。
+1. 選取模型的![資訊](/help/assets/icons/Info.svg)，以顯示包含詳細資訊的快顯視窗。
 
 
 
@@ -76,16 +76,18 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
 
 您可以快速複製模型。
 
-1. 從左側邊欄選取![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**。
+1. 從左側邊欄選取![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**。
 
 1. 為模型選取![更多](/help/assets/icons/More.svg)，然後從內容功能表選取&#x200B;**[!UICONTROL Duplicate]**。
 
 
 ### 模型深入分析
 
-模型深入分析功能僅適用於訓練成功且已評分的模型。 若要檢視模型的深入分析：
+模型深入分析功能僅適用於訓練成功且已評分的模型。
 
-1. 從左側邊欄選取![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**。
+若要檢視模型的深入分析：
+
+1. 從左側邊欄選取![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**。
 
 1. 選取模型名稱。
 
@@ -94,9 +96,16 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
 
 ### 重新訓練
 
-重新訓練模型僅適用於訓練成功的模型。 若要重新訓練模型，請執行下列動作：
 
-1. 從左側邊欄選取![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**。
+重新訓練模型僅適用於訓練成功的模型。
+
+當您想要執行下列動作時，請考慮重新訓練模型：
+
+* 包含新的增量行銷和因子資料。 例如，在上個季度，市場動態已變更，或您的行銷資料分佈已大幅變更。
+
+若要重新訓練模型，請執行下列動作：
+
+1. 從左側邊欄選取![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**。
 
 1. 為模型選取![更多](/help/assets/icons/More.svg)，然後從內容功能表選取&#x200B;**[!UICONTROL Train]**。 或者，從藍色動作列選取![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Train]**。
 
@@ -114,9 +123,16 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
 ### 評分或重新評分
 
 
-您可以根據新的行銷資料逐步為模型評分，或重新為特定日期範圍的模型評分。 若要對模型評分或重新評分：
+您可以根據新的行銷資料逐步為模型評分，或重新為特定日期範圍的模型評分。
 
-1. 從左側邊欄選取![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**。
+想要對模型重新評分時，請考慮以下事項：
+
+* 更正不正確的行銷資料。 例如，您納入模型訓練和評分的最近付費搜尋資料遺漏了一週的資料。
+* 使用新的增量行銷資料，這些資料已透過您設定為協調資料一部分的資料集更新而提供。
+
+若要對模型評分或重新評分：
+
+1. 從左側邊欄選取![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**。
 
 1. 為模型選取![更多](/help/assets/icons/More.svg)，然後從內容功能表選取&#x200B;**[!UICONTROL Score]**。 或者，從藍色動作列選取![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Score]**。
 
@@ -135,7 +151,7 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
 
 若要刪除模型，請執行下列動作：
 
-1. 從左側邊欄選取![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**。
+1. 從左側邊欄選取![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**。
 
 1. 為模型選取![更多](/help/assets/icons/More.svg)，然後從內容功能表選取&#x200B;**[!UICONTROL Delete]**。 或者，從藍色動作列選取![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**。
 

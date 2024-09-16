@@ -3,7 +3,7 @@ title: 協調的欄位
 description: 瞭解如何定義欄位，以便用於協調Mix Modeler中的資料。
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 8%
@@ -55,9 +55,9 @@ Mix Modeler中預設可用的全域協調欄位為：
 
 若要在Mix Modeler介面中檢視可用協調欄位的表格：
 
-1. 從左側邊欄選取![資料搜尋](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]**。
+1. 從左側邊欄選取![資料搜尋](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]**。
 
-1. 從頂端列選取&#x200B;**[!UICONTROL Fields]**。 您會看到協調欄位的表格。 如果有更多頁面可供使用，請使用&#x200B;_x _]**的**[!UICONTROL Page _x_&#x200B;上的![向左箭頭](/help/assets//icons/ChevronLeft.svg)或![向右箭頭](/help/assets//icons/ChevronRight.svg)在資料表的頁面之間移動。
+1. 從頂端列選取&#x200B;**[!UICONTROL Fields]**。 您會看到協調欄位的表格。 如果有更多頁面可供使用，請使用&#x200B;_x _]**的**[!UICONTROL Page _x_&#x200B;上的![向左箭頭](/help/assets/icons/ChevronLeft.svg)或![向右箭頭](/help/assets/icons/ChevronRight.svg)在資料表的頁面之間移動。
 
    表格欄指定有關協調欄位的詳細資訊
 
@@ -74,14 +74,14 @@ Mix Modeler中預設可用的全域協調欄位為：
 
    {style="table-layout:auto"}
 
-1. 若要搜尋特定的協調欄位，請使用![搜尋](/help/assets//icons/Search.svg) **[!UICONTROL *搜尋協調欄位&#x200B;*]**。
+1. 若要搜尋特定的協調欄位，請使用![搜尋](/help/assets/icons/Search.svg) **[!UICONTROL *搜尋協調欄位&#x200B;*]**。
 
 
 ### 新增協調欄位
 
-若要新增協調欄位，請在Mix Modeler的![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]**&#x200B;介面中：
+若要新增協調欄位，請在Mix Modeler的![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]**&#x200B;介面中：
 
-1. 選取![新增](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add field]**。
+1. 選取![新增](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]**。
 
 1. 在&#x200B;**[!UICONTROL Create]**&#x200B;對話方塊：
 
@@ -98,14 +98,14 @@ Mix Modeler中預設可用的全域協調欄位為：
 
    1. 選取&#x200B;**[!UICONTROL Submit]**&#x200B;以新增協調欄位。 選取&#x200B;**[!UICONTROL Close]**&#x200B;關閉對話方塊而不新增協調欄位。
 
-      ![建立欄位](/help/assets//create-field.png)
+      ![建立欄位](/help/assets/create-field.png)
 
 
 ### 編輯協調的欄位
 
 您只能編輯您先前建立的協調欄位（擁有者是使用者端）。 您無法編輯全域協調欄位。
 
-若要編輯協調欄位，請在Mix Modeler的![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]**&#x200B;介面中：
+若要編輯協調欄位，請在Mix Modeler的![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]**&#x200B;介面中：
 
 1. 選取您要編輯的協調欄位。 例如 **[!UICONTROL Region]**。
 
@@ -113,17 +113,17 @@ Mix Modeler中預設可用的全域協調欄位為：
 
 1. 選取&#x200B;**[!UICONTROL Submit]**&#x200B;將變更套用至協調欄位。
 
-   ![編輯欄位](/help/assets//edit-field.png)
+   ![編輯欄位](/help/assets/edit-field.png)
 
 ### 刪除協調欄位
 
 您只能刪除您先前建立的協調欄位（擁有者是使用者端）。 您無法刪除全球協調欄位。
 
-若要刪除協調欄位，請在Mix Modeler的![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]**&#x200B;介面中：
+若要刪除協調欄位，請在Mix Modeler的![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]**&#x200B;介面中：
 
 1. 選取您要刪除的協調欄位，例如&#x200B;**[!UICONTROL Region]**。
 
-1. 從&#x200B;**[!UICONTROL Edit harmonization values]**&#x200B;左窗格中選取![刪除](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]**。
+1. 從&#x200B;**[!UICONTROL Edit harmonization values]**&#x200B;左窗格中選取![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**。
 
    >[!WARNING]
    >

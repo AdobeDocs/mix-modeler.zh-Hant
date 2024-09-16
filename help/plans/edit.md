@@ -3,7 +3,7 @@ title: 編輯計畫
 description: 瞭解如何在Mix Modeler中編輯計畫。
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 編輯計畫
 
-若要編輯計畫，請在Mix Modeler的![PLan](/help/assets//icons/FileChart.svg) **[!UICONTROL Plans]**&#x200B;介面中，依名稱選取計畫。
+若要編輯計畫，請在Mix Modeler的![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]**&#x200B;介面中，依名稱選取計畫。
 
 在[!UICONTROL Plan insights]中建立您的計畫深入分析，顯示計畫所根據的[!UICONTROL Model]、[!UICONTROL Data range]和[!UICONTROL Total budget]。
 
@@ -29,16 +29,16 @@ ht-degree: 0%
    - 轉換目標
    - 支出
 
-![計畫總覽](/help/assets//overview-plan.png)
+![計畫總覽](/help/assets/overview-plan.png)
 
 1. 選取&#x200B;**[!UICONTROL Close]**&#x200B;以返回「計畫」介面。
 
 1. 選取&#x200B;**[!UICONTROL X]**&#x200B;或&#x200B;**[!UICONTROL  %]**&#x200B;如何&#x200B;**[!UICONTROL View ROI]**。
 
-1. 若要下載包含日期範圍劃分資料的CSV檔案，請選取![下載](/help/assets//icons/Download.svg) **[!UICONTROL Download CSV]**。 從內容功能表：
+1. 若要下載包含日期範圍劃分資料的CSV檔案，請選取![下載](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**。 從內容功能表：
 
-   - 針對CSV格式的詳細資料選取![下載](/help/assets//icons/Download.svg) **[!UICONTROL Detailed CSV]**。
-   - 針對CSV格式的摘要資料選取![下載](/help/assets//icons/Download.svg) **[!UICONTROL Summary CSV]**。
+   - 針對CSV格式的詳細資料選取![下載](/help/assets/icons/Download.svg) **[!UICONTROL Detailed CSV]**。
+   - 針對CSV格式的摘要資料選取![下載](/help/assets/icons/Download.svg) **[!UICONTROL Summary CSV]**。
 
    詳細資料是按周劃分鍵的精細資料。 摘要資料是以模型提供的日期範圍作為關鍵字的資料。
 
@@ -46,13 +46,13 @@ ht-degree: 0%
 
 1. 若要編輯計畫，請選取&#x200B;**[!UICONTROL Edit plan]**：
 
-   1. 在&#x200B;**[!UICONTROL Spend selection]**&#x200B;區段中，針對每個預算日期範圍，使用![V形](/help/assets//icons/ChevronRight.svg)開啟該資料範圍的管道分佈檢視。
+   1. 在&#x200B;**[!UICONTROL Spend selection]**&#x200B;區段中，針對每個預算日期範圍，使用![V形](/help/assets/icons/ChevronRight.svg)開啟該資料範圍的管道分佈檢視。
 
    1. 若要修改每個管道的預算，請修改&#x200B;**[!UICONTROL Min]**&#x200B;和&#x200B;**[!UICONTROL Max]**&#x200B;的值，或使用滑桿。
 
    1. 若要在貨幣或百分比輸入之間切換，請為&#x200B;**[!UICONTROL View spend by]**&#x200B;選取&#x200B;**[!UICONTROL $]**&#x200B;或&#x200B;**[!UICONTROL %]**。
 
-      ![花費選取專案](/help/assets//spend-selection.png)
+      ![花費選取專案](/help/assets/spend-selection.png)
 
    1. 若要編輯計畫的詳細資料，請選取&#x200B;**[!UICONTROL Edit details]**：
 
@@ -60,13 +60,13 @@ ht-degree: 0%
 
       1. 在&#x200B;**[!UICONTROL Budget]**&#x200B;區段中：
 
-         1. 輸入日期或使用![行事曆](/help/assets//icons/Calendar.svg)選取日期範圍，修改一或多個計畫日期範圍的&#x200B;**[!UICONTROL Date range]**。
+         1. 輸入日期或使用![行事曆](/help/assets/icons/Calendar.svg)選取日期範圍，修改一或多個計畫日期範圍的&#x200B;**[!UICONTROL Date range]**。
 
          1. 修改一或多個計畫日期範圍的&#x200B;**[!UICONTROL Budget]**。
 
-         若要新增其他日期範圍（每個日期範圍都有預算），請選取![行事曆新增](/help/assets//icons/CalendarAdd.svg) **[!UICONTROL Add row]**。
+         若要新增其他日期範圍（每個日期範圍都有預算），請選取![行事曆新增](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**。
 
-         若要刪除日期範圍和相關預算，請選取![關閉](/help/assets//icons/Close.svg)。
+         若要刪除日期範圍和相關預算，請選取![關閉](/help/assets/icons/Close.svg)。
 
          若要定義最大預算，請執行下列步驟：
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
       1. 選取&#x200B;**[!UICONTROL Next]**&#x200B;以返回&#x200B;**[!UICONTROL Spend]**&#x200B;區段。 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以返回您的計畫總覽。
 
-         ![計畫詳細資料](/help/assets//plan-details.png)
+         ![計畫詳細資料](/help/assets/plan-details.png)
 
 
 1. 完成編輯計畫時，請選取&#x200B;**[!UICONTROL Edit]**。
