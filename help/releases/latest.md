@@ -4,10 +4,10 @@ description: 最新 Mix Modeler 發行說明
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 72f122f1cdf7252dae9e93e5ea133e8cc76564dc
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 8%
+source-wordcount: '457'
+ht-degree: 9%
 
 ---
 
@@ -15,13 +15,19 @@ ht-degree: 8%
 
 **上次更新日期**：2024年8月13日。
 
-以下發行說明涵蓋最新版本的Mix Modeler。 Mix Modeler發行在持續傳遞模型上運作，允許大約每月發行步調。 因此，這些發行說明會相應更新，因此請定期檢視。
+以下發行說明涵蓋最新版本的Mix Modeler。 Mix Modeler發行在持續傳遞模型上運作，允許大約每月發行步調。 因此，這些發行說明會相應更新，因此請定期檢視。」
+
+## 2024 年 10 月
+
+| 功能 | 說明 | 正式推出 |
+|---|---|---|
+| **接觸點劃分表格** | 在[!UICONTROL Models]中，[[!UICONTROL Model insights]](/help/models/insights.md#factors)索引標籤現在提供額外的[接觸點劃分](../models/insights.md#touchpoint-breakdown)表格。 | 2024年10月1日 |
 
 ## 2024 年 8 月
 
 | 功能 | 說明 | 正式推出 |
 |---|---|---|
-| **因子貢獻分析** | 在[!UICONTROL Model insights]中，[[!UICONTROL Factors]](/help/models/insights.md#factors)索引標籤會提供外部因素相關的深入分析。 | 2024年8月20日 |
+| **因子貢獻分析** | 在[!UICONTROL Models]中，[[!UICONTROL Factors]](/help/models/insights.md#factors)索引標籤會提供外部因素相關的深入分析。 | 2024年8月20日 |
 | **邊際回應曲線** | 模型深入分析中的[邊際回應曲線](/help/models/insights.md#model-insights-1)視覺效果現在會根據所選資料範圍的變更來更新曲線和對應的值。 此外，視覺效果會顯示邊際收支平衡點以及遞減收益點。 | 2024年8月20日 |
 | **個人訓練和評分** | 您可以從模型介面啟動模型[重新訓練](/help/models/overview.md#re-train)、[分數（針對新的行銷資料）或重新分數](/help/models/overview.md#score-or-re-score)。 | 2024年8月13日 |
 | **原則執行** | 設定資料集規則及修改Mix Modeler中所用基礎資料的標籤時，會強制執行Experience Platform原則。 如需詳細資訊，請參閱[原則](../data-governance/policies.md)。 | 2024年8月13日 |

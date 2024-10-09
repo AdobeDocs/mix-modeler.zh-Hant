@@ -3,9 +3,9 @@ title: 模型深入分析
 description: 瞭解如何取得有關您模型的詳細資訊，例如Mix Modeler中的歷史總覽、模型見解和模型品質。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 09ec757a37725d4b41231076bd99432bffd6d555
+source-git-commit: 72f122f1cdf7252dae9e93e5ea133e8cc76564dc
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1422'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Model insights]
 
-模型深入分析索引標籤會顯示[依日期和基本媒體所區分的貢獻](#contribution-by-date-and-base-media)、[依管道所區分的貢獻](#contribution-by-channel)、[行銷績效摘要](#marketing-performance-summary)以及[邊際回應曲線](#marginal-response-curves)的視覺效果。
+模型深入分析索引標籤會顯示[依日期和基本媒體所區分的貢獻](#contribution-by-date-and-base-media)、[依管道所區分的貢獻](#contribution-by-channel)、[行銷績效摘要](#marketing-performance-summary)以及[邊際回應曲線](#marginal-response-curves)的視覺效果。 此索引標籤也提供[接觸點劃分](#touchppint-breakdown)表格。
 
 ![模型 — 模型深入分析](/help/assets/model-insights-insights.png)
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 * 若要以Microsoft® Excel格式下載完整的模型深入分析資料，請選取![下載](/help/assets/icons/Download.svg) **[!UICONTROL Download data]**。
 
 
-### 依日期和基本媒體所區分的貢獻。
+### 依日期和基本媒體所區分的貢獻
 
 棧疊圖表有序：底部為基底、中間為非支出管道、頂端為支出管道。
 
@@ -45,11 +45,11 @@ ht-degree: 0%
 
 環形圖視覺效果會顯示依管道區分的貢獻分佈。
 
-### 行銷績效摘要。
+### 行銷績效摘要
 
 依管道顯示ROI績效的水準長條圖。
 
-### 邊際回應曲線。
+### 邊際回應曲線
 
 折線圖會視覺化並比較行銷管道投資所產生的邊際回報。  找出增量回報低於增量支出的盈虧平衡點。 因此，此視覺效果可協助您瞭解行銷投資何時開始失去影響力。
 
@@ -60,6 +60,27 @@ ht-degree: 0%
 * 從&#x200B;**[!UICONTROL Channel]**&#x200B;下拉式選單中選取管道，以更新特定管道的視覺效果。
 
 
+### 接觸點劃分
+
+接觸點劃分表格每週會顯示所有或選取頻道的接觸點劃分。
+
+![接觸點劃分](../assets/touchpoint-breakdown.png)
+
+下列欄可供使用：
+
+| 欄 | 說明 |
+|---|---|
+| **[!UICONTROL Date range]** | 要報告的周。 |
+| **[!UICONTROL Touchpoint]** | 特定的接觸點管道。 |
+| **[!UICONTROL ROI]** | (**[!UICONTROL Revenue]** - **[!UICONTROL Spend]**) / **[!UICONTROL Spend]**&#x200B;的百分比。 |
+| **[!UICONTROL Revenue]** | 日期範圍的收入。 |
+| **[!UICONTROL CPA]** | **[!UICONTROL Spend]** / **[!UICONTROL Conversions]**。 |
+| **[!UICONTROL Conversions]** | 日期範圍的轉換。 |
+| **[!UICONTROL Spend]** | 資料範圍的支出。 |
+
+若要選取特定頻道或所有頻道，請從「**[!UICONTROL View]**」下拉式選單中選取。
+
+若要下載接觸點劃分表格的內容，請選取![下載](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**。
 
 ## [!UICONTROL Attribution]
 

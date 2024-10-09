@@ -3,7 +3,7 @@ title: 擷取資料
 description: 瞭解如何將資料擷取至Mix Modeler。
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: ff120c9b1dea81a5dc998cbda008fa913504970e
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 8%
@@ -12,7 +12,7 @@ ht-degree: 8%
 
 # 擷取資料
 
-Mix Modeler可搭配事件層級資料、彙總來自各牆壁花園的oe摘要行銷成果資料，以及彙總來自任何其他來源（例如離線廣告、內部因素或外部因素）的摘要資料。
+Mix Modeler可搭配事件層級資料、來自不同四周花園的行銷成果彙總或摘要資料，以及來自任何其他來源（例如離線廣告、內部因素或外部因素）的彙總或摘要資料使用。
 
 客戶可以使用任何種類的資料當作資料集擷取到Experience Platform中，而且這些資料是根據以XDM ExperienceEvent或XDM摘要量度為基底類別的結構描述。
 
