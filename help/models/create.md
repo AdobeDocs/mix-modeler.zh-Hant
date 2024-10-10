@@ -3,9 +3,9 @@ title: 建立模型
 description: 瞭解如何在Mix Modeler中建立模型。
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 2fbf24f6ac72e24070d6c294bc25c112aeb8bdac
+source-git-commit: 1327ef083cc681b38adc086ad4f7332fd83577b5
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,7 @@ ht-degree: 0%
 
    1. 在&#x200B;**[!UICONTROL MTA enabled]**&#x200B;區段中：
 
-      * 若要為建立的模式啟用MTA功能，請啟用&#x200B;**[!UICONTROL MTA enabled]**。 啟用後，您可以透過[模型深入分析](insights.md)中的[歸因](insights.md#attribution)索引標籤，使用您已訓練並評分過模型的多重接觸歸因深入分析。
+      * 若要啟用模型的MTA功能，請啟動&#x200B;**[!UICONTROL MTA enabled]**。 如果您已啟用MTA，則在您已訓練並評分您的模型後，即可使用多重接觸歸因深入分析。 檢視[模型深入分析](insights.md)中的[歸因](insights.md#attribution)索引標籤。
 
    1. 在&#x200B;**[!UICONTROL Prior knowledge]**&#x200B;區段中：
 
