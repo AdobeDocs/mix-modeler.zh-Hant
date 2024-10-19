@@ -3,9 +3,9 @@ title: 模型深入分析
 description: 瞭解如何取得有關您模型的詳細資訊，例如Mix Modeler中的歷史總覽、模型見解和模型品質。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: af315f4566c34c1961130d61ce2804b98d859b24
+source-git-commit: f549f7d4d4f5c702e3ef28bceeaccc46922f7c40
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1436'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,28 @@ ht-degree: 0%
 
 * 從&#x200B;**[!UICONTROL Channel]**&#x200B;下拉式選單中選取管道，以更新特定管道的視覺效果。
 
+
+### 接觸點劃分
+
+接觸點劃分表格每週會顯示所有或選取頻道的接觸點劃分。
+
+![接觸點劃分](../assets/touchpoint-breakdown.png)
+
+下列欄可供使用：
+
+| 欄 | 說明 |
+|---|---|
+| **[!UICONTROL Date range]** | 要報告的周。 |
+| **[!UICONTROL Touchpoint]** | 特定的接觸點管道。 |
+| **[!UICONTROL ROI]** | (**[!UICONTROL Revenue]** - **[!UICONTROL Spend]**) / **[!UICONTROL Spend]**&#x200B;的百分比。 |
+| **[!UICONTROL Revenue]** | 日期範圍的收入。 |
+| **[!UICONTROL CPA]** | **[!UICONTROL Spend]** / **[!UICONTROL Conversions]**。 |
+| **[!UICONTROL Conversions]** | 日期範圍的轉換。 |
+| **[!UICONTROL Spend]** | 資料範圍的支出。 |
+
+若要選取特定頻道或所有頻道，請從「**[!UICONTROL View]**」下拉式選單中選取。
+
+若要下載接觸點劃分表格的內容，請選取![下載](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**。
 
 
 ## [!UICONTROL Attribution]

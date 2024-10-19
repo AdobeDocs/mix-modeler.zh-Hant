@@ -4,7 +4,7 @@ description: 最新 Mix Modeler 發行說明
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 72f122f1cdf7252dae9e93e5ea133e8cc76564dc
+source-git-commit: f549f7d4d4f5c702e3ef28bceeaccc46922f7c40
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 9%
@@ -13,7 +13,7 @@ ht-degree: 9%
 
 # 最新Mix Modeler發行說明
 
-**上次更新日期**：2024年8月13日。
+**上次更新日期**：2024年10月1日。
 
 以下發行說明涵蓋最新版本的Mix Modeler。 Mix Modeler發行在持續傳遞模型上運作，允許大約每月發行步調。 因此，這些發行說明會相應更新，因此請定期檢視。」
 
