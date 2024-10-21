@@ -3,9 +3,9 @@ title: 建立模型
 description: 瞭解如何在Mix Modeler中建立模型。
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 1327ef083cc681b38adc086ad4f7332fd83577b5
+source-git-commit: 91dec8849d0d6fe52974024d09012d9c40d36cec
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -121,14 +121,6 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL Advanced]**&#x200B;步驟中：
 
-   1. 在&#x200B;**[!UICONTROL Define training window]**&#x200B;區段中，選取
-
-      * **[!UICONTROL Have Mix Modeler select a helpful training window]**&#x200B;和
-
-      * **[!UICONTROL Manually input a training window]**。選取時，在&#x200B;**[!UICONTROL Include events the following years prior to a conversion]**&#x200B;中定義年數。
-
-        ![模型 — 定義訓練時段](/help/assets/model-define-training-window.png)
-
    1. 在&#x200B;**[!UICONTROL Spend share]**&#x200B;區段中：
 
       * 若要在行銷資料稀疏時使用歷史行銷投資比率來通知模型，請啟動&#x200B;**[!UICONTROL Allow spend share]**。
@@ -150,6 +142,30 @@ ht-degree: 0%
       1. 必要時，請使用&#x200B;**[!UICONTROL Clear all]**&#x200B;清除&#x200B;**[!UICONTROL Contribution proportion]**&#x200B;與&#x200B;**[!UICONTROL Level of confidence]**&#x200B;欄的所有輸入值。
 
 
+1. 在&#x200B;**[!UICONTROL Schedule]**&#x200B;步驟中：
+
+   1. 在&#x200B;**[!UICONTROL Schedule]**&#x200B;區段中，您可以排程模型訓練和評分。
+
+      ![排程模型](../assets/model-schedule.png)
+
+      若要排程模型評分與訓練：
+
+      1. 開啟&#x200B;**[!UICONTROL Enable scheduled model scoring and training]**。
+      1. 選取&#x200B;**[!UICONTROL Scoring frequency]**：
+
+         * **[!UICONTROL Daily]**：輸入有效時間（例如`05:22 pm`）或使用![時鐘](/help/assets/icons/Clock.svg)。
+         * **[!UICONTROL Weekly]**：選取一週的某天，然後輸入有效的時間（例如`05:22 pm`）或使用![時鐘](/help/assets/icons/Clock.svg)。
+         * **[!UICONTROL Monthly]**：從[Run on every]下拉式功能表中選取一個月中的某一日，然後輸入有效時間（例如`05:22 pm`）或使用![時鐘](/help/assets/icons/Clock.svg)。
+
+      1. 從下拉式功能表中選取&#x200B;**[!UICONTROL Training frequency]**： **[!UICONTROL Monthly]**、**[!UICONTROL Quarterly]**、**[!UICONTROL Yearly]**&#x200B;或&#x200B;**[!UICONTROL None]**。
+
+   1. 在&#x200B;**[!UICONTROL Define training window]**&#x200B;區段中，選取：
+
+      ![模型 — 定義訓練時段](/help/assets/model-define-training-window.png)
+
+      * **[!UICONTROL Have Mix Modeler select a helpful training window]**&#x200B;和
+
+      * **[!UICONTROL Manually input a training window]**。選取時，在&#x200B;**[!UICONTROL Include events the following years prior to a conversion]**&#x200B;中定義年數。
 
 1. 選取&#x200B;**[!UICONTROL Finish]**&#x200B;以完成您的模型設定。
 

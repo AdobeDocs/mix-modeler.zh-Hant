@@ -3,9 +3,9 @@ title: 模型深入分析
 description: 瞭解如何取得有關您模型的詳細資訊，例如Mix Modeler中的歷史總覽、模型見解和模型品質。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: f549f7d4d4f5c702e3ef28bceeaccc46922f7c40
+source-git-commit: d4a500de13272f0b07827a0df4a386d3d757403b
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1539'
 ht-degree: 0%
 
 ---
@@ -253,3 +253,27 @@ Mix Modeler的多點接觸歸因精細事件分數會與整體Mix Modeler分數�
   您可以選取替代的音量型色版，以顯示此視覺效果。 從&#x200B;**[!UICONTROL Channels]**&#x200B;中選取頻道。
 
 ![模型 — 歷史總覽](/help/assets/model-insights-historical-overview.png)
+
+## **[!UICONTROL Edit]**
+
+您可以編輯模型的名稱、說明，以及訓練和評分的排程。
+
+1. 選取![編輯](/help/assets/icons/Edit.svg)編輯
+
+1. 在&#x200B;**[!UICONTROL Edit model]**&#x200B;對話方塊：
+
+   * 輸入新的&#x200B;**[!UICONTROL Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**。
+
+   * 若要啟用排程，請啟用&#x200B;**[!UICONTROL Status]**。 您只能為已訓練和評分的模型啟用排程。
+
+      1. 選取&#x200B;**[!UICONTROL Scoring frequency]**：
+
+         * **[!UICONTROL Daily]**：輸入有效時間（例如`05:22 pm`）或使用![時鐘](/help/assets/icons/Clock.svg)。
+         * **[!UICONTROL Weekly]**：選取一週的某天，然後輸入有效的時間（例如`05:22 pm`）或使用![時鐘](/help/assets/icons/Clock.svg)。
+         * **[!UICONTROL Monthly]**：從[Run on every]下拉式功能表中選取一個月中的某一日，然後輸入有效時間（例如`05:22 pm`）或使用![時鐘](/help/assets/icons/Clock.svg)。
+
+      1. 從下拉式功能表中選取&#x200B;**[!UICONTROL Training frequency]**： **[!UICONTROL Monthly]**、**[!UICONTROL Quarterly]**、**[!UICONTROL Yearly]**&#x200B;或&#x200B;**[!UICONTROL None]**。
+
+     ![編輯模型](../assets/model-edit.png)
+
+1. 選擇「**[!UICONTROL Save]**」。

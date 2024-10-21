@@ -4,10 +4,10 @@ description: 最新 Mix Modeler 發行說明
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: f549f7d4d4f5c702e3ef28bceeaccc46922f7c40
+source-git-commit: 4901d4ad2ee0943ed651a0cc556f00be436a14a1
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 9%
+source-wordcount: '497'
+ht-degree: 8%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 9%
 
 | 功能 | 說明 | 正式推出 |
 |---|---|---|
+| **排程訓練和評分** | 當您[建立模型](/help/models/create.md)，以及當您從「模型」表格中的[模型分析](/help/models/insights.md#edit)或模型](/help/models/overview.md#edit)的[內容功能表編輯模型時，可以排程模型的訓練和評分。 | 2024年10月21日 |
 | **接觸點劃分表格** | 在[!UICONTROL Models]中，[[!UICONTROL Model insights]](/help/models/insights.md#factors)索引標籤現在提供額外的[接觸點劃分](../models/insights.md#touchpoint-breakdown)表格。 | 2024年10月1日 |
 
 ## 2024 年 8 月

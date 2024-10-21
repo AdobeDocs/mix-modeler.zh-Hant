@@ -3,9 +3,9 @@ title: 模型
 description: 瞭解如何在Mix Modeler中設定和使用模型。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 3801d6637fee491aa295ef586c2017a503466ffc
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -62,25 +62,6 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
 
 您可以對特定模型執行下列動作。
 
-### 檢視詳細資料
-
-若要檢視模型的詳細資訊：
-
-1. 從左側邊欄選取![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**。
-
-1. 選取模型的![資訊](/help/assets/icons/Info.svg)，以顯示包含詳細資訊的快顯視窗。
-
-
-
-### 複製
-
-您可以快速複製模型。
-
-1. 從左側邊欄選取![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**。
-
-1. 為模型選取![更多](/help/assets/icons/More.svg)，然後從內容功能表選取&#x200B;**[!UICONTROL Duplicate]**。
-
-
 ### 模型深入分析
 
 模型深入分析功能僅適用於訓練成功且已評分的模型。
@@ -92,6 +73,52 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
 1. 選取模型名稱。
 
 您被重新導向至[模型深入分析](insights.md)。
+
+
+### 檢視詳細資料
+
+若要檢視模型的詳細資訊：
+
+1. 從左側邊欄選取![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**。
+
+1. 選取模型的![資訊](/help/assets/icons/Info.svg)，以顯示包含詳細資訊的快顯視窗。
+
+
+### 複製
+
+您可以快速複製模型。
+
+1. 從左側邊欄選取![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**。
+
+1. 為模型選取![更多](/help/assets/icons/More.svg)，然後從內容功能表選取&#x200B;**[!UICONTROL Duplicate]**。
+
+
+### 編輯
+
+您可以編輯模型的名稱、說明，以及訓練和評分的排程。
+
+1. 從左側邊欄選取![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**。
+
+1. 為模型選取![更多](/help/assets/icons/More.svg)，然後從內容功能表選取&#x200B;**[!UICONTROL Edit]**。
+
+   在&#x200B;**[!UICONTROL Edit model]**&#x200B;對話方塊：
+
+   * 輸入新的&#x200B;**[!UICONTROL Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**。
+
+   * 若要啟用排程，請啟用&#x200B;**[!UICONTROL Status]**。 您只能為已訓練和評分的模型啟用排程。
+
+      1. 選取&#x200B;**[!UICONTROL Scoring frequency]**：
+
+         * **[!UICONTROL Daily]**：輸入有效時間（例如`05:22 pm`）或使用![時鐘](/help/assets/icons/Clock.svg)。
+         * **[!UICONTROL Weekly]**：選取一週的某天，然後輸入有效的時間（例如`05:22 pm`）或使用![時鐘](/help/assets/icons/Clock.svg)。
+         * **[!UICONTROL Monthly]**：從[Run on every]下拉式功能表中選取一個月中的某一日，然後輸入有效時間（例如`05:22 pm`）或使用![時鐘](/help/assets/icons/Clock.svg)。
+
+      1. 從下拉式功能表中選取&#x200B;**[!UICONTROL Training frequency]**： **[!UICONTROL Monthly]**、**[!UICONTROL Quarterly]**、**[!UICONTROL Yearly]**&#x200B;或&#x200B;**[!UICONTROL None]**。
+
+     ![編輯模型](../assets/model-edit.png)
+
+1. 選擇「**[!UICONTROL Save]**」。
+
 
 
 ### 重新訓練
