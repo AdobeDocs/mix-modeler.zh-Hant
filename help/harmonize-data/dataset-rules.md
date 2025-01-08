@@ -3,9 +3,9 @@ title: 資料集規則
 description: 瞭解如何定義資料集規則，以便用於協調Mix Modeler中的資料。
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: a8590d604f79268bc8d1f012f2c19271a3b38668
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1407'
 ht-degree: 0%
 
 ---
@@ -146,12 +146,27 @@ ht-degree: 0%
 >
 >[!BADGE beta]{type=Informative}
 
-合併摘要資料和事件資料來源中的資料時，資料合併偏好設定可協助解決衝突。 使用案例包括：
+為確保模型預測準確，您可以定義資料合併偏好設定。 此功能可讓使用者解決合併摘要層級與事件層級資料後的任何衝突。
+
+您可以設定預設量度偏好設定，以在發生衝突更新時套用。 此預設量度可為下列三個選項之一：
+
+* **[!UICONTROL Summary data]**
+* **[!UICONTROL Sum of summary and event data]**
+* **[!UICONTROL Event data]**
+
+在協調期間，當多個資料來源嘗試更新給定頻道的量度欄位時，會套用使用者設定的預設偏好設定。 此偏好設定會套用至沙箱層級，除非已針對另外設定的特定量度型偏好設定覆寫。
+
+在&#x200B;**[!UICONTROL Metric based preferences]**&#x200B;底下，使用者可以設定特定量度的特定來源（**[!UICONTROL Summary]**&#x200B;或&#x200B;**[!UICONTROL Event]**），以及該量度的對應轉換型別。
+
+典型的使用案例包括：
 
 * 在多個資料集中測量和報告相同的廣告量度，或
 * 某些資料集中的量度測量可能不完整，而另一個資料集可能是特定量度的超集，導致重複計數。
 
-為確保模型預測準確，您可以定義資料合併偏好設定：
+### 設定
+
+若要設定資料合併偏好設定：
+
 
 1. 選取![資料合併偏好設定](/help/assets/icons/Merge.svg) [!BADGE beta]。
 
