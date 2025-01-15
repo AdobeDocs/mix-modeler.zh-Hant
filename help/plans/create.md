@@ -3,7 +3,7 @@ title: 建立計畫
 description: 瞭解如何在Mix Modeler中建立計畫。
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 6331bdfcbc792c03f9cc129daa4e591c2b46a8f1
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 在Mix Modeler中，您可以使用計畫畫布建立計畫。 在計畫畫布中，您可以設定計畫的明細與預算，以及計畫要使用的基本模型。 一旦您指定了詳細資訊、預算和模型，您就可以繼續進行AI推薦的計畫或編輯依據管道的支出。
 
-若要建立計畫，請在Mix Modeler的![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]**&#x200B;介面中選取&#x200B;**[!UICONTROL Open plan canvas]**。
+若要建立計畫，請在Mix Modeler的![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]**&#x200B;介面中選取&#x200B;**[!UICONTROL Create plan]**。
 
 1. 在「計畫建立」畫面中：
 

@@ -3,9 +3,9 @@ title: 計畫
 description: 瞭解如何在Mix Modeler中檢視、選取和操作計畫。
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 6331bdfcbc792c03f9cc129daa4e591c2b46a8f1
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -47,9 +47,13 @@ Mix Modeler中的計畫可讓您依業務單位和管道分配預算。 計畫�
    | 預算 | 計畫的總預算。 |
    | 預測回訪 | 計畫的預測傳回 |
    | 預測的投資報酬率 | 計畫的預測ROI。 |
+   | 預測的轉換 | 計畫的預測轉換 |
+   | 預測的CPA | 計畫的預測CPA |
    | 狀態 | 計畫的狀態： <p><span style="color:red">●</span>失敗， <p><span style="color:blue">●</span>正在處理，或 <p><span style="color:green">●</span>完成。 |
 
    {style="table-layout:auto"}
+
+   您可以使用![ColumnSetting](/help/assets/icons/ColumnSetting.svg)來選取![核取標籤](/help/assets/icons/Checkmark.svg)要在資料表中顯示的資料行。
 
 1. 使用![搜尋](/help/assets/icons/Search.svg)來搜尋和篩選一或多個特定計畫的資料表。
 
