@@ -3,7 +3,7 @@ title: 轉換
 description: 瞭解如何建立轉換，以便用於協調Mix Modeler中的資料。
 feature: Harmonized Data, Conversions
 exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
-source-git-commit: 665b344dfa94275d71e0ecf198d9bb9b73ea584b
+source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 1%
@@ -35,7 +35,6 @@ ht-degree: 1%
 | 已建立 | 建立轉換的日期和時間。 |
 | 上次修改時間 | 上次修改轉換的日期和時間。 |
 
-{style="table-layout:auto"}
 
 ## 新增轉換
 

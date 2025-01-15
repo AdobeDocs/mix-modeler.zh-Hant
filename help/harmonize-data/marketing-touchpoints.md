@@ -3,7 +3,7 @@ title: 行銷接觸點
 description: 瞭解如何建立行銷接觸點，以便用於協調Mix Modeler中的資料。
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-source-git-commit: 665b344dfa94275d71e0ecf198d9bb9b73ea584b
+source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%
@@ -35,7 +35,6 @@ ht-degree: 0%
 | 已建立 | 建立行銷接觸點的日期和時間。 |
 | 上次修改時間 | 上次修改行銷接觸點的日期和時間。 |
 
-{style="table-layout:auto"}
 
 ## 新增行銷接觸點
 
