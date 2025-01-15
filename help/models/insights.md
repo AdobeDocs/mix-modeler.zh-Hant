@@ -3,9 +3,9 @@ title: 模型深入分析
 description: 瞭解如何取得有關您模型的詳細資訊，例如Mix Modeler中的歷史總覽、模型見解和模型品質。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: d4a500de13272f0b07827a0df4a386d3d757403b
+source-git-commit: fccdd908bbe6b5a2cf9182fc61cb4bbe392f92ec
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1553'
 ht-degree: 0%
 
 ---
@@ -186,14 +186,17 @@ Mix Modeler的多點接觸歸因精細事件分數會與整體Mix Modeler分數�
 * 每個管道的歸因模型貢獻百分比，以及
 * 這些管道歸因模型貢獻百分比的總和。
 
-## **[!UICONTROL Factors]**
+## **[!UICONTROL Factors]** [!BADGE beta]
 
-因子標籤會顯示外部因子相關的深入分析。
+因素[!BADGE beta]標籤顯示外部因素相關深入分析。
 
 ![因素](/help/assets/factors.png)
 
 此視覺效果可協助您瞭解各種內部和外部因素對轉換基準線的累加影響。 例如，經濟條件或促銷活動。
 
+使用&#x200B;**[!UICONTROL Factors]**&#x200B;下拉式功能表來選取您要顯示的因素。
+
+<!-- need to update the image when we do have a proper example -->
 
 若要下載包含資料表資料的CSV檔案，請選取![下載](/help/assets/icons/Download.svg)。
 
@@ -205,7 +208,7 @@ Mix Modeler的多點接觸歸因精細事件分數會與整體Mix Modeler分數�
 
 * [!UICONTROL Model Assessment]視覺效果，您可根據「實際」與「預計」或「剩餘」轉換劃分視覺效果。
 
-  若要劃分視覺效果，請從&#x200B;**[!UICONTROL Breakdown]**&#x200B;清單中選取&#x200B;**[!UICONTROL Actual vs. Predicted]**&#x200B;或&#x200B;**[!UICONTROL Residuals]**。
+若要劃分視覺效果，請從&#x200B;**[!UICONTROL Breakdown]**&#x200B;清單中選取&#x200B;**[!UICONTROL Actual vs. Predicted]**&#x200B;或&#x200B;**[!UICONTROL Residuals]**。
 
 * [!UICONTROL Model fitting metrics]資料表，顯示每個轉換量度的下列資料行：
 
@@ -223,11 +226,11 @@ Mix Modeler的多點接觸歸因精細事件分數會與整體Mix Modeler分數�
 
       * RMSE （均方根誤差）：顯示平均誤差，根據誤差的平方加權。
 
-  若要下載包含資料表資料的CSV檔案，請選取![下載](/help/assets/icons/Download.svg)。
+若要下載包含資料表資料的CSV檔案，請選取![下載](/help/assets/icons/Download.svg)。
 
 * [!UICONTROL Touchpoint effectiveness]資料表，代表Attribution AI演演算法模型的結果。 只會針對特定時段產生此資料表的資料。 選取&#x200B;**[!UICONTROL As of *xx/xx/xx， xx：xx TZ *]**![資訊](/help/assets/icons/InfoOutline.svg)以取得詳細資料。
 
-  視覺效果會以遞減順序顯示每個接觸點的[!UICONTROL Efficiency measure] ![遞減順序](/help/assets/icons/SortOrderDown.svg)：
+視覺效果會以遞減順序顯示每個接觸點的[!UICONTROL Efficiency measure] ![遞減順序](/help/assets/icons/SortOrderDown.svg)：
 
    * [!UICONTROL Paths touched]：將達成轉換的路徑百分比與未達成轉換的路徑百分比視覺化。 對於接觸點，當歸因轉換比率很高時，您會看到更多歸因轉換。 此比率比較產生轉換的路徑百分比與&#x200B;*不會*&#x200B;產生轉換的路徑百分比。
    * [!UICONTROL Efficiency measure]：由演演算法歸因模型產生，效率測量表示某個接觸點對轉換的相對重要性，與接觸點數量無關。 效率是以1到5的級數來衡量。 請注意，接觸點數量越多並不保證測量效率越高。
@@ -246,11 +249,11 @@ Mix Modeler的多點接觸歸因精細事件分數會與整體Mix Modeler分數�
 
 * 接觸點支出。
 
-  您可以選取要針對此視覺效果顯示的替代支出型管道。 從&#x200B;**[!UICONTROL Channels]**&#x200B;中選取頻道。
+您可以選取要針對此視覺效果顯示的替代支出型管道。 從&#x200B;**[!UICONTROL Channels]**&#x200B;中選取頻道。
 
 * 接觸點數量。
 
-  您可以選取替代的音量型色版，以顯示此視覺效果。 從&#x200B;**[!UICONTROL Channels]**&#x200B;中選取頻道。
+您可以選取替代的音量型色版，以顯示此視覺效果。 從&#x200B;**[!UICONTROL Channels]**&#x200B;中選取頻道。
 
 ![模型 — 歷史總覽](/help/assets/model-insights-historical-overview.png)
 
