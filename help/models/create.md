@@ -3,9 +3,9 @@ title: 建立模型
 description: 瞭解如何在Mix Modeler中建立模型。
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: ab3b5b4177fff324d50463210724ef95db18e67f
+source-git-commit: 16aec67b3e0562ff766f81b8036c724fa03bba17
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '900'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,7 @@ ht-degree: 0%
 
    * 若要移除合格的資料母體容器，請在容器中選取![更多](/help/assets/icons/More.svg)，然後從內容功能表中選取&#x200B;**[!UICONTROL Remove marketing touchpoint]**。
 
+   * 在容器之間選取&#x200B;**And**&#x200B;和&#x200B;**Or**，為您的合格資料母體建置更複雜的定義。
 
 
 1. 若要將包含外部因子的資料集新增至模型，請在&#x200B;**[!UICONTROL External factors dataset]**&#x200B;區段中使用一或多個容器。 S&amp;P指數就是外部因素的範例。
