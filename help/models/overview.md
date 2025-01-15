@@ -3,9 +3,9 @@ title: 模型
 description: 瞭解如何在Mix Modeler中設定和使用模型。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: c02d2019346932baaf481e373569e29df3d97713
+source-git-commit: a4fdfa97e9d548533a22b1b667cf336f37b83395
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
