@@ -3,9 +3,9 @@ title: 計畫
 description: 瞭解如何在Mix Modeler中檢視、選取和操作計畫。
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 6331bdfcbc792c03f9cc129daa4e591c2b46a8f1
+source-git-commit: 0475c584b3963d02d9dd72f0dccf692d558463db
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -97,16 +97,14 @@ Mix Modeler中的計畫可讓您依業務單位和管道分配預算。 計畫�
 
 ### 刪除計畫
 
-若要刪除計畫，請執行下列動作：
+若要刪除計畫，請執行下列步驟：
 
-1. 從表格中選取一或多個計畫。
-1. 從動作列中選取![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**。
+1. 從左側邊欄選取![](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]**。
+1. 為計畫選取![更多](/help/assets/icons/More.svg)，並從內容功能表選取&#x200B;**[!UICONTROL Delete]**。 或者，從藍色動作列選取![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**。
+1. 在&#x200B;**[!UICONTROL Delete moplandel]**&#x200B;確認對話方塊中選取&#x200B;**[!UICONTROL Delete]**&#x200B;以刪除計畫。 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消。
 
-或者：
+若要刪除多個計畫：
 
-1. 為資料表中的計畫選取![更多](/help/assets/icons/More.svg)。
-1. 從內容功能表選取&#x200B;**[!UICONTROL Delete]**。 新計畫的名稱是由原始計畫的名稱所組成，並附加&#x200B;**[!UICONTROL (Copy)]**，此新計畫會新增至表格頂端。
-
-   >[!WARNING]
-   >
-   >   立即刪除選取的計畫！
+1. 選取多個計畫。
+1. 從藍色動作列中，選取![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;以刪除計畫。
+1. 在&#x200B;**[!UICONTROL Delete *x *計畫]**確認對話方塊中選取&#x200B;**[!UICONTROL Delete]**以刪除計畫。 選取&#x200B;**[!UICONTROL Cancel]**以取消。
