@@ -3,9 +3,9 @@ title: 轉換
 description: 瞭解如何建立轉換，以便用於協調Mix Modeler中的資料。
 feature: Harmonized Data, Conversions
 exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 665b344dfa94275d71e0ecf198d9bb9b73ea584b
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '398'
 ht-degree: 1%
 
 ---
@@ -66,14 +66,28 @@ ht-degree: 1%
 1. 建立後，轉換會被新增到轉換表格中。
 
 
-## 檢視轉換
+## 檢視詳細資料
 
-若要檢視轉換：
+若要檢視轉換的詳細資訊，請執行下列動作：
 
 1. 當游標停留在資料表中的轉換名稱上時，選取![更多](/help/assets/icons/More.svg)。
 
-1. 選取![檢視](/help/assets/icons/ViewDetail.svg) **檢視**。 對話方塊會顯示轉換的詳細資料。 如需詳細資訊，請參閱[新增轉換](#add-a-conversion)。 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以關閉對話方塊。
+1. 選取![檢視](/help/assets/icons/ViewDetail.svg) **檢視詳細資料**。 對話方塊會顯示轉換的詳細資料。 如需詳細資訊，請參閱[新增轉換](#add-a-conversion)。 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以關閉對話方塊。
 
+## 檢視報告
+
+若要檢視轉換報表：
+
+1. 當游標停留在資料表中的轉換名稱上時，選取![更多](/help/assets/icons/More.svg)。
+
+1. 選取![GraphTrend](/help/assets/icons/GraphTrend.svg) **檢視報告**。 對話方塊會顯示轉換報表。
+
+   ![轉換檢視報告](../assets/conversion-view-report.png)
+
+   * 若要變更報告粒度，請從&#x200B;**[!UICONTROL Weekly]**&#x200B;下拉式選單中選取值。
+   * 若要變更要報告的期間，請輸入開始與結束日期，或使用![行事曆](/help/assets/icons/Calendar.svg)在行事曆快顯視窗中定義期間。
+
+1. 選取&#x200B;**[!UICONTROL Close]**&#x200B;以關閉對話方塊。
 
 ## 刪除轉換
 

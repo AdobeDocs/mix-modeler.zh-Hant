@@ -3,9 +3,9 @@ title: 行銷接觸點
 description: 瞭解如何建立行銷接觸點，以便用於協調Mix Modeler中的資料。
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 665b344dfa94275d71e0ecf198d9bb9b73ea584b
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -66,14 +66,29 @@ ht-degree: 0%
 1. 建立後，接觸點會新增至行銷接觸點表格。
 
 
-## 檢視行銷接觸點
+## 檢視詳細資料
 
-若要檢視行銷接觸點：
+若要檢視行銷接觸點的詳細資訊：
 
 1. 選取![更多](/help/assets/icons/More.svg) （當滑鼠游標停留在表格中的行銷接觸點名稱上時）。
 
 1. 選取![檢視](/help/assets/icons/ViewDetail.svg) **檢視**。 對話方塊會顯示行銷接觸點的詳細資訊。 如需詳細資訊，請參閱[新增行銷接觸點](#add-a-marketing-touchpoint)。 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以關閉對話方塊。
 
+
+## 檢視報告
+
+若要檢視行銷接觸點的報表：
+
+1. 選取![更多](/help/assets/icons/More.svg) （當滑鼠游標停留在表格中的行銷接觸點名稱上時）。
+
+1. 選取![GraphTrend](/help/assets/icons/GraphTrend.svg) **檢視報告**。 對話方塊會顯示行銷接觸點的報告。
+
+   ![行銷接觸點檢視報告](../assets/marketingtouchpoint-view-report.png)
+
+   * 若要變更報告粒度，請從&#x200B;**[!UICONTROL Weekly]**&#x200B;下拉式選單中選取值。
+   * 若要變更要報告的期間，請輸入開始與結束日期，或使用![行事曆](/help/assets/icons/Calendar.svg)在行事曆快顯視窗中定義期間。
+
+1. 選取&#x200B;**[!UICONTROL Close]**&#x200B;以關閉對話方塊。
 
 ## 刪除行銷接觸點
 
