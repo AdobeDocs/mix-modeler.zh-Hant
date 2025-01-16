@@ -5,13 +5,13 @@ feature-set: Experience Cloud
 feature: Release Notes
 hide: true
 hidefromtoc: true
-source-git-commit: 72b4d3606316c254a9a3ea5909633d87eb9eada6
+exl-id: 5f832a79-7a0c-43cd-87cf-a5ceceb79032
+source-git-commit: 159a89896f7b463fdc0de663062b7e0088d9ecfc
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '333'
 ht-degree: 1%
 
 ---
-
 
 # 測試
 
@@ -25,10 +25,22 @@ ht-degree: 1%
 
 
 
+## 公式
 
-我們也支援公式嗎？
+我們確實支援公式嗎？
 
 **柯西 — 施瓦茨不等式**
 $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
 
 
+
+
+## 在著色方塊中使用SVG
+
+我們似乎無法適當支援陰影方塊中的SVG。 檢視預覽(corp.adobe.com)和已發佈網站(adobe.com)之間的差異。
+
+>[!BEGINSHADEBOX]
+
+*本文會在![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**中記錄歸因面板。<br/>檢視此文章的![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**版本的[歸因面板](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution)。*
+
+>[!ENDSHADEBOX]
