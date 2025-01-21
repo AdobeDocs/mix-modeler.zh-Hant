@@ -6,7 +6,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 5f832a79-7a0c-43cd-87cf-a5ceceb79032
-source-git-commit: 37c452ec2f8d984e9ba32da484532c26cdc9e891
+source-git-commit: 6eb0e0aa28aa965c17f002b9b08fcbc8ae993b0b
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 1%
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-*本文會在![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**中記錄歸因面板。<br/>檢視此文章的![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**版本的[歸因面板](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution)。*
+本文記錄了![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**&#x200B;中的歸因面板。<br/>檢視此文章的![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics**&#x200B;版本的[歸因面板](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution)。
 
 >[!ENDSHADEBOX]
 
