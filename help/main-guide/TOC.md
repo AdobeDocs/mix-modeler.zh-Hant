@@ -2,10 +2,10 @@
 user-guide-title: Mix Modeler 指南
 breadcrumb-title: Mix Modeler 指南
 user-guide-description: 了解如何使用 Mix Modeler。
-source-git-commit: 0d6afcf18d7dcf909ae2c22ffa588c425a7148d3
+source-git-commit: 25eb18443d0bdecdb02c026aec363271618441f5
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 46%
+source-wordcount: '85'
+ht-degree: 45%
 
 ---
 
@@ -18,24 +18,24 @@ ht-degree: 46%
    + [什麼是Mix Modeler？](/help/get-started/about.md)
    + [應用程式工作流程](/help/get-started/workflow.md)
 
-+ 儀表板{#dashboard}
-   + [概觀](/help/dashboard/overview.md)
++ 首頁{#dashboard}
+   + [首頁概觀](/help/dashboard/overview.md)
    + [協調的資料](/help/dashboard/harmonized-data.md)
    + [計畫](/help/dashboard/plans.md)
 
 + 模型{#models}
    + [概觀](/help/models/overview.md)
-   + [建立模型](/help/models/create.md)
+   + [建立模型](/help/models/build.md)
    + [模型深入分析](/help/models/insights.md)
-   + [評分資料](/help/models/scoring-data.md)
+   + [使用評分資料](/help/models/scoring-data.md)
 
 + 計畫{#plans}
    + [概觀](/help/plans/overview.md)
-   + [建立計畫](/help/plans/create.md)
-   + [編輯計畫](/help/plans/edit.md)
+   + [建置計畫](/help/plans/build.md)
+   + [計畫深入分析](/help/plans/insights.md)
    + [比較計畫](/help/plans/compare.md)
 
-+ 協調資料{#harmonize-data}
++ 協調資料集{#harmonize-data}
    + [概觀](/help/harmonize-data/overview.md)
    + [欄位](/help/harmonize-data/fields.md)
    + [資料集規則](/help/harmonize-data/dataset-rules.md)
@@ -45,7 +45,7 @@ ht-degree: 46%
 
 + 擷取資料{#ingest-data}
    + [概觀](/help/ingest-data/overview.md)
-   + [方案](/help/ingest-data/schemas.md)
+   + [結構描述](/help/ingest-data/schemas.md)
    + [資料集](/help/ingest-data/datasets.md)
 
 + 資料控管{#data-governance}

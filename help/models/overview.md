@@ -1,16 +1,16 @@
 ---
-title: 模型
-description: 瞭解如何在Mix Modeler中設定和使用模型。
+title: 模型概觀
+description: 瞭解如何在Mix Modeler中建立和使用模型。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
+source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 0%
 
 ---
 
-# 模型
+# 模型概觀
 
 Mix Modeler中的模型功能可讓您設定、訓練業務目標特定的模型，並為其評分。 訓練和評分可支援AI驅動的多點觸控歸因與行銷組合模型化之間的轉移學習。
 
@@ -35,7 +35,7 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
 
 ## 建立模型
 
-若要建立模型，請使用選取&#x200B;**[!UICONTROL Open model canvas]**&#x200B;時可用的Mix Modeler逐步引導模型組態流程。 如需詳細資訊，請參閱[建立模型](create.md)。
+若要建立模型，請使用選取&#x200B;**[!UICONTROL Open model canvas]**&#x200B;時可用的逐步引導模型組態流程Mix Modeler。 如需詳細資訊，請參閱[建立模型](build.md)。
 
 ## 管理模型
 

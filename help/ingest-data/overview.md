@@ -1,16 +1,16 @@
 ---
-title: 擷取資料
+title: 擷取資料概觀
 description: 瞭解如何將資料擷取至Mix Modeler。
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 2402874518001c1ae78de6a64a06a9fefa1bbc27
+source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '465'
 ht-degree: 8%
 
 ---
 
-# 擷取資料
+# 擷取資料概觀
 
 Mix Modeler可搭配事件層級資料、來自不同四周花園的行銷成果彙總或摘要資料，以及來自任何其他來源（例如離線廣告、內部因素或外部因素）的彙總或摘要資料使用。
 
@@ -19,7 +19,7 @@ Mix Modeler可搭配事件層級資料、來自不同四周花園的行銷成果
 例如：
 
 * 使用Adobe Analytics來源聯結器收集並轉換為符合Adobe Analytics結構描述預設或自訂版本的資料集，或是
-* 使用Experience PlatformWeb SDK、Mobile SDK或Edge Network伺服器API收集的資料，用於收集網站、行動或任何其他型別裝置上的客戶互動。
+* 使用Experience PlatformWeb SDK、Mobile SDK或Edge Network伺服器API收集資料，以收集網站、行動或任何其他型別裝置上的客戶互動。
 * 從封閉花園(例如Facebook、YouTube)、流量來源或離線廣告資料彙總或摘要資料，
 * 包含對模型建立有用的內部或外部因素的非行銷彙總或摘要資料。
 
@@ -42,7 +42,7 @@ Mix Modeler可搭配事件層級資料、來自不同四周花園的行銷成果
 
 +++ 彙總行銷成果資料
 
-| 地理 | 日期 | 日期型別 | Channel | Campaign | 按一下 | 盈餘 | 參與 | 曝光 | 開啟 | 已擁有 | 已傳送 | 支出 |
+| 地理 | 日期 | 日期型別 | Channel | Campaign | 按一下 | 盈餘 | 參與度 | 曝光 | 開啟 | 已擁有 | 已傳送 | 支出 |
 |---|:--|---|:---:|---|--:|---|--:|---|---|---|--:|--:|
 | AMER | 2021-10-31 | 天 | 電子郵件 | | 12752 | | | | | | 1132945 | |
 | AMER | 2021-10-31 | 天 | FB | | 148844 | | | | | | | 42111 |
@@ -87,5 +87,5 @@ Mix Modeler可搭配事件層級資料、來自不同四周花園的行銷成果
 >
 >如需有關如何管理結構描述和資料集的詳細資訊，請參閱：
 >
->* [方案](schemas.md)
+>* [結構描述](schemas.md)
 >* [資料集](datasets.md)

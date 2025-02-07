@@ -1,18 +1,18 @@
 ---
-title: 協調的資料概觀儀表板
+title: 協調的資料儀表板
 description: 瞭解如何在Mix Modeler中使用協調的資料概觀儀表板。
 feature: Dashboard, Harmonized Data
 exl-id: fbb01613-d648-4db1-a782-a7720b7a03ad
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
 
-# 協調的資料概觀
+# 協調的資料
 
-Mix Modeler概觀中的「協調的資料」索引標籤提供您已設定為用於內嵌資料和協調資料設定一部分的協調資料見解。
+Mix Modeler![首頁](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;中的&#x200B;**[!UICONTROL Harmonized data]**&#x200B;索引標籤提供您設定為要用來做為內嵌資料及協調資料設定一部分的協調資料見解。
 
 此概觀會顯示4個KPI狀態卡視覺效果（最上方列）和6個其他可設定的視覺效果。
 

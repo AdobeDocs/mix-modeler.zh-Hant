@@ -1,16 +1,16 @@
 ---
-title: 協調資料
+title: 協調資料集概述
 description: 瞭解如何協調Mix Modeler中的資料。
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '895'
 ht-degree: 7%
 
 ---
 
-# 協調資料
+# 協調資料集概述
 
 視資料來源而定，Mix Modeler中的資料具有不同性質。 資料可以是：
 
@@ -67,9 +67,9 @@ Mix Modeler的協調服務會將彙總和事件資料同化為一致的資料檢
 
 **資料集4**
 
-來自客戶的體驗事件資料集（Web SDK事件）範例。
+來自客戶的體驗事件資料集(網頁SDK事件)範例。
 
-| 時間戳記 | 身分命名空間 | 身分ID | Channel | 點按次數 |
+| 時間戳記 | 身分識別命名空間 | 身分ID | Channel | 點按次數 |
 |--- |--- |--- |--- |---:|
 | 01-01-2022 00:01:01.000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
 | 01-01-2022 00:01:01.000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |

@@ -1,16 +1,16 @@
 ---
-title: 評分資料
+title: 使用評分資料
 description: 瞭解如何在Mix Modeler中儲存模型的評分資料。
 feature: Models
 exl-id: 2f2c3d20-7b14-41cc-a11a-03e8ad9e5d7a
-source-git-commit: b6045176e82b97f848113f4e0ffbbb995c48b3d4
+source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '677'
 ht-degree: 6%
 
 ---
 
-# 評分資料
+# 使用評分資料
 
 作為對模型評分的一部分，評分資料會儲存在Experience Platform的資料集中。 當您在建立模型期間啟用多接觸式歸因時，其他事件分數資料會儲存在Experience Platform的資料集中。
 

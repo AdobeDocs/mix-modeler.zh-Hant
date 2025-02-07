@@ -1,16 +1,16 @@
 ---
-title: 計畫
+title: 計畫總覽
 description: 瞭解如何在Mix Modeler中檢視、選取和操作計畫。
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
+source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 0%
+source-wordcount: '481'
+ht-degree: 1%
 
 ---
 
-# 計畫
+# 計畫總覽
 
 Mix Modeler中的計畫可讓您依業務單位和管道分配預算。 計畫功能會根據您協調的資料與已訓練模型的結果整合。
 
@@ -28,6 +28,10 @@ Mix Modeler中的計畫可讓您依業務單位和管道分配預算。 計畫�
 - 多個航班日期，每個日期都有目標預算，
 - 依據管道和投放日期的最小和最大預算限制。
 
+
+## 建置計畫
+
+若要建立計畫，請使用Mix Modeler計畫建立精靈。 如需詳細資訊，請參閱[建置計畫](build.md)。
 
 ## 管理計畫
 
@@ -57,50 +61,39 @@ Mix Modeler中的計畫可讓您依業務單位和管道分配預算。 計畫�
 
 1. 使用![搜尋](/help/assets/icons/Search.svg)來搜尋和篩選一或多個特定計畫的資料表。
 
-## 建立計畫
+### 計畫深入分析
 
-若要建立計畫，請使用Mix Modeler計畫建立精靈。 如需詳細資訊，請參閱[建立計畫](create.md)。
+若要檢視計畫的深入分析並編輯計畫：
 
+1. 從左側邊欄選取![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]**。
 
-## 編輯計畫
+1. 選取計畫名稱。
 
-若要編輯計畫，請從表格中選取計畫的名稱。 如需詳細資訊，請參閱[編輯計畫](edit.md)。
+您被重新導向至[計畫深入分析](insights.md)。
 
-
-## 選擇計畫並對計畫採取行動
-
-您可以選取一或多個計畫，這會顯示「計畫」動作列。 動作列可讓您刪除、比較或複製計畫。
-
-若要移除「計畫」表格中的所有選取專案，請在動作列中選取![關閉](/help/assets/icons/Close.svg)
-
-![計畫動作列](/help/assets/plans-action-bar.png)
 
 ### 複製計畫
 
 若要複製計畫，請執行下列步驟：
 
-1. 從表格中選取單一計畫。
-1. 從動作列中選取![複製](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]**。 新計畫的名稱是由原始計畫的名稱所組成，並附加&#x200B;**[!UICONTROL (Copy)]**，此新計畫會新增至表格頂端。
+- 為計畫選取![更多](/help/assets/icons/More.svg)。 從內容功能表中選取&#x200B;**[!UICONTROL Duplicate]**。
+- 或者，在表格![SelectBox](/help/assets/icons/SelectBox.svg)中選取計畫，然後從藍色動作列選取![複製](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]**。
 
-或者：
-
-1. 為資料表中的計畫選取![更多](/help/assets/icons/More.svg)。
-1. 從內容功能表選取&#x200B;**[!UICONTROL Duplicate]**。 新計畫的名稱是由原始計畫的名稱所組成，並附加&#x200B;**[!UICONTROL (Copy)]**，此新計畫會新增至表格頂端。
+新計畫的名稱是由原始計畫的名稱所組成，並附加&#x200B;**[!UICONTROL (Copy)]**，此新計畫會新增至表格頂端。
 
 ### 比較計畫
 
 若要比較計畫：
 
 1. 從表格中選取兩個計畫。
-1. 從動作列中選取![比較](/help/assets/icons/Compare.svg) **[!UICONTROL Compare]**。 您看見&#x200B;**[!UICONTROL Compare plans]** UI。
+1. 從藍色動作列中選取![比較](/help/assets/icons/Compare.svg) **[!UICONTROL Compare]**。 您看見&#x200B;**[!UICONTROL Compare plans]** UI。
 
 
 ### 刪除計畫
 
 若要刪除計畫，請執行下列步驟：
 
-1. 從左側邊欄選取![](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]**。
-1. 為計畫選取![更多](/help/assets/icons/More.svg)，並從內容功能表選取&#x200B;**[!UICONTROL Delete]**。 或者，從藍色動作列選取![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**。
+1. 為計畫選取![更多](/help/assets/icons/More.svg)。 從內容功能表選取&#x200B;**[!UICONTROL Delete]**。 <br/>或者，在表格![SelectBox](/help/assets/icons/SelectBox.svg)中選取計畫，然後從藍色動作列選取![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**。
 1. 在&#x200B;**[!UICONTROL Delete plan]**&#x200B;確認對話方塊中選取&#x200B;**[!UICONTROL Delete]**&#x200B;以刪除計畫。 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消。
 
 若要刪除多個計畫：

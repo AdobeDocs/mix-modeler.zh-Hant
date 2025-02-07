@@ -4,9 +4,9 @@ description: 了解如何使用 Mix Modeler 跨所有管道測量行銷活動並
 short-description: 了解如何使用 Mix Modeler 跨所有管道測量行銷活動並全面最佳化規劃。
 feature: Harmonized Data, Models, Plans
 exl-id: 3427c338-f2a0-416b-bb4c-d8fef929c38a
-source-git-commit: af315f4566c34c1961130d61ce2804b98d859b24
+source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '203'
 ht-degree: 18%
 
 ---
@@ -60,13 +60,13 @@ ht-degree: 18%
     </td>
     <td>
       <img src="assets/FileGear.svg" width="35px"><br/>
-      <strong>模型</strong><br/><a href="/help/models/overview.md">概述</a> - <a href="/help/models/create.md">建立模型</a> - <a href="/help/models/insights.md">模型深入分析</a> - <a href="/help/models/scoring-data.md">評分資料</a>
+      <strong>模型</strong><br/><a href="/help/models/overview.md">總覽</a> - <a href="/help/models/build.md">建立模型</a> - <a href="/help/models/insights.md">模型深入分析</a> - <a href="/help/models/scoring-data.md">使用評分資料</a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
       <img src="assets/FileChart.svg" width="35px"><br/>
-      <strong>計畫</strong><br/><a href="/help/plans/overview.md">計畫</a> - <a href="/help/plans/create.md">建立計畫</a> - <a href="/help/plans/compare.md">比較計畫</a> - <a href="/help/plans/edit.md">編輯計畫</a>
+      <strong>計畫</strong><br/><a href="/help/plans/overview.md">計畫</a> - <a href="/help/plans/build.md">建置計畫</a> - <a href="/help/plans/compare.md">比較計畫</a> - <a href="/help/plans/build.md">計畫深入分析</a>
     </td>
     <td>
       <img src="assets/Dashboard.svg" width="35px"><br/>

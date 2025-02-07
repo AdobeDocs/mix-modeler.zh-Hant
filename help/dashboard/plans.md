@@ -1,23 +1,23 @@
 ---
-title: 計畫總覽
+title: 計畫
 description: 瞭解如何在Mix Modeler中使用計畫總覽。
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 0bdb80fb19118ab4e15c36c1a43e2d4f0c528041
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
 
-# 計畫總覽
+# 計畫
 
 >[!NOTE]
 >
->[!BADGE Alpha]{type=Informative}
+>[!BADGE Alpha]{type=Informative}Mix Modeler![首頁](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;中的&#x200B;**[!UICONTROL Plans]**&#x200B;索引標籤是Alpha功能，其功能可能會有所變更。 此功能僅供有限數量的客戶使用。
 
 
-Mix Modeler概觀中的「計畫」索引標籤會顯示[!UICONTROL Budget]、[!UICONTROL Revenue]、[!UICONTROL ROI]和[!UICONTROL KPI]的視覺效果。
+Mix Modeler![首頁](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;中的&#x200B;**[!UICONTROL Plans]**&#x200B;索引標籤顯示[!UICONTROL Budget]、[!UICONTROL Revenue]、[!UICONTROL ROI]和[!UICONTROL KPI]的視覺效果。
 
 針對視覺效果顯示的資料由下列決定：
 

@@ -3,9 +3,9 @@ title: 模型深入分析
 description: 瞭解如何取得有關您模型的詳細資訊，例如Mix Modeler中的歷史總覽、模型見解和模型品質。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: fccdd908bbe6b5a2cf9182fc61cb4bbe392f92ec
+source-git-commit: 25eb18443d0bdecdb02c026aec363271618441f5
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1552'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 0%
 >「歸因」索引標籤僅適用於啟用MTA的模型。
 
 
-使用[!UICONTROL Attribution]標籤，您可以瞭解擁有事件層級資料的接觸點和行銷活動的有效性。  請參閱[建立模型](create.md)。
+使用[!UICONTROL Attribution]標籤，您可以瞭解擁有事件層級資料的接觸點和行銷活動的有效性。  請參閱[建置模型](build.md)。
 
 支援下列歸因模型：
 
