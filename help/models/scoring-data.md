@@ -3,7 +3,7 @@ title: 使用評分資料
 description: 瞭解如何在Mix Modeler中儲存模型的評分資料。
 feature: Models
 exl-id: 2f2c3d20-7b14-41cc-a11a-03e8ad9e5d7a
-source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
+source-git-commit: 5f6c35816a8850bf170cb73d9710e65809e5f372
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 6%
