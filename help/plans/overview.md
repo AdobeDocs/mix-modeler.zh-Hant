@@ -3,9 +3,9 @@ title: 計畫總覽
 description: 瞭解如何在Mix Modeler中檢視、選取和操作計畫。
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: 3b6b127bfaf79cee99a869b21ff0c1a911b3ad6c
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '510'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,8 @@ Mix Modeler中的計畫可讓您依業務單位和管道分配預算。 計畫�
 - 設定的辨識視窗，
 - 多個航班日期，每個日期都有目標預算，
 - 依據管道和投放日期的最小和最大預算限制。
+
+如果您用於計畫的模型已在新資料上評分，則需要建立新計畫以考慮重新評分的資料。
 
 
 ## 建置計畫

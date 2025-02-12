@@ -1,23 +1,33 @@
 ---
 title: 協調資料集概述
-description: 瞭解如何協調Mix Modeler中的資料。
+description: 瞭解如何在Mix Modeler中協調資料。
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
+source-git-commit: beee5fe52188f133b71ed3ef53e40c3aea06ab9c
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 7%
+source-wordcount: '966'
+ht-degree: 6%
 
 ---
 
 # 協調資料集概述
 
-視資料來源而定，Mix Modeler中的資料具有不同性質。 資料可以是：
+Mix Modeler中的資料根據資料來源具有不同的性質。 資料可以是：
 
 * 彙總或摘要資料，例如，從圍牆花園資料來源收集而來，或是從公告牌行銷活動、事件或實體廣告行銷活動收集而來的離線廣告資料（如支出）。
-* 事件資料，例如來自第一方資料來源的資料。 此事件資料可以透過Adobe Analytics來源聯結器從Adobe Analytics收集，或透過Experience Platform網頁或行動SDK或Edge Network API收集，或使用來源聯結器擷取的資料。
+* 事件資料，例如來自第一方資料來源的資料。 此事件資料可以透過Adobe Analytics來源聯結器從Adobe Analytics收集，或透過Experience Platform Web、Mobile SDK或Edge Network API收集，或使用來源聯結器擷取的資料。
 
-Mix Modeler的協調服務會將彙總和事件資料同化為一致的資料檢視。 此資料檢視結合內部和外部因素資料，是Mix Modeler中模型的來源。 此服務會使用不同資料集的最高精細度。 例如，如果某個資料集的詳細程度為每月，而其餘資料集的詳細程度為每週和每日，則協調服務會使用每月詳細程度建立資料檢視。
+Mix Modeler的協調服務會將彙總和事件資料同化為一致的資料檢視。 此資料檢視結合[內部和外部因素資料](#factors)，是Mix Modeler中模型的來源。 此服務會使用不同資料集的最高精細度。 例如，如果某個資料集的詳細程度為每月，而其餘資料集的詳細程度為每週和每日，則協調服務會使用每月詳細程度建立資料檢視。
+
+## 因素
+
+因素對於模型建立至關重要，您想要瞭解哪些因素會對業務產生整體影響。 因素可能與行銷資料無關。
+
+* 內部因素專屬於您的組織，可能會影響您的轉換。 例如，您的銷售季節、促銷活動等。
+
+* 外部因素是組織無法控制的因素，但仍可影響您獲得的轉換。 例如CPI、S&amp;P 500等。
+
+
 
 ## 協調資料的範例
 
@@ -43,10 +53,10 @@ Mix Modeler的協調服務會將彙總和事件資料同化為一致的資料檢
 
 | 日期 | 日期型別 | Channel | Campaign | 地理 | 點按次數 | 支出 |
 |--- |:---:|--- |---|---|---:|---:|
-| 01-01-2022 | 周 | facebook | FB_Fall_01 | US | 8000 | 100 |
-| 01-08-2022 | 周 | facebook | FB_Fall_02 | US | 1000 | 10 |
-| 01-08-2022 | 周 | facebook | FB_Fall_01 | US | 7000 | 100 |
-| 01-16-2022 | 周 | facebook | FB_Summer_01 | CA | 10000 | 80 |
+| 01-01-2022 | 周 | Facebook | FB_Fall_01 | US | 8000 | 100 |
+| 01-08-2022 | 周 | Facebook | FB_Fall_02 | US | 1000 | 10 |
+| 01-08-2022 | 周 | Facebook | FB_Fall_01 | US | 7000 | 100 |
+| 01-16-2022 | 周 | Facebook | FB_Summer_01 | CA | 10000 | 80 |
 
 {style="table-layout:auto"}
 
@@ -88,10 +98,10 @@ Mix Modeler的協調服務會將彙總和事件資料同化為一致的資料檢
 | 12-27-2021 | 周 | YouTube | Y_Fall_02 | BrandX | US | 空 | 11000 | 110 | 空 |
 | 01-03-2022 | 周 | YouTube | Y_Fall_01 | BrandY | CA | 空 | 10000 | 100 | 空 |
 | 01-03-2022 | 周 | YouTube | Y_Summer_01 | 空 | CA | 空 | 9000 | 80 | 空 |
-| 01-01-2022 | 周 | facebook | FB_Fall_01 | 空 | US | 空 | 8000 | 100 | 空 |
-| 01-08-2022 | 周 | facebook | FB_Fall_02 | 空 | US | 空 | 1000 | 10 | 空 |
-| 01-08-2022 | 周 | facebook | FB_Fall_01 | 空 | US | 空 | 7000 | 100 | 空 |
-| 01-16-2022 | 周 | facebook | FB_Summer_01 | 空 | CA | 空 | 10000 | 80 | 空 |
+| 01-01-2022 | 周 | Facebook | FB_Fall_01 | 空 | US | 空 | 8000 | 100 | 空 |
+| 01-08-2022 | 周 | Facebook | FB_Fall_02 | 空 | US | 空 | 1000 | 10 | 空 |
+| 01-08-2022 | 周 | Facebook | FB_Fall_01 | 空 | US | 空 | 7000 | 100 | 空 |
+| 01-16-2022 | 周 | Facebook | FB_Summer_01 | 空 | CA | 空 | 10000 | 80 | 空 |
 | 12-27-2021 | 周 | 空 | 空 | 空 | US | 時尚 | 空 | 空 | 200 |
 | 01-03-2022 | 周 | 空 | 空 | 空 | US | 時尚 | 空 | 空 | 10 |
 | 01-03-2022 | 周 | 空 | 空 | 空 | US | 珠寶 | 空 | 空 | 1100 |
