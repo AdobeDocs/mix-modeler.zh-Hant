@@ -3,9 +3,9 @@ title: 模型深入分析
 description: 瞭解如何取得有關您模型的詳細資訊，例如Mix Modeler中的歷史總覽、模型見解和模型品質。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 25eb18443d0bdecdb02c026aec363271618441f5
+source-git-commit: 0ee212a626986e4c721d0e58f2528d0ca1a9fdbf
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1549'
 ht-degree: 0%
 
 ---
@@ -82,12 +82,27 @@ ht-degree: 0%
 
 若要下載接觸點劃分表格的內容，請選取![下載](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**。
 
+## **[!UICONTROL Factors]** [!BADGE beta]
+
+因素[!BADGE beta]標籤顯示外部因素相關深入分析。
+
+![因素](/help/assets/factors.png)
+
+此視覺效果可協助您瞭解各種內部和外部因素對轉換基準線的累加影響。 例如，經濟條件或促銷活動。
+
+使用&#x200B;**[!UICONTROL Factors]**&#x200B;下拉式功能表來選取您要顯示的因素。
+
+<!-- need to update the image when we do have a proper example -->
+
+若要下載包含資料表資料的CSV檔案，請選取![下載](/help/assets/icons/Download.svg)。
+
+如果沒有可用的資料，您會看到訊息![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**。
 
 ## [!UICONTROL Attribution]
 
 >[!NOTE]
 >
->「歸因」索引標籤僅適用於啟用MTA的模型。
+「歸因」索引標籤僅適用於啟用MTA的模型。
 
 
 使用[!UICONTROL Attribution]標籤，您可以瞭解擁有事件層級資料的接觸點和行銷活動的有效性。  請參閱[建置模型](build.md)。
@@ -110,7 +125,7 @@ ht-degree: 0%
 
 ![歸因](/help/assets/model-insights-attribution.png)
 
-Mix Modeler的多點接觸歸因精細事件分數會與整體Mix Modeler分數和ROI相符。 這些分數也可作為Experience Platform中的資料集使用。
+Mix Modeler多點接觸歸因精細事件分數與整體Mix Modeler分數和ROI相符。 這些分數也可在Experience Platform中作為資料集使用。
 
 「歸因」標籤包含下列視覺效果：
 
@@ -132,15 +147,15 @@ Mix Modeler的多點接觸歸因精細事件分數會與整體Mix Modeler分數�
 
 [!UICONTROL Breakdown]視覺效果是每個所選歸因模型轉換的劃分管道或接觸點。 此視覺效果有助於決定每個頻道或接觸點的成效。
 
-若要選擇劃分型別，請從![更多](/help/assets/icons/More.svg)中選取&#x200B;**[!UICONTROL Breakdown by channel]**&#x200B;或&#x200B;**[!UICONTROL Breakdown by touchpoint]**。
+若要選擇劃分型別， select 來自![更多](/help/assets/icons/More.svg)的&#x200B;**[!UICONTROL Breakdown by channel]**&#x200B;或&#x200B;**[!UICONTROL Breakdown by touchpoint]**。
 
 若要檢視詳細資訊，請將滑鼠游標停留在任何圖表元素上。
 
 ### [!UICONTROL Top campaigns]
 
-熱門促銷活動視覺效果會顯示熱門促銷活動表格，其中包含「促銷活動名稱」、「頻道」、「媒體型別」和「遞增式轉換」欄。 此視覺效果有助於讓您的團隊瞭解特定管道的特定行銷活動的成效，並提供您應進一步投資哪些行銷活動的深入分析。
+熱門行銷活動視覺效果會顯示熱門行銷活動的表格，其中包含行銷活動名稱、頻道、媒體型別的欄 and 遞增式轉換。 此視覺效果有助於讓您的團隊瞭解特定管道的特定行銷活動的成效，並提供您應進一步投資哪些行銷活動的深入分析。
 
-若要針對「頻道」、「媒體型別」或「遞增轉換」↓以遞增↑或遞減順序來排序表格，請選取欄標題並切換排序。
+若要依「頻道」、「媒體」型別的遞增↑序或遞減順序↓排表格 or 遞增式轉換，選取欄標題並切換排序。
 
 若要在個別對話方塊中展開表格，請從![更多](/help/assets/icons/More.svg)中選取&#x200B;**[!UICONTROL Expand]**。
 
@@ -151,7 +166,7 @@ Mix Modeler的多點接觸歸因精細事件分數會與整體Mix Modeler分數�
 * 首次接觸轉換
 * 上次接觸轉換
 
-  您可以選取每個額外的欄標題，以遞增或遞減順序排序表格。
+您可以選取每個額外的欄標題，以遞增或遞減順序排序表格。
 
 若要關閉展開的[熱門促銷活動]對話方塊，請選取&#x200B;**[!UICONTROL Close]**。
 
@@ -162,7 +177,7 @@ Mix Modeler的多點接觸歸因精細事件分數會與整體Mix Modeler分數�
 
 >[!NOTE]
 >
->歸因模型在所有接觸點和位置的貢獻百分比總和應等於100。
+歸因模型在所有接觸點和位置的貢獻百分比總和應等於100。
 
 
 位置[!UICONTROL Starter]、[!UICONTROL Player]和[!UICONTROL Closer]的定義如下：
@@ -186,21 +201,6 @@ Mix Modeler的多點接觸歸因精細事件分數會與整體Mix Modeler分數�
 * 每個管道的歸因模型貢獻百分比，以及
 * 這些管道歸因模型貢獻百分比的總和。
 
-## **[!UICONTROL Factors]** [!BADGE beta]
-
-因素[!BADGE beta]標籤顯示外部因素相關深入分析。
-
-![因素](/help/assets/factors.png)
-
-此視覺效果可協助您瞭解各種內部和外部因素對轉換基準線的累加影響。 例如，經濟條件或促銷活動。
-
-使用&#x200B;**[!UICONTROL Factors]**&#x200B;下拉式功能表來選取您要顯示的因素。
-
-<!-- need to update the image when we do have a proper example -->
-
-若要下載包含資料表資料的CSV檔案，請選取![下載](/help/assets/icons/Download.svg)。
-
-如果沒有可用的資料，您會看到訊息![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**。
 
 ## [!UICONTROL Diagnostics]
 
@@ -228,7 +228,7 @@ Mix Modeler的多點接觸歸因精細事件分數會與整體Mix Modeler分數�
 
 若要下載包含資料表資料的CSV檔案，請選取![下載](/help/assets/icons/Download.svg)。
 
-* [!UICONTROL Touchpoint effectiveness]資料表，代表Attribution AI演演算法模型的結果。 只會針對特定時段產生此資料表的資料。 選取&#x200B;**[!UICONTROL As of *xx/xx/xx， xx：xx TZ *]**![資訊](/help/assets/icons/InfoOutline.svg)以取得詳細資料。
+* [!UICONTROL Touchpoint effectiveness]表格，代表Attribution AI演演算法模型的結果。 只會針對特定時段產生此資料表的資料。 選取&#x200B;**[!UICONTROL As of *xx/xx/xx， xx：xx TZ *]**![資訊](/help/assets/icons/InfoOutline.svg)以取得詳細資料。
 
 視覺效果會以遞減順序顯示每個接觸點的[!UICONTROL Efficiency measure] ![遞減順序](/help/assets/icons/SortOrderDown.svg)：
 
