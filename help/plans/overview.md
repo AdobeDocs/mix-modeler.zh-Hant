@@ -3,9 +3,9 @@ title: 計畫總覽
 description: 瞭解如何在Mix Modeler中檢視、選取和操作計畫。
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 3b6b127bfaf79cee99a869b21ff0c1a911b3ad6c
+source-git-commit: 8e1c748f3e4e267038dcac5bce82f90157e88c32
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '511'
 ht-degree: 1%
 
 ---
@@ -81,7 +81,7 @@ Mix Modeler中的計畫可讓您依業務單位和管道分配預算。 計畫�
 - 為計畫選取![更多](/help/assets/icons/More.svg)。 從內容功能表中選取&#x200B;**[!UICONTROL Duplicate]**。
 - 或者，在表格![SelectBox](/help/assets/icons/SelectBox.svg)中選取計畫，然後從藍色動作列選取![複製](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]**。
 
-新計畫的名稱是由原始計畫的名稱所組成，並附加&#x200B;**[!UICONTROL (Copy)]**，此新計畫會新增至表格頂端。
+新計畫的名稱是由原始計畫的名稱附加至&#x200B;**[!UICONTROL (Copy)](_n_)**&#x200B;所組成，已新增至表格頂端。
 
 ### 比較計畫
 

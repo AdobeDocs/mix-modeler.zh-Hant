@@ -3,9 +3,9 @@ title: 模型概觀
 description: 瞭解如何在Mix Modeler中建立和使用模型。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: 39ea5ed145678d6ac7e5263b38255e725e488f8d
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '1090'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
 
 ## 建立模型
 
-若要建立模型，請使用選取&#x200B;**[!UICONTROL Open model canvas]**&#x200B;時可用的逐步引導模型組態流程Mix Modeler。 如需詳細資訊，請參閱[建立模型](build.md)。
+若要建立模型，請使用選取&#x200B;**[!UICONTROL Open model canvas]**&#x200B;時可用的Mix Modeler逐步引導模型組態流程。 如需詳細資訊，請參閱[建立模型](build.md)。
 
 ## 管理模型
 
@@ -54,9 +54,33 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
    | 轉換事件 | 您為模型選取的轉換。 |
    | 執行頻率 | 訓練模型的執行頻率。 |
    | 上次執行 | 模型上次培訓的日期和時間。 |
-   | 狀態 | 模型訓練上次執行的狀態。 <br/>![StatusGreen](/help/assets/icons/StatusGreen.svg)成功<br/>![StatusOrange](/help/assets/icons/StatusOrange.svg)訓練問題<br/> ![StatusOrange](/help/assets/icons/StatusOrange.svg)正在等待訓練<br/>![StatusRed](/help/assets/icons/StatusRed.svg)失敗<br/>![StatusGreen](/help/assets/icons/StatusGray.svg) _ （上次執行正在進行時） |
+   | 狀態 | 模型的狀態。 |
 
    {style="table-layout:auto"}
+
+   模型的報告狀態取決於模型在其生命週期內的位置。 例如，模型是否建立、（重新）訓練成功與否，或（重新）評分成功與否。
+
+   在下表中：
+
+   * ![核取記號](/help/assets/icons/Checkmark.svg) — 表示在模型生命週期中成功執行了步驟。
+   * ![時鐘](/help/assets/icons/Clock.svg) — 表示模型生命週期中步驟的目前執行中。
+   * ![Close](/help/assets/icons/Close.svg) — 表示模型生命週期中的步驟執行失敗。
+
+   | 狀態 | 建立 | 訓練 | 分數 | 重新訓練 | 重新計分 |
+   |---|:---:|:---:|:---:|:---:|:---:|
+   | 進行中 | ![核取記號](/help/assets/icons/Checkmark.svg) | | | | |
+   | 進行中 | ![核取記號](/help/assets/icons/Checkmark.svg) | ![時鐘](/help/assets/icons/Clock.svg) | | | |
+   | 進行中 | ![核取記號](/help/assets/icons/Checkmark.svg) | ![核取記號](/help/assets/icons/Checkmark.svg) | ![時鐘](/help/assets/icons/Clock.svg) | | |
+   | 進行中 | ![核取記號](/help/assets/icons/Checkmark.svg) | ![核取記號](/help/assets/icons/Checkmark.svg) | ![核取記號](/help/assets/icons/Checkmark.svg) | ![時鐘](/help/assets/icons/Clock.svg) | |
+   | 進行中 | ![核取記號](/help/assets/icons/Checkmark.svg) | ![核取記號](/help/assets/icons/Checkmark.svg) | ![核取記號](/help/assets/icons/Checkmark.svg) | ![核取記號](/help/assets/icons/Checkmark.svg) | ![時鐘](/help/assets/icons/Clock.svg) |
+   | 訓練失敗 | ![核取記號](/help/assets/icons/Checkmark.svg) | ![關閉](/help/assets/icons/Close.svg) | | | |
+   | 訓練失敗 | ![核取記號](/help/assets/icons/Checkmark.svg) | ![核取記號](/help/assets/icons/Checkmark.svg) | ![核取記號](/help/assets/icons/Checkmark.svg) | ![關閉](/help/assets/icons/Close.svg) | |
+   | 訓練成功 | ![核取記號](/help/assets/icons/Checkmark.svg) | ![核取記號](/help/assets/icons/Checkmark.svg) | | | |
+   | 訓練成功 | ![核取記號](/help/assets/icons/Checkmark.svg) | ![核取記號](/help/assets/icons/Checkmark.svg) | ![核取記號](/help/assets/icons/Checkmark.svg) | ![核取記號](/help/assets/icons/Checkmark.svg) | |
+   | 評分失敗 | ![核取記號](/help/assets/icons/Checkmark.svg) | ![核取記號](/help/assets/icons/Checkmark.svg) | ![關閉](/help/assets/icons/Close.svg) | | |
+   | 評分失敗 | ![核取記號](/help/assets/icons/Checkmark.svg) | ![核取記號](/help/assets/icons/Checkmark.svg) | ![核取記號](/help/assets/icons/Checkmark.svg) | ![核取記號](/help/assets/icons/Checkmark.svg) | ![關閉](/help/assets/icons/Close.svg) |
+   | 評分成功 | ![核取記號](/help/assets/icons/Checkmark.svg) | ![核取記號](/help/assets/icons/Checkmark.svg) | ![核取記號](/help/assets/icons/Checkmark.svg) | | |
+   | 評分成功 | ![核取記號](/help/assets/icons/Checkmark.svg) | ![核取記號](/help/assets/icons/Checkmark.svg) | ![核取記號](/help/assets/icons/Checkmark.svg) | ![核取記號](/help/assets/icons/Checkmark.svg) | ![核取記號](/help/assets/icons/Checkmark.svg) |
 
 1. 若要變更為清單顯示的欄，請選取![欄設定](/help/assets/icons/ColumnSetting.svg)，並開啟![核取](/help/assets/icons/Checkmark.svg)或關閉欄。
 
@@ -92,6 +116,7 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
 
 1. 為模型選取![更多](/help/assets/icons/More.svg)，然後從內容功能表選取&#x200B;**[!UICONTROL Duplicate]**。
 
+您被重新導向到建立新模型的步驟，其中提議的名稱是由原始模型的名稱附加的&#x200B;**[!UICONTROL (Copy)](_n_)**&#x200B;所組成。
 
 ### 編輯
 
