@@ -4,10 +4,10 @@ description: 最新 Mix Modeler 發行說明
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 13b748337ca9bfc3b4ffdb0b345bfc291c36525a
+source-git-commit: 622e61b2e354bd428d6c084f29bfec9666c1a09d
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 3%
+source-wordcount: '303'
+ht-degree: 2%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 3%
 
 | 功能 | 說明 | [轉出開始](#release-strategy) | [全面發佈](#release-strategy) |
 |---|---|---|---|
-| **巢狀條件** | 當您定義合格的資料母體作為模型](/help/models/build.md#configure)的[組態的一部分時，可以使用AND和OR來建立巢狀條件。 | 2025年1月15日 | 2025年2月18日 |
+| **巢狀條件** | 當您定義合格的資料母體作為模型](/help/models/build.md#configure)的[組態的一部分時，可以使用AND和OR來建立巢狀條件。 | 2025年1月15日 | t.b.d |
 | **檢視報告** | 您可以檢視有關您定義為協調資料一部分的[轉換](/help/harmonize-data/conversions.md#view-report)或[行銷接觸點](/help/harmonize-data/marketing-touchpoints.md#view-report)的報告。 | 2025年1月15日 | 2025年2月18日 |
 | **刪除確認** | 系統會提示您確認刪除[計畫](/help/plans/overview.md#delete-plans)或[模型](/help/models/overview.md#delete-models)。 | 2025年1月15日 | 2025年2月18日 |
 | **因素UI改善** | 您可以選取要在模型深入分析中顯示的[因素](/help/models/insights.md#factors-beta)。 | 2025年1月15日 | 2025年2月18日 |
-| **[!UICONTROL Error handling]** | 使用者易記的錯誤訊息，以及改善使用者在資料協調與計畫中的錯誤情境體驗。 | 2025年2月18日 | 2025年2月18日 |
-| **[!UICONTROL Model status]** | 重新定義整個模型生命週期中的[模型狀態](/help/models/overview.md#manage-models)。 | 2025年2月18日 | 2025年2月18日 |
+| **錯誤處理** | 使用者易記的錯誤訊息，以及改善使用者在資料協調與計畫中的錯誤情境體驗。 | 2025年2月18日 | 2025年2月18日 |
+| **模型狀態** | 重新定義整個模型生命週期中的[模型狀態](/help/models/overview.md#manage-models)。 | 2025年2月18日 | t.b.d. |
 
 
 ## 發行策略
