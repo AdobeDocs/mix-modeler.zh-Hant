@@ -3,7 +3,7 @@ title: 計畫總覽
 description: 瞭解如何在Mix Modeler中檢視、選取和操作計畫。
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 8e1c748f3e4e267038dcac5bce82f90157e88c32
+source-git-commit: df0faeb2682381ec8d13d594d52c0b7cf22a679d
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 Mix Modeler中的計畫可讓您依業務單位和管道分配預算。 計畫功能會根據您協調的資料與已訓練模型的結果整合。
 
-計畫會概述企業打算在指定的時間範圍內，為服務通用KPI （例如訂單、收入）而在行銷相關專案上花費的任意投資（例如預算）。 計畫可包含來自付費廣告、贊助網路內容、活動等管道的費用。
+計畫會概述企業打算在指定的時間範圍內，使用一般KPI （例如訂單、收入）在行銷相關專案上所花費的任意投資（例如預算）。 計畫可包含來自付費廣告、贊助網路內容、活動等管道的費用。
 
 計畫需要：
 
