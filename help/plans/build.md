@@ -3,9 +3,9 @@ title: 建置計畫
 description: 瞭解如何在Mix Modeler中建置計畫。
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: d05eccef370598ce64363ca6ae20886b0e5dccd0
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,12 @@ ht-degree: 0%
 
 若要建立計畫，請在Mix Modeler的![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]**&#x200B;介面中選取&#x200B;**[!UICONTROL Create plan]**。
 
-1. 在「計畫建立」畫面中：
+1. 在&#x200B;**[!UICONTROL Plan creation]**&#x200B;畫面中：
 
-   1. 在&#x200B;**[!UICONTROL Setup]**&#x200B;區段中
+   1. 在&#x200B;**[!UICONTROL Setup]**&#x200B;區段中：
 
       1. 輸入&#x200B;**[!UICONTROL Plan name]**，例如`Demo plan`。 輸入&#x200B;**[!UICONTROL Description]**，例如`Demo plan for Luma company`。
-      1. 從&#x200B;**[!UICONTROL _中選取&#x200B;**[!UICONTROL Model]**選取選項……_.]**。
+      1. 從&#x200B;**[!UICONTROL _中選取&#x200B;**[!UICONTROL Model]**選取選項……_.]**
       1. 您可以選取![LinkOut](/help/assets/icons/LinkOut.svg) **[!UICONTROL Create model]**，以直接從計畫建立中建立模型。 這會在您的瀏覽器中開啟新索引標籤，並顯示[模型](../models/overview.md)介面。
 
          ![計畫設定](/help/assets/plan-setup.png)

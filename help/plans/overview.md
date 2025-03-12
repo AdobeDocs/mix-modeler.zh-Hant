@@ -3,10 +3,10 @@ title: 計畫總覽
 description: 瞭解如何在Mix Modeler中檢視、選取和操作計畫。
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: df0faeb2682381ec8d13d594d52c0b7cf22a679d
+source-git-commit: c62cba4dc7c703cf33859a925369383d45ad0606
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 1%
+source-wordcount: '635'
+ht-degree: 0%
 
 ---
 
@@ -34,6 +34,7 @@ Mix Modeler中的計畫可讓您依業務單位和管道分配預算。 計畫�
 ## 建置計畫
 
 若要建立計畫，請使用Mix Modeler計畫建立精靈。 如需詳細資訊，請參閱[建置計畫](build.md)。
+
 
 ## 管理計畫
 
@@ -81,7 +82,15 @@ Mix Modeler中的計畫可讓您依業務單位和管道分配預算。 計畫�
 - 為計畫選取![更多](/help/assets/icons/More.svg)。 從內容功能表中選取&#x200B;**[!UICONTROL Duplicate]**。
 - 或者，在表格![SelectBox](/help/assets/icons/SelectBox.svg)中選取計畫，然後從藍色動作列選取![複製](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]**。
 
-新計畫的名稱是由原始計畫的名稱附加至&#x200B;**[!UICONTROL (Copy)](_n_)**&#x200B;所組成，已新增至表格頂端。
+已建立新計畫，其名稱由附加了&#x200B;**[!UICONTROL (Copy)](_n_)**&#x200B;的原始計畫名稱所組成。 系統會自動將您重新導向至[計畫建立](build.md)，以提供已複製計畫的更新詳細資料。
+
+- 來自原始計畫的明細（如說明、預算等）會複製過來。
+- 原始計畫的預算限制會複製到新建立的計畫。
+- 您可以選擇選取其他模型作為複製計畫的基礎。
+   - 對於存在於複製計畫中但不存在於新選取模型中的接觸點或管道，會從計畫中移除這些接觸點或管道的任何限制。
+   - 對於不存在於複製的計畫中但存在於新選取的模型中的接觸點或管道，限制會設定為最小值`0`以及符合計畫檢查範圍預算的最大值。
+
+
 
 ### 比較計畫
 
