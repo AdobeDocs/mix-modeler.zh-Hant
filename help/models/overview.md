@@ -3,9 +3,9 @@ title: 模型概觀
 description: 瞭解如何在Mix Modeler中建立和使用模型。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 4a154ec4c81cb6b2361a05440c56b7946f748d8c
+source-git-commit: f4333d3686d3173452f4e8ca43ccf07c269f4365
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1174'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
 * 先前瞭解其他來源的行銷貢獻，例如過去的利害關係人經驗、逐步測試、其他模型。
 * 支出份額，在行銷資料稀疏時，使用相對支出份額作為代理。
 
-模型首次建立時，建立作業會立即啟動訓練和評分程式。 初始訓練和評分回合完成後，模型深入分析將可供檢閱。 隨後可能會重新訓練模型。 此外，可能會將資料新增至模型，這需要您手動重新為模型評分。 重新培訓與重新評分是一項反複進行的程式，因為需要新的發現和資訊出現，並需要調整，才能獲得最適合您業務目標的模型。
+模型首次建立時，建立作業會立即啟動訓練和評分程式。 初始訓練和評分回合完成後，模型深入分析便可供檢閱。 隨後可能會重新訓練模型。 此外，可能會將資料新增至模型，這需要您手動重新為模型評分。 重新培訓與重新評分是一項反複進行的程式，因為需要新的發現和資訊出現，並需要調整，才能獲得最適合您業務目標的模型。
 
 
 ## 建立模型
@@ -83,6 +83,8 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
    | 評分失敗 | ![核取記號](/help/assets/icons/Checkmark.svg) | ![核取記號](/help/assets/icons/Checkmark.svg) | ![核取記號](/help/assets/icons/Checkmark.svg) | ![核取記號](/help/assets/icons/Checkmark.svg) | ![關閉](/help/assets/icons/Close.svg) |
    | 評分成功 | ![核取記號](/help/assets/icons/Checkmark.svg) | ![核取記號](/help/assets/icons/Checkmark.svg) | ![核取記號](/help/assets/icons/Checkmark.svg) | | |
    | 評分成功 | ![核取記號](/help/assets/icons/Checkmark.svg) | ![核取記號](/help/assets/icons/Checkmark.svg) | ![核取記號](/help/assets/icons/Checkmark.svg) | ![核取記號](/help/assets/icons/Checkmark.svg) | ![核取記號](/help/assets/icons/Checkmark.svg) |
+
+   {style="table-layout:fixed"}
 
 1. 若要變更為清單顯示的欄，請選取![欄設定](/help/assets/icons/ColumnSetting.svg)，並開啟![核取](/help/assets/icons/Checkmark.svg)或關閉欄。
 
