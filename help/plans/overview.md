@@ -1,11 +1,11 @@
 ---
-title: 計畫總覽
-description: 瞭解如何在Mix Modeler中檢視、選取和操作計畫。
+title: 計劃概述
+description: 了解如何在 Mix Modeler 中對計劃進行視圖、選擇和作。
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: c62cba4dc7c703cf33859a925369383d45ad0606
+source-git-commit: 09b0868cc6f631188b2609b1da81d1a6b6f0aa9f
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
@@ -14,12 +14,12 @@ ht-degree: 0%
 
 Mix Modeler中的計畫可讓您依業務單位和管道分配預算。 計畫功能會根據您協調的資料與已訓練模型的結果整合。
 
-計畫會概述企業打算在指定的時間範圍內，使用一般KPI （例如訂單、收入）在行銷相關專案上所花費的任意投資（例如預算）。 計畫可包含來自付費廣告、贊助網路內容、活動等管道的費用。
+計劃概述了企業打算在給定時間範圍期間在與行銷相關的項目上花費的可自由支配的投資（例如預算）。 這些投資服務於常見的 KPI（例如訂單、收入）。 計劃可以包括付費廣告、贊助網路內容、活動等渠道的費用。
 
-計畫需要：
+計劃需要：
 
 - 模型，
-- 資料範圍，
+- 一個數據範圍，
 - 預算。
 
 計畫可選擇性地包括：
@@ -42,21 +42,21 @@ Mix Modeler中的計畫可讓您依業務單位和管道分配預算。 計畫�
 
 1. 從左側邊欄選取![](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]**。
 
-1. 您會看到目前計畫及其狀態的表格。
+1. 您將看到當前計劃及其狀態的表格。
 
-   表格資料欄會指定計畫的詳細資訊。
+   表列指定有關計劃的詳細資訊。
 
    | 欄名稱 | 詳細資料 |
    |---|---|
    | 名稱 | 計畫名稱 |
-   | 模型 | 作為計畫基礎的模型。 |
-   | 日期範圍 | 計畫的完整日期範圍。 |
+   | 模型 | 用作計劃基礎的模型。 |
+   | 日期範圍 | 計劃的完整日期範圍。 |
    | 預算 | 計畫的總預算。 |
-   | 預測回訪 | 計畫的預測傳回 |
-   | 預測的投資報酬率 | 計畫的預測ROI。 |
-   | 預測的轉換 | 計畫的預測轉換 |
-   | 預測的CPA | 計畫的預測CPA |
-   | 狀態 | 計畫的狀態： <p><span style="color:red">●</span>失敗， <p><span style="color:blue">●</span>正在處理，或 <p><span style="color:green">●</span>完成。 |
+   | 預測回訪 | 計畫的[預測傳回](/help/main-guide/glossary.md) |
+   | 預測的投資報酬率 | 計畫的[預測ROI](/help/main-guide/glossary.md)。 |
+   | 預測的轉換 | 計畫的[預測轉換](/help/main-guide/glossary.md) |
+   | 預測的CPA | 計畫的[預測CPA](/help/main-guide/glossary.md) |
+   | 狀態 | 計畫的狀態： <p><span style="color:red">●</span> 失敗， <p><span style="color:blue">●</span>正在處理，或 <p><span style="color:green">●</span>完成。 |
 
    {style="table-layout:auto"}
 
@@ -85,26 +85,28 @@ Mix Modeler中的計畫可讓您依業務單位和管道分配預算。 計畫�
 已建立新計畫，其名稱由附加了&#x200B;**[!UICONTROL (Copy)](_n_)**&#x200B;的原始計畫名稱所組成。 系統會自動將您重新導向至[計畫建立](build.md)，以提供已複製計畫的更新詳細資料。
 
 - 來自原始計畫的明細（如說明、預算等）會複製過來。
-- 原始計畫的預算限制會複製到新建立的計畫。
-- 您可以選擇選取其他模型作為複製計畫的基礎。
-   - 對於存在於複製計畫中但不存在於新選取模型中的接觸點或管道，會從計畫中移除這些接觸點或管道的任何限制。
-   - 對於不存在於複製的計畫中但存在於新選取的模型中的接觸點或管道，限制會設定為最小值`0`以及符合計畫檢查範圍預算的最大值。
+- 原始計劃的預算約束將複製到新創建的計劃。
+- 您可以選擇另一個模型作為複製計劃的基礎。
+   - 對於複製的計劃中確實存在但新選擇模型中不存在的接觸點或管道，這些接觸點或管道的任何約束都將從計劃中移除。
+   - 對於不在複製計畫中但存在於新選取模型中的接觸點或通道，限制會設定為：
+      - 最小值為`0`，
+      - 符合計劃航程預算的最大值。
 
 
 
-### 比較計畫
+### 比較計劃
 
-若要比較計畫：
+要比較計劃：
 
-1. 從表格中選取兩個計畫。
-1. 從藍色動作列中選取![比較](/help/assets/icons/Compare.svg) **[!UICONTROL Compare]**。 您看見&#x200B;**[!UICONTROL Compare plans]** UI。
+1. 從表中選擇兩個計劃。
+1. 從藍色作欄中選擇![比較](/help/assets/icons/Compare.svg)**[!UICONTROL Compare]**。您會看到 **[!UICONTROL Compare plans]** UI。
 
 
 ### 刪除計畫
 
 若要刪除計畫，請執行下列步驟：
 
-1. 為計畫選取![更多](/help/assets/icons/More.svg)。 從內容功能表選取&#x200B;**[!UICONTROL Delete]**。 <br/>或者，在表格![SelectBox](/help/assets/icons/SelectBox.svg)中選取計畫，然後從藍色動作列選取![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**。
+1. 為計畫選取![更多](/help/assets/icons/More.svg)。 從內容功能表中，選取&#x200B;**[!UICONTROL Delete]**。 <br/>或者，在表格![SelectBox](/help/assets/icons/SelectBox.svg)中選取計畫，然後從藍色動作列選取![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**。
 1. 在&#x200B;**[!UICONTROL Delete plan]**&#x200B;確認對話方塊中選取&#x200B;**[!UICONTROL Delete]**&#x200B;以刪除計畫。 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消。
 
 若要刪除多個計畫：
