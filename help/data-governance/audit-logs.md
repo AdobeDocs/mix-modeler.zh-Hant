@@ -3,7 +3,7 @@ title: 稽核記錄
 description: 瞭解如何從Mix Modeler存取稽核記錄。
 feature: Administration
 exl-id: aa65aac5-bea4-43ff-b0d0-9e8a6a97d3ca
-source-git-commit: 77a338ae568c854b99069b849a18661d413c501c
+source-git-commit: 85f9b42a775006cd3566447b2bb9d0a806fa3e73
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 5%
@@ -12,7 +12,7 @@ ht-degree: 5%
 
 # 稽核記錄
 
-為了提高系統中所執行活動的透明度和可見度，Experience Platform稽核記錄會擷取Mix Modeler工作流程內的使用者活動，以瞭解Mix Modeler類別的任何使用者導向變更。 這些記錄形成了稽核軌跡，可以幫助解決問題，並且可以幫助您的企業有效地遵守公司資料管理政策和監管要求。
+為了提高系統中所執行活動的透明度和可見度，Mix Modeler工作流程中的使用者活動會擷取在Experience Platform稽核記錄中，以瞭解Mix Modeler類別的任何使用者導向變更。 這些記錄形成了稽核軌跡，可以幫助解決問題，並且可以幫助您的企業有效地遵守公司資料管理政策和監管要求。
 
 <!-- DO WE HAVE TO ADD THIS
 If you are subject to the Health Insurance Portability and Accountability Act (HIPAA) and create, receive, maintain, or transmit permitted sensitive personal data through Mix Modeler, you are responsible for executing a BAA with Adobe and licensing Healthcare Shield.
@@ -43,7 +43,7 @@ If you are subject to the Health Insurance Portability and Accountability Act (H
    | Mix Modeler模型 | 建立 | 允許或拒絕 |
    | Mix Modeler模型 | 更新 | 允許或拒絕 |
    | Mix Modeler模型 | 刪除 | 允許或拒絕 |
-   | Mix Modeler模型 | 重新計分 | 允許或拒絕 |
+   | Mix Modeler模型 | Rescore | 允許或拒絕 |
    | Mix Modeler模型 | 原地複製 | 允許或拒絕 |
    | Mix Modeler模型 | 訓練/重新訓練 | 允許或拒絕 |
    | Mix Modeler模型 | 下載/儲存中繼資料 | 允許或拒絕 |

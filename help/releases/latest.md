@@ -4,10 +4,10 @@ description: 最新 Mix Modeler 發行說明
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 96d56adc0a24a45797fd8a837b405a3f5329c886
+source-git-commit: 85f9b42a775006cd3566447b2bb9d0a806fa3e73
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 2%
+source-wordcount: '333'
+ht-degree: 3%
 
 ---
 
@@ -17,11 +17,18 @@ ht-degree: 2%
 
 以下發行說明涵蓋最新版本的Mix Modeler。 Mix Modeler版本會在持續傳遞模式上運作，允許大約每月發行。 因此，這些發行說明會相應更新，因此請定期檢視。
 
+## 2025年3月至4月
+
+| 功能 | 說明 | [轉出開始](#release-strategy) | [全面發佈](#release-strategy) |
+|---|---|---|---|
+| **模型漂移偵測** | 開啟模型時，系統會在偵測到模型漂移時[提示您重新訓練模型](/help/models/insights.md#model-drift)。 | 2025年4月3日 | t.b.d. |
+
+
 ## 2025年1月至2月
 
 | 功能 | 說明 | [轉出開始](#release-strategy) | [全面發佈](#release-strategy) |
 |---|---|---|---|
-| **巢狀條件** | 當您定義合格的資料母體作為模型](/help/models/build.md#configure)的[組態的一部分時，可以使用AND和OR來建立巢狀條件。 | 2025年1月15日 | t.b.d |
+| **巢狀條件** | 當您定義合格的資料母體作為模型](/help/models/build.md#configure)的[組態的一部分時，可以使用AND和OR來建立巢狀條件。 | 2025年1月15日 | 2025年2月18日 |
 | **檢視報告** | 您可以檢視有關您定義為協調資料一部分的[轉換](/help/harmonize-data/conversions.md#view-report)或[行銷接觸點](/help/harmonize-data/marketing-touchpoints.md#view-report)的報告。 | 2025年1月15日 | 2025年2月18日 |
 | **刪除確認** | 系統會提示您確認刪除[計畫](/help/plans/overview.md#delete-plans)或[模型](/help/models/overview.md#delete-models)。 | 2025年1月15日 | 2025年2月18日 |
 | **因素UI改善** | 您可以選取要在模型深入分析中顯示的[因素](/help/models/insights.md#factors-beta)。 | 2025年1月15日 | 2025年2月18日 |

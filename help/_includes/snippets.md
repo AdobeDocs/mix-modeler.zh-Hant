@@ -1,3630 +1,3645 @@
 ---
-source-git-commit: 182f3cf46fd4871f7b27d311af1673457677d361
+source-git-commit: 85f9b42a775006cd3566447b2bb9d0a806fa3e73
 workflow-type: tm+mt
-source-wordcount: '1811'
-ht-degree: 6%
+source-wordcount: '104'
+ht-degree: 0%
 
 ---
 # 程式碼片段
 
+## 發行階段有限測試 {#release-limited-testing}
 
-## OneTwoThree {#onetwothree}
+>[!AVAILABILITY]
+>
+>本文所述的功能處於發行的有限測試階段，可能尚未在您的環境中提供。 當功能正式可用時，將移除此附註。 如需Mix Modeler發行程式的相關資訊，請參閱[Mix Modeler功能發行](/help/releases/latest.md)。
+>
+
+## 發行階段限制測試區段 {#release-limited-testing-section}
+
+>[!AVAILABILITY]
+>
+>本節所述的功能處於發行的有限測試階段，可能尚未在您的環境中提供。 當功能正式可用時，將移除此附註。 如需Mix Modeler發行程式的相關資訊，請參閱[Mix Modeler功能發行](/help/releases/latest.md)。
+>
+
+<!--
+## OneTwoThree {#onetwothree} 
 
 ![123](/help/assets/icons/123.svg)
 
-## ThreeDmaterial {#threedmaterial}
+## ThreeDMaterial {#threedmaterial} 
 
 ![3DMaterial](/help/assets/icons/3DMaterial.svg)
 
-## ABC {#abc}
+## ABC {#abc} 
 
 ![ABC](/help/assets/icons/ABC.svg)
 
-## AEMS畫面 {#aemscreen}
+## AEMScreen {#aemscreen} 
 
 ![AEMScreen](/help/assets/icons/AEMScreen.svg)
 
-## 動作 {#action}
+## Action {#action} 
 
-![動作](/help/assets/icons/Action.svg)
+![Action](/help/assets/icons/Action.svg)
 
-## AdDisplay {#addisplay}
+## AdDisplay {#addisplay} 
 
 ![AdDisplay](/help/assets/icons/AdDisplay.svg)
 
-## AdPrint {#adprint}
+## AdPrint {#adprint} 
 
 ![AdPrint](/help/assets/icons/AdPrint.svg)
 
-## 新增 {#add}
+## Add {#add} 
 
-![新增](/help/assets/icons/Add.svg)
+![Add](/help/assets/icons/Add.svg)
 
-## 新增圓 {#addcircle}
+## AddCircle {#addcircle} 
 
 ![AddCircle](/help/assets/icons/AddCircle.svg)
 
-## AddTo {#addto}
+## AddTo {#addto} 
 
 ![AddTo](/help/assets/icons/AddTo.svg)
 
-## AddToSelection {#addtoselection}
+## AddToSelection {#addtoselection} 
 
 ![AddToSelection](/help/assets/icons/AddToSelection.svg)
 
-## AdobeLogo {#adobelogo}
+## AdobeLogo {#adobelogo} 
 
 ![AdobeLogo](/help/assets/icons/AdobeLogo.svg)
 
-## 飛機 {#airplane}
+## Airplane {#airplane} 
 
-![飛機](/help/assets/icons/Airplane.svg)
+![Airplane](/help/assets/icons/Airplane.svg)
 
-## 警報 {#alert}
+## Alert {#alert} 
 
-![警報](/help/assets/icons/Alert.svg)
+![Alert](/help/assets/icons/Alert.svg)
 
-## 警報新增 {#alertadd}
+## AlertAdd {#alertadd} 
 
 ![AlertAdd](/help/assets/icons/AlertAdd.svg)
 
-## Alertcheck {#alertcheck}
+## AlertCheck {#alertcheck} 
 
 ![AlertCheck](/help/assets/icons/AlertCheck.svg)
 
-## 警示圈 {#alertcircle}
+## AlertCircle {#alertcircle} 
 
-![警示圈](/help/assets/icons/AlertCircle.svg)
+![AlertCircle](/help/assets/icons/AlertCircle.svg)
 
-## AlertCircleFilled {#alertcirclefilled}
+## AlertCircleFilled {#alertcirclefilled} 
 
 ![AlertCircleFilled](/help/assets/icons/AlertCircleFilled.svg)
 
-## 演演算法 {#algorithm}
+## Algorithm {#algorithm} 
 
-![演演算法](/help/assets/icons/Algorithm.svg)
+![Algorithm](/help/assets/icons/Algorithm.svg)
 
-## 別名 {#alias}
+## Alias {#alias} 
 
 ![Alia](/help/assets/icons/Alias.svg)
 
-## 靠下對齊 {#alignbottom}
+## AlignBottom {#alignbottom} 
 
-![下對齊](/help/assets/icons/AlignBottom.svg)
+![AlignBottom](/help/assets/icons/AlignBottom.svg)
 
-## 置中對齊 {#aligncenter}
+## AlignCenter {#aligncenter} 
 
-![居中對齊](/help/assets/icons/AlignCenter.svg)
+![AlignCenter](/help/assets/icons/AlignCenter.svg)
 
-## 靠左對齊 {#alignleft}
+## AlignLeft {#alignleft} 
 
-![靠左對齊](/help/assets/icons/AlignLeft.svg)
+![AlignLeft](/help/assets/icons/AlignLeft.svg)
 
-## 對齊中間 {#alignmiddle}
+## AlignMiddle {#alignmiddle} 
 
 ![AlignMiddle](/help/assets/icons/AlignMiddle.svg)
 
-## 靠右對齊 {#alignright}
+## AlignRight {#alignright} 
 
-![靠右對齊](/help/assets/icons/AlignRight.svg)
+![AlignRight](/help/assets/icons/AlignRight.svg)
 
-## 靠上對齊 {#aligntop}
+## AlignTop {#aligntop} 
 
-![靠上對齊](/help/assets/icons/AlignTop.svg)
+![AlignTop](/help/assets/icons/AlignTop.svg)
 
-## 遊樂園 {#amusementpark}
+## Amusementpark {#amusementpark} 
 
-![遊樂園](/help/assets/icons/Amusementpark.svg)
+![Amusementpark](/help/assets/icons/Amusementpark.svg)
 
-## 錨點 {#anchor}
+## Anchor {#anchor} 
 
-![錨點](/help/assets/icons/Anchor.svg)
+![Anchor](/help/assets/icons/Anchor.svg)
 
-## 錨點選取 {#anchorselect}
+## AnchorSelect {#anchorselect} 
 
 ![AnchorSelect](/help/assets/icons/AnchorSelect.svg)
 
-## 註解 {#annotate}
+## Annotate {#annotate} 
 
-![註釋](/help/assets/icons/Annotate.svg)
+![Annotate](/help/assets/icons/Annotate.svg)
 
-## AnnotatePen {#annotatepen}
+## AnnotatePen {#annotatepen} 
 
 ![AnnotatePen](/help/assets/icons/AnnotatePen.svg)
 
-## 回答 {#answer}
+## Answer {#answer} 
 
-![答案](/help/assets/icons/Answer.svg)
+![Answer](/help/assets/icons/Answer.svg)
 
-## 答案我的最愛 {#answerfavorite}
+## AnswerFavorite {#answerfavorite} 
 
-![回應我的最愛](/help/assets/icons/AnswerFavorite.svg)
+![AnswerFavorite](/help/assets/icons/AnswerFavorite.svg)
 
-## 應用程式 {#app}
+## App {#app} 
 
-![應用程式](/help/assets/icons/App.svg)
+![App](/help/assets/icons/App.svg)
 
-## AppRefresh {#apprefresh}
+## AppRefresh {#apprefresh} 
 
 ![AppRefresh](/help/assets/icons/AppRefresh.svg)
 
-## AppleFile {#applefile}
+## AppleFile {#applefile} 
 
 ![AppleFile](/help/assets/icons/AppleFile.svg)
 
-## ApplicationDelivery {#applicationdelivery}
+## ApplicationDelivery {#applicationdelivery} 
 
 ![ApplicationDelivery](/help/assets/icons/ApplicationDelivery.svg)
 
-## ApproveReject {#approvereject}
+## ApproveReject {#approvereject} 
 
 ![ApproveReject](/help/assets/icons/ApproveReject.svg)
 
-## 封存 {#archive}
+## Archive {#archive} 
 
-![封存](/help/assets/icons/Archive.svg)
+![Archive](/help/assets/icons/Archive.svg)
 
-## 封存移除 {#archiveremove}
+## ArchiveRemove {#archiveremove} 
 
 ![ArchiveRemove](/help/assets/icons/ArchiveRemove.svg)
 
-## 向下箭頭 {#arrowdown}
+## ArrowDown {#arrowdown} 
 
-![向下箭號](/help/assets/icons/ArrowDown.svg)
+![ArrowDown](/help/assets/icons/ArrowDown.svg)
 
-## 向左鍵 {#arrowleft}
+## ArrowLeft {#arrowleft} 
 
-![向左箭號](/help/assets/icons/ArrowLeft.svg)
+![ArrowLeft](/help/assets/icons/ArrowLeft.svg)
 
-## 向右鍵 {#arrowright}
+## ArrowRight {#arrowright} 
 
-![向右箭號](/help/assets/icons/ArrowRight.svg)
+![ArrowRight](/help/assets/icons/ArrowRight.svg)
 
-## 向上鍵 {#arrowup}
+## ArrowUp {#arrowup} 
 
-![向上鍵](/help/assets/icons/ArrowUp.svg)
+![ArrowUp](/help/assets/icons/ArrowUp.svg)
 
-## 向右箭頭 {#arrowupright}
+## ArrowUpRight {#arrowupright} 
 
-![向上箭號](/help/assets/icons/ArrowUpRight.svg)
+![ArrowUpRight](/help/assets/icons/ArrowUpRight.svg)
 
-## 工作畫板 {#artboard}
+## Artboard {#artboard} 
 
-![工作畫板](/help/assets/icons/Artboard.svg)
+![Artboard](/help/assets/icons/Artboard.svg)
 
-## 文章 {#article}
+## Article {#article} 
 
-![文章](/help/assets/icons/Article.svg)
+![Article](/help/assets/icons/Article.svg)
 
-## 資產 {#asset}
+## Asset {#asset} 
 
-![資產](/help/assets/icons/Asset.svg)
+![Asset](/help/assets/icons/Asset.svg)
 
-## AssetCheck {#assetcheck}
+## AssetCheck {#assetcheck} 
 
-![資產檢查](/help/assets/icons/AssetCheck.svg)
+![AssetCheck](/help/assets/icons/AssetCheck.svg)
 
-## 已新增資產 {#assetsadded}
+## AssetsAdded {#assetsadded} 
 
-![已新增資產](/help/assets/icons/AssetsAdded.svg)
+![AssetsAdded](/help/assets/icons/AssetsAdded.svg)
 
-## 已下載資產 {#assetsdownloaded}
+## AssetsDownloaded {#assetsdownloaded} 
 
-![已下載資產](/help/assets/icons/AssetsDownloaded.svg)
+![AssetsDownloaded](/help/assets/icons/AssetsDownloaded.svg)
 
-## AssetsExpired {#assetsexpired}
+## AssetsExpired {#assetsexpired} 
 
-![資產過期](/help/assets/icons/AssetsExpired.svg)
+![AssetsExpired](/help/assets/icons/AssetsExpired.svg)
 
-## AssetsLinkedPublished {#assetslinkedpublished}
+## AssetsLinkedPublished {#assetslinkedpublished} 
 
 ![AssetsLinkedPublished](/help/assets/icons/AssetsLinkedPublished.svg)
 
-## AssetsModified {#assetsmodified}
+## AssetsModified {#assetsmodified} 
 
 ![AssetsModified](/help/assets/icons/AssetsModified.svg)
 
-## AssetsPublished {#assetspublished}
+## AssetsPublished {#assetspublished} 
 
-![已發佈的資產](/help/assets/icons/AssetsPublished.svg)
+![AssetsPublished](/help/assets/icons/AssetsPublished.svg)
 
-## 星號 {#asterisk}
+## Asterisk {#asterisk} 
 
-![星號](/help/assets/icons/Asterisk.svg)
+![Asterisk](/help/assets/icons/Asterisk.svg)
 
-## 在 {#at}
+## At {#at} 
 
-![在](/help/assets/icons/At.svg)
+![At](/help/assets/icons/At.svg)
 
-## 附加 {#attach}
+## Attach {#attach} 
 
-![附加](/help/assets/icons/Attach.svg)
+![Attach](/help/assets/icons/Attach.svg)
 
-## 附件排除 {#attachmentexclude}
+## AttachmentExclude {#attachmentexclude} 
 
 ![AttachmentExclude](/help/assets/icons/AttachmentExclude.svg)
 
-## 屬性 {#attribute}
+## Attribute {#attribute} 
 
-![屬性](/help/assets/icons/Attribute.svg)
+![Attribute](/help/assets/icons/Attribute.svg)
 
-## 音訊 {#audio}
+## Audio {#audio} 
 
-![音訊](/help/assets/icons/Audio.svg)
+![Audio](/help/assets/icons/Audio.svg)
 
-## 自動化區段 {#automatedsegment}
+## AutomatedSegment {#automatedsegment} 
 
-![自動化區段](/help/assets/icons/AutomatedSegment.svg)
+![AutomatedSegment](/help/assets/icons/AutomatedSegment.svg)
 
-## 返回 {#back}
+## Back {#back} 
 
-![上一步](/help/assets/icons/Back.svg)
+![Back](/help/assets/icons/Back.svg)
 
-## 後30秒 {#back30second}
+## Back30Second {#back30second} 
 
-![上一步30秒](/help/assets/icons/Back30Second.svg)
+![Back30Second](/help/assets/icons/Back30Second.svg)
 
-## BackAndroid {#backandroid}
+## BackAndroid {#backandroid} 
 
 ![BackAndroid](/help/assets/icons/BackAndroid.svg)
 
-## 燒杯 {#beaker}
+## Beaker {#beaker} 
 
-![燒杯](/help/assets/icons/Beaker.svg)
+![Beaker](/help/assets/icons/Beaker.svg)
 
-## BeakerCheck {#beakercheck}
+## BeakerCheck {#beakercheck} 
 
 ![BeakerCheck](/help/assets/icons/BeakerCheck.svg)
 
-## BeakerShare {#beakershare}
+## BeakerShare {#beakershare} 
 
 ![BeakerShare](/help/assets/icons/BeakerShare.svg)
 
-## 鈴鐺 {#bell}
+## Bell {#bell} 
 
-![鈴鐺](/help/assets/icons/Bell.svg)
+![Bell](/help/assets/icons/Bell.svg)
 
-## 競標規則 {#bidrule}
+## BidRule {#bidrule} 
 
-![競標規則](/help/assets/icons/BidRule.svg)
+![BidRule](/help/assets/icons/BidRule.svg)
 
-## BidRuleAdd {#bidruleadd}
+## BidRuleAdd {#bidruleadd} 
 
 ![BidRuleAdd](/help/assets/icons/BidRuleAdd.svg)
 
-## 鼓風機 {#blower}
+## Blower {#blower} 
 
-![鼓吹者](/help/assets/icons/Blower.svg)
+![Blower](/help/assets/icons/Blower.svg)
 
-## 失焦 {#blur}
+## Blur {#blur} 
 
-![模糊](/help/assets/icons/Blur.svg)
+![Blur](/help/assets/icons/Blur.svg)
 
-## 書冊 {#book}
+## Book {#book} 
 
-![書](/help/assets/icons/Book.svg)
+![Book](/help/assets/icons/Book.svg)
 
-## 書籤 {#bookmark}
+## Bookmark {#bookmark} 
 
-![書籤](/help/assets/icons/Bookmark.svg)
+![Bookmark](/help/assets/icons/Bookmark.svg)
 
-## 書籤單一 {#bookmarksingle}
+## BookmarkSingle {#bookmarksingle} 
 
-![書籤單一](/help/assets/icons/BookmarkSingle.svg)
+![BookmarkSingle](/help/assets/icons/BookmarkSingle.svg)
 
-## 書籤單一大綱 {#bookmarksingleoutline}
+## BookmarkSingleOutline {#bookmarksingleoutline} 
 
-![書籤單一大綱](/help/assets/icons/BookmarkSingleOutline.svg)
+![BookmarkSingleOutline](/help/assets/icons/BookmarkSingleOutline.svg)
 
-## 小書籤 {#bookmarksmall}
+## BookmarkSmall {#bookmarksmall} 
 
-![小書籤](/help/assets/icons/BookmarkSmall.svg)
+![BookmarkSmall](/help/assets/icons/BookmarkSmall.svg)
 
-## 書籤小型大綱 {#bookmarksmalloutline}
+## BookmarkSmallOutline {#bookmarksmalloutline} 
 
-![書籤小型大綱](/help/assets/icons/BookmarkSmallOutline.svg)
+![BookmarkSmallOutline](/help/assets/icons/BookmarkSmallOutline.svg)
 
-## 布林值 {#boolean}
+## Boolean {#boolean} 
 
-![布林值](/help/assets/icons/Boolean.svg)
+![Boolean](/help/assets/icons/Boolean.svg)
 
-## 邊框 {#border}
+## Border {#border} 
 
-![邊框](/help/assets/icons/Border.svg)
+![Border](/help/assets/icons/Border.svg)
 
-## 方塊 {#box}
+## Box {#box} 
 
-![方塊](/help/assets/icons/Box.svg)
+![Box](/help/assets/icons/Box.svg)
 
-## BoxAdd {#boxadd}
+## BoxAdd {#boxadd} 
 
 ![BoxAdd](/help/assets/icons/BoxAdd.svg)
 
-## BoxExport {#boxexport}
+## BoxExport {#boxexport} 
 
 ![BoxExport](/help/assets/icons/BoxExport.svg)
 
-## BoxImport {#boximport}
+## BoxImport {#boximport} 
 
 ![BoxImport](/help/assets/icons/BoxImport.svg)
 
-## 括弧 {#bracket}
+## Bracket {#bracket} 
 
-![支架](/help/assets/icons/Bracket.svg)
+![Bracket](/help/assets/icons/Bracket.svg)
 
-## 方括弧 {#bracketssquare}
+## BracketsSquare {#bracketssquare} 
 
-![方括弧](/help/assets/icons/BracketsSquare.svg)
+![BracketsSquare](/help/assets/icons/BracketsSquare.svg)
 
-## Branch1 {#branch1}
+## Branch1 {#branch1} 
 
-![分支1](/help/assets/icons/Branch1.svg)
+![Branch1](/help/assets/icons/Branch1.svg)
 
-## Branch2 {#branch2}
+## Branch2 {#branch2} 
 
-![分支2](/help/assets/icons/Branch2.svg)
+![Branch2](/help/assets/icons/Branch2.svg)
 
-## Branch3 {#branch3}
+## Branch3 {#branch3} 
 
-![分支3](/help/assets/icons/Branch3.svg)
+![Branch3](/help/assets/icons/Branch3.svg)
 
-## 分支圓 {#branchcircle}
+## BranchCircle {#branchcircle} 
 
 ![BranchCircle](/help/assets/icons/BranchCircle.svg)
 
-## 階層連結導覽 {#breadcrumbnavigation}
+## BreadcrumbNavigation {#breadcrumbnavigation} 
 
-![階層連結導覽](/help/assets/icons/BreadcrumbNavigation.svg)
+![BreadcrumbNavigation](/help/assets/icons/BreadcrumbNavigation.svg)
 
-## 劃分 {#breakdown}
+## Breakdown {#breakdown} 
 
-![劃分](/help/assets/icons/Breakdown.svg)
+![Breakdown](/help/assets/icons/Breakdown.svg)
 
-## 劃分新增 {#breakdownadd}
+## BreakdownAdd {#breakdownadd} 
 
 ![BreakdownAdd](/help/assets/icons/BreakdownAdd.svg)
 
-## 公事包 {#briefcase}
+## Briefcase {#briefcase} 
 
-![公事包](/help/assets/icons/Briefcase.svg)
+![Briefcase](/help/assets/icons/Briefcase.svg)
 
-## 瀏覽 {#browse}
+## Browse {#browse} 
 
-![瀏覽](/help/assets/icons/Browse.svg)
+![Browse](/help/assets/icons/Browse.svg)
 
-## 筆刷 {#brush}
+## Brush {#brush} 
 
-![筆刷](/help/assets/icons/Brush.svg)
+![Brush](/help/assets/icons/Brush.svg)
 
-## 錯誤 {#bug}
+## Bug {#bug} 
 
-![錯誤](/help/assets/icons/Bug.svg)
+![Bug](/help/assets/icons/Bug.svg)
 
-## 建置 {#building}
+## Building {#building} 
 
-![正在建置](/help/assets/icons/Building.svg)
+![Building](/help/assets/icons/Building.svg)
 
-## BulkEditUser {#bulkedituser}
+## BulkEditUser {#bulkedituser} 
 
 ![BulkEditUser](/help/assets/icons/BulkEditUser.svg)
 
-## 按鈕 {#button}
+## Button {#button} 
 
-![按鈕](/help/assets/icons/Button.svg)
+![Button](/help/assets/icons/Button.svg)
 
-## CCLibrary {#cclibrary}
+## CCLibrary {#cclibrary} 
 
 ![CCLibrary](/help/assets/icons/CCLibrary.svg)
 
-## 電腦 {#calculator}
+## Calculator {#calculator} 
 
-![電腦](/help/assets/icons/Calculator.svg)
+![Calculator](/help/assets/icons/Calculator.svg)
 
-## 行事曆 {#calendar}
+## Calendar {#calendar} 
 
-![行事曆](/help/assets/icons/Calendar.svg)
+![Calendar](/help/assets/icons/Calendar.svg)
 
-## 行事曆新增 {#calendaradd}
+## CalendarAdd {#calendaradd} 
 
-![行事曆新增](/help/assets/icons/CalendarAdd.svg)
+![CalendarAdd](/help/assets/icons/CalendarAdd.svg)
 
-## 行事曆已鎖定 {#calendarlocked}
+## CalendarLocked {#calendarlocked} 
 
-![行事曆已鎖定](/help/assets/icons/CalendarLocked.svg)
+![CalendarLocked](/help/assets/icons/CalendarLocked.svg)
 
-## 行事曆已解鎖 {#calendarunlocked}
+## CalendarUnlocked {#calendarunlocked} 
 
-![行事曆已解除鎖定](/help/assets/icons/CalendarUnlocked.svg)
+![CalendarUnlocked](/help/assets/icons/CalendarUnlocked.svg)
 
-## 呼叫中心 {#callcenter}
+## CallCenter {#callcenter} 
 
-![客服中心](/help/assets/icons/CallCenter.svg)
+![CallCenter](/help/assets/icons/CallCenter.svg)
 
-## 相機 {#camera}
+## Camera {#camera} 
 
-![攝影機](/help/assets/icons/Camera.svg)
+![Camera](/help/assets/icons/Camera.svg)
 
-## 相機翻轉 {#cameraflip}
+## CameraFlip {#cameraflip} 
 
-![相機翻轉](/help/assets/icons/CameraFlip.svg)
+![CameraFlip](/help/assets/icons/CameraFlip.svg)
 
-## CameraRefresh {#camerarefresh}
+## CameraRefresh {#camerarefresh} 
 
-![相機重新整理](/help/assets/icons/CameraRefresh.svg)
+![CameraRefresh](/help/assets/icons/CameraRefresh.svg)
 
-## Campaign {#campaign}
+## Campaign {#campaign} 
 
 ![Campaign](/help/assets/icons/Campaign.svg)
 
-## CampaignAdd {#campaignadd}
+## CampaignAdd {#campaignadd} 
 
 ![CampaignAdd](/help/assets/icons/CampaignAdd.svg)
 
-## CampaignClose {#campaignclose}
+## CampaignClose {#campaignclose} 
 
-![促銷活動關閉](/help/assets/icons/CampaignClose.svg)
+![CampaignClose](/help/assets/icons/CampaignClose.svg)
 
-## CampaignDelete {#campaigndelete}
+## CampaignDelete {#campaigndelete} 
 
 ![CampaignDelete](/help/assets/icons/CampaignDelete.svg)
 
-## CampaignEdit {#campaignedit}
+## CampaignEdit {#campaignedit} 
 
 ![CampaignEdit](/help/assets/icons/CampaignEdit.svg)
 
-## 取消 {#cancel}
+## Cancel {#cancel} 
 
-![取消](/help/assets/icons/Cancel.svg)
+![Cancel](/help/assets/icons/Cancel.svg)
 
-## 資本 {#capital}
+## Capital {#capital} 
 
-![資本](/help/assets/icons/Capital.svg)
+![Capital](/help/assets/icons/Capital.svg)
 
-## 驗證碼 {#captcha}
+## Captcha {#captcha} 
 
-![驗證碼](/help/assets/icons/Captcha.svg)
+![Captcha](/help/assets/icons/Captcha.svg)
 
-## 汽車 {#car}
+## Car {#car} 
 
-![車](/help/assets/icons/Car.svg)
+![Car](/help/assets/icons/Car.svg)
 
-## 卡片 {#card}
+## Card {#card} 
 
-![卡片](/help/assets/icons/Card.svg)
+![Card](/help/assets/icons/Card.svg)
 
-## Channel {#channel}
+## Channel {#channel} 
 
-![頻道](/help/assets/icons/Channel.svg)
+![Channel](/help/assets/icons/Channel.svg)
 
-## 聊天 {#chat}
+## Chat {#chat} 
 
-![聊天](/help/assets/icons/Chat.svg)
+![Chat](/help/assets/icons/Chat.svg)
 
-## ChatAdd {#chatadd}
+## ChatAdd {#chatadd} 
 
-![聊天新增](/help/assets/icons/ChatAdd.svg)
+![ChatAdd](/help/assets/icons/ChatAdd.svg)
 
-## CheckPause {#checkpause}
+## CheckPause {#checkpause} 
 
 ![CheckPause](/help/assets/icons/CheckPause.svg)
 
-## 核取記號 {#checkmark}
+## Checkmark {#checkmark} 
 
-![核取記號](/help/assets/icons/Checkmark.svg)
+![Checkmark](/help/assets/icons/Checkmark.svg)
 
-## 核取記號圓形 {#checkmarkcircle}
+## CheckmarkCircle {#checkmarkcircle} 
 
-![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg)
+![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)
 
-## 核取記號圓形大綱 {#checkmarkcircleoutline}
+## CheckmarkCircleOutline {#checkmarkcircleoutline} 
 
-![核取記號CircleOutline](/help/assets/icons/CheckmarkCircleOutline.svg)
+![CheckmarkCircleOutline](/help/assets/icons/CheckmarkCircleOutline.svg)
 
-## V形雙左對齊 {#chevrondoubleleft}
+## ChevronDoubleLeft {#chevrondoubleleft} 
 
-![V形DoubleLeft](/help/assets/icons/ChevronDoubleLeft.svg)
+![ChevronDoubleLeft](/help/assets/icons/ChevronDoubleLeft.svg)
 
-## ChevronDoubleRight {#chevrondoubleright}
+## ChevronDoubleRight {#chevrondoubleright} 
 
-![V形DoubleRight](/help/assets/icons/ChevronDoubleRight.svg)
+![ChevronDoubleRight](/help/assets/icons/ChevronDoubleRight.svg)
 
-## V形向下 {#chevrondown}
+## ChevronDown {#chevrondown} 
 
-![V形箭號向下](/help/assets/icons/ChevronDown.svg)
+![ChevronDown](/help/assets/icons/ChevronDown.svg)
 
-## 左側V形 {#chevronleft}
+## ChevronLeft {#chevronleft} 
 
-![左側V形](/help/assets/icons/ChevronLeft.svg)
+![ChevronLeft](/help/assets/icons/ChevronLeft.svg)
 
-## V形向右 {#chevronright}
+## ChevronRight {#chevronright} 
 
-![右V形](/help/assets/icons/ChevronRight.svg)
+![ChevronRight](/help/assets/icons/ChevronRight.svg)
 
-## V形向上 {#chevronup}
+## ChevronUp {#chevronup} 
 
-![V形向上](/help/assets/icons/ChevronUp.svg)
+![ChevronUp](/help/assets/icons/ChevronUp.svg)
 
-## V形上下 {#chevronupdown}
+## ChevronUpDown {#chevronupdown} 
 
-![V形向上](/help/assets/icons/ChevronUpDown.svg)
+![ChevronUpDown](/help/assets/icons/ChevronUpDown.svg)
 
-## 圓形 {#circle}
+## Circle {#circle} 
 
-![圓](/help/assets/icons/Circle.svg)
+![Circle](/help/assets/icons/Circle.svg)
 
-## 傳統格線檢視 {#classicgridview}
+## ClassicGridView {#classicgridview} 
 
-![傳統格線檢視](/help/assets/icons/ClassicGridView.svg)
+![ClassicGridView](/help/assets/icons/ClassicGridView.svg)
 
-## 時鐘 {#clock}
+## Clock {#clock} 
 
-![時鐘](/help/assets/icons/Clock.svg)
+![Clock](/help/assets/icons/Clock.svg)
 
-## ClockCheck {#clockcheck}
+## ClockCheck {#clockcheck} 
 
-![時鐘檢查](/help/assets/icons/ClockCheck.svg)
+![ClockCheck](/help/assets/icons/ClockCheck.svg)
 
-## 仿製印章 {#clonestamp}
+## CloneStamp {#clonestamp} 
 
 ![CloneStamp](/help/assets/icons/CloneStamp.svg)
 
-## 關閉 {#close}
+## Close {#close} 
 
-![關閉](/help/assets/icons/Close.svg)
+![Close](/help/assets/icons/Close.svg)
 
-## CloseCaption {#closecaption}
+## CloseCaption {#closecaption} 
 
 ![CloseCaption](/help/assets/icons/CloseCaption.svg)
 
-## 封閉圓形 {#closecircle}
+## CloseCircle {#closecircle} 
 
-![CloseCycle](/help/assets/icons/CloseCircle.svg)
+![CloseCircle](/help/assets/icons/CloseCircle.svg)
 
-## 雲端 {#cloud}
+## Cloud {#cloud} 
 
-![雲端](/help/assets/icons/Cloud.svg)
+![Cloud](/help/assets/icons/Cloud.svg)
 
-## 雲端已中斷連線 {#clouddisconnected}
+## CloudDisconnected {#clouddisconnected} 
 
 ![CloudDisconnected](/help/assets/icons/CloudDisconnected.svg)
 
-## CloudError {#clouderror}
+## CloudError {#clouderror} 
 
-![雲端錯誤](/help/assets/icons/CloudError.svg)
+![CloudError](/help/assets/icons/CloudError.svg)
 
-## 雲端大綱 {#cloudoutline}
+## CloudOutline {#cloudoutline} 
 
-![雲端大綱](/help/assets/icons/CloudOutline.svg)
+![CloudOutline](/help/assets/icons/CloudOutline.svg)
 
-## 程式碼 {#code}
+## Code {#code} 
 
-![代碼](/help/assets/icons/Code.svg)
+![Code](/help/assets/icons/Code.svg)
 
-## 集合 {#collection}
+## Collection {#collection} 
 
-![集合](/help/assets/icons/Collection.svg)
+![Collection](/help/assets/icons/Collection.svg)
 
-## CollectionAdd {#collectionadd}
+## CollectionAdd {#collectionadd} 
 
 ![CollectionAdd](/help/assets/icons/CollectionAdd.svg)
 
-## CollectionAddTo {#collectionaddto}
+## CollectionAddTo {#collectionaddto} 
 
 ![CollectionAddTo](/help/assets/icons/CollectionAddTo.svg)
 
-## CollectionCheck {#collectioncheck}
+## CollectionCheck {#collectioncheck} 
 
 ![CollectionCheck](/help/assets/icons/CollectionCheck.svg)
 
-## CollectionEdit {#collectionedit}
+## CollectionEdit {#collectionedit} 
 
-![集合編輯](/help/assets/icons/CollectionEdit.svg)
+![CollectionEdit](/help/assets/icons/CollectionEdit.svg)
 
-## CollectionExclude {#collectionexclude}
+## CollectionExclude {#collectionexclude} 
 
 ![CollectionExclude](/help/assets/icons/CollectionExclude.svg)
 
-## CollectionLink {#collectionlink}
+## CollectionLink {#collectionlink} 
 
 ![CollectionLink](/help/assets/icons/CollectionLink.svg)
 
-## ColorFill {#colorfill}
+## ColorFill {#colorfill} 
 
 ![ColorFill](/help/assets/icons/ColorFill.svg)
 
-## 調色盤 {#colorpalette}
+## ColorPalette {#colorpalette} 
 
-![調色盤](/help/assets/icons/ColorPalette.svg)
+![ColorPalette](/help/assets/icons/ColorPalette.svg)
 
-## ColorWheel {#colorwheel}
+## ColorWheel {#colorwheel} 
 
 ![ColorWheel](/help/assets/icons/ColorWheel.svg)
 
-## 欄設定 {#columnsetting}
+## ColumnSetting {#columnsetting} 
 
-![資料行設定](/help/assets/icons/ColumnSetting.svg)
+![ColumnSetting](/help/assets/icons/ColumnSetting.svg)
 
-## ColumnTwoA {#columntwoa}
+## ColumnTwoA {#columntwoa} 
 
 ![ColumnTwoA](/help/assets/icons/ColumnTwoA.svg)
 
-## ColumnTwB {#columntwob}
+## ColumnTwoB {#columntwob} 
 
 ![ColumnTwoB](/help/assets/icons/ColumnTwoB.svg)
 
-## ColumnTwoC {#columntwoc}
+## ColumnTwoC {#columntwoc} 
 
 ![ColumnTwoC](/help/assets/icons/ColumnTwoC.svg)
 
-## 註解 {#comment}
+## Comment {#comment} 
 
-![註解](/help/assets/icons/Comment.svg)
+![Comment](/help/assets/icons/Comment.svg)
 
-## 比較 {#compare}
+## Compare {#compare} 
 
-![比較](/help/assets/icons/Compare.svg)
+![Compare](/help/assets/icons/Compare.svg)
 
-## 康帕 {#compas}
+## Compas {#compas} 
 
-![元件](/help/assets/icons/Compas.svg)
+![Compas](/help/assets/icons/Compas.svg)
 
-## 條件 {#condition}
+## Condition {#condition} 
 
-![條件](/help/assets/icons/Condition.svg)
+![Condition](/help/assets/icons/Condition.svg)
 
-## ConfidenceFour {#confidencefour}
+## ConfidenceFour {#confidencefour} 
 
-![信賴度Four](/help/assets/icons/ConfidenceFour.svg)
+![ConfidenceFour](/help/assets/icons/ConfidenceFour.svg)
 
-## ConfidenceOne {#confidenceone}
+## ConfidenceOne {#confidenceone} 
 
 ![ConfidenceOne](/help/assets/icons/ConfidenceOne.svg)
 
-## 信賴度3 {#confidencethree}
+## ConfidenceThree {#confidencethree} 
 
-![信賴度Three](/help/assets/icons/ConfidenceThree.svg)
+![ConfidenceThree](/help/assets/icons/ConfidenceThree.svg)
 
-## ConfidenceTwo {#confidencetwo}
+## ConfidenceTwo {#confidencetwo} 
 
 ![ConfidenceTwo](/help/assets/icons/ConfidenceTwo.svg)
 
-## 對比 {#contrast}
+## Contrast {#contrast} 
 
-![對比](/help/assets/icons/Contrast.svg)
+![Contrast](/help/assets/icons/Contrast.svg)
 
-## 轉換漏斗 {#conversionfunnel}
+## ConversionFunnel {#conversionfunnel} 
 
-![轉換漏斗](/help/assets/icons/ConversionFunnel.svg)
+![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg)
 
-## 複製 {#copy}
+## Copy {#copy} 
 
-![副本](/help/assets/icons/Copy.svg)
+![Copy](/help/assets/icons/Copy.svg)
 
-## 封面影像 {#coverimage}
+## CoverImage {#coverimage} 
 
-![封面影像](/help/assets/icons/CoverImage.svg)
+![CoverImage](/help/assets/icons/CoverImage.svg)
 
-## 信用卡 {#creditcard}
+## CreditCard {#creditcard} 
 
-![信用卡](/help/assets/icons/CreditCard.svg)
+![CreditCard](/help/assets/icons/CreditCard.svg)
 
-## 裁切 {#crop}
+## Crop {#crop} 
 
-![裁切](/help/assets/icons/Crop.svg)
+![Crop](/help/assets/icons/Crop.svg)
 
-## CropLightning {#croplightning}
+## CropLightning {#croplightning} 
 
-![裁切閃電](/help/assets/icons/CropLightning.svg)
+![CropLightning](/help/assets/icons/CropLightning.svg)
 
-## 裁切旋轉 {#croprotate}
+## CropRotate {#croprotate} 
 
-![裁切旋轉](/help/assets/icons/CropRotate.svg)
+![CropRotate](/help/assets/icons/CropRotate.svg)
 
-## 十字線 {#crosshair}
+## Crosshair {#crosshair} 
 
-![十字線](/help/assets/icons/Crosshair.svg)
+![Crosshair](/help/assets/icons/Crosshair.svg)
 
-## 組織 {#curate}
+## Curate {#curate} 
 
-![組織](/help/assets/icons/Curate.svg)
+![Curate](/help/assets/icons/Curate.svg)
 
-## 剪下 {#cut}
+## Cut {#cut} 
 
-![剪下](/help/assets/icons/Cut.svg)
+![Cut](/help/assets/icons/Cut.svg)
 
-## 控制面板 {#dashboard}
+## Dashboard {#dashboard} 
 
-![儀表板](/help/assets/icons/Dashboard.svg)
+![Dashboard](/help/assets/icons/Dashboard.svg)
 
-## 資料 {#data}
+## Data {#data} 
 
-![資料](/help/assets/icons/Data.svg)
+![Data](/help/assets/icons/Data.svg)
 
-## DataAdd {#dataadd}
+## DataAdd {#dataadd} 
 
-![資料新增](/help/assets/icons/DataAdd.svg)
+![DataAdd](/help/assets/icons/DataAdd.svg)
 
-## 資料簿 {#databook}
+## DataBook {#databook} 
 
-![資料簿](/help/assets/icons/DataBook.svg)
+![DataBook](/help/assets/icons/DataBook.svg)
 
-## 資料檢查 {#datacheck}
+## DataCheck {#datacheck} 
 
-![資料檢查](/help/assets/icons/DataCheck.svg)
+![DataCheck](/help/assets/icons/DataCheck.svg)
 
-## DataRelated {#datacorrelated}
+## DataCorrelated {#datacorrelated} 
 
-![資料相關](/help/assets/icons/DataCorrelated.svg)
+![DataCorrelated](/help/assets/icons/DataCorrelated.svg)
 
-## 資料下載 {#datadownload}
+## DataDownload {#datadownload} 
 
-![資料下載](/help/assets/icons/DataDownload.svg)
+![DataDownload](/help/assets/icons/DataDownload.svg)
 
-## DataEdit {#dataedit}
+## DataEdit {#dataedit} 
 
-![資料編輯](/help/assets/icons/DataEdit.svg)
+![DataEdit](/help/assets/icons/DataEdit.svg)
 
-## 資料對應 {#datamapping}
+## DataMapping {#datamapping} 
 
-![資料對應](/help/assets/icons/DataMapping.svg)
+![DataMapping](/help/assets/icons/DataMapping.svg)
 
-## DataRefresh {#datarefresh}
+## DataRefresh {#datarefresh} 
 
-![資料重新整理](/help/assets/icons/DataRefresh.svg)
+![DataRefresh](/help/assets/icons/DataRefresh.svg)
 
-## DataRemove {#dataremove}
+## DataRemove {#dataremove} 
 
-![資料移除](/help/assets/icons/DataRemove.svg)
+![DataRemove](/help/assets/icons/DataRemove.svg)
 
-## 資料設定 {#datasetting}
+## DataSetting {#datasetting} 
 
-![資料設定](/help/assets/icons/DataSetting.svg)
+![DataSetting](/help/assets/icons/DataSetting.svg)
 
-## 資料無法使用 {#dataunavailable}
+## DataUnavailable {#dataunavailable} 
 
-![資料無法使用](/help/assets/icons/DataUnavailable.svg)
+![DataUnavailable](/help/assets/icons/DataUnavailable.svg)
 
-## DataUpload {#dataupload}
+## DataUpload {#dataupload} 
 
-![資料上傳](/help/assets/icons/DataUpload.svg)
+![DataUpload](/help/assets/icons/DataUpload.svg)
 
-## 資料使用者 {#datauser}
+## DataUser {#datauser} 
 
-![資料使用者](/help/assets/icons/DataUser.svg)
+![DataUser](/help/assets/icons/DataUser.svg)
 
-## 日期 {#date}
+## Date {#date} 
 
-![日期](/help/assets/icons/Date.svg)
+![Date](/help/assets/icons/Date.svg)
 
-## 日期輸入 {#dateinput}
+## DateInput {#dateinput} 
 
-![日期輸入](/help/assets/icons/DateInput.svg)
+![DateInput](/help/assets/icons/DateInput.svg)
 
-## 去重複化 {#deduplication}
+## Deduplication {#deduplication} 
 
-![重複資料刪除](/help/assets/icons/Deduplication.svg)
+![Deduplication](/help/assets/icons/Deduplication.svg)
 
-## 委派 {#delegate}
+## Delegate {#delegate} 
 
-![代理人](/help/assets/icons/Delegate.svg)
+![Delegate](/help/assets/icons/Delegate.svg)
 
-## 刪除 {#delete}
+## Delete {#delete} 
 
-![刪除](/help/assets/icons/Delete.svg)
+![Delete](/help/assets/icons/Delete.svg)
 
-## DeleteOutline {#deleteoutline}
+## DeleteOutline {#deleteoutline} 
 
 ![DeleteOutline](/help/assets/icons/DeleteOutline.svg)
 
-## 人口統計 {#demographic}
+## Demographic {#demographic} 
 
-![人口統計](/help/assets/icons/Demographic.svg)
+![Demographic](/help/assets/icons/Demographic.svg)
 
-## 取消選取 {#deselect}
+## Deselect {#deselect} 
 
-![取消選取](/help/assets/icons/Deselect.svg)
+![Deselect](/help/assets/icons/Deselect.svg)
 
-## 取消選取循環 {#deselectcircular}
+## DeselectCircular {#deselectcircular} 
 
-![取消選取循環](/help/assets/icons/DeselectCircular.svg)
+![DeselectCircular](/help/assets/icons/DeselectCircular.svg)
 
-## 案頭與行動 {#desktopandmobile}
+## DesktopAndMobile {#desktopandmobile} 
 
 ![DesktopAndMobile](/help/assets/icons/DesktopAndMobile.svg)
 
-## 裝置 {#device}
+## Device {#device} 
 
-![裝置](/help/assets/icons/Device.svg)
+![Device](/help/assets/icons/Device.svg)
 
-## 裝置案頭 {#devicedesktop}
+## DeviceDesktop {#devicedesktop} 
 
 ![DeviceDesktop](/help/assets/icons/DeviceDesktop.svg)
 
-## 裝置筆記型電腦 {#devicelaptop}
+## DeviceLaptop {#devicelaptop} 
 
-![裝置筆記型電腦](/help/assets/icons/DeviceLaptop.svg)
+![DeviceLaptop](/help/assets/icons/DeviceLaptop.svg)
 
-## 裝置電話 {#devicephone}
+## DevicePhone {#devicephone} 
 
-![裝置電話](/help/assets/icons/DevicePhone.svg)
+![DevicePhone](/help/assets/icons/DevicePhone.svg)
 
-## DevicePhoneRefresh {#devicephonerefresh}
+## DevicePhoneRefresh {#devicephonerefresh} 
 
 ![DevicePhoneRefresh](/help/assets/icons/DevicePhoneRefresh.svg)
 
-## 裝置預覽 {#devicepreview}
+## DevicePreview {#devicepreview} 
 
-![裝置預覽](/help/assets/icons/DevicePreview.svg)
+![DevicePreview](/help/assets/icons/DevicePreview.svg)
 
-## DeviceRotateLanguage {#devicerotatelandscape}
+## DeviceRotateLandscape {#devicerotatelandscape} 
 
-![裝置旋轉橫向](/help/assets/icons/DeviceRotateLandscape.svg)
+![DeviceRotateLandscape](/help/assets/icons/DeviceRotateLandscape.svg)
 
-## DeviceRotatePortrait {#devicerotateportrait}
+## DeviceRotatePortrait {#devicerotateportrait} 
 
 ![DeviceRotatePortrait](/help/assets/icons/DeviceRotatePortrait.svg)
 
-## 裝置電視 {#devicetv}
+## DeviceTV {#devicetv} 
 
-![裝置電視](/help/assets/icons/DeviceTV.svg)
+![DeviceTV](/help/assets/icons/DeviceTV.svg)
 
-## 裝置平板電腦 {#devicetablet}
+## DeviceTablet {#devicetablet} 
 
-![裝置平板電腦](/help/assets/icons/DeviceTablet.svg)
+![DeviceTablet](/help/assets/icons/DeviceTablet.svg)
 
-## 探索 {#discover}
+## Discover {#discover} 
 
-![探索](/help/assets/icons/Discover.svg)
+![Discover](/help/assets/icons/Discover.svg)
 
-## DiscoverOutline {#discoveroutline}
+## DiscoverOutline {#discoveroutline} 
 
-![探索大綱](/help/assets/icons/DiscoverOutline.svg)
+![DiscoverOutline](/help/assets/icons/DiscoverOutline.svg)
 
-## DistributeBottomEdge {#distributebottomedge}
+## DistributeBottomEdge {#distributebottomedge} 
 
 ![DistributeBottomEdge](/help/assets/icons/DistributeBottomEdge.svg)
 
-## 均分水準置中 {#distributehorizontalcenter}
+## DistributeHorizontalCenter {#distributehorizontalcenter} 
 
 ![DistributeHorizontalCenter](/help/assets/icons/DistributeHorizontalCenter.svg)
 
-## 水準均分 {#distributehorizontally}
+## DistributeHorizontally {#distributehorizontally} 
 
-![DistributeHorizontal](/help/assets/icons/DistributeHorizontally.svg)
+![DistributeHorizontally](/help/assets/icons/DistributeHorizontally.svg)
 
-## DistributeLeftEdge {#distributeleftedge}
+## DistributeLeftEdge {#distributeleftedge} 
 
 ![DistributeLeftEdge](/help/assets/icons/DistributeLeftEdge.svg)
 
-## DistributeRightEdge {#distributerightedge}
+## DistributeRightEdge {#distributerightedge} 
 
 ![DistributeRightEdge](/help/assets/icons/DistributeRightEdge.svg)
 
-## DistributeSpaceHoriz {#distributespacehoriz}
+## DistributeSpaceHoriz {#distributespacehoriz} 
 
 ![DistributeSpaceHoriz](/help/assets/icons/DistributeSpaceHoriz.svg)
 
-## DistributeSpaceVert {#distributespacevert}
+## DistributeSpaceVert {#distributespacevert} 
 
 ![DistributeSpaceVert](/help/assets/icons/DistributeSpaceVert.svg)
 
-## DistributeTopEdge {#distributetopedge}
+## DistributeTopEdge {#distributetopedge} 
 
 ![DistributeTopEdge](/help/assets/icons/DistributeTopEdge.svg)
 
-## Distributedverticalcenter {#distributeverticalcenter}
+## DistributeVerticalCenter {#distributeverticalcenter} 
 
 ![DistributeVerticalCenter](/help/assets/icons/DistributeVerticalCenter.svg)
 
-## 垂直散佈 {#distributevertically}
+## DistributeVertically {#distributevertically} 
 
-![垂直分佈](/help/assets/icons/DistributeVertically.svg)
+![DistributeVertically](/help/assets/icons/DistributeVertically.svg)
 
-## 除 {#divide}
+## Divide {#divide} 
 
-![除](/help/assets/icons/Divide.svg)
+![Divide](/help/assets/icons/Divide.svg)
 
-## DividePath {#dividepath}
+## DividePath {#dividepath} 
 
-![分割路徑](/help/assets/icons/DividePath.svg)
+![DividePath](/help/assets/icons/DividePath.svg)
 
-## 文件 {#document}
+## Document {#document} 
 
-![檔案](/help/assets/icons/Document.svg)
+![Document](/help/assets/icons/Document.svg)
 
-## 檔案片段 {#documentfragment}
+## DocumentFragment {#documentfragment} 
 
 ![DocumentFragment](/help/assets/icons/DocumentFragment.svg)
 
-## Documentfragmentgroup {#documentfragmentgroup}
+## DocumentFragmentGroup {#documentfragmentgroup} 
 
 ![DocumentFragmentGroup](/help/assets/icons/DocumentFragmentGroup.svg)
 
-## 檔案大綱 {#documentoutline}
+## DocumentOutline {#documentoutline} 
 
-![檔案大綱](/help/assets/icons/DocumentOutline.svg)
+![DocumentOutline](/help/assets/icons/DocumentOutline.svg)
 
-## 檔案重新整理 {#documentrefresh}
+## DocumentRefresh {#documentrefresh} 
 
 ![DocumentRefresh](/help/assets/icons/DocumentRefresh.svg)
 
-## 推車 {#dolly}
+## Dolly {#dolly} 
 
-![推車](/help/assets/icons/Dolly.svg)
+![Dolly](/help/assets/icons/Dolly.svg)
 
-## 下載 {#download}
+## Download {#download} 
 
-![下載](/help/assets/icons/Download.svg)
+![Download](/help/assets/icons/Download.svg)
 
-## DownloadFromCloud {#downloadfromcloud}
+## DownloadFromCloud {#downloadfromcloud} 
 
 ![DownloadFromCloud](/help/assets/icons/DownloadFromCloud.svg)
 
-## DownloadFromCloudOutline {#downloadfromcloudoutline}
+## DownloadFromCloudOutline {#downloadfromcloudoutline} 
 
 ![DownloadFromCloudOutline](/help/assets/icons/DownloadFromCloudOutline.svg)
 
-## 草稿 {#draft}
+## Draft {#draft} 
 
-![草稿](/help/assets/icons/Draft.svg)
+![Draft](/help/assets/icons/Draft.svg)
 
-## DragHandle {#draghandle}
+## DragHandle {#draghandle} 
 
 ![DragHandle](/help/assets/icons/DragHandle.svg)
 
-## Draw {#draw}
+## Draw {#draw} 
 
-![繪圖](/help/assets/icons/Draw.svg)
+![Draw](/help/assets/icons/Draw.svg)
 
-## 下拉式清單 {#dropdown}
+## Dropdown {#dropdown} 
 
-![下拉式清單](/help/assets/icons/Dropdown.svg)
+![Dropdown](/help/assets/icons/Dropdown.svg)
 
-## 複製 {#duplicate}
+## Duplicate {#duplicate} 
 
-![重複](/help/assets/icons/Duplicate.svg)
+![Duplicate](/help/assets/icons/Duplicate.svg)
 
-## 編輯 {#edit}
+## Edit {#edit} 
 
-![編輯](/help/assets/icons/Edit.svg)
+![Edit](/help/assets/icons/Edit.svg)
 
-## 編輯圓形 {#editcircle}
+## EditCircle {#editcircle} 
 
 ![EditCircle](/help/assets/icons/EditCircle.svg)
 
-## 編輯排除 {#editexclude}
+## EditExclude {#editexclude} 
 
-![編輯排除](/help/assets/icons/EditExclude.svg)
+![EditExclude](/help/assets/icons/EditExclude.svg)
 
-## EditIn {#editin}
+## EditIn {#editin} 
 
-![編輯位置](/help/assets/icons/EditIn.svg)
+![EditIn](/help/assets/icons/EditIn.svg)
 
-## EditInLight {#editinlight}
+## EditInLight {#editinlight} 
 
 ![EditInLight](/help/assets/icons/EditInLight.svg)
 
-## 教育 {#education}
+## Education {#education} 
 
-![教育](/help/assets/icons/Education.svg)
+![Education](/help/assets/icons/Education.svg)
 
-## 效果 {#effect}
+## Effect {#effect} 
 
-![效果](/help/assets/icons/Effect.svg)
+![Effect](/help/assets/icons/Effect.svg)
 
-## 高效率 {#efficient}
+## Efficient {#efficient} 
 
-![有效率](/help/assets/icons/Efficient.svg)
+![Efficient](/help/assets/icons/Efficient.svg)
 
-## 橢圓 {#ellipse}
+## Ellipse {#ellipse} 
 
-![橢圓](/help/assets/icons/Ellipse.svg)
+![Ellipse](/help/assets/icons/Ellipse.svg)
 
-## 電子郵件 {#email}
+## Email {#email} 
 
-![電子郵件](/help/assets/icons/Email.svg)
+![Email](/help/assets/icons/Email.svg)
 
-## 電子郵件取消 {#emailcancel}
+## EmailCancel {#emailcancel} 
 
-![電子郵件取消](/help/assets/icons/EmailCancel.svg)
+![EmailCancel](/help/assets/icons/EmailCancel.svg)
 
-## 電子郵件檢查 {#emailcheck}
+## EmailCheck {#emailcheck} 
 
-![電子郵件檢查](/help/assets/icons/EmailCheck.svg)
+![EmailCheck](/help/assets/icons/EmailCheck.svg)
 
-## 電子郵件排除 {#emailexclude}
+## EmailExclude {#emailexclude} 
 
-![電子郵件排除](/help/assets/icons/EmailExclude.svg)
+![EmailExclude](/help/assets/icons/EmailExclude.svg)
 
-## EmailExcludeOutline {#emailexcludeoutline}
+## EmailExcludeOutline {#emailexcludeoutline} 
 
 ![EmailExcludeOutline](/help/assets/icons/EmailExcludeOutline.svg)
 
-## EmailGear {#emailgear}
+## EmailGear {#emailgear} 
 
-![電子郵件齒輪](/help/assets/icons/EmailGear.svg)
+![EmailGear](/help/assets/icons/EmailGear.svg)
 
-## EmailGearOutline {#emailgearoutline}
+## EmailGearOutline {#emailgearoutline} 
 
 ![EmailGearOutline](/help/assets/icons/EmailGearOutline.svg)
 
-## 電子郵件金鑰 {#emailkey}
+## EmailKey {#emailkey} 
 
-![電子郵件金鑰](/help/assets/icons/EmailKey.svg)
+![EmailKey](/help/assets/icons/EmailKey.svg)
 
-## EmailKeyOutline {#emailkeyoutline}
+## EmailKeyOutline {#emailkeyoutline} 
 
 ![EmailKeyOutline](/help/assets/icons/EmailKeyOutline.svg)
 
-## EmailLightning {#emaillightning}
+## EmailLightning {#emaillightning} 
 
-![電子郵件閃電](/help/assets/icons/EmailLightning.svg)
+![EmailLightning](/help/assets/icons/EmailLightning.svg)
 
-## 電子郵件通知 {#emailnotification}
+## EmailNotification {#emailnotification} 
 
-![電子郵件通知](/help/assets/icons/EmailNotification.svg)
+![EmailNotification](/help/assets/icons/EmailNotification.svg)
 
-## 電子郵件大綱 {#emailoutline}
+## EmailOutline {#emailoutline} 
 
-![電子郵件大綱](/help/assets/icons/EmailOutline.svg)
+![EmailOutline](/help/assets/icons/EmailOutline.svg)
 
-## EmailRefresh {#emailrefresh}
+## EmailRefresh {#emailrefresh} 
 
-![電子郵件重新整理](/help/assets/icons/EmailRefresh.svg)
+![EmailRefresh](/help/assets/icons/EmailRefresh.svg)
 
-## 電子郵件排程 {#emailschedule}
+## EmailSchedule {#emailschedule} 
 
-![電子郵件排程](/help/assets/icons/EmailSchedule.svg)
+![EmailSchedule](/help/assets/icons/EmailSchedule.svg)
 
-## 參與 {#engagement}
+## Engagement {#engagement} 
 
-![參與](/help/assets/icons/Engagement.svg)
+![Engagement](/help/assets/icons/Engagement.svg)
 
-## 企業 {#enterprise}
+## Enterprise {#enterprise} 
 
-![企業](/help/assets/icons/Enterprise.svg)
+![Enterprise](/help/assets/icons/Enterprise.svg)
 
-## 擦除 {#erase}
+## Erase {#erase} 
 
-![清除](/help/assets/icons/Erase.svg)
+![Erase](/help/assets/icons/Erase.svg)
 
-## 活動 {#events}
+## Events {#events} 
 
-![事件](/help/assets/icons/Events.svg)
+![Events](/help/assets/icons/Events.svg)
 
-## 活動 {#event}
+## Event {#event} 
 
-![活動](/help/assets/icons/Event.svg)
+![Event](/help/assets/icons/Event.svg)
 
-## 事件排除 {#eventexclude}
+## EventExclude {#eventexclude} 
 
 ![EventExclude](/help/assets/icons/EventExclude.svg)
 
-## 事件共用 {#eventshare}
+## EventShare {#eventshare} 
 
-![事件共用](/help/assets/icons/EventShare.svg)
+![EventShare](/help/assets/icons/EventShare.svg)
 
-## 排除重疊 {#excludeoverlap}
+## ExcludeOverlap {#excludeoverlap} 
 
 ![ExcludeOverlap](/help/assets/icons/ExcludeOverlap.svg)
 
-## 體驗 {#experience}
+## Experience {#experience} 
 
-![體驗](/help/assets/icons/Experience.svg)
+![Experience](/help/assets/icons/Experience.svg)
 
-## ExperienceAdd {#experienceadd}
+## ExperienceAdd {#experienceadd} 
 
-![體驗新增](/help/assets/icons/ExperienceAdd.svg)
+![ExperienceAdd](/help/assets/icons/ExperienceAdd.svg)
 
-## ExperienceAddTo {#experienceaddto}
+## ExperienceAddTo {#experienceaddto} 
 
 ![ExperienceAddTo](/help/assets/icons/ExperienceAddTo.svg)
 
-## ExperienceExport {#experienceexport}
+## ExperienceExport {#experienceexport} 
 
-![體驗匯出](/help/assets/icons/ExperienceExport.svg)
+![ExperienceExport](/help/assets/icons/ExperienceExport.svg)
 
-## ExperienceImport {#experienceimport}
+## ExperienceImport {#experienceimport} 
 
-![體驗匯入](/help/assets/icons/ExperienceImport.svg)
+![ExperienceImport](/help/assets/icons/ExperienceImport.svg)
 
-## 匯出 {#export}
+## Export {#export} 
 
-![轉存](/help/assets/icons/Export.svg)
+![Export](/help/assets/icons/Export.svg)
 
-## ExportOriginal {#exportoriginal}
+## ExportOriginal {#exportoriginal} 
 
 ![ExportOriginal](/help/assets/icons/ExportOriginal.svg)
 
-## 曝光 {#exposure}
+## Exposure {#exposure} 
 
-![曝光](/help/assets/icons/Exposure.svg)
+![Exposure](/help/assets/icons/Exposure.svg)
 
-## 擴充功能 {#extension}
+## Extension {#extension} 
 
-![副檔名](/help/assets/icons/Extension.svg)
+![Extension](/help/assets/icons/Extension.svg)
 
-## 快速 {#fast}
+## Fast {#fast} 
 
-![快速](/help/assets/icons/Fast.svg)
+![Fast](/help/assets/icons/Fast.svg)
 
-## 快進 {#fastforward}
+## FastForward {#fastforward} 
 
-![快轉](/help/assets/icons/FastForward.svg)
+![FastForward](/help/assets/icons/FastForward.svg)
 
-## 快進圈 {#fastforwardcircle}
+## FastForwardCircle {#fastforwardcircle} 
 
-![快轉圈](/help/assets/icons/FastForwardCircle.svg)
+![FastForwardCircle](/help/assets/icons/FastForwardCircle.svg)
 
-## 功能 {#feature}
+## Feature {#feature} 
 
-![功能](/help/assets/icons/Feature.svg)
+![Feature](/help/assets/icons/Feature.svg)
 
-## 資訊源 {#feed}
+## Feed {#feed} 
 
-![資訊源](/help/assets/icons/Feed.svg)
+![Feed](/help/assets/icons/Feed.svg)
 
-## 摘要新增 {#feedadd}
+## FeedAdd {#feedadd} 
 
-![摘要新增](/help/assets/icons/FeedAdd.svg)
+![FeedAdd](/help/assets/icons/FeedAdd.svg)
 
-## 摘要管理 {#feedmanagement}
+## FeedManagement {#feedmanagement} 
 
-![摘要管理](/help/assets/icons/FeedManagement.svg)
+![FeedManagement](/help/assets/icons/FeedManagement.svg)
 
-## 意見反應 {#feedback}
+## Feedback {#feedback} 
 
-![意見反應](/help/assets/icons/Feedback.svg)
+![Feedback](/help/assets/icons/Feedback.svg)
 
-## 檔案新增 {#fileadd}
+## FileAdd {#fileadd} 
 
-![檔案新增](/help/assets/icons/FileAdd.svg)
+![FileAdd](/help/assets/icons/FileAdd.svg)
 
-## 檔案CSV {#filecsv}
+## FileCSV {#filecsv} 
 
-![檔案CSV](/help/assets/icons/FileCSV.svg)
+![FileCSV](/help/assets/icons/FileCSV.svg)
 
-## 檔案促銷活動 {#filecampaign}
+## FileCampaign {#filecampaign} 
 
-![檔案行銷活動](/help/assets/icons/FileCampaign.svg)
+![FileCampaign](/help/assets/icons/FileCampaign.svg)
 
-## 檔案圖表 {#filechart}
+## FileChart {#filechart} 
 
-![檔案圖表](/help/assets/icons/FileChart.svg)
+![FileChart](/help/assets/icons/FileChart.svg)
 
-## 檔案已簽出 {#filecheckedout}
+## FileCheckedOut {#filecheckedout} 
 
-![FileCheckout](/help/assets/icons/FileCheckedOut.svg)
+![FileCheckedOut](/help/assets/icons/FileCheckedOut.svg)
 
-## 檔案代碼 {#filecode}
+## FileCode {#filecode} 
 
-![檔案代碼](/help/assets/icons/FileCode.svg)
+![FileCode](/help/assets/icons/FileCode.svg)
 
-## 檔案資料 {#filedata}
+## FileData {#filedata} 
 
-![檔案資料](/help/assets/icons/FileData.svg)
+![FileData](/help/assets/icons/FileData.svg)
 
-## 檔案電子郵件 {#fileemail}
+## FileEmail {#fileemail} 
 
-![檔案電子郵件](/help/assets/icons/FileEmail.svg)
+![FileEmail](/help/assets/icons/FileEmail.svg)
 
-## 檔案資料夾 {#filefolder}
+## FileFolder {#filefolder} 
 
-![檔案資料夾](/help/assets/icons/FileFolder.svg)
+![FileFolder](/help/assets/icons/FileFolder.svg)
 
-## FileGear {#filegear}
+## FileGear {#filegear} 
 
 ![FileGear](/help/assets/icons/FileGear.svg)
 
-## 檔案全域 {#fileglobe}
+## FileGlobe {#fileglobe} 
 
 ![FileGlobe](/help/assets/icons/FileGlobe.svg)
 
-## 檔案HTML {#filehtml}
+## FileHTML {#filehtml} 
 
 ![FileHTML](/help/assets/icons/FileHTML.svg)
 
-## 檔案重要 {#fileimportant}
+## FileImportant {#fileimportant} 
 
-![檔案重要](/help/assets/icons/FileImportant.svg)
+![FileImportant](/help/assets/icons/FileImportant.svg)
 
-## FileJson {#filejson}
+## FileJson {#filejson} 
 
 ![FileJson](/help/assets/icons/FileJson.svg)
 
-## FileKey {#filekey}
+## FileKey {#filekey} 
 
 ![FileKey](/help/assets/icons/FileKey.svg)
 
-## FileMobile {#filemobile}
+## FileMobile {#filemobile} 
 
 ![FileMobile](/help/assets/icons/FileMobile.svg)
 
-## 檔案共用 {#fileshare}
+## FileShare {#fileshare} 
 
-![檔案共用](/help/assets/icons/FileShare.svg)
+![FileShare](/help/assets/icons/FileShare.svg)
 
-## FileSingleWebpage {#filesinglewebpage}
+## FileSingleWebPage {#filesinglewebpage} 
 
 ![FileSingleWebPage](/help/assets/icons/FileSingleWebPage.svg)
 
-## 檔案空間 {#filespace}
+## FileSpace {#filespace} 
 
-![檔案空間](/help/assets/icons/FileSpace.svg)
+![FileSpace](/help/assets/icons/FileSpace.svg)
 
-## 檔案範本 {#filetemplate}
+## FileTemplate {#filetemplate} 
 
 ![FileTemplate](/help/assets/icons/FileTemplate.svg)
 
-## FileTxt {#filetxt}
+## FileTxt {#filetxt} 
 
 ![FileTxt](/help/assets/icons/FileTxt.svg)
 
-## 檔案使用者 {#fileuser}
+## FileUser {#fileuser} 
 
-![檔案使用者](/help/assets/icons/FileUser.svg)
+![FileUser](/help/assets/icons/FileUser.svg)
 
-## 檔案工作流程 {#fileworkflow}
+## FileWorkflow {#fileworkflow} 
 
-![檔案工作流程](/help/assets/icons/FileWorkflow.svg)
+![FileWorkflow](/help/assets/icons/FileWorkflow.svg)
 
-## FileXML {#filexml}
+## FileXML {#filexml} 
 
-![檔案XML](/help/assets/icons/FileXML.svg)
+![FileXML](/help/assets/icons/FileXML.svg)
 
-## FileZip {#filezip}
+## FileZip {#filezip} 
 
 ![FileZip](/help/assets/icons/FileZip.svg)
 
-## 檔案櫃 {#filingcabinet}
+## FilingCabinet {#filingcabinet} 
 
-![檔案櫃](/help/assets/icons/FilingCabinet.svg)
+![FilingCabinet](/help/assets/icons/FilingCabinet.svg)
 
-## 影片膠捲 {#filmroll}
+## Filmroll {#filmroll} 
 
 ![Filmroll](/help/assets/icons/Filmroll.svg)
 
-## FilmrollAutoAdd {#filmrollautoadd}
+## FilmrollAutoAdd {#filmrollautoadd} 
 
 ![FilmrollAutoAdd](/help/assets/icons/FilmrollAutoAdd.svg)
 
-## 篩選 {#filter}
+## Filter {#filter} 
 
-![篩選](/help/assets/icons/Filter.svg)
+![Filter](/help/assets/icons/Filter.svg)
 
-## 篩選新增 {#filteradd}
+## FilterAdd {#filteradd} 
 
-![篩選新增](/help/assets/icons/FilterAdd.svg)
+![FilterAdd](/help/assets/icons/FilterAdd.svg)
 
-## 篩選檢查 {#filtercheck}
+## FilterCheck {#filtercheck} 
 
-![篩選檢查](/help/assets/icons/FilterCheck.svg)
+![FilterCheck](/help/assets/icons/FilterCheck.svg)
 
-## 篩選刪除 {#filterdelete}
+## FilterDelete {#filterdelete} 
 
-![篩選刪除](/help/assets/icons/FilterDelete.svg)
+![FilterDelete](/help/assets/icons/FilterDelete.svg)
 
-## 篩選編輯 {#filteredit}
+## FilterEdit {#filteredit} 
 
-![篩選編輯](/help/assets/icons/FilterEdit.svg)
+![FilterEdit](/help/assets/icons/FilterEdit.svg)
 
-## 篩選心率 {#filterheart}
+## FilterHeart {#filterheart} 
 
 ![FilterHeart](/help/assets/icons/FilterHeart.svg)
 
-## 篩選移除 {#filterremove}
+## FilterRemove {#filterremove} 
 
-![篩選移除](/help/assets/icons/FilterRemove.svg)
+![FilterRemove](/help/assets/icons/FilterRemove.svg)
 
-## 篩選星號 {#filterstar}
+## FilterStar {#filterstar} 
 
-![篩選星號](/help/assets/icons/FilterStar.svg)
+![FilterStar](/help/assets/icons/FilterStar.svg)
 
-## FindAndReplace {#findandreplace}
+## FindAndReplace {#findandreplace} 
 
 ![FindAndReplace](/help/assets/icons/FindAndReplace.svg)
 
-## 標幟 {#flag}
+## Flag {#flag} 
 
-![旗標](/help/assets/icons/Flag.svg)
+![Flag](/help/assets/icons/Flag.svg)
 
-## FlagExclude {#flagexclude}
+## FlagExclude {#flagexclude} 
 
-![旗標排除](/help/assets/icons/FlagExclude.svg)
+![FlagExclude](/help/assets/icons/FlagExclude.svg)
 
-## FlashAuto {#flashauto}
+## FlashAuto {#flashauto} 
 
 ![FlashAuto](/help/assets/icons/FlashAuto.svg)
 
-## 閃光燈關閉 {#flashoff}
+## FlashOff {#flashoff} 
 
-![閃光燈關閉](/help/assets/icons/FlashOff.svg)
+![FlashOff](/help/assets/icons/FlashOff.svg)
 
-## FlashOn {#flashon}
+## FlashOn {#flashon} 
 
 ![FlashOn](/help/assets/icons/FlashOn.svg)
 
-## 手電筒 {#flashlight}
+## Flashlight {#flashlight} 
 
-![手電筒](/help/assets/icons/Flashlight.svg)
+![Flashlight](/help/assets/icons/Flashlight.svg)
 
-## 手電筒關閉 {#flashlightoff}
+## FlashlightOff {#flashlightoff} 
 
-![手電筒關閉](/help/assets/icons/FlashlightOff.svg)
+![FlashlightOff](/help/assets/icons/FlashlightOff.svg)
 
-## 手電筒開啟 {#flashlighton}
+## FlashlightOn {#flashlighton} 
 
-![手電筒On](/help/assets/icons/FlashlightOn.svg)
+![FlashlightOn](/help/assets/icons/FlashlightOn.svg)
 
-## 水準翻轉 {#fliphorizontal}
+## FlipHorizontal {#fliphorizontal} 
 
-![水準翻轉](/help/assets/icons/FlipHorizontal.svg)
+![FlipHorizontal](/help/assets/icons/FlipHorizontal.svg)
 
-## 垂直翻轉 {#flipvertical}
+## FlipVertical {#flipvertical} 
 
-![垂直翻轉](/help/assets/icons/FlipVertical.svg)
+![FlipVertical](/help/assets/icons/FlipVertical.svg)
 
-## 資料夾 {#folder}
+## Folder {#folder} 
 
-![資料夾](/help/assets/icons/Folder.svg)
+![Folder](/help/assets/icons/Folder.svg)
 
-## Folder2Color {#folder2color}
+## Folder2Color {#folder2color} 
 
-![資料夾2色彩](/help/assets/icons/Folder2Color.svg)
+![Folder2Color](/help/assets/icons/Folder2Color.svg)
 
-## FolderAdd {#folderadd}
+## FolderAdd {#folderadd} 
 
-![資料夾新增](/help/assets/icons/FolderAdd.svg)
+![FolderAdd](/help/assets/icons/FolderAdd.svg)
 
-## FolderAddTo {#folderaddto}
+## FolderAddTo {#folderaddto} 
 
 ![FolderAddTo](/help/assets/icons/FolderAddTo.svg)
 
-## FolderArchive {#folderarchive}
+## FolderArchive {#folderarchive} 
 
-![資料夾封存](/help/assets/icons/FolderArchive.svg)
+![FolderArchive](/help/assets/icons/FolderArchive.svg)
 
-## FolderDelete {#folderdelete}
+## FolderDelete {#folderdelete} 
 
-![資料夾刪除](/help/assets/icons/FolderDelete.svg)
+![FolderDelete](/help/assets/icons/FolderDelete.svg)
 
-## FolderGear {#foldergear}
+## FolderGear {#foldergear} 
 
-![資料夾齒輪](/help/assets/icons/FolderGear.svg)
+![FolderGear](/help/assets/icons/FolderGear.svg)
 
-## 資料夾已鎖定 {#folderlocked}
+## FolderLocked {#folderlocked} 
 
-![資料夾已鎖定](/help/assets/icons/FolderLocked.svg)
+![FolderLocked](/help/assets/icons/FolderLocked.svg)
 
-## 資料夾開啟 {#folderopen}
+## FolderOpen {#folderopen} 
 
-![資料夾開啟](/help/assets/icons/FolderOpen.svg)
+![FolderOpen](/help/assets/icons/FolderOpen.svg)
 
-## FolderOpenOutline {#folderopenoutline}
+## FolderOpenOutline {#folderopenoutline} 
 
-![資料夾開啟大綱](/help/assets/icons/FolderOpenOutline.svg)
+![FolderOpenOutline](/help/assets/icons/FolderOpenOutline.svg)
 
-## 資料夾大綱 {#folderoutline}
+## FolderOutline {#folderoutline} 
 
-![資料夾大綱](/help/assets/icons/FolderOutline.svg)
+![FolderOutline](/help/assets/icons/FolderOutline.svg)
 
-## 資料夾移除 {#folderremove}
+## FolderRemove {#folderremove} 
 
-![資料夾移除](/help/assets/icons/FolderRemove.svg)
+![FolderRemove](/help/assets/icons/FolderRemove.svg)
 
-## FolderSearch {#foldersearch}
+## FolderSearch {#foldersearch} 
 
-![資料夾搜尋](/help/assets/icons/FolderSearch.svg)
+![FolderSearch](/help/assets/icons/FolderSearch.svg)
 
-## 資料夾使用者 {#folderuser}
+## FolderUser {#folderuser} 
 
-![資料夾使用者](/help/assets/icons/FolderUser.svg)
+![FolderUser](/help/assets/icons/FolderUser.svg)
 
-## 追隨 {#follow}
+## Follow {#follow} 
 
-![關注](/help/assets/icons/Follow.svg)
+![Follow](/help/assets/icons/Follow.svg)
 
-## FlowOff {#followoff}
+## FollowOff {#followoff} 
 
 ![FollowOff](/help/assets/icons/FollowOff.svg)
 
-## ForPlacementOnly {#forplacementonly}
+## ForPlacementOnly {#forplacementonly} 
 
 ![ForPlacementOnly](/help/assets/icons/ForPlacementOnly.svg)
 
-## 預測 {#forecast}
+## Forecast {#forecast} 
 
-![預測](/help/assets/icons/Forecast.svg)
+![Forecast](/help/assets/icons/Forecast.svg)
 
-## 表單 {#form}
+## Form {#form} 
 
-![表單](/help/assets/icons/Form.svg)
+![Form](/help/assets/icons/Form.svg)
 
-## 前進 {#forward}
+## Forward {#forward} 
 
-![轉寄](/help/assets/icons/Forward.svg)
+![Forward](/help/assets/icons/Forward.svg)
 
-## 全熒幕 {#fullscreen}
+## FullScreen {#fullscreen} 
 
-![全熒幕](/help/assets/icons/FullScreen.svg)
+![FullScreen](/help/assets/icons/FullScreen.svg)
 
-## FullScreenExit {#fullscreenexit}
+## FullScreenExit {#fullscreenexit} 
 
 ![FullScreenExit](/help/assets/icons/FullScreenExit.svg)
 
-## 函式 {#function}
+## Function {#function} 
 
-![函式](/help/assets/icons/Function.svg)
+![Function](/help/assets/icons/Function.svg)
 
-## 遊戲 {#game}
+## Game {#game} 
 
-![遊戲](/help/assets/icons/Game.svg)
+![Game](/help/assets/icons/Game.svg)
 
-## 量測計1 {#gauge1}
+## Gauge1 {#gauge1} 
 
-![量測計1](/help/assets/icons/Gauge1.svg)
+![Gauge1](/help/assets/icons/Gauge1.svg)
 
-## 量測計2 {#gauge2}
+## Gauge2 {#gauge2} 
 
-![量測計2](/help/assets/icons/Gauge2.svg)
+![Gauge2](/help/assets/icons/Gauge2.svg)
 
-## 量測計3 {#gauge3}
+## Gauge3 {#gauge3} 
 
-![量測計3](/help/assets/icons/Gauge3.svg)
+![Gauge3](/help/assets/icons/Gauge3.svg)
 
-## 量測計4 {#gauge4}
+## Gauge4 {#gauge4} 
 
-![量測計4](/help/assets/icons/Gauge4.svg)
+![Gauge4](/help/assets/icons/Gauge4.svg)
 
-## 量測計5 {#gauge5}
+## Gauge5 {#gauge5} 
 
-![量測計5](/help/assets/icons/Gauge5.svg)
+![Gauge5](/help/assets/icons/Gauge5.svg)
 
-## 齒輪 {#gear}
+## Gear {#gear} 
 
-![齒輪](/help/assets/icons/Gear.svg)
+![Gear](/help/assets/icons/Gear.svg)
 
-## 齒輪新增 {#gearsadd}
+## GearsAdd {#gearsadd} 
 
-![齒輪加](/help/assets/icons/GearsAdd.svg)
+![GearsAdd](/help/assets/icons/GearsAdd.svg)
 
-## 齒輪刪除 {#gearsdelete}
+## GearsDelete {#gearsdelete} 
 
-![齒輪刪除](/help/assets/icons/GearsDelete.svg)
+![GearsDelete](/help/assets/icons/GearsDelete.svg)
 
-## 齒輪編輯 {#gearsedit}
+## GearsEdit {#gearsedit} 
 
-![齒輪編輯](/help/assets/icons/GearsEdit.svg)
+![GearsEdit](/help/assets/icons/GearsEdit.svg)
 
-## 性別女性 {#genderfemale}
+## GenderFemale {#genderfemale} 
 
-![性別女性](/help/assets/icons/GenderFemale.svg)
+![GenderFemale](/help/assets/icons/GenderFemale.svg)
 
-## GenderMale {#gendermale}
+## GenderMale {#gendermale} 
 
-![性別男性](/help/assets/icons/GenderMale.svg)
+![GenderMale](/help/assets/icons/GenderMale.svg)
 
-## 贈品 {#gift}
+## Gift {#gift} 
 
-![禮物](/help/assets/icons/Gift.svg)
+![Gift](/help/assets/icons/Gift.svg)
 
-## 地球 {#globe}
+## Globe {#globe} 
 
-![地球](/help/assets/icons/Globe.svg)
+![Globe](/help/assets/icons/Globe.svg)
 
-## GlobeCheck {#globecheck}
+## GlobeCheck {#globecheck} 
 
 ![GlobeCheck](/help/assets/icons/GlobeCheck.svg)
 
-## GlobeClock {#globeclock}
+## GlobeClock {#globeclock} 
 
-![地球時鐘](/help/assets/icons/GlobeClock.svg)
+![GlobeClock](/help/assets/icons/GlobeClock.svg)
 
-## GlobeEnter {#globeenter}
+## GlobeEnter {#globeenter} 
 
 ![GlobeEnter](/help/assets/icons/GlobeEnter.svg)
 
-## GlobeExit {#globeexit}
+## GlobeExit {#globeexit} 
 
 ![GlobeExit](/help/assets/icons/GlobeExit.svg)
 
-## 地球格線 {#globegrid}
+## GlobeGrid {#globegrid} 
 
-![地球格線](/help/assets/icons/GlobeGrid.svg)
+![GlobeGrid](/help/assets/icons/GlobeGrid.svg)
 
-## 地球大綱 {#globeoutline}
+## GlobeOutline {#globeoutline} 
 
-![地球大綱](/help/assets/icons/GlobeOutline.svg)
+![GlobeOutline](/help/assets/icons/GlobeOutline.svg)
 
-## GlobeRemove {#globeremove}
+## GlobeRemove {#globeremove} 
 
 ![GlobeRemove](/help/assets/icons/GlobeRemove.svg)
 
-## GlobeSearch {#globesearch}
+## GlobeSearch {#globesearch} 
 
 ![GlobeSearch](/help/assets/icons/GlobeSearch.svg)
 
-## GlobeStrike {#globestrike}
+## GlobeStrike {#globestrike} 
 
 ![GlobeStrike](/help/assets/icons/GlobeStrike.svg)
 
-## GlobeStrikeClock {#globestrikeclock}
+## GlobeStrikeClock {#globestrikeclock} 
 
 ![GlobeStrikeClock](/help/assets/icons/GlobeStrikeClock.svg)
 
-## 政府 {#government}
+## Government {#government} 
 
-![政府](/help/assets/icons/Government.svg)
+![Government](/help/assets/icons/Government.svg)
 
-## 漸層 {#gradient}
+## Gradient {#gradient} 
 
-![漸層](/help/assets/icons/Gradient.svg)
+![Gradient](/help/assets/icons/Gradient.svg)
 
-## 圖表區域 {#grapharea}
+## GraphArea {#grapharea} 
 
 ![GraphArea](/help/assets/icons/GraphArea.svg)
 
-## GraphAreaStacked {#graphareastacked}
+## GraphAreaStacked {#graphareastacked} 
 
 ![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg)
 
-## 圖表橫條水準 {#graphbarhorizontal}
+## GraphBarHorizontal {#graphbarhorizontal} 
 
 ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg)
 
-## 圖表橫條水準新增 {#graphbarhorizontaladd}
+## GraphBarHorizontalAdd {#graphbarhorizontaladd} 
 
 ![GraphBarHorizontalAdd](/help/assets/icons/GraphBarHorizontalAdd.svg)
 
-## GraphBarHorizontalStacked {#graphbarhorizontalstacked}
+## GraphBarHorizontalStacked {#graphbarhorizontalstacked} 
 
 ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg)
 
-## 圖表橫條垂直 {#graphbarvertical}
+## GraphBarVertical {#graphbarvertical} 
 
 ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg)
 
-## GraphBarVerticalAdd {#graphbarverticaladd}
+## GraphBarVerticalAdd {#graphbarverticaladd} 
 
 ![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg)
 
-## GraphBarVerticalStacked {#graphbarverticalstacked}
+## GraphBarVerticalStacked {#graphbarverticalstacked} 
 
 ![GraphBarVerticalStacked](/help/assets/icons/GraphBarVerticalStacked.svg)
 
-## 圖表氣泡 {#graphbubble}
+## GraphBubble {#graphbubble} 
 
-![圖形氣泡](/help/assets/icons/GraphBubble.svg)
+![GraphBubble](/help/assets/icons/GraphBubble.svg)
 
-## GraphBullet {#graphbullet}
+## GraphBullet {#graphbullet} 
 
 ![GraphBullet](/help/assets/icons/GraphBullet.svg)
 
-## GraphConfidenceBand {#graphconfidenceband}
+## GraphConfidenceBand {#graphconfidenceband} 
 
 ![GraphConfidenceBand](/help/assets/icons/GraphConfidenceBand.svg)
 
-## 環形圖 {#graphdonut}
+## GraphDonut {#graphdonut} 
 
 ![GraphDonut](/help/assets/icons/GraphDonut.svg)
 
-## GraphDonutAdd {#graphdonutadd}
+## GraphDonutAdd {#graphdonutadd} 
 
 ![GraphDonutAdd](/help/assets/icons/GraphDonutAdd.svg)
 
-## 圖表甘特圖 {#graphgantt}
+## GraphGantt {#graphgantt} 
 
 ![GraphGantt](/help/assets/icons/GraphGantt.svg)
 
-## 圖表長條圖 {#graphhistogram}
+## GraphHistogram {#graphhistogram} 
 
 ![GraphHistogram](/help/assets/icons/GraphHistogram.svg)
 
-## GraphPathing {#graphpathing}
+## GraphPathing {#graphpathing} 
 
 ![GraphPathing](/help/assets/icons/GraphPathing.svg)
 
-## 圖形圓形 {#graphpie}
+## GraphPie {#graphpie} 
 
 ![GraphPie](/help/assets/icons/GraphPie.svg)
 
-## GraphProfitCurve {#graphprofitcurve}
+## GraphProfitCurve {#graphprofitcurve} 
 
 ![GraphProfitCurve](/help/assets/icons/GraphProfitCurve.svg)
 
-## 圖表散佈圖 {#graphscatter}
+## GraphScatter {#graphscatter} 
 
-![圖表散佈圖](/help/assets/icons/GraphScatter.svg)
+![GraphScatter](/help/assets/icons/GraphScatter.svg)
 
-## Graphstream {#graphstream}
+## GraphStream {#graphstream} 
 
 ![GraphStream](/help/assets/icons/GraphStream.svg)
 
-## GraphStreamRanking {#graphstreamranked}
+## GraphStreamRanked {#graphstreamranked} 
 
-![GraphStreamRanking](/help/assets/icons/GraphStreamRanked.svg)
+![GraphStreamRanked](/help/assets/icons/GraphStreamRanked.svg)
 
-## GraphStreamRankingAdd {#graphstreamrankedadd}
+## GraphStreamRankedAdd {#graphstreamrankedadd} 
 
-![GraphStreamRankingAdd](/help/assets/icons/GraphStreamRankedAdd.svg)
+![GraphStreamRankedAdd](/help/assets/icons/GraphStreamRankedAdd.svg)
 
-## 圖表散射環 {#graphsunburst}
+## GraphSunburst {#graphsunburst} 
 
 ![GraphSunburst](/help/assets/icons/GraphSunburst.svg)
 
-## 圖表樹 {#graphtree}
+## GraphTree {#graphtree} 
 
 ![GraphTree](/help/assets/icons/GraphTree.svg)
 
-## Graphtrend {#graphtrend}
+## GraphTrend {#graphtrend} 
 
 ![GraphTrend](/help/assets/icons/GraphTrend.svg)
 
-## GraphTrendAdd {#graphtrendadd}
+## GraphTrendAdd {#graphtrendadd} 
 
 ![GraphTrendAdd](/help/assets/icons/GraphTrendAdd.svg)
 
-## GraphTrendAlert {#graphtrendalert}
+## GraphTrendAlert {#graphtrendalert} 
 
 ![GraphTrendAlert](/help/assets/icons/GraphTrendAlert.svg)
 
-## 圖形 {#graphic}
+## Graphic {#graphic} 
 
-![圖形](/help/assets/icons/Graphic.svg)
+![Graphic](/help/assets/icons/Graphic.svg)
 
-## 群組 {#group}
+## Group {#group} 
 
-![群組](/help/assets/icons/Group.svg)
+![Group](/help/assets/icons/Group.svg)
 
-## 錘子 {#hammer}
+## Hammer {#hammer} 
 
-![錘子](/help/assets/icons/Hammer.svg)
+![Hammer](/help/assets/icons/Hammer.svg)
 
-## 手形 {#hand}
+## Hand {#hand} 
 
-![手](/help/assets/icons/Hand.svg)
+![Hand](/help/assets/icons/Hand.svg)
 
-## 手形0 {#hand0}
+## Hand0 {#hand0} 
 
-![手0](/help/assets/icons/Hand0.svg)
+![Hand0](/help/assets/icons/Hand0.svg)
 
-## 手形1 {#hand1}
+## Hand1 {#hand1} 
 
-![手1](/help/assets/icons/Hand1.svg)
+![Hand1](/help/assets/icons/Hand1.svg)
 
-## 手形2 {#hand2}
+## Hand2 {#hand2} 
 
-![手2](/help/assets/icons/Hand2.svg)
+![Hand2](/help/assets/icons/Hand2.svg)
 
-## 手形3 {#hand3}
+## Hand3 {#hand3} 
 
-![手3](/help/assets/icons/Hand3.svg)
+![Hand3](/help/assets/icons/Hand3.svg)
 
-## 手形4 {#hand4}
+## Hand4 {#hand4} 
 
-![手4](/help/assets/icons/Hand4.svg)
+![Hand4](/help/assets/icons/Hand4.svg)
 
-## 修復 {#heal}
+## Heal {#heal} 
 
-![修復](/help/assets/icons/Heal.svg)
+![Heal](/help/assets/icons/Heal.svg)
 
-## 心 {#heart}
+## Heart {#heart} 
 
-![心](/help/assets/icons/Heart.svg)
+![Heart](/help/assets/icons/Heart.svg)
 
-## 說明 {#help}
+## Help {#help} 
 
-![說明](/help/assets/icons/Help.svg)
+![Help](/help/assets/icons/Help.svg)
 
-## 說明大綱 {#helpoutline}
+## HelpOutline {#helpoutline} 
 
-![說明大綱](/help/assets/icons/HelpOutline.svg)
+![HelpOutline](/help/assets/icons/HelpOutline.svg)
 
-## 長條圖 {#histogram}
+## Histogram {#histogram} 
 
-![長條圖](/help/assets/icons/Histogram.svg)
+![Histogram](/help/assets/icons/Histogram.svg)
 
-## 歷史記錄 {#history}
+## History {#history} 
 
-![歷程記錄](/help/assets/icons/History.svg)
+![History](/help/assets/icons/History.svg)
 
-## 首頁 {#home}
+## Home {#home} 
 
-![首頁](/help/assets/icons/Home.svg)
+![Home](/help/assets/icons/Home.svg)
 
-## 首頁 {#homepage}
+## Homepage {#homepage} 
 
-![首頁](/help/assets/icons/Homepage.svg)
+![Homepage](/help/assets/icons/Homepage.svg)
 
-## HotFix {#hotfixe}
+## HotFixe {#hotfixe} 
 
-![HotFix](/help/assets/icons/HotFixe.svg)
+![HotFixe](/help/assets/icons/HotFixe.svg)
 
-## 賓館床 {#hotelbed}
+## HotelBed {#hotelbed} 
 
 ![HotelBed](/help/assets/icons/HotelBed.svg)
 
-## 身分識別服務 {#identityservice}
+## IdentityService {#identityservice} 
 
 ![IdentityService](/help/assets/icons/IdentityService.svg)
 
-## 影像 {#images}
+## Images {#images} 
 
-![影像2](/help/assets/icons/Images.svg)
+![Image 2](/help/assets/icons/Images.svg)
 
-## 影像 {#image}
+## Image {#image} 
 
-![影像](/help/assets/icons/Image.svg)
+![Image](/help/assets/icons/Image.svg)
 
-## ImageAdd {#imageadd}
+## ImageAdd {#imageadd} 
 
-![影像新增](/help/assets/icons/ImageAdd.svg)
+![ImageAdd](/help/assets/icons/ImageAdd.svg)
 
-## 影像相簿 {#imagealbum}
+## ImageAlbum {#imagealbum} 
 
-![影像相簿](/help/assets/icons/ImageAlbum.svg)
+![ImageAlbum](/help/assets/icons/ImageAlbum.svg)
 
-## 影像自動模式 {#imageautomode}
+## ImageAutoMode {#imageautomode} 
 
 ![ImageAutoMode](/help/assets/icons/ImageAutoMode.svg)
 
-## ImageCarousel {#imagecarousel}
+## ImageCarousel {#imagecarousel} 
 
-![影像輪播](/help/assets/icons/ImageCarousel.svg)
+![ImageCarousel](/help/assets/icons/ImageCarousel.svg)
 
-## 影像檢查 {#imagecheck}
+## ImageCheck {#imagecheck} 
 
-![影像檢查](/help/assets/icons/ImageCheck.svg)
+![ImageCheck](/help/assets/icons/ImageCheck.svg)
 
-## ImageCheckout {#imagecheckedout}
+## ImageCheckedOut {#imagecheckedout} 
 
-![ImageCheckout](/help/assets/icons/ImageCheckedOut.svg)
+![ImageCheckedOut](/help/assets/icons/ImageCheckedOut.svg)
 
-## 影像地圖圓形 {#imagemapcircle}
+## ImageMapCircle {#imagemapcircle} 
 
 ![ImageMapCircle](/help/assets/icons/ImageMapCircle.svg)
 
-## 影像地圖多邊形 {#imagemappolygon}
+## ImageMapPolygon {#imagemappolygon} 
 
-![影像地圖多邊形](/help/assets/icons/ImageMapPolygon.svg)
+![ImageMapPolygon](/help/assets/icons/ImageMapPolygon.svg)
 
-## 影像地圖矩形 {#imagemaprectangle}
+## ImageMapRectangle {#imagemaprectangle} 
 
-![影像地圖矩形](/help/assets/icons/ImageMapRectangle.svg)
+![ImageMapRectangle](/help/assets/icons/ImageMapRectangle.svg)
 
-## ImageNext {#imagenext}
+## ImageNext {#imagenext} 
 
 ![ImageNext](/help/assets/icons/ImageNext.svg)
 
-## ImageProfile {#imageprofile}
+## ImageProfile {#imageprofile} 
 
-![影像設定檔](/help/assets/icons/ImageProfile.svg)
+![ImageProfile](/help/assets/icons/ImageProfile.svg)
 
-## ImageSearch {#imagesearch}
+## ImageSearch {#imagesearch} 
 
-![影像搜尋](/help/assets/icons/ImageSearch.svg)
+![ImageSearch](/help/assets/icons/ImageSearch.svg)
 
-## 影像文字 {#imagetext}
+## ImageText {#imagetext} 
 
-![影像文字](/help/assets/icons/ImageText.svg)
+![ImageText](/help/assets/icons/ImageText.svg)
 
-## 讀入 {#import}
+## Import {#import} 
 
-![讀入](/help/assets/icons/Import.svg)
+![Import](/help/assets/icons/Import.svg)
 
-## 收件匣 {#inbox}
+## Inbox {#inbox} 
 
-![收件匣](/help/assets/icons/Inbox.svg)
+![Inbox](/help/assets/icons/Inbox.svg)
 
-## 個人 {#individual}
+## Individual {#individual} 
 
-![個人](/help/assets/icons/Individual.svg)
+![Individual](/help/assets/icons/Individual.svg)
 
-## 資訊 {#info}
+## Info {#info} 
 
-![資訊](/help/assets/icons/Info.svg)
+![Info](/help/assets/icons/Info.svg)
 
-## 資訊大綱 {#infooutline}
+## InfoOutline {#infooutline} 
 
-![資訊大綱](/help/assets/icons/InfoOutline.svg)
+![InfoOutline](/help/assets/icons/InfoOutline.svg)
 
-## IntersectOverlap {#intersectoverlap}
+## IntersectOverlap {#intersectoverlap} 
 
-![交集重疊](/help/assets/icons/IntersectOverlap.svg)
+![IntersectOverlap](/help/assets/icons/IntersectOverlap.svg)
 
-## 反轉調整 {#invertadj}
+## InvertAdj {#invertadj} 
 
 ![InvertAdj](/help/assets/icons/InvertAdj.svg)
 
-## 邀請 {#invite}
+## Invite {#invite} 
 
-![邀請](/help/assets/icons/Invite.svg)
+![Invite](/help/assets/icons/Invite.svg)
 
-## 歷程 {#journey}
+## Journey {#journey} 
 
-![歷程](/help/assets/icons/Journey.svg)
+![Journey](/help/assets/icons/Journey.svg)
 
-## JourneyAction {#journeyaction}
+## JourneyAction {#journeyaction} 
 
-![歷程動作](/help/assets/icons/JourneyAction.svg)
+![JourneyAction](/help/assets/icons/JourneyAction.svg)
 
-## 歷程資料 {#journeydata}
+## JourneyData {#journeydata} 
 
-![歷程資料](/help/assets/icons/JourneyData.svg)
+![JourneyData](/help/assets/icons/JourneyData.svg)
 
-## JourneyEvent {#journeyevent}
+## JourneyEvent {#journeyevent} 
 
-![歷程事件](/help/assets/icons/JourneyEvent.svg)
+![JourneyEvent](/help/assets/icons/JourneyEvent.svg)
 
-## JourneyEvent2 {#journeyevent2}
+## JourneyEvent2 {#journeyevent2} 
 
-![歷程事件2](/help/assets/icons/JourneyEvent2.svg)
+![JourneyEvent2](/help/assets/icons/JourneyEvent2.svg)
 
-## 歷程報告 {#journeyreport}
+## JourneyReport {#journeyreport} 
 
-![歷程報告](/help/assets/icons/JourneyReport.svg)
+![JourneyReport](/help/assets/icons/JourneyReport.svg)
 
-## JourneyVoyager {#journeyvoyager}
+## JourneyVoyager {#journeyvoyager} 
 
 ![JourneyVoyager](/help/assets/icons/JourneyVoyager.svg)
 
-## 跳至頂端 {#jumptotop}
+## JumpToTop {#jumptotop} 
 
-![跳至頂端](/help/assets/icons/JumpToTop.svg)
+![JumpToTop](/help/assets/icons/JumpToTop.svg)
 
-## 索引鍵 {#key}
+## Key {#key} 
 
-![代碼](/help/assets/icons/Key.svg)
+![Key](/help/assets/icons/Key.svg)
 
-## KeyClock {#keyclock}
+## KeyClock {#keyclock} 
 
 ![KeyClock](/help/assets/icons/KeyClock.svg)
 
-## KeyExclude {#keyexclude}
+## KeyExclude {#keyexclude} 
 
 ![KeyExclude](/help/assets/icons/KeyExclude.svg)
 
-## 鍵盤 {#keyboard}
+## Keyboard {#keyboard} 
 
-![鍵盤](/help/assets/icons/Keyboard.svg)
+![Keyboard](/help/assets/icons/Keyboard.svg)
 
-## 標記 {#labels}
+## Labels {#labels} 
 
-![標籤](/help/assets/icons/Labels.svg)
+![Labels](/help/assets/icons/Labels.svg)
 
-## 標籤 {#label}
+## Label {#label} 
 
-![標籤](/help/assets/icons/Label.svg)
+![Label](/help/assets/icons/Label.svg)
 
-## 標籤排除 {#labelexclude}
+## LabelExclude {#labelexclude} 
 
 ![LabelExclude](/help/assets/icons/LabelExclude.svg)
 
-## 橫向 {#landscape}
+## Landscape {#landscape} 
 
-![橫向](/help/assets/icons/Landscape.svg)
+![Landscape](/help/assets/icons/Landscape.svg)
 
-## 啟動 {#launch}
+## Launch {#launch} 
 
 ![Launch](/help/assets/icons/Launch.svg)
 
-## 圖層 {#layer}
+## Layer {#layer} 
 
-![圖層](/help/assets/icons/Layer.svg)
+![Layer](/help/assets/icons/Layer.svg)
 
-## 圖層向後 {#layersbackward}
+## LayersBackward {#layersbackward} 
 
-![圖層向後](/help/assets/icons/LayersBackward.svg)
+![LayersBackward](/help/assets/icons/LayersBackward.svg)
 
-## 圖層移至最前面 {#layersbringtofront}
+## LayersBringToFront {#layersbringtofront} 
 
 ![LayersBringToFront](/help/assets/icons/LayersBringToFront.svg)
 
-## 圖層向前 {#layersforward}
+## LayersForward {#layersforward} 
 
-![圖層向前](/help/assets/icons/LayersForward.svg)
+![LayersForward](/help/assets/icons/LayersForward.svg)
 
-## LayersSendToBack {#layerssendtoback}
+## LayersSendToBack {#layerssendtoback} 
 
 ![LayersSendToBack](/help/assets/icons/LayersSendToBack.svg)
 
-## 瞭解 {#learn}
+## Learn {#learn} 
 
-![學習](/help/assets/icons/Learn.svg)
+![Learn](/help/assets/icons/Learn.svg)
 
-## LeftRight {#leftright}
+## LeftRight {#leftright} 
 
 ![LeftRight](/help/assets/icons/LeftRight.svg)
 
-## 淺色 {#light}
+## Light {#light} 
 
-![亮](/help/assets/icons/Light.svg)
+![Light](/help/assets/icons/Light.svg)
 
-## 折線圖 {#line}
+## Line {#line} 
 
-![行](/help/assets/icons/Line.svg)
+![Line](/help/assets/icons/Line.svg)
 
-## 行高 {#lineheight}
+## LineHeight {#lineheight} 
 
 ![LineHeight](/help/assets/icons/LineHeight.svg)
 
-## 線性漸層 {#lineargradient}
+## LinearGradient {#lineargradient} 
 
-![線性漸層](/help/assets/icons/LinearGradient.svg)
+![LinearGradient](/help/assets/icons/LinearGradient.svg)
 
-## 連結 {#link}
+## Link {#link} 
 
-![連結](/help/assets/icons/Link.svg)
+![Link](/help/assets/icons/Link.svg)
 
-## LinkCheck {#linkcheck}
+## LinkCheck {#linkcheck} 
 
 ![LinkCheck](/help/assets/icons/LinkCheck.svg)
 
-## 連結全球 {#linkglobe}
+## LinkGlobe {#linkglobe} 
 
-![連結全球](/help/assets/icons/LinkGlobe.svg)
+![LinkGlobe](/help/assets/icons/LinkGlobe.svg)
 
-## LinkNav {#linknav}
+## LinkNav {#linknav} 
 
 ![LinkNav](/help/assets/icons/LinkNav.svg)
 
-## 連結關閉 {#linkoff}
+## LinkOff {#linkoff} 
 
 ![LinkOff](/help/assets/icons/LinkOff.svg)
 
-## 連結輸出 {#linkout}
+## LinkOut {#linkout} 
 
 ![LinkOut](/help/assets/icons/LinkOut.svg)
 
-## linkoutlight {#linkoutlight}
+## LinkOutLight {#linkoutlight} 
 
 ![LinkOutLight](/help/assets/icons/LinkOutLight.svg)
 
-## 連結頁面 {#linkpage}
+## LinkPage {#linkpage} 
 
 ![LinkPage](/help/assets/icons/LinkPage.svg)
 
-## 連結使用者 {#linkuser}
+## LinkUser {#linkuser} 
 
 ![LinkUser](/help/assets/icons/LinkUser.svg)
 
-## 位置 {#location}
+## Location {#location} 
 
-![位置](/help/assets/icons/Location.svg)
+![Location](/help/assets/icons/Location.svg)
 
-## locationbaseddate {#locationbaseddate}
+## LocationBasedDate {#locationbaseddate} 
 
 ![LocationBasedDate](/help/assets/icons/LocationBasedDate.svg)
 
-## LocationBasedevent {#locationbasedevent}
+## LocationBasedEvent {#locationbasedevent} 
 
 ![LocationBasedEvent](/help/assets/icons/LocationBasedEvent.svg)
 
-## LocationContribution {#locationcontribution}
+## LocationContribution {#locationcontribution} 
 
 ![LocationContribution](/help/assets/icons/LocationContribution.svg)
 
-## LockClosed {#lockclosed}
+## LockClosed {#lockclosed} 
 
 ![LockClosed](/help/assets/icons/LockClosed.svg)
 
-## 鎖定開啟 {#lockopen}
+## LockOpen {#lockopen} 
 
 ![LockOpen](/help/assets/icons/LockOpen.svg)
 
-## 登出 {#logout}
+## LogOut {#logout} 
 
-![登出](/help/assets/icons/LogOut.svg)
+![LogOut](/help/assets/icons/LogOut.svg)
 
-## 登入 {#login}
+## Login {#login} 
 
-![登入](/help/assets/icons/Login.svg)
+![Login](/help/assets/icons/Login.svg)
 
-## Look {#look}
+## Look {#look} 
 
-![外觀](/help/assets/icons/Look.svg)
+![Look](/help/assets/icons/Look.svg)
 
-## 放大檢視 {#loupeview}
+## LoupeView {#loupeview} 
 
-![放大檢視](/help/assets/icons/LoupeView.svg)
+![LoupeView](/help/assets/icons/LoupeView.svg)
 
-## MBox {#mbox}
+## MBox {#mbox} 
 
 ![MBox](/help/assets/icons/MBox.svg)
 
-## 魔術棒 {#magicwand}
+## MagicWand {#magicwand} 
 
-![魔術棒](/help/assets/icons/MagicWand.svg)
+![MagicWand](/help/assets/icons/MagicWand.svg)
 
-## 放大 {#magnify}
+## Magnify {#magnify} 
 
-![放大](/help/assets/icons/Magnify.svg)
+![Magnify](/help/assets/icons/Magnify.svg)
 
-## 信箱 {#mailbox}
+## Mailbox {#mailbox} 
 
-![信箱](/help/assets/icons/Mailbox.svg)
+![Mailbox](/help/assets/icons/Mailbox.svg)
 
-## 地圖檢視 {#mapview}
+## MapView {#mapview} 
 
-![地圖檢視](/help/assets/icons/MapView.svg)
+![MapView](/help/assets/icons/MapView.svg)
 
-## 下邊界 {#marginbottom}
+## MarginBottom {#marginbottom} 
 
-![下邊距](/help/assets/icons/MarginBottom.svg)
+![MarginBottom](/help/assets/icons/MarginBottom.svg)
 
-## 左邊界 {#marginleft}
+## MarginLeft {#marginleft} 
 
-![左邊界](/help/assets/icons/MarginLeft.svg)
+![MarginLeft](/help/assets/icons/MarginLeft.svg)
 
-## 右邊界 {#marginright}
+## MarginRight {#marginright} 
 
-![右邊界](/help/assets/icons/MarginRight.svg)
+![MarginRight](/help/assets/icons/MarginRight.svg)
 
-## 上邊界 {#margintop}
+## MarginTop {#margintop} 
 
-![上邊界](/help/assets/icons/MarginTop.svg)
+![MarginTop](/help/assets/icons/MarginTop.svg)
 
-## 行銷活動 {#marketingactivitie}
+## MarketingActivitie {#marketingactivitie} 
 
-![行銷活動](/help/assets/icons/MarketingActivitie.svg)
+![MarketingActivitie](/help/assets/icons/MarketingActivitie.svg)
 
-## 最大化 {#maximize}
+## Maximize {#maximize} 
 
-![最大化](/help/assets/icons/Maximize.svg)
+![Maximize](/help/assets/icons/Maximize.svg)
 
-## 測量 {#measure}
+## Measure {#measure} 
 
-![量值](/help/assets/icons/Measure.svg)
+![Measure](/help/assets/icons/Measure.svg)
 
-## 選單 {#menu}
+## Menu {#menu} 
 
-![功能表](/help/assets/icons/Menu.svg)
+![Menu](/help/assets/icons/Menu.svg)
 
-## 合併 {#merge}
+## Merge {#merge} 
 
-![合併](/help/assets/icons/Merge.svg)
+![Merge](/help/assets/icons/Merge.svg)
 
-## 合併圖層 {#mergelayer}
+## MergeLayer {#mergelayer} 
 
 ![MergeLayer](/help/assets/icons/MergeLayer.svg)
 
-## Messenger {#messenger}
+## Messenger {#messenger} 
 
 ![Messenger](/help/assets/icons/Messenger.svg)
 
-## 最小化 {#minimize}
+## Minimize {#minimize} 
 
-![最小化](/help/assets/icons/Minimize.svg)
+![Minimize](/help/assets/icons/Minimize.svg)
 
-## 行動服務 {#mobileservice}
+## MobileService {#mobileservice} 
 
-![行動服務](/help/assets/icons/MobileService.svg)
+![MobileService](/help/assets/icons/MobileService.svg)
 
-## ModernGridView {#moderngridview}
+## ModernGridView {#moderngridview} 
 
 ![ModernGridView](/help/assets/icons/ModernGridView.svg)
 
-## 金錢 {#money}
+## Money {#money} 
 
-![金額](/help/assets/icons/Money.svg)
+![Money](/help/assets/icons/Money.svg)
 
-## 監控 {#monitoring}
+## Monitoring {#monitoring} 
 
-![監視](/help/assets/icons/Monitoring.svg)
+![Monitoring](/help/assets/icons/Monitoring.svg)
 
-## 月亮 {#moon}
+## Moon {#moon} 
 
-![月](/help/assets/icons/Moon.svg)
+![Moon](/help/assets/icons/Moon.svg)
 
-## 更多 {#more}
+## More {#more} 
 
-![更多內容](/help/assets/icons/More.svg)
+![More](/help/assets/icons/More.svg)
 
-## 其他圓形 {#morecircle}
+## MoreCircle {#morecircle} 
 
-![其他圓圈](/help/assets/icons/MoreCircle.svg)
+![MoreCircle](/help/assets/icons/MoreCircle.svg)
 
-## 更小 {#moresmall}
+## MoreSmall {#moresmall} 
 
 ![MoreSmall](/help/assets/icons/MoreSmall.svg)
 
-## MoreSmallList {#moresmalllist}
+## MoreSmallList {#moresmalllist} 
 
 ![MoreSmallList](/help/assets/icons/MoreSmallList.svg)
 
-## MoreSmallListVersion {#moresmalllistvert}
+## MoreSmallListVert {#moresmalllistvert} 
 
 ![MoreSmallListVert](/help/assets/icons/MoreSmallListVert.svg)
 
-## 更多垂直 {#morevertical}
+## MoreVertical {#morevertical} 
 
-![更多垂直](/help/assets/icons/MoreVertical.svg)
+![MoreVertical](/help/assets/icons/MoreVertical.svg)
 
-## 移動 {#move}
+## Move {#move} 
 
-![移動](/help/assets/icons/Move.svg)
+![Move](/help/assets/icons/Move.svg)
 
-## 左移 {#moveleftright}
+## MoveLeftRight {#moveleftright} 
 
 ![MoveLeftRight](/help/assets/icons/MoveLeftRight.svg)
 
-## 移至 {#moveto}
+## MoveTo {#moveto} 
 
-![移至](/help/assets/icons/MoveTo.svg)
+![MoveTo](/help/assets/icons/MoveTo.svg)
 
-## 上移下移 {#moveupdown}
+## MoveUpDown {#moveupdown} 
 
 ![MoveUpDown](/help/assets/icons/MoveUpDown.svg)
 
-## MovieCamera {#moviecamera}
+## MovieCamera {#moviecamera} 
 
 ![MovieCamera](/help/assets/icons/MovieCamera.svg)
 
-## 多個 {#multiple}
+## Multiple {#multiple} 
 
-![多個](/help/assets/icons/Multiple.svg)
+![Multiple](/help/assets/icons/Multiple.svg)
 
-## 多重新增 {#multipleadd}
+## MultipleAdd {#multipleadd} 
 
 ![MultipleAdd](/help/assets/icons/MultipleAdd.svg)
 
-## 多重檢查 {#multiplecheck}
+## MultipleCheck {#multiplecheck} 
 
 ![MultipleCheck](/help/assets/icons/MultipleCheck.svg)
 
-## 多重排除 {#multipleexclude}
+## MultipleExclude {#multipleexclude} 
 
 ![MultipleExclude](/help/assets/icons/MultipleExclude.svg)
 
-## 命名順序 {#namingorder}
+## NamingOrder {#namingorder} 
 
 ![NamingOrder](/help/assets/icons/NamingOrder.svg)
 
-## 新增 {#new}
+## New {#new} 
 
-![新增](/help/assets/icons/New.svg)
+![New](/help/assets/icons/New.svg)
 
-## 新增專案 {#newitem}
+## NewItem {#newitem} 
 
 ![NewItem](/help/assets/icons/NewItem.svg)
 
-## 新計畫 {#newplan}
+## NewPlan {#newplan} 
 
-![新計畫](/help/assets/icons/NewPlan.svg)
+![NewPlan](/help/assets/icons/NewPlan.svg)
 
-## NewsAdd {#newsadd}
+## NewsAdd {#newsadd} 
 
-![新聞新增](/help/assets/icons/NewsAdd.svg)
+![NewsAdd](/help/assets/icons/NewsAdd.svg)
 
-## NoEdit {#noedit}
+## NoEdit {#noedit} 
 
 ![NoEdit](/help/assets/icons/NoEdit.svg)
 
-## 注意 {#note}
+## Note {#note} 
 
-![備註](/help/assets/icons/Note.svg)
+![Note](/help/assets/icons/Note.svg)
 
-## NoteAdd {#noteadd}
+## NoteAdd {#noteadd} 
 
 ![NoteAdd](/help/assets/icons/NoteAdd.svg)
 
-## O {#o}
+## O {#o} 
 
 ![O](/help/assets/icons/O.svg)
 
-## 選件 {#offer}
+## Offer {#offer} 
 
-![選件](/help/assets/icons/Offer.svg)
+![Offer](/help/assets/icons/Offer.svg)
 
-## 優惠活動 {#offeractivities}
+## OfferActivities {#offeractivities} 
 
 ![OfferActivities](/help/assets/icons/OfferActivities.svg)
 
-## OfferDelete {#offerdelete}
+## OfferDelete {#offerdelete} 
 
 ![OfferDelete](/help/assets/icons/OfferDelete.svg)
 
-## 優惠 {#offers}
+## Offers {#offers} 
 
-![優惠方案](/help/assets/icons/Offers.svg)
+![Offers](/help/assets/icons/Offers.svg)
 
-## OnAir {#onair}
+## OnAir {#onair} 
 
 ![OnAir](/help/assets/icons/OnAir.svg)
 
-## OpenIn {#openin}
+## OpenIn {#openin} 
 
 ![OpenIn](/help/assets/icons/OpenIn.svg)
 
-## OpenInLight {#openinlight}
+## OpenInLight {#openinlight} 
 
 ![OpenInLight](/help/assets/icons/OpenInLight.svg)
 
-## OpenRecent {#openrecent}
+## OpenRecent {#openrecent} 
 
 ![OpenRecent](/help/assets/icons/OpenRecent.svg)
 
-## OpenRecentOutline {#openrecentoutline}
+## OpenRecentOutline {#openrecentoutline} 
 
 ![OpenRecentOutline](/help/assets/icons/OpenRecentOutline.svg)
 
-## 軌道 {#orbit}
+## Orbit {#orbit} 
 
-![軌道](/help/assets/icons/Orbit.svg)
+![Orbit](/help/assets/icons/Orbit.svg)
 
-## 組織 {#organisation}
+## Organisation {#organisation} 
 
-![組織](/help/assets/icons/Organisation.svg)
+![Organisation](/help/assets/icons/Organisation.svg)
 
-## 組織 {#organize}
+## Organize {#organize} 
 
-![組織](/help/assets/icons/Organize.svg)
+![Organize](/help/assets/icons/Organize.svg)
 
-## 大綱路徑 {#outlinepath}
+## OutlinePath {#outlinepath} 
 
-![大綱路徑](/help/assets/icons/OutlinePath.svg)
+![OutlinePath](/help/assets/icons/OutlinePath.svg)
 
-## 下內邊距 {#paddingbottom}
+## PaddingBottom {#paddingbottom} 
 
-![下內邊距](/help/assets/icons/PaddingBottom.svg)
+![PaddingBottom](/help/assets/icons/PaddingBottom.svg)
 
-## 左內邊距 {#paddingleft}
+## PaddingLeft {#paddingleft} 
 
-![左內邊距](/help/assets/icons/PaddingLeft.svg)
+![PaddingLeft](/help/assets/icons/PaddingLeft.svg)
 
-## 右內邊距 {#paddingright}
+## PaddingRight {#paddingright} 
 
-![右內邊距](/help/assets/icons/PaddingRight.svg)
+![PaddingRight](/help/assets/icons/PaddingRight.svg)
 
-## 上內邊距 {#paddingtop}
+## PaddingTop {#paddingtop} 
 
-![內距頂端](/help/assets/icons/PaddingTop.svg)
+![PaddingTop](/help/assets/icons/PaddingTop.svg)
 
-## 分頁符號 {#pagebreak}
+## PageBreak {#pagebreak} 
 
-![分頁符號](/help/assets/icons/PageBreak.svg)
+![PageBreak](/help/assets/icons/PageBreak.svg)
 
-## 頁面排除 {#pageexclude}
+## PageExclude {#pageexclude} 
 
 ![PageExclude](/help/assets/icons/PageExclude.svg)
 
-## PageGear {#pagegear}
+## PageGear {#pagegear} 
 
 ![PageGear](/help/assets/icons/PageGear.svg)
 
-## 頁面規則 {#pagerule}
+## PageRule {#pagerule} 
 
-![頁面規則](/help/assets/icons/PageRule.svg)
+![PageRule](/help/assets/icons/PageRule.svg)
 
-## PageShare {#pageshare}
+## PageShare {#pageshare} 
 
-![頁面共用](/help/assets/icons/PageShare.svg)
+![PageShare](/help/assets/icons/PageShare.svg)
 
-## 頁面標籤 {#pagetag}
+## PageTag {#pagetag} 
 
-![頁面標籤](/help/assets/icons/PageTag.svg)
+![PageTag](/help/assets/icons/PageTag.svg)
 
-## 頁面排除 {#pagesexclude}
+## PagesExclude {#pagesexclude} 
 
-![頁排除](/help/assets/icons/PagesExclude.svg)
+![PagesExclude](/help/assets/icons/PagesExclude.svg)
 
-## 平移 {#pan}
+## Pan {#pan} 
 
-![平移](/help/assets/icons/Pan.svg)
+![Pan](/help/assets/icons/Pan.svg)
 
-## 面板 {#panel}
+## Panel {#panel} 
 
-![面板](/help/assets/icons/Panel.svg)
+![Panel](/help/assets/icons/Panel.svg)
 
-## 貼上 {#paste}
+## Paste {#paste} 
 
-![貼上](/help/assets/icons/Paste.svg)
+![Paste](/help/assets/icons/Paste.svg)
 
-## 貼上HTML {#pastehtml}
+## PasteHTML {#pastehtml} 
 
-![貼上HTML](/help/assets/icons/PasteHTML.svg)
+![PasteHTML](/help/assets/icons/PasteHTML.svg)
 
-## 貼上清單 {#pastelist}
+## PasteList {#pastelist} 
 
-![貼上清單](/help/assets/icons/PasteList.svg)
+![PasteList](/help/assets/icons/PasteList.svg)
 
-## 貼上文字 {#pastetext}
+## PasteText {#pastetext} 
 
-![貼上文字](/help/assets/icons/PasteText.svg)
+![PasteText](/help/assets/icons/PasteText.svg)
 
-## 圖樣 {#pattern}
+## Pattern {#pattern} 
 
-![模式](/help/assets/icons/Pattern.svg)
+![Pattern](/help/assets/icons/Pattern.svg)
 
-## 暫停 {#pause}
+## Pause {#pause} 
 
-![暫停](/help/assets/icons/Pause.svg)
+![Pause](/help/assets/icons/Pause.svg)
 
-## PauseCircle {#pausecircle}
+## PauseCircle {#pausecircle} 
 
 ![PauseCircle](/help/assets/icons/PauseCircle.svg)
 
-## 典當 {#pawn}
+## Pawn {#pawn} 
 
-![典當](/help/assets/icons/Pawn.svg)
+![Pawn](/help/assets/icons/Pawn.svg)
 
-## 擱置中 {#pending}
+## Pending {#pending} 
 
-![擱置中](/help/assets/icons/Pending.svg)
+![Pending](/help/assets/icons/Pending.svg)
 
-## 人員群組 {#peoplegroup}
+## PeopleGroup {#peoplegroup} 
 
-![人員群組](/help/assets/icons/PeopleGroup.svg)
+![PeopleGroup](/help/assets/icons/PeopleGroup.svg)
 
-## PersonalizationField {#personalizationfield}
+## PersonalizationField {#personalizationfield} 
 
-![個人化欄位](/help/assets/icons/PersonalizationField.svg)
+![PersonalizationField](/help/assets/icons/PersonalizationField.svg)
 
-## 透視 {#perspective}
+## Perspective {#perspective} 
 
-![透視](/help/assets/icons/Perspective.svg)
+![Perspective](/help/assets/icons/Perspective.svg)
 
-## PinOff {#pinoff}
+## PinOff {#pinoff} 
 
 ![PinOff](/help/assets/icons/PinOff.svg)
 
-## 釘選 {#pinon}
+## PinOn {#pinon} 
 
-![釘選](/help/assets/icons/PinOn.svg)
+![PinOn](/help/assets/icons/PinOn.svg)
 
-## 樞紐分析 {#pivot}
+## Pivot {#pivot} 
 
-![樞紐分析](/help/assets/icons/Pivot.svg)
+![Pivot](/help/assets/icons/Pivot.svg)
 
-## 預留位置 {#placeholder}
+## Placeholder {#placeholder} 
 
-![預留位置](/help/assets/icons/Placeholder.svg)
+![Placeholder](/help/assets/icons/Placeholder.svg)
 
-## PlatformDataMapping {#platformdatamapping}
+## PlatformDataMapping {#platformdatamapping} 
 
-![平台資料對應](/help/assets/icons/PlatformDataMapping.svg)
+![PlatformDataMapping](/help/assets/icons/PlatformDataMapping.svg)
 
-## 播放 {#play}
+## Play {#play} 
 
-![播放](/help/assets/icons/Play.svg)
+![Play](/help/assets/icons/Play.svg)
 
-## PlayCycle {#playcircle}
+## PlayCircle {#playcircle} 
 
-![播放圈](/help/assets/icons/PlayCircle.svg)
+![PlayCircle](/help/assets/icons/PlayCircle.svg)
 
-## 插頭 {#plug}
+## Plug {#plug} 
 
-![外掛程式](/help/assets/icons/Plug.svg)
+![Plug](/help/assets/icons/Plug.svg)
 
-## 多邊形 {#polygon}
+## Polygon {#polygon} 
 
-![多邊形](/help/assets/icons/Polygon.svg)
+![Polygon](/help/assets/icons/Polygon.svg)
 
-## 多邊形選取 {#polygonselect}
+## PolygonSelect {#polygonselect} 
 
-![多邊形選取](/help/assets/icons/PolygonSelect.svg)
+![PolygonSelect](/help/assets/icons/PolygonSelect.svg)
 
-## PopIn {#popin}
+## PopIn {#popin} 
 
 ![PopIn](/help/assets/icons/PopIn.svg)
 
-## 縱向 {#portrait}
+## Portrait {#portrait} 
 
-![縱向](/help/assets/icons/Portrait.svg)
+![Portrait](/help/assets/icons/Portrait.svg)
 
-## 預設集 {#preset}
+## Preset {#preset} 
 
-![預設集](/help/assets/icons/Preset.svg)
+![Preset](/help/assets/icons/Preset.svg)
 
-## 預覽 {#preview}
+## Preview {#preview} 
 
-![預覽](/help/assets/icons/Preview.svg)
+![Preview](/help/assets/icons/Preview.svg)
 
-## 列印 {#print}
+## Print {#print} 
 
-![列印](/help/assets/icons/Print.svg)
+![Print](/help/assets/icons/Print.svg)
 
-## 列印預覽 {#printpreview}
+## PrintPreview {#printpreview} 
 
-![列印預覽](/help/assets/icons/PrintPreview.svg)
+![PrintPreview](/help/assets/icons/PrintPreview.svg)
 
-## 專案 {#project}
+## Project {#project} 
 
-![專案](/help/assets/icons/Project.svg)
+![Project](/help/assets/icons/Project.svg)
 
-## 專案新增 {#projectadd}
+## ProjectAdd {#projectadd} 
 
-![專案新增](/help/assets/icons/ProjectAdd.svg)
+![ProjectAdd](/help/assets/icons/ProjectAdd.svg)
 
-## 專案編輯 {#projectedit}
+## ProjectEdit {#projectedit} 
 
-![專案編輯](/help/assets/icons/ProjectEdit.svg)
+![ProjectEdit](/help/assets/icons/ProjectEdit.svg)
 
-## 專案名稱編輯 {#projectnameedit}
+## ProjectNameEdit {#projectnameedit} 
 
-![專案名稱編輯](/help/assets/icons/ProjectNameEdit.svg)
+![ProjectNameEdit](/help/assets/icons/ProjectNameEdit.svg)
 
-## 提升 {#promote}
+## Promote {#promote} 
 
-![提升](/help/assets/icons/Promote.svg)
+![Promote](/help/assets/icons/Promote.svg)
 
-## 屬性 {#propertie}
+## Propertie {#propertie} 
 
-![屬性](/help/assets/icons/Propertie.svg)
+![Propertie](/help/assets/icons/Propertie.svg)
 
-## 屬性副本 {#propertiescopy}
+## PropertiesCopy {#propertiescopy} 
 
-![屬性副本](/help/assets/icons/PropertiesCopy.svg)
+![PropertiesCopy](/help/assets/icons/PropertiesCopy.svg)
 
-## PublishCheck {#publishcheck}
+## PublishCheck {#publishcheck} 
 
 ![PublishCheck](/help/assets/icons/PublishCheck.svg)
 
-## Publishpending {#publishpending}
+## PublishPending {#publishpending} 
 
 ![PublishPending](/help/assets/icons/PublishPending.svg)
 
-## PublishReject {#publishreject}
+## PublishReject {#publishreject} 
 
 ![PublishReject](/help/assets/icons/PublishReject.svg)
 
-## PublishRemove {#publishremove}
+## PublishRemove {#publishremove} 
 
 ![PublishRemove](/help/assets/icons/PublishRemove.svg)
 
-## Publishschedule {#publishschedule}
+## PublishSchedule {#publishschedule} 
 
 ![PublishSchedule](/help/assets/icons/PublishSchedule.svg)
 
-## 推播通知 {#pushnotification}
+## PushNotification {#pushnotification} 
 
-![推播通知](/help/assets/icons/PushNotification.svg)
+![PushNotification](/help/assets/icons/PushNotification.svg)
 
-## 問題 {#question}
+## Question {#question} 
 
-![問題](/help/assets/icons/Question.svg)
+![Question](/help/assets/icons/Question.svg)
 
-## 快速選取 {#quickselect}
+## QuickSelect {#quickselect} 
 
-![快速選取](/help/assets/icons/QuickSelect.svg)
+![QuickSelect](/help/assets/icons/QuickSelect.svg)
 
-## RSS {#rss}
+## RSS {#rss} 
 
 ![RSS](/help/assets/icons/RSS.svg)
 
-## 放射漸層 {#radialgradient}
+## RadialGradient {#radialgradient} 
 
-![放射漸層](/help/assets/icons/RadialGradient.svg)
+![RadialGradient](/help/assets/icons/RadialGradient.svg)
 
-## 邊欄 {#rail}
+## Rail {#rail} 
 
-![邊欄](/help/assets/icons/Rail.svg)
+![Rail](/help/assets/icons/Rail.svg)
 
-## 邊欄底部 {#railbottom}
+## RailBottom {#railbottom} 
 
-![邊欄底部](/help/assets/icons/RailBottom.svg)
+![RailBottom](/help/assets/icons/RailBottom.svg)
 
-## 左邊欄 {#railleft}
+## RailLeft {#railleft} 
 
-![左側邊欄](/help/assets/icons/RailLeft.svg)
+![RailLeft](/help/assets/icons/RailLeft.svg)
 
-## 右邊欄 {#railright}
+## RailRight {#railright} 
 
-![右側邊欄](/help/assets/icons/RailRight.svg)
+![RailRight](/help/assets/icons/RailRight.svg)
 
-## RailRightClose {#railrightclose}
+## RailRightClose {#railrightclose} 
 
 ![RailRightClose](/help/assets/icons/RailRightClose.svg)
 
-## 邊欄右側 {#railrightopen}
+## RailRightOpen {#railrightopen} 
 
 ![RailRightOpen](/help/assets/icons/RailRightOpen.svg)
 
-## 邊欄頂端 {#railtop}
+## RailTop {#railtop} 
 
 ![RailTop](/help/assets/icons/RailTop.svg)
 
-## RangeMask {#rangemask}
+## RangeMask {#rangemask} 
 
 ![RangeMask](/help/assets/icons/RangeMask.svg)
 
-## RealTimeCustomerProfile {#realtimecustomerprofile}
+## RealTimeCustomerProfile {#realtimecustomerprofile} 
 
 ![RealTimeCustomerProfile](/help/assets/icons/RealTimeCustomerProfile.svg)
 
-## 矩形選取 {#rectselect}
+## RectSelect {#rectselect} 
 
 ![RectSelect](/help/assets/icons/RectSelect.svg)
 
-## 矩形 {#rectangle}
+## Rectangle {#rectangle} 
 
-![矩形](/help/assets/icons/Rectangle.svg)
+![Rectangle](/help/assets/icons/Rectangle.svg)
 
-## 取消復原 {#redo}
+## Redo {#redo} 
 
-![取消復原](/help/assets/icons/Redo.svg)
+![Redo](/help/assets/icons/Redo.svg)
 
-## 重新整理 {#refresh}
+## Refresh {#refresh} 
 
-![重新整理](/help/assets/icons/Refresh.svg)
+![Refresh](/help/assets/icons/Refresh.svg)
 
-## 區域選取 {#regionselect}
+## RegionSelect {#regionselect} 
 
-![區域選取](/help/assets/icons/RegionSelect.svg)
+![RegionSelect](/help/assets/icons/RegionSelect.svg)
 
-## 關聯性 {#relevance}
+## Relevance {#relevance} 
 
-![關聯性](/help/assets/icons/Relevance.svg)
+![Relevance](/help/assets/icons/Relevance.svg)
 
-## 移除 {#remove}
+## Remove {#remove} 
 
-![移除](/help/assets/icons/Remove.svg)
+![Remove](/help/assets/icons/Remove.svg)
 
-## 移除圓形 {#removecircle}
+## RemoveCircle {#removecircle} 
 
-![移除圓圈](/help/assets/icons/RemoveCircle.svg)
+![RemoveCircle](/help/assets/icons/RemoveCircle.svg)
 
-## 重新命名 {#rename}
+## Rename {#rename} 
 
-![重新命名](/help/assets/icons/Rename.svg)
+![Rename](/help/assets/icons/Rename.svg)
 
-## 重新排序 {#reorder}
+## Reorder {#reorder} 
 
-![重新排序](/help/assets/icons/Reorder.svg)
+![Reorder](/help/assets/icons/Reorder.svg)
 
-## 重播 {#replay}
+## Replay {#replay} 
 
-![重播](/help/assets/icons/Replay.svg)
+![Replay](/help/assets/icons/Replay.svg)
 
-## 回覆 {#replie}
+## Replie {#replie} 
 
-![回覆](/help/assets/icons/Replie.svg)
+![Replie](/help/assets/icons/Replie.svg)
 
-## 回覆 {#reply}
+## Reply {#reply} 
 
-![回覆](/help/assets/icons/Reply.svg)
+![Reply](/help/assets/icons/Reply.svg)
 
-## 全部回覆 {#replyall}
+## ReplyAll {#replyall} 
 
-![全部回覆](/help/assets/icons/ReplyAll.svg)
+![ReplyAll](/help/assets/icons/ReplyAll.svg)
 
-## 報表 {#report}
+## Report {#report} 
 
-![報表](/help/assets/icons/Report.svg)
+![Report](/help/assets/icons/Report.svg)
 
-## ReportAdd {#reportadd}
+## ReportAdd {#reportadd} 
 
 ![ReportAdd](/help/assets/icons/ReportAdd.svg)
 
-## 調整大小 {#resize}
+## Resize {#resize} 
 
-![調整大小](/help/assets/icons/Resize.svg)
+![Resize](/help/assets/icons/Resize.svg)
 
-## 已解析的註解 {#resolvedcomment}
+## ResolvedComment {#resolvedcomment} 
 
-![已解析的註解](/help/assets/icons/ResolvedComment.svg)
+![ResolvedComment](/help/assets/icons/ResolvedComment.svg)
 
-## 轉推 {#retweet}
+## Retweet {#retweet} 
 
-![轉推](/help/assets/icons/Retweet.svg)
+![Retweet](/help/assets/icons/Retweet.svg)
 
-## 重複使用 {#reuse}
+## Reuse {#reuse} 
 
-![重複使用](/help/assets/icons/Reuse.svg)
+![Reuse](/help/assets/icons/Reuse.svg)
 
-## 收入 {#revenue}
+## Revenue {#revenue} 
 
-![收入](/help/assets/icons/Revenue.svg)
+![Revenue](/help/assets/icons/Revenue.svg)
 
-## 回覆 {#revert}
+## Revert {#revert} 
 
-![回覆](/help/assets/icons/Revert.svg)
+![Revert](/help/assets/icons/Revert.svg)
 
-## 倒帶 {#rewind}
+## Rewind {#rewind} 
 
-![倒帶](/help/assets/icons/Rewind.svg)
+![Rewind](/help/assets/icons/Rewind.svg)
 
-## 倒帶圓形 {#rewindcircle}
+## RewindCircle {#rewindcircle} 
 
-![倒帶](/help/assets/icons/RewindCircle.svg)
+![RewindCircle](/help/assets/icons/RewindCircle.svg)
 
-## 功能區 {#ribbon}
+## Ribbon {#ribbon} 
 
-![功能區](/help/assets/icons/Ribbon.svg)
+![Ribbon](/help/assets/icons/Ribbon.svg)
 
-## 旋轉逆時針 {#rotateccw}
+## RotateCCW {#rotateccw} 
 
 ![RotateCCW](/help/assets/icons/RotateCCW.svg)
 
-## RotateCCWBold {#rotateccwbold}
+## RotateCCWBold {#rotateccwbold} 
 
 ![RotateCCWBold](/help/assets/icons/RotateCCWBold.svg)
 
-## 旋轉順時針 {#rotatecw}
+## RotateCW {#rotatecw} 
 
 ![RotateCW](/help/assets/icons/RotateCW.svg)
 
-## RotateCWBold {#rotatecwbold}
+## RotateCWBold {#rotatecwbold} 
 
 ![RotateCWBold](/help/assets/icons/RotateCWBold.svg)
 
-## 向左旋轉 {#rotateleft}
+## RotateLeft {#rotateleft} 
 
-![向左旋轉](/help/assets/icons/RotateLeft.svg)
+![RotateLeft](/help/assets/icons/RotateLeft.svg)
 
-## RotateLeftOutline {#rotateleftoutline}
+## RotateLeftOutline {#rotateleftoutline} 
 
 ![RotateLeftOutline](/help/assets/icons/RotateLeftOutline.svg)
 
-## 向右旋轉 {#rotateright}
+## RotateRight {#rotateright} 
 
-![向右旋轉](/help/assets/icons/RotateRight.svg)
+![RotateRight](/help/assets/icons/RotateRight.svg)
 
-## 旋轉右外框 {#rotaterightoutline}
+## RotateRightOutline {#rotaterightoutline} 
 
 ![RotateRightOutline](/help/assets/icons/RotateRightOutline.svg)
 
-## SM {#sm}
+## SM {#sm} 
 
 ![SM](/help/assets/icons/SM.svg)
 
-## SMSKey {#smskey}
+## SMSKey {#smskey} 
 
 ![SMSKey](/help/assets/icons/SMSKey.svg)
 
-## SMSLightning {#smslightning}
+## SMSLightning {#smslightning} 
 
 ![SMSLightning](/help/assets/icons/SMSLightning.svg)
 
-## SMSRefresh {#smsrefresh}
+## SMSRefresh {#smsrefresh} 
 
 ![SMSRefresh](/help/assets/icons/SMSRefresh.svg)
 
-## SQLQuery {#sqlquery}
+## SQLQuery {#sqlquery} 
 
 ![SQLQuery](/help/assets/icons/SQLQuery.svg)
 
-## Sampler {#sampler}
+## Sampler {#sampler} 
 
 ![Sampler](/help/assets/icons/Sampler.svg)
 
-## Sandbox {#sandbox}
+## Sandbox {#sandbox} 
 
-![沙箱](/help/assets/icons/Sandbox.svg)
+![Sandbox](/help/assets/icons/Sandbox.svg)
 
-## SaveAsFloppy {#saveasfloppy}
+## SaveAsFloppy {#saveasfloppy} 
 
 ![SaveAsFloppy](/help/assets/icons/SaveAsFloppy.svg)
 
-## SaveFloppy {#savefloppy}
+## SaveFloppy {#savefloppy} 
 
-![儲存磁片](/help/assets/icons/SaveFloppy.svg)
+![SaveFloppy](/help/assets/icons/SaveFloppy.svg)
 
-## 儲存至 {#saveto}
+## SaveTo {#saveto} 
 
-![儲存至](/help/assets/icons/SaveTo.svg)
+![SaveTo](/help/assets/icons/SaveTo.svg)
 
-## SaveToLight {#savetolight}
+## SaveToLight {#savetolight} 
 
 ![SaveToLight](/help/assets/icons/SaveToLight.svg)
 
-## 結構描述 {#schemas}
+## Schemas {#schemas} 
 
-![綱要](/help/assets/icons/Schemas.svg)
+![Schemas](/help/assets/icons/Schemas.svg)
 
-## 塗鴉 {#scribble}
+## Scribble {#scribble} 
 
-![塗鴉](/help/assets/icons/Scribble.svg)
+![Scribble](/help/assets/icons/Scribble.svg)
 
-## 搜尋 {#search}
+## Search {#search} 
 
-![搜尋](/help/assets/icons/Search.svg)
+![Search](/help/assets/icons/Search.svg)
 
-## 授權 {#seat}
+## Seat {#seat} 
 
-![名額](/help/assets/icons/Seat.svg)
+![Seat](/help/assets/icons/Seat.svg)
 
-## SeatAdd {#seatadd}
+## SeatAdd {#seatadd} 
 
-![名額新增](/help/assets/icons/SeatAdd.svg)
+![SeatAdd](/help/assets/icons/SeatAdd.svg)
 
-## 區段 {#segment}
+## Segment {#segment} 
 
-![區段](/help/assets/icons/Segment.svg)
+![Segment](/help/assets/icons/Segment.svg)
 
-## 區段 {#segmentation}
+## Segmentation {#segmentation} 
 
-![區段](/help/assets/icons/Segmentation.svg)
+![Segmentation](/help/assets/icons/Segmentation.svg)
 
-## 選擇 {#select}
+## Select {#select} 
 
-![選取](/help/assets/icons/Select.svg)
+![Select](/help/assets/icons/Select.svg)
 
-## SelectAdd {#selectadd}
+## SelectAdd {#selectadd} 
 
 ![SelectAdd](/help/assets/icons/SelectAdd.svg)
 
-## SelectBox {#selectbox}
+## SelectBox {#selectbox} 
 
 ![SelectBox](/help/assets/icons/SelectBox.svg)
 
-## 選取方塊 {#selectboxall}
+## SelectBoxAll {#selectboxall} 
 
 ![SelectBoxAll](/help/assets/icons/SelectBoxAll.svg)
 
-## 選取圓形 {#selectcircular}
+## SelectCircular {#selectcircular} 
 
-![選取循環](/help/assets/icons/SelectCircular.svg)
+![SelectCircular](/help/assets/icons/SelectCircular.svg)
 
-## Selectcontainer {#selectcontainer}
+## SelectContainer {#selectcontainer} 
 
 ![SelectContainer](/help/assets/icons/SelectContainer.svg)
 
-## SelectGear {#selectgear}
+## SelectGear {#selectgear} 
 
 ![SelectGear](/help/assets/icons/SelectGear.svg)
 
-## 選取相交 {#selectintersect}
+## SelectIntersect {#selectintersect} 
 
 ![SelectIntersect](/help/assets/icons/SelectIntersect.svg)
 
-## SelectSubtract {#selectsubtract}
+## SelectSubtract {#selectsubtract} 
 
-![選取減](/help/assets/icons/SelectSubtract.svg)
+![SelectSubtract](/help/assets/icons/SelectSubtract.svg)
 
-## 選取 {#selection}
+## Selection {#selection} 
 
-![選取專案](/help/assets/icons/Selection.svg)
+![Selection](/help/assets/icons/Selection.svg)
 
-## 選取已核取 {#selectionchecked}
+## SelectionChecked {#selectionchecked} 
 
 ![SelectionChecked](/help/assets/icons/SelectionChecked.svg)
 
-## 選取範圍移動 {#selectionmove}
+## SelectionMove {#selectionmove} 
 
 ![SelectionMove](/help/assets/icons/SelectionMove.svg)
 
-## 傳送 {#send}
+## Send {#send} 
 
-![傳送](/help/assets/icons/Send.svg)
+![Send](/help/assets/icons/Send.svg)
 
-## 情緒負面 {#sentimentnegative}
+## SentimentNegative {#sentimentnegative} 
 
-![情緒負面](/help/assets/icons/SentimentNegative.svg)
+![SentimentNegative](/help/assets/icons/SentimentNegative.svg)
 
-## 情緒中性 {#sentimentneutral}
+## SentimentNeutral {#sentimentneutral} 
 
-![情緒中立](/help/assets/icons/SentimentNeutral.svg)
+![SentimentNeutral](/help/assets/icons/SentimentNeutral.svg)
 
-## 情緒積極 {#sentimentpositive}
+## SentimentPositive {#sentimentpositive} 
 
-![情緒正面](/help/assets/icons/SentimentPositive.svg)
+![SentimentPositive](/help/assets/icons/SentimentPositive.svg)
 
-## 分隔符號 {#separator}
+## Separator {#separator} 
 
-![分隔符號](/help/assets/icons/Separator.svg)
+![Separator](/help/assets/icons/Separator.svg)
 
-## 伺服器 {#server}
+## Server {#server} 
 
-![伺服器](/help/assets/icons/Server.svg)
+![Server](/help/assets/icons/Server.svg)
 
-## 設定 {#setting}
+## Setting {#setting} 
 
-![設定](/help/assets/icons/Setting.svg)
+![Setting](/help/assets/icons/Setting.svg)
 
-## 形狀 {#shape}
+## Shape {#shape} 
 
-![形狀](/help/assets/icons/Shape.svg)
+![Shape](/help/assets/icons/Shape.svg)
 
-## 共用 {#share}
+## Share {#share} 
 
-![共用](/help/assets/icons/Share.svg)
+![Share](/help/assets/icons/Share.svg)
 
-## ShareAndroid {#shareandroid}
+## ShareAndroid {#shareandroid} 
 
 ![ShareAndroid](/help/assets/icons/ShareAndroid.svg)
 
-## ShareCheck {#sharecheck}
+## ShareCheck {#sharecheck} 
 
 ![ShareCheck](/help/assets/icons/ShareCheck.svg)
 
-## ShareLight {#sharelight}
+## ShareLight {#sharelight} 
 
 ![ShareLight](/help/assets/icons/ShareLight.svg)
 
-## 共用視窗 {#sharewindow}
+## ShareWindow {#sharewindow} 
 
-![共用視窗](/help/assets/icons/ShareWindow.svg)
+![ShareWindow](/help/assets/icons/ShareWindow.svg)
 
-## 銳利化 {#sharpen}
+## Sharpen {#sharpen} 
 
-![銳利化](/help/assets/icons/Sharpen.svg)
+![Sharpen](/help/assets/icons/Sharpen.svg)
 
-## 遮蔽 {#shield}
+## Shield {#shield} 
 
-![盾牌](/help/assets/icons/Shield.svg)
+![Shield](/help/assets/icons/Shield.svg)
 
-## 出貨 {#ship}
+## Ship {#ship} 
 
-![出貨](/help/assets/icons/Ship.svg)
+![Ship](/help/assets/icons/Ship.svg)
 
-## 購物 {#shop}
+## Shop {#shop} 
 
-![商店](/help/assets/icons/Shop.svg)
+![Shop](/help/assets/icons/Shop.svg)
 
-## ShoppingCart {#shoppingcart}
+## ShoppingCart {#shoppingcart} 
 
-![購物車](/help/assets/icons/ShoppingCart.svg)
+![ShoppingCart](/help/assets/icons/ShoppingCart.svg)
 
-## ShowAllLay {#showalllayer}
+## ShowAllLayer {#showalllayer} 
 
 ![ShowAllLayer](/help/assets/icons/ShowAllLayer.svg)
 
-## 顯示功能表 {#showmenu}
+## ShowMenu {#showmenu} 
 
 ![ShowMenu](/help/assets/icons/ShowMenu.svg)
 
-## ShowoneLayer {#showonelayer}
+## ShowOneLayer {#showonelayer} 
 
 ![ShowOneLayer](/help/assets/icons/ShowOneLayer.svg)
 
-## 隨機播放 {#shuffle}
+## Shuffle {#shuffle} 
 
-![隨機播放](/help/assets/icons/Shuffle.svg)
+![Shuffle](/help/assets/icons/Shuffle.svg)
 
-## 切片 {#slice}
+## Slice {#slice} 
 
-![磁碟片段](/help/assets/icons/Slice.svg)
+![Slice](/help/assets/icons/Slice.svg)
 
-## 慢速 {#slow}
+## Slow {#slow} 
 
-![慢](/help/assets/icons/Slow.svg)
+![Slow](/help/assets/icons/Slow.svg)
 
-## 小型股 {#smallcap}
+## SmallCap {#smallcap} 
 
-![小型股](/help/assets/icons/SmallCap.svg)
+![SmallCap](/help/assets/icons/SmallCap.svg)
 
-## 快照 {#snapshot}
+## Snapshot {#snapshot} 
 
-![快照](/help/assets/icons/Snapshot.svg)
+![Snapshot](/help/assets/icons/Snapshot.svg)
 
-## 社交網路 {#socialnetwork}
+## SocialNetwork {#socialnetwork} 
 
-![社交網路](/help/assets/icons/SocialNetwork.svg)
+![SocialNetwork](/help/assets/icons/SocialNetwork.svg)
 
-## SortOrderdown {#sortorderdown}
+## SortOrderDown {#sortorderdown} 
 
 ![SortOrderDown](/help/assets/icons/SortOrderDown.svg)
 
-## SortOrderup {#sortorderup}
+## SortOrderUp {#sortorderup} 
 
-![排序向上鍵](/help/assets/icons/SortOrderUp.svg)
+![SortOrderUp](/help/assets/icons/SortOrderUp.svg)
 
-## 垃圾訊息 {#spam}
+## Spam {#spam} 
 
-![垃圾訊息](/help/assets/icons/Spam.svg)
+![Spam](/help/assets/icons/Spam.svg)
 
-## 拼字檢查 {#spellcheck}
+## Spellcheck {#spellcheck} 
 
-![拼字檢查](/help/assets/icons/Spellcheck.svg)
+![Spellcheck](/help/assets/icons/Spellcheck.svg)
 
-## 迴轉 {#spin}
+## Spin {#spin} 
 
-![迴轉](/help/assets/icons/Spin.svg)
+![Spin](/help/assets/icons/Spin.svg)
 
-## 分割檢視 {#splitview}
+## SplitView {#splitview} 
 
-![分割檢視](/help/assets/icons/SplitView.svg)
+![SplitView](/help/assets/icons/SplitView.svg)
 
-## SpotHeal {#spotheal}
+## SpotHeal {#spotheal} 
 
 ![SpotHeal](/help/assets/icons/SpotHeal.svg)
 
-## 體育場 {#stadium}
+## Stadium {#stadium} 
 
-![體育場](/help/assets/icons/Stadium.svg)
+![Stadium](/help/assets/icons/Stadium.svg)
 
-## 階段 {#stage}
+## Stage {#stage} 
 
-![階段](/help/assets/icons/Stage.svg)
+![Stage](/help/assets/icons/Stage.svg)
 
-## 印章 {#stamp}
+## Stamp {#stamp} 
 
-![戳記](/help/assets/icons/Stamp.svg)
+![Stamp](/help/assets/icons/Stamp.svg)
 
-## 星形 {#star}
+## Star {#star} 
 
-![顆星](/help/assets/icons/Star.svg)
+![Star](/help/assets/icons/Star.svg)
 
-## 星形外框 {#staroutline}
+## StarOutline {#staroutline} 
 
-![星形大綱](/help/assets/icons/StarOutline.svg)
+![StarOutline](/help/assets/icons/StarOutline.svg)
 
-## 星暴 {#starburst}
+## Starburst {#starburst} 
 
-![星暴](/help/assets/icons/Starburst.svg)
+![Starburst](/help/assets/icons/Starburst.svg)
 
-## 後退 {#stepbackward}
+## StepBackward {#stepbackward} 
 
-![後退](/help/assets/icons/StepBackward.svg)
+![StepBackward](/help/assets/icons/StepBackward.svg)
 
-## 階梯回溯圓 {#stepbackwardcircle}
+## StepBackwardCircle {#stepbackwardcircle} 
 
-![StepBackwardCycle](/help/assets/icons/StepBackwardCircle.svg)
+![StepBackwardCircle](/help/assets/icons/StepBackwardCircle.svg)
 
-## 前進 {#stepforward}
+## StepForward {#stepforward} 
 
-![向前一步](/help/assets/icons/StepForward.svg)
+![StepForward](/help/assets/icons/StepForward.svg)
 
-## 向前移動圓形 {#stepforwardcircle}
+## StepForwardCircle {#stepforwardcircle} 
 
 ![StepForwardCircle](/help/assets/icons/StepForwardCircle.svg)
 
-## 停止 {#stop}
+## Stop {#stop} 
 
-![停止](/help/assets/icons/Stop.svg)
+![Stop](/help/assets/icons/Stop.svg)
 
-## 停止圓形 {#stopcircle}
+## StopCircle {#stopcircle} 
 
 ![StopCircle](/help/assets/icons/StopCircle.svg)
 
-## 秒錶 {#stopwatch}
+## Stopwatch {#stopwatch} 
 
-![停止觀看](/help/assets/icons/Stopwatch.svg)
+![Stopwatch](/help/assets/icons/Stopwatch.svg)
 
-## 拉直 {#straighten}
+## Straighten {#straighten} 
 
-![拉直](/help/assets/icons/Straighten.svg)
+![Straighten](/help/assets/icons/Straighten.svg)
 
-## 拉直大綱 {#straightenoutline}
+## StraightenOutline {#straightenoutline} 
 
-![拉直大綱](/help/assets/icons/StraightenOutline.svg)
+![StraightenOutline](/help/assets/icons/StraightenOutline.svg)
 
-## 筆畫寬度 {#strokewidth}
+## StrokeWidth {#strokewidth} 
 
-![筆畫寬度](/help/assets/icons/StrokeWidth.svg)
+![StrokeWidth](/help/assets/icons/StrokeWidth.svg)
 
-## 訂閱 {#subscribe}
+## Subscribe {#subscribe} 
 
-![訂閱](/help/assets/icons/Subscribe.svg)
+![Subscribe](/help/assets/icons/Subscribe.svg)
 
-## Subtractbackpath {#subtractbackpath}
+## SubtractBackPath {#subtractbackpath} 
 
 ![SubtractBackPath](/help/assets/icons/SubtractBackPath.svg)
 
-## SubtractFromSelection {#subtractfromselection}
+## SubtractFromSelection {#subtractfromselection} 
 
-![從選取範圍減去](/help/assets/icons/SubtractFromSelection.svg)
+![SubtractFromSelection](/help/assets/icons/SubtractFromSelection.svg)
 
-## Subtractfrontpath {#subtractfrontpath}
+## SubtractFrontPath {#subtractfrontpath} 
 
 ![SubtractFrontPath](/help/assets/icons/SubtractFrontPath.svg)
 
-## SuccessMetric {#successmetric}
+## SuccessMetric {#successmetric} 
 
 ![SuccessMetric](/help/assets/icons/SuccessMetric.svg)
 
-## 摘要 {#summarize}
+## Summarize {#summarize} 
 
-![摘要](/help/assets/icons/Summarize.svg)
+![Summarize](/help/assets/icons/Summarize.svg)
 
-## 調查 {#survey}
+## Survey {#survey} 
 
-![調查](/help/assets/icons/Survey.svg)
+![Survey](/help/assets/icons/Survey.svg)
 
-## 切換 {#switch}
+## Switch {#switch} 
 
-![開關](/help/assets/icons/Switch.svg)
+![Switch](/help/assets/icons/Switch.svg)
 
-## 同步 {#sync}
+## Sync {#sync} 
 
-![同步](/help/assets/icons/Sync.svg)
+![Sync](/help/assets/icons/Sync.svg)
 
-## SyncRemove {#syncremove}
+## SyncRemove {#syncremove} 
 
 ![SyncRemove](/help/assets/icons/SyncRemove.svg)
 
-## 表格 {#table}
+## Table {#table} 
 
-![表格](/help/assets/icons/Table.svg)
+![Table](/help/assets/icons/Table.svg)
 
-## 表格新增 {#tableadd}
+## TableAdd {#tableadd} 
 
-![資料表新增](/help/assets/icons/TableAdd.svg)
+![TableAdd](/help/assets/icons/TableAdd.svg)
 
-## 表格與圖表 {#tableandchart}
+## TableAndChart {#tableandchart} 
 
 ![TableAndChart](/help/assets/icons/TableAndChart.svg)
 
-## TableColumnAddLeft {#tablecolumnaddleft}
+## TableColumnAddLeft {#tablecolumnaddleft} 
 
 ![TableColumnAddLeft](/help/assets/icons/TableColumnAddLeft.svg)
 
-## TableColumnAddRight {#tablecolumnaddright}
+## TableColumnAddRight {#tablecolumnaddright} 
 
 ![TableColumnAddRight](/help/assets/icons/TableColumnAddRight.svg)
 
-## 資料表資料行合併 {#tablecolumnmerge}
+## TableColumnMerge {#tablecolumnmerge} 
 
 ![TableColumnMerge](/help/assets/icons/TableColumnMerge.svg)
 
-## TableColumnRemoveCenter {#tablecolumnremovecenter}
+## TableColumnRemoveCenter {#tablecolumnremovecenter} 
 
 ![TableColumnRemoveCenter](/help/assets/icons/TableColumnRemoveCenter.svg)
 
-## TableColumnSplit {#tablecolumnsplit}
+## TableColumnSplit {#tablecolumnsplit} 
 
 ![TableColumnSplit](/help/assets/icons/TableColumnSplit.svg)
 
-## 表格編輯 {#tableedit}
+## TableEdit {#tableedit} 
 
-![資料表編輯](/help/assets/icons/TableEdit.svg)
+![TableEdit](/help/assets/icons/TableEdit.svg)
 
-## 表格長條圖 {#tablehistogram}
+## TableHistogram {#tablehistogram} 
 
-![資料表長條圖](/help/assets/icons/TableHistogram.svg)
+![TableHistogram](/help/assets/icons/TableHistogram.svg)
 
-## TableMergeCell {#tablemergecell}
+## TableMergeCell {#tablemergecell} 
 
 ![TableMergeCell](/help/assets/icons/TableMergeCell.svg)
 
-## TableRowAddBottom {#tablerowaddbottom}
+## TableRowAddBottom {#tablerowaddbottom} 
 
 ![TableRowAddBottom](/help/assets/icons/TableRowAddBottom.svg)
 
-## TableRowAddTop {#tablerowaddtop}
+## TableRowAddTop {#tablerowaddtop} 
 
 ![TableRowAddTop](/help/assets/icons/TableRowAddTop.svg)
 
-## 表格列合併 {#tablerowmerge}
+## TableRowMerge {#tablerowmerge} 
 
 ![TableRowMerge](/help/assets/icons/TableRowMerge.svg)
 
-## TableRowRemoveCenter {#tablerowremovecenter}
+## TableRowRemoveCenter {#tablerowremovecenter} 
 
 ![TableRowRemoveCenter](/help/assets/icons/TableRowRemoveCenter.svg)
 
-## TableRowSplit {#tablerowsplit}
+## TableRowSplit {#tablerowsplit} 
 
 ![TableRowSplit](/help/assets/icons/TableRowSplit.svg)
 
-## 表格選取欄 {#tableselectcolumn}
+## TableSelectColumn {#tableselectcolumn} 
 
 ![TableSelectColumn](/help/assets/icons/TableSelectColumn.svg)
 
-## 表格選取列 {#tableselectrow}
+## TableSelectRow {#tableselectrow} 
 
 ![TableSelectRow](/help/assets/icons/TableSelectRow.svg)
 
-## Tableau {#tableau}
+## Tableau {#tableau} 
 
 ![Tableau](/help/assets/icons/Tableau.svg)
 
-## TagBold {#tagbold}
+## TagBold {#tagbold} 
 
-![標籤粗體](/help/assets/icons/TagBold.svg)
+![TagBold](/help/assets/icons/TagBold.svg)
 
-## 標籤斜體 {#tagitalic}
+## TagItalic {#tagitalic} 
 
-![標籤斜體](/help/assets/icons/TagItalic.svg)
+![TagItalic](/help/assets/icons/TagItalic.svg)
 
-## 標籤底線 {#tagunderline}
+## TagUnderline {#tagunderline} 
 
-![標籤底線](/help/assets/icons/TagUnderline.svg)
+![TagUnderline](/help/assets/icons/TagUnderline.svg)
 
-## Target {#target}
+## Target {#target} 
 
 ![Target](/help/assets/icons/Target.svg)
 
-## 已鎖定目標 {#targeted}
+## Targeted {#targeted} 
 
-![已鎖定目標](/help/assets/icons/Targeted.svg)
+![Targeted](/help/assets/icons/Targeted.svg)
 
-## 任務清單 {#tasklist}
+## TaskList {#tasklist} 
 
-![工作清單](/help/assets/icons/TaskList.svg)
+![TaskList](/help/assets/icons/TaskList.svg)
 
-## 茶壺 {#teapot}
+## Teapot {#teapot} 
 
-![茶壺](/help/assets/icons/Teapot.svg)
+![Teapot](/help/assets/icons/Teapot.svg)
 
-## 溫度 {#temperature}
+## Temperature {#temperature} 
 
-![溫度](/help/assets/icons/Temperature.svg)
+![Temperature](/help/assets/icons/Temperature.svg)
 
-## TestAB {#testab}
+## TestAB {#testab} 
 
 ![TestAB](/help/assets/icons/TestAB.svg)
 
-## TestABEdit {#testabedit}
+## TestABEdit {#testabedit} 
 
 ![TestABEdit](/help/assets/icons/TestABEdit.svg)
 
-## TestABGear {#testabgear}
+## TestABGear {#testabgear} 
 
 ![TestABGear](/help/assets/icons/TestABGear.svg)
 
-## TestABRemove {#testabremove}
+## TestABRemove {#testabremove} 
 
 ![TestABRemove](/help/assets/icons/TestABRemove.svg)
 
-## TestProfile {#testprofile}
+## TestProfile {#testprofile} 
 
-![測試設定檔](/help/assets/icons/TestProfile.svg)
+![TestProfile](/help/assets/icons/TestProfile.svg)
 
-## 文字 {#text}
+## Text {#text} 
 
-![文字](/help/assets/icons/Text.svg)
+![Text](/help/assets/icons/Text.svg)
 
-## 文字新增 {#textadd}
+## TextAdd {#textadd} 
 
-![文字新增](/help/assets/icons/TextAdd.svg)
+![TextAdd](/help/assets/icons/TextAdd.svg)
 
-## 文字對齊中心 {#textaligncenter}
+## TextAlignCenter {#textaligncenter} 
 
 ![TextAlignCenter](/help/assets/icons/TextAlignCenter.svg)
 
-## 文字對齊對齊 {#textalignjustify}
+## TextAlignJustify {#textalignjustify} 
 
 ![TextAlignJustify](/help/assets/icons/TextAlignJustify.svg)
 
-## 文字靠左對齊 {#textalignleft}
+## TextAlignLeft {#textalignleft} 
 
 ![TextAlignLeft](/help/assets/icons/TextAlignLeft.svg)
 
-## 文字靠右對齊 {#textalignright}
+## TextAlignRight {#textalignright} 
 
 ![TextAlignRight](/help/assets/icons/TextAlignRight.svg)
 
-## 文字基線位移 {#textbaselineshift}
+## TextBaselineShift {#textbaselineshift} 
 
-![文字基線位移](/help/assets/icons/TextBaselineShift.svg)
+![TextBaselineShift](/help/assets/icons/TextBaselineShift.svg)
 
-## 文字粗體 {#textbold}
+## TextBold {#textbold} 
 
-![文字粗體](/help/assets/icons/TextBold.svg)
+![TextBold](/help/assets/icons/TextBold.svg)
 
-## 文字專案符號 {#textbulleted}
+## TextBulleted {#textbulleted} 
 
-![文字專案符號](/help/assets/icons/TextBulleted.svg)
+![TextBulleted](/help/assets/icons/TextBulleted.svg)
 
-## TextBulletedAttach {#textbulletedattach}
+## TextBulletedAttach {#textbulletedattach} 
 
-![文字專案符號附加](/help/assets/icons/TextBulletedAttach.svg)
+![TextBulletedAttach](/help/assets/icons/TextBulletedAttach.svg)
 
-## TextBulletedHierarchy {#textbulletedhierarchy}
+## TextBulletedHierarchy {#textbulletedhierarchy} 
 
 ![TextBulletedHierarchy](/help/assets/icons/TextBulletedHierarchy.svg)
 
-## TextBulletedHierarchyExclude {#textbulletedhierarchyexclude}
+## TextBulletedHierarchyExclude {#textbulletedhierarchyexclude} 
 
 ![TextBulletedHierarchyExclude](/help/assets/icons/TextBulletedHierarchyExclude.svg)
 
-## 文字色彩 {#textcolor}
+## TextColor {#textcolor} 
 
-![文字色彩](/help/assets/icons/TextColor.svg)
+![TextColor](/help/assets/icons/TextColor.svg)
 
-## 文字減少 {#textdecrease}
+## TextDecrease {#textdecrease} 
 
-![文字減少](/help/assets/icons/TextDecrease.svg)
+![TextDecrease](/help/assets/icons/TextDecrease.svg)
 
-## 文字編輯 {#textedit}
+## TextEdit {#textedit} 
 
-![文字編輯](/help/assets/icons/TextEdit.svg)
+![TextEdit](/help/assets/icons/TextEdit.svg)
 
-## 文字排除 {#textexclude}
+## TextExclude {#textexclude} 
 
-![文字排除](/help/assets/icons/TextExclude.svg)
+![TextExclude](/help/assets/icons/TextExclude.svg)
 
-## TextIncrease {#textincrease}
+## TextIncrease {#textincrease} 
 
-![文字增加](/help/assets/icons/TextIncrease.svg)
+![TextIncrease](/help/assets/icons/TextIncrease.svg)
 
-## 文字縮排減少 {#textindentdecrease}
+## TextIndentDecrease {#textindentdecrease} 
 
-![文字縮排減少](/help/assets/icons/TextIndentDecrease.svg)
+![TextIndentDecrease](/help/assets/icons/TextIndentDecrease.svg)
 
-## TextIndentIncrease {#textindentincrease}
+## TextIndentIncrease {#textindentincrease} 
 
 ![TextIndentIncrease](/help/assets/icons/TextIndentIncrease.svg)
 
-## 文字斜體 {#textitalic}
+## TextItalic {#textitalic} 
 
-![文字斜體](/help/assets/icons/TextItalic.svg)
+![TextItalic](/help/assets/icons/TextItalic.svg)
 
-## 文字字距微調 {#textkerning}
+## TextKerning {#textkerning} 
 
-![文字字距微調](/help/assets/icons/TextKerning.svg)
+![TextKerning](/help/assets/icons/TextKerning.svg)
 
-## TextLetterLowerCase {#textletteredlowercase}
+## TextLetteredLowerCase {#textletteredlowercase} 
 
-![TextLetterLowerCase](/help/assets/icons/TextLetteredLowerCase.svg)
+![TextLetteredLowerCase](/help/assets/icons/TextLetteredLowerCase.svg)
 
-## TextLetterUpperCase {#textlettereduppercase}
+## TextLetteredUpperCase {#textlettereduppercase} 
 
-![TextLetterUpperCase](/help/assets/icons/TextLetteredUpperCase.svg)
+![TextLetteredUpperCase](/help/assets/icons/TextLetteredUpperCase.svg)
 
-## 文字編號 {#textnumbered}
+## TextNumbered {#textnumbered} 
 
-![文字編號](/help/assets/icons/TextNumbered.svg)
+![TextNumbered](/help/assets/icons/TextNumbered.svg)
 
-## 文欄位落 {#textparagraph}
+## TextParagraph {#textparagraph} 
 
-![文欄位落](/help/assets/icons/TextParagraph.svg)
+![TextParagraph](/help/assets/icons/TextParagraph.svg)
 
-## TextRomanLowercase {#textromanlowercase}
+## TextRomanLowercase {#textromanlowercase} 
 
 ![TextRomanLowercase](/help/assets/icons/TextRomanLowercase.svg)
 
-## 文字羅馬大寫 {#textromanuppercase}
+## TextRomanUppercase {#textromanuppercase} 
 
-![文字羅馬大寫](/help/assets/icons/TextRomanUppercase.svg)
+![TextRomanUppercase](/help/assets/icons/TextRomanUppercase.svg)
 
-## 文字大小 {#textsize}
+## TextSize {#textsize} 
 
-![文字大小](/help/assets/icons/TextSize.svg)
+![TextSize](/help/assets/icons/TextSize.svg)
 
-## TextSizeAdd {#textsizeadd}
+## TextSizeAdd {#textsizeadd} 
 
 ![TextSizeAdd](/help/assets/icons/TextSizeAdd.svg)
 
-## TextSpaceAfter {#textspaceafter}
+## TextSpaceAfter {#textspaceafter} 
 
 ![TextSpaceAfter](/help/assets/icons/TextSpaceAfter.svg)
 
-## TextSpaceBefore {#textspacebefore}
+## TextSpaceBefore {#textspacebefore} 
 
 ![TextSpaceBefore](/help/assets/icons/TextSpaceBefore.svg)
 
-## 文字刪除線 {#textstrikethrough}
+## TextStrikethrough {#textstrikethrough} 
 
-![文字刪除線](/help/assets/icons/TextStrikethrough.svg)
+![TextStrikethrough](/help/assets/icons/TextStrikethrough.svg)
 
-## 文字筆畫 {#textstroke}
+## TextStroke {#textstroke} 
 
-![文字筆畫](/help/assets/icons/TextStroke.svg)
+![TextStroke](/help/assets/icons/TextStroke.svg)
 
-## 文字樣式 {#textstyle}
+## TextStyle {#textstyle} 
 
-![文字樣式](/help/assets/icons/TextStyle.svg)
+![TextStyle](/help/assets/icons/TextStyle.svg)
 
-## 文字下標 {#textsubscript}
+## TextSubscript {#textsubscript} 
 
-![文字下標](/help/assets/icons/TextSubscript.svg)
+![TextSubscript](/help/assets/icons/TextSubscript.svg)
 
-## 文字上標 {#textsuperscript}
+## TextSuperscript {#textsuperscript} 
 
-![文字上標](/help/assets/icons/TextSuperscript.svg)
+![TextSuperscript](/help/assets/icons/TextSuperscript.svg)
 
-## 文字追蹤 {#texttracking}
+## TextTracking {#texttracking} 
 
-![文字追蹤](/help/assets/icons/TextTracking.svg)
+![TextTracking](/help/assets/icons/TextTracking.svg)
 
-## 文字底線 {#textunderline}
+## TextUnderline {#textunderline} 
 
-![文字底線](/help/assets/icons/TextUnderline.svg)
+![TextUnderline](/help/assets/icons/TextUnderline.svg)
 
-## 向下縮圖 {#thumbdown}
+## ThumbDown {#thumbdown} 
 
 ![ThumbDown](/help/assets/icons/ThumbDown.svg)
 
-## ThumbDownOutline {#thumbdownoutline}
+## ThumbDownOutline {#thumbdownoutline} 
 
 ![ThumbDownOutline](/help/assets/icons/ThumbDownOutline.svg)
 
-## 縮圖 {#thumbup}
+## ThumbUp {#thumbup} 
 
 ![ThumbUp](/help/assets/icons/ThumbUp.svg)
 
-## ThumbUpOutline {#thumbupoutline}
+## ThumbUpOutline {#thumbupoutline} 
 
 ![ThumbUpOutline](/help/assets/icons/ThumbUpOutline.svg)
 
-## 訓練 {#train}
+## Train {#train} 
 
-![訓練](/help/assets/icons/Train.svg)
+![Train](/help/assets/icons/Train.svg)
 
-## TransferToPlatform {#transfertoplatform}
+## TransferToPlatform {#transfertoplatform} 
 
 ![TransferToPlatform](/help/assets/icons/TransferToPlatform.svg)
 
-## 透明度 {#transparency}
+## Transparency {#transparency} 
 
-![透明度](/help/assets/icons/Transparency.svg)
+![Transparency](/help/assets/icons/Transparency.svg)
 
-## 補漏白 {#trap}
+## Trap {#trap} 
 
-![陷阱](/help/assets/icons/Trap.svg)
+![Trap](/help/assets/icons/Trap.svg)
 
-## 樹狀結構摺疊 {#treecollapse}
+## TreeCollapse {#treecollapse} 
 
 ![TreeCollapse](/help/assets/icons/TreeCollapse.svg)
 
-## TreeCollapseAll {#treecollapseall}
+## TreeCollapseAll {#treecollapseall} 
 
 ![TreeCollapseAll](/help/assets/icons/TreeCollapseAll.svg)
 
-## 樹狀結構展開 {#treeexpand}
+## TreeExpand {#treeexpand} 
 
-![樹狀結構展開](/help/assets/icons/TreeExpand.svg)
+![TreeExpand](/help/assets/icons/TreeExpand.svg)
 
-## TreeExpandAll {#treeexpandall}
+## TreeExpandAll {#treeexpandall} 
 
 ![TreeExpandAll](/help/assets/icons/TreeExpandAll.svg)
 
-## 樹狀檢視 {#treeview}
+## TreeView {#treeview} 
 
-![樹狀檢視](/help/assets/icons/TreeView.svg)
+![TreeView](/help/assets/icons/TreeView.svg)
 
-## TrendInspect {#trendinspect}
+## TrendInspect {#trendinspect} 
 
 ![TrendInspect](/help/assets/icons/TrendInspect.svg)
 
-## TrimPath {#trimpath}
+## TrimPath {#trimpath} 
 
 ![TrimPath](/help/assets/icons/TrimPath.svg)
 
-## 獎盃 {#trophy}
+## Trophy {#trophy} 
 
-![獎盃](/help/assets/icons/Trophy.svg)
+![Trophy](/help/assets/icons/Trophy.svg)
 
-## 類型 {#type}
+## Type {#type} 
 
-![類型](/help/assets/icons/Type.svg)
+![Type](/help/assets/icons/Type.svg)
 
-## 美國 {#usa}
+## USA {#usa} 
 
-![美國](/help/assets/icons/USA.svg)
+![USA](/help/assets/icons/USA.svg)
 
-## 底線 {#underline}
+## Underline {#underline} 
 
-![加底線](/help/assets/icons/Underline.svg)
+![Underline](/help/assets/icons/Underline.svg)
 
-## 還原 {#undo}
+## Undo {#undo} 
 
-![復原](/help/assets/icons/Undo.svg)
+![Undo](/help/assets/icons/Undo.svg)
 
-## 取消群組 {#ungroup}
+## Ungroup {#ungroup} 
 
-![取消群組](/help/assets/icons/Ungroup.svg)
+![Ungroup](/help/assets/icons/Ungroup.svg)
 
-## 取消連結 {#unlink}
+## Unlink {#unlink} 
 
-![取消連結](/help/assets/icons/Unlink.svg)
+![Unlink](/help/assets/icons/Unlink.svg)
 
-## 取消合併 {#unmerge}
+## Unmerge {#unmerge} 
 
-![取消合併](/help/assets/icons/Unmerge.svg)
+![Unmerge](/help/assets/icons/Unmerge.svg)
 
-## 未解析的註解 {#unresolvedcomment}
+## UnresolvedComment {#unresolvedcomment} 
 
 ![UnresolvedComment](/help/assets/icons/UnresolvedComment.svg)
 
-## UploadToCloud {#uploadtocloud}
+## UploadToCloud {#uploadtocloud} 
 
 ![UploadToCloud](/help/assets/icons/UploadToCloud.svg)
 
-## UploadToCloudOutline {#uploadtocloudoutline}
+## UploadToCloudOutline {#uploadtocloudoutline} 
 
 ![UploadToCloudOutline](/help/assets/icons/UploadToCloudOutline.svg)
 
-## 使用者 {#user}
+## User {#user} 
 
 <img src="./assets/icons/../../../assets/icons/User.svg">
 
-## 使用者活動 {#useractivity}
+## UserActivity {#useractivity} 
 
-![使用者活動](/help/assets/icons/UserActivity.svg)
+![UserActivity](/help/assets/icons/UserActivity.svg)
 
-## UserAdd {#useradd}
+## UserAdd {#useradd} 
 
 ![UserAdd](/help/assets/icons/UserAdd.svg)
 
-## 使用者管理員 {#useradmin}
+## UserAdmin {#useradmin} 
 
-![使用者管理員](/help/assets/icons/UserAdmin.svg)
+![UserAdmin](/help/assets/icons/UserAdmin.svg)
 
-## 使用者箭頭 {#userarrow}
+## UserArrow {#userarrow} 
 
-![使用者箭頭](/help/assets/icons/UserArrow.svg)
+![UserArrow](/help/assets/icons/UserArrow.svg)
 
-## UserCheckout {#usercheckedout}
+## UserCheckedOut {#usercheckedout} 
 
-![UserCheckout](/help/assets/icons/UserCheckedOut.svg)
+![UserCheckedOut](/help/assets/icons/UserCheckedOut.svg)
 
-## 使用者開發人員 {#userdeveloper}
+## UserDeveloper {#userdeveloper} 
 
 ![UserDeveloper](/help/assets/icons/UserDeveloper.svg)
 
-## 使用者編輯 {#useredit}
+## UserEdit {#useredit} 
 
-![使用者編輯](/help/assets/icons/UserEdit.svg)
+![UserEdit](/help/assets/icons/UserEdit.svg)
 
-## 使用者排除 {#userexclude}
+## UserExclude {#userexclude} 
 
-![使用者排除](/help/assets/icons/UserExclude.svg)
+![UserExclude](/help/assets/icons/UserExclude.svg)
 
-## 使用者群組 {#usergroup}
+## UserGroup {#usergroup} 
 
-![使用者群組](/help/assets/icons/UserGroup.svg)
+![UserGroup](/help/assets/icons/UserGroup.svg)
 
-## 使用者鎖定 {#userlock}
+## UserLock {#userlock} 
 
-![使用者鎖定](/help/assets/icons/UserLock.svg)
+![UserLock](/help/assets/icons/UserLock.svg)
 
-## 使用者共用 {#usershare}
+## UserShare {#usershare} 
 
-![使用者共用](/help/assets/icons/UserShare.svg)
+![UserShare](/help/assets/icons/UserShare.svg)
 
-## 使用者新增 {#usersadd}
+## UsersAdd {#usersadd} 
 
-![使用者新增](/help/assets/icons/UsersAdd.svg)
+![UsersAdd](/help/assets/icons/UsersAdd.svg)
 
-## 使用者排除 {#usersexclude}
+## UsersExclude {#usersexclude} 
 
-![使用者排除](/help/assets/icons/UsersExclude.svg)
+![UsersExclude](/help/assets/icons/UsersExclude.svg)
 
-## 使用者鎖定 {#userslock}
+## UsersLock {#userslock} 
 
-![使用者鎖定](/help/assets/icons/UsersLock.svg)
+![UsersLock](/help/assets/icons/UsersLock.svg)
 
-## 使用者共用 {#usersshare}
+## UsersShare {#usersshare} 
 
-![使用者共用](/help/assets/icons/UsersShare.svg)
+![UsersShare](/help/assets/icons/UsersShare.svg)
 
-## 變數 {#variable}
+## Variable {#variable} 
 
-![變數](/help/assets/icons/Variable.svg)
+![Variable](/help/assets/icons/Variable.svg)
 
-## VectorDraw {#vectordraw}
+## VectorDraw {#vectordraw} 
 
 ![VectorDraw](/help/assets/icons/VectorDraw.svg)
 
-## 垂直石砌網格檢視 {#verticalmasonrygridview}
+## VerticalMasonryGridView {#verticalmasonrygridview} 
 
 ![VerticalMasonryGridView](/help/assets/icons/VerticalMasonryGridView.svg)
 
-## VideoCheckedOut {#videocheckedout}
+## VideoCheckedOut {#videocheckedout} 
 
-![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg)
+![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)
 
-## VideoFilled {#videofilled}
+## VideoFilled {#videofilled} 
 
-![已填入視訊](/help/assets/icons/VideoFilled.svg)
+![VideoFilled](/help/assets/icons/VideoFilled.svg)
 
-## 視訊外框 {#videooutline}
+## VideoOutline {#videooutline} 
 
-![視訊大綱](/help/assets/icons/VideoOutline.svg)
+![VideoOutline](/help/assets/icons/VideoOutline.svg)
 
-## ViewAllTag {#viewalltag}
+## ViewAllTag {#viewalltag} 
 
 ![ViewAllTag](/help/assets/icons/ViewAllTag.svg)
 
-## ViewBiWeek {#viewbiweek}
+## ViewBiWeek {#viewbiweek} 
 
 ![ViewBiWeek](/help/assets/icons/ViewBiWeek.svg)
 
-## ViewCard {#viewcard}
+## ViewCard {#viewcard} 
 
-![檢視卡](/help/assets/icons/ViewCard.svg)
+![ViewCard](/help/assets/icons/ViewCard.svg)
 
-## ViewCardOneCol {#viewcardonecol}
+## ViewCardOneCol {#viewcardonecol} 
 
 ![ViewCardOneCol](/help/assets/icons/ViewCardOneCol.svg)
 
-## 檢視欄 {#viewcolumn}
+## ViewColumn {#viewcolumn} 
 
-![檢視資料行](/help/assets/icons/ViewColumn.svg)
+![ViewColumn](/help/assets/icons/ViewColumn.svg)
 
-## ViewDay {#viewday}
+## ViewDay {#viewday} 
 
-![檢視日](/help/assets/icons/ViewDay.svg)
+![ViewDay](/help/assets/icons/ViewDay.svg)
 
-## 檢視詳細資料 {#viewdetail}
+## ViewDetail {#viewdetail} 
 
-![檢視詳細資料](/help/assets/icons/ViewDetail.svg)
+![ViewDetail](/help/assets/icons/ViewDetail.svg)
 
-## 檢視格線 {#viewgrid}
+## ViewGrid {#viewgrid} 
 
-![檢視方格](/help/assets/icons/ViewGrid.svg)
+![ViewGrid](/help/assets/icons/ViewGrid.svg)
 
-## 檢視清單 {#viewlist}
+## ViewList {#viewlist} 
 
-![檢視清單](/help/assets/icons/ViewList.svg)
+![ViewList](/help/assets/icons/ViewList.svg)
 
-## 檢視列 {#viewrow}
+## ViewRow {#viewrow} 
 
-![檢視列](/help/assets/icons/ViewRow.svg)
+![ViewRow](/help/assets/icons/ViewRow.svg)
 
-## 檢視單一 {#viewsingle}
+## ViewSingle {#viewsingle} 
 
-![檢視單一](/help/assets/icons/ViewSingle.svg)
+![ViewSingle](/help/assets/icons/ViewSingle.svg)
 
-## 檢視棧疊 {#viewstack}
+## ViewStack {#viewstack} 
 
-![檢視棧疊](/help/assets/icons/ViewStack.svg)
+![ViewStack](/help/assets/icons/ViewStack.svg)
 
-## 檢視表 {#viewtable}
+## ViewTable {#viewtable} 
 
-![檢視表](/help/assets/icons/ViewTable.svg)
+![ViewTable](/help/assets/icons/ViewTable.svg)
 
-## ViewWeek {#viewweek}
+## ViewWeek {#viewweek} 
 
-![檢視周](/help/assets/icons/ViewWeek.svg)
+![ViewWeek](/help/assets/icons/ViewWeek.svg)
 
-## ViewedMarkA {#viewedmarka}
+## ViewedMarkA {#viewedmarka} 
 
-![已檢視標籤A](/help/assets/icons/ViewedMarkA.svg)
+![ViewedMarkA](/help/assets/icons/ViewedMarkA.svg)
 
-## 暈映 {#vignette}
+## Vignette {#vignette} 
 
-![暈映](/help/assets/icons/Vignette.svg)
+![Vignette](/help/assets/icons/Vignette.svg)
 
-## 可見度 {#visibility}
+## Visibility {#visibility} 
 
-![可見度](/help/assets/icons/Visibility.svg)
+![Visibility](/help/assets/icons/Visibility.svg)
 
-## 可見性關閉 {#visibilityoff}
+## VisibilityOff {#visibilityoff} 
 
 ![VisibilityOff](/help/assets/icons/VisibilityOff.svg)
 
-## 造訪 {#visit}
+## Visit {#visit} 
 
-![造訪](/help/assets/icons/Visit.svg)
+![Visit](/help/assets/icons/Visit.svg)
 
-## VisitShare {#visitshare}
+## VisitShare {#visitshare} 
 
 ![VisitShare](/help/assets/icons/VisitShare.svg)
 
-## 配音 {#voiceover}
+## VoiceOver {#voiceover} 
 
-![配音](/help/assets/icons/VoiceOver.svg)
+![VoiceOver](/help/assets/icons/VoiceOver.svg)
 
-## 音量靜音 {#volumemute}
+## VolumeMute {#volumemute} 
 
-![磁碟區靜音](/help/assets/icons/VolumeMute.svg)
+![VolumeMute](/help/assets/icons/VolumeMute.svg)
 
-## VolumeOne {#volumeone}
+## VolumeOne {#volumeone} 
 
 ![VolumeOne](/help/assets/icons/VolumeOne.svg)
 
-## 第三冊 {#volumethree}
+## VolumeThree {#volumethree} 
 
-![磁碟區三](/help/assets/icons/VolumeThree.svg)
+![VolumeThree](/help/assets/icons/VolumeThree.svg)
 
-## 第二卷 {#volumetwo}
+## VolumeTwo {#volumetwo} 
 
-![磁碟區二](/help/assets/icons/VolumeTwo.svg)
+![VolumeTwo](/help/assets/icons/VolumeTwo.svg)
 
-## 觀看 {#watch}
+## Watch {#watch} 
 
-![觀看](/help/assets/icons/Watch.svg)
+![Watch](/help/assets/icons/Watch.svg)
 
-## 網頁 {#webpages}
+## WebPages {#webpages} 
 
-![網頁](/help/assets/icons/WebPages.svg)
+![WebPages](/help/assets/icons/WebPages.svg)
 
-## 網頁 {#webpage}
+## WebPage {#webpage} 
 
-![網頁](/help/assets/icons/WebPage.svg)
+![WebPage](/help/assets/icons/WebPage.svg)
 
-## 工作流程 {#workflow}
+## Workflow {#workflow} 
 
-![工作流程](/help/assets/icons/Workflow.svg)
+![Workflow](/help/assets/icons/Workflow.svg)
 
-## Workflowadd {#workflowadd}
+## WorkflowAdd {#workflowadd} 
 
 ![WorkflowAdd](/help/assets/icons/WorkflowAdd.svg)
 
-## 扳手 {#wrench}
+## Wrench {#wrench} 
 
-![扳手](/help/assets/icons/Wrench.svg)
+![Wrench](/help/assets/icons/Wrench.svg)
 
-## 放大 {#zoomin}
+## ZoomIn {#zoomin} 
 
-![放大](/help/assets/icons/ZoomIn.svg)
+![ZoomIn](/help/assets/icons/ZoomIn.svg)
 
-## 縮小 {#zoomout}
+## ZoomOut {#zoomout} 
 
-![縮小](/help/assets/icons/ZoomOut.svg)
+![ZoomOut](/help/assets/icons/ZoomOut.svg)
 
+-->

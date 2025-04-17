@@ -3,9 +3,9 @@ title: 模型深入分析
 description: 瞭解如何取得有關您模型的詳細資訊，例如Mix Modeler中的歷史總覽、模型見解和模型品質。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: bc48dc564042890856072a07c3a9715ba9dcdb87
+source-git-commit: d7386eb44b01fa42c2f0c501e09472af4458c4b1
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '2040'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,8 @@ ht-degree: 0%
 模型深入分析中的每個視覺效果都可協助您：
 
 * 將組織行銷活動的影響視覺化並量化。
-* 識別哪些渠道表現優異。
-* 確定哪些管道可能需要優化。
+* 識別哪些管道表現良好。
+* 識別可能需要最佳化的管道。
 
 這些見解可協助您支援資源優先順序和配置。
 
@@ -24,13 +24,21 @@ ht-degree: 0%
 
 1. 從&#x200B;**[!UICONTROL Models]**&#x200B;表格中，選取含有<span style="color:green">●</span>之&#x200B;**[!UICONTROL Last run status]**&#x200B;的模型名稱 **[!UICONTROL Success]**。
 
-1. 從上下文選單中，選擇 **[!UICONTROL Model Insights]**。
+1. 從內容功能表中，選取&#x200B;**[!UICONTROL Model Insights]**。
 
-![模型見解 標籤](/help/assets/model-insights-tabbar.png)
+![模型深入分析標籤列](/help/assets/model-insights-tabbar.png)
 
-可以看到上次刷新指定模型的時間，並使用四個選項卡顯示可視化效果： [模型見解](#model-insights)、 [歸因](#attribution)、 [因素](#factors)、 [診斷](#diagnostics)和 [歷史概述](#historical-overview)。
+您會看到指定模型上次重新整理的時間，並使用四個索引標籤來顯示視覺效果： [模型深入分析](#model-insights)、[歸因](#attribution)、[因素](#factors)、[診斷](#diagnostics)以及[歷史總覽](#historical-overview)。
 
-您可以變更每個標籤上的視覺效果所依據的日期時段。 輸入日期期間或選取![行事曆](/help/assets/icons/Calendar.svg)以選取日期期間。
+您可以變更每個標籤上的視覺效果所根據的日期期間。 輸入日期期間或選取![行事曆](/help/assets/icons/Calendar.svg)以選取日期期間。
+
+## 模型漂移
+
+{{release-limited-testing-section}}
+
+如果在模型上偵測到模型漂移，您將會看到&#x200B;**[!UICONTROL Model drift detected]**&#x200B;對話方塊，其中包含稍後提醒或立即[**[!UICONTROL Retrain]**](overview.md#retrain)模型的選項。 如果您選取&#x200B;**[!UICONTROL Remind me later]**，會在隔天或下次登入時提醒您。
+
+![偵測到模型漂移對話方塊](/help/assets/model-drift-dialog.png)
 
 ## [!UICONTROL Model insights]
 
@@ -40,9 +48,9 @@ ht-degree: 0%
 
 * 您可以將滑鼠停留在每個視覺效果中的個別圖表元素上，以顯示包含更多詳細資訊的彈出視窗。
 
-* 若要下載包含可視化效果數據的CSV文件，請選擇“ ![下載](/help/assets/icons/Download.svg)”。
+* 若要下載包含視覺效果資料的CSV檔案，請選取![下載](/help/assets/icons/Download.svg)。
 
-* 若要在 Excel 格式中下載完整的模型見解數據Microsoft®請選擇“![下載](/help/assets/icons/Download.svg)**[!UICONTROL Download data]**”。
+* 若要以Microsoft® Excel格式下載完整的模型深入分析資料，請選取![下載](/help/assets/icons/Download.svg) **[!UICONTROL Download data]**。
 
 
 ### 依日期和基本媒體所區分的貢獻。
@@ -61,22 +69,22 @@ ht-degree: 0%
 
 ### 行銷績效摘要。
 
-水平條狀圖可視化效果，顯示每個渠道的ROI或CPA性能。 此可視化突出顯示了您行銷投資的ROI/CPA。 頻道根據ROI/CPA按降序排列。 可視化有助於識別哪些管道最有效，哪些可能需要優化。
+顯示每個管道之ROI或CPA績效的水準長條圖視覺效果。 此視覺效果會強調您行銷投資的ROI / CPA。 管道會根據ROI / CPA以遞減順序排名。 視覺效果有助於識別哪些管道最有效，哪些可能需要最佳化。
 
 ### 邊際回應曲線。
 
-折線圖可視化並比較了行銷管道投資產生的邊際回報。  並確定增量回報低於增量支出的收支平衡點。 因此，此可視化可説明您瞭解行銷投資何時開始變得不那麼有效。
+折線圖會視覺化並比較行銷管道投資所產生的邊際回報。  找出增量回報低於增量支出的盈虧平衡點。 因此，此視覺效果可協助您瞭解行銷投資何時開始失去影響力。
 
-曲線、收支平衡點和相應值是根據所選數據範圍和所選通道計算的。
+曲線、收支平衡點及對應的值是根據選取的資料範圍及您選取的管道進行計算。
 
-若要變更通道：
+若要變更頻道：
 
-* 從下拉功能表中 **[!UICONTROL Channel]** 選取通道以更新特定通道的視覺化。
+* 從&#x200B;**[!UICONTROL Channel]**&#x200B;下拉式選單中選取管道，以更新特定管道的視覺效果。
 
 
 ### 接觸點劃分
 
-接觸點劃分表每周顯示所有或選定管道的每周接觸點細分，並顯示與每個渠道關聯的關鍵量度。 該表允許您在更精細的通道級別輕鬆比較、識別趨勢和跟蹤效果。 此表格明確補充[依日期和基本媒體所區分的貢獻](#contribution-by-date-and-base-media)視覺效果和[依管道所區分的貢獻](#contribution-by-channel)視覺效果。
+接觸點劃分表格每週會顯示所有或選取管道的每週接觸點劃分，並顯示與每個管道相關聯的關鍵量度。 此表格可讓您在更精細的管道層級輕鬆比較、識別趨勢和追蹤效能。 此表格明確補充[依日期和基本媒體所區分的貢獻](#contribution-by-date-and-base-media)視覺效果和[依管道所區分的貢獻](#contribution-by-channel)視覺效果。
 
 ![接觸點劃分](../assets/touchpoint-breakdown.png)
 
@@ -85,20 +93,20 @@ ht-degree: 0%
 | 欄 | 說明 |
 |---|---|
 | **[!UICONTROL Date range]** | 要報告的周。 |
-| **[!UICONTROL Touchpoint]** | 具體接觸點通道。 |
-| **[!UICONTROL ROI]** | （**[!UICONTROL Revenue]** - **[!UICONTROL Spend]**） / **[!UICONTROL Spend]**&#x200B;的百分比。 |
+| **[!UICONTROL Touchpoint]** | 特定接觸點管道。 |
+| **[!UICONTROL ROI]** | (**[!UICONTROL Revenue]** - **[!UICONTROL Spend]**) / **[!UICONTROL Spend]**&#x200B;的百分比。 |
 | **[!UICONTROL Revenue]** | 日期範圍的收入。 |
 | **[!UICONTROL CPA]** | **[!UICONTROL Spend]** / **[!UICONTROL Conversions]**。 |
 | **[!UICONTROL Conversions]** | 日期範圍的轉換。 |
-| **[!UICONTROL Spend]** | 數據範圍的花費。 |
+| **[!UICONTROL Spend]** | 資料範圍的支出。 |
 
-要選擇特定通道或所有管道，請從下拉功能表中進行選擇 **[!UICONTROL View]** 。
+若要選取特定頻道或所有頻道，請從「**[!UICONTROL View]**」下拉式選單中選取。
 
-若要下載“接觸點”劃分表的內容，請選擇“下載](/help/assets/icons/Download.svg)**[!UICONTROL Download CSV]**”。![
+若要下載接觸點劃分表格的內容，請選取![下載](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**。
 
-## **[!UICONTROL Factors]**[!BADGE &#x200B;試用版]
+## **[!UICONTROL Factors]** [!BADGE beta]
 
-「因素 [!BADGE 」標籤] 显示外部因素相關見解。
+因素[!BADGE beta]標籤顯示外部因素相關深入分析。
 
 ![因素](/help/assets/factors.png)
 
@@ -119,14 +127,14 @@ ht-degree: 0%
 >「歸因」索引標籤僅適用於啟用MTA的模型。
 
 
-[!UICONTROL Attribution]使用此標籤，您可以了解具有事件層級数据的接觸點和行銷廣告系列的效果。請參閱[建置模型](build.md)。
+使用[!UICONTROL Attribution]標籤，您可以瞭解擁有事件層級資料的接觸點和行銷活動的有效性。  請參閱[建置模型](build.md)。
 
 支援下列歸因模型：
 
 * 根據Mix Modeler中選取的模型：
    * 演演算法 — 受影響的
    * 演演算法 — 遞增式
-* 基於規則：
+* 以規則為基礎：
    * 衰減單位
    * 首次接觸
    * 上次接觸
@@ -137,9 +145,9 @@ ht-degree: 0%
 
 從&#x200B;**[!UICONTROL Attribution Model]**&#x200B;下拉式功能表中選取一或多個歸因模型。 所選的歸因模型會套用至「歸因」標籤中的所有視覺效果。
 
-![歸 因](/help/assets/model-insights-attribution.png)
+![歸因](/help/assets/model-insights-attribution.png)
 
-Mix建模器多點觸控歸因精細事件分數與整體Mix建模器分數和投資回報率一致。 這些分數也以Experience Platform中的數據集形式提供。
+Mix Modeler多點接觸歸因精細事件分數與整體Mix Modeler分數和ROI相符。 這些分數也可在Experience Platform中作為資料集使用。
 
 「歸因」標籤包含下列視覺效果：
 
@@ -153,7 +161,7 @@ Mix建模器多點觸控歸因精細事件分數與整體Mix建模器分數和�
 
 [!UICONTROL Daily trends]、[!UICONTROL Weekly trends]或[!UICONTROL Monthly trends]視覺效果會顯示所選歸因模型的每日、每週或每月轉換趨勢。
 
-要選擇期間，請選擇 **[!UICONTROL Daily trends]**&#x200B;或 **[!UICONTROL Weekly trends]** **[!UICONTROL Monthly trends]**&#x200B;更多![](/help/assets/icons/More.svg)。
+若要選擇句點，請從![更多](/help/assets/icons/More.svg)中選取&#x200B;**[!UICONTROL Daily trends]**、**[!UICONTROL Weekly trends]**&#x200B;或&#x200B;**[!UICONTROL Monthly trends]**。
 
 若要檢視詳細資訊，請將滑鼠停留在特定歸因模型的資料行上，以顯示顯示該資料轉換總數的彈出視窗。
 
@@ -167,16 +175,16 @@ Mix建模器多點觸控歸因精細事件分數與整體Mix建模器分數和�
 
 ### [!UICONTROL Top campaigns]
 
-熱門促銷活動視覺效果會顯示熱門促銷活動表格，其中包含「促銷活動名稱」、「頻道」、「媒體型別」和「遞增式轉換」欄。 此可視化可以幫助您團隊了解特定行銷活動對給定通道的有效性，並提供有關您應該進一步投資哪些廣告系列的見解。
+熱門促銷活動視覺效果會顯示熱門促銷活動表格，其中包含「促銷活動名稱」、「頻道」、「媒體型別」和「遞增式轉換」欄。 此視覺效果有助於讓您的團隊瞭解特定管道的特定行銷活動的成效，並提供您應進一步投資哪些行銷活動的深入分析。
 
-要按頻道、媒體類型或增量轉換的升序 ↑ 或降序 ↓ 對表格進行排序，請選擇列標題並切換排序。
+若要針對「頻道」、「媒體型別」或「遞增轉換」↓以遞增↑或遞減順序來排序表格，請選取欄標題並切換排序。
 
-若要在單獨的對話框中展開表，請從「更多」](/help/assets/icons/More.svg)中進行選擇&#x200B;**[!UICONTROL Expand]**![。
+若要在個別對話方塊中展開表格，請從![更多](/help/assets/icons/More.svg)中選取&#x200B;**[!UICONTROL Expand]**。
 
-展開的熱門廣告系列對話框會顯示相同的表格以及額外的欄位：
+展開的「熱門促銷活動」對話方塊會顯示相同的表格，其中包含下列專案的額外欄
 
 * 增量轉換
-* 影響的轉換
+* 受影響的轉換
 * 首次接觸轉換
 * 上次接觸轉換
 
@@ -199,28 +207,28 @@ Mix建模器多點觸控歸因精細事件分數與整體Mix建模器分數和�
 | 位置 | 說明 |
 |---|---|
 | [!UICONTROL Starter] | 此位置會指出該接觸點是否為轉換路徑中的首次接觸。 |
-| [!UICONTROL Player] | 此位置表示接觸點不是導致轉換的第一次或最後一次接觸。 |
-| [!UICONTROL Closer] | 此位置可指出接觸點是否為轉換前的最後一次接觸。 |
+| [!UICONTROL Player] | 此位置指出接觸點是否不是導致轉換的第一次或最後一次接觸。 |
+| [!UICONTROL Closer] | 此位置會指出該接觸點是否為轉換前的最後一次接觸。 |
 
 
 ### [!UICONTROL Top conversion paths]
 
-視覺效果會顯示 [!UICONTROL Top conversion paths] 根據選取歸因模型的前 5 個轉換路徑。
+[!UICONTROL Top conversion paths]視覺效果會根據選取的歸因模型顯示前5個轉換路徑。
 
 對於每個轉換路徑，您會看到：
 
-* 確實有影響的渠道數量，
-* 歸因路徑總數，
-* 此轉換路徑的屬性化路徑占屬性路徑總數的百分比，
-* 對於每個通道，歸因模型貢獻百分比，以及
-* 這些通道的總和歸因模型貢獻百分比。
+* 確實有影響的管道數，
+* 已歸因的路徑總數，
+* 此轉換路徑的已歸因路徑與已歸因路徑總數的百分比，
+* 每個管道的歸因模型貢獻百分比，以及
+* 這些管道歸因模型貢獻百分比的總和。
 
 
 ## [!UICONTROL Diagnostics]
 
-診斷標籤顯示以下各項的可視化效果：
+「診斷」標籤會顯示下列專案的視覺效果：
 
-* [!UICONTROL Model Assessment] 視覺效果，您可以根據「實際與預測」或「殘餘」轉換進行劃分。
+* [!UICONTROL Model Assessment]視覺效果，您可根據「實際」與「預計」或「剩餘」轉換劃分視覺效果。
 
   若要劃分視覺效果，請從&#x200B;**[!UICONTROL Breakdown]**&#x200B;清單中選取&#x200B;**[!UICONTROL Actual vs. Predicted]**&#x200B;或&#x200B;**[!UICONTROL Residuals]**。
 
@@ -234,33 +242,46 @@ Mix建模器多點觸控歸因精細事件分數與整體Mix建模器分數和�
 
    * 模型品質分數值：
 
-      * R2（R 平方），它指示數據與回歸模型的擬合優度（擬合優度）。
+      * R2 （R平方），表示資料符合回歸模型的程度（符合的程度）。
 
-      * MAPE（平均絕對百分比 錯誤），它是最常用的 KPI 之一，用於測量預測準確性，並將預測誤差表示為實際值的百分比。
+      * MAPE （平均絕對誤差百分比），這是最常用來測量預測準確度的KPI之一，並以實際值的百分比表示預測誤差。
 
       * RMSE （均方根誤差）：顯示平均誤差，根據誤差的平方加權。
 
   若要下載包含資料表資料的CSV檔案，請選取![下載](/help/assets/icons/Download.svg)。
 
-* [!UICONTROL Touchpoint effectiveness]表格，代表Attribution AI演演算法模型的結果。 只會針對特定時段產生此資料表的資料。 選取 **[!UICONTROL As of *xx/xx/xx， xx：xx TZ *]**![資訊](/help/assets/icons/InfoOutline.svg) 以瞭解詳細資訊。
+* [!UICONTROL Touchpoint effectiveness]表格，代表Attribution AI演演算法模型的結果。 只會針對特定時段產生此資料表的資料。 選取&#x200B;**[!UICONTROL As of *xx/xx/xx， xx：xx TZ *]**![資訊](/help/assets/icons/InfoOutline.svg)以取得詳細資料。
 
-  視覺效果會以遞減順序](/help/assets/icons/SortOrderDown.svg)遞[!UICONTROL Efficiency measure]![減順序顯示每個接觸點：
+  視覺效果會以遞減順序顯示每個接觸點的[!UICONTROL Efficiency measure] ![遞減順序](/help/assets/icons/SortOrderDown.svg)：
 
-   * [!UICONTROL Paths touched]：可視化實現轉換的路徑百分比和未達到轉換的路徑百分比。 對於接觸點，當歸因轉換比例較高時，您會看到更多歸因轉化。 此比率比較了銷售機會為轉換的路徑的百分比與未&#x200B;**&#x200B;銷售機會為轉換的路徑的百分比。
+   * [!UICONTROL Paths touched]：將達成轉換的路徑百分比與未達成轉換的路徑百分比視覺化。 對於接觸點，當歸因轉換比率很高時，您會看到更多歸因轉換。 此比率比較產生轉換的路徑百分比與&#x200B;*不會*&#x200B;產生轉換的路徑百分比。
    * [!UICONTROL Efficiency measure]：由演演算法歸因模型產生，效率測量表示某個接觸點對轉換的相對重要性，與接觸點數量無關。 效率是以1到5的級數來衡量。 請注意，接觸點數量越多並不保證測量效率越高。
    * [!UICONTROL Total volume]：使用者接觸接觸點的彙總次數。 數目包括出現在達成轉換的路徑上的接觸點，以及導致轉換的路徑&#x200B;*not*。
 
 ![診斷](/help/assets/model-insights-diagnostics.png)
 
+### 模型漂移偵測
+
+>[!AVAILABILITY]
+>
+>本節所述的功能處於發行的有限測試階段，可能尚未在您的環境中提供。 當功能正式可用時，將移除此附註。 如需Mix Modeler發行程式的相關資訊，請參閱[Mix Modeler功能發行](/help/releases/latest.md)。
+>
+
+如果偵測到模型漂移，您會在頂端看到&#x200B;**[!UICONTROL Model drift detected]**&#x200B;通知。
+
+![模型漂移通知](/help/assets/model-drift-notification.png)
+
+選取&#x200B;**[!UICONTROL Hide]**&#x200B;以隱藏通知。 通知將在第二天或下次登入時重新出現。
+
 
 ## [!UICONTROL Historical overview]
 
-「歷史概述」標籤顯示下列專案的視覺效果：
+「歷史總覽」標籤會顯示下列專案的視覺效果：
 
-![模型 - 歷史概述](/help/assets/model-insights-historical-overview.png)
+![模型 — 歷史總覽](/help/assets/model-insights-historical-overview.png)
 
 
-### 按會計季和產品劃分的轉換和支出
+### 依會計季度和產品劃分的轉換與支出
 
 此視覺效果代表指定日期範圍內各個季度的轉換和支出分佈。 此視覺效果有助於識別支出帶動轉換的高成效季度。
 
@@ -274,16 +295,16 @@ Mix建模器多點觸控歸因精細事件分數與整體Mix建模器分數和�
 
 此視覺效果代表指定日期範圍內每個季度各付費接觸點的支出分佈。 此視覺效果可讓您瞭解哪些接觸點在特定管道和季度內有優先順序。 視覺效果有助於識別管道支出模式和趨勢，尤其是低支出、不常發生的管道。
 
-若要選取要針對此視覺效果顯示的其他以花費為基礎的通道：
+若要為此視覺效果選取要顯示的替代支出型管道：
 
-* 從 **[!UICONTROL Channels]**&#x200B;中選擇通道。
+* 從&#x200B;**[!UICONTROL Channels]**&#x200B;中選取頻道。
 
 
-### 接觸點音量
+### 接觸點數量
 
-此視覺效果代表指定日期範圍內每個季度所有接觸點的數量分布情況。
+此視覺效果代表指定日期範圍內每個季度所有接觸點的數量分佈。
 
-若要選取要為此視覺效果顯示的替代的基於體積的通道：
+若要為此視覺效果選取要顯示的替代音量型色版：
 
 * 從&#x200B;**[!UICONTROL Channels]**&#x200B;中選取頻道。
 
