@@ -3,9 +3,9 @@ title: 建立模型
 description: 瞭解如何在Mix Modeler中建立模型。
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 3b6b127bfaf79cee99a869b21ff0c1a911b3ad6c
+source-git-commit: b08a24856e28a1377728bc2c511f6ea483cbd0fd
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,15 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL Spend share]**&#x200B;區段中：
 
-   * 若要在行銷資料稀疏時使用歷史行銷投資比率來通知模型，請啟動&#x200B;**[!UICONTROL Allow spend share]**。
+   * 若要在行銷資料稀疏時使用歷史行銷投資比率來通知模型，請啟動&#x200B;**[!UICONTROL Allow spend share]**。 建議使用此設定，尤其是在下列情況下：
+      * 管道沒有足夠的觀察值（例如支出、曝光或點按頻率低）。
+      * 您正在模型化尖峰但一般且可能高花費的媒體（例如某些品牌的電視節目），這些媒體中的資料可能會很稀疏。
+
+     >[!NOTE]
+     >
+     >對於一次性投資（例如超級碗廣告），請考慮將該資料納入為因素，而非依賴支出份額。
+     >
+
 
 1. 在&#x200B;**[!UICONTROL MTA enabled]**&#x200B;區段中：
 
