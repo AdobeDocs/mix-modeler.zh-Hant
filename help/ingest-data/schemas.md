@@ -3,9 +3,9 @@ title: 結構描述
 description: 瞭解如何管理將資料擷取至Mix Modeler所需的結構描述。
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: b0306ad6fad8966822ed14c67f159a4aefb4e3f8
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '378'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 ## 彙總或摘要資料
 
-強烈建議使用XDM摘要量度類別，作為任何您想要擷取至Mix Modeler並在Experience Platform中使用的彙總或摘要資料之基礎的結構描述。
+強烈建議您使用XDM摘要量度類別，作為任何您要在Experience Platform中擷取並在Mix Modeler中使用的彙總或摘要資料之基礎的結構描述。
 
 將「XDM摘要量度」類別用於：
 
@@ -72,7 +72,7 @@ ht-degree: 3%
 
 ## 支援的資料型別
 
-目前，Mix Modeler不支援Experience Platform資料型別的子集。 下列基本資料型別（欄位）在[結構描述組合基本概念](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type)中受到支援：
+目前Mix Modeler不支援Experience Platform資料型別的子集。 下列基本資料型別（欄位）在[結構描述組合基本概念](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type)中受到支援：
 
 - 字串
 - 整數
@@ -83,3 +83,8 @@ ht-degree: 3%
 - 位元組
 - 日期
 - 日期時間
+
+
+>[!MORELIKETHIS]
+>
+>- [結構描述](schemas.md)

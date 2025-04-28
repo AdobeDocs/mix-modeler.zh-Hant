@@ -3,9 +3,9 @@ title: 協調資料集概述
 description: 瞭解如何在Mix Modeler中協調資料。
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: beee5fe52188f133b71ed3ef53e40c3aea06ab9c
+source-git-commit: 857641f6c1db749f79056ce2a2ea35fc4d3e3a3c
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '1013'
 ht-degree: 6%
 
 ---
@@ -128,7 +128,7 @@ Mix Modeler的協調服務會將彙總和事件資料同化為一致的資料檢
 
 1. 從左側邊欄選取![資料搜尋](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]**。
 
-1. 從頂端列選取&#x200B;**[!UICONTROL Harmonized Data]**。 系統會根據您定義的欄位、資料集規則、行銷接觸點和轉換，顯示您協調資料的摘要。
+1. 從頂端列選取&#x200B;**[!UICONTROL Harmonized data]**。 系統會根據您定義的欄位、資料集規則、行銷接觸點和轉換，顯示您協調資料的摘要。
 
    1. 若要重新定義重新擷取協調資料所依據的期間，請輸入&#x200B;**[!UICONTROL Date range]**&#x200B;的日期範圍，或使用![行事曆](/help/assets/icons/Calendar.svg)來選取資料範圍。
 
@@ -145,3 +145,13 @@ Mix Modeler的協調服務會將彙總和事件資料同化為一致的資料檢
    1. 選取&#x200B;**[!UICONTROL Submit]**&#x200B;以提交您的欄設定變更。 選取&#x200B;**[!UICONTROL Close]**&#x200B;以取消您所做的任何變更。
 
 1. 如果有更多頁面可供使用，請使用&#x200B;_x _]**的**[!UICONTROL Page _x_&#x200B;上的![向左箭頭](/help/assets/icons/ChevronLeft.svg)或![向右箭頭](/help/assets/icons/ChevronRight.svg)在頁面之間移動。
+
+1. 您可以選擇下載協調的資料。
+
+   1. 選取![下載](/help/assets/icons/Download.svg) [!BADGE 測試版]。
+   1. 在快顯視窗中，選取![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Create]**。
+   1. 輸入&#x200B;**[!UICONTROL Report name]**，例如`Test Report`。
+   1. 選取![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Report]**。
+
+   標題是根據您提供的報告名稱及目前的日期與時間（例如`Test Report_2025_04_23_9-5-18.csv`）而設定的CSV報告會下載至您的預設下載資料夾。
+

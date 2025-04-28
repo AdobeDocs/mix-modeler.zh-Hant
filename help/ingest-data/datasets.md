@@ -3,16 +3,16 @@ title: 資料集
 description: 瞭解如何管理將資料擷取至Mix Modeler所需的資料集。
 feature: Datasets
 exl-id: 788de24d-9021-48f8-87ab-09252b91276a
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 857641f6c1db749f79056ce2a2ea35fc4d3e3a3c
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '55'
 ht-degree: 5%
 
 ---
 
 # 資料集
 
-若要管理資料集，其中包含您要擷取至Experience Platform並在Mix Modeler中使用的資料：
+若要管理資料集，其中包含您要在Experience Platform中擷取並在Mix Modeler中使用的資料：
 
 1. 前往Mix Modeler介面。
 
@@ -22,5 +22,5 @@ ht-degree: 5%
 
 >[!MORELIKETHIS]
 >
->* [擷取資料](overview.md)
->* [綱要](schemas.md)
+>* [擷取資料](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home)
+>* [結構描述](schemas.md)
