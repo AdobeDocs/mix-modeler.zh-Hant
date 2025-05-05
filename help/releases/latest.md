@@ -28,7 +28,7 @@ ht-degree: 3%
 
 | 功能 | 說明 | [轉出開始](#release-strategy) | [全面發佈](#release-strategy) |
 |---|---|---|---|
-| **巢狀條件** | 當您定義合格的資料母體作為模型](/help/models/build.md#configure)的[組態的一部分時，可以使用AND和OR來建立巢狀條件。 | 2025年1月15日 | 2025年2月18日 |
+| **巢狀條件** | 當您定義合格的資料母體作為模型[&#128279;](/help/models/build.md#configure)的組態的一部分時，可以使用AND和OR來建立巢狀條件。 | 2025年1月15日 | 2025年2月18日 |
 | **檢視報告** | 您可以檢視有關您定義為協調資料一部分的[轉換](/help/harmonize-data/conversions.md#view-report)或[行銷接觸點](/help/harmonize-data/marketing-touchpoints.md#view-report)的報告。 | 2025年1月15日 | 2025年2月18日 |
 | **刪除確認** | 系統會提示您確認刪除[計畫](/help/plans/overview.md#delete-plans)或[模型](/help/models/overview.md#delete-models)。 | 2025年1月15日 | 2025年2月18日 |
 | **因素UI改善** | 您可以選取要在模型深入分析中顯示的[因素](/help/models/insights.md#factors-beta)。 | 2025年1月15日 | 2025年2月18日 |

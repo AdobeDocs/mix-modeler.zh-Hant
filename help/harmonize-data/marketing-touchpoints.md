@@ -22,7 +22,7 @@ ht-degree: 0%
 
 1. 從左側邊欄選取![資料搜尋](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]**。
 
-1. 從頂端列選取&#x200B;**[!UICONTROL Marketing touchpoint]**。 您會看到行銷接觸點表格。 如果有更多頁面可供使用，請使用&#x200B;_x _]**的**[!UICONTROL Page _x_&#x200B;上的![向左箭頭](/help/assets/icons/ChevronLeft.svg)或![向右箭頭](/help/assets/icons/ChevronRight.svg)在資料表的頁面之間移動。
+1. 從頂端列選取&#x200B;**[!UICONTROL Marketing touchpoint]**。 您會看到行銷接觸點表格。 如果有更多頁面可供使用，請使用&#x200B;_x _&#x200B;**的**&#x200B;Page _x_&#x200B;上的![向左箭頭](/help/assets/icons/ChevronLeft.svg)或![向右箭頭](/help/assets/icons/ChevronRight.svg)在資料表的頁面之間移動。
 
 表格欄會指定行銷接觸點的詳細資訊：
 
@@ -48,11 +48,11 @@ ht-degree: 0%
 
    1. 定義&#x200B;**[!UICONTROL Touchpoint rule]**。
 
-      1. 從&#x200B;**[!UICONTROL *選取協調的&#x200B;*]**中選取一個值，例如&#x200B;**[!UICONTROL Brand]**。
+      1. 從&#x200B;**[!UICONTROL *選取協調的&#x200B;*]**&#x200B;中選取一個值，例如&#x200B;**[!UICONTROL Brand]**。
 
       1. 選取運運算元![V](/help/assets/icons/ChevronDown.svg)的值，例如&#x200B;**[!UICONTROL is]**。
 
-      1. 從&#x200B;**[!UICONTROL *選取值&#x200B;*]**或輸入值，例如&#x200B;**[!DNL Luma]**。
+      1. 從&#x200B;**[!UICONTROL *選取值&#x200B;*]**&#x200B;或輸入值，例如&#x200B;**[!DNL Luma]**。
 
    1. 從&#x200B;**[!UICONTROL Touchpoint volume]**&#x200B;中選取協調欄位，例如&#x200B;**[!UICONTROL Impressions]**。
 

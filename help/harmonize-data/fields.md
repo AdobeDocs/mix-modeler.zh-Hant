@@ -57,7 +57,7 @@ Mix Modeler中預設可用的全域協調欄位為：
 
 1. 從左側邊欄選取![資料搜尋](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]**。
 
-1. 從頂端列選取&#x200B;**[!UICONTROL Fields]**。 您會看到協調欄位的表格。 如果有更多頁面可供使用，請使用&#x200B;_x _]**的**[!UICONTROL Page _x_&#x200B;上的![向左箭頭](/help/assets/icons/ChevronLeft.svg)或![向右箭頭](/help/assets/icons/ChevronRight.svg)在資料表的頁面之間移動。
+1. 從頂端列選取&#x200B;**[!UICONTROL Fields]**。 您會看到協調欄位的表格。 如果有更多頁面可供使用，請使用&#x200B;_x _&#x200B;**的**&#x200B;Page _x_&#x200B;上的![向左箭頭](/help/assets/icons/ChevronLeft.svg)或![向右箭頭](/help/assets/icons/ChevronRight.svg)在資料表的頁面之間移動。
 
    表格欄指定有關協調欄位的詳細資訊
 
