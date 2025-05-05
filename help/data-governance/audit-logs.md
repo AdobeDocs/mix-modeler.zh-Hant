@@ -67,4 +67,4 @@ If you are subject to the Health Insurance Portability and Accountability Act (H
 
 為您的組織啟用此功能後，活動發生時會自動收集稽核記錄。 您不需要手動啟用稽核記錄收集。
 
-若要檢視和匯出稽核記錄，您必須已被授與稽核記錄存取權存取控制許可權。 若要瞭解如何管理Mix Modeler功能的個別許可權，請參閱[存取控制檔案](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)。
+若要檢視和匯出稽核記錄，您必須已被授與稽核記錄存取權存取控制許可權。 若要瞭解如何管理Mix Modeler功能的個別許可權，請參閱[存取控制檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/home)。

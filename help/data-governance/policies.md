@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # 原則
 
-一旦您通過工作流程建立模型並提交模型的組態，[原則執行](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement)會檢查是否有任何違規。 如果發生原則違規，會出現一個彈出視窗，指出已違反一或多個原則。 此檢查旨在確保您在Experience Platform中的資料作業和行銷動作符合資料使用原則。
+一旦您通過工作流程建立模型並提交模型的組態，[原則執行](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement)會檢查是否有任何違規。 如果發生原則違規，會出現一個彈出視窗，指出已違反一或多個原則。 此檢查旨在確保您在Experience Platform中的資料作業和行銷動作符合資料使用原則。
 
 依預設，Mix Modeler會檢查與下列標籤和行銷動作相關聯的Adobe定義原則是否違規：
 
@@ -61,7 +61,7 @@ Currently,  Mix Modeler does not support all of the data governance functionalit
 
 >[!MORELIKETHIS]
 >
->[資料使用原則概觀](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview)
+>[資料使用原則概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/policies/overview)
 >
 >
 

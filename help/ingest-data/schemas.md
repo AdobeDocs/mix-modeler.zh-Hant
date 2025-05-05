@@ -18,7 +18,7 @@ ht-degree: 3%
 
 1. 選取&#x200B;**[!UICONTROL SETUP]**&#x200B;底下的![結構描述](/help/assets/icons/Schemas.svg) **[!UICONTROL Schemas]**。
 
-如需詳細資訊，請參閱[結構描述UI總覽](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en)。
+如需詳細資訊，請參閱[結構描述UI總覽](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=zh-Hant)。
 
 ## 彙總或摘要資料
 
@@ -72,7 +72,7 @@ ht-degree: 3%
 
 ## 支援的資料型別
 
-目前Mix Modeler不支援Experience Platform資料型別的子集。 下列基本資料型別（欄位）在[結構描述組合基本概念](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type)中受到支援：
+目前Mix Modeler不支援Experience Platform資料型別的子集。 下列基本資料型別（欄位）在[結構描述組合基本概念](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant#data-type)中受到支援：
 
 - 字串
 - 整數

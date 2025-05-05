@@ -90,7 +90,7 @@ Mix Modeler可處理事件層級資料、來自不同圍牆花園的彙總或摘
 * 在[概觀](/help/overview.md)中使用視覺效果。
 * 下載並檢查協調資料集中[協調的資料](/help/harmonize-data/overview.md)中的資料。
 
-若要驗證Experience Platform中是否正確擷取您的資料，您可以[使用Experience Platform查詢服務](https://experienceleague.adobe.com/en/docs/experience-platform/query/home)來寫入及執行SQL查詢。
+若要驗證Experience Platform中是否正確擷取您的資料，您可以[使用Experience Platform查詢服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/home)來寫入及執行SQL查詢。
 
 
 >[!MORELIKETHIS]
