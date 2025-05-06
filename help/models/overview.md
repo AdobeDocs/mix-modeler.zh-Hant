@@ -120,7 +120,7 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
 
 1. 為模型選取![更多](/help/assets/icons/More.svg)，然後從內容功能表選取&#x200B;**[!UICONTROL Duplicate]**。
 
-您被重新導向到建立新模型的步驟，其中提議的名稱是由原始模型的名稱附加的&#x200B;**[!UICONTROL (Copy)](_n_)**&#x200B;所組成。
+您被重新導向到建立新模型的步驟，其中提議的名稱是由原始模型的名稱附加的&#x200B;**[!UICONTROL (Copy)] (_n_)**&#x200B;所組成。
 
 ### 編輯
 
@@ -194,7 +194,7 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
    在&#x200B;**[!UICONTROL Score marketing data]**&#x200B;對話方塊中，選取選項以：
 
    * **[!UICONTROL Score new marketing data from *mm/dd/yyyy *]**，使用新的行銷資料逐步為您的模型評分，或
-   * **[!UICONTROL Score specific date range of marketing data]**以針對特定日期範圍重新核心。
+   * **[!UICONTROL Score specific date range of marketing data]**&#x200B;以針對特定日期範圍重新核心。
 指定日期範圍。 您可以使用![行事曆](/help/assets/icons/Calendar.svg)來選取日期範圍。
 
    ![重新核心模型](../assets/rescore-model.png)
@@ -219,5 +219,5 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
 
 1. 選取多個模型。
 1. 從藍色動作列中，選取![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;以刪除模型。
-1. 在&#x200B;**[!UICONTROL Delete *x *模型]**確認對話方塊中選取&#x200B;**[!UICONTROL Delete]**以刪除模型。 選取&#x200B;**[!UICONTROL Cancel]**以取消。
+1. 在&#x200B;**[!UICONTROL Delete *x *模型]**&#x200B;確認對話方塊中選取&#x200B;**[!UICONTROL Delete]**&#x200B;以刪除模型。 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消。
 
