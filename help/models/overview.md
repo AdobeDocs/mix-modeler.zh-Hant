@@ -3,9 +3,9 @@ title: 模型概觀
 description: 瞭解如何在Mix Modeler中建立和使用模型。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 85f9b42a775006cd3566447b2bb9d0a806fa3e73
+source-git-commit: 8b0dfbe136986bc97c6793538518679b64d7801c
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1208'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
 
 1. 為模型選取![更多](/help/assets/icons/More.svg)，然後從內容功能表選取&#x200B;**[!UICONTROL Duplicate]**。
 
-您被重新導向到建立新模型的步驟，其中提議的名稱是由原始模型的名稱附加的&#x200B;**[!UICONTROL (Copy)] (_n_)**&#x200B;所組成。
+您被重新導向到建立新模型的步驟，其中提議的名稱是由原始模型的名稱附加的&#x200B;**[!UICONTROL (Copy)](_n_)**&#x200B;所組成。
 
 ### 編輯
 
@@ -194,12 +194,17 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
    在&#x200B;**[!UICONTROL Score marketing data]**&#x200B;對話方塊中，選取選項以：
 
    * **[!UICONTROL Score new marketing data from *mm/dd/yyyy *]**，使用新的行銷資料逐步為您的模型評分，或
-   * **[!UICONTROL Score specific date range of marketing data]**&#x200B;以針對特定日期範圍重新核心。
+   * **[!UICONTROL Score specific date range of marketing data]**以針對特定日期範圍重新核心。
 指定日期範圍。 您可以使用![行事曆](/help/assets/icons/Calendar.svg)來選取日期範圍。
 
    ![重新核心模型](../assets/rescore-model.png)
 
 1. 選取&#x200B;**[!UICONTROL Score]**。 使用特定資料範圍重新評分模型時，您會看到&#x200B;**[!UICONTROL Existing model is replaced]**&#x200B;對話方塊，提示您確認以所選日期範圍的新分數取代模型。 選取&#x200B;**[!UICONTROL Replace model]**&#x200B;以確認。
+
+>[!IMPORTANT]
+>
+>重新核心模型不會變更任何已根據重新核心模型建立的計畫。 若要在計畫中使用新的重新整理模型，您必須建立新計畫。
+
 
 
 ### 刪除模型
@@ -214,5 +219,5 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
 
 1. 選取多個模型。
 1. 從藍色動作列中，選取![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;以刪除模型。
-1. 在&#x200B;**[!UICONTROL Delete *x *模型]**&#x200B;確認對話方塊中選取&#x200B;**[!UICONTROL Delete]**&#x200B;以刪除模型。 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消。
+1. 在&#x200B;**[!UICONTROL Delete *x *模型]**確認對話方塊中選取&#x200B;**[!UICONTROL Delete]**以刪除模型。 選取&#x200B;**[!UICONTROL Cancel]**以取消。
 
