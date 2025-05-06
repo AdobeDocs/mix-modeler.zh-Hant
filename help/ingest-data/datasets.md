@@ -18,11 +18,11 @@ ht-degree: 4%
 
 1. 選取&#x200B;**[!UICONTROL SETUP]**&#x200B;底下的![資料](/help/assets/icons/Data.svg) **[!UICONTROL Datasets]**。
 
-如需詳細資訊，請參閱[資料集使用者介面指南](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en)。
+如需詳細資訊，請參閱[資料集使用者介面指南](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hant)。
 
 >[!MORELIKETHIS]
 >
->* [擷取資料](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home)
+>* [擷取資料](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ingestion/home)
 >* [結構描述](schemas.md)
->* [資料擷取總覽(Experience Platform)](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home)
->* [Source聯結器(Experience Platform)](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+>* [資料擷取總覽(Experience Platform)](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ingestion/home)
+>* [Source聯結器(Experience Platform)](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/home)
