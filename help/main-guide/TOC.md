@@ -2,10 +2,10 @@
 user-guide-title: Mix Modeler 指南
 breadcrumb-title: Mix Modeler 指南
 user-guide-description: 了解如何使用 Mix Modeler。
-source-git-commit: 0ee212a626986e4c721d0e58f2528d0ca1a9fdbf
+source-git-commit: 1e2a6d1bc32060d6de02b7ac7c879da3046f69e7
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 47%
+source-wordcount: '88'
+ht-degree: 51%
 
 ---
 
@@ -13,28 +13,29 @@ ht-degree: 47%
 
 + [Mix Modeler 指南](/help/overview.md)
 
-+ 開始使用{#get-started}
++ 開始使用 {#get-started}
    + [什麼是Mix Modeler？](/help/get-started/about.md)
    + [應用程式工作流程](/help/get-started/workflow.md)
 
-+ 首頁{#dashboard}
++ 首頁 {#dashboard}
    + [概觀](/help/dashboard/overview.md)
    + [協調的資料](/help/dashboard/harmonized-data.md)
    + [計畫](/help/dashboard/plans.md)
 
-+ 模型{#models}
++ 模型 {#models}
    + [概觀](/help/models/overview.md)
    + [建立模型](/help/models/build.md)
+   + [訓練模型並為其評分](/help/models/train-score.md)
    + [模型深入分析](/help/models/insights.md)
    + [使用評分資料](/help/models/scoring-data.md)
 
-+ 計畫{#plans}
++ 計畫 {#plans}
    + [概觀](/help/plans/overview.md)
    + [建置計畫](/help/plans/build.md)
    + [計畫深入分析](/help/plans/insights.md)
    + [比較計畫](/help/plans/compare.md)
 
-+ 協調資料集{#harmonize-data}
++ 協調資料集 {#harmonize-data}
    + [概觀](/help/harmonize-data/overview.md)
    + [欄位](/help/harmonize-data/fields.md)
    + [資料集規則](/help/harmonize-data/dataset-rules.md)
@@ -42,12 +43,12 @@ ht-degree: 47%
    + [轉換](/help/harmonize-data/conversions.md)
    + [使用情況報表](/help/harmonize-data/usage-report.md)
 
-+ 擷取資料{#ingest-data}
++ 擷取資料 {#ingest-data}
    + [概觀](/help/ingest-data/overview.md)
    + [結構描述](/help/ingest-data/schemas.md)
    + [資料集](/help/ingest-data/datasets.md)
 
-+ 資料控管{#data-governance}
++ 資料治理 {#data-governance}
    + [概觀](/help/data-governance/overview.md)
    + [存取控制](/help/data-governance/access-controls.md)
    + [稽核記錄](/help/data-governance/audit-logs.md)
@@ -57,7 +58,7 @@ ht-degree: 47%
 
 + [管理](/help/main-guide/administration.md)
 
-+ 發行版本{#releases}
++ 發行版本 {#releases}
    + [最新版本](/help/releases/latest.md)
    + [2024版本](/help/releases/2024.md)
    + [2023版本](/help/releases/2023.md)

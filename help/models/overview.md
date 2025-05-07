@@ -3,9 +3,9 @@ title: 模型概觀
 description: 瞭解如何在Mix Modeler中建立和使用模型。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 8b0dfbe136986bc97c6793538518679b64d7801c
+source-git-commit: 6855d19347b7f6f1477a6265310df5950b8463c9
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
    * ![時鐘](/help/assets/icons/Clock.svg) — 表示模型生命週期中步驟的目前執行中。
    * ![Close](/help/assets/icons/Close.svg) — 表示模型生命週期中的步驟執行失敗。
 
-   | 狀態 | 建立 | 訓練 | 分數 | 重新訓練 | Rescore |
+   | 狀態 | [組建](/help/models/build.md) | [訓練](/help/models/train-score.md#train) | [分數](/help/models/train-score.md#score) | [重新訓練](/help/models/train-score.md#train) | [Recore](/help/models/train-score.md#score) |
    |---|:---:|:---:|:---:|:---:|:---:|
    | 進行中 | ![核取記號](/help/assets/icons/Checkmark.svg) | | | | |
    | 進行中 | ![核取記號](/help/assets/icons/Checkmark.svg) | ![時鐘](/help/assets/icons/Clock.svg) | | | |
@@ -120,7 +120,7 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
 
 1. 為模型選取![更多](/help/assets/icons/More.svg)，然後從內容功能表選取&#x200B;**[!UICONTROL Duplicate]**。
 
-您被重新導向到建立新模型的步驟，其中提議的名稱是由原始模型的名稱附加的&#x200B;**[!UICONTROL (Copy)] (_n_)**&#x200B;所組成。
+您被重新導向到建立新模型的步驟，其中提議的名稱是由原始模型的名稱附加的&#x200B;**[!UICONTROL (Copy)](_n_)**&#x200B;所組成。
 
 ### 編輯
 
@@ -150,61 +150,14 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
 
 
 
-### 重新訓練
+### 訓練
 
-重新訓練模型僅適用於訓練成功的模型。
-
-當您想要執行下列動作時，請考慮重新訓練模型：
-
-* 包含新的增量行銷和因子資料。 例如，在上個季度，市場動態已變更，或您的行銷資料分佈已大幅變更。
-
-若要重新訓練模型，請執行下列動作：
-
-1. 從左側邊欄選取![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**。
-
-1. 為模型選取![更多](/help/assets/icons/More.svg)，然後從內容功能表選取&#x200B;**[!UICONTROL Train]**。 或者，從藍色動作列選取![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Train]**。
-
-   在&#x200B;**[!UICONTROL Train model]**&#x200B;對話方塊中，選取選項以：
-
-   * **[!UICONTROL Train model with last 2 years of marketing data]**，或
-   * **[!UICONTROL Train model using specific date range of data]**。
-指定日期範圍。 您可以使用![行事曆](/help/assets/icons/Calendar.svg)來選取日期範圍。 您至少必須選取一年內的資料範圍。
-
-   ![重新訓練模型](../assets/retrain-model.png)
-
-1. 選取&#x200B;**[!UICONTROL Train]**&#x200B;以重新訓練模型。
+當您想要包含新的增量行銷和因子資料時，請考慮重新訓練模型。 如需詳細資訊，請參閱[訓練與評分模型](train-score.md#train)。
 
 
-### 評分或recore
+### 分數
 
-
-您可以根據新的行銷資料對模型遞增評分，或針對特定日期範圍重新核心模型。
-
-當您想要執行下列動作時，請考慮重新核心模型：
-
-* 更正不正確的行銷資料。 例如，您納入模型訓練和評分的最近付費搜尋資料遺漏了一週的資料。
-* 使用新的增量行銷資料，這些資料已透過您設定為協調資料一部分的資料集更新而提供。
-
-若要評分或重新核心模型：
-
-1. 從左側邊欄選取![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**。
-
-1. 為模型選取![更多](/help/assets/icons/More.svg)，然後從內容功能表選取&#x200B;**[!UICONTROL Score]**。 或者，從藍色動作列選取![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Score]**。
-
-   在&#x200B;**[!UICONTROL Score marketing data]**&#x200B;對話方塊中，選取選項以：
-
-   * **[!UICONTROL Score new marketing data from *mm/dd/yyyy *]**，使用新的行銷資料逐步為您的模型評分，或
-   * **[!UICONTROL Score specific date range of marketing data]**&#x200B;以針對特定日期範圍重新核心。
-指定日期範圍。 您可以使用![行事曆](/help/assets/icons/Calendar.svg)來選取日期範圍。
-
-   ![重新核心模型](../assets/rescore-model.png)
-
-1. 選取&#x200B;**[!UICONTROL Score]**。 使用特定資料範圍重新評分模型時，您會看到&#x200B;**[!UICONTROL Existing model is replaced]**&#x200B;對話方塊，提示您確認以所選日期範圍的新分數取代模型。 選取&#x200B;**[!UICONTROL Replace model]**&#x200B;以確認。
-
->[!IMPORTANT]
->
->重新核心模型不會變更任何已根據重新核心模型建立的計畫。 若要在計畫中使用新的重新整理模型，您必須建立新計畫。
-
+您可以根據新的行銷資料對模型遞增評分，或針對特定日期範圍重新核心模型。 如需詳細資訊，請參閱[訓練與評分模型](train-score.md#score)。
 
 
 ### 刪除模型
@@ -219,5 +172,5 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
 
 1. 選取多個模型。
 1. 從藍色動作列中，選取![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;以刪除模型。
-1. 在&#x200B;**[!UICONTROL Delete *x *模型]**&#x200B;確認對話方塊中選取&#x200B;**[!UICONTROL Delete]**&#x200B;以刪除模型。 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消。
+1. 在&#x200B;**[!UICONTROL Delete *x *模型]**確認對話方塊中選取&#x200B;**[!UICONTROL Delete]**以刪除模型。 選取&#x200B;**[!UICONTROL Cancel]**以取消。
 
