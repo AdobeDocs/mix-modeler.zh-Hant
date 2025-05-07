@@ -56,7 +56,7 @@ ht-degree: 0%
    在&#x200B;**[!UICONTROL Score marketing data]**&#x200B;對話方塊中，選取選項以：
 
    * **[!UICONTROL Score new marketing data from *mm/dd/yyyy *]**，使用新的行銷資料逐步為您的模型評分，或
-   * **[!UICONTROL Score specific date range of marketing data]**以針對特定日期範圍重新核心。
+   * **[!UICONTROL Score specific date range of marketing data]**&#x200B;以針對特定日期範圍重新核心。
 指定日期範圍。 您可以使用![行事曆](/help/assets/icons/Calendar.svg)來選取日期範圍。
 
    ![重新核心模型](../assets/rescore-model.png)
