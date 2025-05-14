@@ -32,7 +32,7 @@ ht-degree: 0%
 
 若要關閉介面，請選取&#x200B;**[!UICONTROL Close]**。
 
-若要變更如何檢視您計畫的ROI，請在&#x200B;**[!UICONTROL View ROI]**&#x200B;選取&#x200B;**[!UICONTROL X]**&#x200B;或&#x200B;**[!UICONTROL  %]**。
+若要變更如何檢視您計畫的ROI，請在&#x200B;**[!UICONTROL View ROI]**&#x200B;選取&#x200B;**[!UICONTROL X]**&#x200B;或&#x200B;**[!UICONTROL &#x200B; %]**。
 
 ## 預測的付費管道支出和ROI
 
