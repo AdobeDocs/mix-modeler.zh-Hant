@@ -4,18 +4,26 @@ description: 最新 Mix Modeler 發行說明
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 9b400aeac26a3b02a8dfaf1faad435e0d3ac6cd8
+source-git-commit: 58f8745a224407cfb8ce3912bde9f0f85b5d8b46
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '433'
 ht-degree: 3%
 
 ---
 
 # 目前的Mix Modeler發行說明
 
-**上次更新日期**：2025年2月。
+**上次更新日期**：2025年5月14日。
 
 以下發行說明涵蓋最新版本的Mix Modeler。 Mix Modeler版本會在持續傳遞模式上運作，允許大約每月發行。 因此，這些發行說明會相應更新，因此請定期檢視。
+
+
+## 2025年5月至6月
+
+| 功能 | 說明 | [轉出開始](#release-strategy) | [全面發佈](#release-strategy) |
+|---|---|---|---|
+| **支出模式設定** | 當您建立計畫時，您現在可以選擇在定義每個預算日期範圍的支出模式時使用[歷史參考](/help/plans/build.md)資料（例如過去行銷支出資料和深入分析）。 | 2025年5月14日 | 2025年5月14日 |
+| **進階計畫組態** | 您可以為計畫定義[進階設定](/help/plans/build.md)，例如每次轉換的平均收入和管道成本。 | 2025年5月14日 | 2025年5月14日 |
 
 ## 2025年3月至4月
 
@@ -29,7 +37,7 @@ ht-degree: 3%
 
 | 功能 | 說明 | [轉出開始](#release-strategy) | [全面發佈](#release-strategy) |
 |---|---|---|---|
-| **巢狀條件** | 當您定義合格的資料母體作為模型[&#128279;](/help/models/build.md#configure)的組態的一部分時，可以使用AND和OR來建立巢狀條件。 | 2025年1月15日 | 2025年2月18日 |
+| **巢狀條件** | 當您定義合格的資料母體作為模型](/help/models/build.md#configure)的[組態的一部分時，可以使用AND和OR來建立巢狀條件。 | 2025年1月15日 | 2025年2月18日 |
 | **檢視報告** | 您可以檢視有關您定義為協調資料一部分的[轉換](/help/harmonize-data/conversions.md#view-report)或[行銷接觸點](/help/harmonize-data/marketing-touchpoints.md#view-report)的報告。 | 2025年1月15日 | 2025年2月18日 |
 | **刪除確認** | 系統會提示您確認刪除[計畫](/help/plans/overview.md#delete-plans)或[模型](/help/models/overview.md#delete-models)。 | 2025年1月15日 | 2025年2月18日 |
 | **因素UI改善** | 您可以選取要在模型深入分析中顯示的[因素](/help/models/insights.md#factors-beta)。 | 2025年1月15日 | 2025年2月18日 |

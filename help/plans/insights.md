@@ -3,9 +3,9 @@ title: 計畫深入分析
 description: 瞭解如何檢視計畫的深入分析以及在Mix Modeler中編輯計畫。
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: 3545a7045478108db4d9f6bb87df679bfede5a45
+source-git-commit: 1d017960409e5433ac6b4950a5cf7a5b3174840a
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 若要關閉介面，請選取&#x200B;**[!UICONTROL Close]**。
 
-若要變更如何檢視您計畫的ROI，請在&#x200B;**[!UICONTROL View ROI]**&#x200B;選取&#x200B;**[!UICONTROL X]**&#x200B;或&#x200B;**[!UICONTROL &#x200B; %]**。
+若要變更如何檢視您計畫的ROI，請在&#x200B;**[!UICONTROL View ROI]**&#x200B;選取&#x200B;**[!UICONTROL X]**&#x200B;或&#x200B;**[!UICONTROL  %]**。
 
 ## 預測的付費管道支出和ROI
 
@@ -84,13 +84,27 @@ ht-degree: 0%
 
 1. 若要編輯計畫，請選取![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL Edit plan]**：
 
-   1. 在&#x200B;**[!UICONTROL Spend selection]**&#x200B;區段中，針對每個預算日期範圍，使用![V形](/help/assets/icons/ChevronRight.svg)開啟該資料範圍的管道分佈檢視。
+   在&#x200B;**[!UICONTROL Spend selection]**&#x200B;區段中，針對每個預算日期範圍，使用![V形](/help/assets/icons/ChevronRight.svg)開啟該資料範圍的管道分佈檢視。
+
+   如果您想要使用過去的行銷支出資料和深入分析，可以使用歷史參考資料。 您應將歷史參考資料考量至：
+
+   - 透過強調高績效管道和績效不佳的管道，改善預算分配。
+   - 支援趨勢分析。
+   - 在設定計畫時，找出有效策略並避免錯誤。
+
+   如果您選取歷史參考期間，則需調整先前的支出模式偏好設定，而Mix Modeler的計畫功能可產生符合您期望的計畫。 這些計畫最終應能增強利害關係人的信心，確保行銷計畫是策略性的、高效的，並且這些計畫以證實的效能資料和業務需求為基礎。
+
+   ![花費選取專案](/help/assets/plan-spend-selection.png)
+
+   1. 選取 **[!UICONTROL Spend pattern]**。
+
+      - 預設值為&#x200B;**[!UICONTROL Automatic]**。
+      - 選取「**[!UICONTROL Historical reference]**」並輸入&#x200B;**[!UICONTROL Start date]**，以參照已可供Mix Modeler使用的過去行銷支出資料。 **[!UICONTROL End date]**&#x200B;是根據選取的資料範圍自動決定。 建議的開始日期是第一個可用的過去行銷支出資料。 若要指出您已選取不存在的歷史參考期，您會看到![警示紅色](/help/assets/icons/AlertRed.svg)。
+
 
    1. 若要修改每個管道的預算，請修改&#x200B;**[!UICONTROL Min]**&#x200B;和&#x200B;**[!UICONTROL Max]**&#x200B;的值，或使用滑桿。
 
    1. 若要在貨幣或百分比輸入之間切換，請為&#x200B;**[!UICONTROL View spend by]**&#x200B;選取&#x200B;**[!UICONTROL $]**&#x200B;或&#x200B;**[!UICONTROL %]**。
-
-      ![花費選取專案](/help/assets/spend-selection.png)
 
    1. 若要編輯計畫的詳細資料，請選取&#x200B;**[!UICONTROL Edit details]**：
 
