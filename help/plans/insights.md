@@ -3,9 +3,9 @@ title: 計畫深入分析
 description: 瞭解如何檢視計畫的深入分析以及在Mix Modeler中編輯計畫。
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: fbed53a1c394d6d110db6a8a181ca815056377de
+source-git-commit: 3545a7045478108db4d9f6bb87df679bfede5a45
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 若要關閉介面，請選取&#x200B;**[!UICONTROL Close]**。
 
-若要變更如何檢視您計畫的ROI，請在&#x200B;**[!UICONTROL View ROI]**&#x200B;選取&#x200B;**[!UICONTROL X]**&#x200B;或&#x200B;**[!UICONTROL &#x200B; %]**。
+若要變更如何檢視您計畫的ROI，請在&#x200B;**[!UICONTROL View ROI]**&#x200B;選取&#x200B;**[!UICONTROL X]**&#x200B;或&#x200B;**[!UICONTROL  %]**。
 
 ## 預測的付費管道支出和ROI
 
@@ -114,6 +114,39 @@ ht-degree: 0%
       1. 選取&#x200B;**[!UICONTROL Next]**&#x200B;以返回&#x200B;**[!UICONTROL Spend]**&#x200B;區段。 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以返回您的計畫總覽。
 
          ![計畫詳細資料](/help/assets/plan-details.png)
+
+   1. 如果您已定義計畫的進階組態，請選取&#x200B;**[!UICONTROL Next]**。
+
+      ![編輯進階設定](../assets/edit-plan-advanced-configuration.png)
+
+      - 您的計畫名稱、模型、日期範圍和總預算已彙總起來。
+
+      - 依預設，Mix Modeler會使用最新的歷史季節性資料，自動計算每次轉換的平均收入。 在&#x200B;**[!UICONTROL Average Revenue per conversion]**&#x200B;中，您可以定義每次轉換的特定平均收入。
+
+         1. 針對預算中的每個日期範圍：
+            1. 從&#x200B;**[!UICONTROL Date range]**&#x200B;下拉式功能表中選取日期範圍。
+            1. 輸入&#x200B;**[!UICONTROL Average revenue]**&#x200B;值。
+
+         1. 選取「![AddCircle](/help/assets/icons/AddCircle.svg)新增每個轉換單位的自訂平均收入」以新增日期範圍。
+         1. 選取![RemoveCircle](/help/assets/icons/RemoveCircle.svg)以移除日期範圍。
+
+        >[!NOTE]
+        >
+        >如果您的模型不包含歷史收入資料，則必須針對您為預算指定的每個日期範圍，定義每次轉換的平均收入。
+        >
+
+      - 依預設，Mix Modeler會使用最新的歷史季節性資料自動計算管道成本。 在&#x200B;**[!UICONTROL Channel costs]**&#x200B;中，您可以定義自訂管道成本。
+
+         1. 針對模型中的各個管道，定義自訂管道成本。
+            1. 從&#x200B;**[!UICONTROL Channel]**&#x200B;下拉式選單中選取頻道。
+            1. 針對預算中的每個日期範圍：
+               1. 從&#x200B;**[!UICONTROL Date range]**&#x200B;下拉式功能表中選取日期範圍。
+               1. 輸入&#x200B;**[!UICONTROL Average revenue]**&#x200B;值。
+            1. 選取![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom average revenue per conversion unit]**&#x200B;以新增日期範圍。
+            1. 選取![RemoveCircle](/help/assets/icons/RemoveCircle.svg)以移除日期範圍。
+
+         1. 選取![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom channel cost]**&#x200B;以新增頻道。
+         1. 選取![CrossSize400](/help/assets/icons/CrossSize400.svg)以移除自訂頻道。
 
 
 1. 完成編輯計畫時，請選取&#x200B;**[!UICONTROL Edit]**。
