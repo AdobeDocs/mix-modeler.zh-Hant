@@ -3,7 +3,7 @@ title: 建置計畫
 description: 瞭解如何在Mix Modeler中建置計畫。
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: 1d017960409e5433ac6b4950a5cf7a5b3174840a
+source-git-commit: 3650135ee3ed5c435593aeed94bee8952bbe6df4
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
    1. 在&#x200B;**[!UICONTROL Setup]**&#x200B;區段中：
 
       1. 輸入&#x200B;**[!UICONTROL Plan name]**，例如`Demo plan`。 輸入&#x200B;**[!UICONTROL Description]**，例如`Demo plan for Luma company`。
-      1. 從&#x200B;**[!UICONTROL _中選取&#x200B;**&#x200B;[!UICONTROL Model]&#x200B;**選取選項……_.]**
+      1. 從&#x200B;**[!UICONTROL _中選取&#x200B;**[!UICONTROL Model]**選取選項……_.]**
       1. 您可以選取![LinkOut](/help/assets/icons/LinkOut.svg) **[!UICONTROL Create model]**，以直接從計畫建立中建立模型。 這會在您的瀏覽器中開啟新索引標籤，並顯示[模型](../models/overview.md)介面。
 
          ![計畫設定](/help/assets/plan-setup.png)
@@ -84,10 +84,10 @@ ht-degree: 0%
    1. 若要在貨幣或百分比輸入之間切換，請為&#x200B;**[!UICONTROL View spend by]**&#x200B;選取&#x200B;**[!UICONTROL $]**&#x200B;或&#x200B;**[!UICONTROL %]**。
 
    1. 完成後，選取&#x200B;**[!UICONTROL Create]**。
-
       ![花費選取專案](/help/assets/plan-spend-selection.png)
 
    1. 選擇「**[!UICONTROL Next]**」。
+
 
 
 1. 您可以在&#x200B;**[!UICONTROL Advanced configurations]**&#x200B;區段中輸入選用的進階組態。
