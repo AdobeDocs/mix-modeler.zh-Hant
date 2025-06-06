@@ -14,7 +14,7 @@ ht-degree: 0%
 
 請觀看這部影片，瞭解Mix Modeler的使用者工作流程簡介。
 
->[!VIDEO](https://video.tv.adobe.com/v/3424854/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3440218/?learn=on&captions=chi_hant)
 
 
 Mix Modeler中的典型工作流程包含下列活動：
