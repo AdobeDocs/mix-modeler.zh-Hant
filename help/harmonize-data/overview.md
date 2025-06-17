@@ -3,10 +3,10 @@ title: 協調資料集概述
 description: 瞭解如何在Mix Modeler中協調資料。
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 857641f6c1db749f79056ce2a2ea35fc4d3e3a3c
+source-git-commit: 80fbb8aea3e66342a7887f1660af0f4bf05ffcdb
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 6%
+source-wordcount: '1192'
+ht-degree: 5%
 
 ---
 
@@ -144,7 +144,7 @@ Mix Modeler的協調服務會將彙總和事件資料同化為一致的資料檢
 
    1. 選取&#x200B;**[!UICONTROL Submit]**&#x200B;以提交您的欄設定變更。 選取&#x200B;**[!UICONTROL Close]**&#x200B;以取消您所做的任何變更。
 
-1. 如果有更多頁面可供使用，請使用&#x200B;_x _&#x200B;**的**&#x200B;Page _x_&#x200B;上的![向左箭頭](/help/assets/icons/ChevronLeft.svg)或![向右箭頭](/help/assets/icons/ChevronRight.svg)在頁面之間移動。
+1. 如果有更多頁面可供使用，請使用&#x200B;_x _]**的**[!UICONTROL Page _x_&#x200B;上的![向左箭頭](/help/assets/icons/ChevronLeft.svg)或![向右箭頭](/help/assets/icons/ChevronRight.svg)在頁面之間移動。
 
 1. 您可以選擇下載協調的資料。
 
@@ -154,4 +154,28 @@ Mix Modeler的協調服務會將彙總和事件資料同化為一致的資料檢
    1. 選取![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Report]**。
 
    標題是根據您提供的報告名稱及目前的日期與時間（例如`Test Report_2025_04_23_9-5-18.csv`）而設定的CSV報告會下載至您的預設下載資料夾。
+
+
+## 最佳作法
+
+當您建立協調的資料集時，請套用以下最佳實務。
+
+### 結構描述
+
+* 避免資料型別不相符。 當擷取的資料集記錄中某個欄位的資料型別不符合您在基礎結構描述中為該欄位設定的資料型別時，就會發生不相符。
+* 避免不正確的結構描述型別。 當您嘗試使用不符合特定資料型別的資料集來內嵌該資料的結構時，會發生不正確的結構描述型別。 例如，您嘗試使用外部因素資料集來內嵌摘要資料。
+
+### 資料對應
+
+* 確保您已為每個事件資料集正確設定身分。
+
+### 資料品質
+
+* 對於資料集中需要時間戳記資料的所有記錄，請確保您使用一致的日期格式和時間格式。
+* 對於彙總或摘要資料集中的記錄，請確保使用相同的詳細程度（日或周）。
+
+### 計算資料
+
+* 避免在資料集中出現重複的列。
+* 確認您上傳的每個資料集都是唯一管道和轉換型別專屬的資料集。 跨多個資料集的重複接觸點或轉換會影響模型輸出和品質。
 
