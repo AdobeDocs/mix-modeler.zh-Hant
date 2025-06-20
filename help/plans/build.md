@@ -25,7 +25,7 @@ ht-degree: 0%
    1. 在&#x200B;**[!UICONTROL Setup]**&#x200B;區段中：
 
       1. 輸入&#x200B;**[!UICONTROL Plan name]**，例如`Goal based plan`。 輸入&#x200B;**[!UICONTROL Description]**，例如`A goal based plan`。
-      1. 從&#x200B;**[!UICONTROL _中選取&#x200B;**[!UICONTROL Model]**選取選項……_.]**
+      1. 從&#x200B;**[!UICONTROL _中選取&#x200B;**&#x200B;[!UICONTROL Model]&#x200B;**選取選項……_.]**
 
          ![計畫設定](/help/assets/plan-setup.png)
 
@@ -58,7 +58,7 @@ ht-degree: 0%
             1. 從&#x200B;**[!UICONTROL Select target metric]**&#x200B;下拉式功能表中選取目標量度。 您可以選取介於&#x200B;**[!UICONTROL Conversion]**、**[!UICONTROL CPA]**、**[!UICONTROL Revenue]**&#x200B;或&#x200B;**[!UICONTROL ROI]**&#x200B;之間。
             1. 從&#x200B;**[!UICONTROL Select model]**&#x200B;下拉式功能表中選取模型。
          1. 透過輸入日期或使用![行事曆](/help/assets/icons/Calendar.svg)選取日期範圍來指定日期範圍。
-         1. 輸入所選目標量度的值。 例如，**[!UICONTROL Conversion]**&#x200B;的數字、**[!UICONTROL ROI]**&#x200B;的百分比，或&#x200B;**[!UICONTROL CPA]**&#x200B;和&#x200B;**[!UICONTROL Revenue]**的貨幣值。
+         1. 輸入所選目標量度的值。 例如，**[!UICONTROL Conversion]**&#x200B;的數字、**[!UICONTROL ROI]**&#x200B;的百分比，或&#x200B;**[!UICONTROL CPA]**&#x200B;和&#x200B;**[!UICONTROL Revenue]**&#x200B;的貨幣值。
 若要新增其他日期範圍（每個日期範圍都有其目標量度），請選取![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**。
 若要刪除日期範圍和相關聯的目標量度，請選取![關閉](/help/assets/icons/Close.svg)。
          1. 若要定義您要在內限制計畫的選擇性最大預算，請執行下列步驟：
@@ -108,6 +108,7 @@ ht-degree: 0%
    1. 若要在貨幣或百分比輸入之間切換，請為&#x200B;**[!UICONTROL View spend by]**&#x200B;選取&#x200B;**[!UICONTROL $]**&#x200B;或&#x200B;**[!UICONTROL %]**。 如果您選取的目標量度不是貨幣型量度，此切換功能會停用。
 
    1. 完成後，選取&#x200B;**[!UICONTROL Create]**。
+
       ![花費選取專案](/help/assets/plan-spend-selection.png)
 
    1. 選擇「**[!UICONTROL Next]**」。
