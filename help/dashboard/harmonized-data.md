@@ -1,9 +1,9 @@
 ---
 title: 協調的資料儀表板
-description: 瞭解如何在Mix Modeler中使用協調的資料概觀儀表板。
+description: 瞭解如何使用Mix Modeler中的協調資料概觀儀表板。
 feature: Dashboard, Harmonized Data
 exl-id: fbb01613-d648-4db1-a782-a7720b7a03ad
-source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
+source-git-commit: 9776b79cfc4a8eaebecd4bce85cfc9d85329c910
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 協調的資料
 
-Mix Modeler![首頁](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;中的&#x200B;**[!UICONTROL Harmonized data]**&#x200B;索引標籤提供您設定為要用來做為內嵌資料及協調資料設定一部分的協調資料見解。
+Mix Modeler ![首頁](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;中的&#x200B;**[!UICONTROL Harmonized data]**&#x200B;索引標籤提供您已設定為要用於內嵌資料與協調資料設定一部分的協調資料見解。
 
 此概觀會顯示4個KPI狀態卡視覺效果（最上方列）和6個其他可設定的視覺效果。
 
@@ -22,7 +22,7 @@ Mix Modeler![首頁](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x20
 
 您可以使用![篩選器](/help/assets/icons/Filter.svg) **[!UICONTROL Category Filters]**&#x200B;窗格篩選所有視覺效果所顯示的資料。
 
-為每個類別（**[!UICONTROL Brands]**、**[!UICONTROL Campaigns]**、**[!UICONTROL Cannels Type]**、**[!UICONTROL Conversion types]**、**[!UICONTROL Datasets]**、**[!UICONTROL Media types]**、**[!UICONTROL Source types]**&#x200B;和&#x200B;**[!UICONTROL Traffic Source]**）選取一或多個篩選器。
+為每個類別（**[!UICONTROL Brands]**、**[!UICONTROL Campaigns]**、**[!UICONTROL Channels Type]**、**[!UICONTROL Conversion types]**、**[!UICONTROL Datasets]**、**[!UICONTROL Media types]**、**[!UICONTROL Source types]**&#x200B;和&#x200B;**[!UICONTROL Traffic Source]**）選取一或多個篩選器。
 
 選取的篩選器會顯示在&#x200B;**[!UICONTROL FILTERING BY:]**&#x200B;的視覺效果上方。
 

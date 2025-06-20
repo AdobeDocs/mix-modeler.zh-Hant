@@ -3,16 +3,16 @@ title: 比較計畫
 description: 瞭解如何比較Mix Modeler中的計畫。
 feature: Plans
 exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: f0871834ec665c907caf0af3edeeed4fb2549a58
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 1%
+source-wordcount: '136'
+ht-degree: 0%
 
 ---
 
 # 比較計畫
 
-若要比較「Mix Modeler計畫」介面中的計畫：
+若要比較Mix Modeler Plans介面中的計畫：
 
 * 選取![比較](/help/assets/icons/Compare.svg) **[!UICONTROL Compare Plans]**。 在比較計畫中，選取每個&#x200B;**[!UICONTROL _選取計畫_]**&#x200B;的計畫。
 
@@ -20,15 +20,15 @@ ht-degree: 1%
 
 「比較計畫」介面會顯示下列專案的資訊與視覺效果：
 
-* 計畫
-* 日期範圍
-* 模型
-* 總預算
-* 管道預算： **[!UICONTROL AI automated]**&#x200B;或&#x200B;**[!UICONTROL Custom + AI]**
-* 計畫支出
-* 預測的投資報酬率（投資報酬率）或CPA （每項動作的成本）
-* ROI （投資報酬率）或CPA （每次動作的成本）細目
-* 預測回訪
+* **[!UICONTROL Plan]**。如果計畫是以目標為基礎的計畫，您會看到顯示目標狀態的徽章。
+* **[!UICONTROL Date range]**
+* **[!UICONTROL Model]**
+* **[!UICONTROL Total budget]**
+* **[!UICONTROL Channel budgeting]**： **[!UICONTROL AI automated]**&#x200B;或&#x200B;**[!UICONTROL Custom + AI]**
+* **[!UICONTROL Planned spend]**
+* **[!UICONTROL Forecasted ROI]** （投資報酬率）或&#x200B;**[!UICONTROL CPA]** （每個動作的成本）
+* **[!UICONTROL ROI]** （投資報酬率）或&#x200B;**[!UICONTROL CPA]** （每個動作的成本）細目
+* **[!UICONTROL Forecasted return]**
 
 其中：
 
