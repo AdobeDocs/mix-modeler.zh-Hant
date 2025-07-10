@@ -3,9 +3,9 @@ title: 模型深入分析
 description: 瞭解如何取得有關您模型的詳細資訊，例如Mix Modeler中的歷史總覽、模型見解和模型品質。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: d7386eb44b01fa42c2f0c501e09472af4458c4b1
+source-git-commit: e5fa52cee1725ddfe4d75c50857a1e5ef4daf5b2
 workflow-type: tm+mt
-source-wordcount: '2040'
+source-wordcount: '2255'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,19 @@ ht-degree: 0%
 
 若要檢視模型深入分析，請在Mix Modeler的![模型](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**&#x200B;介面中：
 
-1. 從&#x200B;**[!UICONTROL Models]**&#x200B;表格中，選取含有<span style="color:green">●</span>之&#x200B;**[!UICONTROL Last run status]**&#x200B;的模型名稱 **[!UICONTROL Success]**。
+1. 從&#x200B;**[!UICONTROL Models]**&#x200B;表格中，選取含有&#x200B;**[!UICONTROL Last run status]**&#x200B;之<span style="color:green">●</span>的模型名稱 **[!UICONTROL Success]**。
 
 1. 從內容功能表中，選取&#x200B;**[!UICONTROL Model Insights]**。
 
-![模型深入分析標籤列](/help/assets/model-insights-tabbar.png)
 
-您會看到指定模型上次重新整理的時間，並使用四個索引標籤來顯示視覺效果： [模型深入分析](#model-insights)、[歸因](#attribution)、[因素](#factors)、[診斷](#diagnostics)以及[歷史總覽](#historical-overview)。
+
+可使用下列標籤：
+
+* [模型深入分析](#model-insights)
+* [因素](#factors-beta) [!BADGE 測試版]
+* [歸因](#attribution) （僅適用於啟用MTA的模型）
+* [診斷](#diagnostics)
+* [歷史總覽](#historical-overview)。
 
 您可以變更每個標籤上的視覺效果所根據的日期期間。 輸入日期期間或選取![行事曆](/help/assets/icons/Calendar.svg)以選取日期期間。
 
@@ -36,7 +42,7 @@ ht-degree: 0%
 
 {{release-limited-testing-section}}
 
-如果在模型上偵測到模型漂移，您將會看到&#x200B;**[!UICONTROL Model drift detected]**&#x200B;對話方塊，其中包含稍後提醒或立即[**[!UICONTROL Retrain]**](overview.md#retrain)模型的選項。 如果您選取&#x200B;**[!UICONTROL Remind me later]**，會在隔天或下次登入時提醒您。
+如果在模型上偵測到模型漂移，您會看到&#x200B;**[!UICONTROL Model drift detected]**&#x200B;對話方塊，其中包含稍後提醒或立即[**[!UICONTROL Retrain]**](overview.md#retrain)模型的選項。 如果您選取&#x200B;**[!UICONTROL Remind me later]**，會在隔天或下次登入時提醒您。
 
 ![偵測到模型漂移對話方塊](/help/assets/model-drift-dialog.png)
 
@@ -57,9 +63,9 @@ ht-degree: 0%
 
 此棧疊圖表視覺效果的順序如下：
 
-* 底部的。
-* 非支出管道位於中間。
-* 優先消費管道。
+* 基底會顯示在底部。
+* 非支出管道會顯示在中間。
+* 支出管道會顯示在頂端。
 
 此視覺效果代表在某個日期範圍內由基礎、支出管道和非支出管道所實現的貢獻比例。 此視覺效果有助於展示遞增性。 基底代表在沒有任何行銷的情況下會發生什麼情況，而非支出管道加上支出管道（在基底之上）歸因於行銷的影響。 簡言之，非支出加支出等於行銷工作的累加影響，而視覺效果可讓insight輕鬆瞭解行銷產生的價值。
 
@@ -84,7 +90,7 @@ ht-degree: 0%
 
 ### 接觸點劃分
 
-接觸點劃分表格每週會顯示所有或選取管道的每週接觸點劃分，並顯示與每個管道相關聯的關鍵量度。 此表格可讓您在更精細的管道層級輕鬆比較、識別趨勢和追蹤效能。 此表格明確補充[依日期和基本媒體所區分的貢獻](#contribution-by-date-and-base-media)視覺效果和[依管道所區分的貢獻](#contribution-by-channel)視覺效果。
+接觸點劃分表格以每週為基準，顯示所有或選取之管道的每週接觸點劃分，並顯示與每個管道相關聯的關鍵量度。 此表格可讓您在更精細的管道層級輕鬆比較、識別趨勢和追蹤效能。 此表格明確補充[依日期和基本媒體所區分的貢獻](#contribution-by-date-and-base-media)視覺效果和[依管道所區分的貢獻](#contribution-by-channel)視覺效果。
 
 ![接觸點劃分](../assets/touchpoint-breakdown.png)
 
@@ -161,7 +167,7 @@ Mix Modeler多點接觸歸因精細事件分數與整體Mix Modeler分數和ROI�
 
 [!UICONTROL Daily trends]、[!UICONTROL Weekly trends]或[!UICONTROL Monthly trends]視覺效果會顯示所選歸因模型的每日、每週或每月轉換趨勢。
 
-若要選擇句點，請從![更多](/help/assets/icons/More.svg)中選取&#x200B;**[!UICONTROL Daily trends]**、**[!UICONTROL Weekly trends]**&#x200B;或&#x200B;**[!UICONTROL Monthly trends]**。
+若要選擇句點，請從&#x200B;**[!UICONTROL Daily trends]**&#x200B;更多&#x200B;**[!UICONTROL Weekly trends]**&#x200B;中選取&#x200B;**[!UICONTROL Monthly trends]**、![或](/help/assets/icons/More.svg)。
 
 若要檢視詳細資訊，請將滑鼠停留在特定歸因模型的資料行上，以顯示顯示該資料轉換總數的彈出視窗。
 
@@ -169,7 +175,7 @@ Mix Modeler多點接觸歸因精細事件分數與整體Mix Modeler分數和ROI�
 
 [!UICONTROL Breakdown]視覺效果是每個所選歸因模型轉換的劃分管道或接觸點。 此視覺效果有助於決定每個頻道或接觸點的成效。
 
-若要選擇劃分型別，請從![更多](/help/assets/icons/More.svg)中選取&#x200B;**[!UICONTROL Breakdown by channel]**&#x200B;或&#x200B;**[!UICONTROL Breakdown by touchpoint]**。
+若要選擇劃分型別，請從&#x200B;**[!UICONTROL Breakdown by channel]**&#x200B;更多&#x200B;**[!UICONTROL Breakdown by touchpoint]**&#x200B;中選取![或](/help/assets/icons/More.svg)。
 
 若要檢視詳細資訊，請將滑鼠游標停留在任何圖表元素上。
 
@@ -179,7 +185,7 @@ Mix Modeler多點接觸歸因精細事件分數與整體Mix Modeler分數和ROI�
 
 若要針對「頻道」、「媒體型別」或「遞增轉換」↓以遞增↑或遞減順序來排序表格，請選取欄標題並切換排序。
 
-若要在個別對話方塊中展開表格，請從![更多](/help/assets/icons/More.svg)中選取&#x200B;**[!UICONTROL Expand]**。
+若要在個別對話方塊中展開表格，請從&#x200B;**[!UICONTROL Expand]**&#x200B;更多![中選取](/help/assets/icons/More.svg)。
 
 展開的「熱門促銷活動」對話方塊會顯示相同的表格，其中包含下列專案的額外欄
 
@@ -228,37 +234,51 @@ Mix Modeler多點接觸歸因精細事件分數與整體Mix Modeler分數和ROI�
 
 「診斷」標籤會顯示下列專案的視覺效果：
 
-* [!UICONTROL Model Assessment]視覺效果，您可根據「實際」與「預計」或「剩餘」轉換劃分視覺效果。
+* **[!UICONTROL Model Assessment]**&#x200B;視覺效果，包含：
 
-  若要劃分視覺效果，請從&#x200B;**[!UICONTROL Breakdown]**&#x200B;清單中選取&#x200B;**[!UICONTROL Actual vs. Predicted]**&#x200B;或&#x200B;**[!UICONTROL Residuals]**。
+  ![模型評定](../assets/model-assessment.png)
 
-* [!UICONTROL Model fitting metrics]資料表，顯示每個轉換量度的下列資料行：
+   * 您可以根據實際與預測或剩餘轉換劃分的圖表。
+若要劃分視覺效果，請從**[!UICONTROL Breakdown]**&#x200B;清單中選取下列其中一個選項。
 
-   * 實際轉換
+      * **[!UICONTROL Actual vs Predicted]**：此選項會比較實際值與模型預測。 理想情況下，預測值應該與實際值緊密一致，雖然可能會出現一些偏差。 大型或系統的偏差或模式可能表示缺少的關係和資料或潛在的偏差。
 
-   * 模型化轉換
+      * **[!UICONTROL Residuals]**：此選項顯示實際值與預測值之間的差異。 表現良好的模型具有隨機分佈的殘餘，沒有清晰的圖案或增加分佈。 結構化的趨勢或不斷擴大的殘餘可能表示缺少的關係和資料或差異問題。
 
-   * 剩餘轉換（實際轉換與模型化轉換之間的差異）
+   * 此表格顯示每個轉換量度的下列欄：
 
-   * 模型品質分數值：
-
-      * R2 （R平方），表示資料符合回歸模型的程度（符合的程度）。
-
-      * MAPE （平均絕對誤差百分比），這是最常用來測量預測準確度的KPI之一，並以實際值的百分比表示預測誤差。
-
-      * RMSE （均方根誤差）：顯示平均誤差，根據誤差的平方加權。
+      * **[!UICONTROL Actual Conversion]**
+      * **[!UICONTROL Predicted Conversion]**
+      * **[!UICONTROL Residual Conversion]**
+      * **[!UICONTROL R<sup>2</sup>]**，表示資料符合回歸模型（符合程度）的評分。
+      * **[!UICONTROL MAPE]** （平均絕對誤差百分比），這是最常用來測量預測精確度的KPI，並以實際值的百分比表示預測誤差。
+      * **[!UICONTROL RMSE]** （均方根誤差）：顯示平均誤差，根據誤差的平方加權。
 
   若要下載包含資料表資料的CSV檔案，請選取![下載](/help/assets/icons/Download.svg)。
 
-* [!UICONTROL Touchpoint effectiveness]表格，代表Attribution AI演演算法模型的結果。 只會針對特定時段產生此資料表的資料。 選取&#x200B;**[!UICONTROL As of *xx/xx/xx， xx：xx TZ *]**![資訊](/help/assets/icons/InfoOutline.svg)以取得詳細資料。
+* 針對每個轉換量度顯示的&#x200B;**[!UICONTROL Model training fit metrics]**&#x200B;資料表：
+
+  ![模型訓練符合量度資料表](../assets/model-training-fit-metrics.png)
+
+   * **[!UICONTROL Training R<sup>2</sup>]**：表示模型預測所解釋的實際值中的變異比例，範圍從0到1。
+   * **[!UICONTROL Training sMAPE]** （對稱平均絕對百分比錯誤）：測量訓練資料的平均百分比錯誤。 值越低表示準確度越高。
+   * **[!UICONTROL Training RMSE]** （均方根錯誤）：測量訓練資料的平均百分比錯誤。 懲罰比MAPE更大的錯誤。 RMSE越低，表示預測準確度越高，但對離群值卻很敏感。
+   * **[!UICONTROL Out-of-sample sMAPE]**：評估未檢視資料的百分比錯誤，平衡預測過高和過低。 有助於評估一般化。 目前，Mix Modeler會使用上一季的訓練資料做為保留組來評估錯誤百分比。
+   * **[!UICONTROL Out-of-sample RMSE]**：評估未檢視資料的百分比錯誤，平衡預測過高和過低。 協助評估一般化。 目前，Mix Modeler會使用上一季的訓練資料做為保留組來評估錯誤百分比。 RMSE會懲罰比MAPE更大的錯誤。
+
+
+* **[!UICONTROL Touchpoint effectiveness]**&#x200B;表格，代表Attribution AI演演算法模型的結果。
+
+  ![接觸點有效性表格](../assets/touchpoint-effectiveness.png)
+
+  只會針對特定時段產生此資料表的資料。 選取&#x200B;**[!UICONTROL As of *xx/xx/xx， xx：xx TZ *]**![資訊](/help/assets/icons/InfoOutline.svg)以取得詳細資料。
 
   視覺效果會以遞減順序顯示每個接觸點的[!UICONTROL Efficiency measure] ![遞減順序](/help/assets/icons/SortOrderDown.svg)：
 
-   * [!UICONTROL Paths touched]：將達成轉換的路徑百分比與未達成轉換的路徑百分比視覺化。 對於接觸點，當歸因轉換比率很高時，您會看到更多歸因轉換。 此比率比較產生轉換的路徑百分比與&#x200B;*不會*&#x200B;產生轉換的路徑百分比。
-   * [!UICONTROL Efficiency measure]：由演演算法歸因模型產生，效率測量表示某個接觸點對轉換的相對重要性，與接觸點數量無關。 效率是以1到5的級數來衡量。 請注意，接觸點數量越多並不保證測量效率越高。
-   * [!UICONTROL Total volume]：使用者接觸接觸點的彙總次數。 數目包括出現在達成轉換的路徑上的接觸點，以及導致轉換的路徑&#x200B;*not*。
+   * **[!UICONTROL Paths touched]**：將達成轉換的路徑百分比與未達成轉換的路徑百分比視覺化。 對於接觸點，當歸因轉換比率很高時，您會看到更多歸因轉換。 此比率比較產生轉換的路徑百分比與&#x200B;*不會*&#x200B;產生轉換的路徑百分比。
+   * **[!UICONTROL Efficiency measure]**：由演演算法歸因模型產生，效率測量表示某個接觸點對轉換的相對重要性，與接觸點數量無關。 效率是以1到5的級數來衡量。 請注意，接觸點數量越多並不保證測量效率越高。
+   * **[!UICONTROL Total volume]**：使用者接觸接觸點的彙總次數。 數目包括出現在達成轉換的路徑上的接觸點，以及導致轉換的路徑&#x200B;*not*。
 
-![診斷](/help/assets/model-insights-diagnostics.png)
 
 ### 模型漂移偵測
 
