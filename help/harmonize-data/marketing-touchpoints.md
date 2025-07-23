@@ -1,16 +1,22 @@
 ---
 title: 行銷接觸點
-description: 瞭解如何建立行銷接觸點，以便用於協調Mix Modeler中的資料。
+description: 瞭解如何在Mix Modeler中建立行銷接觸點，以用來協調您的資料。
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
+source-git-commit: b3e52a34f26574961823c08859f17e2e6f1fdcd3
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
 
-# 行銷接觸點
+# 行銷接觸點 {#marketing-touchpoints}
+
+>[!CONTEXTUALHELP]
+>id="harmonizeddata_marketingtouchpoint"
+>title="行銷接觸點"
+>abstract="行銷接觸點是收件者、個人和/或Cookie層級的行銷事件，用於評估行銷投資對數值或收入型轉換的影響。"
+
 
 行銷接觸點是收件者、個人和/或Cookie層級的行銷事件，用於評估行銷投資對數值或收入型轉換的影響。
 
@@ -18,11 +24,11 @@ ht-degree: 0%
 
 ## 管理行銷接觸點
 
-若要在Mix Modeler介面中檢視可用的行銷接觸點表格：
+若要檢視Mix Modeler介面中可用的行銷接觸點表格：
 
 1. 從左側邊欄選取![資料搜尋](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]**。
 
-1. 從頂端列選取&#x200B;**[!UICONTROL Marketing touchpoint]**。 您會看到行銷接觸點表格。 如果有更多頁面可供使用，請使用&#x200B;_x _&#x200B;**的**&#x200B;Page _x_&#x200B;上的![向左箭頭](/help/assets/icons/ChevronLeft.svg)或![向右箭頭](/help/assets/icons/ChevronRight.svg)在資料表的頁面之間移動。
+1. 從頂端列選取&#x200B;**[!UICONTROL Marketing touchpoint]**。 您會看到行銷接觸點表格。 如果有更多頁面可供使用，請使用![x](/help/assets/icons/ChevronLeft.svg)的![x](/help/assets/icons/ChevronRight.svg)上的&#x200B;**[!UICONTROL Page _向左箭頭&#x200B;_或_向右箭頭_]**&#x200B;在資料表的頁面之間移動。
 
 表格欄會指定行銷接觸點的詳細資訊：
 
@@ -48,11 +54,11 @@ ht-degree: 0%
 
    1. 定義&#x200B;**[!UICONTROL Touchpoint rule]**。
 
-      1. 從&#x200B;**[!UICONTROL *選取協調的&#x200B;*]**&#x200B;中選取一個值，例如&#x200B;**[!UICONTROL Brand]**。
+      1. 從&#x200B;**[!UICONTROL *選取協調的&#x200B;*]**中選取一個值，例如&#x200B;**[!UICONTROL Brand]**。
 
       1. 選取運運算元![V](/help/assets/icons/ChevronDown.svg)的值，例如&#x200B;**[!UICONTROL is]**。
 
-      1. 從&#x200B;**[!UICONTROL *選取值&#x200B;*]**&#x200B;或輸入值，例如&#x200B;**[!DNL Luma]**。
+      1. 從&#x200B;**[!UICONTROL *選取值&#x200B;*]**或輸入值，例如&#x200B;**[!DNL Luma]**。
 
    1. 從&#x200B;**[!UICONTROL Touchpoint volume]**&#x200B;中選取協調欄位，例如&#x200B;**[!UICONTROL Impressions]**。
 

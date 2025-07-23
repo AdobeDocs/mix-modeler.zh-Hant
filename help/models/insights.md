@@ -3,9 +3,9 @@ title: 模型深入分析
 description: 瞭解如何取得有關您模型的詳細資訊，例如Mix Modeler中的歷史總覽、模型見解和模型品質。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: e5fa52cee1725ddfe4d75c50857a1e5ef4daf5b2
+source-git-commit: b3e52a34f26574961823c08859f17e2e6f1fdcd3
 workflow-type: tm+mt
-source-wordcount: '2255'
+source-wordcount: '2333'
 ht-degree: 0%
 
 ---
@@ -230,16 +230,37 @@ Mix Modeler多點接觸歸因精細事件分數與整體Mix Modeler分數和ROI�
 * 這些管道歸因模型貢獻百分比的總和。
 
 
-## [!UICONTROL Diagnostics]
+## [!UICONTROL Diagnostics] {#diagnostics}
 
-「診斷」標籤會顯示下列專案的視覺效果：
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_modelassessment"
+>title="模型評定圖"
+>abstract="模型評估視覺效果會根據實際與預測或剩餘轉換進行劃分。"
+>additional-url="https://experienceleague.adobe.com/en/docs/mix-modeler/using/overview" text="Mix Modeler概觀"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&amp;enablevpops" text="Mix Modeler示範"
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_pathstouched"
+>title="接觸過的路徑"
+>abstract="接觸路徑是指每個接觸點達成轉換的路徑百分比，以及未達成轉換的路徑百分比。"
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_modeldateinfo"
+>title="模型日期截至"
+>abstract="只會針對特定時段產生此資料表的資料。  **[!UICONTROL As of]**&#x200B;日期表示產生資料的時間，而且是以從startDate到endDate的資料為基礎。"
+
+
+**[!UICONTROL Diagnostics]**&#x200B;索引標籤會顯示下列專案的視覺效果：
 
 * **[!UICONTROL Model Assessment]**&#x200B;視覺效果，包含：
 
   ![模型評定](../assets/model-assessment.png)
 
    * 您可以根據實際與預測或剩餘轉換劃分的圖表。
-若要劃分視覺效果，請從&#x200B;**[!UICONTROL Breakdown]**&#x200B;清單中選取下列其中一個選項。
+若要劃分視覺效果，請從**[!UICONTROL Breakdown]**&#x200B;清單中選取下列其中一個選項。
 
       * **[!UICONTROL Actual vs Predicted]**：此選項會比較實際值與模型預測。 理想情況下，預測值應該與實際值緊密一致，雖然可能會出現一些偏差。 大型或系統的偏差或模式可能表示缺少的關係和資料或潛在的偏差。
 
@@ -271,7 +292,7 @@ Mix Modeler多點接觸歸因精細事件分數與整體Mix Modeler分數和ROI�
 
   ![接觸點有效性表格](../assets/touchpoint-effectiveness.png)
 
-  只會針對特定時段產生此資料表的資料。 選取&#x200B;**[!UICONTROL As of *xx/xx/xx， xx：xx TZ *]**![資訊](/help/assets/icons/InfoOutline.svg)以取得詳細資料。
+  只會針對特定時段產生此資料表的資料。 選取&#x200B;**[!UICONTROL As of *xx/xx/xx， xx:xx TZ *]**![資訊](/help/assets/icons/InfoOutline.svg)以取得詳細資料。
 
   視覺效果會以遞減順序顯示每個接觸點的[!UICONTROL Efficiency measure] ![遞減順序](/help/assets/icons/SortOrderDown.svg)：
 
