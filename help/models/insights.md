@@ -6,7 +6,7 @@ exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
 source-git-commit: b3e52a34f26574961823c08859f17e2e6f1fdcd3
 workflow-type: tm+mt
 source-wordcount: '2333'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -235,22 +235,22 @@ Mix Modeler多點接觸歸因精細事件分數與整體Mix Modeler分數和ROI�
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modelassessment"
->title="模型評定圖"
->abstract="模型評估視覺效果會根據實際與預測或剩餘轉換進行劃分。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/mix-modeler/using/overview" text="Mix Modeler概觀"
->additional-url="https://video.tv.adobe.com/v/3440805/?learn=on&enablevpops&captions=chi_hant" text="Mix Modeler示範"
+>title="模型評估圖"
+>abstract="模型評估視覺化圖形會分開呈現實際轉換與預測轉換，或呈現轉換殘差。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/mix-modeler/using/overview" text="Mix Modeler 概觀"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&amp;enablevpops" text="Mix Modeler 示範"
 
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_pathstouched"
 >title="接觸過的路徑"
->abstract="接觸路徑是指每個接觸點達成轉換的路徑百分比，以及未達成轉換的路徑百分比。"
+>abstract="接觸過的路徑是指每個接觸點實現轉換的路徑百分比和未實現轉換的路徑百分比。"
 
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modeldateinfo"
 >title="模型日期截至"
->abstract="只會針對特定時段產生此資料表的資料。  **[!UICONTROL As of]**&#x200B;日期表示產生資料的時間，而且是以從startDate到endDate的資料為基礎。"
+>abstract="此表格僅產生特定時段的資料。**[!UICONTROL As of]**&#x200B;日期表示產生資料的時間，而且是以從startDate到endDate的資料為基礎。"
 
 
 **[!UICONTROL Diagnostics]**&#x200B;索引標籤會顯示下列專案的視覺效果：
@@ -260,7 +260,7 @@ Mix Modeler多點接觸歸因精細事件分數與整體Mix Modeler分數和ROI�
   ![模型評定](../assets/model-assessment.png)
 
    * 您可以根據實際與預測或剩餘轉換劃分的圖表。
-若要劃分視覺效果，請從&#x200B;**[!UICONTROL Breakdown]**&#x200B;清單中選取下列其中一個選項。
+若要劃分視覺效果，請從**[!UICONTROL Breakdown]**&#x200B;清單中選取下列其中一個選項。
 
       * **[!UICONTROL Actual vs Predicted]**：此選項會比較實際值與模型預測。 理想情況下，預測值應該與實際值緊密一致，雖然可能會出現一些偏差。 大型或系統的偏差或模式可能表示缺少的關係和資料或潛在的偏差。
 
