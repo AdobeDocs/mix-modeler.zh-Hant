@@ -18,7 +18,7 @@ Experience Platform資料控管讓您能夠控制並理解資料透過Experience
 
 在Experience Platform使用的資料集上建立的資料使用標籤和原則，會適當地顯示在Mix Modeler中。 例如，在刪除屬於協調資料中資料集規則一部分的資料集時，這些標籤會停止或警告使用者。 或是在建立資料集規則時隱藏使用者限制的結構描述欄位。
 
-資料控管整合可讓您更有效率地管理合規性。 您組織中的資料管理員可以設定原則來限制使用。 因此，您可以使用符合資料管理員所定義原則的資料。 請閱讀[標籤和原則](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-governance)的相關檔案以深入瞭解。
+資料控管整合可讓您更有效率地管理合規性。 您組織中的資料管理員可以設定原則來限制使用。 因此，您可以使用符合資料管理員所定義原則的資料。 請閱讀[標籤和原則](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/data-governance)的相關檔案以深入瞭解。
 
 下列資料控管功能可供使用：
 
