@@ -4,16 +4,16 @@ description: 最新 Mix Modeler 發行說明
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: be13e5c45603963b994b751c589901238e09d2dc
+source-git-commit: 1bd08eb1f5e803c7405d11d371127d3db8f309c4
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '536'
 ht-degree: 4%
 
 ---
 
 # 目前的Mix Modeler發行說明
 
-**上次更新日期**：2025年8月6日。
+**上次更新日期**：2025年8月20日。
 
 以下發行說明涵蓋最新版本的Mix Modeler。 Mix Modeler版本會在持續傳遞模式上運作，允許大約每月發行。 因此，這些發行說明會相應更新，因此請定期檢視。
 
@@ -23,6 +23,7 @@ ht-degree: 4%
 
 | 功能 | 說明 | [轉出開始](#release-strategy) | [全面發佈](#release-strategy) |
 |---|---|---|---|
+| **[!UICONTROL Compare plans update]** | [比較計畫](/help/plans/compare.md) UI現在會顯示付費行銷的其他詳細資料：ROI或CPA以及收入。 | 2025年8月20日 | 2025年8月20日 |
 | **協調更新** | 所有資料集規則現在都會使用類似的[一般對應到協調欄位體驗](/help/harmonize-data/dataset-rules.md)，無論資料集型別為何。 當您從摘要資料集對應標準協調欄位時，Mix Modeler會嘗試自動推斷對應的Experience Platform資料集欄位。 | 2025年7月29日 | 2025年7月29日 |
 
 

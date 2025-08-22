@@ -3,9 +3,9 @@ title: 比較計畫
 description: 瞭解如何比較Mix Modeler中的計畫。
 feature: Plans
 exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
-source-git-commit: f0871834ec665c907caf0af3edeeed4fb2549a58
+source-git-commit: 4564c35bd8be69a586dc5a6c91ecd0db1e3298d6
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,10 @@ ht-degree: 0%
 * **[!UICONTROL Channel budgeting]**： **[!UICONTROL AI automated]**&#x200B;或&#x200B;**[!UICONTROL Custom + AI]**
 * **[!UICONTROL Planned spend]**
 * **[!UICONTROL Forecasted ROI]** （投資報酬率）或&#x200B;**[!UICONTROL CPA]** （每個動作的成本）
-* **[!UICONTROL ROI]** （投資報酬率）或&#x200B;**[!UICONTROL CPA]** （每個動作的成本）細目
+* **[!UICONTROL Paid marketing ROI]** （投資報酬率）或&#x200B;**[!UICONTROL CPA]** （每個動作的成本）
+* **[!UICONTROL ROI]** （投資報酬率）或&#x200B;**[!UICONTROL CPA]** （每個動作的成本） **[!UICONTROL breakdown]**
 * **[!UICONTROL Forecasted return]**
+* **[!UICONTROL Paid marketing revenue]**
 
 其中：
 
