@@ -3,9 +3,9 @@ title: 比較計畫
 description: 瞭解如何比較Mix Modeler中的計畫。
 feature: Plans
 exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
-source-git-commit: 4564c35bd8be69a586dc5a6c91ecd0db1e3298d6
+source-git-commit: 05d9ccc11c8b4e1a5b537bba66dd4e4b162c1fcb
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ ht-degree: 0%
 
 * ROI的定義為（遞增收入 — 支出） /支出。
 * CPA的定義為「支出/增量轉換」。
+* 「已預測」的定義為包含基本與非支出管道。
+* 付費行銷的定義僅供付費行銷管道專用。
 
 
 ![比較計畫](/help/assets/compare-plans.png)
