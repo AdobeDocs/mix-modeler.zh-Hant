@@ -3,9 +3,9 @@ title: 比較計畫
 description: 瞭解如何比較Mix Modeler中的計畫。
 feature: Plans
 exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
-source-git-commit: c66d4bd23aa6cf8e0be5bac179072ae562a97770
+source-git-commit: d6cf7e75b91ca3c3a50b95c0909e2d250af07317
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -20,26 +20,22 @@ ht-degree: 0%
 
 「比較計畫」介面會顯示下列專案的資訊與視覺效果：
 
-* **[!UICONTROL Plan]**。如果計畫是以目標為基礎的計畫，您會看到顯示目標狀態的徽章。
+* **[!UICONTROL Plan]**。如果計畫是以目標為基礎的計畫（例如，ROI或CPA），您會看到顯示目標狀態的徽章（例如，可達成的目標）。
 * **[!UICONTROL Date range]**
 * **[!UICONTROL Model]**
 * **[!UICONTROL Total budget]**
 * **[!UICONTROL Channel budgeting]**： **[!UICONTROL AI automated]**&#x200B;或&#x200B;**[!UICONTROL Custom + AI]**
 * **[!UICONTROL Planned spend]**
-* **[!UICONTROL Forecasted ROI]** （投資報酬率）或&#x200B;**[!UICONTROL CPA]** （每個動作的成本）
-   * 預測的ROI是計畫的整體ROI （包括來自基礎和非支出管道的增量收入）。
-   * 預測的CPA是計畫的整體CPA。
-* **[!UICONTROL Paid marketing ROI]** （投資報酬率）或&#x200B;**[!UICONTROL CPA]** （每個動作的成本）
-   * 付費行銷ROI是指計畫中僅付費管道的ROI。
-   * 付費行銷CPA是計畫中僅限付費管道的CPA。
-* **[!UICONTROL ROI]** （投資報酬率）或&#x200B;**[!UICONTROL CPA]** （每個動作的成本） **[!UICONTROL breakdown]**
-* **[!UICONTROL Forecasted return]**
-* **[!UICONTROL Paid marketing revenue]**
+* **[!UICONTROL Forecasted ROI]**&#x200B;或&#x200B;**[!UICONTROL CPA]**
+   * 預測的ROI是計畫的整體預測的ROI （包括來自基礎和非支出管道的增量收入）。
+   * 預測的CPA是計畫的整體預測的CPA （包括來自基礎和非支出管道的增量收入）。
+* **[!UICONTROL Paid marketing ROI]**&#x200B;或&#x200B;**[!UICONTROL CPA]**
+   * 付費行銷ROI是預測ROI的子集。 付費行銷ROI是指計畫中僅付費管道的ROI。
+   * 付費行銷CPA是預測CPA的子集。 付費行銷CPA是計畫中僅限付費管道的CPA。
+* **[!UICONTROL ROI]**&#x200B;或&#x200B;**[!UICONTROL CPA]** **[!UICONTROL breakdown]**
+* **[!UICONTROL Forecasted revenue]**&#x200B;或&#x200B;**[!UICONTROL conversion]**。
+* **[!UICONTROL Paid marketing revenue]**&#x200B;或&#x200B;**[!UICONTROL conversion]**
 
-其中：
-
-* ROI的定義為（遞增收入 — 支出） /支出。
-* CPA的定義為「支出/增量轉換」。
 
 
 ![比較計畫](/help/assets/compare-plans.png)
