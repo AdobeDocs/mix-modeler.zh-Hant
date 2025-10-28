@@ -3,27 +3,27 @@ title: 擷取資料概觀
 description: 瞭解如何將資料擷取至Mix Modeler。
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: bb05cee1d4e2245cf665e5dcea17a30c5c0cf203
+source-git-commit: f86454dd262a0a11a20d58e380b5d2b7c90fd2b9
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '542'
 ht-degree: 7%
 
 ---
 
 # 擷取資料概觀
 
-Mix Modeler可處理事件層級資料、來自不同圍牆花園的彙總或摘要行銷成果資料，以及來自任何其他來源（例如離線廣告、內部因素或外部因素）的彙總或摘要資料。
+Mix Modeler可處理來自不同圍牆花園的事件層級資料、彙總或摘要行銷成果資料。 以及來自任何其他來源（例如離線廣告、內部因素或外部因素）的彙總或摘要資料。
 
 客戶可以使用擷取到Experience Platform中的任何型別的資料做為資料集，而且這些資料是根據以XDM ExperienceEvent或XDM摘要量度為基底類別的結構描述。
 
 例如：
 
-* 使用Adobe Analytics來源聯結器收集並轉換為符合Adobe Analytics結構描述預設或自訂版本的資料集，或是
-* 使用Experience Platform Web SDK、Mobile SDK或Edge Network Server API收集資料，以收集網站、行動或任何其他型別裝置上的客戶互動。
-* 從封閉花園(如Facebook、YouTube)、流量來源或離線廣告資料彙總或摘要資料，
+* 使用Adobe Analytics來源聯結器收集的資料。 並轉換為符合Adobe Analytics結構描述預設或自訂版本的資料集。
+* 使用Experience Platform Web SDK、Mobile SDK或Edge Network Server API收集的資料，用於收集網站、行動或任何其他型別裝置上的客戶互動。
+* 從封閉花園(如Facebook、YouTube)、流量來源或離線廣告資料彙總或摘要資料。
 * 包含對模型建立有用的內部或外部因素的非行銷彙總或摘要資料。
 
-您可以使用Experience Platform支援的任何一種機制，從其他來源擷取體驗事件層級、彙總行銷成果資料和資料。 擷取機制包括Experience Platform SDK、API、來源聯結器、串流和批次擷取。 若要進一步瞭解如何在Experience Platform擷取您的資料以用於Adobe Mix Modeler，請參閱[資料擷取概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ingestion/home)。
+您可以使用Experience Platform支援的任何一種機制，從其他來源擷取體驗事件層級、彙總行銷成果資料和資料。 例如Experience Platform SDK、API、來源聯結器，以及串流和批次擷取。 若要進一步瞭解如何在Experience Platform擷取資料以用於Adobe Mix Modeler，請參閱[資料擷取概觀](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home)。
 
 ## 准則
 
@@ -68,7 +68,7 @@ Mix Modeler可處理事件層級資料、來自不同圍牆花園的彙總或摘
 
 +++ 外部因素資料
 
-| 資料 | 日期型別 | 因數 | 值 |
+| 資料 | 日期型別 | 因數 | 價值 |
 |---|:---:|:---:|:---|
 | 2020-08-02 | 周 | SPX | 3325.866 |
 | 2020-08-09 | 周 | SPX | 3364.158 |
@@ -89,7 +89,7 @@ Mix Modeler可處理事件層級資料、來自不同圍牆花園的彙總或摘
 * 在[概觀](/help/overview.md)中使用視覺效果。
 * 下載並檢查協調資料集中[協調的資料](/help/harmonize-data/overview.md)中的資料。
 
-若要驗證Experience Platform中是否正確擷取您的資料，您可以[使用Experience Platform查詢服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/home)來寫入及執行SQL查詢。
+若要驗證Experience Platform中是否正確擷取您的資料，您可以[使用Experience Platform查詢服務](https://experienceleague.adobe.com/en/docs/experience-platform/query/home)來寫入及執行SQL查詢。
 
 
 >[!MORELIKETHIS]
