@@ -23,7 +23,7 @@ Mix Modeler可處理來自不同圍牆花園的事件層級資料、彙總或摘
 * 從封閉花園(如Facebook、YouTube)、流量來源或離線廣告資料彙總或摘要資料。
 * 包含對模型建立有用的內部或外部因素的非行銷彙總或摘要資料。
 
-您可以使用Experience Platform支援的任何一種機制，從其他來源擷取體驗事件層級、彙總行銷成果資料和資料。 例如Experience Platform SDK、API、來源聯結器，以及串流和批次擷取。 若要進一步瞭解如何在Experience Platform擷取資料以用於Adobe Mix Modeler，請參閱[資料擷取概觀](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home)。
+您可以使用Experience Platform支援的任何一種機制，從其他來源擷取體驗事件層級、彙總行銷成果資料和資料。 例如Experience Platform SDK、API、來源聯結器，以及串流和批次擷取。 若要進一步瞭解如何在Experience Platform擷取資料以用於Adobe Mix Modeler，請參閱[資料擷取概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ingestion/home)。
 
 ## 准則
 
@@ -89,7 +89,7 @@ Mix Modeler可處理來自不同圍牆花園的事件層級資料、彙總或摘
 * 在[概觀](/help/overview.md)中使用視覺效果。
 * 下載並檢查協調資料集中[協調的資料](/help/harmonize-data/overview.md)中的資料。
 
-若要驗證Experience Platform中是否正確擷取您的資料，您可以[使用Experience Platform查詢服務](https://experienceleague.adobe.com/en/docs/experience-platform/query/home)來寫入及執行SQL查詢。
+若要驗證Experience Platform中是否正確擷取您的資料，您可以[使用Experience Platform查詢服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/home)來寫入及執行SQL查詢。
 
 
 >[!MORELIKETHIS]
