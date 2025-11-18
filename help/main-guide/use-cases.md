@@ -3,10 +3,10 @@ title: Mix Modeler使用案例
 description: Mix Modeler使用案例。
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
 exl-id: cc82abec-d0ce-44bf-ad7e-fc379a394185
-source-git-commit: c0bae17b21322cafb50370dcd787bb86b8e3e471
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
 source-wordcount: '625'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -132,7 +132,7 @@ Successful implementation of this use can have the following impact:
 
 -->
 
-## 啟用各種Adobe應用程式的戰術深入分析
+## 啟用跨Adobe應用程式的戰術深入分析
 
 此使用案例可協助您存取接觸點分數，以取得客戶區段和歷程的策略性增量深入分析。
 
@@ -155,7 +155,7 @@ Successful implementation of this use can have the following impact:
 |---|---|
 | 模型 | 設定並訓練AI/ML模型，以獲得一致的MTA接觸點分數和MMM彙總結果。 |
 | 分析 | 將增量接觸點分數匯出至Customer Journey Analytics或外部BI工具。<br/>使用接觸點分數執行精細分析並建置進階儀表板。 |
-| 動作 | 使用Real-time Customer Data Platform建立並啟用排名在前的消費者區段的相似專案。<br/>依客戶區段開發資料導向行銷策略，以供未來行銷活動使用。 |
+| 動作 | 使用Real-Time Customer Data Platform建立並啟用排名在前的消費者區段的相似專案。<br/>依客戶區段開發資料導向行銷策略，以供未來行銷活動使用。 |
 
 {style="table-layout:auto"}
 

@@ -1,17 +1,17 @@
 ---
-title: Mix Modeler概觀
+title: Mix Modeler 概觀
 description: 取得 Mix Modeler 的功能概觀。
 short-description: 取得 Mix Modeler 的功能概觀。
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-source-git-commit: 325bc55076467a8cab5a884ea5137249913d2350
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
 source-wordcount: '745'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
-# Mix Modeler概觀
+# Mix Modeler 概觀
 
 由Adobe Sensei支援的Mix Modeler可讓行銷人員跨所有管道（付費、贏取和擁有）來評估行銷活動及最佳化規劃。 其統一的方法論會以漸進方式在行銷接觸點和彙總層級進行測量，同時確保完全一致的結果。
 
@@ -86,7 +86,7 @@ Mix Modeler的多點觸控歸因支援兩種類別的分數：
 
 * 行銷活動預算分配：通知各行銷管道的預算分配決策。
 * 行銷活動最佳化：在每個管道中，瞭解哪些行銷活動、創意和關鍵字對於哪些SKU或Geo的效果更好。 此瞭解可讓您檢視每個管道，讓行銷團隊能夠最佳化其策略。
-* 完整的漏斗事件層級歸因：瞭解行銷對整個客戶歷程的影響。 例如，免費帳戶註冊以取得付費轉換及其他功能。
+* 完整funnel事件層級歸因：瞭解行銷對整個客戶歷程的影響。 例如，免費帳戶註冊以取得付費轉換及其他功能。
 * 合作夥伴評估：根據歸因結果評估機構和合作夥伴的成效。
 
 請參閱[模型深入分析 — 歸因](../models/insights.md#attribution)，瞭解如何存取Mix Modeler中的多重接觸歸因深入分析。

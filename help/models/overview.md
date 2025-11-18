@@ -3,7 +3,7 @@ title: 模型概觀
 description: 瞭解如何在Mix Modeler中建立和使用模型。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 6855d19347b7f6f1477a6265310df5950b8463c9
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
 source-wordcount: '924'
 ht-degree: 0%
@@ -120,7 +120,7 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
 
 1. 為模型選取![更多](/help/assets/icons/More.svg)，然後從內容功能表選取&#x200B;**[!UICONTROL Duplicate]**。
 
-您被重新導向到建立新模型的步驟，其中提議的名稱是由原始模型的名稱附加的&#x200B;**[!UICONTROL (Copy)] (_n_)**&#x200B;所組成。
+您被重新導向到建立新模型的步驟，其中提議的名稱是由原始模型的名稱附加的&#x200B;**[!UICONTROL (Copy)](_n_)**&#x200B;所組成。
 
 ### 編輯
 
@@ -166,11 +166,11 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
 
 1. 從左側邊欄選取![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**。
 1. 為模型選取![更多](/help/assets/icons/More.svg)，然後從內容功能表選取&#x200B;**[!UICONTROL Delete]**。 或者，從藍色動作列選取![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**。
-1. 在&#x200B;**[!UICONTROL Delete model]**&#x200B;確認對話方塊中選取&#x200B;**[!UICONTROL Delete]**&#x200B;以刪除模型。 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消。
+1. 在&#x200B;**[!UICONTROL Delete]**&#x200B;確認對話方塊中選取&#x200B;**[!UICONTROL Delete model]**&#x200B;以刪除模型。 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消。
 
 若要刪除多個模型：
 
 1. 選取多個模型。
 1. 從藍色動作列中，選取![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;以刪除模型。
-1. 在&#x200B;**[!UICONTROL Delete *x *模型]**&#x200B;確認對話方塊中選取&#x200B;**[!UICONTROL Delete]**&#x200B;以刪除模型。 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消。
+1. 在&#x200B;**[!UICONTROL Delete]** x **[!UICONTROL Delete *模型&#x200B;*確認對話方塊中選取]**以刪除模型。 選取&#x200B;**[!UICONTROL Cancel]**以取消。
 

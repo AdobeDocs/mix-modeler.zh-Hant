@@ -3,7 +3,7 @@ title: 行銷接觸點
 description: 瞭解如何在Mix Modeler中建立行銷接觸點，以用來協調您的資料。
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-source-git-commit: b3e52a34f26574961823c08859f17e2e6f1fdcd3
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 11%
@@ -54,11 +54,11 @@ ht-degree: 11%
 
    1. 定義&#x200B;**[!UICONTROL Touchpoint rule]**。
 
-      1. 從&#x200B;**[!UICONTROL *選取協調的&#x200B;*]**&#x200B;中選取一個值，例如&#x200B;**[!UICONTROL Brand]**。
+      1. 從&#x200B;**[!UICONTROL *選取協調的&#x200B;*]**中選取一個值，例如&#x200B;**[!UICONTROL Brand]**。
 
       1. 選取運運算元![V](/help/assets/icons/ChevronDown.svg)的值，例如&#x200B;**[!UICONTROL is]**。
 
-      1. 從&#x200B;**[!UICONTROL *選取值&#x200B;*]**&#x200B;或輸入值，例如&#x200B;**[!DNL Luma]**。
+      1. 從&#x200B;**[!UICONTROL *選取值&#x200B;*]**或輸入值，例如&#x200B;**[!DNL Luma]**。
 
    1. 從&#x200B;**[!UICONTROL Touchpoint volume]**&#x200B;中選取協調欄位，例如&#x200B;**[!UICONTROL Impressions]**。
 
