@@ -3,9 +3,9 @@ title: 模型深入分析
 description: 瞭解如何取得有關您模型的詳細資訊，例如Mix Modeler中的歷史總覽、模型見解和模型品質。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+source-git-commit: bff18fa3d2bb5b5879dca4ab5bdce261e35b2b70
 workflow-type: tm+mt
-source-wordcount: '2332'
+source-wordcount: '2488'
 ht-degree: 2%
 
 ---
@@ -31,6 +31,7 @@ ht-degree: 2%
 可使用下列標籤：
 
 * [模型深入分析](#model-insights)
+* [頻道協同效應](#channel-synergy)
 * [因素](#factors-beta) [!BADGE 測試版]
 * [歸因](#attribution) （僅適用於啟用MTA的模型）
 * [診斷](#diagnostics)
@@ -109,6 +110,25 @@ ht-degree: 2%
 若要選取特定頻道或所有頻道，請從「**[!UICONTROL View]**」下拉式選單中選取。
 
 若要下載接觸點劃分表格的內容，請選取![下載](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**。
+
+
+## 頻道協同效應
+
+在&#x200B;**[!UICONTROL Channel synergy]**&#x200B;標籤中，**[!UICONTROL Channel synergies]**&#x200B;視覺效果可協助您識別行銷管道如何互動，以建立乘數效果，而不只是個別的貢獻。
+
+熱度圖矩陣提供一對支出管道之間協同效應的視覺表示。 此矩陣可協助行銷人員瞭解頻道如何互動以提高效能。 對於每個模型，協同值會從0標準化為10。 這些值會量化&#x200B;*下一個金額協同效應*，當每個管道在目前層級收到額外的一美元支出時，該協同效應會估計兩個管道協同運作的效率。
+
+此次元架構提供相對協同強度現實的測量，因為此架構可說明訓練資料中的實際花費條件，因此可做出更明智的最佳化決策。
+
+![計畫通路協同效應](/help/assets/model-channel-synergies.png)
+
+若要下載代表矩陣的CSV檔案，請選取![下載](/help/assets/icons/Download.svg) **[!UICONTROL Download]**。
+
+>[!NOTE]
+>
+>如果現有模型看不到&#x200B;**[!UICONTROL Channel synergy]**&#x200B;標籤，請確定您重新訓練模型以啟用功能和視覺效果。
+
+
 
 ## **[!UICONTROL Factors]** [!BADGE beta]
 
@@ -238,7 +258,7 @@ Mix Modeler多點接觸歸因精細事件分數與整體Mix Modeler分數和ROI�
 >title="模型評估圖"
 >abstract="模型評估視覺化圖形會分開呈現實際轉換與預測轉換，或呈現轉換殘差。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/mix-modeler/using/overview" text="Mix Modeler 概觀"
->additional-url="https://video.tv.adobe.com/v/3440805/?captions=chi_hant&learn=on&enablevpops" text="Mix Modeler 示範"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Mix Modeler 示範"
 
 
 >[!CONTEXTUALHELP]
@@ -255,12 +275,12 @@ Mix Modeler多點接觸歸因精細事件分數與整體Mix Modeler分數和ROI�
 
 **[!UICONTROL Diagnostics]**&#x200B;索引標籤會顯示下列專案的視覺效果：
 
-* **[!UICONTROL Model Assessment]**&#x200B;視覺效果，包含：
+* **[!UICONTROL Model Assessment]**&#x200B;視覺效果包含：
 
   ![模型評定](../assets/model-assessment.png)
 
    * 您可以根據實際與預測或剩餘轉換劃分的圖表。
-若要劃分視覺效果，請從&#x200B;**[!UICONTROL Breakdown]**&#x200B;清單中選取下列其中一個選項。
+若要劃分視覺效果，請從**[!UICONTROL Breakdown]**&#x200B;清單中選取下列其中一個選項。
 
       * **[!UICONTROL Actual vs Predicted]**：此選項會比較實際值與模型預測。 理想情況下，預測值應該與實際值緊密一致，雖然可能會出現一些偏差。 大型或系統的偏差或模式可能表示缺少的關係和資料或潛在的偏差。
 
@@ -305,7 +325,7 @@ Mix Modeler多點接觸歸因精細事件分數與整體Mix Modeler分數和ROI�
 
 >[!AVAILABILITY]
 >
->本節所述的功能處於發行的有限測試階段，可能尚未在您的環境中提供。 當功能正式可用時，將移除此附註。 如需Mix Modeler發行程式的相關資訊，請參閱[Mix Modeler功能發行](/help/releases/latest.md)。
+>本節所述的功能處於發行的有限測試階段，可能尚未在您的環境中提供。 當功能正式可用時，會移除此附註。 如需Mix Modeler發行程式的相關資訊，請參閱[Mix Modeler功能發行](/help/releases/latest.md)。
 >
 
 如果偵測到模型漂移，您會在頂端看到&#x200B;**[!UICONTROL Model drift detected]**&#x200B;通知。
