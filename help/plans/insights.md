@@ -3,9 +3,9 @@ title: 計畫深入分析
 description: 瞭解如何檢視計畫的深入分析以及在Mix Modeler中編輯計畫。
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: f0871834ec665c907caf0af3edeeed4fb2549a58
+source-git-commit: 86b58717c3c8be183c70d1ceccf6f7c757303518
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 - [[!UICONTROL Forecasted revenue]視覺效果](#forecasted-revenue)
 - [[!UICONTROL Forecasted conversion]視覺效果](#forecasted-conversions)
 - [[!UICONTROL Marginal channel return]視覺效果](#marginal-channel-return)
-- 計畫[&#128279;](#date-range-breakdown)的[!UICONTROL Data range breakdown]資料表，顯示資料行
+- 計畫[[!UICONTROL Data range breakdown]的](#date-range-breakdown)資料表，顯示資料行
 
    - Channel
    - ROI
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 若要關閉介面，請選取&#x200B;**[!UICONTROL Close]**。
 
-若要變更如何檢視您計畫的ROI，請在&#x200B;**[!UICONTROL View ROI]**&#x200B;選取&#x200B;**[!UICONTROL X]**&#x200B;或&#x200B;**[!UICONTROL &#x200B; %]**。
+若要變更如何檢視您計畫的ROI，請在&#x200B;**[!UICONTROL X]**&#x200B;選取&#x200B;**[!UICONTROL  %]**&#x200B;或&#x200B;**[!UICONTROL View ROI]**。
 
 ## 預測的付費管道支出和ROI
 
@@ -72,6 +72,13 @@ ht-degree: 0%
 
 若要選取視覺效果的特定管道，請從「**[!UICONTROL View]**」下拉式選單中選取管道。
 
+## 通路協同效應
+
+管道協同效應矩陣可協助您識別行銷管道如何互動，除了個別貢獻外，還能產生乘數效應。
+
+![計畫通路協同效應](/help/assets/plan-channel-synergies.png)
+
+若要下載代表矩陣的CSV檔案，請選取![下載](/help/assets/icons/Download.svg) **[!UICONTROL Download]**。
 
 ## 日期範圍劃分
 
@@ -86,7 +93,7 @@ ht-degree: 0%
 
    詳細資料是按周劃分鍵的精細資料。 摘要資料是以模型提供的日期範圍作為關鍵字的資料。
 
-1. 若要依管道類別檢視日期範圍劃分，請從&#x200B;**[!UICONTROL View]**&#x200B;選項中選取&#x200B;**[!UICONTROL All channels]**、**[!UICONTROL Paid channels]**&#x200B;或&#x200B;**[!UICONTROL Non-paid channels]**。
+1. 若要依管道類別檢視日期範圍劃分，請從&#x200B;**[!UICONTROL All channels]**&#x200B;選項中選取&#x200B;**[!UICONTROL Paid channels]**、**[!UICONTROL Non-paid channels]**&#x200B;或&#x200B;**[!UICONTROL View]**。
 
 
 ## 編輯計畫
@@ -113,14 +120,14 @@ ht-degree: 0%
 
    1. 若要修改每個管道的預算，請修改&#x200B;**[!UICONTROL Min]**&#x200B;和&#x200B;**[!UICONTROL Max]**&#x200B;的值，或使用滑桿。
 
-   1. 若要在貨幣或百分比輸入之間切換，請為&#x200B;**[!UICONTROL View spend by]**&#x200B;選取&#x200B;**[!UICONTROL $]**&#x200B;或&#x200B;**[!UICONTROL %]**。
+   1. 若要在貨幣或百分比輸入之間切換，請為&#x200B;**[!UICONTROL $]**&#x200B;選取&#x200B;**[!UICONTROL %]**&#x200B;或&#x200B;**[!UICONTROL View spend by]**。
 
    1. 若要編輯計畫的詳細資料，請選取&#x200B;**[!UICONTROL Edit details]**：
 
       1. 在&#x200B;**[!UICONTROL Setup]**&#x200B;區段中：
 
          1. 輸入&#x200B;**[!UICONTROL Plan name]**，例如`Demo plan`。 輸入&#x200B;**[!UICONTROL Description]**，例如`Demo plan for Luma company`。
-         1. 從&#x200B;**[!UICONTROL _中選取&#x200B;**&#x200B;[!UICONTROL Model]&#x200B;**選取選項……_.]**
+         1. 從&#x200B;**[!UICONTROL Model]**&#x200B;中選取&#x200B;**[!UICONTROL _選取選項……_.]**
 
             ![計畫設定](/help/assets/plan-setup.png)
 
@@ -134,7 +141,7 @@ ht-degree: 0%
             1. 在&#x200B;**[!UICONTROL Optimize]**&#x200B;容器中：
                1. 從&#x200B;**[!UICONTROL Select conversion]**&#x200B;下拉式功能表中選取轉換。
                1. 從&#x200B;**[!UICONTROL Select model]**&#x200B;下拉式功能表中選取模型。
-            1. 透過輸入日期或使用![行事曆](/help/assets/icons/Calendar.svg)選取日期範圍來指定&#x200B;**[!UICONTROL Date range]**。
+            1. 透過輸入日期或使用&#x200B;**[!UICONTROL Date range]**&#x200B;行事曆![選取日期範圍來指定](/help/assets/icons/Calendar.svg)。
             1. 輸入&#x200B;**[!UICONTROL Budget]**。
 若要新增其他日期範圍（每個日期範圍都有預算），請選取![行事曆新增](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**。
 若要刪除日期範圍和相關預算，請選取![關閉](/help/assets/icons/Close.svg)。
@@ -152,7 +159,7 @@ ht-degree: 0%
                1. 從&#x200B;**[!UICONTROL Select target metric]**&#x200B;下拉式功能表中選取目標量度。 您可以選取介於&#x200B;**[!UICONTROL Conversion]**、**[!UICONTROL CPA]**、**[!UICONTROL Revenue]**&#x200B;或&#x200B;**[!UICONTROL ROI]**&#x200B;之間。
                1. 從&#x200B;**[!UICONTROL Select model]**&#x200B;下拉式功能表中選取模型。
             1. 透過輸入日期或使用![行事曆](/help/assets/icons/Calendar.svg)選取日期範圍來指定日期範圍。
-            1. 輸入所選目標量度的值。 例如，**[!UICONTROL Conversion]**&#x200B;的數字、**[!UICONTROL ROI]**&#x200B;的百分比，或&#x200B;**[!UICONTROL CPA]**&#x200B;和&#x200B;**[!UICONTROL Revenue]**&#x200B;的貨幣值。
+            1. 輸入所選目標量度的值。 例如，**[!UICONTROL Conversion]**&#x200B;的數字、**[!UICONTROL ROI]**&#x200B;的百分比，或&#x200B;**[!UICONTROL CPA]**&#x200B;和&#x200B;**[!UICONTROL Revenue]**的貨幣值。
 若要新增其他日期範圍（每個日期範圍都有其目標量度），請選取![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**。
 若要刪除日期範圍和相關聯的目標量度，請選取![關閉](/help/assets/icons/Close.svg)。
             1. 若要定義您要在內限制計畫的選擇性最大預算，請執行下列步驟：
