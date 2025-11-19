@@ -4,18 +4,28 @@ description: 最新 Mix Modeler 發行說明
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 8b9f8b6b007f78e9c98e71be56bea48d335fb3c3
+source-git-commit: 6fc734793102533003c731e22dfe0d8c422a1cde
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 4%
+source-wordcount: '834'
+ht-degree: 5%
 
 ---
 
 # 目前的Mix Modeler發行說明
 
-**上次更新日期**：2025年9月12日。
+**上次更新日期**：2025年11月12日。
 
 以下發行說明涵蓋最新版本的Mix Modeler。 Mix Modeler版本會在持續傳遞模式上運作，允許大約每月發行。 因此，這些發行說明會相應更新，因此請定期檢視。
+
+
+
+## 2025 年 11 月
+
+| 功能 | 說明 | [轉出開始](#release-strategy) | [全面發佈](#release-strategy) |
+|---|---|---|---|
+| **[!UICONTROL Plans tracking]** | 讓使用者瞭解行銷計畫的執行如何追蹤到計畫內容。 因此您可以放心地看待行銷表現。 或者及早發現機會和風險，以修正路線並實現業務目標。 計畫視覺效果的[效能](/help/dashboard/plans.md#performance-to-plan)已更新，並允許設定量度和粒度。 | 2025年11月12日 | 2025年11月12日 |
+| **[!UICONTROL Channel synergy insights]** | 顯示行銷管道如何共同運作以產生更大的影響。 有了這些深入分析，您就可以自信地說明過去的行銷績效，並據此調整行銷支出，以將行銷產品組合的整體回報最大化。 [模型深入分析](/help/models/insights.md#channel-synergy)和[計畫深入分析](/help/plans/insights.md#channel-synergies)中有管道協同矩陣可用。 | 2025年11月12日 | 2025年11月12日 |
+| **修正** | 下列票證的修正： <ul><li>AMM-2920：計畫建立流程和移轉。</li><li>AMM-3282：大格線中各種小數字的科學標籤法。</li></ul> | 2025年11月12日 | 2025年11月12日 |
 
 
 ## 2025 年 9 月
