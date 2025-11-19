@@ -1,11 +1,11 @@
 ---
 title: 首頁概觀
-description: 瞭解如何在Mix Modeler中概述您的協調資料和計畫。
+description: 瞭解如何在Mix Modeler中概覽您協調的資料和計畫。
 feature: Dashboard, Plans, Harmonized Data, Models
 exl-id: ef034268-ef0a-4c9b-9dd5-d98ff8150b95
-source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
+source-git-commit: 4e497c987ebb84d864db01e1f7953ee8b3b75abf
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '66'
 ht-degree: 0%
 
 ---
@@ -21,4 +21,4 @@ Mix Modeler中的首頁總覽畫面會透過各種可設定的視覺效果，顯
 
 * [協調的資料](harmonized-data.md)
 
-* [計畫](plans.md) [!BADGE Alpha]{type=Informative}
+* [計畫的效能](plans.md) [!BADGE Beta]{type=Informative}
