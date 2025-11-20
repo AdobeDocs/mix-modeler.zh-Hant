@@ -3,7 +3,7 @@ title: 計畫績效
 description: 瞭解如何在Mix Modeler中使用效能來規劃概觀。
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
-source-git-commit: 7834a0c4a5fd18902b73e7c307f61847bee05bc0
+source-git-commit: 89def3d6f5a1415d8f7a91b05d68d70ca881bdf4
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Mix Modeler **[!UICONTROL Performance to pan]**&#x200B;首頁[!BADGE  ]{type=Informative}中的![ ](/help/assets/icons/Home.svg)Beta **[!UICONTROL Overview]**&#x200B;索引標籤是測試版功能，其功能可能會有所變更。 此功能僅供有限數量的客戶使用。
+>Mix Modeler **[!UICONTROL Performance to plan]**&#x200B;首頁[!BADGE  ]{type=Informative}中的![ ](/help/assets/icons/Home.svg)Beta **[!UICONTROL Overview]**&#x200B;索引標籤是測試版功能，其功能可能會有所變更。 此功能僅供有限數量的客戶使用。
 
 Mix Modeler **[!UICONTROL Plans]**&#x200B;首頁[!BADGE  ]{type=Informative}中的![ ](/help/assets/icons/Home.svg)Beta **[!UICONTROL Overview]**&#x200B;索引標籤提供追蹤儀表板，可監視行銷針對計畫的執行成效。 您可以透過狀態卡和視覺效果追蹤實際績效與計畫績效。
 
