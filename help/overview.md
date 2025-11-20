@@ -13,7 +13,7 @@ ht-degree: 18%
 
 # Adobe Mix Modeler指南
 
-此技術檔案指南提供Adobe **Mix Modeler**&#x200B;的自助協助。 Mix Modeler是一種Adobe Experience Cloud應用程式，可跨所有管道（付費、贏取和擁有）來測量行銷活動及最佳化規劃。 Mix Modeler是以Adobe Experience Platform為建置基礎，並由Adobe Sensei提供技術支援。
+本技術檔案指南提供Adobe **Mix Modeler**&#x200B;的自助協助。 Mix Modeler是一種Adobe Experience Cloud應用程式，可跨所有管道（付費、贏取和擁有）測量行銷活動及最佳化規劃。 Mix Modeler是以Adobe Experience Platform為建置基礎，並由Adobe Sensei提供技術支援。
 
 ## 從基礎知識開始
 
@@ -21,11 +21,11 @@ ht-degree: 18%
   <tr style="border: 0;">
     <td>
     <a href="/help/get-started/about.md"><img src="assets/whatis-mm.png"></a>
-    <div><strong>快速入門</strong><br/>取得Mix Modeler工作流程的概觀和深入分析。</div>
+    <div><strong>快速入門</strong><br/>在Mix Modeler的工作流程中取得和insight的概觀。</div>
     </td>
     <td>
     <a href="/help/ingest-data/overview.md"><img src="assets/data-ingestion-mm.png"></a>
-    <div><strong>擷取資料</strong><br/>瞭解如何擷取事件並彙總或摘要資料至Mix Modeler。</div>
+    <div><strong>擷取資料</strong><br/>瞭解如何將事件和彙總或摘要資料擷取到Mix Modeler。</div>
     </td>
     <td>
     <a href="/help/harmonize-data/overview.md"><img src="assets/plan-mm.png"/></a>
@@ -74,7 +74,7 @@ ht-degree: 18%
     </td>
         <td>
       <img src="assets/Learn.svg" width="35px"><br/>
-      <strong>Tutorials</strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=zh-Hant">總覽</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=zh-Hant">使用案例</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=zh-Hant">使用者工作流程</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=zh-Hant">使用者介面導覽</a>
+      <strong>教學課程</strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=en">總覽</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=en">使用案例</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=en">使用者工作流程</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=en">使用者介面導覽</a>
     </td>
   </tr>
 </table>

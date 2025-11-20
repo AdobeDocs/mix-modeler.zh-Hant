@@ -5,7 +5,7 @@ user-guide-description: 了解如何使用 Mix Modeler。
 source-git-commit: cc6f7810bf60c7b364280139cb1cbb39794595d8
 workflow-type: tm+mt
 source-wordcount: '88'
-ht-degree: 51%
+ht-degree: 55%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 51%
 
 + [Mix Modeler 指南](/help/overview.md)
 
-+ 開始使用 {#get-started}
++ 快速入門 {#get-started}
    + [什麼是Mix Modeler？](/help/get-started/about.md)
    + [應用程式工作流程](/help/get-started/workflow.md)
 
@@ -64,5 +64,5 @@ ht-degree: 51%
    + [2023版本](/help/releases/2023.md)
    + [測試](../releases/test.md)
 
-+ [字彙](/help/main-guide/glossary.md)
++ [字彙表](/help/main-guide/glossary.md)
 
