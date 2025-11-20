@@ -14,9 +14,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Mix Modeler **[!UICONTROL Performance to plan]**&#x200B;首頁[!BADGE  ]{type=Informative}中的![ ](/help/assets/icons/Home.svg)Beta **[!UICONTROL Overview]**&#x200B;索引標籤是測試版功能，其功能可能會有所變更。 此功能僅供有限數量的客戶使用。
+>Mix Modeler **[!UICONTROL Performance to plan]**&#x200B;首頁[!BADGE &#x200B; &#x200B;]{type=Informative}中的![&#x200B; &#x200B;](/help/assets/icons/Home.svg)Beta **[!UICONTROL Overview]**&#x200B;索引標籤是測試版功能，其功能可能會有所變更。 此功能僅供有限數量的客戶使用。
 
-Mix Modeler **[!UICONTROL Plans]**&#x200B;首頁[!BADGE  ]{type=Informative}中的![ ](/help/assets/icons/Home.svg)Beta **[!UICONTROL Overview]**&#x200B;索引標籤提供追蹤儀表板，可監視行銷針對計畫的執行成效。 您可以透過狀態卡和視覺效果追蹤實際績效與計畫績效。
+Mix Modeler **[!UICONTROL Plans]**&#x200B;首頁[!BADGE &#x200B; &#x200B;]{type=Informative}中的![&#x200B; &#x200B;](/help/assets/icons/Home.svg)Beta **[!UICONTROL Overview]**&#x200B;索引標籤提供追蹤儀表板，可監視行銷針對計畫的執行成效。 您可以透過狀態卡和視覺效果追蹤實際績效與計畫績效。
 
 儀表板可協助您識別差距、發現風險或機會，並及時調整您的計畫和預算。
 
@@ -38,7 +38,7 @@ Mix Modeler **[!UICONTROL Plans]**&#x200B;首頁[!BADGE  ]{type=Informative}中�
 * [視覺效果](#visualizations)：
    * [*量度*](#metric-actual-vs-planned)
    * [*量度*](#metric-actual-vs-planned-by-granularity)
-   * [Channel ](#channel-metric-by-granularity)
+   * [Channel &#x200B;](#channel-metric-by-granularity)
    * [*量度*](#metric-vs-metric-by-channel)
    * [*量度*](#metric-by-granularity)
    * [*量度*](#metric-by-channel)
