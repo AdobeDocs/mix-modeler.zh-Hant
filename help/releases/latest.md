@@ -4,7 +4,7 @@ description: 最新 Mix Modeler 發行說明
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 5f3b5462bd2174534692051f61c57f0d3f9d4db0
+source-git-commit: cfdab6820423f1c5a01ecac52796414cde9a9935
 workflow-type: tm+mt
 source-wordcount: '874'
 ht-degree: 4%
@@ -43,7 +43,7 @@ ht-degree: 4%
 |---|---|---|---|
 | **[!UICONTROL Compare plans update]** | [比較計畫](/help/plans/compare.md) UI現在會顯示付費行銷的其他詳細資料：ROI或CPA以及收入。 | 2025年8月20日 | 2025年8月20日 |
 | **協調更新** | 所有資料集規則現在都會使用類似的[一般對應到協調欄位體驗](/help/harmonize-data/dataset-rules.md)，無論資料集型別為何。 當您從摘要資料集對應標準協調欄位時，Mix Modeler會嘗試自動推斷對應的Experience Platform資料集欄位。 | 2025年7月29日 | 2025年7月29日 |
-| **增強型全景邊際投資報酬率/CPA最佳化** | 可讓您改善行銷預算在一段時間內的分配方式。 您可以跨月份[最佳化](/help/plans/build.md)，同時保留每月的支出模式，而不必在整個規劃期間整合邊際投資報酬率/CPA。 | 2025年7月8日 | 2025年7月8日 |
+| **增強型計畫邊際投資報酬率/CPA最佳化** | 可讓您改善行銷預算在一段時間內的分配方式。 您可以跨月份[最佳化](/help/plans/build.md)，同時保留每月的支出模式，而不必在整個規劃期間整合邊際投資報酬率/CPA。 | 2025年7月8日 | 2025年7月8日 |
 
 
 ## 2025年5月至6月
