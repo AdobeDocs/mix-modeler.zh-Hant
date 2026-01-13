@@ -258,7 +258,7 @@ Mix Modeler多點接觸歸因精細事件分數與整體Mix Modeler分數和ROI�
 >title="模型評估圖"
 >abstract="模型評估視覺化圖形會分開呈現實際轉換與預測轉換，或呈現轉換殘差。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/mix-modeler/using/overview" text="Mix Modeler 概觀"
->additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Mix Modeler 示範"
+>additional-url="https://video.tv.adobe.com/v/3440805/?captions=chi_hant&learn=on&enablevpops" text="Mix Modeler 示範"
 
 
 >[!CONTEXTUALHELP]
