@@ -3,9 +3,9 @@ title: 模型深入分析
 description: 瞭解如何取得有關您模型的詳細資訊，例如Mix Modeler中的歷史總覽、模型見解和模型品質。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 16ec71a73b577d124ac1ef420741849cdb1c139f
+source-git-commit: 2775c5a3779f6731f7f3143f6ed21db2993c0955
 workflow-type: tm+mt
-source-wordcount: '2498'
+source-wordcount: '2499'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 若要檢視模型深入分析，請在Mix Modeler的![模型](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**&#x200B;介面中：
 
-1. 從&#x200B;**[!UICONTROL Models]**&#x200B;表格中，選取含有&#x200B;**[!UICONTROL Last run status]**&#x200B;之<span style="color:green">●</span>的模型名稱 **[!UICONTROL Success]**。
+1. 從&#x200B;**[!UICONTROL Models]**&#x200B;表格中，選取模型名稱，該模型的&#x200B;**[!UICONTROL Last run status]**&#x200B;為![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Success]**。
 
 1. 從內容功能表中，選取&#x200B;**[!UICONTROL Model Insights]**。
 
@@ -60,7 +60,7 @@ ht-degree: 2%
 * 若要以Microsoft® Excel格式下載完整的模型深入分析資料，請選取![下載](/help/assets/icons/Download.svg) **[!UICONTROL Download data]**。
 
 
-### 依日期和基本媒體所區分的貢獻。
+### 依日期和基本媒體所區分的貢獻
 
 此棧疊圖表視覺效果的順序如下：
 
@@ -74,11 +74,11 @@ ht-degree: 2%
 
 顯示不同管道貢獻分佈的環形圖視覺效果。 此視覺效果透過前三個執行管道的鏡頭（不包括基底和&#x200B;*所有其他*&#x200B;類別）以增量方式展示。 視覺效果有助於支援優先順序和預算分配。
 
-### 行銷績效摘要。
+### 行銷績效摘要
 
 顯示每個管道之ROI或CPA績效的水準長條圖視覺效果。 此視覺效果會強調您行銷投資的ROI / CPA。 管道會根據ROI / CPA以遞減順序排名。 視覺效果有助於識別哪些管道最有效，哪些可能需要最佳化。
 
-### 邊際回應曲線。
+### 邊際回應曲線
 
 折線圖會視覺化並比較行銷管道投資所產生的邊際回報。  並識別目前的支出點與邊際收支平衡點（增量回報小於增量支出）。 因此，此視覺效果可協助您瞭解行銷投資何時開始失去影響力。
 
@@ -258,7 +258,7 @@ Mix Modeler多點接觸歸因精細事件分數與整體Mix Modeler分數和ROI�
 >title="模型評估圖"
 >abstract="模型評估視覺化圖形會分開呈現實際轉換與預測轉換，或呈現轉換殘差。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/mix-modeler/using/overview" text="Mix Modeler 概觀"
->additional-url="https://video.tv.adobe.com/v/3440805/?captions=chi_hant&learn=on&enablevpops" text="Mix Modeler 示範"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Mix Modeler 示範"
 
 
 >[!CONTEXTUALHELP]
@@ -280,7 +280,7 @@ Mix Modeler多點接觸歸因精細事件分數與整體Mix Modeler分數和ROI�
   ![模型評定](../assets/model-assessment.png)
 
    * 您可以根據實際與預測或剩餘轉換劃分的圖表。
-若要劃分視覺效果，請從&#x200B;**[!UICONTROL Breakdown]**&#x200B;清單中選取下列其中一個選項。
+若要劃分視覺效果，請從**[!UICONTROL Breakdown]**&#x200B;清單中選取下列其中一個選項。
 
       * **[!UICONTROL Actual vs Predicted]**：此選項會比較實際值與模型預測。 理想情況下，預測值應該與實際值緊密一致，雖然可能會出現一些偏差。 大型或系統的偏差或模式可能表示缺少的關係和資料或潛在的偏差。
 

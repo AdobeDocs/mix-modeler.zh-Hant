@@ -3,9 +3,9 @@ title: 模型概觀
 description: 瞭解如何在Mix Modeler中建立和使用模型。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 8f4b07782d74341afd23e8c3d15f7f2d30a7ccbd
+source-git-commit: 2775c5a3779f6731f7f3143f6ed21db2993c0955
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
    | **[!UICONTROL Name]** | 模型名稱 |
    | **[!UICONTROL Description]** | 模型說明 |
    | **[!UICONTROL Conversion event]** | 您為模型選取的轉換。 |
-   | **[!UICONTROL Run]**&#x200B;頻率 | 訓練模型的執行頻率。 |
+   | **[!UICONTROL Run frequency]** | 訓練模型的執行頻率。 |
    | **[!UICONTROL Last run]** | 模型上次培訓的日期和時間。 |
    | **[!UICONTROL Status]** | 模型的狀態。 |
 
@@ -122,7 +122,7 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
 
 1. 為模型選取![更多](/help/assets/icons/More.svg)，然後從內容功能表選取&#x200B;**[!UICONTROL Duplicate]**。
 
-您被重新導向到建立新模型的步驟，其中提議的名稱是由原始模型的名稱附加的&#x200B;**[!UICONTROL (Copy)] (_n_)**&#x200B;所組成。
+您被重新導向到建立新模型的步驟，其中提議的名稱是由原始模型的名稱附加的&#x200B;**[!UICONTROL (Copy)](_n_)**&#x200B;所組成。
 
 ### 編輯
 
@@ -174,5 +174,5 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
 
 1. 選取多個模型。
 1. 從藍色動作列中，選取![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;以刪除模型。
-1. 在&#x200B;**[!UICONTROL Delete]** x **[!UICONTROL Delete *模型&#x200B;*確認對話方塊中選取]**&#x200B;以刪除模型。 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消。
+1. 在&#x200B;**[!UICONTROL Delete]** x **[!UICONTROL Delete *模型&#x200B;*確認對話方塊中選取]**以刪除模型。 選取&#x200B;**[!UICONTROL Cancel]**以取消。
 

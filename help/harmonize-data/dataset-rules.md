@@ -3,9 +3,9 @@ title: 資料集規則
 description: 瞭解如何定義資料集規則，以便在Mix Modeler中協調資料時使用。
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: b631cf8d06fe71d9f5ca547923eb3237c677a915
+source-git-commit: 2775c5a3779f6731f7f3143f6ed21db2993c0955
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,13 @@ ht-degree: 0%
 
 | 欄名稱 | 詳細資料 |
 | ---------------------- | ----------|
-| 資料集 | 資料集的名稱。  使用![更多](/help/assets/icons/More.svg)為資料集選取動作。 您可以：<ul><li>![預覽](/help/assets/icons/Preview.svg) **[!UICONTROL View]**&#x200B;以檢視資料集規則設定。 所有欄位均已停用。</li><li>![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]**&#x200B;以編輯資料集規則設定。</li><li>![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;以刪除資料集規則設定。 系統會提示您在「刪除資料集」對話方塊中確認刪除。 選取&#x200B;**[!UICONTROL Delete]**&#x200B;以永久刪除資料集規則組態。</li><ul> |
-| 來源 | 資料集的來源： Adobe Analytics、體驗事件、摘要（彙總）或取用者體驗事件。 |
-| 結構描述 | 資料集符合的結構描述。 您可以在![結構描述](/help/assets/icons/Schemas.svg) [結構描述](../ingest-data/schemas.md)的結構描述編輯器中，快速選取結構描述名稱以在新的索引標籤中開啟結構描述。 |
-| 詳細程度 | 資料集中的資料粒度。 可能的值為每日、每週、每月或每年。 |
-| 一週開始 | 針對特定資料集，指定將一週中的哪一天視為新一週的開始。 |
-| 狀態 | 欄位的狀態： <p><span style="color:gray">●</span>草稿或 <p><span style="color:green">●</span>個使用中 |
-| 上次修改時間 | 上次修改資料集規則的資料和時間。 |
+| **[!UICONTROL Dataset]** | 資料集的名稱。  使用![更多](/help/assets/icons/More.svg)為資料集選取動作。 您可以：<ul><li>![預覽](/help/assets/icons/Preview.svg) **[!UICONTROL View]**&#x200B;以檢視資料集規則設定。 所有欄位均已停用。</li><li>![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]**&#x200B;以編輯資料集規則設定。</li><li>![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;以刪除資料集規則設定。 系統會提示您在「刪除資料集」對話方塊中確認刪除。 選取&#x200B;**[!UICONTROL Delete]**&#x200B;以永久刪除資料集規則組態。</li><ul> |
+| **[!UICONTROL Source]** | 資料集的來源： Adobe Analytics、體驗事件、摘要（彙總）或取用者體驗事件。 |
+| **[!UICONTROL Schema]** | 資料集符合的結構描述。 您可以在![結構描述](/help/assets/icons/Schemas.svg) [結構描述](../ingest-data/schemas.md)的結構描述編輯器中，快速選取結構描述名稱以在新的索引標籤中開啟結構描述。 |
+| **[!UICONTROL Granularity]** | 資料集中的資料粒度。 可能的值為每日、每週、每月或每年。 |
+| **[!UICONTROL Start of the week]** | 針對特定資料集，指定將一週中的哪一天視為新一週的開始。 |
+| **[!UICONTROL Status]** | 欄位的狀態： ![StatusGray](/help/assets/icons/StatusGray.svg)草稿或![StatusGreen](/help/assets/icons/StatusGreen.svg)作用中 |
+| **[!UICONTROL Last modified]** | 上次修改資料集規則的資料和時間。 |
 
 {style="table-layout:auto"}
 
@@ -76,11 +76,11 @@ ht-degree: 0%
 
       1. 從&#x200B;**[!UICONTROL Map Into]**&#x200B;中選取&#x200B;**[!UICONTROL Case]**&#x200B;或&#x200B;**[!UICONTROL Mapping type]**。
 
-      1. 當您已選取&#x200B;**[!UICONTROL Map Into]**&#x200B;時，請選取&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP資料集欄位&#x200B;*]**&#x200B;或&#x200B;**[!UICONTROL Value]**，以及預設值，以將協調的欄位依預設對應到資料集欄位或輸入的值。
+      1. 當您已選取&#x200B;**[!UICONTROL Map Into]**&#x200B;時，請選取&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP資料集欄位&#x200B;*]**或&#x200B;**[!UICONTROL Value]**，以及預設值，以將協調的欄位依預設對應到資料集欄位或輸入的值。
 
-      1. 當您選取&#x200B;**[!UICONTROL Case]**&#x200B;時，請選取&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP資料集欄位&#x200B;*]**&#x200B;或&#x200B;**[!UICONTROL Value]**，以及預設值，以依預設將協調欄位對應到資料集欄位或輸入的值。
+      1. 當您選取&#x200B;**[!UICONTROL Case]**&#x200B;時，請選取&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP資料集欄位&#x200B;*]**或&#x200B;**[!UICONTROL Value]**，以及預設值，以依預設將協調欄位對應到資料集欄位或輸入的值。
 
-         1. 若要明確設定值，您可以定義一或多個案例，由一或多個條件組成。 每個條件都可以檢查特定的&#x200B;**[!UICONTROL *AEP資料集欄位&#x200B;*]**，無論是&#x200B;**[!UICONTROL Exists]**&#x200B;或&#x200B;**[!UICONTROL Not Exists]**，或是&#x200B;**[!UICONTROL Contains]**、**[!UICONTROL Not Contains]**、**[!UICONTROL Equals]**、**[!UICONTROL Not Equals]**、**[!UICONTROL Starts With]**&#x200B;或&#x200B;**[!UICONTROL Ends With]**，輸入於&#x200B;**[!UICONTROL *&#x200B;輸入的值&#x200B;*]**。
+         1. 若要明確設定值，您可以定義一或多個案例，由一或多個條件組成。 每個條件都可以檢查特定的&#x200B;**[!UICONTROL *AEP資料集欄位&#x200B;*]**，無論是&#x200B;**[!UICONTROL Exists]**或&#x200B;**[!UICONTROL Not Exists]**，或是&#x200B;**[!UICONTROL Contains]**、**[!UICONTROL Not Contains]**、**[!UICONTROL Equals]**、**[!UICONTROL Not Equals]**、**[!UICONTROL Starts With]**或&#x200B;**[!UICONTROL Ends With]**，輸入於**[!UICONTROL *&#x200B;輸入的值&#x200B;*]**。
 
          1. 若要新增其他案例，請選取![新增](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**，若要新增其他條件，請選取![新增](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**。
 
@@ -193,7 +193,7 @@ ht-degree: 0%
    * 若要新增特定量度型偏好設定：
 
       1. 選取![加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**。
-         1. 從&#x200B;**[!UICONTROL *度量選擇&#x200B;*]**&#x200B;清單中選取度量。
+         1. 從&#x200B;**[!UICONTROL *度量選擇&#x200B;*]**清單中選取度量。
          1. 選取&#x200B;**[!UICONTROL CHANNELS]**&#x200B;或&#x200B;**[!UICONTROL CONVERSION TYPES]**。 從清單中選取&#x200B;**[!UICONTROL All]**&#x200B;或特定的管道或轉換型別。
          1. 選取&#x200B;**[!UICONTROL Summary]**&#x200B;或&#x200B;**[!UICONTROL Event]**，以指定合併資料時，彙總資料或事件資料是否偏好量度（以及所有或選取的管道）。
 

@@ -3,9 +3,9 @@ title: 計畫總覽
 description: 瞭解如何在Mix Modeler中檢視、選取和操作計畫。
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 0d11168b71319e6c854482f89dbb1bb68962a880
+source-git-commit: 2775c5a3779f6731f7f3143f6ed21db2993c0955
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -48,18 +48,16 @@ Mix Modeler中的計畫可讓您依業務單位和管道分配預算。 計畫�
 
    | 欄名稱 | 詳細資料 |
    |---|---|
-   | 名稱 | 計畫名稱 |
-   | 模型 | 作為計畫基礎的模型。 |
-   | 日期範圍 | 計畫的完整日期範圍。 |
-   | 預算 | 計畫的總預算。 |
-   | 計畫目標 | 為目標型計畫定義的目標測量結果。 |
-   | 預測回訪 | 計畫的[預測傳回](/help/main-guide/glossary.md) |
-   | 預測的投資報酬率 | 計畫的[預測ROI](/help/main-guide/glossary.md)。 |
-   | 預測的轉換 | 計畫的[預測轉換](/help/main-guide/glossary.md) |
-   | 預測的CPA | 計畫的[預測CPA](/help/main-guide/glossary.md) |
-   | 狀態 | 計畫的狀態： <p><span style="color:red">●</span>失敗， <p><span style="color:blue">●</span>正在處理，或 <p><span style="color:green">●</span>完成。 |
-
-   {style="table-layout:auto"}
+   | **[!UICONTROL Name]** | 計畫名稱 |
+   | **[!UICONTROL Model]** | 作為計畫基礎的模型。 |
+   | **[!UICONTROL Date range]** | 計畫的完整日期範圍。 |
+   | **[!UICONTROL Budget]** | 計畫的總預算。 |
+   | **[!UICONTROL Plan target]** | 為目標型計畫定義的目標測量結果。 |
+   | **[!UICONTROL Forecasted return]** | 計畫的[預測傳回](/help/main-guide/glossary.md) |
+   | **[!UICONTROL Forecasted ROI]** | 計畫的[預測ROI](/help/main-guide/glossary.md)。 |
+   | **[!UICONTROL Forecasted conversion]** | 計畫的[預測轉換](/help/main-guide/glossary.md) |
+   | **[!UICONTROL Forecasted CPA]** | 計畫的[預測CPA](/help/main-guide/glossary.md) |
+   | **[!UICONTROL Status]** | 計畫的狀態：<br/>![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Failed]**、<br/>![StatusBlue](/help/assets/icons/StatusBlue.svg) **[!UICONTROL Processing]**&#x200B;或<br/>![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Complete]**。 |
 
    您可以使用![ColumnSetting](/help/assets/icons/ColumnSetting.svg)來選取![核取標籤](/help/assets/icons/Checkmark.svg)要在資料表中顯示的資料行。
 
@@ -87,7 +85,7 @@ Mix Modeler中的計畫可讓您依業務單位和管道分配預算。 計畫�
 - 為計畫選取![更多](/help/assets/icons/More.svg)。 從內容功能表中選取&#x200B;**[!UICONTROL Duplicate]**。
 - 或者，在表格![SelectBox](/help/assets/icons/SelectBox.svg)中選取計畫，然後從藍色動作列選取![複製](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]**。
 
-已建立新計畫，其名稱由附加了&#x200B;**[!UICONTROL (Copy)] (_n_)**&#x200B;的原始計畫名稱所組成。 系統會自動將您重新導向至[計畫建立](build.md)，以提供已複製計畫的更新詳細資料。
+已建立新計畫，其名稱由附加了&#x200B;**[!UICONTROL (Copy)](_n_)**&#x200B;的原始計畫名稱所組成。 系統會自動將您重新導向至[計畫建立](build.md)，以提供已複製計畫的更新詳細資料。
 
 - 來自原始計畫的明細（如說明、預算等）會複製過來。
 - 原始計畫的預算限制會複製到新建立的計畫。
@@ -118,6 +116,6 @@ Mix Modeler中的計畫可讓您依業務單位和管道分配預算。 計畫�
 
 1. 選取多個計畫。
 1. 從藍色動作列中，選取![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;以刪除計畫。
-1. 在&#x200B;**[!UICONTROL Delete]** x **[!UICONTROL Delete *計畫&#x200B;*確認對話方塊中選取]**&#x200B;以刪除計畫。 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消。
+1. 在&#x200B;**[!UICONTROL Delete]** x **[!UICONTROL Delete *計畫&#x200B;*確認對話方塊中選取]**以刪除計畫。 選取&#x200B;**[!UICONTROL Cancel]**以取消。
 
 

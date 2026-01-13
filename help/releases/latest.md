@@ -4,74 +4,29 @@ description: 最新 Mix Modeler 發行說明
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: cfdab6820423f1c5a01ecac52796414cde9a9935
+source-git-commit: f4755b5b83c50c1a0c63839854954154d0b141c1
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '281'
 ht-degree: 4%
 
 ---
 
 # 目前的Mix Modeler發行說明
 
-**上次更新日期**：2025年11月12日。
+**上次更新日期**：2026年1月13日。
 
 以下發行說明涵蓋最新版本的Mix Modeler。 Mix Modeler版本會在持續傳遞模式上運作，允許大約每月發行。 因此，這些發行說明會相應更新，因此請定期檢視。
 
 
 
-## 2025 年 11 月
+## 2026 年 1 月
 
 | 功能 | 說明 | [轉出開始](#release-strategy) | [全面發佈](#release-strategy) |
 |---|---|---|---|
-| **[!UICONTROL Plans tracking]** | 讓使用者瞭解行銷計畫的執行如何追蹤到計畫內容。 因此您可以放心地看待行銷表現。 或者及早發現機會和風險，以修正路線並實現業務目標。 計畫視覺效果的[效能](/help/dashboard/plans.md#performance-to-plan)已更新，並允許設定量度和粒度。 | 2025年11月12日 | 2025年11月12日 |
-| **[!UICONTROL Channel synergy insights]** | 顯示行銷管道如何共同運作以產生更大的影響。 有了這些深入分析，您就可以自信地說明過去的行銷績效，並據此調整行銷支出，以將行銷產品組合的整體回報最大化。 [模型深入分析](/help/models/insights.md#channel-synergy)和[計畫深入分析](/help/plans/insights.md#channel-synergies)中有管道協同矩陣可用。 | 2025年11月12日 | 2025年11月12日 |
-| **修正** | 下列票證的修正： <ul><li>AMM-2920：計畫建立流程和移轉。</li><li>AMM-3282：大格線中各種小數字的科學標籤法。</li></ul> | 2025年11月12日 | 2025年11月12日 |
-
-
-## 2025 年 9 月
-
-| 功能 | 說明 | [轉出開始](#release-strategy) | [全面發佈](#release-strategy) |
-|---|---|---|---|
-| **[!UICONTROL Dataset mapping validations]** | 已新增驗證至和諧欄位的Experience Platform資料集對應。 | 2025年9月9日 | 2025年9月9日 |
-| **[!UICONTROL Context menu on links to model and plans]** | 啟用模型及計畫連結的瀏覽器內容功能表。 您現在可以使用該瀏覽器前後關聯功能表，在新的標籤或視窗中開啟特定計畫或模型。 | 2025年9月9日 | 2025年9月9日 |
-| **修正** | 下列票證的修正： <ul><li>AMM-3101：修正為規則建立的不正確對應： `event_date`已傳遞為欄位名稱而非`timestamp`。</li><li>AMM-3092：修正無法變更重複預算型計畫的管道最大限制值。</li><li>AM3130：修正模型詳細資訊快顯視窗中的錯誤&#x200B;**[!UICONTROL Run frequency]**&#x200B;資訊。</li><li>AMM3158：已更新&#x200B;**[!UICONTROL Select target metric]**&#x200B;選項的標籤，這些選項是&#x200B;**[!UICONTROL Optimize]**&#x200B;計畫建立[介面中](/help/plans/build.md)窗格的一部分。</li><li>AMM 3176：修正無法在[的](/help/models/insights.md#breakdown)索引標籤中檢視&#x200B;**[!UICONTROL Attribution]**&#x200B;依管道&#x200B;**[!UICONTROL Model Insights]**&#x200B;劃分的視覺效果。</li></ul> | 2025年9月9日 | 2025年9月9日 |
-| **修正** | 下列票證的修正： <ul><li>AMM-3174：改善沒有現有計畫可用的體驗。</li><li>AMM-3216：增強自訂日期範圍的驗證。</li><li>AMM-3240：固定執行模型頻率顯示。</ul> | 2023 年 9 月 23 日 | 2023 年 9 月 23 日 |
-
-## 2025 年 7 - 8 月
-
-| 功能 | 說明 | [轉出開始](#release-strategy) | [全面發佈](#release-strategy) |
-|---|---|---|---|
-| **[!UICONTROL Compare plans update]** | [比較計畫](/help/plans/compare.md) UI現在會顯示付費行銷的其他詳細資料：ROI或CPA以及收入。 | 2025年8月20日 | 2025年8月20日 |
-| **協調更新** | 所有資料集規則現在都會使用類似的[一般對應到協調欄位體驗](/help/harmonize-data/dataset-rules.md)，無論資料集型別為何。 當您從摘要資料集對應標準協調欄位時，Mix Modeler會嘗試自動推斷對應的Experience Platform資料集欄位。 | 2025年7月29日 | 2025年7月29日 |
-| **增強型計畫邊際投資報酬率/CPA最佳化** | 可讓您改善行銷預算在一段時間內的分配方式。 您可以跨月份[最佳化](/help/plans/build.md)，同時保留每月的支出模式，而不必在整個規劃期間整合邊際投資報酬率/CPA。 | 2025年7月8日 | 2025年7月8日 |
-
-
-## 2025年5月至6月
-
-| 功能 | 說明 | [轉出開始](#release-strategy) | [全面發佈](#release-strategy) |
-|---|---|---|---|
-| **目標型計畫** | 在預算旁邊，您可以在您[建立](/help/plans/build.md)或[編輯](/help/plans/insights.md#edit-plan)計畫時定義目標（目標）。 目標量度的範例包括收入、轉換、CPA或ROI。 | 2025年6月18日 | 2025年7月8日 |
-| **支出模式設定** | 當您建立計畫時，您現在可以選擇在定義每個預算日期範圍的支出模式時使用[歷史參考](/help/plans/build.md)資料（例如過去行銷支出資料和深入分析）。 | 2025年5月14日 | 2025年5月14日 |
-| **進階計畫組態** | 您可以為計畫定義[進階設定](/help/plans/build.md)，例如每次轉換的平均收入和管道成本。 | 2025年5月14日 | 2025年5月14日 |
-
-## 2025年3月至4月
-
-| 功能 | 說明 | [轉出開始](#release-strategy) | [全面發佈](#release-strategy) |
-|---|---|---|---|
-| **模型漂移偵測** | 開啟模型時，系統會在偵測到模型漂移時[提示您重新訓練模型](/help/models/insights.md#model-drift)。 | 2025年4月3日 | 2025 年 5 月 7 日 |
-| **計畫深入分析中的邊際管道回訪** | 將[邊際管道回訪](/help/plans/insights.md#marginal-channel-return)視覺效果新增到計畫深入分析中，其中顯示所有或選取管道的邊際收支平衡與計畫回訪。 | 2025年4月3日 | 2025年4月24日 |
-
-
-## 2025年1月至2月
-
-| 功能 | 說明 | [轉出開始](#release-strategy) | [全面發佈](#release-strategy) |
-|---|---|---|---|
-| **巢狀條件** | 當您定義合格的資料母體作為模型[的](/help/models/build.md#configure)組態的一部分時，可以使用AND和OR來建立巢狀條件。 | 2025年1月15日 | 2025年2月18日 |
-| **檢視報告** | 您可以檢視有關您定義為協調資料一部分的[轉換](/help/harmonize-data/conversions.md#view-report)或[行銷接觸點](/help/harmonize-data/marketing-touchpoints.md#view-report)的報告。 | 2025年1月15日 | 2025年2月18日 |
-| **刪除確認** | 系統會提示您確認刪除[計畫](/help/plans/overview.md#delete-plans)或[模型](/help/models/overview.md#delete-models)。 | 2025年1月15日 | 2025年2月18日 |
-| **因素UI改善** | 您可以選取要在模型深入分析中顯示的[因素](/help/models/insights.md#factors-beta)。 | 2025年1月15日 | 2025年2月18日 |
-| **錯誤處理** | 使用者易記的錯誤訊息，以及改善使用者在資料協調與計畫中的錯誤情境體驗。 | 2025年2月18日 | 2025年2月18日 |
-| **模型狀態** | 重新定義整個模型生命週期中的[模型狀態](/help/models/overview.md#manage-models)。 | 2025年2月18日 | 2025年2月18日 |
+| **[!UICONTROL Dataset rules]** | 已更新資料集規則表格。 您可以搜尋一或多個資料集規則，並直接從表格檢視、編輯或刪除資料集規則。 | 2026年1月13日 | 2026年1月13日 |
+| **[!UICONTROL Current spend]** | 在模型深入分析的[邊際回應曲線視覺效果](/help/models/insights.md#marginal-response-curves)中新增目前支出點。 | 2026年1月13日 | 2026年1月13日 |
+| **[!UICONTROL Sort and resize columns]** | 已在[模型](/help/models/overview.md)和[計畫](/help/plans/overview.md)資料表中新增資料行的排序和調整大小。 | 2026年1月13日 | 2026年1月13日 |
+| **修正** | 下列票證的修正： <ul><li>AMM-3328：因子的新運運算元停用欄位輸入</li><li>AMM-3359：日期選擇器和下拉式方塊鎖定。</li><li>AMM-3441：複製計畫不會自動填入日期範圍和預算。</li></ul> | 2026年1月13日 | 2026年1月13日 |
 
 
 ## 發行策略
