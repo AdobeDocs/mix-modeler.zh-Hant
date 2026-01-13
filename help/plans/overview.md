@@ -85,7 +85,7 @@ Mix Modeler中的計畫可讓您依業務單位和管道分配預算。 計畫�
 - 為計畫選取![更多](/help/assets/icons/More.svg)。 從內容功能表中選取&#x200B;**[!UICONTROL Duplicate]**。
 - 或者，在表格![SelectBox](/help/assets/icons/SelectBox.svg)中選取計畫，然後從藍色動作列選取![複製](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]**。
 
-已建立新計畫，其名稱由附加了&#x200B;**[!UICONTROL (Copy)](_n_)**&#x200B;的原始計畫名稱所組成。 系統會自動將您重新導向至[計畫建立](build.md)，以提供已複製計畫的更新詳細資料。
+已建立新計畫，其名稱由附加了&#x200B;**[!UICONTROL (Copy)] (_n_)**&#x200B;的原始計畫名稱所組成。 系統會自動將您重新導向至[計畫建立](build.md)，以提供已複製計畫的更新詳細資料。
 
 - 來自原始計畫的明細（如說明、預算等）會複製過來。
 - 原始計畫的預算限制會複製到新建立的計畫。
@@ -116,6 +116,6 @@ Mix Modeler中的計畫可讓您依業務單位和管道分配預算。 計畫�
 
 1. 選取多個計畫。
 1. 從藍色動作列中，選取![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;以刪除計畫。
-1. 在&#x200B;**[!UICONTROL Delete]** x **[!UICONTROL Delete *計畫&#x200B;*確認對話方塊中選取]**以刪除計畫。 選取&#x200B;**[!UICONTROL Cancel]**以取消。
+1. 在&#x200B;**[!UICONTROL Delete]** x **[!UICONTROL Delete *計畫&#x200B;*確認對話方塊中選取]**&#x200B;以刪除計畫。 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消。
 
 
