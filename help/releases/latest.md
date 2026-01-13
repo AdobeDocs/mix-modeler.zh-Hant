@@ -4,7 +4,7 @@ description: 最新 Mix Modeler 發行說明
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: f4755b5b83c50c1a0c63839854954154d0b141c1
+source-git-commit: b19ce70c5ba990b6b720fdf80ef68b5cf7aef07c
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 4%
@@ -23,7 +23,7 @@ ht-degree: 4%
 
 | 功能 | 說明 | [轉出開始](#release-strategy) | [全面發佈](#release-strategy) |
 |---|---|---|---|
-| **[!UICONTROL Dataset rules]** | 已更新資料集規則表格。 您可以搜尋一或多個資料集規則，並直接從表格檢視、編輯或刪除資料集規則。 | 2026年1月13日 | 2026年1月13日 |
+| **[!UICONTROL Dataset rules]** | [已更新資料集規則表格](/help/harmonize-data/dataset-rules.md)。 您可以搜尋一或多個資料集規則，並直接從表格檢視、編輯或刪除資料集規則。 | 2026年1月13日 | 2026年1月13日 |
 | **[!UICONTROL Current spend]** | 在模型深入分析的[邊際回應曲線視覺效果](/help/models/insights.md#marginal-response-curves)中新增目前支出點。 | 2026年1月13日 | 2026年1月13日 |
 | **[!UICONTROL Sort and resize columns]** | 已在[模型](/help/models/overview.md)和[計畫](/help/plans/overview.md)資料表中新增資料行的排序和調整大小。 | 2026年1月13日 | 2026年1月13日 |
 | **修正** | 下列票證的修正： <ul><li>AMM-3328：因子的新運運算元停用欄位輸入</li><li>AMM-3359：日期選擇器和下拉式方塊鎖定。</li><li>AMM-3441：複製計畫不會自動填入日期範圍和預算。</li></ul> | 2026年1月13日 | 2026年1月13日 |
