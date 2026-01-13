@@ -3,9 +3,9 @@ title: 計畫總覽
 description: 瞭解如何在Mix Modeler中檢視、選取和操作計畫。
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: f0871834ec665c907caf0af3edeeed4fb2549a58
+source-git-commit: 0d11168b71319e6c854482f89dbb1bb68962a880
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Mix Modeler中的計畫可讓您依業務單位和管道分配預算。 計畫�
 
 若要檢視目前計畫的表格，請在Mix Modeler介面中：
 
-1. 從左側邊欄選取![](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]**。
+1. 從左側邊欄選取![](/help/assets/icons2/FileChart.svg) **[!UICONTROL Plans]**。
 
 1. 您會看到目前計畫及其狀態的表格。
 
@@ -63,6 +63,10 @@ Mix Modeler中的計畫可讓您依業務單位和管道分配預算。 計畫�
 
    您可以使用![ColumnSetting](/help/assets/icons/ColumnSetting.svg)來選取![核取標籤](/help/assets/icons/Checkmark.svg)要在資料表中顯示的資料行。
 
+   若要以遞增![ArrowMoveUp](/help/assets/icons2/ArrowMoveUp.svg)或遞減![ArrowMoveDown](/help/assets/icons2/ArrowMoveDown.svg)順序排序任何欄上的表格，請選取欄標題。
+
+   若要排序或調整&#x200B;**[!UICONTROL Name]**、**[!UICONTROL Model]**&#x200B;或&#x200B;**[!UICONTROL Date range]**&#x200B;資料行大小，請選取&#x200B;**[!UICONTROL Name]** ![V形](/help/assets/icons/ChevronDown.svg)、**[!UICONTROL Model]** ![V形](/help/assets/icons/ChevronDown.svg)或&#x200B;**[!UICONTROL Date range]** ![V形](/help/assets/icons/ChevronDown.svg)。 從內容功能表選取&#x200B;**[!UICONTROL Sort ascending]**、**[!UICONTROL Sort descending]**&#x200B;或&#x200B;**[!UICONTROL Resize column]**。 或者，您可以將滑鼠移到欄分隔符號上，讓這些欄重新調整欄大小。
+
 1. 使用![搜尋](/help/assets/icons/Search.svg)來搜尋和篩選一或多個特定計畫的資料表。
 
 ### 計畫深入分析
@@ -83,7 +87,7 @@ Mix Modeler中的計畫可讓您依業務單位和管道分配預算。 計畫�
 - 為計畫選取![更多](/help/assets/icons/More.svg)。 從內容功能表中選取&#x200B;**[!UICONTROL Duplicate]**。
 - 或者，在表格![SelectBox](/help/assets/icons/SelectBox.svg)中選取計畫，然後從藍色動作列選取![複製](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]**。
 
-已建立新計畫，其名稱由附加了&#x200B;**[!UICONTROL (Copy)] (_n_)**&#x200B;的原始計畫名稱所組成。 系統會自動將您重新導向至[計畫建立](build.md)，以提供已複製計畫的更新詳細資料。
+已建立新計畫，其名稱由附加了&#x200B;**[!UICONTROL (Copy)](_n_)**&#x200B;的原始計畫名稱所組成。 系統會自動將您重新導向至[計畫建立](build.md)，以提供已複製計畫的更新詳細資料。
 
 - 來自原始計畫的明細（如說明、預算等）會複製過來。
 - 原始計畫的預算限制會複製到新建立的計畫。
@@ -108,12 +112,12 @@ Mix Modeler中的計畫可讓您依業務單位和管道分配預算。 計畫�
 若要刪除計畫，請執行下列步驟：
 
 1. 為計畫選取![更多](/help/assets/icons/More.svg)。 從內容功能表中，選取&#x200B;**[!UICONTROL Delete]**。 <br/>或者，在表格![SelectBox](/help/assets/icons/SelectBox.svg)中選取計畫，然後從藍色動作列選取![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**。
-1. 在&#x200B;**[!UICONTROL Delete plan]**&#x200B;確認對話方塊中選取&#x200B;**[!UICONTROL Delete]**&#x200B;以刪除計畫。 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消。
+1. 在&#x200B;**[!UICONTROL Delete]**&#x200B;確認對話方塊中選取&#x200B;**[!UICONTROL Delete plan]**&#x200B;以刪除計畫。 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消。
 
 若要刪除多個計畫：
 
 1. 選取多個計畫。
 1. 從藍色動作列中，選取![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;以刪除計畫。
-1. 在&#x200B;**[!UICONTROL Delete *x *計畫]**&#x200B;確認對話方塊中選取&#x200B;**[!UICONTROL Delete]**&#x200B;以刪除計畫。 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消。
+1. 在&#x200B;**[!UICONTROL Delete]** x **[!UICONTROL Delete *計畫&#x200B;*確認對話方塊中選取]**以刪除計畫。 選取&#x200B;**[!UICONTROL Cancel]**以取消。
 
 
