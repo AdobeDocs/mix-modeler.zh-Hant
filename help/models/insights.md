@@ -3,9 +3,9 @@ title: 模型深入分析
 description: 瞭解如何取得有關您模型的詳細資訊，例如Mix Modeler中的歷史總覽、模型見解和模型品質。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: bff18fa3d2bb5b5879dca4ab5bdce261e35b2b70
+source-git-commit: 16ec71a73b577d124ac1ef420741849cdb1c139f
 workflow-type: tm+mt
-source-wordcount: '2488'
+source-wordcount: '2498'
 ht-degree: 2%
 
 ---
@@ -80,9 +80,9 @@ ht-degree: 2%
 
 ### 邊際回應曲線。
 
-折線圖會視覺化並比較行銷管道投資所產生的邊際回報。  找出增量回報低於增量支出的盈虧平衡點。 因此，此視覺效果可協助您瞭解行銷投資何時開始失去影響力。
+折線圖會視覺化並比較行銷管道投資所產生的邊際回報。  並識別目前的支出點與邊際收支平衡點（增量回報小於增量支出）。 因此，此視覺效果可協助您瞭解行銷投資何時開始失去影響力。
 
-曲線、收支平衡點及對應的值是根據選取的資料範圍及您選取的管道進行計算。
+曲線、目前支出點、邊際收支平衡點以及對應的值是根據選取的資料範圍以及您選取的管道進行計算。
 
 若要變更頻道：
 
@@ -258,7 +258,7 @@ Mix Modeler多點接觸歸因精細事件分數與整體Mix Modeler分數和ROI�
 >title="模型評估圖"
 >abstract="模型評估視覺化圖形會分開呈現實際轉換與預測轉換，或呈現轉換殘差。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/mix-modeler/using/overview" text="Mix Modeler 概觀"
->additional-url="https://video.tv.adobe.com/v/3440805/?captions=chi_hant&learn=on&enablevpops" text="Mix Modeler 示範"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Mix Modeler 示範"
 
 
 >[!CONTEXTUALHELP]
@@ -280,7 +280,7 @@ Mix Modeler多點接觸歸因精細事件分數與整體Mix Modeler分數和ROI�
   ![模型評定](../assets/model-assessment.png)
 
    * 您可以根據實際與預測或剩餘轉換劃分的圖表。
-若要劃分視覺效果，請從&#x200B;**[!UICONTROL Breakdown]**&#x200B;清單中選取下列其中一個選項。
+若要劃分視覺效果，請從**[!UICONTROL Breakdown]**&#x200B;清單中選取下列其中一個選項。
 
       * **[!UICONTROL Actual vs Predicted]**：此選項會比較實際值與模型預測。 理想情況下，預測值應該與實際值緊密一致，雖然可能會出現一些偏差。 大型或系統的偏差或模式可能表示缺少的關係和資料或潛在的偏差。
 
