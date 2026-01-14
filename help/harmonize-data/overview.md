@@ -3,10 +3,10 @@ title: 協調資料集概述
 description: 瞭解如何在Mix Modeler中協調資料。
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 80fbb8aea3e66342a7887f1660af0f4bf05ffcdb
+source-git-commit: 83ccceb5f8b73157048ed17b190194de4ed05c4f
 workflow-type: tm+mt
-source-wordcount: '1192'
-ht-degree: 5%
+source-wordcount: '1347'
+ht-degree: 6%
 
 ---
 
@@ -17,7 +17,7 @@ Mix Modeler中的資料根據資料來源具有不同的性質。 資料可以�
 * 彙總或摘要資料，例如，從圍牆花園資料來源收集而來，或是從公告牌行銷活動、事件或實體廣告行銷活動收集而來的離線廣告資料（如支出）。
 * 事件資料，例如來自第一方資料來源的資料。 此事件資料可以透過Adobe Analytics來源聯結器從Adobe Analytics收集，或透過Experience Platform Web、Mobile SDK或Edge Network API收集，或使用來源聯結器擷取的資料。
 
-Mix Modeler的協調服務會將彙總和事件資料同化為一致的資料檢視。 此資料檢視結合[內部和外部因素資料](#factors)，是Mix Modeler中模型的來源。 此服務會使用不同資料集的最高精細度。 例如，如果某個資料集的詳細程度為每月，而其餘資料集的詳細程度為每週和每日，則協調服務會使用每月詳細程度建立資料檢視。
+Mix Modeler的協調服務會將彙總和事件資料同化為一致的資料檢視。 此資料檢視是Mix Modeler中模型的來源。 此服務會使用不同資料集的最高精細度。 例如，如果某個資料集的詳細程度為每月，而其餘資料集的詳細程度為每週和每日，則協調服務會使用每月詳細程度建立資料檢視。
 
 ## 因素
 
@@ -27,7 +27,22 @@ Mix Modeler的協調服務會將彙總和事件資料同化為一致的資料檢
 
 * 外部因素是組織無法控制的因素，但仍可影響您獲得的轉換。 例如CPI、S&amp;P 500等。
 
+Mix Modeler中的因子功能使用協調的因子工作流程。 此工作流程會簡化管理因素的方式、提供模型間的一致性，並提供直覺式的體驗。
 
+在協調因子工作流程中：
+
+1. 在[資料集規則](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule)中，從因子資料集定義協調的因子欄位。
+1. [同步處理](/help/harmonize-data/dataset-rules.md#sync-data)您的協調資料。
+1. [在您的模型組態中使用因子](/help/models/build.md#configure)。
+
+### 移轉
+
+您的模型可能尚未採用協調因子工作流程，並使用Experience Platform資料集型因子工作流程。 這些模型會繼續顯示其原始的資料集型因子，直到模型更新為以協調因子工作流程為基礎的新因子為止。
+
+當您複製使用資料集型因素工作流程的模型時：
+
+* 如果模型尚未協調，舊的因子設定將不會延續到重複的模型中。 您必須使用新的協調因子工作流程來新增因子。
+* 如果模型已協調，則因子會結轉並保留或更新。
 
 ## 協調資料的範例
 
@@ -39,8 +54,8 @@ Mix Modeler的協調服務會將彙總和事件資料同化為一致的資料檢
 
 | 日期 | 日期型別 | Channel | Campaign | 品牌 | 地理 | 點按次數 | 支出 |
 |---|:--:|---|---|---|---|---:|---:|
-| 12-31-2021 | 天 | YouTube | Y_Fall_02 | BrandX | US | 10000 | 100 |
-| 01-01-2022 | 天 | YouTube | Y_Fall_02 | BrandX | US | 1000 | 10 |
+| 12-31-2021 | 天 | YouTube | Y_Fall_02 | BrandX | 美國 | 10000 | 100 |
+| 01-01-2022 | 天 | YouTube | Y_Fall_02 | BrandX | 美國 | 1000 | 10 |
 | 01-03-2022 | 天 | YouTube | Y_Fall_01 | BrandY | CA | 10000 | 100 |
 | 01-04-2022 | 天 | YouTube | Y_Summer_01 | 空 | CA | 9000 | 80 |
 
@@ -53,9 +68,9 @@ Mix Modeler的協調服務會將彙總和事件資料同化為一致的資料檢
 
 | 日期 | 日期型別 | Channel | Campaign | 地理 | 點按次數 | 支出 |
 |--- |:---:|--- |---|---|---:|---:|
-| 01-01-2022 | 周 | Facebook | FB_Fall_01 | US | 8000 | 100 |
-| 01-08-2022 | 周 | Facebook | FB_Fall_02 | US | 1000 | 10 |
-| 01-08-2022 | 周 | Facebook | FB_Fall_01 | US | 7000 | 100 |
+| 01-01-2022 | 周 | Facebook | FB_Fall_01 | 美國 | 8000 | 100 |
+| 01-08-2022 | 周 | Facebook | FB_Fall_02 | 美國 | 1000 | 10 |
+| 01-08-2022 | 周 | Facebook | FB_Fall_01 | 美國 | 7000 | 100 |
 | 01-16-2022 | 周 | Facebook | FB_Summer_01 | CA | 10000 | 80 |
 
 {style="table-layout:auto"}
@@ -67,9 +82,9 @@ Mix Modeler的協調服務會將彙總和事件資料同化為一致的資料檢
 
 | 日期 | 日期型別 | 地理 | 目標 | 收入 |
 |--- |:---: |---|---|---:|
-| 01-01-2022 | 天 | US | 時尚 | 200 |
-| 01-08-2022 | 天 | US | 時尚 | 10 |
-| 01-08-2022 | 天 | US | 珠寶 | 1100 |
+| 01-01-2022 | 天 | 美國 | 時尚 | 200 |
+| 01-08-2022 | 天 | 美國 | 時尚 | 10 |
+| 01-08-2022 | 天 | 美國 | 珠寶 | 1100 |
 | 01-16-2022 | 天 | CA | 珠寶 | 80 |
 
 {style="table-layout:auto"}
@@ -95,16 +110,16 @@ Mix Modeler的協調服務會將彙總和事件資料同化為一致的資料檢
 
 | 日期 | 日期型別 | Channel | Campaign | 品牌 | 地理 | 目標 | 點按次數 | 支出 | 收入 |
 |--- |:---:|--- |--- |--- |---|---|---:|---:|---:|
-| 12-27-2021 | 周 | YouTube | Y_Fall_02 | BrandX | US | 空 | 11000 | 110 | 空 |
+| 12-27-2021 | 周 | YouTube | Y_Fall_02 | BrandX | 美國 | 空 | 11000 | 110 | 空 |
 | 01-03-2022 | 周 | YouTube | Y_Fall_01 | BrandY | CA | 空 | 10000 | 100 | 空 |
 | 01-03-2022 | 周 | YouTube | Y_Summer_01 | 空 | CA | 空 | 9000 | 80 | 空 |
-| 01-01-2022 | 周 | Facebook | FB_Fall_01 | 空 | US | 空 | 8000 | 100 | 空 |
-| 01-08-2022 | 周 | Facebook | FB_Fall_02 | 空 | US | 空 | 1000 | 10 | 空 |
-| 01-08-2022 | 周 | Facebook | FB_Fall_01 | 空 | US | 空 | 7000 | 100 | 空 |
+| 01-01-2022 | 周 | Facebook | FB_Fall_01 | 空 | 美國 | 空 | 8000 | 100 | 空 |
+| 01-08-2022 | 周 | Facebook | FB_Fall_02 | 空 | 美國 | 空 | 1000 | 10 | 空 |
+| 01-08-2022 | 周 | Facebook | FB_Fall_01 | 空 | 美國 | 空 | 7000 | 100 | 空 |
 | 01-16-2022 | 周 | Facebook | FB_Summer_01 | 空 | CA | 空 | 10000 | 80 | 空 |
-| 12-27-2021 | 周 | 空 | 空 | 空 | US | 時尚 | 空 | 空 | 200 |
-| 01-03-2022 | 周 | 空 | 空 | 空 | US | 時尚 | 空 | 空 | 10 |
-| 01-03-2022 | 周 | 空 | 空 | 空 | US | 珠寶 | 空 | 空 | 1100 |
+| 12-27-2021 | 周 | 空 | 空 | 空 | 美國 | 時尚 | 空 | 空 | 200 |
+| 01-03-2022 | 周 | 空 | 空 | 空 | 美國 | 時尚 | 空 | 空 | 10 |
+| 01-03-2022 | 周 | 空 | 空 | 空 | 美國 | 珠寶 | 空 | 空 | 1100 |
 | 01-10-2022 | 周 | 空 | 空 | 空 | CA | 珠寶 | 空 | 空 | 80 |
 | 01-01-2022 | 周 | CSE | 空 | 空 | 空 | 空 | 2 | 空 | 空 |
 | 01-08-2022 | 周 | CSE | 空 | 空 | 空 | 空 | 2 | 空 | 空 |
@@ -134,9 +149,9 @@ Mix Modeler的協調服務會將彙總和事件資料同化為一致的資料檢
 
    1. 若要修改「協調」資料表所顯示的協調欄位欄，請使用![設定](/help/assets/icons/Setting.svg)開啟&#x200B;**[!UICONTROL Column settings]**&#x200B;對話方塊。
 
-      1. 從&#x200B;**[!UICONTROL AVAILABLE COLUMNS]**&#x200B;選取![SelectBox](/help/assets/icons/SelectBox.svg)一或多個資料行，並使用![右側V形](/help/assets/icons/ChevronRight.svg)將這些資料行新增到&#x200B;**[!UICONTROL SELECTED COLUMNS]**。
+      1. 從![選取](/help/assets/icons/SelectBox.svg)SelectBox **[!UICONTROL AVAILABLE COLUMNS]**&#x200B;一或多個資料行，並使用![右側V形](/help/assets/icons/ChevronRight.svg)將這些資料行新增到&#x200B;**[!UICONTROL SELECTED COLUMNS]**。
 
-      1. 從&#x200B;**[!UICONTROL SELECTED COLUMNS]**&#x200B;中選取![SelectBox](/help/assets/icons/SelectBox.svg)一或多個資料行，並使用![左V形](/help/assets/icons/ChevronLeft.svg)來移除選取的資料行，並將這些資料行傳回&#x200B;**[!UICONTROL AVAILABLE COLUMNS]**。
+      1. 從![中選取](/help/assets/icons/SelectBox.svg)SelectBox **[!UICONTROL SELECTED COLUMNS]**&#x200B;一或多個資料行，並使用![左V形](/help/assets/icons/ChevronLeft.svg)來移除選取的資料行，並將這些資料行傳回&#x200B;**[!UICONTROL AVAILABLE COLUMNS]**。
 
       1. 從&#x200B;**[!UICONTROL DEFAULT SORT]**&#x200B;中選取欄，並在&#x200B;**[!UICONTROL Ascending]**&#x200B;或&#x200B;**[!UICONTROL Descending]**&#x200B;之間切換。
 
@@ -144,7 +159,7 @@ Mix Modeler的協調服務會將彙總和事件資料同化為一致的資料檢
 
    1. 選取&#x200B;**[!UICONTROL Submit]**&#x200B;以提交您的欄設定變更。 選取&#x200B;**[!UICONTROL Close]**&#x200B;以取消您所做的任何變更。
 
-1. 如果有更多頁面可供使用，請使用&#x200B;_x _&#x200B;**的**&#x200B;Page _x_&#x200B;上的![向左箭頭](/help/assets/icons/ChevronLeft.svg)或![向右箭頭](/help/assets/icons/ChevronRight.svg)在頁面之間移動。
+1. 如果有更多頁面可供使用，請使用![x](/help/assets/icons/ChevronLeft.svg)的![x](/help/assets/icons/ChevronRight.svg)上的&#x200B;**[!UICONTROL Page _向左箭頭&#x200B;_或_向右箭頭_]**&#x200B;在頁面之間移動。
 
 1. 您可以選擇下載協調的資料。
 
@@ -156,7 +171,7 @@ Mix Modeler的協調服務會將彙總和事件資料同化為一致的資料檢
    標題是根據您提供的報告名稱及目前的日期與時間（例如`Test Report_2025_04_23_9-5-18.csv`）而設定的CSV報告會下載至您的預設下載資料夾。
 
 
-## 最佳作法
+## 最佳做法
 
 當您建立協調的資料集時，請套用以下最佳實務。
 
