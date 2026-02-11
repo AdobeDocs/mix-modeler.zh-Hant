@@ -3,9 +3,9 @@ title: 模型深入分析
 description: 瞭解如何取得有關您模型的詳細資訊，例如Mix Modeler中的歷史總覽、模型見解和模型品質。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 2775c5a3779f6731f7f3143f6ed21db2993c0955
+source-git-commit: 197aa8d5593932e68e592b89dceabf7dc75c7cc7
 workflow-type: tm+mt
-source-wordcount: '2499'
+source-wordcount: '2804'
 ht-degree: 2%
 
 ---
@@ -130,7 +130,13 @@ ht-degree: 2%
 
 
 
-## **[!UICONTROL Factors]** [!BADGE beta]
+## **[!UICONTROL Factors]** [!BADGE beta] {#factors}
+
+>[!CONTEXTUALHELP]
+>id="models_factors_factorcontributionbreakdown"
+>title="因子貢獻劃分"
+>abstract="因子貢獻劃分會顯示可歸因於模型中所包含各種因子的基礎轉換比例。<br/><br/>純基底代表基礎轉換，此轉換是獨立於行銷接觸點與模型中所包含的因素而進行的。 其中包括由品牌價值、重複購買、自然需求以及長期市場趨勢和季節性因素驅動的轉換。"
+
 
 因素[!BADGE beta]標籤顯示外部因素相關深入分析。
 
@@ -146,7 +152,21 @@ ht-degree: 2%
 
 如果沒有可用的資料，您會看到訊息![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**。
 
-## [!UICONTROL Attribution]
+## [!UICONTROL Attribution] {#attribution}
+
+
+>[!CONTEXTUALHELP]
+>id="models_attribution_breakdownbychannel"
+>title="依管道劃分"
+>abstract="**[!UICONTROL Breakdown by channel]**&#x200B;是根據客戶體驗事件結構描述，依定義的接觸點的管道型別進行的劃分。 選取![更多](https://spectrum.adobe.com/static/icons/workflow_18/Smock_MoreSmallList_18_N.svg)和&#x200B;**[!UICONTROL Breakdown by touchpoint]**&#x200B;以顯示依接觸點的劃分。"
+
+
+>[!CONTEXTUALHELP]
+>id="models_attribution_breakdownbytouchpointposition"
+>title="依接觸點位置劃分"
+>abstract="此視覺效果會依接觸點的位置及所有轉換路徑上的接觸點，顯示已歸因轉換的劃分。 此視覺效果會比較某個接觸點在某個位置的貢獻是否優於其他位置和其他任何位置的接觸點。 請注意，歸因模型在所有接觸點和位置的貢獻百分比總和將等於100。 職位入門者、影響者和完成者的定義如下：<ul><li>**入門者**：指出該接觸點是否為轉換路徑中的首次接觸。</li><li>**播放器**：指出接觸點是否不是導致轉換的第一次或最後一次接觸。</li><li>**關閉者**：指出該接觸點是否為轉換前的最後一次接觸。</li></ul>"
+
+
 
 >[!NOTE]
 >
@@ -252,19 +272,36 @@ Mix Modeler多點接觸歸因精細事件分數與整體Mix Modeler分數和ROI�
 
 ## [!UICONTROL Diagnostics] {#diagnostics}
 
-
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modelassessment"
 >title="模型評估圖"
 >abstract="模型評估視覺化圖形會分開呈現實際轉換與預測轉換，或呈現轉換殘差。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/mix-modeler/using/overview" text="Mix Modeler 概觀"
->additional-url="https://video.tv.adobe.com/v/3440805/?captions=chi_hant&learn=on&enablevpops" text="Mix Modeler 示範"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Mix Modeler 示範"
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_modeltrainingfitmetrics"
+>title="模型符合量度"
+>abstract="顯示多模型訓練符合量度的概觀。"
 
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_pathstouched"
 >title="接觸過的路徑"
 >abstract="接觸過的路徑是指每個接觸點實現轉換的路徑百分比和未實現轉換的路徑百分比。"
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_efficiencymeasure"
+>title="效率測量"
+>abstract="演演算法歸因模型產生的效率測量值表示某個接觸點對轉換的相對重要性（與接觸點數量無關）。 這是以1到5的刻度來測量。 請注意，接觸點數量越多並不保證測量效率越高。"
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_totalvolume"
+>title="總數量"
+>abstract="總數量是使用者接觸接觸點的總次數，包括出現在達成轉換的路徑上的接觸點以及未產生轉換的路徑。"
 
 
 >[!CONTEXTUALHELP]
@@ -280,7 +317,7 @@ Mix Modeler多點接觸歸因精細事件分數與整體Mix Modeler分數和ROI�
   ![模型評定](../assets/model-assessment.png)
 
    * 您可以根據實際與預測或剩餘轉換劃分的圖表。
-若要劃分視覺效果，請從&#x200B;**[!UICONTROL Breakdown]**&#x200B;清單中選取下列其中一個選項。
+若要劃分視覺效果，請從**[!UICONTROL Breakdown]**&#x200B;清單中選取下列其中一個選項。
 
       * **[!UICONTROL Actual vs Predicted]**：此選項會比較實際值與模型預測。 理想情況下，預測值應該與實際值緊密一致，雖然可能會出現一些偏差。 大型或系統的偏差或模式可能表示缺少的關係和資料或潛在的偏差。
 
