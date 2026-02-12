@@ -3,9 +3,9 @@ title: 模型深入分析
 description: 瞭解如何取得有關您模型的詳細資訊，例如Mix Modeler中的歷史總覽、模型見解和模型品質。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 197aa8d5593932e68e592b89dceabf7dc75c7cc7
+source-git-commit: 0a6ed07585f4e2d324159f649efedf2ec6d1b40b
 workflow-type: tm+mt
-source-wordcount: '2804'
+source-wordcount: '2827'
 ht-degree: 2%
 
 ---
@@ -74,9 +74,19 @@ ht-degree: 2%
 
 顯示不同管道貢獻分佈的環形圖視覺效果。 此視覺效果透過前三個執行管道的鏡頭（不包括基底和&#x200B;*所有其他*&#x200B;類別）以增量方式展示。 視覺效果有助於支援優先順序和預算分配。
 
-### 行銷績效摘要
+### 行銷績效摘要 {#marketing-performance-summary}
+
+
+>[!CONTEXTUALHELP]
+>id="models_insights_marketingperformancesummary"
+>title="未定義的管道"
+>abstract="包含未定義的管道，但沒有歸因的轉換。"
+
 
 顯示每個管道之ROI或CPA績效的水準長條圖視覺效果。 此視覺效果會強調您行銷投資的ROI / CPA。 管道會根據ROI / CPA以遞減順序排名。 視覺效果有助於識別哪些管道最有效，哪些可能需要最佳化。
+
+未定義的管道會納入視覺效果中，但沒有歸因的轉換。
+
 
 ### 邊際回應曲線
 
@@ -277,7 +287,7 @@ Mix Modeler多點接觸歸因精細事件分數與整體Mix Modeler分數和ROI�
 >title="模型評估圖"
 >abstract="模型評估視覺化圖形會分開呈現實際轉換與預測轉換，或呈現轉換殘差。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/mix-modeler/using/overview" text="Mix Modeler 概觀"
->additional-url="https://video.tv.adobe.com/v/3440805/?captions=chi_hant&learn=on&enablevpops" text="Mix Modeler 示範"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Mix Modeler 示範"
 
 
 >[!CONTEXTUALHELP]
@@ -317,7 +327,7 @@ Mix Modeler多點接觸歸因精細事件分數與整體Mix Modeler分數和ROI�
   ![模型評定](../assets/model-assessment.png)
 
    * 您可以根據實際與預測或剩餘轉換劃分的圖表。
-若要劃分視覺效果，請從&#x200B;**[!UICONTROL Breakdown]**&#x200B;清單中選取下列其中一個選項。
+若要劃分視覺效果，請從**[!UICONTROL Breakdown]**&#x200B;清單中選取下列其中一個選項。
 
       * **[!UICONTROL Actual vs Predicted]**：此選項會比較實際值與模型預測。 理想情況下，預測值應該與實際值緊密一致，雖然可能會出現一些偏差。 大型或系統的偏差或模式可能表示缺少的關係和資料或潛在的偏差。
 
@@ -349,7 +359,7 @@ Mix Modeler多點接觸歸因精細事件分數與整體Mix Modeler分數和ROI�
 
   ![接觸點有效性表格](../assets/touchpoint-effectiveness.png)
 
-  只會針對特定時段產生此資料表的資料。 選取&#x200B;**[!UICONTROL As of *xx/xx/xx， xx:xx TZ *]**![資訊](/help/assets/icons/InfoOutline.svg)以取得詳細資料。
+  此表格僅產生特定時段的資料。 選取&#x200B;**[!UICONTROL As of *xx/xx/xx， xx:xx TZ *]**![資訊](/help/assets/icons/InfoOutline.svg)以取得詳細資料。
 
   視覺效果會以遞減順序顯示每個接觸點的[!UICONTROL Efficiency measure] ![遞減順序](/help/assets/icons/SortOrderDown.svg)：
 
