@@ -3,10 +3,10 @@ title: 模型深入分析
 description: 瞭解如何取得有關您模型的詳細資訊，例如Mix Modeler中的歷史總覽、模型見解和模型品質。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 95cc236a70db0226293f97389343dbcb75c3d203
+source-git-commit: 7526706a710bf9277ddaa48c8b7b07fb321eda34
 workflow-type: tm+mt
-source-wordcount: '2827'
-ht-degree: 2%
+source-wordcount: '2844'
+ht-degree: 3%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 2%
 
 ![偵測到模型漂移對話方塊](/help/assets/model-drift-dialog.png)
 
-## [!UICONTROL Model insights]
+## 模型深入分析
 
 模型深入分析索引標籤會顯示[依日期和基本媒體所區分的貢獻](#contribution-by-date-and-base-media)、[依管道所區分的貢獻](#contribution-by-channel)、[行銷績效摘要](#marketing-performance-summary)以及[邊際回應曲線](#marginal-response-curves)的視覺效果。 此索引標籤也提供[接觸點劃分](#touchppint-breakdown)表格。
 
@@ -140,7 +140,7 @@ ht-degree: 2%
 
 
 
-## **[!UICONTROL Factors]** [!BADGE beta] {#factors}
+## 因素 {#factors}
 
 >[!CONTEXTUALHELP]
 >id="models_factors_factorcontributionbreakdown"
@@ -162,7 +162,7 @@ ht-degree: 2%
 
 如果沒有可用的資料，您會看到訊息![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**。
 
-## [!UICONTROL Attribution] {#attribution}
+## 歸因 {#attribution}
 
 
 >[!CONTEXTUALHELP]
@@ -207,13 +207,13 @@ Mix Modeler多點接觸歸因精細事件分數與整體Mix Modeler分數和ROI�
 
 「歸因」標籤包含下列視覺效果：
 
-### [!UICONTROL Overview]
+### 概觀
 
 [!UICONTROL Overview]視覺效果會顯示所選歸因模型的轉換總計和百分比。 選取更多模型後，視覺效果中會新增其他圓圈，每個圓圈都有各自對應圖例的顏色。
 
 若要檢視包含歸因模型詳細資訊的快顯視窗，請將滑鼠移到視覺效果中的任何圓圈上。
 
-### [!UICONTROL Trends]
+### 趨勢
 
 [!UICONTROL Daily trends]、[!UICONTROL Weekly trends]或[!UICONTROL Monthly trends]視覺效果會顯示所選歸因模型的每日、每週或每月轉換趨勢。
 
@@ -221,7 +221,7 @@ Mix Modeler多點接觸歸因精細事件分數與整體Mix Modeler分數和ROI�
 
 若要檢視詳細資訊，請將滑鼠停留在特定歸因模型的資料行上，以顯示顯示該資料轉換總數的彈出視窗。
 
-### [!UICONTROL Breakdown]
+### 劃分
 
 [!UICONTROL Breakdown]視覺效果是每個所選歸因模型轉換的劃分管道或接觸點。 此視覺效果有助於決定每個頻道或接觸點的成效。
 
@@ -229,7 +229,7 @@ Mix Modeler多點接觸歸因精細事件分數與整體Mix Modeler分數和ROI�
 
 若要檢視詳細資訊，請將滑鼠游標停留在任何圖表元素上。
 
-### [!UICONTROL Top campaigns]
+### 熱門行銷活動
 
 熱門促銷活動視覺效果會顯示熱門促銷活動表格，其中包含「促銷活動名稱」、「頻道」、「媒體型別」和「遞增式轉換」欄。 此視覺效果有助於讓您的團隊瞭解特定管道的特定行銷活動的成效，並提供您應進一步投資哪些行銷活動的深入分析。
 
@@ -249,7 +249,7 @@ Mix Modeler多點接觸歸因精細事件分數與整體Mix Modeler分數和ROI�
 若要關閉展開的[熱門促銷活動]對話方塊，請選取&#x200B;**[!UICONTROL Close]**。
 
 
-### [!UICONTROL Breakdown by touchpoint position]
+### 依接觸點位置劃分
 
 [!UICONTROL Breakdown by touchpoint position]視覺效果是依據所有轉換路徑上的接觸點和接觸點的位置劃分已歸因的轉換。 此圖表可協助您比較某個接觸點在某個位置的貢獻是否優於其他位置和其他任何位置的接觸點。
 
@@ -267,7 +267,7 @@ Mix Modeler多點接觸歸因精細事件分數與整體Mix Modeler分數和ROI�
 | [!UICONTROL Closer] | 此位置會指出該接觸點是否為轉換前的最後一次接觸。 |
 
 
-### [!UICONTROL Top conversion paths]
+### 排名在前的轉換路徑
 
 [!UICONTROL Top conversion paths]視覺效果會根據選取的歸因模型顯示前5個轉換路徑。
 
@@ -280,14 +280,14 @@ Mix Modeler多點接觸歸因精細事件分數與整體Mix Modeler分數和ROI�
 * 這些管道歸因模型貢獻百分比的總和。
 
 
-## [!UICONTROL Diagnostics] {#diagnostics}
+## 診斷 {#diagnostics}
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modelassessment"
 >title="模型評估圖"
 >abstract="模型評估視覺化圖形會分開呈現實際轉換與預測轉換，或呈現轉換殘差。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/mix-modeler/using/overview" text="Mix Modeler 概觀"
->additional-url="https://video.tv.adobe.com/v/3440805/?captions=chi_hant&learn=on&enablevpops" text="Mix Modeler 示範"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Mix Modeler 示範"
 
 
 >[!CONTEXTUALHELP]
@@ -327,7 +327,7 @@ Mix Modeler多點接觸歸因精細事件分數與整體Mix Modeler分數和ROI�
   ![模型評定](../assets/model-assessment.png)
 
    * 您可以根據實際與預測或剩餘轉換劃分的圖表。
-若要劃分視覺效果，請從&#x200B;**[!UICONTROL Breakdown]**&#x200B;清單中選取下列其中一個選項。
+若要劃分視覺效果，請從**[!UICONTROL Breakdown]**&#x200B;清單中選取下列其中一個選項。
 
       * **[!UICONTROL Actual vs Predicted]**：此選項會比較實際值與模型預測。 理想情況下，預測值應該與實際值緊密一致，雖然可能會出現一些偏差。 大型或系統的偏差或模式可能表示缺少的關係和資料或潛在的偏差。
 
@@ -417,7 +417,7 @@ Mix Modeler多點接觸歸因精細事件分數與整體Mix Modeler分數和ROI�
 * 從&#x200B;**[!UICONTROL Channels]**&#x200B;中選取頻道。
 
 
-## **[!UICONTROL Edit]**
+## 編輯
 
 您可以編輯模型的名稱、說明，以及訓練和評分的排程。
 
