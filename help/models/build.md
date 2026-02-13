@@ -3,10 +3,10 @@ title: 建立模型
 description: 瞭解如何在Mix Modeler中建立模型。
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: b08a24856e28a1377728bc2c511f6ea483cbd0fd
+source-git-commit: 51a8449f41ec7488e23b15e8f1a280de60b7e7fa
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 0%
+source-wordcount: '1024'
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,12 @@ ht-degree: 0%
 
 1. 選取&#x200B;**[!UICONTROL Next]**&#x200B;以繼續下一個步驟。 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消模型組態。
 
-## 設定
+## 設定{#configure}
+
+>[!CONTEXTUALHELP]
+>id="model_marketingtouchpoints_select"
+>title="行銷接觸點"
+>abstract="行銷接觸點為收件者、個體和/或 cookie 層級的行銷事件，用於評估行銷投資對數值型或收入型轉換的影響。<br/><br/>您無法使用具有重疊資料的接觸點來設定模型，而且必須至少有一個具有花費的接觸點。"
 
 您在&#x200B;**[!UICONTROL Configure]**&#x200B;步驟中設定您的模型。 設定涉及轉換目標的定義、行銷接觸點、合格的資料母體、外部和內部因素等。
 
@@ -34,13 +39,13 @@ ht-degree: 0%
 
    ![模型 — 轉換步驟](/help/assets/model-conversion-step.png)
 
-   1. 從&#x200B;**[!UICONTROL Conversion]**&#x200B;下拉式功能表中選取轉換。 可用的轉換是您在[!UICONTROL Harmonized datasets]中定義為[轉換](../harmonize-data/conversions.md)一部分的轉換。 例如 **[!UICONTROL Online Conversion]**。
+   1. 從&#x200B;**[!UICONTROL Conversion]**&#x200B;下拉式功能表中選取轉換。 可用的轉換是您在[中定義為](../harmonize-data/conversions.md)轉換[!UICONTROL Harmonized datasets]一部分的轉換。 例如 **[!UICONTROL Online Conversion]**。
 
    1. 您可以選取![LinkOutLight](/help/assets/icons/LinkOutLight.svg) **[!UICONTROL Create a conversion]**，直接從模型組態中建立轉換。
 
 
 
-1. 在「**[!UICONTROL Marketing touchpoints]**」區段中，您可以選取一或多個行銷接觸點，對應至您在[!UICONTROL Harmonized datasets]中定義為[行銷接觸點](../harmonize-data/marketing-touchpoints.md)一部分的行銷接觸點。
+1. 在「**[!UICONTROL Marketing touchpoints]**」區段中，您可以選取一或多個行銷接觸點，對應至您在[中定義為](../harmonize-data/marketing-touchpoints.md)行銷接觸點[!UICONTROL Harmonized datasets]一部分的行銷接觸點。
 
 
    ![模型 — 行銷接觸點步驟](/help/assets/model-marketing-touchpoint-step.png)
@@ -120,7 +125,7 @@ ht-degree: 0%
 
 
 
-1. 若要定義模型的回顧期間，請在&#x200B;**[!UICONTROL Give contribution credit to touchpoints occurring within]**&#x200B;中輸入介於`1`到`52`之間的值…… **[!UICONTROL weeks prior to the conversion]**。
+1. 若要定義模型的回顧期間，請在`1`中輸入介於`52`到&#x200B;**[!UICONTROL Give contribution credit to touchpoints occurring within]**&#x200B;之間的值…… **[!UICONTROL weeks prior to the conversion]**。
 
 1. 選取&#x200B;**[!UICONTROL Next]**&#x200B;以繼續下一個步驟。 如果需要更多組態，紅色外框和文字會說明需要哪些額外組態。 <br/>選取&#x200B;**[!UICONTROL Back]**&#x200B;以返回上一步。 <br/>選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消模型組態。
 
@@ -143,7 +148,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL MTA enabled]**&#x200B;區段中：
 
-   * 若要啟用模型的MTA功能，請啟動&#x200B;**[!UICONTROL MTA enabled]**。 如果您已啟用MTA，則在您已訓練並評分您的模型後，即可使用多重接觸歸因深入分析。 檢視[模型深入分析](insights.md)中的[歸因](insights.md#attribution)索引標籤。
+   * 若要啟用模型的MTA功能，請啟動&#x200B;**[!UICONTROL MTA enabled]**。 如果您已啟用MTA，則在您已訓練並評分您的模型後，即可使用多重接觸歸因深入分析。 檢視[模型深入分析](insights.md#attribution)中的[歸因](insights.md)索引標籤。
 
 1. 在&#x200B;**[!UICONTROL Prior knowledge]**&#x200B;區段中：
 
@@ -151,7 +156,7 @@ ht-degree: 0%
 
    1. 選取&#x200B;**[!UICONTROL Rule type]**，預設為&#x200B;**[!UICONTROL Absolute values]**。
 
-   1. 使用&#x200B;**[!UICONTROL Contribution proportion]**&#x200B;欄，為&#x200B;**[!UICONTROL Name]**&#x200B;底下列出的任何管道指定貢獻百分比。
+   1. 使用&#x200B;**[!UICONTROL Name]**&#x200B;欄，為&#x200B;**[!UICONTROL Contribution proportion]**&#x200B;底下列出的任何管道指定貢獻百分比。
 
    1. 您可以視情況為每個管道新增&#x200B;**[!UICONTROL Level of confidence]**&#x200B;百分比。
 
