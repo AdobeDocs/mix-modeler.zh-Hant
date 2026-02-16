@@ -3,9 +3,9 @@ title: 模型深入分析
 description: 瞭解如何取得有關您模型的詳細資訊，例如Mix Modeler中的歷史總覽、模型見解和模型品質。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 595dc75ee9159a92d893310d5e414f955655be98
+source-git-commit: fe998df0b26f0cef448471147191032751f0c41e
 workflow-type: tm+mt
-source-wordcount: '2839'
+source-wordcount: '2772'
 ht-degree: 2%
 
 ---
@@ -172,7 +172,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="models_attribution_breakdownbytouchpointposition"
 >title="依接觸點位置劃分"
->abstract="此視覺效果會依接觸點的位置及所有轉換路徑上的接觸點，顯示已歸因轉換的劃分。 此視覺效果會比較某個接觸點在某個位置的貢獻是否優於其他位置和其他任何位置的接觸點。 請注意，歸因模型在所有接觸點和位置的貢獻百分比總和將等於100。 職位入門者、影響者和完成者的定義如下：<ul><li>**入門者**：指出該接觸點是否為轉換路徑中的首次接觸。</li><li>**播放器**：指出接觸點是否不是導致轉換的第一次或最後一次接觸。</li><li>**關閉者**：指出該接觸點是否為轉換前的最後一次接觸。</li></ul>"
+>abstract="此視覺效果會依接觸點的位置及所有轉換路徑上的接觸點，顯示已歸因轉換的劃分。 此視覺效果會比較某個接觸點在某個位置的貢獻是否優於其餘位置以及在任何位置的其他接觸點。"
 
 
 
@@ -312,7 +312,7 @@ Mix Modeler多點接觸歸因精細事件分數與整體Mix Modeler分數和ROI�
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modeldateinfo"
 >title="模型日期截至"
->abstract="此表格僅產生特定時段的資料。**[!UICONTROL As of]**&#x200B;日期表示產生資料的時間，而且是以從startDate到endDate的資料為基礎。"
+>abstract="此表格僅產生特定時段的資料。**[!UICONTROL As of]**&#x200B;日期表示產生資料的時間，而且是以指定日期起至一年前為止的資料為基礎。"
 
 
 **[!UICONTROL Diagnostics]**&#x200B;索引標籤會顯示下列專案的視覺效果：
@@ -322,7 +322,7 @@ Mix Modeler多點接觸歸因精細事件分數與整體Mix Modeler分數和ROI�
   ![模型評定](../assets/model-assessment.png)
 
    * 您可以根據實際與預測或剩餘轉換劃分的圖表。
-若要劃分視覺效果，請從&#x200B;**[!UICONTROL Breakdown]**&#x200B;清單中選取下列其中一個選項。
+若要劃分視覺效果，請從**[!UICONTROL Breakdown]**&#x200B;清單中選取下列其中一個選項。
 
       * **[!UICONTROL Actual vs Predicted]**：此選項會比較實際值與模型預測。 理想情況下，預測值應該與實際值緊密一致，雖然可能會出現一些偏差。 大型或系統的偏差或模式可能表示缺少的關係和資料或潛在的偏差。
 
