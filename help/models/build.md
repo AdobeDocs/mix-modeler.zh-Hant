@@ -1,12 +1,13 @@
 ---
-title: 建立模型
-description: 瞭解如何在Mix Modeler中建立模型。
+title: 在Mix Modeler中建立模型
+description: 瞭解如何在Mix Modeler中建立模型，包括如何設定、設定和指定模型的進階選項。
 feature: Models
+solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 51a8449f41ec7488e23b15e8f1a280de60b7e7fa
+source-git-commit: 011b9b83569925ca9ff4f1ee472288473fbe8502
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 3%
+source-wordcount: '1276'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 3%
 
 您在&#x200B;**[!UICONTROL Setup]**&#x200B;步驟中定義名稱和說明：
 
-1. 輸入您的模型&#x200B;**[!UICONTROL Name]**，例如`Demo model`。 輸入&#x200B;**[!UICONTROL Description]**，例如`Demo model to explore AI featues of Mix Modeler`。
+1. 輸入您的模型&#x200B;**[!UICONTROL Name]**，例如`Demo model`。 輸入&#x200B;**[!UICONTROL Description]**，例如`Demo model to explore AI features of Mix Modeler`。
 
    ![模型名稱和描述](/help/assets/model-name-description.png)
 
@@ -83,7 +84,7 @@ ht-degree: 3%
 
    * 若要新增合格的資料母體容器，請選取![新增](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**。
 
-   * 若要移除合格的資料母體容器，請在容器中選取![更多](/help/assets/icons/More.svg)，然後從內容功能表中選取&#x200B;**[!UICONTROL Remove marketing touchpoint]**。
+   * 若要移除合格的資料母體容器，請在容器中選取![更多](/help/assets/icons/More.svg)，然後從內容功能表中選取&#x200B;**[!UICONTROL Remove container]**。
 
    * 在容器之間選取&#x200B;**And**&#x200B;和&#x200B;**Or**，為您的合格資料母體建置更複雜的定義。
 
@@ -132,7 +133,7 @@ ht-degree: 3%
 
 ## 進階
 
-您可以在&#x200B;**[!UICONTROL Advanced]**&#x200B;步驟中指定進階設定。 在此步驟中，您可以啟用多重接觸歸因(MTA)模型。
+您可以在&#x200B;**[!UICONTROL Advanced]**&#x200B;步驟中指定進階設定。 在此步驟中，您可以啟用多重接觸點歸因(MTA)模型。
 
 1. 在&#x200B;**[!UICONTROL Spend share]**&#x200B;區段中：
 
@@ -163,35 +164,62 @@ ht-degree: 3%
    1. 必要時，請使用&#x200B;**[!UICONTROL Clear all]**&#x200B;清除&#x200B;**[!UICONTROL Contribution proportion]**&#x200B;與&#x200B;**[!UICONTROL Level of confidence]**&#x200B;欄的所有輸入值。
 
 
-## 排程
+## 設定選項
 
-您可以在&#x200B;**[!UICONTROL Schedule]**&#x200B;步驟中排程模型的訓練和計分。
-
-1. 在&#x200B;**[!UICONTROL Schedule]**&#x200B;區段中，您可以排程模型訓練和評分。
-
-   ![排程模型](../assets/model-schedule.png)
-
-   若要排程模型評分與訓練：
-
-   1. 開啟&#x200B;**[!UICONTROL Enable scheduled model scoring and training]**。
-   1. 選取&#x200B;**[!UICONTROL Scoring frequency]**：
-
-      * **[!UICONTROL Daily]**：輸入有效時間（例如`05:22 pm`）或使用![時鐘](/help/assets/icons/Clock.svg)。
-      * **[!UICONTROL Weekly]**：選取一週的某天，然後輸入有效的時間（例如`05:22 pm`）或使用![時鐘](/help/assets/icons/Clock.svg)。
-      * **[!UICONTROL Monthly]**：從[Run on every]下拉式功能表中選取一個月中的某一日，然後輸入有效時間（例如`05:22 pm`）或使用![時鐘](/help/assets/icons/Clock.svg)。
-
-   1. 從下拉式功能表中選取&#x200B;**[!UICONTROL Training frequency]**： **[!UICONTROL Monthly]**、**[!UICONTROL Quarterly]**、**[!UICONTROL Yearly]**&#x200B;或&#x200B;**[!UICONTROL None]**。
-
-1. 在&#x200B;**[!UICONTROL Define training window]**&#x200B;區段中，選取：
-
-   ![模型 — 定義訓練時段](/help/assets/model-define-training-window.png)
-
-   * **[!UICONTROL Have Mix Modeler select a helpful training window]**&#x200B;和
-
-   * **[!UICONTROL Manually input a training window]**。選取時，在&#x200B;**[!UICONTROL Include events the following years prior to a conversion]**&#x200B;中定義年數。
+您可以[排程訓練和評分](#schedule)，[定義訓練時段](#training-window)，並在[步驟中為您的模型指定](#granular-insights-reporting-fields)精細見解報告欄位&#x200B;**[!UICONTROL Set options]**。
 
 
-1. 選取&#x200B;**[!UICONTROL Finish]**&#x200B;以完成您的模型設定。
+### 排程
+
+在&#x200B;**[!UICONTROL Schedule]**&#x200B;區段中，您可以排程模型訓練和評分。
+
+![排程模型](../assets/model-schedule.png)
+
+若要排程模型評分與訓練：
+
+1. 開啟&#x200B;**[!UICONTROL Enable scheduled model scoring and training]**。
+1. 選取&#x200B;**[!UICONTROL Scoring frequency]**：
+
+   * **[!UICONTROL Daily]**：輸入有效時間（例如`05:22 pm`）或使用![時鐘](/help/assets/icons/Clock.svg)。
+   * **[!UICONTROL Weekly]**：選取一週的某天，然後輸入有效的時間（例如`05:22 pm`）或使用![時鐘](/help/assets/icons/Clock.svg)。
+   * **[!UICONTROL Monthly]**：從[Run on every]下拉式功能表中選取一個月中的某一日，然後輸入有效時間（例如`05:22 pm`）或使用![時鐘](/help/assets/icons/Clock.svg)。
+
+1. 從下拉式功能表中選取&#x200B;**[!UICONTROL Training frequency]**： **[!UICONTROL Monthly]**、**[!UICONTROL Quarterly]**、**[!UICONTROL Yearly]**&#x200B;或&#x200B;**[!UICONTROL None]**。
+
+
+### 訓練時段
+
+在&#x200B;**[!UICONTROL Define training window]**&#x200B;區段中，選取：
+
+![模型 — 定義訓練時段](/help/assets/model-define-training-window.png)
+
+* **[!UICONTROL Have Mix Modeler select a helpful training window]**&#x200B;和
+
+* **[!UICONTROL Manually input a training window]**。選取時，在&#x200B;**[!UICONTROL Include events the following years prior to a conversion]**&#x200B;中定義年數。
+
+
+### 精細見解報告欄位
+
+**[!UICONTROL Granular insights reporting fields]**&#x200B;區段使用精細的增量報表功能。 此功能可讓您選取協調欄位，以劃分轉換和接觸點增量分數。
+
+![定義精細的深入分析報表欄位](/help/assets/granular-insights-reporting-fields.png)
+
+您可以定義這些協調欄位，以便使用精細的報表欄在模型的報表中深入研究，而不必建立個別模型。
+
+例如，您建立的模型著重於收入，但您也會對行銷活動、媒體型別、地區和流量來源績效感興趣。 如果沒有精細的增量報表功能，您必須建立四個個別的模型。 使用細微的增量報告功能，您可以根據行銷活動、媒體型別、地區和流量來源來劃分收入模型。
+
+1. 從&#x200B;**[!UICONTROL _底下的_]**&#x200B;選取協調欄位&#x200B;**[!UICONTROL Includes]**&#x200B;中，選取一或多個協調欄位。 選取的協調欄位會新增至面板。
+1. 選取&#x200B;**[!UICONTROL *協調欄位&#x200B;*]**![CrossSize100](/help/assets/icons/CrossSize100.svg)，以從包含所選協調欄位的容器中移除協調欄位。
+1. 選取&#x200B;**[!UICONTROL Clear all]**&#x200B;以移除所有選取的協調欄位。
+
+為精細增量報告選取的協調欄位可作為Experience Platform [結構描述](/help/ingest-data/schemas.md)和[資料集](/help/ingest-data/datasets.md)的一部分，這些資料來自對模型計分。 在&#x200B;**[!UICONTROL conversionPassthrough]**&#x200B;和&#x200B;**[!UICONTROL touchpointPassthrough]**&#x200B;物件中可以找到精細見解報告欄位。
+
+針對已啟用精細增量報告的模型，在結構描述中擷取conversionPassthrough和touchpointPassthrough物件的熒幕擷圖![](/help/assets/schema-granular-insights-reporting.png)
+
+
+## 完成
+
+* 選取&#x200B;**[!UICONTROL Finish]**&#x200B;以完成您的模型設定。
 
    * 在&#x200B;**[!UICONTROL Create instance?]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL Ok]**&#x200B;以立即觸發第一組訓練和評分回合。 您的模型已列出，狀態為![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Awaiting training]**。
 
@@ -199,6 +227,7 @@ ht-degree: 3%
 
    * 如果需要更多組態，紅色外框和文字會說明需要哪些額外組態。
 
-   選取&#x200B;**[!UICONTROL Back]**&#x200B;以返回上一步。
+* 選取&#x200B;**[!UICONTROL Back]**&#x200B;以返回上一步。
 
-   選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消模型組態。
+* 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消模型組態。
+
