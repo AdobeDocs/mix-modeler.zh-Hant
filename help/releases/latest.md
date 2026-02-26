@@ -4,16 +4,16 @@ description: 最新 Mix Modeler 發行說明
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 011b9b83569925ca9ff4f1ee472288473fbe8502
+source-git-commit: 0a5fdbe90c4a32de45f4f2756f080dc265f5fbb7
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 5%
+source-wordcount: '361'
+ht-degree: 4%
 
 ---
 
 # 目前的Mix Modeler發行說明
 
-**上次更新日期**：2026年1月13日。
+**上次更新日期**：2026年2月26日。
 
 以下發行說明涵蓋最新版本的Mix Modeler。 Mix Modeler版本會在持續傳遞模式上運作，允許大約每月發行。 因此，這些發行說明會相應更新，因此請定期檢視。
 
@@ -22,6 +22,7 @@ ht-degree: 5%
 
 | 功能 | 說明 | [轉出開始](#release-strategy) | [全面發佈](#release-strategy) |
 |---|---|---|---|
+| **協調因子工作流程** | 因子現在作為[協調因子工作流程](/help/harmonize-data/overview.md#factors)的一部分來管理。 這簡化如何[定義因子資料](/help/ingest-data/schemas.md#factor-standard-fields-field-group)、如何[管理內部和外部因子作為資料集規則的一部分](/help/harmonize-data/dataset-rules.md#factor-datasets)，以及如何在[模型](/help/models/build.md#configure)中使用因子資料。 | 2026年2月25日 | 2026年2月25日 |
 | **[!UICONTROL Granular incrementality reporting]** | 定義協調的欄位，以便您可以使用[精細分析報表欄位](/help/models/build.md#granular-insights-reporting-fields)在模型報表中深入研究，而不必建立個別模型。 | 2026年2月18日 | 2026年2月18日 |
 
 ## 2026 年 1 月
