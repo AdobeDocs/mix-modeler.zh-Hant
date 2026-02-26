@@ -4,9 +4,9 @@ description: 瞭解如何在Mix Modeler中建立模型，包括如何設定、�
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 011b9b83569925ca9ff4f1ee472288473fbe8502
+source-git-commit: 56682fb57d6ca99fbf5d355ae487af2b31a72319
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1194'
 ht-degree: 2%
 
 ---
@@ -88,45 +88,23 @@ ht-degree: 2%
 
    * 在容器之間選取&#x200B;**And**&#x200B;和&#x200B;**Or**，為您的合格資料母體建置更複雜的定義。
 
+1. 您可以在&#x200B;**[!UICONTROL Factor dataset]**&#x200B;區段中管理包含內部或外部因子的資料集。
 
-1. 若要將包含外部因子的資料集新增至模型，請在&#x200B;**[!UICONTROL External factors dataset]**&#x200B;區段中使用一或多個容器。 S&amp;P指數就是外部因素的範例。
+   ![模型 — 因素資料集步驟](../assets/model-factors-dataset-step.png)
 
-   ![模型 — 外部因素資料集](/help/assets/model-external-factors-dataset-step.png)
+   * 若要新增因子資料集，請選取&#x200B;**[!UICONTROL Add Factor]**。 您最多可以為模型新增30個因子。
 
-   * 對於每個容器：
+      1. 從下拉式功能表中選取&#x200B;**[!UICONTROL Factor dataset]**。 可用的因子是您已在[資料集規則](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule)中定義協調欄位的因子。
+根據選取的資料集，**[!UICONTROL Factor type**]為&#x200B;**[!UICONTROL Internal]**&#x200B;或&#x200B;**[!UICONTROL External]**。
 
-      1. 輸入&#x200B;**[!UICONTROL External factor name]**，例如`External Factors`。
+      1. 從下拉式功能表中選取&#x200B;**[!UICONTROL Impact on conversion]**。 可用的選項包括： **[!UICONTROL Auto]**、**[!UICONTROL Positive]**&#x200B;或&#x200B;**[!UICONTROL Negative]**。 預設選項為&#x200B;**[!UICONTROL Auto]**，可讓模型判斷因子資料集的影響。
 
-      1. 從&#x200B;**[!UICONTROL Dataset]**&#x200B;下拉式功能表中選取資料集。 您可以選取![資料](/help/assets/icons/Data.svg)來管理資料集。 如需詳細資訊，請參閱[資料集](../ingest-data/datasets.md)。
-
-      1. 從&#x200B;**[!UICONTROL Impact on conversion]**&#x200B;下拉式功能表中選取選項： **[!UICONTROL Auto select]**、**[!UICONTROL Positive]**&#x200B;或&#x200B;**[!UICONTROL Negative]**。 預設選項為&#x200B;**[!UICONTROL Auto select]**，可讓模型判斷影響。 您可以覆寫預設值。
-
-   * 若要新增其他外部因素資料集容器，請選取![新增](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add external factor]**。
-
-   * 若要移除外部因子資料集容器，請選取![RemoveCircle](/help/assets/icons/RemoveCircle.svg)。
+   * 若要刪除因子資料集，請選取![CrossSize200](/help/assets/icons/CrossSize400.svg)。
 
 
 
 
-1. 若要將包含內部因子的資料集新增至模型，請在&#x200B;**[!UICONTROL Internal factors dataset]**&#x200B;區段中使用一或多個容器。 電子郵件行銷資料是內部因素的範例。
-
-   ![模型 — 內部因素資料集](/help/assets/model-internal-factors-dataset-step.png)
-
-   * 對於每個容器：
-
-      1. 輸入&#x200B;**[!UICONTROL Internal factor name]**，例如`Email Marketing Data`。
-
-      1. 從&#x200B;**[!UICONTROL _選取資料集_]**&#x200B;中選取資料集。 您可以選取![資料](/help/assets/icons/Data.svg)來管理資料集。 如需詳細資訊，請參閱[資料集](../ingest-data/datasets.md)。
-
-      1. 從&#x200B;**[!UICONTROL Impact on conversion]**&#x200B;下拉式功能表中選取選項： **[!UICONTROL Auto select]**、**[!UICONTROL Positive]**&#x200B;或&#x200B;**[!UICONTROL Negative]**。
-
-   * 若要新增其他內部因子資料集容器，請選取![新增](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add internal factor]**。
-
-   * 若要移除內部因子資料集容器，請選取![RemoveCircle](/help/assets/icons/RemoveCircle.svg)。
-
-
-
-1. 若要定義模型的回顧期間，請在`1`中輸入介於`52`到&#x200B;**[!UICONTROL Give contribution credit to touchpoints occurring within]**&#x200B;之間的值…… **[!UICONTROL weeks prior to the conversion]**。
+1. 若要定義模型的回顧期間，請在`1`區段的`52` ... **[!UICONTROL Give contribution credit to touchpoints occurring within]**&#x200B;中輸入介於&#x200B;**[!UICONTROL weeks prior to the conversion]**&#x200B;到&#x200B;**[!UICONTROL Define lookback window]**&#x200B;之間的值。
 
 1. 選取&#x200B;**[!UICONTROL Next]**&#x200B;以繼續下一個步驟。 如果需要更多組態，紅色外框和文字會說明需要哪些額外組態。 <br/>選取&#x200B;**[!UICONTROL Back]**&#x200B;以返回上一步。 <br/>選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消模型組態。
 
