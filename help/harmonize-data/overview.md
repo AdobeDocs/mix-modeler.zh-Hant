@@ -3,10 +3,10 @@ title: 協調資料集概述
 description: 瞭解如何在Mix Modeler中協調資料。
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 83ccceb5f8b73157048ed17b190194de4ed05c4f
+source-git-commit: 23cb7cefe3d1dabfdb8484ad150c38d785841e3b
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 6%
+source-wordcount: '1369'
+ht-degree: 7%
 
 ---
 
@@ -52,7 +52,7 @@ Mix Modeler中的因子功能使用協調的因子工作流程。 此工作流�
 
 包含來自YouTube的行銷活動資料集，其彙總資料集的詳細程度為每日。
 
-| 日期 | 日期型別 | Channel | Campaign | 品牌 | 地理 | 點按次數 | 支出 |
+| 日期 | 日期型別 | 頻道 | Campaign | 品牌 | 地理 | 點按次數 | 支出 |
 |---|:--:|---|---|---|---|---:|---:|
 | 12-31-2021 | 天 | YouTube | Y_Fall_02 | BrandX | 美國 | 10000 | 100 |
 | 01-01-2022 | 天 | YouTube | Y_Fall_02 | BrandX | 美國 | 1000 | 10 |
@@ -66,7 +66,7 @@ Mix Modeler中的因子功能使用協調的因子工作流程。 此工作流�
 
 包含Facebook的行銷成果資料集，其彙總資料的詳細程度設定為每週。
 
-| 日期 | 日期型別 | Channel | Campaign | 地理 | 點按次數 | 支出 |
+| 日期 | 日期型別 | 頻道 | Campaign | 地理 | 點按次數 | 支出 |
 |--- |:---:|--- |---|---|---:|---:|
 | 01-01-2022 | 周 | Facebook | FB_Fall_01 | 美國 | 8000 | 100 |
 | 01-08-2022 | 周 | Facebook | FB_Fall_02 | 美國 | 1000 | 10 |
@@ -94,7 +94,7 @@ Mix Modeler中的因子功能使用協調的因子工作流程。 此工作流�
 
 來自客戶的體驗事件資料集(網頁SDK事件)範例。
 
-| 時間戳記 | 身分識別命名空間 | 身分ID | Channel | 點按次數 |
+| 時間戳記 | 身分識別命名空間 | 身分ID | 頻道 | 點按次數 |
 |--- |--- |--- |--- |---:|
 | 01-01-2022 00:01:01.000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
 | 01-01-2022 00:01:01.000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
@@ -108,7 +108,7 @@ Mix Modeler中的因子功能使用協調的因子工作流程。 此工作流�
 
 **協調的資料集**
 
-| 日期 | 日期型別 | Channel | Campaign | 品牌 | 地理 | 目標 | 點按次數 | 支出 | 收入 |
+| 日期 | 日期型別 | 頻道 | Campaign | 品牌 | 地理 | 目標 | 點按次數 | 支出 | 收入 |
 |--- |:---:|--- |--- |--- |---|---|---:|---:|---:|
 | 12-27-2021 | 周 | YouTube | Y_Fall_02 | BrandX | 美國 | 空 | 11000 | 110 | 空 |
 | 01-03-2022 | 周 | YouTube | Y_Fall_01 | BrandY | CA | 空 | 10000 | 100 | 空 |
@@ -132,7 +132,7 @@ Mix Modeler中的因子功能使用協調的因子工作流程。 此工作流�
 若要建置協調的資料集（如在簡化的[範例](#an-example-of-harmonized-data)中），您必須遵循下列步驟：
 
 1. 定義其他[個要使用的協調欄位](fields.md)，這些協調欄位已超出可用的全球協調欄位。
-1. 設定[資料集規則](dataset-rules.md)，將彙總或體驗事件資料集中的欄位對應到協調的欄位。
+1. 設定[資料集規則](dataset-rules.md)，將彙總（因子或摘要）或體驗事件資料集中的欄位對應到協調的欄位。
 1. 使用您定義的標準和其他協調欄位來定義[行銷接觸點](marketing-touchpoints.md)。
 1. 使用您定義的標準和其他協調欄位來定義[轉換](conversions.md)。
 
@@ -149,7 +149,7 @@ Mix Modeler中的因子功能使用協調的因子工作流程。 此工作流�
 
    1. 若要修改「協調」資料表所顯示的協調欄位欄，請使用![設定](/help/assets/icons/Setting.svg)開啟&#x200B;**[!UICONTROL Column settings]**&#x200B;對話方塊。
 
-      1. 從![選取](/help/assets/icons/SelectBox.svg)SelectBox **[!UICONTROL AVAILABLE COLUMNS]**&#x200B;一或多個資料行，並使用![右側V形](/help/assets/icons/ChevronRight.svg)將這些資料行新增到&#x200B;**[!UICONTROL SELECTED COLUMNS]**。
+      1. 從![選取](/help/assets/icons/SelectBox.svg)SelectBox **[!UICONTROL AVAILABLE COLUMNS]**&#x200B;一或多個資料行，並使用![右側V形](/help/assets/icons/ChevronRight.svg)將這些資料行新增到&#x200B;**[!UICONTROL SELECTED COLUMNS]**。 您定義的所有標準協調欄位（包括與因子資料集相關的欄位，例如&#x200B;**[!UICONTROL Factor Name]**、**[!UICONTROL Factor Value]**、**[!UICONTROL Factor Type]**&#x200B;和&#x200B;**[!UICONTROL Factor Value Type]**）都可供使用。
 
       1. 從![中選取](/help/assets/icons/SelectBox.svg)SelectBox **[!UICONTROL SELECTED COLUMNS]**&#x200B;一或多個資料行，並使用![左V形](/help/assets/icons/ChevronLeft.svg)來移除選取的資料行，並將這些資料行傳回&#x200B;**[!UICONTROL AVAILABLE COLUMNS]**。
 
