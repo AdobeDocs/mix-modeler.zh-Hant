@@ -3,9 +3,9 @@ title: 資料集規則
 description: 瞭解如何定義資料集規則，以便在Mix Modeler中協調資料時使用。
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 5468e0aaf37bf2dca8912199ea26e5f8d9069cb5
+source-git-commit: 9987c845414fa5a3abda201d55f7b1ed6e211780
 workflow-type: tm+mt
-source-wordcount: '1728'
+source-wordcount: '2102'
 ht-degree: 0%
 
 ---
@@ -48,13 +48,13 @@ ht-degree: 0%
 
 在&#x200B;**[!UICONTROL Create]**&#x200B;畫面中，
 
-1. 在&#x200B;**[!UICONTROL Dataset details]**&#x200B;中，從&#x200B;**[!UICONTROL Select dataset]**&#x200B;中選取資料集以開始設定。 在清單中，資料集分類為&#x200B;**[!UICONTROL Consumer Experience Events]**、**[!UICONTROL Adobe Analytics]**、**[!UICONTROL Experience Event]**&#x200B;和&#x200B;**[!UICONTROL Summary]**。
+1. 在&#x200B;**[!UICONTROL Dataset details]**&#x200B;中，從&#x200B;**[!UICONTROL Select dataset]**&#x200B;中選取資料集以開始設定。 在清單中，資料集是在&#x200B;**[!UICONTROL Summary]**、**[!UICONTROL Adobe Analytics]**、**[!UICONTROL Experience Event]**、**[!UICONTROL Factors]**&#x200B;和&#x200B;**[!UICONTROL Consumer Experience Events]**&#x200B;中分類。
 
 1. 選取&#x200B;**[!UICONTROL Start of the week]**&#x200B;的日期。
 
 1. 選取&#x200B;**[!UICONTROL Daily]**&#x200B;的&#x200B;**[!UICONTROL Weekly]**、**[!UICONTROL Monthly]**、**[!UICONTROL Yearly]**&#x200B;或&#x200B;**[!UICONTROL Granularity]**。
 
-1. 當您選取&#x200B;**[!UICONTROL Summary]**&#x200B;類別的資料集時，請為&#x200B;**[!UICONTROL Aggregation]**&#x200B;選取&#x200B;**[!UICONTROL Replacement]**&#x200B;或&#x200B;**[!UICONTROL Data restatement is by]**。
+1. 當您已選取&#x200B;**[!UICONTROL Summary]**&#x200B;或&#x200B;**[!UICONTROL Factors]**&#x200B;類別的資料集時，請為&#x200B;**[!UICONTROL Aggregation]**&#x200B;選取&#x200B;**[!UICONTROL Replacement]**&#x200B;或&#x200B;**[!UICONTROL Data restatement is by]**。
 
    對於行銷分析師而言，來自發佈商的報表資料非常重要，因為與發佈商合作通常意味著要花費大量成本，而報表資料的變更可能會導致非常不同的深入分析和投資計畫。 此外，行銷分析人員需要精確資料，才能獲得正確的深入分析和令人信服的提案，進而獲得利害關係人的信心。 然而，這些發佈者(例如Google和Facebook)在調解資料時，通常會重述或刪除報表資料。 大部分變更的時間範圍都在報告媒體效能的7天內。 30天內可能會對資料進行其他變更。 一般而言，30天後，書籍會被視為已關閉且資料完整。
 
@@ -62,25 +62,23 @@ ht-degree: 0%
 
    您可以傳送重述的摘要資料列作為Experience Platform資料集中的增量資料列，而協調服務會以該重述資料更新協調的資料集。 同樣地，您也可以移除需要反映在協調服務中的摘要資料列。
 
-1. 在&#x200B;**[!UICONTROL Map to harmonized fields]**&#x200B;區段中：
+1. 在&#x200B;**[!UICONTROL Map to harmonized fields]**&#x200B;區段中，從&#x200B;**[!UICONTROL Standard harmonized field]**&#x200B;選取協調欄位。 若要[快速建立新的協調欄位](/help/harmonize-data/fields.md#add-a-harmonized-field)，請選取&#x200B;**[!UICONTROL Create new]**。
 
-   1. 從&#x200B;**[!UICONTROL Standard harmonized field]**&#x200B;中選取協調欄位。
-
-   1. 當選取的協調欄位屬於型別量度時：
+   * 當選取的協調欄位屬於型別量度時：
 
       1. 從&#x200B;**[!UICONTROL Count]**&#x200B;中選取&#x200B;**[!UICONTROL Sum]**&#x200B;或&#x200B;**[!UICONTROL Mapping type]**。
 
       1. 選取您預設要與協調欄位對應的&#x200B;**[!UICONTROL *AEP資料集欄位&#x200B;*]**。
 
-   1. 當選取的欄位屬於型別維度時：
+   * 當選取的欄位屬於型別維度時：
 
       1. 從&#x200B;**[!UICONTROL Map Into]**&#x200B;中選取&#x200B;**[!UICONTROL Case]**&#x200B;或&#x200B;**[!UICONTROL Mapping type]**。
 
-      1. 當您已選取&#x200B;**[!UICONTROL Map Into]**&#x200B;時，請選取&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP資料集欄位&#x200B;*]**&#x200B;或&#x200B;**[!UICONTROL Value]**，以及預設值，以將協調的欄位依預設對應到資料集欄位或輸入的值。
+      1. 當您已選取&#x200B;**[!UICONTROL Map Into]**&#x200B;時，請選取&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP資料集欄位&#x200B;*]**或&#x200B;**[!UICONTROL Value]**，以及預設值，以將協調的欄位依預設對應到資料集欄位或輸入的值。
 
-      1. 當您選取&#x200B;**[!UICONTROL Case]**&#x200B;時，請選取&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP資料集欄位&#x200B;*]**&#x200B;或&#x200B;**[!UICONTROL Value]**，以及預設值，以依預設將協調欄位對應到資料集欄位或輸入的值。
+      1. 當您選取&#x200B;**[!UICONTROL Case]**&#x200B;時，請選取&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP資料集欄位&#x200B;*]**或&#x200B;**[!UICONTROL Value]**，以及預設值，以依預設將協調欄位對應到資料集欄位或輸入的值。
 
-         1. 若要明確設定值，您可以定義一或多個案例，由一或多個條件組成。 每個條件都可以檢查特定的&#x200B;**[!UICONTROL *AEP資料集欄位&#x200B;*]**，無論是&#x200B;**[!UICONTROL Exists]**&#x200B;或&#x200B;**[!UICONTROL Not Exists]**，或是&#x200B;**[!UICONTROL Contains]**、**[!UICONTROL Not Contains]**、**[!UICONTROL Equals]**、**[!UICONTROL Not Equals]**、**[!UICONTROL Starts With]**&#x200B;或&#x200B;**[!UICONTROL Ends With]**，輸入於&#x200B;**[!UICONTROL *&#x200B;輸入的值&#x200B;*]**。
+         1. 若要明確設定值，您可以定義一或多個案例，由一或多個條件組成。 每個條件都可以檢查特定的&#x200B;**[!UICONTROL *AEP資料集欄位&#x200B;*]**，無論是&#x200B;**[!UICONTROL Exists]**或&#x200B;**[!UICONTROL Not Exists]**，或是&#x200B;**[!UICONTROL Contains]**、**[!UICONTROL Not Contains]**、**[!UICONTROL Equals]**、**[!UICONTROL Not Equals]**、**[!UICONTROL Starts With]**或&#x200B;**[!UICONTROL Ends With]**，輸入於**[!UICONTROL *&#x200B;輸入的值&#x200B;*]**。
 
          1. 若要新增其他案例，請選取![新增](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**，若要新增其他條件，請選取![新增](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**。
 
@@ -90,7 +88,7 @@ ht-degree: 0%
 
          1. 若要設定案例的結果值，請在&#x200B;**[!UICONTROL Then]**&#x200B;輸入值。
 
-      以下範例
+     下列範例：
 
       * 使用&#x200B;**[!UICONTROL Map Into]** **[!UICONTROL Mapping type]**&#x200B;將&#x200B;**[!UICONTROL Channel Type At Source]**&#x200B;協調欄位對應到&#x200B;**[!UICONTROL channel_type]**&#x200B;資料集中的&#x200B;**[!DNL Luma Transactions]**&#x200B;欄位。
 
@@ -101,15 +99,6 @@ ht-degree: 0%
 
         ![資料集規則事件](/help/assets/dataset-create-event.png)
 
-      當您從摘要資料集對應標準協調欄位時，Mix Modeler會嘗試推斷對應的Experience Platform資料集欄位。 成功時：
-
-      * 如果欄位屬於型別維度，則會選取&#x200B;**[!UICONTROL Map into]**&#x200B;作為&#x200B;**[!UICONTROL Mapping type]**。
-      * 如果欄位屬於型別量度，則會選取&#x200B;**[!UICONTROL Sum]**&#x200B;作為&#x200B;**[!UICONTROL Mapping type]**。
-      * 已選取&#x200B;**[!UICONTROL Field]**&#x200B;做為&#x200B;**[!UICONTROL Default]**&#x200B;對應型別。
-      * 系統會自動為&#x200B;*Experience Platform資料集欄位*&#x200B;插入對應的AEP資料集欄位。
-
-      如果這些值不正確或不支援您的特定使用案例，您可以變更任何建議值。
-
 1. 選取![新增](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]**&#x200B;以定義其他欄位。
 
 完成後，選取&#x200B;**[!UICONTROL Save as draft]**&#x200B;以儲存規則的草稿版本，或選取&#x200B;**[!UICONTROL Save]**&#x200B;以儲存並啟動規則。 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消規則設定。
@@ -119,7 +108,82 @@ ht-degree: 0%
 >摘要資料集規則的專用&#x200B;**[!UICONTROL Map to harmonized fields]**&#x200B;體驗已過時。 所有資料集規則現在都會使用類似的&#x200B;**[!UICONTROL Map to harmonized fields]**&#x200B;體驗，無論資料集型別為何。 針對您已使用已棄用的&#x200B;**[!UICONTROL Map to harmonized fields]**&#x200B;體驗定義規則的摘要資料集，您可能想要針對一般&#x200B;**[!UICONTROL Map to harmonized field]**&#x200B;體驗驗證這些規則。
 >
 
+#### 摘要資料集
 
+當您從摘要資料集對應標準協調欄位時，Mix Modeler會嘗試推斷對應的Experience Platform資料集欄位。 成功時：
+
+* 如果欄位屬於型別維度，則會選取&#x200B;**[!UICONTROL Map into]**&#x200B;作為&#x200B;**[!UICONTROL Mapping type]**。
+* 如果欄位屬於型別量度，則會選取&#x200B;**[!UICONTROL Sum]**&#x200B;作為&#x200B;**[!UICONTROL Mapping type]**。
+* 已選取&#x200B;**[!UICONTROL Field]**&#x200B;做為&#x200B;**[!UICONTROL Default]**&#x200B;對應型別。
+* 系統會自動為&#x200B;*Experience Platform資料集欄位*&#x200B;插入對應的AEP資料集欄位。
+
+如果這些值不正確或不支援您的特定使用案例，您可以變更任何建議值。
+
+
+#### 因子資料集
+
+您可將協調的欄位對應到因子資料集中的欄位，因此您可以[新增因子作為模型組態的一部分](/help/models/build.md)。
+
+將協調欄位對應至因子資料集中的欄位時，將套用下列內容：
+
+##### 因子名稱
+
+當您從因子資料集對應標準協調因子欄位且因子資料集包含單一因子時，請使用&#x200B;**[!UICONTROL Map into]**&#x200B;作為&#x200B;**[!UICONTROL Mapping type]**&#x200B;並輸入&#x200B;**[!UICONTROL Factor Name]**&#x200B;協調欄位的預設值。
+
+![資料集規則 — 對應單一因素資料集](../assets/dataset-create-rule-factor-single.png)
+
+如果因子資料集包含多個因子，請使用&#x200B;**[!UICONTROL Case As]**&#x200B;做為&#x200B;**[!UICONTROL Mapping Type]**，以定義「因子名稱」協調欄位與每個不同因子名稱之間的對應。
+
+![資料集規則 — 對應單一因素資料集](../assets/dataset-create-rule-factor-multiple.png)
+
+
+##### 因子型別
+
+在因子資料集和結構描述中，此欄位是選用欄位。 如果在因子資料集和結構描述中定義&#x200B;**[!UICONTROL Factor type]**&#x200B;並指定&#x200B;**[!UICONTROL Internal]**&#x200B;或&#x200B;**[!UICONTROL External]**，則會使用提供的值。 如果未指定值，則使用預設值&#x200B;**[!UICONTROL Internal]**。
+
+##### 值型別
+
+在因子資料集和結構描述中，此欄位是選用欄位。 如果在因子資料集和結構描述中定義&#x200B;**[!UICONTROL Value type]**&#x200B;並指定&#x200B;**[!UICONTROL Actual]**&#x200B;或&#x200B;**[!UICONTROL Forecasted]**，則會使用提供的值。 如果未指定值，則使用預設值&#x200B;**[!UICONTROL Actual]**。
+
+
+##### 詳細程度
+
+當因子資料集內的所有因子都有相同的來源粒度時，您可以為因子資料集的粒度定義資料集規則。
+
+一旦Factor資料集協調，所有資料集就會在協調的資料集中符合最高層級的詳細程度。
+
+
+##### 因子值
+
+對於&#x200B;**[!UICONTROL Factor value]**&#x200B;協調欄位，請使用其中一個彙總運運算元做為&#x200B;**[!UICONTROL Mapping Type]**。 在因子資料集中定義多個因子時，彙總運運算元會套用至所有因子。
+
+
+##### 範例
+
+* 您有一個因子資料集，其中包含下列範例資料：
+
+  | 時間戳記 | 因子名稱 | 因子值 |
+  |---|---|---:|
+  | 2025年3月13日 | _definedsp500 | 10 |
+  | 2025年3月13日 | _cpi | 20 |
+  | 2025年3月14日 | _definedsp500 | 30 |
+  | 2025年3月14日 | _cpi | 40 |
+  | 2025年3月15日 | _definedsp500 | 50 |
+  | 2025年3月15日 | _cpi | 60 |
+
+
+* 而且您為&#x200B;**[!UICONTROL Factor Name]**、**[!UICONTROL Factor Value]**&#x200B;和&#x200B;**[!UICONTROL Granularity]**&#x200B;定義下列資料集規則：
+
+  ![資料集規則 — 因子範例](../assets/dataset-create-rule-factor-example.png)
+
+* 接著會產生下列的協調資料：
+
+  | 因子名稱 | 因子值 | 因子型別 | 值型別 |
+  |---|---:|---|---|
+  | CPI | 20 | 內部 | 實際 |
+  | S&amp;P 500 | 10 | 內部 | 實際 |
+
+  由於沒有為&#x200B;**[!UICONTROL Factor Type]**&#x200B;和&#x200B;**[!UICONTROL Value Type]**&#x200B;定義資料集規則，因此會使用預設值。
 
 ### 編輯資料集規則
 
@@ -200,7 +264,7 @@ ht-degree: 0%
    * 若要新增特定量度型偏好設定：
 
       1. 選取![加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**。
-         1. 從&#x200B;**[!UICONTROL *度量選擇&#x200B;*]**&#x200B;清單中選取度量。
+         1. 從&#x200B;**[!UICONTROL *度量選擇&#x200B;*]**清單中選取度量。
          1. 選取&#x200B;**[!UICONTROL CHANNELS]**&#x200B;或&#x200B;**[!UICONTROL CONVERSION TYPES]**。 從清單中選取&#x200B;**[!UICONTROL All]**&#x200B;或特定的管道或轉換型別。
          1. 選取&#x200B;**[!UICONTROL Summary]**&#x200B;或&#x200B;**[!UICONTROL Event]**，以指定合併資料時，彙總資料或事件資料是否偏好量度（以及所有或選取的管道）。
 
