@@ -5,8 +5,8 @@ feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
 source-git-commit: 9987c845414fa5a3abda201d55f7b1ed6e211780
 workflow-type: tm+mt
-source-wordcount: '2102'
-ht-degree: 0%
+source-wordcount: '2106'
+ht-degree: 3%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ### 建立資料集規則
 
-若要建立資料集規則，請在Mix Modeler的![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]**&#x200B;介面中，選取&#x200B;**[!UICONTROL Create a dataset rule]**&#x200B;精靈中的&#x200B;**[!UICONTROL Dataset rules configuration]**。
+若要建立資料集規則，請在Mix Modeler的![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]**&#x200B;介面中，選取&#x200B;**[!UICONTROL Dataset rules configuration]**&#x200B;精靈中的&#x200B;**[!UICONTROL Create a dataset rule]**。
 
 在&#x200B;**[!UICONTROL Create]**&#x200B;畫面中，
 
@@ -52,11 +52,11 @@ ht-degree: 0%
 
 1. 選取&#x200B;**[!UICONTROL Start of the week]**&#x200B;的日期。
 
-1. 選取&#x200B;**[!UICONTROL Daily]**&#x200B;的&#x200B;**[!UICONTROL Weekly]**、**[!UICONTROL Monthly]**、**[!UICONTROL Yearly]**&#x200B;或&#x200B;**[!UICONTROL Granularity]**。
+1. 選取&#x200B;**[!UICONTROL Granularity]**&#x200B;的&#x200B;**[!UICONTROL Daily]**、**[!UICONTROL Weekly]**、**[!UICONTROL Monthly]**&#x200B;或&#x200B;**[!UICONTROL Yearly]**。
 
-1. 當您已選取&#x200B;**[!UICONTROL Summary]**&#x200B;或&#x200B;**[!UICONTROL Factors]**&#x200B;類別的資料集時，請為&#x200B;**[!UICONTROL Aggregation]**&#x200B;選取&#x200B;**[!UICONTROL Replacement]**&#x200B;或&#x200B;**[!UICONTROL Data restatement is by]**。
+1. 當您已選取&#x200B;**[!UICONTROL Summary]**&#x200B;或&#x200B;**[!UICONTROL Factors]**&#x200B;類別的資料集時，請為&#x200B;**[!UICONTROL Data restatement is by]**&#x200B;選取&#x200B;**[!UICONTROL Aggregation]**&#x200B;或&#x200B;**[!UICONTROL Replacement]**。
 
-   對於行銷分析師而言，來自發佈商的報表資料非常重要，因為與發佈商合作通常意味著要花費大量成本，而報表資料的變更可能會導致非常不同的深入分析和投資計畫。 此外，行銷分析人員需要精確資料，才能獲得正確的深入分析和令人信服的提案，進而獲得利害關係人的信心。 然而，這些發佈者(例如Google和Facebook)在調解資料時，通常會重述或刪除報表資料。 大部分變更的時間範圍都在報告媒體效能的7天內。 30天內可能會對資料進行其他變更。 一般而言，30天後，書籍會被視為已關閉且資料完整。
+   對於行銷分析師而言，來自發佈商的報表資料非常重要，因為與發佈商合作通常意味著要花費大量成本，而報表資料的變更可能會導致非常不同的深入分析和投資計畫。 此外，行銷分析人員需要精確資料，才能獲得正確的深入分析和令人信服的提案，進而獲得利害關係人的信心。 然而，這些發佈者（例如Google和Facebook）在調解資料時，通常會重述或刪除報表資料。 大部分變更的時間範圍都在報告媒體效能的7天內。 30天內可能會對資料進行其他變更。 一般而言，30天後，書籍會被視為已關閉且資料完整。
 
    Mix Modeler支援資料重述。 以確保用於報表、建模和計畫的資料是準確的。 而且資料能夠支援品牌和行銷分析人員的期望和需求。
 
@@ -66,19 +66,19 @@ ht-degree: 0%
 
    * 當選取的協調欄位屬於型別量度時：
 
-      1. 從&#x200B;**[!UICONTROL Count]**&#x200B;中選取&#x200B;**[!UICONTROL Sum]**&#x200B;或&#x200B;**[!UICONTROL Mapping type]**。
+      1. 從&#x200B;**[!UICONTROL Mapping type]**&#x200B;中選取&#x200B;**[!UICONTROL Count]**&#x200B;或&#x200B;**[!UICONTROL Sum]**。
 
       1. 選取您預設要與協調欄位對應的&#x200B;**[!UICONTROL *AEP資料集欄位&#x200B;*]**。
 
    * 當選取的欄位屬於型別維度時：
 
-      1. 從&#x200B;**[!UICONTROL Map Into]**&#x200B;中選取&#x200B;**[!UICONTROL Case]**&#x200B;或&#x200B;**[!UICONTROL Mapping type]**。
+      1. 從&#x200B;**[!UICONTROL Mapping type]**&#x200B;中選取&#x200B;**[!UICONTROL Map Into]**&#x200B;或&#x200B;**[!UICONTROL Case]**。
 
-      1. 當您已選取&#x200B;**[!UICONTROL Map Into]**&#x200B;時，請選取&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP資料集欄位&#x200B;*]**&#x200B;或&#x200B;**[!UICONTROL Value]**，以及預設值，以將協調的欄位依預設對應到資料集欄位或輸入的值。
+      1. 當您已選取&#x200B;**[!UICONTROL Map Into]**&#x200B;時，請選取&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP資料集欄位&#x200B;*]**或&#x200B;**[!UICONTROL Value]**，以及預設值，以將協調的欄位依預設對應到資料集欄位或輸入的值。
 
-      1. 當您選取&#x200B;**[!UICONTROL Case]**&#x200B;時，請選取&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP資料集欄位&#x200B;*]**&#x200B;或&#x200B;**[!UICONTROL Value]**，以及預設值，以依預設將協調欄位對應到資料集欄位或輸入的值。
+      1. 當您選取&#x200B;**[!UICONTROL Case]**&#x200B;時，請選取&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP資料集欄位&#x200B;*]**或&#x200B;**[!UICONTROL Value]**，以及預設值，以依預設將協調欄位對應到資料集欄位或輸入的值。
 
-         1. 若要明確設定值，您可以定義一或多個案例，由一或多個條件組成。 每個條件都可以檢查特定的&#x200B;**[!UICONTROL *AEP資料集欄位&#x200B;*]**，無論是&#x200B;**[!UICONTROL Exists]**&#x200B;或&#x200B;**[!UICONTROL Not Exists]**，或是&#x200B;**[!UICONTROL Contains]**、**[!UICONTROL Not Contains]**、**[!UICONTROL Equals]**、**[!UICONTROL Not Equals]**、**[!UICONTROL Starts With]**&#x200B;或&#x200B;**[!UICONTROL Ends With]**，輸入於&#x200B;**[!UICONTROL *&#x200B;輸入的值&#x200B;*]**。
+         1. 若要明確設定值，您可以定義一或多個案例，由一或多個條件組成。 每個條件都可以檢查特定的&#x200B;**[!UICONTROL *AEP資料集欄位&#x200B;*]**，無論是&#x200B;**[!UICONTROL Exists]**或&#x200B;**[!UICONTROL Not Exists]**，或是&#x200B;**[!UICONTROL Contains]**、**[!UICONTROL Not Contains]**、**[!UICONTROL Equals]**、**[!UICONTROL Not Equals]**、**[!UICONTROL Starts With]**或&#x200B;**[!UICONTROL Ends With]**，輸入於**[!UICONTROL *&#x200B;輸入的值&#x200B;*]**。
 
          1. 若要新增其他案例，請選取![新增](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**，若要新增其他條件，請選取![新增](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**。
 
@@ -90,11 +90,11 @@ ht-degree: 0%
 
      下列範例：
 
-      * 使用&#x200B;**[!UICONTROL Map Into]** **[!UICONTROL Mapping type]**&#x200B;將&#x200B;**[!UICONTROL Channel Type At Source]**&#x200B;協調欄位對應到&#x200B;**[!UICONTROL channel_type]**&#x200B;資料集中的&#x200B;**[!DNL Luma Transactions]**&#x200B;欄位。
+      * 使用&#x200B;**[!UICONTROL Map Into]** **[!UICONTROL Mapping type]**&#x200B;將&#x200B;**[!UICONTROL Channel Type At Source]**&#x200B;協調欄位對應到&#x200B;**[!DNL Luma Transactions]**&#x200B;資料集中的&#x200B;**[!UICONTROL channel_type]**&#x200B;欄位。
 
-      * 使用&#x200B;**[!UICONTROL Case]** **[!UICONTROL Mapping type]**&#x200B;有條件地將&#x200B;**[!UICONTROL marketing.campaignName]**&#x200B;資料集中的&#x200B;**[!DNL Luma Transactions]**&#x200B;欄位值對應到&#x200B;**[!UICONTROL Campaign]**&#x200B;協調欄位。 「行銷活動協調」欄位設為：
+      * 使用&#x200B;**[!UICONTROL Case]** **[!UICONTROL Mapping type]**&#x200B;有條件地將&#x200B;**[!DNL Luma Transactions]**&#x200B;資料集中的&#x200B;**[!UICONTROL marketing.campaignName]**&#x200B;欄位值對應到&#x200B;**[!UICONTROL Campaign]**&#x200B;協調欄位。 「行銷活動協調」欄位設為：
 
-         * `Black Friday`為&#x200B;**[!UICONTROL marketing.campaignName]**&#x200B;或`_black_friday`時的`BlackFriday`。
+         * **[!UICONTROL marketing.campaignName]**&#x200B;為`_black_friday`或`BlackFriday`時的`Black Friday`。
          * 到所有其他情況下的&#x200B;**[!UICONTROL marketing.campaignName]**&#x200B;的值。
 
         ![資料集規則事件](/help/assets/dataset-create-event.png)
@@ -189,7 +189,7 @@ ht-degree: 0%
 
 若要編輯資料集規則，請在Mix Modeler的![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]**&#x200B;介面中：
 
-1. 針對您要編輯的資料集規則，在![欄中選取](/help/assets/icons/More.svg)更多&#x200B;**[!UICONTROL Dataset]**。
+1. 針對您要編輯的資料集規則，在&#x200B;**[!UICONTROL Dataset]**&#x200B;欄中選取![更多](/help/assets/icons/More.svg)。
 1. 從內容功能表中，選取![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]**&#x200B;以開始編輯資料集規則。 如需詳細資訊，請參閱[建立資料集規則](#create-a-dataset-rule)。
 
 
@@ -197,7 +197,7 @@ ht-degree: 0%
 
 若要刪除資料集規則，請在Mix Modeler的![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]**&#x200B;介面中：
 
-1. 針對您要刪除的資料集規則，在![欄中選取](/help/assets/icons/More.svg)更多&#x200B;**[!UICONTROL Dataset]**。
+1. 針對您要刪除的資料集規則，在&#x200B;**[!UICONTROL Dataset]**&#x200B;欄中選取![更多](/help/assets/icons/More.svg)。
 1. 從內容功能表中，選取![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;以刪除資料集規則。 系統會提示您進行確認。 選取&#x200B;**[!UICONTROL Delete]**&#x200B;以永久刪除選取的資料集規則。
 
 
@@ -209,9 +209,9 @@ ht-degree: 0%
 1. 選擇「**[!UICONTROL Sync data]**」。
 
 1. 從&#x200B;**[!UICONTROL Sync data for dataset rules]**&#x200B;對話方塊中，選取
-   * **[!UICONTROL Refresh harmonized data for summary datasets]**，
+   * **[!UICONTROL Refresh harmonized data for summary datasets]**,
    * **[!UICONTROL Refresh harmonized data for event datasets]**，或
-   * **[!UICONTROL Refresh harmonized data for both summary + event datasets]**。
+   * **[!UICONTROL Refresh harmonized data for both summary + event datasets]**.
 
 1. 若要根據已定義的資料集規則，在資料集中的已協調資料和資料之間開始同步，請選取&#x200B;**[!UICONTROL Sync]**。 若要取消同步處理，請選取&#x200B;**[!UICONTROL Cancel]**。
 
@@ -224,7 +224,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="harmonizeddata_datasetrules_datamergepreferences"
 >title="預設量度偏好設定"
->abstract="在協調期間，如果有多個資料來源嘗試更新指定頻道的量度欄位，則會套用預設偏好設定。 此偏好設定會套用至沙箱層級，除非某些量度偏好設定（若以下定義）已覆寫。"
+>abstract="在協調期間，有多個資料來源想要更新特定管道的量度欄位時，便會套用預設偏好設定。 此偏好設定會套用至沙箱層級，除非在下述情況中被特定量度偏好設定覆寫。"
 
 
 >[!NOTE]
@@ -264,8 +264,8 @@ ht-degree: 0%
    * 若要新增特定量度型偏好設定：
 
       1. 選取![加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**。
-         1. 從&#x200B;**[!UICONTROL *度量選擇&#x200B;*]**&#x200B;清單中選取度量。
-         1. 選取&#x200B;**[!UICONTROL CHANNELS]**&#x200B;或&#x200B;**[!UICONTROL CONVERSION TYPES]**。 從清單中選取&#x200B;**[!UICONTROL All]**&#x200B;或特定的管道或轉換型別。
+         1. 從&#x200B;**[!UICONTROL *度量選擇&#x200B;*]**清單中選取度量。
+         1. 選取「**[!UICONTROL CHANNELS]**」或「**[!UICONTROL CONVERSION TYPES]**」。 從清單中選取&#x200B;**[!UICONTROL All]**&#x200B;或特定的管道或轉換型別。
          1. 選取&#x200B;**[!UICONTROL Summary]**&#x200B;或&#x200B;**[!UICONTROL Event]**，以指定合併資料時，彙總資料或事件資料是否偏好量度（以及所有或選取的管道）。
 
          若要新增一或多個其他管道或轉換型別：
@@ -279,7 +279,7 @@ ht-degree: 0%
 
    * 若要刪除現有的特定量度型偏好設定，請選取![刪除](/help/assets/icons/Delete.svg)。
 
-1. 選取&#x200B;**[!UICONTROL Save]**&#x200B;以儲存資料合併偏好設定。 已開始重新同步資料。 <br/>選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消。
+1. 選取&#x200B;**[!UICONTROL Save]**&#x200B;以儲存資料合併偏好設定。 已開始重新同步資料。<br/>選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消。
 
 ## 刪除來源資料集
 
