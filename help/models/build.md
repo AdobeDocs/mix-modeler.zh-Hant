@@ -6,8 +6,8 @@ solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
 source-git-commit: 56682fb57d6ca99fbf5d355ae487af2b31a72319
 workflow-type: tm+mt
-source-wordcount: '1194'
-ht-degree: 2%
+source-wordcount: '1204'
+ht-degree: 4%
 
 ---
 
@@ -25,14 +25,14 @@ ht-degree: 2%
 
    ![模型名稱和描述](/help/assets/model-name-description.png)
 
-1. 選取&#x200B;**[!UICONTROL Next]**&#x200B;以繼續下一個步驟。 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消模型組態。
+1. 選取&#x200B;**[!UICONTROL Next]**&#x200B;以繼續下一個步驟。 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消模型設定。
 
 ## 設定{#configure}
 
 >[!CONTEXTUALHELP]
 >id="model_marketingtouchpoints_select"
 >title="行銷接觸點"
->abstract="行銷接觸點為收件者、個體和/或 cookie 層級的行銷事件，用於評估行銷投資對數值型或收入型轉換的影響。<br/><br/>您無法使用具有重疊資料的接觸點來設定模型，而且必須至少有一個具有花費的接觸點。"
+>abstract="行銷接觸點是收件者、個體和/或 Cookie 層級的行銷事件，用於評估行銷投資對數值型或收入型轉換的影響。<br/><br/>您無法使用具有重疊資料的接觸點來設定模型，並且必須至少有一個接觸點有支出。"
 
 您在&#x200B;**[!UICONTROL Configure]**&#x200B;步驟中設定您的模型。 設定涉及轉換目標的定義、行銷接觸點、合格的資料母體、外部和內部因素等。
 
@@ -40,13 +40,13 @@ ht-degree: 2%
 
    ![模型 — 轉換步驟](/help/assets/model-conversion-step.png)
 
-   1. 從&#x200B;**[!UICONTROL Conversion]**&#x200B;下拉式功能表中選取轉換。 可用的轉換是您在[中定義為](../harmonize-data/conversions.md)轉換[!UICONTROL Harmonized datasets]一部分的轉換。 例如 **[!UICONTROL Online Conversion]**。
+   1. 從&#x200B;**[!UICONTROL Conversion]**&#x200B;下拉式功能表選取轉換。 可用的轉換是指您在[!UICONTROL Harmonized datasets]中定義為[轉換](../harmonize-data/conversions.md)一部分的轉換。 例如 **[!UICONTROL Online Conversion]**。
 
-   1. 您可以選取![LinkOutLight](/help/assets/icons/LinkOutLight.svg) **[!UICONTROL Create a conversion]**，直接從模型組態中建立轉換。
+   1. 您可以選取![LinkOutLight](/help/assets/icons/LinkOutLight.svg) **[!UICONTROL Create a conversion]**，直接從模型設定中建立轉換。
 
 
 
-1. 在「**[!UICONTROL Marketing touchpoints]**」區段中，您可以選取一或多個行銷接觸點，對應至您在[中定義為](../harmonize-data/marketing-touchpoints.md)行銷接觸點[!UICONTROL Harmonized datasets]一部分的行銷接觸點。
+1. 在&#x200B;**[!UICONTROL Marketing touchpoints]**&#x200B;區段中，您可以選取一或多個行銷接觸點，這些行銷接觸點對應到您在[!UICONTROL Harmonized datasets]中定義為[行銷接觸點](../harmonize-data/marketing-touchpoints.md)之一部分的行銷接觸點。
 
 
    ![模型 — 行銷接觸點步驟](/help/assets/model-marketing-touchpoint-step.png)
@@ -56,13 +56,13 @@ ht-degree: 2%
       * 您可以使用![CrossSize75](/help/assets/icons/CrossSize75.svg)移除接觸點。
       * 您可以使用&#x200B;**[!UICONTROL Clear all]**&#x200B;移除所有接觸點。
 
-   1. 您可以選取![LinkOutLight](/help/assets/icons/LinkOutLight.svg) **[!UICONTROL Create a touchpoint]**，以直接從模型設定中建立行銷接觸點。
+   1. 您可以選取![LinkOutLight](/help/assets/icons/LinkOutLight.svg) **[!UICONTROL Create a touchpoint]**，直接從模型設定中建立行銷接觸點。
 
    >[!NOTE]
    >
    >您無法使用具有重疊資料的接觸點來設定模型，而且必須至少有一個具有花費的接觸點。
 
-1. 根據預設，系統會針對您協調檢視中的所有資料產生一個分數。 若要僅對母體的子集評分，請使用&#x200B;**[!UICONTROL Eligible data population]**&#x200B;區段中的容器定義一或多個篩選器。
+1. 根據預設，系統會針對您協調檢視中的所有資料產生一個分數。 若要僅對母體子集評分，請使用&#x200B;**[!UICONTROL Eligible data population]**&#x200B;區段中的容器定義一或多個篩選器。
 
    ![模型 — 合格的資料母體](/help/assets/model-eligible-data-population-step.png)
 
@@ -74,21 +74,21 @@ ht-degree: 2%
 
          1. 選取適當的運運算元： **[!UICONTROL equals]**、**[!UICONTROL not equals]**、**[!UICONTROL less than]**、**[!UICONTROL greater than]**、**[!UICONTROL starts with]**、**[!UICONTROL doesn't start with]**、**[!UICONTROL ends with]**、**[!UICONTROL doesn't end with]**、**[!UICONTROL contains]**、**[!UICONTROL doesn't contain]**、**[!UICONTROL is in]**&#x200B;或&#x200B;**[!UICONTROL is not in]**。
 
-         1. 在&#x200B;**[!UICONTROL _輸入或選取值_]**。
+         1. 在&#x200B;**[!UICONTROL _輸入或選取值_]**&#x200B;輸入或選取值。
 
-      1. 若要在容器中新增其他事件，請選取![新增](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**。
+      1. 若要在容器中新增其他事件，請選取「![新增](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**」。
 
-      1. 若要從容器移除事件，請選取![關閉](/help/assets/icons/CrossSize75.svg)。
+      1. 若要從容器移除事件，請選取「![關閉](/help/assets/icons/CrossSize75.svg)」。
 
       1. 若要使用容器中定義的所有或多個事件進行篩選，請選取&#x200B;**[!UICONTROL Any of]**&#x200B;或&#x200B;**[!UICONTROL All of]**。 標籤會相應地從&#x200B;**[!UICONTROL Include ... Or ...]**&#x200B;變更為&#x200B;**[!UICONTROL Include ... And ...]**。
 
-   * 若要新增合格的資料母體容器，請選取![新增](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**。
+   * 若要新增合格的資料母體容器，請選取「![新增](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**」。
 
-   * 若要移除合格的資料母體容器，請在容器中選取![更多](/help/assets/icons/More.svg)，然後從內容功能表中選取&#x200B;**[!UICONTROL Remove container]**。
+   * 若要移除合格的資料母體容器，請在容器中選取「其他![」](/help/assets/icons/More.svg)，然後從內容功能表中選取「**[!UICONTROL Remove container]**」。
 
-   * 在容器之間選取&#x200B;**And**&#x200B;和&#x200B;**Or**，為您的合格資料母體建置更複雜的定義。
+   * 在容器之間選取&#x200B;**與**&#x200B;和&#x200B;**或**，為您的合格資料母體建立更複雜的定義。
 
-1. 您可以在&#x200B;**[!UICONTROL Factor dataset]**&#x200B;區段中管理包含內部或外部因子的資料集。
+1. 您可以在&#x200B;**[!UICONTROL Factor dataset]**&#x200B;區段中管理包含內部或外部因素的資料集。
 
    ![模型 — 因素資料集步驟](../assets/model-factors-dataset-step.png)
 
@@ -104,9 +104,9 @@ ht-degree: 2%
 
 
 
-1. 若要定義模型的回顧期間，請在`1`區段的`52` ... **[!UICONTROL Give contribution credit to touchpoints occurring within]**&#x200B;中輸入介於&#x200B;**[!UICONTROL weeks prior to the conversion]**&#x200B;到&#x200B;**[!UICONTROL Define lookback window]**&#x200B;之間的值。
+1. 若要定義模型的回顧期間，請在&#x200B;**[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the conversion]**&#x200B;的&#x200B;**[!UICONTROL Define lookback window]**&#x200B;區段中輸入`1`到`52`之間的值。
 
-1. 選取&#x200B;**[!UICONTROL Next]**&#x200B;以繼續下一個步驟。 如果需要更多組態，紅色外框和文字會說明需要哪些額外組態。 <br/>選取&#x200B;**[!UICONTROL Back]**&#x200B;以返回上一步。 <br/>選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消模型組態。
+1. 選取&#x200B;**[!UICONTROL Next]**&#x200B;以繼續下一個步驟。 如果需要更多組態，紅色外框和文字會說明需要哪些額外組態。<br/>選取&#x200B;**[!UICONTROL Back]**&#x200B;以返回上一步。<br/>選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消模型設定。
 
 
 ## 進階
@@ -127,7 +127,7 @@ ht-degree: 2%
 
 1. 在&#x200B;**[!UICONTROL MTA enabled]**&#x200B;區段中：
 
-   * 若要啟用模型的MTA功能，請啟動&#x200B;**[!UICONTROL MTA enabled]**。 如果您已啟用MTA，則在您已訓練並評分您的模型後，即可使用多重接觸歸因深入分析。 檢視[模型深入分析](insights.md#attribution)中的[歸因](insights.md)索引標籤。
+   * 若要啟用模型的MTA功能，請啟動&#x200B;**[!UICONTROL MTA enabled]**。 如果您已啟用MTA，則在您已訓練並評分您的模型後，即可使用多重接觸歸因深入分析。 檢視[模型深入分析](insights.md)中的[歸因](insights.md#attribution)索引標籤。
 
 1. 在&#x200B;**[!UICONTROL Prior knowledge]**&#x200B;區段中：
 
@@ -135,69 +135,69 @@ ht-degree: 2%
 
    1. 選取&#x200B;**[!UICONTROL Rule type]**，預設為&#x200B;**[!UICONTROL Absolute values]**。
 
-   1. 使用&#x200B;**[!UICONTROL Name]**&#x200B;欄，為&#x200B;**[!UICONTROL Contribution proportion]**&#x200B;底下列出的任何管道指定貢獻百分比。
+   1. 使用&#x200B;**[!UICONTROL Contribution proportion]**&#x200B;欄，為&#x200B;**[!UICONTROL Name]**&#x200B;底下列出的任何管道指定貢獻百分比。
 
    1. 您可以視情況為每個管道新增&#x200B;**[!UICONTROL Level of confidence]**&#x200B;百分比。
 
-   1. 必要時，請使用&#x200B;**[!UICONTROL Clear all]**&#x200B;清除&#x200B;**[!UICONTROL Contribution proportion]**&#x200B;與&#x200B;**[!UICONTROL Level of confidence]**&#x200B;欄的所有輸入值。
+   1. 必要時，請使用&#x200B;**[!UICONTROL Clear all]**&#x200B;清除&#x200B;**[!UICONTROL Contribution proportion]**&#x200B;和&#x200B;**[!UICONTROL Level of confidence]**&#x200B;欄的所有輸入值。
 
 
 ## 設定選項
 
-您可以[排程訓練和評分](#schedule)，[定義訓練時段](#training-window)，並在[步驟中為您的模型指定](#granular-insights-reporting-fields)精細見解報告欄位&#x200B;**[!UICONTROL Set options]**。
+You can [schedule training and scoring](#schedule), [define training window](#training-window), and specify [granular insights reporting fields](#granular-insights-reporting-fields) for your model in the **[!UICONTROL Set options]** step.
 
 
 ### 排程
 
-在&#x200B;**[!UICONTROL Schedule]**&#x200B;區段中，您可以排程模型訓練和評分。
+In the **[!UICONTROL Schedule]** section, you can schedule model training and scoring.
 
-![排程模型](../assets/model-schedule.png)
+![Schedule model](../assets/model-schedule.png)
 
-若要排程模型評分與訓練：
+To scheduled model scoring and training:
 
-1. 開啟&#x200B;**[!UICONTROL Enable scheduled model scoring and training]**。
-1. 選取&#x200B;**[!UICONTROL Scoring frequency]**：
+1. Turn on **[!UICONTROL Enable scheduled model scoring and training]**.
+1. Select a **[!UICONTROL Scoring frequency]**:
 
-   * **[!UICONTROL Daily]**：輸入有效時間（例如`05:22 pm`）或使用![時鐘](/help/assets/icons/Clock.svg)。
-   * **[!UICONTROL Weekly]**：選取一週的某天，然後輸入有效的時間（例如`05:22 pm`）或使用![時鐘](/help/assets/icons/Clock.svg)。
-   * **[!UICONTROL Monthly]**：從[Run on every]下拉式功能表中選取一個月中的某一日，然後輸入有效時間（例如`05:22 pm`）或使用![時鐘](/help/assets/icons/Clock.svg)。
+   * **[!UICONTROL Daily]**: Enter a valid time (for example `05:22 pm`) or use ![Clock](/help/assets/icons/Clock.svg).
+   * **[!UICONTROL Weekly]**: Select a day of the week and enter a valid time (for example `05:22 pm`) or use ![Clock](/help/assets/icons/Clock.svg).
+   * **[!UICONTROL Monthly]**: Select a day of the month from the Run on every dropdown menu and enter a valid time (for example `05:22 pm`) or use ![Clock](/help/assets/icons/Clock.svg).
 
-1. 從下拉式功能表中選取&#x200B;**[!UICONTROL Training frequency]**： **[!UICONTROL Monthly]**、**[!UICONTROL Quarterly]**、**[!UICONTROL Yearly]**&#x200B;或&#x200B;**[!UICONTROL None]**。
-
-
-### 訓練時段
-
-在&#x200B;**[!UICONTROL Define training window]**&#x200B;區段中，選取：
-
-![模型 — 定義訓練時段](/help/assets/model-define-training-window.png)
-
-* **[!UICONTROL Have Mix Modeler select a helpful training window]**&#x200B;和
-
-* **[!UICONTROL Manually input a training window]**。選取時，在&#x200B;**[!UICONTROL Include events the following years prior to a conversion]**&#x200B;中定義年數。
+1. Select a **[!UICONTROL Training frequency]** from the dropdown menu: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]**, or **[!UICONTROL None]**.
 
 
-### 精細見解報告欄位
+### Training window
 
-**[!UICONTROL Granular insights reporting fields]**&#x200B;區段使用精細的增量報表功能。 此功能可讓您選取協調欄位，以劃分轉換和接觸點增量分數。
+In the **[!UICONTROL Define training window]** section, select between:
 
-![定義精細的深入分析報表欄位](/help/assets/granular-insights-reporting-fields.png)
+![Model - Define training window](/help/assets/model-define-training-window.png)
 
-您可以定義這些協調欄位，以便使用精細的報表欄在模型的報表中深入研究，而不必建立個別模型。
+* **[!UICONTROL Have Mix Modeler select a helpful training window]** and
 
-例如，您建立的模型著重於收入，但您也會對行銷活動、媒體型別、地區和流量來源績效感興趣。 如果沒有精細的增量報表功能，您必須建立四個個別的模型。 使用細微的增量報告功能，您可以根據行銷活動、媒體型別、地區和流量來源來劃分收入模型。
+* **[!UICONTROL Manually input a training window]**. When selected, define the number of years in **[!UICONTROL Include events the following years prior to a conversion]**.
 
-1. 從&#x200B;**[!UICONTROL _底下的_]**&#x200B;選取協調欄位&#x200B;**[!UICONTROL Includes]**&#x200B;中，選取一或多個協調欄位。 選取的協調欄位會新增至面板。
-1. 選取&#x200B;**[!UICONTROL *協調欄位&#x200B;*]**![CrossSize100](/help/assets/icons/CrossSize100.svg)，以從包含所選協調欄位的容器中移除協調欄位。
+
+### Granular insights reporting fields
+
+The **[!UICONTROL Granular insights reporting fields]** section uses the granular incrementality reporting functionality. This functionality allows you to select harmonized fields to breakdown conversion and touchpoint incrementality scores.
+
+![Define granular insights reporting fields](/help/assets/granular-insights-reporting-fields.png)
+
+You define these harmonized fields so you can drill down in the reporting of your model using granular reporting columns instead of having to create separate models.
+
+For example, you build a model that is focused on revenue, but you are also interested in the campaigns, media types, regions, and traffic sources performance. Without the granular incrementality reporting functionality, you would have to build four separate models. With the granular incrementality reporting functionality, you can break down your revenue model on campaigns, media types, regions, and traffic sources.
+
+1. Select one or more harmonized fields from the **[!UICONTROL _Select harmonized fields_]** underneath **[!UICONTROL Includes]**. The selected harmonized fields are added to the panel.
+1. 選取&#x200B;**[!UICONTROL *協調欄位&#x200B;*]**![CrossSize100](/help/assets/icons/CrossSize100.svg)，從包含所選協調欄位的容器中移除協調欄位。
 1. 選取&#x200B;**[!UICONTROL Clear all]**&#x200B;以移除所有選取的協調欄位。
 
-為精細增量報告選取的協調欄位可作為Experience Platform [結構描述](/help/ingest-data/schemas.md)和[資料集](/help/ingest-data/datasets.md)的一部分，這些資料來自對模型計分。 在&#x200B;**[!UICONTROL conversionPassthrough]**&#x200B;和&#x200B;**[!UICONTROL touchpointPassthrough]**&#x200B;物件中可以找到精細見解報告欄位。
+針對精細增量報表選取的協調欄位會作為評分模型所產生的Experience Platform [結構描述](/help/ingest-data/schemas.md)和[資料集](/help/ingest-data/datasets.md)的一部分提供。 您可以在&#x200B;**[!UICONTROL conversionPassthrough]**&#x200B;和&#x200B;**[!UICONTROL touchpointPassthrough]**&#x200B;物件中找到精細的深入分析報表欄位。
 
-針對已啟用精細增量報告的模型，在結構描述中擷取conversionPassthrough和touchpointPassthrough物件的熒幕擷圖![](/help/assets/schema-granular-insights-reporting.png)
+針對已啟用精細增量報告的模型，在結構描述中![conversionPassthrough和touchpointPassthrough物件的熒幕擷圖](/help/assets/schema-granular-insights-reporting.png)
 
 
 ## 完成
 
-* 選取&#x200B;**[!UICONTROL Finish]**&#x200B;以完成您的模型設定。
+* 選取&#x200B;**[!UICONTROL Finish]**&#x200B;以完成模型設定。
 
    * 在&#x200B;**[!UICONTROL Create instance?]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL Ok]**&#x200B;以立即觸發第一組訓練和評分回合。 您的模型已列出，狀態為![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Awaiting training]**。
 
@@ -207,5 +207,5 @@ ht-degree: 2%
 
 * 選取&#x200B;**[!UICONTROL Back]**&#x200B;以返回上一步。
 
-* 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消模型組態。
+* 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消模型設定。
 
