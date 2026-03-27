@@ -3,10 +3,10 @@ title: Mix Modeler工作流程
 description: 瞭解Mix Modeler的典型工作流程。
 feature: Ingest Data, Plans, Harmonized Data, Models
 exl-id: 200ff846-5d78-4b25-a425-bfd558b88c88
-source-git-commit: bdb5992ba1e6a4e5aa546b6ffb8e9673ed69be22
+source-git-commit: e6f24c96e873804b37011a1afafb7012d999fc1b
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 0%
+source-wordcount: '238'
+ht-degree: 1%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 請觀看這部影片，瞭解Mix Modeler的使用者工作流程簡介。
 
->[!VIDEO](https://video.tv.adobe.com/v/3440218/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3424854/?learn=on)
 
 
 Mix Modeler中的典型工作流程包含下列活動：
@@ -23,7 +23,7 @@ Mix Modeler中的典型工作流程包含下列活動：
 
 |  | 活動 | 說明 |
 |---|---|---|
-| ![資料](/help/assets/icons/Data.svg){width="100"} | [**擷取資料**](../ingest-data/overview.md) | 從Experience Platform (例如Adobe Analytics、Web SDK、其他來源)擷取事件資料、從行銷頻道擷取的彙總資料（例如電視、圍牆花園、電子郵件、擁有和經營活動）、來自客戶的外部因素資料（例如訂閱服務的價格變更）和內部因素資料（例如假日計畫）。 |
+| ![資料](/help/assets/icons/Data.svg){width="100"} | [**擷取資料**](../ingest-data/overview.md) | 從Experience Platform （例如Adobe Analytics、Web SDK、其他來源）擷取事件資料、從行銷頻道擷取的彙總資料（例如電視、圍牆花園、電子郵件、擁有和經營活動）、來自客戶的外部因素資料（例如訂閱服務的價格變更）和內部因素資料（例如假日計畫）。 |
 | ![資料檢查](/help/assets/icons/DataCheck.svg){width="100"} | [**協調資料**](../harmonize-data/overview.md) | 設定對應規則和衝突解決規則，以合併Mix Modeler中測量及規劃行銷活動績效所需的各種行銷資料集。 |
 | ![檔案設定](/help/assets/icons/FileGear.svg){width="100"} | [**建置模型**](../models/overview.md) | 具有行銷接觸點（例如管道）、轉換定義以及內部和外部因素的組建模型例項。 |
 | ![檔案資料](/help/assets/icons/FileData.svg){width="100"} | [**訓練與評分模型**](../models/overview.md) | 使用機器學習訓練和評分，建立彙總和事件層級分數。 |
@@ -32,10 +32,11 @@ Mix Modeler中的典型工作流程包含下列活動：
 
 {style="table-layout:auto"}
 
-以下說明輸入資料如何流入Mix Modeler以及Mix Modeler如何為其自己的介面以及其他解決方案(如Customer Journey Analytics)產生輸出資料的概觀。
+以下說明輸入資料如何流入Mix Modeler以及Mix Modeler如何為其自己的介面以及其他解決方案（如Customer Journey Analytics）產生輸出資料的概觀。
 
 ![Mix Modeler輸入輸出資料流程](../assets/mm-input-output.png)
-<!---
+
+<!--
 The detailed data-oriented flowchart below illustrates how:
 
 * harmonized data is based on:
@@ -52,5 +53,4 @@ The detailed data-oriented flowchart below illustrates how:
 * mult-touch attribution event scores can potentially be fed back into Experience Platform data lake for use in subsequent model configuration, training and scoring.
 
 ![Comprehensive workflow](/help/assets/comprehensive-workflow.svg)
-
 -->

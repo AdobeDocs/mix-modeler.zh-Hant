@@ -3,9 +3,9 @@ title: Mix Modeler使用案例
 description: Mix Modeler使用案例。
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
 exl-id: cc82abec-d0ce-44bf-ad7e-fc379a394185
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+source-git-commit: e6f24c96e873804b37011a1afafb7012d999fc1b
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '641'
 ht-degree: 3%
 
 ---
@@ -28,15 +28,15 @@ Mix Modeler可啟用下列主要使用案例。
 * MMM和MTA方法各自獨立的深入分析不一致，降低了結果的信賴度。
 * 對於推動成功的行銷管道和策略瞭解有限。
 
-### 方針
+### 方法
 
 此使用案例的步驟型方法是：
 
 | 步驟 | 詳細資料 |
 |---|---|
-| 擷取 | 識別並內嵌常見結構描述下的資料來源。 <br/>套用Adobe Analytics或Customer Journey Analytics的現有投資以快速部署。 |
+| 攝取 | 識別並內嵌常見結構描述下的資料來源。<br/>套用Adobe Analytics或Customer Journey Analytics的現有投資以快速部署。 |
 | 設定 | 使用AI-as-a-Service架構來設定彈性模型，以符合您的特定業務目標<br/>透過雙向傳輸學習，自動確保接觸點與摘要層級之間的一致性。 |
-| 分析 | 清楚瞭解整體行銷和個別管道/子管道的ROI。<br/>清楚瞭解哪些接觸點最能推動遞增式轉換。 |
+| 分析 | 清楚瞭解整體行銷與個別管道/子管道的ROI。<br/>清楚瞭解哪些接觸點最能推動遞增式轉換。 |
 
 {style="table-layout:auto"}
 
@@ -67,15 +67,15 @@ Mix Modeler可啟用下列主要使用案例。
 * 建立及比較多個預算案例需要大量手動工作的長反複週期。
 
 
-### 方針
+### 方法
 
 此使用案例的步驟型方法是：
 
 | 步驟 | 詳細資料 |
 |---|---|
-| 設定 | 輕鬆根據您的業務目標自訂測量模型。<br/>按幾下即可定義引數，不需要編碼：例如管道、地理位置、銷售週期、延遲、內部和外部業務因素等。 |
+| 設定 | 輕鬆自訂測量模型以符合您的業務目標。<br/>按幾下即可定義引數，不需要編碼：例如管道、地理位置、銷售週期、延遲、內部和外部業務因素等。 |
 | 訓練 | 訓練已設定的AI/ML模型以學習最適合輸入資料的情況，從而提供最準確的結果。 |
-| 最佳化 | 根據模型預測取得自動化最佳化預算分配。<br/>使用直覺式UI，按幾下即可開發和比較多個預算案例。 |
+| 最佳化 | 根據模型預測取得自動化最佳化預算分配。<br/>使用直覺式UI，按幾下滑鼠，即可開發和比較多個預算案例。 |
 
 {style="table-layout:auto"}
 
@@ -90,7 +90,8 @@ Mix Modeler可啟用下列主要使用案例。
 
 +++
 
-<!-- This use case is not supported with initial release
+<!--
+This use case is not supported with initial release
 
 ## Make data-driven inflight optimizations
 
@@ -147,15 +148,15 @@ Successful implementation of this use can have the following impact:
 * 無法進行臨機分析來獲得見解，因為模型不透明，並且無法使用精細分數。
 
 
-### 方針
+### 方法
 
 此使用案例的步驟型方法是：
 
 | 步驟 | 詳細資料 |
 |---|---|
 | 模型 | 設定並訓練AI/ML模型，以獲得一致的MTA接觸點分數和MMM彙總結果。 |
-| 分析 | 將增量接觸點分數匯出至Customer Journey Analytics或外部BI工具。<br/>使用接觸點分數執行精細分析並建置進階儀表板。 |
-| 動作 | 使用Real-Time Customer Data Platform建立並啟用排名在前的消費者區段的相似專案。<br/>依客戶區段開發資料導向行銷策略，以供未來行銷活動使用。 |
+| 分析 | 將累加的接觸點分數匯出至Customer Journey Analytics或外部BI工具。<br/>使用接觸點分數執行精細分析並建置進階儀表板。 |
+| 動作 | 使用Real-Time Customer Data Platform建立並啟用排名在前的消費者區段的相似專案。<br/>依客戶區段開發資料導向行銷策略，以供未來的行銷活動使用。 |
 
 {style="table-layout:auto"}
 

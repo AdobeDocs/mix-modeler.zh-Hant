@@ -3,10 +3,10 @@ title: 稽核記錄
 description: 瞭解如何從Mix Modeler存取稽核記錄。
 feature: Administration
 exl-id: aa65aac5-bea4-43ff-b0d0-9e8a6a97d3ca
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+source-git-commit: e6f24c96e873804b37011a1afafb7012d999fc1b
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 5%
+source-wordcount: '488'
+ht-degree: 4%
 
 ---
 
@@ -14,7 +14,8 @@ ht-degree: 5%
 
 為了提高系統中所執行活動的透明度和可見度，Mix Modeler工作流程中的使用者活動會擷取在Experience Platform稽核記錄中，以瞭解Mix Modeler類別的任何使用者導向變更。 這些記錄形成了稽核軌跡，可以幫助解決問題，並且可以幫助您的企業有效地遵守公司資料管理政策和監管要求。
 
-<!-- DO WE HAVE TO ADD THIS
+<!-- 
+DO WE HAVE TO ADD THIS
 If you are subject to the Health Insurance Portability and Accountability Act (HIPAA) and create, receive, maintain, or transmit permitted sensitive personal data through Mix Modeler, you are responsible for executing a BAA with Adobe and licensing Healthcare Shield.
 -->
 
@@ -22,7 +23,7 @@ If you are subject to the Health Insurance Portability and Accountability Act (H
 
 若要檢查稽核記錄，請在Mix Modeler介面中：
 
-1. 從![選取](/help/assets/icons/TaskList.svg)工作清單&#x200B;**[!UICONTROL Audits]** **[!UICONTROL PRIVACY]**。
+1. 從&#x200B;**[!UICONTROL PRIVACY]**&#x200B;選取![工作清單](/help/assets/icons/TaskList.svg) **[!UICONTROL Audits]**。
 
 1. 在&#x200B;**[!UICONTROL Audits]**&#x200B;中，您可以找到&#x200B;**[!UICONTROL Activity log]**。 活動記錄會顯示下列Mix Modeler類別、動作和狀態的專案。
 
@@ -67,4 +68,4 @@ If you are subject to the Health Insurance Portability and Accountability Act (H
 
 為您的組織啟用此功能後，活動發生時會自動收集稽核記錄。 您不需要手動啟用稽核記錄收集。
 
-若要檢視和匯出稽核記錄，您必須已被授與稽核記錄存取權存取控制許可權。 若要瞭解如何管理Mix Modeler功能的個別許可權，請參閱[存取控制檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/home)。
+若要檢視和匯出稽核記錄，您必須已被授與稽核記錄存取權存取控制許可權。 若要瞭解如何管理Mix Modeler功能的個別許可權，請參閱[存取控制檔案](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)。
