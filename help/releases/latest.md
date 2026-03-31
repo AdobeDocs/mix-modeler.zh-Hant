@@ -4,10 +4,10 @@ description: 最新 Mix Modeler 發行說明
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 7581053507bd1a6a07b2f3853f454631ecee8cec
+source-git-commit: dd7a7260464b27b8ef257004b1c2a64d70ffe122
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 3%
+source-wordcount: '435'
+ht-degree: 5%
 
 ---
 
@@ -16,6 +16,12 @@ ht-degree: 3%
 **上次更新日期**：2026年2月26日。
 
 以下發行說明涵蓋最新版本的Mix Modeler。 Mix Modeler版本會在持續傳遞模式上運作，允許大約每月發行。 因此，這些發行說明會相應更新，因此請定期檢視。
+
+## 2026年3月
+
+| 功能 | 說明 | [轉出開始](#release-strategy) | [一般可用性](#release-strategy) |
+|---|---|---|---|
+| **管道adstock** | 您可以透過[管道Adstock](/help/models/build.md#channel-adstock)，將網域專業知識、實驗結果或先前的管道分析直接合併到模型進階組態中。 並在模型的管道分析中顯示[管道Adstock深入分析](/help/models/insights.md#channel-adstock)。 | 2026年3月30日 | 2026年3月30日 |
 
 ## 2026 年 2 月
 
