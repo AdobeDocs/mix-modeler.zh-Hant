@@ -3,9 +3,9 @@ title: 模型概述
 description: 瞭解如何在Mix Modeler中建立、訓練、評分及管理機器學習模型，以測量及預測行銷結果。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
+source-git-commit: e78380c2f735c1658a8d4d69353c7953ceb9c8c3
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1082'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,7 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
 
 1. 為模型選取![更多](/help/assets/icons/More.svg)，然後從內容功能表選取&#x200B;**[!UICONTROL Duplicate]**。
 
-您被重新導向到建立新模型的步驟，其中提議的名稱是由原始模型的名稱附加的&#x200B;**[!UICONTROL (Copy)] (_n_)**&#x200B;所組成。
+您被重新導向到建立新模型的步驟，其中提議的名稱是由原始模型的名稱附加的&#x200B;**[!UICONTROL (Copy)](_n_)**&#x200B;所組成。
 
 ### 編輯
 
@@ -151,9 +151,8 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
       1. 選取&#x200B;**[!UICONTROL Clear all]**&#x200B;以移除所有選取的協調欄位。
 
      >[!IMPORTANT]
-     >如果您將精細見解報表欄位新增至2026年2月18日&#x200B;**之前**&#x200B;建立的模型，則需要重新排序模型。 該重新搜尋可確保模型底下的結構描述會以細微的深入分析報表欄位更新。
-     >
-     >建議方法是複製此類模型。 並在建立重複模型時納入精細的深入分析報表欄位。
+     >任何在2026年1月12日之前建立且具有MTA的模型，都應複製以啟用精細的模型深入分析。<br/>
+     >任何現有模型都必須重新搜尋，才能在分數資料中反映更新的精細維度。
      >
 
 1. 選擇「**[!UICONTROL Save]**」。
@@ -178,5 +177,5 @@ Mix Modeler中的模型是一種機器學習模型，用於根據行銷人員的
 
 1. 選取多個模型。
 1. 從藍色動作列中，選取![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;以刪除模型。
-1. 在&#x200B;**[!UICONTROL Delete *x *模型]**&#x200B;確認對話方塊中選取&#x200B;**[!UICONTROL Delete]**&#x200B;以刪除模型。 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消。
+1. 在&#x200B;**[!UICONTROL Delete *x *模型]**確認對話方塊中選取&#x200B;**[!UICONTROL Delete]**以刪除模型。 選取&#x200B;**[!UICONTROL Cancel]**以取消。
 
