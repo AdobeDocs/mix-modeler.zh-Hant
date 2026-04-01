@@ -222,7 +222,7 @@ ht-degree: 2%
 
 為精細增量報告選取的協調欄位可作為Experience Platform [結構描述](/help/ingest-data/schemas.md)和[資料集](/help/ingest-data/datasets.md)的一部分，這些資料來自對模型計分。 在&#x200B;**[!UICONTROL conversionPassthrough]**&#x200B;和&#x200B;**[!UICONTROL touchpointPassthrough]**&#x200B;物件中可以找到精細見解報告欄位。
 
-針對已啟用精細增量報告的模型，在結構描述中擷取conversionPassthrough和touchpointPassthrough物件的熒幕擷圖](/help/assets/schema-granular-insights-reporting.png)![
+針對已啟用精細增量報告的模型，在結構描述中擷取conversionPassthrough和touchpointPassthrough物件的熒幕擷圖![&#128279;](/help/assets/schema-granular-insights-reporting.png)
 
 
 ## 完成
