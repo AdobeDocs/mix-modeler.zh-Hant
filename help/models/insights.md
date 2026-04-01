@@ -3,10 +3,10 @@ title: 模型深入分析
 description: 瞭解如何取得有關您模型的詳細資訊，例如Mix Modeler中的歷史總覽、模型見解和模型品質。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: be10a2fff940db4effe8f5d23aa7404e6d77ac74
+source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
 workflow-type: tm+mt
-source-wordcount: '2999'
-ht-degree: 9%
+source-wordcount: '2896'
+ht-degree: 8%
 
 ---
 
@@ -189,7 +189,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="models_factors_factorcontributionbreakdown"
 >title="因素貢獻劃分"
->abstract="因素貢獻劃分呈現在基準轉換中可歸因於模型中包含的各種因素之比例。<br/><br/>純基準是指與模型中包含的行銷接觸點和因素皆無關，而獨立產生的轉換行為。 其中包括由品牌權益、重複購買、自然產生的需求以及長期市場趨勢和季節性因素驅動的轉換。"
+>abstract="因子貢獻劃分會顯示可歸因於模型中所包含各種因子的基礎轉換比例。<br/><br/>純基底代表基礎轉換，此轉換是獨立於行銷接觸點與模型中所包含的因素而進行的。 其中包括由品牌權益、重複購買、自然產生的需求以及長期市場趨勢和季節性因素驅動的轉換。"
 
 
 因素[!BADGE beta]標籤顯示外部因素相關深入分析。
@@ -367,7 +367,7 @@ Mix Modeler多點接觸歸因精細事件分數與整體[!DNL Mix Modeler]分數
   ![模型評定](../assets/model-assessment.png)
 
    * 您可以根據實際與預測或剩餘轉換劃分的圖表。
-若要劃分視覺效果，請從&#x200B;**[!UICONTROL Breakdown]**&#x200B;清單中選取下列其中一個選項。
+若要劃分視覺效果，請從**[!UICONTROL Breakdown]**&#x200B;清單中選取下列其中一個選項。
 
       * **[!UICONTROL Actual vs Predicted]**：此選項會比較實際值與模型預測。 理想情況下，預測值應該與實際值緊密一致，雖然可能會出現一些偏差。 大型或系統的偏差或模式可能表示缺少的關係和資料或潛在的偏差。
 
@@ -456,27 +456,3 @@ Mix Modeler多點接觸歸因精細事件分數與整體[!DNL Mix Modeler]分數
 
 * 從&#x200B;**[!UICONTROL Channels]**&#x200B;中選取頻道。
 
-
-## 編輯
-
-您可以編輯模型的名稱、說明，以及訓練和評分的排程。
-
-1. 選取![編輯](/help/assets/icons/Edit.svg)編輯
-
-1. 在&#x200B;**[!UICONTROL Edit model]**&#x200B;對話方塊：
-
-   * 輸入新的&#x200B;**[!UICONTROL Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**。
-
-   * 若要啟用排程，請啟用&#x200B;**[!UICONTROL Status]**。 您只能為已訓練和評分的模型啟用排程。
-
-      1. 選取&#x200B;**[!UICONTROL Scoring frequency]**：
-
-         * **[!UICONTROL Daily]**：輸入有效時間（例如`05:22 pm`）或使用![時鐘](/help/assets/icons/Clock.svg)。
-         * **[!UICONTROL Weekly]**：選取一週的某天，然後輸入有效的時間（例如`05:22 pm`）或使用![時鐘](/help/assets/icons/Clock.svg)。
-         * **[!UICONTROL Monthly]**：從[Run on every]下拉式功能表中選取一個月中的某一日，然後輸入有效時間（例如`05:22 pm`）或使用![時鐘](/help/assets/icons/Clock.svg)。
-
-      1. 從下拉式功能表中選取&#x200B;**[!UICONTROL Training frequency]**： **[!UICONTROL Monthly]**、**[!UICONTROL Quarterly]**、**[!UICONTROL Yearly]**&#x200B;或&#x200B;**[!UICONTROL None]**。
-
-     ![編輯模型](../assets/model-edit.png)
-
-1. 選擇「**[!UICONTROL Save]**」。
