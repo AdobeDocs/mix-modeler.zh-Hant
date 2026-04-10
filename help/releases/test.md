@@ -4,11 +4,10 @@ description: 測試
 feature-set: Experience Cloud
 feature: Release Notes
 hide: true
-hidefromtoc: true
 exl-id: 5f832a79-7a0c-43cd-87cf-a5ceceb79032
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+source-git-commit: 8340b8a6c32670f372fff489fd46ea1003ff1d02
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '327'
 ht-degree: 1%
 
 ---
@@ -19,7 +18,7 @@ ht-degree: 1%
 
 | 標記 | 資料視圖 | 擁有者 | 其他篩選器 |
 |---|---|---|---|
-| 您可以![搜尋](/help/assets/icons/Search.svg) *搜尋標籤*&#x200B;來限制標籤清單。 <br/><br/>當您選取一或多個標籤時，清單會自動限製為顯示其他可能的剩餘標籤。 <br/><br/> **[!UICONTROL Tags]**&#x200B;中的數字&#x200B;**2︎⃣**&#x200B;是指可用標籤的數目。 <br/><br/> **[!UICONTROL *標籤&#x200B;*]**&#x200B;中的數字7︎⃣參考使用spefici標籤標籤的篩選數目。 | 您可以![搜尋](/help/assets/icons/Search.svg) *搜尋資料檢視*&#x200B;以限制資料檢視的清單。 <br/>您可以選取多個資料檢視來篩選篩選篩選清單。 <br/><br/> **[!UICONTROL Tags]**&#x200B;中的數字&#x200B;**2︎⃣**&#x200B;是指可用標籤的數目。 <br/><br/> **[!UICONTROL *標籤&#x200B;*]**&#x200B;中的數字7︎⃣參考使用spefici標籤標籤的篩選數目。 | 您可以![搜尋](/help/assets/icons/Search.svg) *搜尋資料檢視*&#x200B;以限制資料檢視的清單。 <br/>您可以選取多個資料檢視來篩選篩選篩選清單。 <br/><br/> **[!UICONTROL Tags]**&#x200B;中的數字&#x200B;**2︎⃣**&#x200B;是指可用標籤的數目。 <br/><br/> **[!UICONTROL *標籤&#x200B;*]**&#x200B;中的數字7︎⃣參考使用spefici標籤標籤的篩選數目。 | 您可以![搜尋](/help/assets/icons/Search.svg) *搜尋資料檢視*&#x200B;以限制資料檢視的清單。 <br/>您可以選取多個資料檢視來篩選篩選篩選清單。 <br/><br/> **[!UICONTROL Tags]**&#x200B;中的數字&#x200B;**2︎⃣**&#x200B;是指可用標籤的數目。 <br/><br/> **[!UICONTROL *標籤&#x200B;*]**&#x200B;中的數字7︎⃣參考使用spefici標籤標籤的篩選數目。🅐 🅔 |
+| 您可以![搜尋](/help/assets/icons/Search.svg) *搜尋標籤*&#x200B;來限制標籤清單。 <br/><br/>當您選取一或多個標籤時，清單會自動限製為顯示其他可能的剩餘標籤。 <br/><br/> **[!UICONTROL Tags]**&#x200B;中的數字&#x200B;**⃣**&#x200B;是指可用標籤的數目。 <br/><br/> **[!UICONTROL *標籤&#x200B;*]**&#x200B;中的數字⃣參考使用spefici標籤標籤的篩選數目。 | 您可以![搜尋](/help/assets/icons/Search.svg) *搜尋資料檢視*&#x200B;以限制資料檢視的清單。 <br/>您可以選取多個資料檢視來篩選篩選篩選清單。 <br/><br/> **[!UICONTROL Tags]**&#x200B;中的數字&#x200B;**⃣**&#x200B;是指可用標籤的數目。 <br/><br/> **[!UICONTROL *標籤&#x200B;*]**&#x200B;中的數字⃣參考使用spefici標籤標籤的篩選數目。 | 您可以![搜尋](/help/assets/icons/Search.svg) *搜尋資料檢視*&#x200B;以限制資料檢視的清單。 <br/>您可以選取多個資料檢視來篩選篩選篩選清單。 <br/><br/> **[!UICONTROL Tags]**&#x200B;中的數字&#x200B;**⃣**&#x200B;是指可用標籤的數目。 <br/><br/> **[!UICONTROL *標籤&#x200B;*]**&#x200B;中的數字⃣參考使用spefici標籤標籤的篩選數目。 | 您可以![搜尋](/help/assets/icons/Search.svg) *搜尋資料檢視*&#x200B;以限制資料檢視的清單。 <br/>您可以選取多個資料檢視來篩選篩選篩選清單。 <br/><br/> **[!UICONTROL Tags]**&#x200B;中的數字&#x200B;**⃣**&#x200B;是指可用標籤的數目。 <br/><br/> **[!UICONTROL *標籤&#x200B;*]**&#x200B;中的數字⃣參考使用spefici標籤標籤的篩選數目。🅐 🅔 |
 
 {style="table-layout:fixed"}
 
@@ -30,7 +29,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-本文記錄了![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**&#x200B;中的歸因面板。<br/>檢視此文章的[CustomerJourneyAnalytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/panels/attribution) ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg)版本的&#x200B;**歸因面板**。
+本文記錄了![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**&#x200B;中的歸因面板。<br/>若需本文的![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics**&#x200B;版本，請參閱[歸因面板](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/panels/attribution)。
 
 >[!ENDSHADEBOX]
 
