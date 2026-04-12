@@ -5,8 +5,8 @@ feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
 source-git-commit: 51a8449f41ec7488e23b15e8f1a280de60b7e7fa
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 11%
+source-wordcount: '477'
+ht-degree: 12%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 11%
 
 1. 從左側邊欄選取![資料搜尋](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]**。
 
-1. 從頂端列選取&#x200B;**[!UICONTROL Marketing touchpoint]**。 您會看到行銷接觸點表格。 如果有更多頁面可供使用，請使用![x](/help/assets/icons/ChevronLeft.svg)的![x](/help/assets/icons/ChevronRight.svg)上的&#x200B;**[!UICONTROL Page _向左箭頭&#x200B;_或_向右箭頭_]**&#x200B;在資料表的頁面之間移動。
+1. 從頂端列選取&#x200B;**[!UICONTROL Marketing touchpoint]**。 您會看到行銷接觸點表格。 如果有更多頁面可供使用，請使用&#x200B;_x _&#x200B;**的**&#x200B;Page _x_&#x200B;上的![向左箭頭](/help/assets/icons/ChevronLeft.svg)或![向右箭頭](/help/assets/icons/ChevronRight.svg)在資料表的頁面之間移動。
 
 表格欄會指定行銷接觸點的詳細資訊：
 
@@ -38,7 +38,7 @@ ht-degree: 11%
 | 支出量度 | 用於計算接觸點支出的協調資料量度。 |
 | 數量度 | 用於計算接觸點數量的協調資料量度。 |
 | 規則 | 要使用的接觸點規則。 |
-| 已建立 | 建立行銷接觸點的日期和時間。 |
+| 建立時間 | 建立行銷接觸點的日期和時間。 |
 | 上次修改時間 | 上次修改行銷接觸點的日期和時間。 |
 
 

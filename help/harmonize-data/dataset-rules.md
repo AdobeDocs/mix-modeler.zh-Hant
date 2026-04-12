@@ -279,7 +279,7 @@ ht-degree: 3%
 
    * 若要刪除現有的特定量度型偏好設定，請選取![刪除](/help/assets/icons/Delete.svg)。
 
-1. 選取&#x200B;**[!UICONTROL Save]**&#x200B;以儲存資料合併偏好設定。 已開始重新同步資料。<br/>選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消。
+1. 選取&#x200B;**[!UICONTROL Save]**&#x200B;以儲存資料合併偏好設定。 已開始重新同步資料。 <br/>選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消。
 
 ## 刪除來源資料集
 
