@@ -39,7 +39,7 @@ ht-degree: 10%
 | 收入 | 用於計算轉換收入的協調資料量度。 |
 | 轉換量度 | 用作分析轉換量度的協調資料量度。 |
 | 類別 | 轉換的轉換類別。 |
-| 已建立 | 建立轉換的日期和時間。 |
+| 建立時間 | 建立轉換的日期和時間。 |
 | 上次修改時間 | 上次修改轉換的日期和時間。 |
 
 
@@ -59,7 +59,7 @@ ht-degree: 10%
 
       1. 選取運運算元![V](/help/assets/icons/ChevronDown.svg)的值，例如&#x200B;**[!UICONTROL is]**。
 
-      1. 從&#x200B;**[!UICONTROL *選取值&#x200B;*]**&#x200B;或輸入值，例如&#x200B;**[!UICONTROL Store]**。
+      1. 從&#x200B;**[!UICONTROL *選取值&#x200B;*]**或輸入值，例如&#x200B;**[!UICONTROL Store]**。
 
    1. 從&#x200B;**[!UICONTROL Conversion metric for analysis]**&#x200B;中選取協調欄位，例如&#x200B;**[!UICONTROL Orders]**。
 
