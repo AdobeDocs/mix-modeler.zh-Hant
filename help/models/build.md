@@ -7,7 +7,7 @@ exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
 source-git-commit: 3a8c82d30e97e875e129c931dcd2578fa39f05a5
 workflow-type: tm+mt
 source-wordcount: '1578'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -124,8 +124,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="model_advanced_channeladstock"
->title="管道Adstock"
->abstract="將領域專業知識、實驗結果或先前的管道分析直接整合到模型設定中。 Adstock設定有助於引導模型符合現實世界的期望，並改善輸出的可解性和可信度。 每個管道的回顧周數加上延遲周數總計的上限為設定培訓時段的八分之一。 此上限允許模型有足夠資料來瞭解Adstock效果。"
+>title="管道 Adstock"
+>abstract="將網域專業知識、實驗結果或先前的管道分析直接整合至模型設定。 Adstock 設定可協助引導模型符合現實世界的期望，並改善輸出的可解釋性和可信度。 每個管道的回顧週數加延遲週數上限為設定培訓時段的八分之一。 此上限允許模型有足夠資料來瞭解Adstock效果。"
 
 您可以在&#x200B;**[!UICONTROL Advanced]**&#x200B;步驟中指定進階設定。 在此步驟中，您可以定義[支出共用](#spend-share)、啟用[多重接觸歸因(MTA)](#mta)的模型、定義[先前知識](#prior-knowledge)以及定義[管道adstock](#channel-adstock)。
 
@@ -164,7 +164,7 @@ ht-degree: 2%
 1. 必要時，請使用&#x200B;**[!UICONTROL Clear all]**&#x200B;清除&#x200B;**[!UICONTROL Contribution proportion]**&#x200B;與&#x200B;**[!UICONTROL Level of confidence]**&#x200B;欄的所有輸入值。
 
 
-### 管道Adstock
+### 管道 Adstock
 
 在&#x200B;**[!UICONTROL Channel adstock]**&#x200B;區段中，您可以針對您在模型中定義的每個管道（行銷管道），定義個別Adstock回顧（結轉或衰減效果）和延遲（延遲回應時間）。
 
@@ -226,7 +226,7 @@ ht-degree: 2%
 
 為精細增量報告選取的協調欄位可作為Experience Platform [結構描述](/help/ingest-data/schemas.md)和[資料集](/help/ingest-data/datasets.md)的一部分，這些資料來自對模型計分。 在&#x200B;**[!UICONTROL conversionPassthrough]**&#x200B;和&#x200B;**[!UICONTROL touchpointPassthrough]**&#x200B;物件中可以找到精細見解報告欄位。
 
-針對已啟用精細增量報告的模型，在結構描述中擷取conversionPassthrough和touchpointPassthrough物件的熒幕擷圖![&#128279;](/help/assets/schema-granular-insights-reporting.png)
+針對已啟用精細增量報告的模型，在結構描述中擷取conversionPassthrough和touchpointPassthrough物件的熒幕擷圖](/help/assets/schema-granular-insights-reporting.png)![
 
 
 ## 完成
