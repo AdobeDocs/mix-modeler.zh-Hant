@@ -6,7 +6,7 @@ exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
 source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
 workflow-type: tm+mt
 source-wordcount: '2896'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
@@ -161,7 +161,7 @@ ht-degree: 8%
 >如果現有模型看不到&#x200B;**[!UICONTROL Channel synergy]**&#x200B;標籤，請確定您重新訓練模型以啟用功能和視覺效果。
 
 
-### 管道Adstock
+### 管道 Adstock
 
 為每個已設定的管道加庫存視覺效果顯示的管道加庫存視覺效果。 這些視覺效果可協助您瞭解行銷支出對每個管道的影響如何隨著時間持續和衰減，並超出最初曝光的時間。 此視覺效果可讓您透過納入從模型學到的時間動態，以真實地檢視管道轉移。
 
@@ -189,7 +189,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="models_factors_factorcontributionbreakdown"
 >title="因素貢獻劃分"
->abstract="因子貢獻劃分會顯示可歸因於模型中所包含各種因子的基礎轉換比例。<br/><br/>純基底代表基礎轉換，此轉換是獨立於行銷接觸點與模型中所包含的因素而進行的。 其中包括由品牌權益、重複購買、自然產生的需求以及長期市場趨勢和季節性因素驅動的轉換。"
+>abstract="此因素貢獻劃分顯示可歸因於模型所含各種因素的基底轉換的比例。<br/><br/>純基準值代表即使沒有模型中包含的行銷接觸點和因素，依然會發生的底層轉換。 其中包括由品牌權益、重複購買、自然產生的需求以及長期市場趨勢和季節性因素驅動的轉換。"
 
 
 因素[!BADGE beta]標籤顯示外部因素相關深入分析。
@@ -217,7 +217,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="models_attribution_breakdownbytouchpointposition"
 >title="依接觸點位置劃分"
->abstract="此視覺化圖表依接觸點位置及所有轉換路徑上的接觸點，顯示已歸因轉換的劃分。 此視覺效果會比較某個接觸點在某個位置的貢獻是否優於其他位置和其他任何位置的接觸點。"
+>abstract="此視覺化圖表依接觸點位置及所有轉換路徑上的接觸點，顯示已歸因轉換的劃分。 此視覺化圖表會比較某個接觸點在某個位置的貢獻，是否大於該接觸點在其餘位置的貢獻以及位於任何位置的其他接觸點的貢獻。"
 
 
 
@@ -345,13 +345,13 @@ Mix Modeler多點接觸歸因精細事件分數與整體[!DNL Mix Modeler]分數
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_efficiencymeasure"
 >title="效率測量值"
->abstract="演算法歸因模型產生的效率測量值表示某個接觸點，在不考慮接觸點數量的情況下，對轉換的相對重要性。 此量值以1至5為比例。 請注意，接觸點數量愈多並不能保證效率測量值愈高。"
+>abstract="演算法歸因模型產生的效率測量值表示某個接觸點，在不考慮接觸點數量的情況下，對轉換的相對重要性。 這是以 1 到 5 的等級進行衡量。 請注意，接觸點數量愈多並不能保證效率測量值愈高。"
 
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_totalvolume"
 >title="總數量"
->abstract="總數量是使用者接觸接觸點的總次數。 和包含出現在達成和未產生轉換的路徑上的接觸點。"
+>abstract="總數量是指使用者與接觸點互動的累計次數。 包含出現在達成轉換以及沒有發生轉換的路徑上之接觸點。"
 
 
 >[!CONTEXTUALHELP]
