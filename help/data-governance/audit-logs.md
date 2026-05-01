@@ -3,9 +3,16 @@ title: 稽核記錄
 description: 瞭解如何從Mix Modeler存取稽核記錄。
 feature: Administration
 exl-id: aa65aac5-bea4-43ff-b0d0-9e8a6a97d3ca
-source-git-commit: e6f24c96e873804b37011a1afafb7012d999fc1b
+TQID: https://experienceleague.adobe.com/SVw4XFGpjHu5B5awcf9L-LH-IMEMrMmReACYo3-fSb0
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: f6633d1c-3d2d-4f48-95d4-4bbc9913db52
+subfeature_v2: id: bf7ac0fc-effb-4f0c-b93f-658412718d3c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+autotag-review: '2026-05-01T09:16:13.122Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: 488
 ht-degree: 4%
 
 ---
@@ -68,4 +75,4 @@ If you are subject to the Health Insurance Portability and Accountability Act (H
 
 為您的組織啟用此功能後，活動發生時會自動收集稽核記錄。 您不需要手動啟用稽核記錄收集。
 
-若要檢視和匯出稽核記錄，您必須已被授與稽核記錄存取權存取控制許可權。 若要瞭解如何管理Mix Modeler功能的個別許可權，請參閱[存取控制檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/home)。
+若要檢視和匯出稽核記錄，您必須已被授與稽核記錄存取權存取控制許可權。 若要瞭解如何管理Mix Modeler功能的個別許可權，請參閱[存取控制檔案](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)。

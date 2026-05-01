@@ -3,10 +3,17 @@ title: 協調資料集概述
 description: 瞭解如何在Mix Modeler中協調資料。
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 23cb7cefe3d1dabfdb8484ad150c38d785841e3b
+TQID: https://experienceleague.adobe.com/9ki9Q-ZAmwmiyYFt-EAaa1ybylaoMauTvoxQ9ux1IEI
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: a567f0f7-0057-4079-8ded-5b24cc25af15
+subfeature_v2: id: bc2f5225-03d4-4bc8-89ec-99d78c30e6ddid: d4b8ba18-64c1-4413-be54-74405ec7f558id: ba4fd72c-282e-4fb6-abc1-08e6fb87b2adid: b4655f7e-1a6e-4fa3-a7c5-3c34d4786e49id: b2d4aeb9-eabe-49f6-8edb-bb2862d5980b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+autotag-review: '2026-05-01T09:10:10.340Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '1369'
-ht-degree: 7%
+source-wordcount: 1382
+ht-degree: 17%
 
 ---
 
@@ -52,12 +59,12 @@ Mix Modeler中的因子功能使用協調的因子工作流程。 此工作流�
 
 包含來自YouTube的行銷活動資料集，其彙總資料集的詳細程度為每日。
 
-| 日期 | 日期型別 | 頻道 | Campaign | 品牌 | 地理 | 點按次數 | 支出 |
+| 日期 | 日期型別 | 頻道 | 促銷活動 | 品牌 | 地理 | 點按次數 | 支出 |
 |---|:--:|---|---|---|---|---:|---:|
 | 12-31-2021 | 天 | YouTube | Y_Fall_02 | BrandX | 美國 | 10000 | 100 |
 | 01-01-2022 | 天 | YouTube | Y_Fall_02 | BrandX | 美國 | 1000 | 10 |
 | 01-03-2022 | 天 | YouTube | Y_Fall_01 | BrandY | CA | 10000 | 100 |
-| 01-04-2022 | 天 | YouTube | Y_Summer_01 | 空 | CA | 9000 | 80 |
+| 01-04-2022 | 天 | YouTube | Y_Summer_01 | Null | CA | 9000 | 80 |
 
 {style="table-layout:auto"}
 
@@ -66,7 +73,7 @@ Mix Modeler中的因子功能使用協調的因子工作流程。 此工作流�
 
 包含Facebook的行銷成果資料集，其彙總資料的詳細程度設定為每週。
 
-| 日期 | 日期型別 | 頻道 | Campaign | 地理 | 點按次數 | 支出 |
+| 日期 | 日期型別 | 頻道 | 促銷活動 | 地理 | 點按次數 | 支出 |
 |--- |:---:|--- |---|---|---:|---:|
 | 01-01-2022 | 周 | Facebook | FB_Fall_01 | 美國 | 8000 | 100 |
 | 01-08-2022 | 周 | Facebook | FB_Fall_02 | 美國 | 1000 | 10 |
@@ -92,7 +99,7 @@ Mix Modeler中的因子功能使用協調的因子工作流程。 此工作流�
 
 **資料集4**
 
-來自客戶的體驗事件資料集(網頁SDK事件)範例。
+來自客戶的體驗事件資料集（網頁SDK事件）範例。
 
 | 時間戳記 | 身分識別命名空間 | 身分ID | 頻道 | 點按次數 |
 |--- |--- |--- |--- |---:|
@@ -108,21 +115,21 @@ Mix Modeler中的因子功能使用協調的因子工作流程。 此工作流�
 
 **協調的資料集**
 
-| 日期 | 日期型別 | 頻道 | Campaign | 品牌 | 地理 | 目標 | 點按次數 | 支出 | 收入 |
+| 日期 | 日期型別 | 頻道 | 促銷活動 | 品牌 | 地理 | 目標 | 點按次數 | 支出 | 收入 |
 |--- |:---:|--- |--- |--- |---|---|---:|---:|---:|
-| 12-27-2021 | 周 | YouTube | Y_Fall_02 | BrandX | 美國 | 空 | 11000 | 110 | 空 |
-| 01-03-2022 | 周 | YouTube | Y_Fall_01 | BrandY | CA | 空 | 10000 | 100 | 空 |
-| 01-03-2022 | 周 | YouTube | Y_Summer_01 | 空 | CA | 空 | 9000 | 80 | 空 |
-| 01-01-2022 | 周 | Facebook | FB_Fall_01 | 空 | 美國 | 空 | 8000 | 100 | 空 |
-| 01-08-2022 | 周 | Facebook | FB_Fall_02 | 空 | 美國 | 空 | 1000 | 10 | 空 |
-| 01-08-2022 | 周 | Facebook | FB_Fall_01 | 空 | 美國 | 空 | 7000 | 100 | 空 |
-| 01-16-2022 | 周 | Facebook | FB_Summer_01 | 空 | CA | 空 | 10000 | 80 | 空 |
-| 12-27-2021 | 周 | 空 | 空 | 空 | 美國 | 時尚 | 空 | 空 | 200 |
-| 01-03-2022 | 周 | 空 | 空 | 空 | 美國 | 時尚 | 空 | 空 | 10 |
-| 01-03-2022 | 周 | 空 | 空 | 空 | 美國 | 珠寶 | 空 | 空 | 1100 |
-| 01-10-2022 | 周 | 空 | 空 | 空 | CA | 珠寶 | 空 | 空 | 80 |
-| 01-01-2022 | 周 | CSE | 空 | 空 | 空 | 空 | 2 | 空 | 空 |
-| 01-08-2022 | 周 | CSE | 空 | 空 | 空 | 空 | 2 | 空 | 空 |
+| 12-27-2021 | 周 | YouTube | Y_Fall_02 | BrandX | 美國 | Null | 11000 | 110 | Null |
+| 01-03-2022 | 周 | YouTube | Y_Fall_01 | BrandY | CA | Null | 10000 | 100 | Null |
+| 01-03-2022 | 周 | YouTube | Y_Summer_01 | Null | CA | Null | 9000 | 80 | Null |
+| 01-01-2022 | 周 | Facebook | FB_Fall_01 | Null | 美國 | Null | 8000 | 100 | Null |
+| 01-08-2022 | 周 | Facebook | FB_Fall_02 | Null | 美國 | Null | 1000 | 10 | Null |
+| 01-08-2022 | 周 | Facebook | FB_Fall_01 | Null | 美國 | Null | 7000 | 100 | Null |
+| 01-16-2022 | 周 | Facebook | FB_Summer_01 | Null | CA | Null | 10000 | 80 | Null |
+| 12-27-2021 | 周 | Null | Null | Null | 美國 | 時尚 | Null | Null | 200 |
+| 01-03-2022 | 周 | Null | Null | Null | 美國 | 時尚 | Null | Null | 10 |
+| 01-03-2022 | 周 | Null | Null | Null | 美國 | 珠寶 | Null | Null | 1100 |
+| 01-10-2022 | 周 | Null | Null | Null | CA | 珠寶 | Null | Null | 80 |
+| 01-01-2022 | 周 | CSE | Null | Null | Null | Null | 2 | Null | Null |
+| 01-08-2022 | 周 | CSE | Null | Null | Null | Null | 2 | Null | Null |
 
 {style="table-layout:auto"}
 
@@ -149,9 +156,9 @@ Mix Modeler中的因子功能使用協調的因子工作流程。 此工作流�
 
    1. 若要修改「協調」資料表所顯示的協調欄位欄，請使用![設定](/help/assets/icons/Setting.svg)開啟&#x200B;**[!UICONTROL Column settings]**&#x200B;對話方塊。
 
-      1. 從![選取](/help/assets/icons/SelectBox.svg)SelectBox **[!UICONTROL AVAILABLE COLUMNS]**&#x200B;一或多個資料行，並使用![右側V形](/help/assets/icons/ChevronRight.svg)將這些資料行新增到&#x200B;**[!UICONTROL SELECTED COLUMNS]**。 您定義的所有標準協調欄位（包括與因子資料集相關的欄位，例如&#x200B;**[!UICONTROL Factor Name]**、**[!UICONTROL Factor Value]**、**[!UICONTROL Factor Type]**&#x200B;和&#x200B;**[!UICONTROL Factor Value Type]**）都可供使用。
+      1. 從&#x200B;**[!UICONTROL AVAILABLE COLUMNS]**&#x200B;選取![SelectBox](/help/assets/icons/SelectBox.svg)一或多個資料行，並使用![右側V形](/help/assets/icons/ChevronRight.svg)將這些資料行新增到&#x200B;**[!UICONTROL SELECTED COLUMNS]**。 您定義的所有標準協調欄位（包括與因子資料集相關的欄位，例如&#x200B;**[!UICONTROL Factor Name]**、**[!UICONTROL Factor Value]**、**[!UICONTROL Factor Type]**&#x200B;和&#x200B;**[!UICONTROL Factor Value Type]**）都可供使用。
 
-      1. 從![中選取](/help/assets/icons/SelectBox.svg)SelectBox **[!UICONTROL SELECTED COLUMNS]**&#x200B;一或多個資料行，並使用![左V形](/help/assets/icons/ChevronLeft.svg)來移除選取的資料行，並將這些資料行傳回&#x200B;**[!UICONTROL AVAILABLE COLUMNS]**。
+      1. 從&#x200B;**[!UICONTROL SELECTED COLUMNS]**&#x200B;中選取![SelectBox](/help/assets/icons/SelectBox.svg)一或多個資料行，並使用![左V形](/help/assets/icons/ChevronLeft.svg)來移除選取的資料行，並將這些資料行傳回&#x200B;**[!UICONTROL AVAILABLE COLUMNS]**。
 
       1. 從&#x200B;**[!UICONTROL DEFAULT SORT]**&#x200B;中選取欄，並在&#x200B;**[!UICONTROL Ascending]**&#x200B;或&#x200B;**[!UICONTROL Descending]**&#x200B;之間切換。
 
@@ -159,7 +166,7 @@ Mix Modeler中的因子功能使用協調的因子工作流程。 此工作流�
 
    1. 選取&#x200B;**[!UICONTROL Submit]**&#x200B;以提交您的欄設定變更。 選取&#x200B;**[!UICONTROL Close]**&#x200B;以取消您所做的任何變更。
 
-1. 如果有更多頁面可供使用，請使用![x](/help/assets/icons/ChevronLeft.svg)的![x](/help/assets/icons/ChevronRight.svg)上的&#x200B;**[!UICONTROL Page _向左箭頭&#x200B;_或_向右箭頭_]**&#x200B;在頁面之間移動。
+1. 如果有更多頁面可供使用，請使用&#x200B;_x _]**的**[!UICONTROL Page _x_&#x200B;上的![向左箭頭](/help/assets/icons/ChevronLeft.svg)或![向右箭頭](/help/assets/icons/ChevronRight.svg)在頁面之間移動。
 
 1. 您可以選擇下載協調的資料。
 
