@@ -1,12 +1,24 @@
 ---
 title: 協調的欄位
-description: 瞭解如何定義欄位，以便用於協調Mix Modeler中的資料。
+description: 瞭解如何定義欄位，以便在Mix Modeler中協調資料時使用。
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+TQID: https://experienceleague.adobe.com/NlB6aA4AO-0Tpbb9SibgUz0eVUgs8roO9Mju2M8tl7s
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+subfeature_v2:
+  - id: d4b8ba18-64c1-4413-be54-74405ec7f558
+  - id: b4655f7e-1a6e-4fa3-a7c5-3c34d4786e49
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+autotag-review: '2026-05-01T09:13:17.577Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 8%
+source-wordcount: 688
+ht-degree: 11%
 
 ---
 
@@ -21,14 +33,14 @@ ht-degree: 8%
 Mix Modeler中預設可用的全域協調欄位為：
 
 
-| 欄位名稱 | 顯示名稱 | 類別 | 資料類型 | 註解 |
+| 欄位名稱 | 顯示名稱 | 類別 | 資料類型 | 評論 |
 | ---------------------- | ---------------------- | --------- | --------- | --------- |
 | 品牌 | 品牌 | 維度 | 字串 |           |
-| 行銷活動 | Campaign | 維度 | 字串 |           |
-| 頻道 | Channel | 維度 | 字串 |           |
+| 行銷活動 | 促銷活動 | 維度 | 字串 |           |
+| 管道 | 頻道 | 維度 | 字串 |           |
 | channel_id | 管道ID | 維度 | 字串 |           |
 | channel_type_at_source | Source的管道型別 | 維度 | 字串 |           |
-| 頻道 | Channel | 維度 | 字串 |           |
+| 管道 | 頻道 | 維度 | 字串 |           |
 | 點按次數 | 點按次數 | 量度 | 數字 |           |
 | conversiontype | 轉換型別 | 維度 | 字串 |           |
 | 成本 | 成本 | 量度 | 貨幣 |           |
@@ -93,7 +105,7 @@ Mix Modeler中預設可用的全域協調欄位為：
 
    1. 選取&#x200B;**[!UICONTROL Data type]**。
 
-      - 當選取的類別為Dimension時，**[!UICONTROL String]**&#x200B;或&#x200B;**[!UICONTROL Date time]**。
+      - 當選取的類別是Dimension時，**[!UICONTROL String]**&#x200B;或&#x200B;**[!UICONTROL Date time]**。
       - 當選取的類別為量度或衍生時，**[!UICONTROL Number]**&#x200B;或&#x200B;**[!UICONTROL Currency]**。
 
    1. 選取&#x200B;**[!UICONTROL Submit]**&#x200B;以新增協調欄位。 選取&#x200B;**[!UICONTROL Close]**&#x200B;關閉對話方塊而不新增協調欄位。
@@ -105,7 +117,7 @@ Mix Modeler中預設可用的全域協調欄位為：
 
 您只能編輯您先前建立的協調欄位（擁有者是使用者端）。 您無法編輯全域協調欄位。
 
-若要編輯協調欄位，請在Mix Modeler的![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]**&#x200B;介面中：
+若要編輯協調的欄位，請在Mix Modeler的![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]**&#x200B;介面中：
 
 1. 選取您要編輯的協調欄位。 例如 **[!UICONTROL Region]**。
 

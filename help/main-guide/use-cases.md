@@ -3,9 +3,24 @@ title: Mix Modeler使用案例
 description: Mix Modeler使用案例。
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
 exl-id: cc82abec-d0ce-44bf-ad7e-fc379a394185
-source-git-commit: e6f24c96e873804b37011a1afafb7012d999fc1b
+TQID: https://experienceleague.adobe.com/AaVm2Jwz9MX-zuURspqkXLG9ZoO91iBowQU-hWBg-4M
+autotag-review: '2026-05-01T08:58:19.052Z'
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: a234aebd-3855-4376-a64d-29b38411e0c5
+  - id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: 645
 ht-degree: 3%
 
 ---
@@ -34,9 +49,9 @@ Mix Modeler可啟用下列主要使用案例。
 
 | 步驟 | 詳細資料 |
 |---|---|
-| 攝取 | 識別並內嵌常見結構描述下的資料來源。<br/>套用Adobe Analytics或Customer Journey Analytics的現有投資以快速部署。 |
+| 攝取 | 識別並內嵌常見結構描述下的資料來源。 <br/>套用Adobe Analytics或Customer Journey Analytics的現有投資以快速部署。 |
 | 設定 | 使用AI-as-a-Service架構來設定彈性模型，以符合您的特定業務目標<br/>透過雙向傳輸學習，自動確保接觸點與摘要層級之間的一致性。 |
-| 分析 | 清楚瞭解整體行銷與個別管道/子管道的ROI。<br/>清楚瞭解哪些接觸點最能推動遞增式轉換。 |
+| 分析 | 清楚瞭解整體行銷和個別管道/子管道的ROI。<br/>清楚瞭解哪些接觸點最能推動遞增式轉換。 |
 
 {style="table-layout:auto"}
 
@@ -73,9 +88,9 @@ Mix Modeler可啟用下列主要使用案例。
 
 | 步驟 | 詳細資料 |
 |---|---|
-| 設定 | 輕鬆自訂測量模型以符合您的業務目標。<br/>按幾下即可定義引數，不需要編碼：例如管道、地理位置、銷售週期、延遲、內部和外部業務因素等。 |
+| 設定 | 輕鬆根據您的業務目標自訂測量模型。<br/>按幾下即可定義引數，不需要編碼：例如管道、地理位置、銷售週期、延遲、內部和外部業務因素等。 |
 | 訓練 | 訓練已設定的AI/ML模型以學習最適合輸入資料的情況，從而提供最準確的結果。 |
-| 最佳化 | 根據模型預測取得自動化最佳化預算分配。<br/>使用直覺式UI，按幾下滑鼠，即可開發和比較多個預算案例。 |
+| 最佳化 | 根據模型預測取得自動化最佳化預算分配。<br/>使用直覺式UI，按幾下即可開發和比較多個預算案例。 |
 
 {style="table-layout:auto"}
 
@@ -155,7 +170,7 @@ Successful implementation of this use can have the following impact:
 | 步驟 | 詳細資料 |
 |---|---|
 | 模型 | 設定並訓練AI/ML模型，以獲得一致的MTA接觸點分數和MMM彙總結果。 |
-| 分析 | 將累加的接觸點分數匯出至Customer Journey Analytics或外部BI工具。<br/>使用接觸點分數執行精細分析並建置進階儀表板。 |
+| 分析 | 將增量接觸點分數匯出至Customer Journey Analytics或外部BI工具。<br/>使用接觸點分數執行精細分析並建置進階儀表板。 |
 | 動作 | 使用Real-Time Customer Data Platform建立並啟用排名在前的消費者區段的相似專案。<br/>依客戶區段開發資料導向行銷策略，以供未來的行銷活動使用。 |
 
 {style="table-layout:auto"}

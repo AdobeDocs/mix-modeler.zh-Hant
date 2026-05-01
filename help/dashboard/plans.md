@@ -3,9 +3,22 @@ title: 計畫績效
 description: 瞭解如何在Mix Modeler中使用效能來規劃概觀。
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
-source-git-commit: 89def3d6f5a1415d8f7a91b05d68d70ca881bdf4
+TQID: https://experienceleague.adobe.com/iRFbGXoCx5jzg6ATId2tNLTfyigoTzD4JQIqlPU5isU
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+subfeature_v2:
+  - id: d7b067e6-4f39-41e9-a081-7650346a84cd
+  - id: b2520ae7-8f6c-4952-935e-aacc2c10256f
+  - id: e6c284e0-b6e6-4f82-bf96-e96bb5157b90
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+autotag-review: '2026-05-01T09:20:18.412Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: 537
 ht-degree: 0%
 
 ---
@@ -14,9 +27,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Mix Modeler **[!UICONTROL Performance to plan]**&#x200B;首頁[!BADGE &#x200B; &#x200B;]{type=Informative}中的![&#x200B; &#x200B;](/help/assets/icons/Home.svg)Beta **[!UICONTROL Overview]**&#x200B;索引標籤是測試版功能，其功能可能會有所變更。 此功能僅供有限數量的客戶使用。
+>Mix Modeler ![首頁](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;中的&#x200B;**[!UICONTROL Performance to plan]** [!BADGE Beta]{type=Informative}索引標籤是測試版功能，其功能可能會有所變更。 此功能僅供有限數量的客戶使用。
 
-Mix Modeler **[!UICONTROL Plans]**&#x200B;首頁[!BADGE &#x200B; &#x200B;]{type=Informative}中的![&#x200B; &#x200B;](/help/assets/icons/Home.svg)Beta **[!UICONTROL Overview]**&#x200B;索引標籤提供追蹤儀表板，可監視行銷針對計畫的執行成效。 您可以透過狀態卡和視覺效果追蹤實際績效與計畫績效。
+Mix Modeler ![首頁](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;中的&#x200B;**[!UICONTROL Plans]** [!BADGE Beta]{type=Informative}索引標籤提供追蹤儀表板，可監視行銷針對計畫的執行成效。 您可以透過狀態卡和視覺效果追蹤實際績效與計畫績效。
 
 儀表板可協助您識別差距、發現風險或機會，並及時調整您的計畫和預算。
 
@@ -36,12 +49,12 @@ Mix Modeler **[!UICONTROL Plans]**&#x200B;首頁[!BADGE &#x200B; &#x200B;]{type=
    * [KPI](#kpi)
 
 * [視覺效果](#visualizations)：
-   * [*量度*](#metric-actual-vs-planned)
-   * [*量度*](#metric-actual-vs-planned-by-granularity)
-   * [Channel &#x200B;](#channel-metric-by-granularity)
-   * [*量度*](#metric-vs-metric-by-channel)
-   * [*量度*](#metric-by-granularity)
-   * [*量度*](#metric-by-channel)
+   * [*量度*：實際與計畫](#metric-actual-vs-planned)
+   * [*量度*：實際與計畫的&#x200B;*粒度*](#metric-actual-vs-planned-by-granularity)
+   * [管道&#x200B;*量度* x *粒度*](#channel-metric-by-granularity)
+   * [*量度*&#x200B;與&#x200B;*量度*&#x200B;的比較（依管道）](#metric-vs-metric-by-channel)
+   * [*量度* x *粒度*](#metric-by-granularity)
+   * [*量度* （依管道）](#metric-by-channel)
 
 ## KPI狀態卡
 
@@ -123,7 +136,7 @@ Mix Modeler **[!UICONTROL Plans]**&#x200B;首頁[!BADGE &#x200B; &#x200B;]{type=
 
       * 對於以ROI為基礎的計畫，選項包括： [!UICONTROL Conversions]、[!UICONTROL CPA]、[!UICONTROL Revenue]、[!UICONTROL ROI]、[!UICONTROL Spend]和[!UICONTROL Volume]。
       * 對於以CPA為基礎的計畫，選項為： [!UICONTROL Conversions]、[!UICONTROL CPA]、[!UICONTROL Spend]和[!UICONTROL Volume]。
-   * **[!UICONTROL Granularity]**：從&#x200B;**[!UICONTROL date ranges]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL week]**&#x200B;或&#x200B;**[!UICONTROL Granularity]**。
+   * **[!UICONTROL Granularity]**：從&#x200B;**[!UICONTROL Granularity]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL date ranges]**&#x200B;或&#x200B;**[!UICONTROL week]**。
 
    您在&#x200B;**[!UICONTROL Preview]**&#x200B;中看到變更與&#x200B;**[!UICONTROL Current]**&#x200B;視覺效果有何不同。
 

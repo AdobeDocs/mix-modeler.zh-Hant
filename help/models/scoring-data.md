@@ -3,10 +3,23 @@ title: 使用評分資料
 description: 瞭解如何在Mix Modeler中儲存模型的評分資料。
 feature: Models
 exl-id: 2f2c3d20-7b14-41cc-a11a-03e8ad9e5d7a
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+TQID: https://experienceleague.adobe.com/6eMg5Azsb-rdyG5g-hIkiyJrVbgOOul5V-0TvxzCTyo
+autotag-review: '2026-05-01T08:58:54.964Z'
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+subfeature_v2:
+  - id: cb40363e-1205-4921-971c-9ee6bdb18329
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 6%
+source-wordcount: 684
+ht-degree: 11%
 
 ---
 
@@ -19,7 +32,7 @@ ht-degree: 6%
 
 ## 彙總評分資料結構描述
 
-評分資料的結構描述名稱為`AMM AI Schema - <name of model> <id>`。 例如： `AMM AI Schema - Model for Online Conversion 10120`。
+評分資料的結構描述名稱為`AMM AI Schema - <name of model> <id>`。 例如: `AMM AI Schema - Model for Online Conversion 10120`。
 
 保留模型評分資料的資料集命名為`AMM AI Aggregrate Scores - <id>`，例如`AMM AI Aggregrate Scores - 10120`。
 
@@ -29,14 +42,14 @@ ht-degree: 6%
 |---|---|---|
 | `campaignGroup` | 字串 | 行銷活動群組的名稱。 |
 | `campaignName` | 字串 | 行銷活動的名稱。 |
-| `contribution` | 兩次 | 歸因於指定接觸點之此轉換的貢獻。 |
+| `contribution` | 雙精度 | 歸因於指定接觸點之此轉換的貢獻。 |
 | `conversionEndDate` | 日期 | 轉換期間的結束日期。 |
 | `conversionName` | 字串 | 在轉換定義設定步驟中建立的轉換名稱。 |
 | `conversionStartDate` | 日期 | 轉換視窗的開始日期。 |
 | `geo` | 字串 | 轉換發生的地理位置。 |
 | `mediaChannel` | 字串 | 在接觸點設定步驟中使用的管道名稱。 |
 | `mediaSubChannel` | 字串 | 子管道的名稱。 |
-| `revenue` | 兩次 | 歸因於指定接觸點之此轉換的收入。 |
+| `revenue` | 雙精度 | 歸因於指定接觸點之此轉換的收入。 |
 | `scoreCreatedTime` | 日期時間 | 建立此分數記錄時的時間戳記。 |
 | `touchpointEndDate` | 日期 | 接觸點視窗的結束日期。 |
 | `touchpointName` | 字串 | 在接觸點定義設定步驟中建立的接觸點名稱。 目前，接觸點定義於媒體頻道上。 |
@@ -45,7 +58,7 @@ ht-degree: 6%
 
 ## 事件評分資料結構
 
-評分資料的結構描述名稱為`Attribution AI Scores - <name of model> <id> - Schema`。 例如： `Attribution AI Scores - Model for Online Conversion 10120 - Schema`。
+評分資料的結構描述名稱為`Attribution AI Scores - <name of model> <id> - Schema`。 例如: `Attribution AI Scores - Model for Online Conversion 10120 - Schema`。
 
 保留模型評分資料的資料集命名為`Attribution AI Scores - <name of model> <id>`，例如`Attribution AI Scores - Model for Online Conversion 10120 `。
 
@@ -64,7 +77,7 @@ ht-degree: 6%
 |      `eventType` | 字串 | 此時間序列記錄的主要事件型別。<br> **範例：** `Order` |
 |      `geo` | 字串 | 轉換傳遞的地理位置`placeContext.geo.countryCode`。<br> **範例：** `US` |
 |      `path` | 字串 | |
-|      `priceTotal` | 兩次 | 透過轉換<br>取得的收入 **範例：** `99.9` |
+|      `priceTotal` | 雙精度 | 透過轉換<br>取得的收入 **範例：** `99.9` |
 |      `product` | 字串 | 產品本身的XDM識別碼。<br> **範例：** `RX 1080 ti` |
 |      `productType` | 字串 | 針對此產品檢視向使用者展示的產品顯示名稱。<br> **範例：** `Gpus` |
 |      `quantity` | 整數 | 轉換期間購買的數量。<br> **範例：** `1` |
@@ -79,13 +92,13 @@ ht-degree: 6%
 |           `namespace` | 字串 | 包含用來建置模型的使用者詳細資訊，例如`id`和`namespace`。 |
 | `touchpointsDetail` | 物件[] | 導致轉換的接觸點詳細資訊清單，按接觸點出現次數或時間戳記排序。 |
 |      `scores` | 物件 | 以此分數表示的接觸點對此轉換的貢獻。 |
-|           `algorithmicInfluenced` | 兩次 | 受影響的分數是每個行銷接觸點負責的轉換比例。 |
-|           `algorithmicSourced` | 兩次 | 增量分數是行銷接觸點直接造成的邊緣影響量。 |
-|           `decayUnits` | 兩次 | 規則型歸因分數，即離轉換較近的接觸點比離轉換較遠的接觸點獲得更多的評分。 |
-|           `firstTouch` | 兩次 | 規則型歸因分數，可將所有點數指派給轉換路徑上的初始接觸點。 |
-|           `lastTouch` | 兩次 | 規則型歸因分數，可將所有點數指派給最接近轉換的接觸點。 |
-|           `linear` | 兩次 | 規則型歸因分數，可將相等點數指派給轉換路徑上的每個接觸點。 |
-|           `uShape` | 兩次 | 規則型歸因分數，可將40%的評分指派給第一個接觸點，並將40%的評分指派給最後一個接觸點。 其他接觸點則平分剩餘的20%。 |
+|           `algorithmicInfluenced` | 雙精度 | 受影響的分數是每個行銷接觸點負責的轉換比例。 |
+|           `algorithmicSourced` | 雙精度 | 增量分數是行銷接觸點直接造成的邊緣影響量。 |
+|           `decayUnits` | 雙精度 | 規則型歸因分數，即離轉換較近的接觸點比離轉換較遠的接觸點獲得更多的評分。 |
+|           `firstTouch` | 雙精度 | 規則型歸因分數，可將所有點數指派給轉換路徑上的初始接觸點。 |
+|           `lastTouch` | 雙精度 | 規則型歸因分數，可將所有點數指派給最接近轉換的接觸點。 |
+|           `linear` | 雙精度 | 規則型歸因分數，可將相等點數指派給轉換路徑上的每個接觸點。 |
+|           `uShape` | 雙精度 | 規則型歸因分數，可將40%的評分指派給第一個接觸點，並將40%的評分指派給最後一個接觸點。 其他接觸點則平分剩餘的20%。 |
 |      `touchPoint` | 物件 | 接觸點中繼資料。 |
 |           `passThrough` | 物件 | |
 |                `eventType` | 字串 | |

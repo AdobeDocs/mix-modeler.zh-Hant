@@ -3,10 +3,19 @@ title: 結構描述
 description: 瞭解如何管理將資料擷取至Mix Modeler所需的結構描述。
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: 7524c2ffc0408b04e6bef5bd5deedc1feea0b682
+TQID: https://experienceleague.adobe.com/E41pnyBetoLPOOulNmKh033myMvfF4bV9A2Xd3FXqcs
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+autotag-review: '2026-05-01T08:56:54.552Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 4%
+source-wordcount: 613
+ht-degree: 6%
 
 ---
 
@@ -16,7 +25,7 @@ ht-degree: 4%
 
 1. 前往Mix Modeler介面。
 
-1. 選取![底下的](/help/assets/icons/Schemas.svg)結構描述&#x200B;**[!UICONTROL Schemas]** **[!UICONTROL SETUP]**。
+1. 選取&#x200B;**[!UICONTROL SETUP]**&#x200B;底下的![結構描述](/help/assets/icons/Schemas.svg) **[!UICONTROL Schemas]**。
 
 如需詳細資訊，請參閱[結構描述UI總覽](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=zh-Hant)。
 
@@ -44,7 +53,7 @@ ht-degree: 4%
 
 - 競爭者索引資料
 
-  | 時間戳記 | date_type | 因數 | 值 |
+  | 時間戳記 | date_type | 因數 | value |
   |---|---|---|--:|
   | 2020-11-28T00:00:00.000Z | 周 | 競爭者索引 | 289.8 |
   | 2020-12-05T00:00:00.000Z | 周 | 競爭者索引 | 291.2 |
@@ -53,7 +62,7 @@ ht-degree: 4%
 
 - 國定假日資料
 
-  | 時間戳記 | date_type | 因數 | 值 |
+  | 時間戳記 | date_type | 因數 | value |
   |---|---|---|--:|
   | 2020-11-28T00:00:00.000Z | 周 | all_holidays_flag | 0.0 |
   | 2020-12-05T00:00:00.000Z | 周 | all_holidays_flag | 0.0 |
@@ -63,7 +72,7 @@ ht-degree: 4%
   | ... | ... | ... | ... |
 
 
-如需使用&#x200B;**[!DNL LumaPaidMarketingSchema]**&#x200B;做為基底類別之&#x200B;**[!DNL XDM Summary Metrics]**&#x200B;的更完整範例，請參閱下文。 結構描述使用量度(**[!DNL AMMMetrics]**)、維度(**[!DNL AMMDimensions]**)和其他客戶特定資訊(**[!DNL CustomerSpecific]**)的專用欄位群組（以顏色註解）。
+如需使用&#x200B;**[!DNL XDM Summary Metrics]**&#x200B;做為基底類別之&#x200B;**[!DNL LumaPaidMarketingSchema]**&#x200B;的更完整範例，請參閱下文。 結構描述使用量度(**[!DNL AMMMetrics]**)、維度(**[!DNL AMMDimensions]**)和其他客戶特定資訊(**[!DNL CustomerSpecific]**)的專用欄位群組（以顏色註解）。
 
 ![摘要結構描述](/help/assets/summary-schema.png)
 
@@ -76,7 +85,7 @@ ht-degree: 4%
 | 欄位顯示名稱 | 欄位名稱 | 欄位型別 | 資料類型 | 必要 | 說明 |
 |---|---|---|---|:-:|---|
 | 因子名稱 | factorName | 維度 | 字串 | ![核取記號](/help/assets/icons/Checkmark.svg) | 因子的名稱 |
-| 因子值 | factor值 | 量度 | 兩次 | ![核取記號](/help/assets/icons/Checkmark.svg) | 因子的值 |
+| 因子值 | factor值 | 量度 | 雙精度 | ![核取記號](/help/assets/icons/Checkmark.svg) | 因子的值 |
 | 因子型別 | factorType | 維度 | 字串（列舉） | | 因子的型別。<br/>可能的值為： <ul><li>內部（內部因數）</li><li>外部（外部因數）</li></ul> |
 | 值型別 | valueType | 維度 | 字串（列舉） | | 可能的值包括：<ul><li>實際（實際值）</li><li>預測（預測值）</li></ul>沒有值時，預設值為Actual。 |
 | 詳細程度 | 詳細程度 | 維度 | 字串（列舉） | | 可能的值包括：<ul><li>每日</li><li>每週</li><li>每月</li></ul> |
@@ -92,10 +101,10 @@ ht-degree: 4%
 
 - 字串
 - 整數
-- 兩次
+- 雙精度
 - 布林值
-- 長
-- 短
+- 長整數
+- 短整數
 - 位元組
 - 日期
 - 日期時間

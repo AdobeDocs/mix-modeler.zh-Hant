@@ -3,10 +3,25 @@ title: 擷取資料概觀
 description: 瞭解如何將資料擷取至Mix Modeler。
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+TQID: https://experienceleague.adobe.com/XPr8Av7skzHBYoU6WtNw8PtHFrPH-MokICrLwoB2-J0
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+  - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+subfeature_v2:
+  - id: ad7101f7-ae92-401b-a25a-d3060d42989d
+  - id: d1167c89-f64a-42ca-ac95-1d91b7790df2
+  - id: ee1bf083-e090-4def-936b-c111d29f42d0
+  - id: a4dc3e7d-bd07-4ac8-8e49-ff2e8fecf1e7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+autotag-review: '2026-05-01T09:11:34.506Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 7%
+source-wordcount: 584
+ht-degree: 14%
 
 ---
 
@@ -20,7 +35,7 @@ Mix Modeler可處理來自不同圍牆花園的事件層級資料、彙總或摘
 
 * 使用Adobe Analytics來源聯結器收集的資料。 並轉換為符合Adobe Analytics結構描述預設或自訂版本的資料集。
 * 使用Experience Platform Web SDK、Mobile SDK或Edge Network Server API收集的資料，用於收集網站、行動或任何其他型別裝置上的客戶互動。
-* 從封閉花園(如Facebook、YouTube)、流量來源或離線廣告資料彙總或摘要資料。
+* 從封閉花園（如Facebook、YouTube）、流量來源或離線廣告資料彙總或摘要資料。
 * 包含對模型建立有用的內部或外部因素的非行銷彙總或摘要資料。
 
 您可以使用Experience Platform支援的任何一種機制，從其他來源擷取體驗事件層級、彙總行銷成果資料和資料。 例如Experience Platform SDK、API、來源聯結器，以及串流和批次擷取。 若要進一步瞭解如何在Experience Platform擷取資料以用於Adobe Mix Modeler，請參閱[資料擷取概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ingestion/home)。
@@ -41,12 +56,12 @@ Mix Modeler可處理來自不同圍牆花園的事件層級資料、彙總或摘
 
 +++ 彙總行銷成果資料
 
-| 地理 | 日期 | 日期型別 | Channel | Campaign | 按一下 | 盈餘 | 參與度 | 曝光 | 開啟 | 已擁有 | 已傳送 | 支出 |
+| 地理 | 日期 | 日期型別 | 頻道 | 促銷活動 | 按一下 | 盈餘 | 參與度 | 曝光 | 開啟 | 已擁有 | 已傳送 | 支出 |
 |---|:--|---|:---:|---|--:|---|--:|---|---|---|--:|--:|
-| AMER | 2021-10-31 | 天 | 電子郵件 | | 12752 | | | | | | 1132945 | |
+| AMER | 2021-10-31 | 天 | EMAIL | | 12752 | | | | | | 1132945 | |
 | AMER | 2021-10-31 | 天 | FB | | 148844 | | | | | | | 42111 |
 | AMER | 2021-10-31 | 天 | YT | | | | 2314452 | | | | | 10540 |
-| 日文 | 2021-10-21 | 天 | 電子郵件 | | 21089 | | | | | | 3283626 | |
+| 日文 | 2021-10-21 | 天 | EMAIL | | 21089 | | | | | | 3283626 | |
 | 日文 | 2021-10-21 | 天 | 社交 | | | | 621 | | | | | 74512 |
 
 {style="table-layout:auto"}
@@ -57,8 +72,8 @@ Mix Modeler可處理來自不同圍牆花園的事件層級資料、彙總或摘
 
 | 地理 | 日期 | 日期型別 | 產品 | 售出單位 | 收入 |
 |---|:---|:---:|---|--:|--:|
-| EMEA | 2021-09-13 | 天 | 創造者經濟 | 603 | 36537.68 |
-| EMEA | 2021-09-13 | 天 | Metaverse | 55 | 21704.37 |
+| 歐洲、中東和非洲地區 | 2021-09-13 | 天 | 創造者經濟 | 603 | 36537.68 |
+| 歐洲、中東和非洲地區 | 2021-09-13 | 天 | Metaverse | 55 | 21704.37 |
 | 日文 | 2022-05-30 | 天 | Pro Imaging | 487 | 64469.60 |
 | 日文 | 2022-05-30 | 天 | Document Cloud | 642 | 100509.07 |
 
@@ -68,7 +83,7 @@ Mix Modeler可處理來自不同圍牆花園的事件層級資料、彙總或摘
 
 +++ 外部因素資料
 
-| 資料 | 日期型別 | 因數 | 價值 |
+| 資料 | 日期型別 | 因數 | 值 |
 |---|:---:|:---:|:---|
 | 2020-08-02 | 周 | SPX | 3325.866 |
 | 2020-08-09 | 周 | SPX | 3364.158 |
