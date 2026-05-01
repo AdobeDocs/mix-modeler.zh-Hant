@@ -7,9 +7,13 @@ hide: true
 exl-id: 5f832a79-7a0c-43cd-87cf-a5ceceb79032
 TQID: https://experienceleague.adobe.com/BTd4-OINWubpSgFga7QE-ASje73fnySf1nIxTOivlVQ
 autotag-review: '2026-05-01T09:04:46.084Z'
-product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2: id: fe2edbb1-46f9-4347-a27c-577cab3640cb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
 source-wordcount: 327
@@ -23,7 +27,7 @@ ht-degree: 1%
 
 | 標記 | 資料視圖 | 擁有者 | 其他篩選器 |
 |---|---|---|---|
-| 您可以![搜尋](/help/assets/icons/Search.svg) *搜尋標籤*&#x200B;來限制標籤清單。 <br/><br/>當您選取一或多個標籤時，清單會自動限製為顯示其他可能的剩餘標籤。 <br/><br/> **[!UICONTROL Tags]**&#x200B;中的數字&#x200B;**⃣**&#x200B;是指可用標籤的數目。 <br/><br/> **[!UICONTROL *標籤&#x200B;*]**中的數字⃣參考使用spefici標籤標籤的篩選數目。 | 您可以![搜尋](/help/assets/icons/Search.svg) *搜尋資料檢視*&#x200B;以限制資料檢視的清單。 <br/>您可以選取多個資料檢視來篩選篩選篩選清單。 <br/><br/> **[!UICONTROL Tags]**&#x200B;中的數字&#x200B;**⃣**&#x200B;是指可用標籤的數目。 <br/><br/> **[!UICONTROL *標籤&#x200B;*]**中的數字⃣參考使用spefici標籤標籤的篩選數目。 | 您可以![搜尋](/help/assets/icons/Search.svg) *搜尋資料檢視*&#x200B;以限制資料檢視的清單。 <br/>您可以選取多個資料檢視來篩選篩選篩選清單。 <br/><br/> **[!UICONTROL Tags]**&#x200B;中的數字&#x200B;**⃣**&#x200B;是指可用標籤的數目。 <br/><br/> **[!UICONTROL *標籤&#x200B;*]**中的數字⃣參考使用spefici標籤標籤的篩選數目。 | 您可以![搜尋](/help/assets/icons/Search.svg) *搜尋資料檢視*&#x200B;以限制資料檢視的清單。 <br/>您可以選取多個資料檢視來篩選篩選篩選清單。 <br/><br/> **[!UICONTROL Tags]**&#x200B;中的數字&#x200B;**⃣**&#x200B;是指可用標籤的數目。 <br/><br/> **[!UICONTROL *標籤&#x200B;*]**中的數字⃣參考使用spefici標籤標籤的篩選數目。🅐 🅔 |
+| 您可以![搜尋](/help/assets/icons/Search.svg) *搜尋標籤*&#x200B;來限制標籤清單。 <br/><br/>當您選取一或多個標籤時，清單會自動限製為顯示其他可能的剩餘標籤。 <br/><br/> **[!UICONTROL Tags]**&#x200B;中的數字&#x200B;**⃣**&#x200B;是指可用標籤的數目。 <br/><br/> **[!UICONTROL *標籤&#x200B;*]**&#x200B;中的數字⃣參考使用spefici標籤標籤的篩選數目。 | 您可以![搜尋](/help/assets/icons/Search.svg) *搜尋資料檢視*&#x200B;以限制資料檢視的清單。 <br/>您可以選取多個資料檢視來篩選篩選篩選清單。 <br/><br/> **[!UICONTROL Tags]**&#x200B;中的數字&#x200B;**⃣**&#x200B;是指可用標籤的數目。 <br/><br/> **[!UICONTROL *標籤&#x200B;*]**&#x200B;中的數字⃣參考使用spefici標籤標籤的篩選數目。 | 您可以![搜尋](/help/assets/icons/Search.svg) *搜尋資料檢視*&#x200B;以限制資料檢視的清單。 <br/>您可以選取多個資料檢視來篩選篩選篩選清單。 <br/><br/> **[!UICONTROL Tags]**&#x200B;中的數字&#x200B;**⃣**&#x200B;是指可用標籤的數目。 <br/><br/> **[!UICONTROL *標籤&#x200B;*]**&#x200B;中的數字⃣參考使用spefici標籤標籤的篩選數目。 | 您可以![搜尋](/help/assets/icons/Search.svg) *搜尋資料檢視*&#x200B;以限制資料檢視的清單。 <br/>您可以選取多個資料檢視來篩選篩選篩選清單。 <br/><br/> **[!UICONTROL Tags]**&#x200B;中的數字&#x200B;**⃣**&#x200B;是指可用標籤的數目。 <br/><br/> **[!UICONTROL *標籤&#x200B;*]**&#x200B;中的數字⃣參考使用spefici標籤標籤的篩選數目。🅐 🅔 |
 
 {style="table-layout:fixed"}
 

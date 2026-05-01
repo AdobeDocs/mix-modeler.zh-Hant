@@ -5,11 +5,19 @@ feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
 TQID: https://experienceleague.adobe.com/0cBg65pu0-gkk1AlWOvQHxn5RUaIRkOs1Yz7FPppcsk
 autotag-review: '2026-05-01T09:05:53.776Z'
-product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2: id: d822825b-9821-40d5-9b0d-42a9e3f317c5
-subfeature_v2: id: d7b067e6-4f39-41e9-a081-7650346a84cdid: b2520ae7-8f6c-4952-935e-aacc2c10256fid: e6c284e0-b6e6-4f82-bf96-e96bb5157b90
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+subfeature_v2:
+  - id: d7b067e6-4f39-41e9-a081-7650346a84cd
+  - id: b2520ae7-8f6c-4952-935e-aacc2c10256f
+  - id: e6c284e0-b6e6-4f82-bf96-e96bb5157b90
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
 source-wordcount: 679
@@ -92,7 +100,7 @@ Mix Modeler中的計畫可讓您依業務單位和管道分配預算。 計畫�
 - 為計畫選取![更多](/help/assets/icons/More.svg)。 從內容功能表中選取&#x200B;**[!UICONTROL Duplicate]**。
 - 或者，在表格![SelectBox](/help/assets/icons/SelectBox.svg)中選取計畫，然後從藍色動作列選取![複製](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]**。
 
-已建立新計畫，其名稱由附加了&#x200B;**[!UICONTROL (Copy)](_n_)**&#x200B;的原始計畫名稱所組成。 系統會自動將您重新導向至[計畫建立](build.md)，以提供已複製計畫的更新詳細資料。
+已建立新計畫，其名稱由附加了&#x200B;**[!UICONTROL (Copy)] (_n_)**&#x200B;的原始計畫名稱所組成。 系統會自動將您重新導向至[計畫建立](build.md)，以提供已複製計畫的更新詳細資料。
 
 - 來自原始計畫的明細（如說明、預算等）會複製過來。
 - 原始計畫的預算限制會複製到新建立的計畫。
@@ -123,6 +131,6 @@ Mix Modeler中的計畫可讓您依業務單位和管道分配預算。 計畫�
 
 1. 選取多個計畫。
 1. 從藍色動作列中，選取![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;以刪除計畫。
-1. 在&#x200B;**[!UICONTROL Delete *x *計畫]**確認對話方塊中選取&#x200B;**[!UICONTROL Delete]**以刪除計畫。 選取&#x200B;**[!UICONTROL Cancel]**以取消。
+1. 在&#x200B;**[!UICONTROL Delete *x *計畫]**&#x200B;確認對話方塊中選取&#x200B;**[!UICONTROL Delete]**&#x200B;以刪除計畫。 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消。
 
 

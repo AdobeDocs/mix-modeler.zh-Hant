@@ -4,11 +4,21 @@ description: 瞭解如何在Mix Modeler中協調資料。
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
 TQID: https://experienceleague.adobe.com/9ki9Q-ZAmwmiyYFt-EAaa1ybylaoMauTvoxQ9ux1IEI
-product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2: id: a567f0f7-0057-4079-8ded-5b24cc25af15
-subfeature_v2: id: bc2f5225-03d4-4bc8-89ec-99d78c30e6ddid: d4b8ba18-64c1-4413-be54-74405ec7f558id: ba4fd72c-282e-4fb6-abc1-08e6fb87b2adid: b4655f7e-1a6e-4fa3-a7c5-3c34d4786e49id: b2d4aeb9-eabe-49f6-8edb-bb2862d5980b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+subfeature_v2:
+  - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
+  - id: d4b8ba18-64c1-4413-be54-74405ec7f558
+  - id: ba4fd72c-282e-4fb6-abc1-08e6fb87b2ad
+  - id: b4655f7e-1a6e-4fa3-a7c5-3c34d4786e49
+  - id: b2d4aeb9-eabe-49f6-8edb-bb2862d5980b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
 autotag-review: '2026-05-01T09:10:10.340Z'
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
@@ -166,7 +176,7 @@ Mix Modeler中的因子功能使用協調的因子工作流程。 此工作流�
 
    1. 選取&#x200B;**[!UICONTROL Submit]**&#x200B;以提交您的欄設定變更。 選取&#x200B;**[!UICONTROL Close]**&#x200B;以取消您所做的任何變更。
 
-1. 如果有更多頁面可供使用，請使用&#x200B;_x _]**的**[!UICONTROL Page _x_&#x200B;上的![向左箭頭](/help/assets/icons/ChevronLeft.svg)或![向右箭頭](/help/assets/icons/ChevronRight.svg)在頁面之間移動。
+1. 如果有更多頁面可供使用，請使用&#x200B;_x _&#x200B;**的**&#x200B;Page _x_&#x200B;上的![向左箭頭](/help/assets/icons/ChevronLeft.svg)或![向右箭頭](/help/assets/icons/ChevronRight.svg)在頁面之間移動。
 
 1. 您可以選擇下載協調的資料。
 
