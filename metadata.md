@@ -3,6 +3,7 @@ cloud: Experience Cloud
 solution: Mix Modeler
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+usetq: true
 product: experience cloud
 landing-page-name: mix-modeler
 landing-page-breadcrumb-title: Mix Modeler
@@ -12,10 +13,10 @@ git-repo: https://github.com/AdobeDocs/mix-modeler.zh-Hant
 index: true
 feature-set: Mix Modeler
 role: User, Admin
-source-git-commit: 3e1c566d434752c491cbba6fc67d189e4683f59a
+source-git-commit: dc1e613f9d70a7230b03abe7af1a497cc9587b0e
 workflow-type: tm+mt
 source-wordcount: 69
-ht-degree: 75%
+ht-degree: 92%
 
 ---
 
