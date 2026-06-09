@@ -21,7 +21,7 @@ ht-degree: 0%
 # 深度剖析
 
 
-Adobe Mix Modeler是一個統一的AI/ML支援測量平台，結合多重接觸歸因(MTA)和行銷組合模型(MMM)，提供準確、可擴充且符合未來需求的行銷見解。 本文詳細分析Mix Modeler背後的方法、設計選擇和技術創新。 並且是以[此2025年峰會研討會](https://business.adobe.com/summit/2025/sessions/marketing-mix-modeling-at-adobe-learn-to-predict-s602.html){target="_blank"}為基礎，其中詳細劃分了Mix Modeler背後的方法、設計選擇和技術創新。
+Adobe Mix Modeler是一個統一的AI/ML支援測量平台，結合多重接觸歸因(MTA)和行銷組合模型(MMM)，提供準確、可擴充且符合未來需求的行銷見解。 本文詳細分析Mix Modeler背後的方法、設計選擇和技術創新。 並且是以[此2025年峰會研討會](https://business.adobe.com/tw/summit/2025/sessions/marketing-mix-modeling-at-adobe-learn-to-predict-s602.html){target="_blank"}為基礎，其中詳細劃分了Mix Modeler背後的方法、設計選擇和技術創新。
 
 隨著行銷複雜性增加，傳統的測量方式已不盡如人意。 資料零散、不斷演變的隱私許可權制，以及速度和嚴格性的需求，都使得我們有必要重新思考如何評估行銷績效。 Adobe的回應是Mix Modeler：一種整合系統，使用機器學習來綜合多個資料來源並將範例化成有凝聚力的策略。
 
