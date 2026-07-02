@@ -5,21 +5,14 @@ feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
 TQID: https://experienceleague.adobe.com/Ml1WZzjI8bruwu0xV5r6Y9DY34aZad-nMhUMoIObIow
 autotag-review: '2026-05-01T08:59:31.397Z'
-product_v2:
-  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2:
-  - id: f40f1683-8300-4054-aab8-77da06ad63ff
-subfeature_v2:
-  - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: f40f1683-8300-4054-aab8-77da06ad63ff
+subfeature_v2: id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: 2896
+source-wordcount: 2902
 ht-degree: 11%
 
 ---
@@ -379,8 +372,7 @@ Mix Modeler多點接觸歸因精細事件分數與整體[!DNL Mix Modeler]分數
 
   ![模型評定](../assets/model-assessment.png)
 
-   * 您可以根據實際與預測或剩餘轉換劃分的圖表。
-若要劃分視覺效果，請從&#x200B;**[!UICONTROL Breakdown]**&#x200B;清單中選取下列其中一個選項。
+   * 您可以根據實際與預測或剩餘轉換劃分的圖表。若要劃分視覺效果，請從&#x200B;**[!UICONTROL Breakdown]**&#x200B;清單中選取下列其中一個選項。
 
       * **[!UICONTROL Actual vs Predicted]**：此選項會比較實際值與模型預測。 理想情況下，預測值應該與實際值緊密一致，雖然可能會出現一些偏差。 大型或系統的偏差或模式可能表示缺少的關係和資料或潛在的偏差。
 
