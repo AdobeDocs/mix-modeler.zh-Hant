@@ -17,24 +17,33 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: '2026-05-01T09:06:55.437Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+source-git-commit: 1e6444e672e85d9f3f666bc865d020fb67c45b09
 workflow-type: tm+mt
-source-wordcount: 435
-ht-degree: 5%
+source-wordcount: 524
+ht-degree: 6%
 
 ---
 
 # 目前的Mix Modeler發行說明
 
-**上次更新日期**：2026年2月26日。
+**上次更新日期**：2026年8月19日。
 
 以下發行說明涵蓋最新版本的Mix Modeler。 Mix Modeler版本會在持續傳遞模式上運作，允許大約每月發行。 因此，這些發行說明會相應更新，因此請定期檢視。
+
+## 2026年8月
+
+| 功能 | 說明 | [轉出開始](#release-strategy) | [一般可用性](#release-strategy) |
+|---|---|---|---|
+| **篩選資料集規則** | 在協調的資料集設定中，您可以[篩選來源、詳細程度和本週開始的資料集規則](/help/harmonize-data/dataset-rules.md#manage-dataset-rules)。 | 2026年8月19日 | 2026年8月19日 |
+| **付費媒體頻道焦點** | 您可以在模型深入分析中選取專注於[付費媒體頻道貢獻](/help/models/insights.md#contribution-by-channel)。 | 2026年8月19日 | 2026年8月19日 |
+| **行銷效能摘要設定** | 您可以[選取量度及量度顯示方式](/help/models/insights.md#marketing-performance-summary)，以取得模型深入分析中收入型模型的行銷績效摘要。 | 2026年8月19日 | 2026年8月19日 |
+
 
 ## 2026年3月
 
 | 功能 | 說明 | [轉出開始](#release-strategy) | [一般可用性](#release-strategy) |
 |---|---|---|---|
-| **管道adstock** | 您可以透過[管道Adstock](/help/models/build.md#channel-adstock)，將網域專業知識、實驗結果或先前的管道分析直接合併到模型進階組態中。 並在模型的管道分析中顯示[管道Adstock深入分析](/help/models/insights.md#channel-adstock)。 | 2026年3月30日 | 2026年3月30日 |
+| **管道adstock** | 您可以透過[管道Adstock](/help/models/build.md#channel-adstock)，將網域專業知識、實驗結果或先前的管道分析直接合併到模型進階組態中。 並在模型的管道分析中顯示[管道Adstock深入分析](/help/models/insights.md#channel-adstock)。 | 2026 年 3 月 30 日 | 2026 年 3 月 30 日 |
 
 ## 2026 年 2 月
 
