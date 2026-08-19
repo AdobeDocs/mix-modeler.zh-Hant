@@ -5,21 +5,14 @@ feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
 TQID: https://experienceleague.adobe.com/Ml1WZzjI8bruwu0xV5r6Y9DY34aZad-nMhUMoIObIow
 autotag-review: '2026-05-01T08:59:31.397Z'
-product_v2:
-  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2:
-  - id: f40f1683-8300-4054-aab8-77da06ad63ff
-subfeature_v2:
-  - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: f40f1683-8300-4054-aab8-77da06ad63ff
+subfeature_v2: id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 0e1bd1a2e96e96b98be502b9c8413d63816efa3d
 workflow-type: tm+mt
-source-wordcount: 2902
+source-wordcount: 2957
 ht-degree: 11%
 
 ---
@@ -86,7 +79,13 @@ ht-degree: 11%
 
 ### 依據管道的貢獻
 
-顯示不同管道貢獻分佈的環形圖視覺效果。 此視覺效果透過前三個執行管道的鏡頭（不包括基底和&#x200B;*所有其他*&#x200B;類別）以增量方式展示。 視覺效果有助於支援優先順序和預算分配。
+顯示不同管道貢獻分佈的環形圖視覺效果。 此視覺效果可透過表現最佳的色版鏡頭展示遞增性。 視覺效果有助於支援優先順序和預算分配。
+
+您可以選取要在視覺效果中顯示的媒體管道：
+
+* 若要只關注付費媒體管道的貢獻，請選取&#x200B;**[!UICONTROL Paid media]**。
+* 若要檢視所有管道的貢獻，請選取&#x200B;**[!UICONTROL All media]**。
+
 
 ### 行銷績效摘要 {#marketing-performance-summary}
 
@@ -96,6 +95,11 @@ ht-degree: 11%
 >abstract="包含未定義的管道，但沒有歸因轉換。"
 
 顯示每個管道之ROI或CPA績效的水準長條圖視覺效果。 此視覺效果會強調您行銷投資的ROI / CPA。 管道會根據ROI / CPA以遞減順序排名。 視覺效果有助於識別哪些管道最有效，哪些可能需要最佳化。
+
+僅適用於收入型模型：
+
+* 若要設定視覺效果所需的&#x200B;**[!UICONTROL Metric]**，請選取&#x200B;**[!UICONTROL ROI]** （收入 — 支出） /支出)或&#x200B;**[!UICONTROL ROAS]** （收入/支出）之間。
+* 若要設定選取量度的顯示方式，請為&#x200B;**[!UICONTROL Show as]**&#x200B;選取&#x200B;**[!UICONTROL %]**&#x200B;或&#x200B;**[!UICONTROL $]**。
 
 未定義的管道會納入視覺效果中，但沒有歸因的轉換。
 
@@ -243,14 +247,14 @@ ht-degree: 11%
 支援下列歸因模型：
 
 * 根據[!DNL Mix Modeler]中選取的模型：
-   * 演演算法 — 受影響的
-   * 演演算法 — 遞增式
+  * 演演算法 — 受影響的
+  * 演演算法 — 遞增式
 * 以規則為基礎：
-   * 衰減單位
-   * 首次接觸
-   * 上次接觸
-   * 線性
-   * U形
+  * 衰減單位
+  * 首次接觸
+  * 上次接觸
+  * 線性
+  * U形
 
 請參閱[多點觸控歸因](../get-started/about.md#multi-touch-attribution)，瞭解[!DNL Mix Modeler]中的多點觸控歸因功能。
 
@@ -379,20 +383,21 @@ Mix Modeler多點接觸歸因精細事件分數與整體[!DNL Mix Modeler]分數
 
   ![模型評定](../assets/model-assessment.png)
 
-   * 您可以根據實際與預測或剩餘轉換劃分的圖表。若要劃分視覺效果，請從&#x200B;**[!UICONTROL Breakdown]**&#x200B;清單中選取下列其中一個選項。
+  * 您可以根據實際與預測或剩餘轉換劃分的圖表。
+    若要劃分視覺效果，請從**[!UICONTROL Breakdown]**&#x200B;清單中選取下列其中一個選項。
 
-      * **[!UICONTROL Actual vs Predicted]**：此選項會比較實際值與模型預測。 理想情況下，預測值應該與實際值緊密一致，雖然可能會出現一些偏差。 大型或系統的偏差或模式可能表示缺少的關係和資料或潛在的偏差。
+    * **[!UICONTROL Actual vs Predicted]**：此選項會比較實際值與模型預測。 理想情況下，預測值應該與實際值緊密一致，雖然可能會出現一些偏差。 大型或系統的偏差或模式可能表示缺少的關係和資料或潛在的偏差。
 
-      * **[!UICONTROL Residuals]**：此選項顯示實際值與預測值之間的差異。 表現良好的模型具有隨機分佈的殘餘，沒有清晰的圖案或增加分佈。 結構化的趨勢或不斷擴大的殘餘可能表示缺少的關係和資料或差異問題。
+    * **[!UICONTROL Residuals]**：此選項顯示實際值與預測值之間的差異。 表現良好的模型具有隨機分佈的殘餘，沒有清晰的圖案或增加分佈。 結構化的趨勢或不斷擴大的殘餘可能表示缺少的關係和資料或差異問題。
 
-   * 此表格顯示每個轉換量度的下列欄：
+  * 此表格顯示每個轉換量度的下列欄：
 
-      * **[!UICONTROL Actual Conversion]**
-      * **[!UICONTROL Predicted Conversion]**
-      * **[!UICONTROL Residual Conversion]**
-      * **[!UICONTROL R<sup>2</sup>]**，表示資料符合回歸模型（符合程度）的評分。
-      * **[!UICONTROL MAPE]** （平均絕對誤差百分比），這是最常用來測量預測精確度的KPI，並以實際值的百分比表示預測誤差。
-      * **[!UICONTROL RMSE]** （均方根誤差）：顯示平均誤差，根據誤差的平方加權。
+    * **[!UICONTROL Actual Conversion]**
+    * **[!UICONTROL Predicted Conversion]**
+    * **[!UICONTROL Residual Conversion]**
+    * **[!UICONTROL R<sup>2</sup>]**，表示資料符合回歸模型（符合程度）的評分。
+    * **[!UICONTROL MAPE]** （平均絕對誤差百分比），這是最常用來測量預測精確度的KPI，並以實際值的百分比表示預測誤差。
+    * **[!UICONTROL RMSE]** （均方根誤差）：顯示平均誤差，根據誤差的平方加權。
 
   若要下載包含資料表資料的CSV檔案，請選取![下載](/help/assets/icons/Download.svg)。
 
@@ -400,11 +405,11 @@ Mix Modeler多點接觸歸因精細事件分數與整體[!DNL Mix Modeler]分數
 
   ![模型訓練符合量度資料表](../assets/model-training-fit-metrics.png)
 
-   * **[!UICONTROL Training R<sup>2</sup>]**：表示模型預測所解釋的實際值中的變異比例，範圍從0到1。
-   * **[!UICONTROL Training sMAPE]** （對稱平均絕對百分比錯誤）：測量訓練資料的平均百分比錯誤。 值越低表示準確度越高。
-   * **[!UICONTROL Training RMSE]** （均方根錯誤）：測量訓練資料的平均百分比錯誤。 懲罰比MAPE更大的錯誤。 RMSE越低，表示預測準確度越高，但對離群值卻很敏感。
-   * **[!UICONTROL Out-of-sample sMAPE]**：評估未檢視資料的百分比錯誤，平衡預測過高和過低。 有助於評估一般化。 目前，Mix Modeler會使用上一季的訓練資料做為保留組來評估錯誤百分比。
-   * **[!UICONTROL Out-of-sample RMSE]**：評估未檢視資料的百分比錯誤，平衡預測過高和過低。 協助評估一般化。 目前，[!DNL Mix Modeler]使用上一季的訓練資料做為保留組來評估百分比錯誤。 RMSE會懲罰比MAPE更大的錯誤。
+  * **[!UICONTROL Training R<sup>2</sup>]**：表示模型預測所解釋的實際值中的變異比例，範圍從0到1。
+  * **[!UICONTROL Training sMAPE]** （對稱平均絕對百分比錯誤）：測量訓練資料的平均百分比錯誤。 值越低表示準確度越高。
+  * **[!UICONTROL Training RMSE]** （均方根錯誤）：測量訓練資料的平均百分比錯誤。 懲罰比MAPE更大的錯誤。 RMSE越低，表示預測準確度越高，但對離群值卻很敏感。
+  * **[!UICONTROL Out-of-sample sMAPE]**：評估未檢視資料的百分比錯誤，平衡預測過高和過低。 有助於評估一般化。 目前，Mix Modeler會使用上一季的訓練資料做為保留組來評估錯誤百分比。
+  * **[!UICONTROL Out-of-sample RMSE]**：評估未檢視資料的百分比錯誤，平衡預測過高和過低。 協助評估一般化。 目前，[!DNL Mix Modeler]使用上一季的訓練資料做為保留組來評估百分比錯誤。 RMSE會懲罰比MAPE更大的錯誤。
 
 
 * **[!UICONTROL Touchpoint effectiveness]**&#x200B;表格，代表Attribution AI演演算法模型的結果。
@@ -415,9 +420,9 @@ Mix Modeler多點接觸歸因精細事件分數與整體[!DNL Mix Modeler]分數
 
   視覺效果會以遞減順序顯示每個接觸點的[!UICONTROL Efficiency measure] ![遞減順序](/help/assets/icons/SortOrderDown.svg)：
 
-   * **[!UICONTROL Paths touched]**：將達成轉換的路徑百分比與未達成轉換的路徑百分比視覺化。 對於接觸點，當歸因轉換比率很高時，您會看到更多歸因轉換。 此比率比較產生轉換的路徑百分比與&#x200B;*不會*&#x200B;產生轉換的路徑百分比。
-   * **[!UICONTROL Efficiency measure]**：由演演算法歸因模型產生，效率測量表示某個接觸點對轉換的相對重要性，與接觸點數量無關。 效率是以1到5的級數來衡量。 請注意，接觸點數量愈多並不能保證效率測量值愈高。
-   * **[!UICONTROL Total volume]**：使用者接觸接觸點的彙總次數。 數目包括出現在達成轉換的路徑上的接觸點，以及導致轉換的路徑&#x200B;*not*。
+  * **[!UICONTROL Paths touched]**：將達成轉換的路徑百分比與未達成轉換的路徑百分比視覺化。 對於接觸點，當歸因轉換比率很高時，您會看到更多歸因轉換。 此比率比較產生轉換的路徑百分比與&#x200B;*不會*&#x200B;產生轉換的路徑百分比。
+  * **[!UICONTROL Efficiency measure]**：由演演算法歸因模型產生，效率測量表示某個接觸點對轉換的相對重要性，與接觸點數量無關。 效率是以1到5的級數來衡量。 請注意，接觸點數量愈多並不能保證效率測量值愈高。
+  * **[!UICONTROL Total volume]**：使用者接觸接觸點的彙總次數。 數目包括出現在達成轉換的路徑上的接觸點，以及導致轉換的路徑&#x200B;*not*。
 
 
 ### 模型漂移偵測

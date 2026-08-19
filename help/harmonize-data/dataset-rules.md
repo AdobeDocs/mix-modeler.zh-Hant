@@ -4,24 +4,15 @@ description: 瞭解如何定義資料集規則，以便在Mix Modeler中協調�
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
 TQID: https://experienceleague.adobe.com/AHQ73zgE97hHUbZ-lW9-l0c-MKHjA50Qcj9w02MjyGM
-product_v2:
-  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2:
-  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
-subfeature_v2:
-  - id: ba4fd72c-282e-4fb6-abc1-08e6fb87b2ad
-  - id: d4b8ba18-64c1-4413-be54-74405ec7f558
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: a567f0f7-0057-4079-8ded-5b24cc25af15
+subfeature_v2: id: ba4fd72c-282e-4fb6-abc1-08e6fb87b2adid: d4b8ba18-64c1-4413-be54-74405ec7f558
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: '2026-05-01T09:12:48.985Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+source-git-commit: 0e1bd1a2e96e96b98be502b9c8413d63816efa3d
 workflow-type: tm+mt
-source-wordcount: 2106
+source-wordcount: 2161
 ht-degree: 3%
 
 ---
@@ -33,6 +24,7 @@ ht-degree: 3%
 * 對於您在Adobe Experience Platform中擷取的彙總資料，您可以將一個或多個可用的資料集欄位對應到適當的和諧欄位。
 * 對於事件資料，您可以直接或使用條件，個別將一個或多個和諧的欄位對應到資料集中的欄位。
 
+![資料集規則清單](/help/assets/harmonize-dataset-rules-list.png)
 
 ## 管理資料集規則
 
@@ -42,7 +34,15 @@ ht-degree: 3%
 
 1. 從頂端列選取&#x200B;**[!UICONTROL Dataset rules]**。 您會看到資料集規則的表格。
 
-您可以使用![搜尋](/help/assets/icons/Search.svg) **[!UICONTROL _輸入資料集名稱_]**&#x200B;來快速搜尋資料集。
+您可以搜尋和篩選資料集：
+
+* 使用![搜尋](/help/assets/icons/Search.svg)快速搜尋資料集&#x200B;**[!UICONTROL _輸入資料集名稱_]**。
+* 使用以下專案篩選資料集：
+  * **[!UICONTROL Source]**：選取介於&#x200B;**[!UICONTROL all]**、**[!UICONTROL Summary]**、**[!UICONTROL Adobe Analytics]**、**[!UICONTROL Adobe Audience Manager]**、**[!UICONTROL Experience Events]**、**[!UICONTROL Consumer Experience Events]**&#x200B;或&#x200B;**[!UICONTROL Factors]**&#x200B;之間。
+  * **[!UICONTROL Granularity]**：選取介於&#x200B;**[!UICONTROL all]**、**[!UICONTROL Daily]**、**[!UICONTROL Weekly]**、**[!UICONTROL Monthly]**&#x200B;或&#x200B;**[!UICONTROL Yearly]**&#x200B;之間。
+  * **[!UICONTROL Start of the week]**：選取所有或可能的工作日（**[!UICONTROL Monday]**&#x200B;至&#x200B;**[!UICONTROL Sunday]**）。
+
+使用![CrossSize200](/help/assets/icons/CrossSize200.svg) **[!UICONTROL Clear]**&#x200B;清除所有篩選器和搜尋欄位。
 
 表格欄會指定資料集規則的詳細資料：
 
@@ -82,38 +82,38 @@ ht-degree: 3%
 
    * 當選取的協調欄位屬於型別量度時：
 
-      1. 從&#x200B;**[!UICONTROL Mapping type]**&#x200B;中選取&#x200B;**[!UICONTROL Count]**&#x200B;或&#x200B;**[!UICONTROL Sum]**。
+     1. 從&#x200B;**[!UICONTROL Mapping type]**&#x200B;中選取&#x200B;**[!UICONTROL Count]**&#x200B;或&#x200B;**[!UICONTROL Sum]**。
 
-      1. 選取您預設要與協調欄位對應的&#x200B;**[!UICONTROL *AEP資料集欄位&#x200B;*]**。
+     1. 選取您預設要與協調欄位對應的&#x200B;**[!UICONTROL *AEP資料集欄位&#x200B;*]**。
 
    * 當選取的欄位屬於型別維度時：
 
-      1. 從&#x200B;**[!UICONTROL Mapping type]**&#x200B;中選取&#x200B;**[!UICONTROL Map Into]**&#x200B;或&#x200B;**[!UICONTROL Case]**。
+     1. 從&#x200B;**[!UICONTROL Mapping type]**&#x200B;中選取&#x200B;**[!UICONTROL Map Into]**&#x200B;或&#x200B;**[!UICONTROL Case]**。
 
-      1. 當您已選取&#x200B;**[!UICONTROL Map Into]**&#x200B;時，請選取&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP資料集欄位&#x200B;*]**&#x200B;或&#x200B;**[!UICONTROL Value]**，以及預設值，以將協調的欄位依預設對應到資料集欄位或輸入的值。
+     1. 當您已選取&#x200B;**[!UICONTROL Map Into]**&#x200B;時，請選取&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP資料集欄位&#x200B;*]**或&#x200B;**[!UICONTROL Value]**，以及預設值，以將協調的欄位依預設對應到資料集欄位或輸入的值。
 
-      1. 當您選取&#x200B;**[!UICONTROL Case]**&#x200B;時，請選取&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP資料集欄位&#x200B;*]**&#x200B;或&#x200B;**[!UICONTROL Value]**，以及預設值，以依預設將協調欄位對應到資料集欄位或輸入的值。
+     1. 當您選取&#x200B;**[!UICONTROL Case]**&#x200B;時，請選取&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP資料集欄位&#x200B;*]**或&#x200B;**[!UICONTROL Value]**，以及預設值，以依預設將協調欄位對應到資料集欄位或輸入的值。
 
-         1. 若要明確設定值，您可以定義一或多個案例，由一或多個條件組成。 每個條件都可以檢查特定的&#x200B;**[!UICONTROL *AEP資料集欄位&#x200B;*]**，無論是&#x200B;**[!UICONTROL Exists]**&#x200B;或&#x200B;**[!UICONTROL Not Exists]**，或是&#x200B;**[!UICONTROL Contains]**、**[!UICONTROL Not Contains]**、**[!UICONTROL Equals]**、**[!UICONTROL Not Equals]**、**[!UICONTROL Starts With]**&#x200B;或&#x200B;**[!UICONTROL Ends With]**，輸入於&#x200B;**[!UICONTROL *&#x200B;輸入的值&#x200B;*]**。
+        1. 若要明確設定值，您可以定義一或多個案例，由一或多個條件組成。 每個條件都可以檢查特定的&#x200B;**[!UICONTROL *AEP資料集欄位&#x200B;*]**，無論是&#x200B;**[!UICONTROL Exists]**或&#x200B;**[!UICONTROL Not Exists]**，或是&#x200B;**[!UICONTROL Contains]**、**[!UICONTROL Not Contains]**、**[!UICONTROL Equals]**、**[!UICONTROL Not Equals]**、**[!UICONTROL Starts With]**或&#x200B;**[!UICONTROL Ends With]**，輸入於**[!UICONTROL *&#x200B;輸入的值&#x200B;*]**。
 
-         1. 若要新增其他案例，請選取![新增](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**，若要新增其他條件，請選取![新增](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**。
+        1. 若要新增其他案例，請選取![新增](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**，若要新增其他條件，請選取![新增](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**。
 
-         1. 若要刪除案例或條件，請選取對應容器中的![關閉](/help/assets/icons/Close.svg)。
+        1. 若要刪除案例或條件，請選取對應容器中的![關閉](/help/assets/icons/Close.svg)。
 
-         1. 若要選取任何或所有條件是否應該適用於案例，請選取&#x200B;**[!UICONTROL Any of]**&#x200B;或&#x200B;**[!UICONTROL All of]**。
+        1. 若要選取任何或所有條件是否應該適用於案例，請選取&#x200B;**[!UICONTROL Any of]**&#x200B;或&#x200B;**[!UICONTROL All of]**。
 
-         1. 若要設定案例的結果值，請在&#x200B;**[!UICONTROL Then]**&#x200B;輸入值。
+        1. 若要設定案例的結果值，請在&#x200B;**[!UICONTROL Then]**&#x200B;輸入值。
 
      下列範例：
 
-      * 使用&#x200B;**[!UICONTROL Map Into]** **[!UICONTROL Mapping type]**&#x200B;將&#x200B;**[!UICONTROL Channel Type At Source]**&#x200B;協調欄位對應到&#x200B;**[!DNL Luma Transactions]**&#x200B;資料集中的&#x200B;**[!UICONTROL channel_type]**&#x200B;欄位。
+     * 使用&#x200B;**[!UICONTROL Map Into]** **[!UICONTROL Mapping type]**&#x200B;將&#x200B;**[!UICONTROL Channel Type At Source]**&#x200B;協調欄位對應到&#x200B;**[!DNL Luma Transactions]**&#x200B;資料集中的&#x200B;**[!UICONTROL channel_type]**&#x200B;欄位。
 
-      * 使用&#x200B;**[!UICONTROL Case]** **[!UICONTROL Mapping type]**&#x200B;有條件地將&#x200B;**[!DNL Luma Transactions]**&#x200B;資料集中的&#x200B;**[!UICONTROL marketing.campaignName]**&#x200B;欄位值對應到&#x200B;**[!UICONTROL Campaign]**&#x200B;協調欄位。 「行銷活動協調」欄位設為：
+     * 使用&#x200B;**[!UICONTROL Case]** **[!UICONTROL Mapping type]**&#x200B;有條件地將&#x200B;**[!DNL Luma Transactions]**&#x200B;資料集中的&#x200B;**[!UICONTROL marketing.campaignName]**&#x200B;欄位值對應到&#x200B;**[!UICONTROL Campaign]**&#x200B;協調欄位。 「行銷活動協調」欄位設為：
 
-         * **[!UICONTROL marketing.campaignName]**&#x200B;為`_black_friday`或`BlackFriday`時的`Black Friday`。
-         * 到所有其他情況下的&#x200B;**[!UICONTROL marketing.campaignName]**&#x200B;的值。
+       * **[!UICONTROL marketing.campaignName]**&#x200B;為`_black_friday`或`BlackFriday`時的`Black Friday`。
+       * 到所有其他情況下的&#x200B;**[!UICONTROL marketing.campaignName]**&#x200B;的值。
 
-        ![資料集規則事件](/help/assets/dataset-create-event.png)
+       ![資料集規則事件](/help/assets/dataset-create-event.png)
 
 1. 選取![新增](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]**&#x200B;以定義其他欄位。
 
@@ -279,19 +279,19 @@ ht-degree: 3%
 
    * 若要新增特定量度型偏好設定：
 
-      1. 選取![加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**。
-         1. 從&#x200B;**[!UICONTROL *度量選擇&#x200B;*]**&#x200B;清單中選取度量。
-         1. 選取「**[!UICONTROL CHANNELS]**」或「**[!UICONTROL CONVERSION TYPES]**」。 從清單中選取&#x200B;**[!UICONTROL All]**&#x200B;或特定的管道或轉換型別。
-         1. 選取&#x200B;**[!UICONTROL Summary]**&#x200B;或&#x200B;**[!UICONTROL Event]**，以指定合併資料時，彙總資料或事件資料是否偏好量度（以及所有或選取的管道）。
+     1. 選取![加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**。
+        1. 從&#x200B;**[!UICONTROL *度量選擇&#x200B;*]**清單中選取度量。
+        1. 選取「**[!UICONTROL CHANNELS]**」或「**[!UICONTROL CONVERSION TYPES]**」。 從清單中選取&#x200B;**[!UICONTROL All]**&#x200B;或特定的管道或轉換型別。
+        1. 選取&#x200B;**[!UICONTROL Summary]**&#x200B;或&#x200B;**[!UICONTROL Event]**，以指定合併資料時，彙總資料或事件資料是否偏好量度（以及所有或選取的管道）。
 
-         若要新增一或多個其他管道或轉換型別：
+        若要新增一或多個其他管道或轉換型別：
 
-         1. 選取![加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]**&#x200B;或![加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**。
-         1. 選取「**[!UICONTROL Summary]**」或「**[!UICONTROL Event]**」。
+        1. 選取![加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]**&#x200B;或![加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**。
+        1. 選取「**[!UICONTROL Summary]**」或「**[!UICONTROL Event]**」。
 
-         若要刪除管道或轉換型別，請選取![交叉](/help/assets/icons/Close.svg)。
+        若要刪除管道或轉換型別，請選取![交叉](/help/assets/icons/Close.svg)。
 
-      1. 若要新增更具體的量度型偏好設定，請重複上一步驟。
+     1. 若要新增更具體的量度型偏好設定，請重複上一步驟。
 
    * 若要刪除現有的特定量度型偏好設定，請選取![刪除](/help/assets/icons/Delete.svg)。
 
