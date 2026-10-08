@@ -3,26 +3,37 @@ title: 計畫績效
 description: 瞭解如何在Mix Modeler中使用效能來規劃概觀。
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
-TQID: https://experienceleague.adobe.com/iRFbGXoCx5jzg6ATId2tNLTfyigoTzD4JQIqlPU5isU
+autotag-review: '2026-05-01T09:20:18.412Z'
+TQID: 'https://experienceleague.adobe.com/iRFbGXoCx5jzg6ATId2tNLTfyigoTzD4JQIqlPU5isU'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
+  - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
+    internal-label: Administration
 subfeature_v2:
   - id: d7b067e6-4f39-41e9-a081-7650346a84cd
+    internal-label: Build plans
   - id: b2520ae7-8f6c-4952-935e-aacc2c10256f
+    internal-label: Compare plans
   - id: e6c284e0-b6e6-4f82-bf96-e96bb5157b90
+    internal-label: Plan insights
+  - id: c564971c-1597-4a46-a354-33d74ee8a5d1
+    internal-label: Dashboard
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-autotag-review: '2026-05-01T09:20:18.412Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Admin
+source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
 workflow-type: tm+mt
-source-wordcount: 537
+source-wordcount: '537'
 ht-degree: 0%
-
 ---
-
 # 計畫績效
 
 >[!NOTE]
@@ -43,18 +54,18 @@ Mix Modeler ![首頁](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x2
 
 * [KPI狀態卡](#kpi-status-cards)：
 
-   * [預算](#budget)
-   * [收入](#revenue)
-   * [ROI](#roi)
-   * [KPI](#kpi)
+  * [預算](#budget)
+  * [收入](#revenue)
+  * [ROI](#roi)
+  * [KPI](#kpi)
 
 * [視覺效果](#visualizations)：
-   * [*量度*：實際與計畫](#metric-actual-vs-planned)
-   * [*量度*：實際與計畫的&#x200B;*粒度*](#metric-actual-vs-planned-by-granularity)
-   * [管道&#x200B;*量度* x *粒度*](#channel-metric-by-granularity)
-   * [*量度*&#x200B;與&#x200B;*量度*&#x200B;的比較（依管道）](#metric-vs-metric-by-channel)
-   * [*量度* x *粒度*](#metric-by-granularity)
-   * [*量度* （依管道）](#metric-by-channel)
+  * [*量度*：實際與計畫](#metric-actual-vs-planned)
+  * [*量度*：實際與計畫的&#x200B;*粒度*](#metric-actual-vs-planned-by-granularity)
+  * [管道&#x200B;*量度* x *粒度*](#channel-metric-by-granularity)
+  * [*量度*&#x200B;與&#x200B;*量度*&#x200B;的比較（依管道）](#metric-vs-metric-by-channel)
+  * [*量度* x *粒度*](#metric-by-granularity)
+  * [*量度* （依管道）](#metric-by-channel)
 
 ## KPI狀態卡
 
@@ -134,8 +145,8 @@ Mix Modeler ![首頁](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x2
 
    * 一或兩個量度：從&#x200B;**[!UICONTROL Select metric]**&#x200B;下拉式選單中選取量度。
 
-      * 對於以ROI為基礎的計畫，選項包括： [!UICONTROL Conversions]、[!UICONTROL CPA]、[!UICONTROL Revenue]、[!UICONTROL ROI]、[!UICONTROL Spend]和[!UICONTROL Volume]。
-      * 對於以CPA為基礎的計畫，選項為： [!UICONTROL Conversions]、[!UICONTROL CPA]、[!UICONTROL Spend]和[!UICONTROL Volume]。
+     * 對於以ROI為基礎的計畫，選項包括： [!UICONTROL Conversions]、[!UICONTROL CPA]、[!UICONTROL Revenue]、[!UICONTROL ROI]、[!UICONTROL Spend]和[!UICONTROL Volume]。
+     * 對於以CPA為基礎的計畫，選項為： [!UICONTROL Conversions]、[!UICONTROL CPA]、[!UICONTROL Spend]和[!UICONTROL Volume]。
    * **[!UICONTROL Granularity]**：從&#x200B;**[!UICONTROL Granularity]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL date ranges]**&#x200B;或&#x200B;**[!UICONTROL week]**。
 
    您在&#x200B;**[!UICONTROL Preview]**&#x200B;中看到變更與&#x200B;**[!UICONTROL Current]**&#x200B;視覺效果有何不同。
