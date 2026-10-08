@@ -3,27 +3,36 @@ title: 協調的資料儀表板
 description: 瞭解如何使用Mix Modeler中的協調資料概觀儀表板。
 feature: Dashboard, Harmonized Data
 exl-id: fbb01613-d648-4db1-a782-a7720b7a03ad
-TQID: https://experienceleague.adobe.com/umAqsiCgpFt4eLBuWPJahtwglXaQKD-iv91yCazIbkE
 autotag-review: '2026-05-01T09:17:34.958Z'
+TQID: 'https://experienceleague.adobe.com/umAqsiCgpFt4eLBuWPJahtwglXaQKD-iv91yCazIbkE'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
+  - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
+    internal-label: Administration
 subfeature_v2:
   - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
+    internal-label: Conversions
   - id: b2d4aeb9-eabe-49f6-8edb-bb2862d5980b
+    internal-label: Marketing touchpoints
+  - id: c564971c-1597-4a46-a354-33d74ee8a5d1
+    internal-label: Dashboard
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Insights
+source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
 workflow-type: tm+mt
-source-wordcount: 298
+source-wordcount: '298'
 ht-degree: 0%
-
 ---
-
 # 協調的資料
 
 Mix Modeler ![首頁](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;中的&#x200B;**[!UICONTROL Harmonized data]**&#x200B;索引標籤提供您已設定為要用於內嵌資料與協調資料設定一部分的協調資料見解。
@@ -53,31 +62,31 @@ Mix Modeler ![首頁](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x2
 
 * 在KPI狀態卡視覺效果上：
 
-   1. 從內容功能表選取「![編輯](/help/assets/icons/Edit.svg)」和「![編輯](/help/assets/icons/Edit.svg)」**[!UICONTROL Edit data]**。
+  1. 從內容功能表選取「![編輯](/help/assets/icons/Edit.svg)」和「![編輯](/help/assets/icons/Edit.svg)」**[!UICONTROL Edit data]**。
 
-   1. 在&#x200B;**[!UICONTROL KPI status card]**&#x200B;對話方塊：
+  1. 在&#x200B;**[!UICONTROL KPI status card]**&#x200B;對話方塊：
 
-      1. 從清單中選取&#x200B;**[!UICONTROL KPI]**。
+     1. 從清單中選取&#x200B;**[!UICONTROL KPI]**。
 
-      1. 選取&#x200B;**[!UICONTROL Apply]**&#x200B;將變更套用至卡片。 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消變更。
+     1. 選取&#x200B;**[!UICONTROL Apply]**&#x200B;將變更套用至卡片。 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消變更。
 
 * 在其他可設定的視覺效果上：
 
-   1. 從內容功能表選取「![編輯](/help/assets/icons/Edit.svg)」和「![編輯](/help/assets/icons/Edit.svg)」**[!UICONTROL Edit data]**。
+  1. 從內容功能表選取「![編輯](/help/assets/icons/Edit.svg)」和「![編輯](/help/assets/icons/Edit.svg)」**[!UICONTROL Edit data]**。
 
-   1. 在&#x200B;**[!UICONTROL Edit Data]**&#x200B;對話方塊：
+  1. 在&#x200B;**[!UICONTROL Edit Data]**&#x200B;對話方塊：
 
-      1. 從&#x200B;**[!UICONTROL Select a metric]**&#x200B;選取量度，例如&#x200B;**[!UICONTROL Impressions]**。
-      1. 從&#x200B;**[!UICONTROL Select category]**&#x200B;中選取類別，例如&#x200B;**[!UICONTROL Media types]**。
-      1. （選擇性）從&#x200B;**[!UICONTROL Select second category (optional)]**&#x200B;中選取第二個類別，例如&#x200B;**[!UICONTROL Traffic sources]**。
-      1. 選取![時鐘](/help/assets/icons/Clock.svg) **[!UICONTROL Time]**&#x200B;或![電腦](/help/assets/icons/Calculator.svg) **[!UICONTROL Total]**&#x200B;作為位於&#x200B;**[!UICONTROL Select analysis type]**&#x200B;的分析型別。
+     1. 從&#x200B;**[!UICONTROL Select a metric]**&#x200B;選取量度，例如&#x200B;**[!UICONTROL Impressions]**。
+     1. 從&#x200B;**[!UICONTROL Select category]**&#x200B;中選取類別，例如&#x200B;**[!UICONTROL Media types]**。
+     1. （選擇性）從&#x200B;**[!UICONTROL Select second category (optional)]**&#x200B;中選取第二個類別，例如&#x200B;**[!UICONTROL Traffic sources]**。
+     1. 選取![時鐘](/help/assets/icons/Clock.svg) **[!UICONTROL Time]**&#x200B;或![電腦](/help/assets/icons/Calculator.svg) **[!UICONTROL Total]**&#x200B;作為位於&#x200B;**[!UICONTROL Select analysis type]**&#x200B;的分析型別。
 
-         如果您選取![時鐘](/help/assets/icons/Clock.svg) **[!UICONTROL Time]**，則可以指定時間頻率。 從&#x200B;**[!UICONTROL Select time frequency]**&#x200B;中選取&#x200B;**[!UICONTROL Daily]**、**[!UICONTROL Weekly]**、**[!UICONTROL Monthly]**&#x200B;或&#x200B;**[!UICONTROL Quarterly]**。
+        如果您選取![時鐘](/help/assets/icons/Clock.svg) **[!UICONTROL Time]**，則可以指定時間頻率。 從&#x200B;**[!UICONTROL Select time frequency]**&#x200B;中選取&#x200B;**[!UICONTROL Daily]**、**[!UICONTROL Weekly]**、**[!UICONTROL Monthly]**&#x200B;或&#x200B;**[!UICONTROL Quarterly]**。
 
-         您會在[!UICONTROL Preview Area]中看到目前選取專案的更新預覽，並在[!UICONTROL Current]下方看到目前視覺效果。
+        您會在[!UICONTROL Preview Area]中看到目前選取專案的更新預覽，並在[!UICONTROL Current]下方看到目前視覺效果。
 
-         ![編輯協調的資料小工具](/help/assets/edit-harmonized-data-widget.png)
+        ![編輯協調的資料小工具](/help/assets/edit-harmonized-data-widget.png)
 
-         如果由於資料無法使用而無法呈現預覽，您會看到![資料錯誤](/help/assets/icons/DataUnavailable.svg) [!UICONTROL Insights Not Available] - [!UICONTROL Harmonized fields are not available]。
+        如果由於資料無法使用而無法呈現預覽，您會看到![資料錯誤](/help/assets/icons/DataUnavailable.svg) [!UICONTROL Insights Not Available] - [!UICONTROL Harmonized fields are not available]。
 
-      1. 選取&#x200B;**[!UICONTROL Apply]**&#x200B;將變更套用至視覺效果。 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消對目前視覺效果所做的任何變更。
+     1. 選取&#x200B;**[!UICONTROL Apply]**&#x200B;將變更套用至視覺效果。 選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消對目前視覺效果所做的任何變更。

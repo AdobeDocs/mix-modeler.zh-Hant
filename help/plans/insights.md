@@ -3,26 +3,32 @@ title: 計畫深入分析
 description: 瞭解如何檢視計畫的深入分析以及在Mix Modeler中編輯計畫。
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-TQID: https://experienceleague.adobe.com/Qi-C1-9Dbi71TbUTi64xlxs1pNXijt0nasTghWiD6AM
+autotag-review: '2026-04-28T06:09:37.014Z'
+TQID: 'https://experienceleague.adobe.com/Qi-C1-9Dbi71TbUTi64xlxs1pNXijt0nasTghWiD6AM'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
 subfeature_v2:
   - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+    internal-label: Model insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: '2026-04-28T06:09:37.014Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Insights
+source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
 workflow-type: tm+mt
-source-wordcount: 1174
+source-wordcount: '1190'
 ht-degree: 0%
-
 ---
-
 # 計畫深入分析
 
 
@@ -32,12 +38,12 @@ ht-degree: 0%
 建立前瞻分析時，您會看到計畫的概覽，包括：
 
 - 顯示計畫所依據之[!UICONTROL Model]、[!UICONTROL Data range]和[!UICONTROL Plan target]的標頭。
-   - 如果您已定義目標型計畫，徽章會指出目標的狀態。可能的選項包括：
+  - 如果您已定義目標型計畫，徽章會指出目標的狀態。可能的選項包括：
 
-      - [!BADGE 目標可達成]{type=Positive}
-      - [!BADGE 目標無法達成]{type=Negative}
+    - [!BADGE 目標可達成]{type=Positive}
+    - [!BADGE 目標無法達成]{type=Negative}
 
-   - 選取![V形箭號](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Show more]**&#x200B;以顯示更多詳細資料。
+  - 選取![V形箭號](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Show more]**&#x200B;以顯示更多詳細資料。
 
 - [[!UICONTROL Forecasted paid channel ROI]視覺效果](#forecasted-paid-channel-spend-and-roi)
 - [[!UICONTROL Forecasted revenue]視覺效果](#forecasted-revenue)
@@ -45,12 +51,12 @@ ht-degree: 0%
 - [[!UICONTROL Marginal channel return]視覺效果](#marginal-channel-return)
 - 計畫[&#128279;](#date-range-breakdown)的[!UICONTROL Data range breakdown]資料表，顯示資料行
 
-   - 頻道
-   - ROI
-   - CPA
-   - 收入
-   - 轉換目標
-   - 支出
+  - 頻道
+  - ROI
+  - CPA
+  - 收入
+  - 轉換目標
+  - 支出
 
 若要關閉介面，請選取&#x200B;**[!UICONTROL Close]**。
 
@@ -151,33 +157,33 @@ ht-degree: 0%
 
            此選項可讓您為一個或多個日期範圍輸入預算。
 
-            1. 在&#x200B;**[!UICONTROL Optimize]**&#x200B;容器中：
-               1. 從&#x200B;**[!UICONTROL Select conversion]**&#x200B;下拉式功能表中選取轉換。
-               1. 從&#x200B;**[!UICONTROL Select model]**&#x200B;下拉式功能表中選取模型。
-            1. 透過輸入日期或使用![行事曆](/help/assets/icons/Calendar.svg)選取日期範圍來指定&#x200B;**[!UICONTROL Date range]**。
-            1. 輸入&#x200B;**[!UICONTROL Budget]**。
-若要新增其他日期範圍（每個日期範圍都有預算），請選取![行事曆新增](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**。
-若要刪除日期範圍和相關預算，請選取![關閉](/help/assets/icons/Close.svg)。
-            1. 若要定義您要在內限制計畫的選擇性最大預算，請執行下列步驟：
-               1. 切換&#x200B;**[!UICONTROL Maximize budget]**&#x200B;開啟。
-               1. 指定最大預算的金額。 金額應等於或高於為日期範圍指定的預算總金額。
+           1. 在&#x200B;**[!UICONTROL Optimize]**&#x200B;容器中：
+              1. 從&#x200B;**[!UICONTROL Select conversion]**&#x200B;下拉式功能表中選取轉換。
+              1. 從&#x200B;**[!UICONTROL Select model]**&#x200B;下拉式功能表中選取模型。
+           1. 透過輸入日期或使用![行事曆](/help/assets/icons/Calendar.svg)選取日期範圍來指定&#x200B;**[!UICONTROL Date range]**。
+           1. 輸入&#x200B;**[!UICONTROL Budget]**。
+              若要新增其他日期範圍（每個日期範圍都有預算），請選取![行事曆新增](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**。
+              若要刪除日期範圍和相關預算，請選取![關閉](/help/assets/icons/Close.svg)。
+           1. 若要定義您要在內限制計畫的選擇性最大預算，請執行下列步驟：
+              1. 切換&#x200B;**[!UICONTROL Maximize budget]**&#x200B;開啟。
+              1. 指定最大預算的金額。 金額應等於或高於為日期範圍指定的預算總金額。
 
 
          - **[!UICONTROL I have a target to achieve]** [!BADGE Beta]
 
            ![計畫目標](../assets/plan-target.png)
 
-            1. 在&#x200B;**[!UICONTROL Optimize]**&#x200B;容器中
-               1. 從&#x200B;**[!UICONTROL Select conversion]**&#x200B;下拉式功能表中選取轉換。
-               1. 從&#x200B;**[!UICONTROL Select target metric]**&#x200B;下拉式功能表中選取目標量度。 您可以選取介於&#x200B;**[!UICONTROL Conversion]**、**[!UICONTROL CPA]**、**[!UICONTROL Revenue]**&#x200B;或&#x200B;**[!UICONTROL ROI]**&#x200B;之間。
-               1. 從&#x200B;**[!UICONTROL Select model]**&#x200B;下拉式功能表中選取模型。
-            1. 透過輸入日期或使用![行事曆](/help/assets/icons/Calendar.svg)選取日期範圍來指定日期範圍。
-            1. 輸入所選目標量度的值。 例如，**[!UICONTROL Conversion]**&#x200B;的數字、**[!UICONTROL ROI]**&#x200B;的百分比，或&#x200B;**[!UICONTROL CPA]**&#x200B;和&#x200B;**[!UICONTROL Revenue]**&#x200B;的貨幣值。
-若要新增其他日期範圍（每個日期範圍都有其目標量度），請選取![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**。
-若要刪除日期範圍和相關聯的目標量度，請選取![關閉](/help/assets/icons/Close.svg)。
-            1. 若要定義您要在內限制計畫的選擇性最大預算，請執行下列步驟：
-               1. 切換&#x200B;**[!UICONTROL Maximize budget]**&#x200B;開啟。
-               1. 指定最大預算的金額。
+           1. 在&#x200B;**[!UICONTROL Optimize]**&#x200B;容器中
+              1. 從&#x200B;**[!UICONTROL Select conversion]**&#x200B;下拉式功能表中選取轉換。
+              1. 從&#x200B;**[!UICONTROL Select target metric]**&#x200B;下拉式功能表中選取目標量度。 您可以選取介於&#x200B;**[!UICONTROL Conversion]**、**[!UICONTROL CPA]**、**[!UICONTROL Revenue]**&#x200B;或&#x200B;**[!UICONTROL ROI]**&#x200B;之間。
+              1. 從&#x200B;**[!UICONTROL Select model]**&#x200B;下拉式功能表中選取模型。
+           1. 透過輸入日期或使用![行事曆](/help/assets/icons/Calendar.svg)選取日期範圍來指定日期範圍。
+           1. 輸入所選目標量度的值。 例如，**[!UICONTROL Conversion]**&#x200B;的數字、**[!UICONTROL ROI]**&#x200B;的百分比，或&#x200B;**[!UICONTROL CPA]**&#x200B;和&#x200B;**[!UICONTROL Revenue]**&#x200B;的貨幣值。
+              若要新增其他日期範圍（每個日期範圍都有其目標量度），請選取![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**。
+              若要刪除日期範圍和相關聯的目標量度，請選取![關閉](/help/assets/icons/Close.svg)。
+           1. 若要定義您要在內限制計畫的選擇性最大預算，請執行下列步驟：
+              1. 切換&#x200B;**[!UICONTROL Maximize budget]**&#x200B;開啟。
+              1. 指定最大預算的金額。
 
          1. 選取&#x200B;**[!UICONTROL Next]**&#x200B;以返回&#x200B;**[!UICONTROL Spend selection]**&#x200B;區段。
 
