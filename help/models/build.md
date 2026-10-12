@@ -7,27 +7,36 @@ exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
 TQID: https://experienceleague.adobe.com/cFNaPV6-R3d5ogcBfOyEVNqJoIvfg2JBzVeedjrtEq4
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
 subfeature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized Data
   - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+    internal-label: Model insights
   - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
+    internal-label: Conversions
   - id: c89e26b6-808d-4500-8b01-450a63466999
+    internal-label: Build model
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: 4420f8b550f642dd55fd9d2af9675326e08a8af9
 workflow-type: tm+mt
-source-wordcount: 1578
-ht-degree: 8%
-
+source-wordcount: '1591'
+ht-degree: 9%
 ---
-
 # 建立模型
 
 為了建置您的自訂AI支援模型，介面會提供逐步引導模型設定流程。
@@ -86,19 +95,19 @@ ht-degree: 8%
 
    * 針對每個容器，定義一或多個事件。
 
-      1. 針對每個事件：
+     1. 針對每個事件：
 
-         1. 從&#x200B;**[!UICONTROL _選取協調欄位_]**&#x200B;中選取量度或維度。
+        1. 從&#x200B;**[!UICONTROL _選取協調欄位_]**&#x200B;中選取量度或維度。
 
-         1. 選取適當的運運算元： **[!UICONTROL equals]**、**[!UICONTROL not equals]**、**[!UICONTROL less than]**、**[!UICONTROL greater than]**、**[!UICONTROL starts with]**、**[!UICONTROL doesn't start with]**、**[!UICONTROL ends with]**、**[!UICONTROL doesn't end with]**、**[!UICONTROL contains]**、**[!UICONTROL doesn't contain]**、**[!UICONTROL is in]**&#x200B;或&#x200B;**[!UICONTROL is not in]**。
+        1. 選取適當的運運算元： **[!UICONTROL equals]**、**[!UICONTROL not equals]**、**[!UICONTROL less than]**、**[!UICONTROL greater than]**、**[!UICONTROL starts with]**、**[!UICONTROL doesn't start with]**、**[!UICONTROL ends with]**、**[!UICONTROL doesn't end with]**、**[!UICONTROL contains]**、**[!UICONTROL doesn't contain]**、**[!UICONTROL is in]**&#x200B;或&#x200B;**[!UICONTROL is not in]**。
 
-         1. 在&#x200B;**[!UICONTROL _輸入或選取值_]**。
+        1. 在&#x200B;**[!UICONTROL _輸入或選取值_]**。
 
-      1. 若要在容器中新增其他事件，請選取![新增](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**。
+     1. 若要在容器中新增其他事件，請選取![新增](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**。
 
-      1. 若要從容器移除事件，請選取![關閉](/help/assets/icons/CrossSize75.svg)。
+     1. 若要從容器移除事件，請選取![關閉](/help/assets/icons/CrossSize75.svg)。
 
-      1. 若要使用容器中定義的所有或多個事件進行篩選，請選取&#x200B;**[!UICONTROL Any of]**&#x200B;或&#x200B;**[!UICONTROL All of]**。 標籤會相應地從&#x200B;**[!UICONTROL Include ... Or ...]**&#x200B;變更為&#x200B;**[!UICONTROL Include ... And ...]**。
+     1. 若要使用容器中定義的所有或多個事件進行篩選，請選取&#x200B;**[!UICONTROL Any of]**&#x200B;或&#x200B;**[!UICONTROL All of]**。 標籤會相應地從&#x200B;**[!UICONTROL Include ... Or ...]**&#x200B;變更為&#x200B;**[!UICONTROL Include ... And ...]**。
 
    * 若要新增合格的資料母體容器，請選取![新增](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**。
 
@@ -112,10 +121,10 @@ ht-degree: 8%
 
    * 若要新增因子資料集，請選取&#x200B;**[!UICONTROL Add Factor]**。 您最多可以新增30個因子至模型。
 
-      1. 從下拉式功能表中選取&#x200B;**[!UICONTROL Factor dataset]**。 可用的因子是您已在[資料集規則](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule)中定義協調欄位的因子。
-根據選取的資料集，**[!UICONTROL Factor type]**&#x200B;為&#x200B;**[!UICONTROL Internal]**&#x200B;或&#x200B;**[!UICONTROL External]**。
+     1. 從下拉式功能表中選取&#x200B;**[!UICONTROL Factor dataset]**。 可用的因子是您已在[資料集規則](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule)中定義協調欄位的因子。
+        根據選取的資料集，**[!UICONTROL Factor type]**&#x200B;為&#x200B;**[!UICONTROL Internal]**&#x200B;或&#x200B;**[!UICONTROL External]**。
 
-      1. 從下拉式功能表中選取&#x200B;**[!UICONTROL Impact on conversion]**。 可用的選項包括： **[!UICONTROL Auto]**、**[!UICONTROL Positive]**&#x200B;或&#x200B;**[!UICONTROL Negative]**。 預設選項為&#x200B;**[!UICONTROL Auto]**，可讓模型判斷因子資料集的影響。
+     1. 從下拉式功能表中選取&#x200B;**[!UICONTROL Impact on conversion]**。 可用的選項包括： **[!UICONTROL Auto]**、**[!UICONTROL Positive]**&#x200B;或&#x200B;**[!UICONTROL Negative]**。 預設選項為&#x200B;**[!UICONTROL Auto]**，可讓模型判斷因子資料集的影響。
 
    * 若要刪除因子資料集，請選取![CrossSize200](/help/assets/icons/CrossSize400.svg)。
 
@@ -151,8 +160,8 @@ ht-degree: 8%
 在&#x200B;**[!UICONTROL Spend share]**&#x200B;區段中：
 
 * 若要在行銷資料稀疏時使用歷史行銷投資比率來通知模型，請啟動&#x200B;**[!UICONTROL Allow spend share]**。 建議使用此設定，尤其是在下列情況下：
-   * 管道沒有足夠的觀察值（例如支出、曝光或點按頻率低）。
-   * 您正在模型化尖峰但一般且可能高花費的媒體（例如某些品牌的電視節目），這些媒體中的資料可能會很稀疏。
+  * 管道沒有足夠的觀察值（例如支出、曝光或點按頻率低）。
+  * 您正在模型化尖峰但一般且可能高花費的媒體（例如某些品牌的電視節目），這些媒體中的資料可能會很稀疏。
 
   >[!NOTE]
   >
@@ -195,13 +204,13 @@ ht-degree: 8%
 
 * 對於每個管道(**[!UICONTROL Name]**)，定義&#x200B;**[!UICONTROL Lag (weeks)]**、**[!UICONTROL Min Lookback (weeks)]**&#x200B;和&#x200B;**[!UICONTROL Max Lookback (weeks)]**&#x200B;值。 針對每個值：
 
-   * 使用![加](/help/assets/icons/Add.svg)增加值，![減](/help/assets/icons/Subtract.svg)減少值，或手動輸入值。
+  * 使用![加](/help/assets/icons/Add.svg)增加值，![減](/help/assets/icons/Subtract.svg)減少值，或手動輸入值。
 
   每個管道的延遲周數加回顧周數上限為設定培訓時段的八分之一。 此上限可確保提供足夠的資料，讓模型能夠了解廣告滯後效應。 例如，對於兩年的訓練期間，管道的&#x200B;**[!UICONTROL Lag (weeks)]**&#x200B;和&#x200B;**[!UICONTROL Lookback (weeks)]**&#x200B;的上限為13週。 此上限會在您定義值時強制執行。
 
 * 若要將所有色版Adstock重設為預設值：
 
-   * 選擇「**[!UICONTROL Reset to defaults]**」。
+  * 選擇「**[!UICONTROL Reset to defaults]**」。
 
 
 ## 設定選項
@@ -250,11 +259,11 @@ ht-degree: 8%
 
 * 選取&#x200B;**[!UICONTROL Finish]**&#x200B;以完成您的模型設定。
 
-   * 在&#x200B;**[!UICONTROL Create instance?]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL Ok]**&#x200B;以立即觸發第一組訓練和評分回合。 您的模型已列出，狀態為![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Awaiting training]**。
+  * 在&#x200B;**[!UICONTROL Create instance?]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL Ok]**&#x200B;以立即觸發第一組訓練和評分回合。 您的模型已列出，狀態為![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Awaiting training]**。
 
-     選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消。
+    選取&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消。
 
-   * 如果需要更多組態，紅色外框和文字會說明需要哪些額外組態。
+  * 如果需要更多組態，紅色外框和文字會說明需要哪些額外組態。
 
 * 選取&#x200B;**[!UICONTROL Back]**&#x200B;以返回上一步。
 
