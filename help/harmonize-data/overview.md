@@ -184,7 +184,7 @@ Mix Modeler中的因子功能使用協調的因子工作流程。 此工作流�
 
    1. 選取&#x200B;**[!UICONTROL Submit]**&#x200B;以提交您的欄設定變更。 選取&#x200B;**[!UICONTROL Close]**&#x200B;以取消您所做的任何變更。
 
-1. 如果有更多頁面可供使用，請使用&#x200B;_x _]**的**[!UICONTROL Page _x_&#x200B;上的![向左箭頭](/help/assets/icons/ChevronLeft.svg)或![向右箭頭](/help/assets/icons/ChevronRight.svg)在頁面之間移動。
+1. 如果有更多頁面可供使用，請使用&#x200B;_x _&#x200B;**的**&#x200B;Page _x_&#x200B;上的![向左箭頭](/help/assets/icons/ChevronLeft.svg)或![向右箭頭](/help/assets/icons/ChevronRight.svg)在頁面之間移動。
 
 1. 您可以選擇下載協調的資料。
 
